@@ -16,8 +16,11 @@
 ---
 
 Sono **Giancarlo**, programmatore curioso, autore di e-book di *narrativa assurda* e collezionista di esperimenti improbabili.  
+
+**Progetti open-source di algoritmi deterministici, assurdità logica e creatività computazionale**
+
 Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.  
-Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!
+_Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!_
 
 ---
 
