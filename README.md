@@ -63,4 +63,10 @@ Esperimenti tra statistica, geometria e creatività algoritmica
 
 ---
 
-<p align="center"><em>💖 Sponsor by “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
+<p align="center">
+  <a href="https://github.com/sponsors/gcomneno">
+    <img alt="Sponsor on GitHub" src="https://img.shields.io/badge/Sponsor%20on%20GitHub-💖-pink?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center"><em>💖 Supporta “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
