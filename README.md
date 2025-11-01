@@ -26,7 +26,7 @@ _Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!_
 
 ### 🧩 Progetti attivi
 
-#### 🌀 Turbo-Bucketizer
+#### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer">Turbo-Bucketizer</a>
 Partizionatore IPv4 deterministico ad alta entropia (versione pubblica in arrivo)
 
 <p align="center">
