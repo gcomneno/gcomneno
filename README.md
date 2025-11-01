@@ -33,26 +33,35 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ---
 
-## 🧩 Progetti attivi
+### 🧩 Progetti attivi
 
-### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer">Turbo-Bucketizer</a>
-Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). **Caos controllato**, velocissimo.
-
-<p align="center">
+#### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer">Turbo-Bucketizer</a>
+Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo.
+<p align="left">
   <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer?style=flat&label=Turbo%20Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/turbo-bucketizer">
     <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer?label=Last%20commit">
   </a>
+  <a href="https://github.com/gcomneno/turbo-bucketizer/actions/workflows/ci.yml">
+    <img alt="CI" src="https://github.com/gcomneno/turbo-bucketizer/actions/workflows/ci.yml/badge.svg">
+  </a>
 </p>
 
-### 🎯 GianKoLotto®
-Sistema anti-predittivo adattivo per il gioco del Lotto: vi ricorda che i vostri numeri non usciranno…
-almeno non a breve (statistica, superstizione e fattore K — **sperimentale**).
+#### 🎯 <a href="https://github.com/gcomneno/giancolotto-backtrace">GianKoLotto® (R&D) - 1. BackTrace Module</a>
+Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump JSON).  
+<p align="left">
+  <a href="https://github.com/gcomneno/giancolotto-backtrace/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/giancolotto-backtrace?label=Stars">
+  </a>
+  <a href="https://github.com/gcomneno/giancolotto-backtrace/actions/workflows/ci.yml">
+    <img alt="CI" src="https://github.com/gcomneno/giancolotto-backtrace/actions/workflows/ci.yml/badge.svg">
+  </a>
+</p>
 
-### 🧠 SWAG Toolkit
-Esperimenti tra statistica, geometria e creatività algoritmica (demo, notebook, appunti tecnici).
+#### 📒 <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
+Fondamenti di Machine Learning con `scikit-learn` (10 minuti cad.): classificazione, regressione e CV+metriche.
 
 ---
 
