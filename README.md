@@ -16,18 +16,27 @@
 ---
 
 Sono **Giancarlo**, programmatore curioso, autore di e-book di *narrativa assurda* e collezionista di esperimenti improbabili.  
-
-**Progetti open-source di algoritmi deterministici, assurdità logica e creatività computazionale**
-
+**Algoritmi deterministici, assurdità logica e creatività computazionale.**  
 Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.  
-_Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!_
+*Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!*
 
 ---
 
-### 🧩 Progetti attivi
+## 🧭 Hub rapido
+- 🔩 **Software (vetrina):**
+  - **Turbo-Bucketizer** → <a href="https://github.com/gcomneno/turbo-bucketizer">repo</a>
+  - **ML-Lab** → <a href="https://github.com/gcomneno/ML-Lab">repo</a>
+  - **GianKoLotto — Backtrace** → <a href="https://github.com/gcomneno/giancolotto-backtrace">repo</a>
+- 📚 **Libri (surreale/ironico-filosofico):** *link in arrivo*
+- 🎵 **Musica (Bandcamp):** *link in arrivo*
+- 💌 **Newsletter:** *coming soon* — niente spam, solo update asciutti.
 
-#### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer">Turbo-Bucketizer</a>
-Partizionatore IPv4 deterministico ad alta entropia (versione pubblica in arrivo)
+---
+
+## 🧩 Progetti attivi
+
+### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer">Turbo-Bucketizer</a>
+Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). **Caos controllato**, velocissimo.
 
 <p align="center">
   <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
@@ -38,33 +47,33 @@ Partizionatore IPv4 deterministico ad alta entropia (versione pubblica in arrivo
   </a>
 </p>
 
-#### 🎯 GianKoLotto®
-Sistema anti-predittivo adattivo per il gioco del Lotto: vi ricorda che i vostri numeri non usciranno…  
-almeno non a breve (un mix di statistica, superstizione e fattore K!)
+### 🎯 GianKoLotto®
+Sistema anti-predittivo adattivo per il gioco del Lotto: vi ricorda che i vostri numeri non usciranno…
+almeno non a breve (statistica, superstizione e fattore K — **sperimentale**).
 
-#### 🧠 SWAG Toolkit
-Esperimenti tra statistica, geometria e creatività algoritmica  
+### 🧠 SWAG Toolkit
+Esperimenti tra statistica, geometria e creatività algoritmica (demo, notebook, appunti tecnici).
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140">
+  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
+</p>
+
+---
+
+## 🔗 Link utili
+<p align="center">
+  <a href="https://www.giadaware.it">🌐 Giadaware.it</a> •
+  <a href="https://www.clubdellassurdo.it">🌀 Club dell’Assurdo</a> •
+  <a href="https://github.com/sponsors/gcomneno">💖 GitHub Sponsors</a>
 </p>
 
 ---
 
 ### 💬 Motto
 > “Se funziona ed è assurdo, allora è perfettamente logico.”
-
----
-
-<p align="center">
-  <a href="https://www.giadaware.it">🌐 Giadaware.it</a> •
-  <a href="https://www.clubdellassurdo.it">🌀 Club dell’Assurdo</a>
-</p>
-
----
 
 <p align="center">
   <a href="https://github.com/sponsors/gcomneno">
