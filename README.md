@@ -1,16 +1,20 @@
-## Hi there 👋
+### 👋 Benvenuto nel laboratorio semi-serio di un folle lucido — **Giadaware**
 
-<!--
-**gcomneno/gcomneno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Sono **Giancarlo**, programmatore curioso, autore di e-book di "narrativa assurda" e collezionista di "esperimenti improbabili".
+Qui convivono logica e follia, matematica, fisica ed ironia, codice e narrativa.
+Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!
 
-Here are some ideas to get you started:
+#### 🧩 Progetti attivi
+- 🌀 **Turbo-Bucketizer** — partizionatore IPv4 deterministico ad alta entropia (versione pubblica in arrivo)  
+- 🎯 **GianKoLotto®** — sistema anti-predittivo adattivo per gioco del Lotto, vi ricorda che i vostri numeri non usciranno.. almeno non a breve (un mix di statistica, superstizione e fattore K!)
+- 🧠 **SWAG Toolkit** — esperimenti tra statistica, geometria e creatività algoritmica  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+#### 💬 Motto
+> “Se funziona ed è assurdo, allora è perfettamente logico.”
+
+---
+
+[🌐 Giadaware.it](https://www.giadaware.it) • [🌀 Club dell’Assurdo](https://www.clubdellassurdo.it)  
+[💖 Sponsor la scimmia](https://github.com/sponsors/gcomneno)
