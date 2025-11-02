@@ -15,20 +15,19 @@
 
 ---
 
-Sono **Giancarlo**, programmatore curioso, autore di e-book di *narrativa assurda* e collezionista di esperimenti improbabili.  
-**Algoritmi deterministici, assurdità logica e creatività computazionale.**  
+Sono **Giancarlo**, programmatore curioso, autore di e-book di *narrativa assurda* e collezionista di esperimenti software improbabili.  
+
+**Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!**  
 Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.  
+
 *Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!*
 
 ---
 
 ## 🧭 Hub rapido
-- 🔩 **Software (vetrina):**
-  - **Turbo-Bucketizer** → <a href="https://github.com/gcomneno/turbo-bucketizer">repo</a>
-  - **GianKoLotto (R&D) — Backtrace Module** → <a href="https://github.com/gcomneno/giancolotto-backtrace">repo</a>
+- 🔩 **Software:**
 - 📚 **Libri (surreale/ironico-filosofico):** *link in arrivo*
-- 🎵 **Musica (Bandcamp):** *link in arrivo*
-- 💌 **Newsletter:** *coming soon* — niente spam, solo update asciutti.
+- 🎵 **Musica (Bandcamp):** [*The Only Fly*](https://theonlyfly.bandcamp.com/)
 
 ---
 
@@ -61,24 +60,15 @@ Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
-</p>
-
----
-
 ## 🔗 Link utili
-<p align="center">
-  <a href="https://www.giadaware.it">🌐 Giadaware.it</a> •
-  <a href="https://www.clubdellassurdo.it">🌀 Club dell’Assurdo</a> •
-  <a href="https://github.com/sponsors/gcomneno">💖 GitHub Sponsors</a>
+<p align="left">
+  <a href="https://www.giadaware.it">giadaware.it</a> •
 </p>
 
 ---
 
 ### 💬 Motto
-> “Se funziona ed è assurdo, allora è perfettamente logico.”
+> “Se funziona ed è assurdo, allora è perfettamente logico!”
 
 <p align="center">
   <a href="https://github.com/sponsors/gcomneno">
@@ -87,3 +77,10 @@ Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump
 </p>
 
 <p align="center"><em>💖 Supporta “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
+
+---
+</br>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
+</p>
