@@ -25,8 +25,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ## 🧭 Hub rapido
 - 🔩 **Software (vetrina):**
   - **Turbo-Bucketizer** → <a href="https://github.com/gcomneno/turbo-bucketizer">repo</a>
-  - **ML-Lab** → <a href="https://github.com/gcomneno/ML-Lab">repo</a>
-  - **GianKoLotto — Backtrace** → <a href="https://github.com/gcomneno/giancolotto-backtrace">repo</a>
+  - **GianKoLotto (R&D) — Backtrace Module** → <a href="https://github.com/gcomneno/giancolotto-backtrace">repo</a>
 - 📚 **Libri (surreale/ironico-filosofico):** *link in arrivo*
 - 🎵 **Musica (Bandcamp):** *link in arrivo*
 - 💌 **Newsletter:** *coming soon* — niente spam, solo update asciutti.
@@ -59,9 +58,6 @@ Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump
     <img alt="CI" src="https://github.com/gcomneno/giancolotto-backtrace/actions/workflows/ci.yml/badge.svg">
   </a>
 </p>
-
-#### 📒 <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
-Fondamenti di Machine Learning con `scikit-learn` (10 minuti cad.): classificazione, regressione e CV+metriche.
 
 ---
 
