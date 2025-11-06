@@ -58,11 +58,27 @@ Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump
   </a>
 </p>
 
+#### 🧮 <a href="https://github.com/gcomneno/split-lift">Split-Lift</a> Periodometro
+**Full-Split + Linear-Lift:** se "m" è fatto solo di “primi buoni”, **il periodo lo calcoli a tavolino** (zero brute-force).
+<p align="left">
+  <a href="https://github.com/gcomneno/split-lift/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/split-lift?label=Stars">
+  </a>
+  <a href="https://github.com/gcomneno/split-lift">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/split-lift?label=Last%20commit">
+  </a>
+  <a href="https://github.com/gcomneno/split-lift/actions/workflows/ci.yml">
+    <img alt="CI" src="https://github.com/gcomneno/split-lift/actions/workflows/ci.yml/badge.svg">
+  </a>
+  <a href="https://github.com/gcomneno/split-lift/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow">
+  </a>
+</p>
 ---
 
 ## 🔗 Link utili
 <p align="left">
-  <a href="https://www.giadaware.it">giadaware.it</a> •
+  • <a href="https://www.giadaware.it">giadaware.it</a> •
 </p>
 
 ---
