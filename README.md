@@ -25,7 +25,12 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 **Software:** qui sotto i progetti attivi
+  - 🧠 **Math Lab:** [Math-Lab](coming soon..)
+	- 🛡️ **Cyber-Security Lab:** [cyse-lab](https://github.com/gcomneno/cyse-lab)
+	- 🧠 **Machine Learning Lab:** [ML-Lab](https://github.com/gcomneno/ML-Lab)
+
 - 📚 **Libri (surreale/ironico-filosofico):** *link in arrivo*
+
 - 🎵 **Musica (Bandcamp):** [*The Only Fly*](https://theonlyfly.bandcamp.com/)
 
 ---
@@ -80,6 +85,40 @@ Analizzatore statistico/strutturale per sequenze numeriche: **chi-square**, **ru
   </a>
   <a href="https://github.com/gcomneno/split-lift/blob/main/LICENSE">
     <img alt="License" src="https://badgen.net/github/license/gcomneno/split-lift?label=License">
+  </a>
+</p>
+
+### 🔐 <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a> — Cyber-Security Lab (didattico, CLI-first)
+Recon, enumerazione e hardening **white-hat**: lab ripetibili, script essenziali, template report “Lesson Learned”.
+<p align="left">
+  <a href="https://github.com/gcomneno/cyse-lab/stargazers">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/cyse-lab?label=Stars">
+  </a>
+  <a href="https://github.com/gcomneno/cyse-lab">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/cyse-lab?label=Last%20commit">
+  </a>
+  <a href="https://github.com/gcomneno/cyse-lab/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/cyse-lab?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/cyse-lab/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/cyse-lab?label=License">
+  </a>
+</p>
+
+### 🤖 <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a> — Machine Learning Laboratory
+Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset helpers, utility CLI).
+<p align="left">
+  <a href="https://github.com/gcomneno/ML-Lab/stargazers">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/ML-Lab?label=Stars">
+  </a>
+  <a href="https://github.com/gcomneno/ML-Lab">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/ML-Lab?label=Last%20commit">
+  </a>
+  <a href="https://github.com/gcomneno/ML-Lab/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/ML-Lab?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/ML-Lab/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/ML-Lab?label=License">
   </a>
 </p>
 
