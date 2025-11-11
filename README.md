@@ -36,13 +36,16 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo.
 <p align="left">
   <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer?label=Stars">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/turbo-bucketizer?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/turbo-bucketizer">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer?label=Last%20commit">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/turbo-bucketizer?label=Last%20commit">
   </a>
-  <a href="https://github.com/gcomneno/turbo-bucketizer/actions/workflows/ci.yml">
-    <img alt="CI" src="https://github.com/gcomneno/turbo-bucketizer/actions/workflows/ci.yml/badge.svg">
+  <a href="https://github.com/gcomneno/turbo-bucketizer/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/turbo-bucketizer?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/turbo-bucketizer/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/turbo-bucketizer?label=License">
   </a>
 </p>
 
@@ -51,13 +54,16 @@ Analizzatore statistico/strutturale per sequenze numeriche: **chi-square**, **ru
 Perfetto per cifre di π/e e per stream di interi (es. bucket).
 <p align="left">
   <a href="https://github.com/gcomneno/digit-probe/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/digit-probe?label=Stars">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/digit-probe?label=Stars">
   </a>
-  <a href="https://github.com/gcomneno/digit-probe/releases">
-    <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/digit-probe?display_name=tag&sort=semver">
+  <a href="https://github.com/gcomneno/digit-probe">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/digit-probe?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/digit-probe/actions">
-    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/digit-probe/ci.yml?label=CI">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/digit-probe?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/digit-probe/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/digit-probe?label=License">
   </a>
 </p>
 
@@ -65,16 +71,16 @@ Perfetto per cifre di π/e e per stream di interi (es. bucket).
 **Full-Split + Linear-Lift:** se *m* è fatto solo di “primi buoni”, **il periodo lo calcoli a tavolino** (zero brute-force).
 <p align="left">
   <a href="https://github.com/gcomneno/split-lift/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/split-lift?label=Stars">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/split-lift?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/split-lift">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/split-lift?label=Last%20commit">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/split-lift?label=Last%20commit">
   </a>
-  <a href="https://github.com/gcomneno/split-lift/actions/workflows/ci.yml">
-    <img alt="CI" src="https://github.com/gcomneno/split-lift/actions/workflows/ci.yml/badge.svg">
+  <a href="https://github.com/gcomneno/split-lift/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/split-lift?label=CI">
   </a>
   <a href="https://github.com/gcomneno/split-lift/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/split-lift?label=License">
   </a>
 </p>
 
@@ -82,10 +88,16 @@ Perfetto per cifre di π/e e per stream di interi (es. bucket).
 Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump JSON).
 <p align="left">
   <a href="https://github.com/gcomneno/giancolotto-backtrace/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/giancolotto-backtrace?label=Stars">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/giancolotto-backtrace?label=Stars">
   </a>
-  <a href="https://github.com/gcomneno/giancolotto-backtrace/actions/workflows/ci.yml">
-    <img alt="CI" src="https://github.com/gcomneno/giancolotto-backtrace/actions/workflows/ci.yml/badge.svg">
+  <a href="https://github.com/gcomneno/giancolotto-backtrace">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/giancolotto-backtrace?label=Last%20commit">
+  </a>
+  <a href="https://github.com/gcomneno/giancolotto-backtrace/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/giancolotto-backtrace?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/giancolotto-backtrace/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/giancolotto-backtrace?label=License">
   </a>
 </p>
 
