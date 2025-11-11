@@ -122,6 +122,24 @@ Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset help
   </a>
 </p>
 
+#### 🧮 <a href="https://github.com/gcomneno/kaprekar-dbkm">Kaprekar-DBKM — PLK (Phase-Locked Kaprekar)</a>
+Mappe Kaprekar a doppia base (**DBKM**, Dual-Base Kaprekar Maps) con controllo di fase adattivo (**PLK**, Phase-Locked Kaprekar).  
+CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moiré, completa di *mini-paper* e *appendice teorica*.
+<p align="left">
+  <a href="https://github.com/gcomneno/kaprekar-dbkm/stargazers">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/kaprekar-dbkm?label=Stars">
+  </a>
+  <a href="https://github.com/gcomneno/kaprekar-dbkm">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/kaprekar-dbkm?label=Last%20commit">
+  </a>
+  <a href="https://github.com/gcomneno/kaprekar-dbkm/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/kaprekar-dbkm?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/kaprekar-dbkm/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/kaprekar-dbkm?label=License">
+  </a>
+</p>
+
 #### 🎯 <a href="https://github.com/gcomneno/giancolotto-backtrace">GianKoLotto® (R&D) — BackTrace</a>
 Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump JSON).
 <p align="left">
