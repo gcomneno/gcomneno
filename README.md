@@ -25,7 +25,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 **Software:** qui sotto i progetti attivi
-  - 🧠 **Math Lab:** [Math-Lab](coming soon..)
+	- 🧠 **Math Lab:** [Math-Lab](coming soon..)
 	- 🛡️ **Cyber-Security Lab:** [cyse-lab](https://github.com/gcomneno/cyse-lab)
 	- 🧠 **Machine Learning Lab:** [ML-Lab](https://github.com/gcomneno/ML-Lab)
 
