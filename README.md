@@ -50,8 +50,7 @@ Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³�
 </p>
 
 #### 🔬 <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> — v1.0.0
-Analizzatore statistico/strutturale per sequenze numeriche: **chi-square**, **runs test**, **gaps**, **autocorrelazione**, **compressione (zlib)**, **n-gram**, e **SchurProbe** per schemi additivi.  
-Perfetto per cifre di π/e e per stream di interi (es. bucket).
+Analizzatore statistico/strutturale per sequenze numeriche: **chi-square**, **runs test**, **gaps**, **autocorrelazione**, **compressione (zlib)**, **n-gram**, e **SchurProbe** per schemi additivi. Perfetto per cifre di π/e ed anche per stream di interi (es. bucket) per integrazione con il Turbo-Bucketizer.
 <p align="left">
   <a href="https://github.com/gcomneno/digit-probe/stargazers">
     <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/digit-probe?label=Stars">
