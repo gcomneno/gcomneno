@@ -24,11 +24,16 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ---
 
 ## 🧭 Hub rapido
-- 🔩 **Software:** qui sotto i progetti attivi
-	- 🧠 **Math Lab:** [Math-Lab](coming soon..)
-	- 🛡️ **Cyber-Security Lab:** [cyse-lab](https://github.com/gcomneno/cyse-lab)
-	- 🧠 **Machine Learning Lab:** [ML-Lab](https://github.com/gcomneno/ML-Lab)
-
+- 🔩 **Software — progetti attivi su GitHub**
+  - 🌀 **Turbo-Bucketizer:** [turbo-bucketizer](https://github.com/gcomneno/turbo-bucketizer)
+  - 📊 **Digit-Probe:** [digit-probe](https://github.com/gcomneno/digit-probe)
+  - 🔁 **Split-Lift (FSLL):** [split-lift](https://github.com/gcomneno/split-lift)
+  - 🧮 **Kaprekar-DBKM / PLK:** [kaprekar-dbkm](https://github.com/gcomneno/kaprekar-dbkm)
+  - 🛡️ **Cyber-Security Lab:** [cyse-lab](https://github.com/gcomneno/cyse-lab)
+  - 🤖 **Machine Learning Lab:** [ML-Lab](https://github.com/gcomneno/ML-Lab)
+  - 🎯 **GianKoLotto® — BackTrace:** [giancolotto-backtrace](https://github.com/gcomneno/giancolotto-backtrace)
+  - 🌌 **Quantum-Residue Telescope:** [qres-telescope](https://github.com/gcomneno/qres-telescope)
+  
 - 📚 **Libri (surreale/ironico-filosofico):** *link in arrivo*
 
 - 🎵 **Musica (Bandcamp):** [*The Only Fly*](https://theonlyfly.bandcamp.com/)
@@ -88,6 +93,24 @@ Analizzatore statistico/strutturale per sequenze numeriche: **chi-square**, **ru
   </a>
 </p>
 
+#### 🧮 <a href="https://github.com/gcomneno/kaprekar-dbkm">Kaprekar-DBKM — PLK (Phase-Locked Kaprekar)</a>
+Mappe Kaprekar a doppia base (**DBKM**, Dual-Base Kaprekar Maps) con controllo di fase adattivo (**PLK**, Phase-Locked Kaprekar).  
+CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moiré, completa di *mini-paper* e *appendice teorica*.
+<p align="left">
+  <a href="https://github.com/gcomneno/kaprekar-dbkm/stargazers">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/kaprekar-dbkm?label=Stars">
+  </a>
+  <a href="https://github.com/gcomneno/kaprekar-dbkm">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/kaprekar-dbkm?label=Last%20commit">
+  </a>
+  <a href="https://github.com/gcomneno/kaprekar-dbkm/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/kaprekar-dbkm?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/kaprekar-dbkm/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/kaprekar-dbkm?label=License">
+  </a>
+</p>
+
 ### 🔐 <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a> — Cyber-Security Lab (didattico, CLI-first)
 Recon, enumerazione e hardening **white-hat**: lab ripetibili, script essenziali, template report “Lesson Learned”.
 <p align="left">
@@ -122,24 +145,6 @@ Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset help
   </a>
 </p>
 
-#### 🧮 <a href="https://github.com/gcomneno/kaprekar-dbkm">Kaprekar-DBKM — PLK (Phase-Locked Kaprekar)</a>
-Mappe Kaprekar a doppia base (**DBKM**, Dual-Base Kaprekar Maps) con controllo di fase adattivo (**PLK**, Phase-Locked Kaprekar).  
-CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moiré, completa di *mini-paper* e *appendice teorica*.
-<p align="left">
-  <a href="https://github.com/gcomneno/kaprekar-dbkm/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/kaprekar-dbkm?label=Stars">
-  </a>
-  <a href="https://github.com/gcomneno/kaprekar-dbkm">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/kaprekar-dbkm?label=Last%20commit">
-  </a>
-  <a href="https://github.com/gcomneno/kaprekar-dbkm/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/kaprekar-dbkm?label=CI">
-  </a>
-  <a href="https://github.com/gcomneno/kaprekar-dbkm/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/kaprekar-dbkm?label=License">
-  </a>
-</p>
-
 #### 🎯 <a href="https://github.com/gcomneno/giancolotto-backtrace">GianKoLotto® (R&D) — BackTrace</a>
 Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump JSON).
 <p align="left">
@@ -154,6 +159,23 @@ Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump
   </a>
   <a href="https://github.com/gcomneno/giancolotto-backtrace/blob/main/LICENSE">
     <img alt="License" src="https://badgen.net/github/license/gcomneno/giancolotto-backtrace?label=License">
+  </a>
+</p>
+
+#### 🎯 <a href="https://github.com/gcomneno/qres-telescope">Quantum-Residue Telescope — QRES-Telescope</a>
+Scanner di residui modulari: spettro, cluster e “fantasmi” numerici per pattern a lungo raggio.
+<p align="left">
+  <a href="https://github.com/gcomneno/qres-telescope/stargazers">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/qres-telescope?label=Stars">
+  </a>
+  <a href="https://github.com/gcomneno/qres-telescope">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/qres-telescope?label=Last%20commit">
+  </a>
+  <a href="https://github.com/gcomneno/qres-telescope/actions">
+    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/qres-telescope?label=CI">
+  </a>
+  <a href="https://github.com/gcomneno/qres-telescope/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/qres-telescope?label=License">
   </a>
 </p>
 
