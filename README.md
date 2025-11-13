@@ -15,28 +15,28 @@
 
 ---
 
-Sono **Giancarlo**, programmatore curioso, autore di e-book di *narrativa assurda* e collezionista di esperimenti software improbabili.  
-**Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!**  
+Sono <strong>Giancarlo</strong>, programmatore curioso, autore di e-book di <em>narrativa assurda</em> e collezionista di esperimenti software improbabili.<br>
+<strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
 Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
-*Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!*
+<em>Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!</em>
 
 ---
 
 ## 🧭 Hub rapido
-- 🔩 **Software — progetti attivi su GitHub**
-  - 🌀 **Turbo-Bucketizer:** [turbo-bucketizer](https://github.com/gcomneno/turbo-bucketizer)
-  - 📊 **Digit-Probe:** [digit-probe](https://github.com/gcomneno/digit-probe)
-  - 🔁 **Split-Lift (FSLL):** [split-lift](https://github.com/gcomneno/split-lift)
-  - 🧮 **Kaprekar-DBKM / PLK:** [kaprekar-dbkm](https://github.com/gcomneno/kaprekar-dbkm)
-  - 🛡️ **Cyber-Security Lab:** [cyse-lab](https://github.com/gcomneno/cyse-lab)
-  - 🤖 **Machine Learning Lab:** [ML-Lab](https://github.com/gcomneno/ML-Lab)
-  - 🎯 **GianKoLotto® — BackTrace:** [giancolotto-backtrace](https://github.com/gcomneno/giancolotto-backtrace)
-  - 🌌 **Quantum-Residue Telescope:** [qres-telescope](https://github.com/gcomneno/qres-telescope)
+- 🔩 <strong>Software — progetti attivi su GitHub</strong>
+  - 🌀 <strong>Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer">turbo-bucketizer</a>
+  - 📊 <strong>Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
+  - 🔁 <strong>Split-Lift (FSLL):</strong> <a href="https://github.com/gcomneno/split-lift">split-lift</a>
+  - 🧮 <strong>Kaprekar-DBKM / PLK:</strong> <a href="https://github.com/gcomneno/kaprekar-dbkm">kaprekar-dbkm</a>
+  - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
+  - 🤖 <strong>Machine Learning Lab:</strong> <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
+  - 🎯 <strong>GianKoLotto® — BackTrace:</strong> <a href="https://github.com/gcomneno/giancolotto-backtrace">giancolotto-backtrace</a>
+  - 🌌 <strong>Quantum-Residue Telescope:</strong> <a href="https://github.com/gcomneno/qres-telescope">qres-telescope</a>
   
-- 📚 **Libri (surreale/ironico-filosofico):** *link in arrivo*
+- 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
 
-- 🎵 **Musica (Bandcamp):** [*The Only Fly*](https://theonlyfly.bandcamp.com/)
+- 🎵 <strong>Musica (Bandcamp):</strong> <a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
 
 ---
 
@@ -46,85 +46,85 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo.
 <p align="left">
   <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/turbo-bucketizer?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/turbo-bucketizer">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/turbo-bucketizer?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/turbo-bucketizer/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/turbo-bucketizer?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/turbo-bucketizer/main?label=CI">
   </a>
   <a href="https://github.com/gcomneno/turbo-bucketizer/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/turbo-bucketizer?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer?label=License">
   </a>
 </p>
 
 #### 🔬 <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> — v1.0.0
-Analizzatore statistico/strutturale per sequenze numeriche: **chi-square**, **runs test**, **gaps**, **autocorrelazione**, **compressione (zlib)**, **n-gram**, e **SchurProbe** per schemi additivi. Perfetto per cifre di π/e ed anche per stream di interi (es. bucket) per integrazione con il Turbo-Bucketizer.
+Analizzatore statistico/strutturale per sequenze numeriche: <strong>chi-square</strong>, <strong>runs test</strong>, <strong>gaps</strong>, <strong>autocorrelazione</strong>, <strong>compressione (zlib)</strong>, <strong>n-gram</strong>, e <strong>SchurProbe</strong> per schemi additivi. Perfetto per cifre di π/e ed anche per stream di interi (es. bucket) per integrazione con il Turbo-Bucketizer.
 <p align="left">
   <a href="https://github.com/gcomneno/digit-probe/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/digit-probe?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/digit-probe?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/digit-probe">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/digit-probe?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/digit-probe?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/digit-probe/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/digit-probe?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/digit-probe/main?label=CI">
   </a>
   <a href="https://github.com/gcomneno/digit-probe/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/digit-probe?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/digit-probe?label=License">
   </a>
 </p>
 
 #### 🧮 <a href="https://github.com/gcomneno/split-lift">Split-Lift</a> — Periodometro
-**Full-Split + Linear-Lift:** se *m* è fatto solo di “primi buoni”, **il periodo lo calcoli a tavolino** (zero brute-force).
+<strong>Full-Split + Linear-Lift:</strong> se <em>m</em> è fatto solo di “primi buoni”, <strong>il periodo lo calcoli a tavolino</strong> (zero brute-force).
 <p align="left">
   <a href="https://github.com/gcomneno/split-lift/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/split-lift?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/split-lift?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/split-lift">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/split-lift?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/split-lift?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/split-lift/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/split-lift?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/split-lift/main?label=CI">
   </a>
   <a href="https://github.com/gcomneno/split-lift/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/split-lift?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/split-lift?label=License">
   </a>
 </p>
 
 #### 🧮 <a href="https://github.com/gcomneno/kaprekar-dbkm">Kaprekar-DBKM — PLK (Phase-Locked Kaprekar)</a>
-Mappe Kaprekar a doppia base (**DBKM**, Dual-Base Kaprekar Maps) con controllo di fase adattivo (**PLK**, Phase-Locked Kaprekar).  
-CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moiré, completa di *mini-paper* e *appendice teorica*.
+Mappe Kaprekar a doppia base (<strong>DBKM</strong>, Dual-Base Kaprekar Maps) con controllo di fase adattivo (<strong>PLK</strong>, Phase-Locked Kaprekar).<br>
+CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moiré, completa di <em>mini-paper</em> e <em>appendice teorica</em>.
 <p align="left">
   <a href="https://github.com/gcomneno/kaprekar-dbkm/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/kaprekar-dbkm?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/kaprekar-dbkm?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/kaprekar-dbkm">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/kaprekar-dbkm?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/kaprekar-dbkm?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/kaprekar-dbkm/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/kaprekar-dbkm?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/kaprekar-dbkm/main?label=CI">
   </a>
   <a href="https://github.com/gcomneno/kaprekar-dbkm/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/kaprekar-dbkm?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/kaprekar-dbkm?label=License">
   </a>
 </p>
 
 ### 🔐 <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a> — Cyber-Security Lab (didattico, CLI-first)
-Recon, enumerazione e hardening **white-hat**: lab ripetibili, script essenziali, template report “Lesson Learned”.
+Recon, enumerazione e hardening <strong>white-hat</strong>: lab ripetibili, script essenziali, template report “Lesson Learned”.
 <p align="left">
   <a href="https://github.com/gcomneno/cyse-lab/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/cyse-lab?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/cyse-lab?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/cyse-lab">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/cyse-lab?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/cyse-lab?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/cyse-lab/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/cyse-lab?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/cyse-lab/main?label=CI">
   </a>
   <a href="https://github.com/gcomneno/cyse-lab/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/cyse-lab?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/cyse-lab?label=License">
   </a>
 </p>
 
@@ -132,16 +132,16 @@ Recon, enumerazione e hardening **white-hat**: lab ripetibili, script essenziali
 Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset helpers, utility CLI).
 <p align="left">
   <a href="https://github.com/gcomneno/ML-Lab/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/ML-Lab?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/ML-Lab?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/ML-Lab">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/ML-Lab?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/ML-Lab?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/ML-Lab/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/ML-Lab?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/ML-Lab/main?label=CI">
   </a>
   <a href="https://github.com/gcomneno/ML-Lab/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/ML-Lab?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/ML-Lab?label=License">
   </a>
 </p>
 
@@ -149,16 +149,16 @@ Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset help
 Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump JSON).
 <p align="left">
   <a href="https://github.com/gcomneno/giancolotto-backtrace/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/giancolotto-backtrace?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/giancolotto-backtrace?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/giancolotto-backtrace">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/giancolotto-backtrace?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/giancolotto-backtrace?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/giancolotto-backtrace/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/giancolotto-backtrace?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/giancolotto-backtrace/main?label=CI">
   </a>
   <a href="https://github.com/gcomneno/giancolotto-backtrace/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/giancolotto-backtrace?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/giancolotto-backtrace?label=License">
   </a>
 </p>
 
@@ -166,16 +166,16 @@ Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump
 Scanner di residui modulari: spettro, cluster e “fantasmi” numerici per pattern a lungo raggio.
 <p align="left">
   <a href="https://github.com/gcomneno/qres-telescope/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/qres-telescope?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/qres-telescope?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/qres-telescope">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/qres-telescope?label=Last%20commit">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/qres-telescope?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/qres-telescope/actions">
-    <img alt="CI" src="https://badgen.net/github/checks/gcomneno/qres-telescope?label=CI">
+    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/qres-telescope/ci.yml?branch=main&label=CI">
   </a>
   <a href="https://github.com/gcomneno/qres-telescope/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/qres-telescope?label=License">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/qres-telescope?label=License">
   </a>
 </p>
 
@@ -192,7 +192,7 @@ Scanner di residui modulari: spettro, cluster e “fantasmi” numerici per patt
 
 <p align="center"><em>💖 Supporta “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
 
-</br>
+<br>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
