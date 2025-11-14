@@ -46,16 +46,14 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo.
 <p align="left">
   <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/turbo-bucketizer">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer?label=Last%20commit">
+  <a href="https://github.com/gcomneno/turbo-bucketizer/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/turbo-bucketizer/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/turbo-bucketizer/main?label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/turbo-bucketizer/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
@@ -63,51 +61,45 @@ Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³�
 Analizzatore statistico/strutturale per sequenze numeriche: <strong>chi-square</strong>, <strong>runs test</strong>, <strong>gaps</strong>, <strong>autocorrelazione</strong>, <strong>compressione (zlib)</strong>, <strong>n-gram</strong>, e <strong>SchurProbe</strong> per schemi additivi. Perfetto per cifre di π/e ed anche per stream di interi (es. bucket) per integrazione con il Turbo-Bucketizer.
 <p align="left">
   <a href="https://github.com/gcomneno/digit-probe/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/digit-probe?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/digit-probe?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/digit-probe">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/digit-probe?label=Last%20commit">
+  <a href="https://github.com/gcomneno/digit-probe/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/digit-probe?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/digit-probe/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/digit-probe/main?label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/digit-probe/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/digit-probe?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
-#### 🧮 <a href="https://github.com/gcomneno/split-lift">Split-Lift</a> — Periodometro
+#### 🧮 <a href="https://github.com/gcomneno/split-lift">Split-Lift</a> — Periodometro FSLL
 <strong>Full-Split + Linear-Lift:</strong> se <em>m</em> è fatto solo di “primi buoni”, <strong>il periodo lo calcoli a tavolino</strong> (zero brute-force).
 <p align="left">
   <a href="https://github.com/gcomneno/split-lift/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/split-lift?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/split-lift?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/split-lift">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/split-lift?label=Last%20commit">
+  <a href="https://github.com/gcomneno/split-lift/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/split-lift?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/split-lift/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/split-lift/main?label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/split-lift/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/split-lift?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
-#### 🧮 <a href="https://github.com/gcomneno/kaprekar-dbkm">Kaprekar-DBKM — PLK (Phase-Locked Kaprekar)</a>
+#### 🧮 <a href="https://github.com/gcomneno/kaprekar-dbkm">Kaprekar-DBKM — con Phase-Locked</a>
 Mappe Kaprekar a doppia base (<strong>DBKM</strong>, Dual-Base Kaprekar Maps) con controllo di fase adattivo (<strong>PLK</strong>, Phase-Locked Kaprekar).<br>
 CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moiré, completa di <em>mini-paper</em> e <em>appendice teorica</em>.
 <p align="left">
   <a href="https://github.com/gcomneno/kaprekar-dbkm/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/kaprekar-dbkm?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/kaprekar-dbkm?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/kaprekar-dbkm">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/kaprekar-dbkm?label=Last%20commit">
+  <a href="https://github.com/gcomneno/kaprekar-dbkm/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/kaprekar-dbkm?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/kaprekar-dbkm/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/kaprekar-dbkm/main?label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/kaprekar-dbkm/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/kaprekar-dbkm?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
@@ -115,16 +107,14 @@ CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moir�
 Recon, enumerazione e hardening <strong>white-hat</strong>: lab ripetibili, script essenziali, template report “Lesson Learned”.
 <p align="left">
   <a href="https://github.com/gcomneno/cyse-lab/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/cyse-lab?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/cyse-lab?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/cyse-lab">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/cyse-lab?label=Last%20commit">
+  <a href="https://github.com/gcomneno/cyse-lab/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/cyse-lab?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/cyse-lab/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/cyse-lab/main?label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/cyse-lab/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/cyse-lab?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
@@ -132,16 +122,14 @@ Recon, enumerazione e hardening <strong>white-hat</strong>: lab ripetibili, scri
 Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset helpers, utility CLI).
 <p align="left">
   <a href="https://github.com/gcomneno/ML-Lab/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/ML-Lab?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/ML-Lab?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/ML-Lab">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/ML-Lab?label=Last%20commit">
+  <a href="https://github.com/gcomneno/ML-Lab/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/ML-Lab?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/ML-Lab/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/ML-Lab/main?label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/ML-Lab/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/ML-Lab?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
@@ -149,16 +137,14 @@ Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset help
 Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e design abbastanza lucido da essere sospetto.
 <p align="left">
   <a href="https://github.com/gcomneno/giankolotto-smart-combos/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/giankolotto-smart-combos?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/giankolotto-smart-combos?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/giankolotto-smart-combos">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/giankolotto-smart-combos?label=Last%20commit">
+  <a href="https://github.com/gcomneno/giankolotto-smart-combos/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/giankolotto-smart-combos?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/giankolotto-smart-combos/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/giankolotto-smart-combos/main?label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/giankolotto-smart-combos/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/giankolotto-smart-combos?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
@@ -166,16 +152,14 @@ Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e d
 Scanner di residui modulari: spettro, cluster e “fantasmi” numerici per pattern a lungo raggio.
 <p align="left">
   <a href="https://github.com/gcomneno/qres-telescope/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/qres-telescope?label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/qres-telescope?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/qres-telescope">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/qres-telescope?label=Last%20commit">
+  <a href="https://github.com/gcomneno/qres-telescope/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/qres-telescope?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/qres-telescope/actions">
-    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/qres-telescope/ci.yml?branch=main&label=CI">
-  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/qres-telescope/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/qres-telescope?label=License">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
