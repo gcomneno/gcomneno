@@ -145,20 +145,20 @@ Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset help
   </a>
 </p>
 
-#### 🎲 Giankolotto Smart-Combos — <strong>Giadaware™ Edition</strong></h1>
+#### 🎲 <a href="https://github.com/gcomneno/giankolotto-smart-combos">Giankolotto Smart-Combos</a> — <strong>Giadaware™ Edition</strong>
 Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e design abbastanza lucido da essere sospetto.
-<p align="center">
+<p align="left">
   <a href="https://github.com/gcomneno/giankolotto-smart-combos/stargazers">
-    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/giankolotto-smart-combos?icon=star&label=Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/giankolotto-smart-combos?label=Stars">
   </a>
   <a href="https://github.com/gcomneno/giankolotto-smart-combos">
-    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/giankolotto-smart-combos?icon=github">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/giankolotto-smart-combos?label=Last%20commit">
   </a>
   <a href="https://github.com/gcomneno/giankolotto-smart-combos/actions">
-    <img alt="CI" src="https://badgen.net/badge/CI/ready/green?icon=github">
+    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/giankolotto-smart-combos/main?label=CI">
   </a>
-  <a href="./LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/gcomneno/giankolotto-smart-combos?icon=github">
+  <a href="https://github.com/gcomneno/giankolotto-smart-combos/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/giankolotto-smart-combos?label=License">
   </a>
 </p>
 
