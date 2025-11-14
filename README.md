@@ -31,7 +31,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🧮 <strong>Kaprekar-DBKM / PLK:</strong> <a href="https://github.com/gcomneno/kaprekar-dbkm">kaprekar-dbkm</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 🤖 <strong>Machine Learning Lab:</strong> <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
-  - 🎯 <strong>GianKoLotto® — BackTrace:</strong> <a href="https://github.com/gcomneno/giancolotto-backtrace">giancolotto-backtrace</a>
+  - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
   - 🌌 <strong>Quantum-Residue Telescope:</strong> <a href="https://github.com/gcomneno/qres-telescope">qres-telescope</a>
   
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
@@ -145,20 +145,20 @@ Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset help
   </a>
 </p>
 
-#### 🎯 <a href="https://github.com/gcomneno/giancolotto-backtrace">GianKoLotto® (R&D) — BackTrace</a>
-Generatore di combinazioni con vincoli configurabili (CLI robusta, TSV/CSV, dump JSON).
-<p align="left">
-  <a href="https://github.com/gcomneno/giancolotto-backtrace/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/giancolotto-backtrace?label=Stars">
+#### 🎲 Giankolotto Smart-Combos — <strong>Giadaware™ Edition</strong></h1>
+Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e design abbastanza lucido da essere sospetto.
+<p align="center">
+  <a href="https://github.com/gcomneno/giankolotto-smart-combos/stargazers">
+    <img alt="Stars" src="https://badgen.net/github/stars/gcomneno/giankolotto-smart-combos?icon=star&label=Stars">
   </a>
-  <a href="https://github.com/gcomneno/giancolotto-backtrace">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/gcomneno/giancolotto-backtrace?label=Last%20commit">
+  <a href="https://github.com/gcomneno/giankolotto-smart-combos">
+    <img alt="Last Commit" src="https://badgen.net/github/last-commit/gcomneno/giankolotto-smart-combos?icon=github">
   </a>
-  <a href="https://github.com/gcomneno/giancolotto-backtrace/actions">
-    <img alt="CI" src="https://img.shields.io/github/checks-status/gcomneno/giancolotto-backtrace/main?label=CI">
+  <a href="https://github.com/gcomneno/giankolotto-smart-combos/actions">
+    <img alt="CI" src="https://badgen.net/badge/CI/ready/green?icon=github">
   </a>
-  <a href="https://github.com/gcomneno/giancolotto-backtrace/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/giancolotto-backtrace?label=License">
+  <a href="./LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/gcomneno/giankolotto-smart-combos?icon=github">
   </a>
 </p>
 
