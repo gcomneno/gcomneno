@@ -33,6 +33,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🤖 <strong>Machine Learning Lab:</strong> <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
   - 🌌 <strong>Quantum-Residue Telescope:</strong> <a href="https://github.com/gcomneno/qres-telescope">qres-telescope</a>
+  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a>
   
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
 
@@ -160,6 +161,21 @@ Scanner di residui modulari: spettro, cluster e “fantasmi” numerici per patt
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/qres-telescope/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
+#### 🎙️ <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor — GYTE</a>
+GiadaWare YouTube Transcript Extractor — estrattore massivo di trascrizioni da YouTube (yt-dlp + bash).
+<p align="left">
+  <a href="https://github.com/gcomneno/gyte/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/gyte?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/gyte/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/gyte?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
+  <a href="https://github.com/gcomneno/gyte/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square">
   </a>
 </p>
 
