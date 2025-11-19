@@ -34,9 +34,9 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
 
   - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a>
-  
+<br>  
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
-
+<br>
 - 🎵 <strong>Musica (Bandcamp):</strong> <a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
 
 ---
@@ -129,7 +129,7 @@ GiadaWare YouTube Transcript Extractor — estrattore massivo di trascrizioni da
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/gyte/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
 
