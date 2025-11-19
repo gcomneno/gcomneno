@@ -27,12 +27,12 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
   - 🌀 <strong>Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer">turbo-bucketizer</a>
   - 📊 <strong>Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
-  - 🔁 <strong>Split-Lift (FSLL):</strong> <a href="https://github.com/gcomneno/split-lift">split-lift</a>
-  - 🧮 <strong>Kaprekar-DBKM / PLK:</strong> <a href="https://github.com/gcomneno/kaprekar-dbkm">kaprekar-dbkm</a>
+
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 🤖 <strong>Machine Learning Lab:</strong> <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
+  
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
-  - 🌌 <strong>Quantum-Residue Telescope:</strong> <a href="https://github.com/gcomneno/qres-telescope">qres-telescope</a>
+
   - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a>
   
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
@@ -69,37 +69,6 @@ Analizzatore statistico/strutturale per sequenze numeriche: <strong>chi-square</
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/digit-probe/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
-#### 🧮 <a href="https://github.com/gcomneno/split-lift">Split-Lift</a> — Periodometro FSLL
-<strong>Full-Split + Linear-Lift:</strong> se <em>m</em> è fatto solo di “primi buoni”, <strong>il periodo lo calcoli a tavolino</strong> (zero brute-force).
-<p align="left">
-  <a href="https://github.com/gcomneno/split-lift/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/split-lift?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/split-lift/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/split-lift?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/split-lift/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
-#### 🧮 <a href="https://github.com/gcomneno/kaprekar-dbkm">Kaprekar-DBKM — con Phase-Locked</a>
-Mappe Kaprekar a doppia base (<strong>DBKM</strong>, Dual-Base Kaprekar Maps) con controllo di fase adattivo (<strong>PLK</strong>, Phase-Locked Kaprekar).<br>
-CLI sperimentale per analisi numeriche, risonanze modulari e comportamenti moiré, completa di <em>mini-paper</em> e <em>appendice teorica</em>.
-<p align="left">
-  <a href="https://github.com/gcomneno/kaprekar-dbkm/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/kaprekar-dbkm?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/kaprekar-dbkm/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/kaprekar-dbkm?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/kaprekar-dbkm/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
@@ -145,21 +114,6 @@ Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e d
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/giankolotto-smart-combos/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
-#### 🎯 <a href="https://github.com/gcomneno/qres-telescope">Quantum-Residue Telescope — QRES-Telescope</a>
-Scanner di residui modulari: spettro, cluster e “fantasmi” numerici per pattern a lungo raggio.
-<p align="left">
-  <a href="https://github.com/gcomneno/qres-telescope/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/qres-telescope?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/qres-telescope/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/qres-telescope?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/qres-telescope/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
