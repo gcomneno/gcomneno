@@ -26,13 +26,11 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
   - 🌀 <strong>Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer">turbo-bucketizer</a>
+  - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 📊 <strong>Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
-
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 🤖 <strong>Machine Learning Lab:</strong> <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
-  
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
-
   - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a>
 <br>  
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
@@ -54,6 +52,21 @@ Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³�
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/turbo-bucketizer/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
+#### 🐒 <a href="https://github.com/gcomneno/lele-manager">LeLe Manager</a>
+Gestore personale di lesson learned testuali: raccolta, tagging, ricerca e suggerimenti intelligenti.
+<p align="left">
+  <a href="https://github.com/gcomneno/lele-manager/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lele-manager?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/lele-manager/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lele-manager?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
+  <a href="https://github.com/gcomneno/lele-manager/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
