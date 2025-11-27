@@ -15,7 +15,7 @@
 
 ---
 
-Sono <strong>Giancarlo</strong>, programmatore curioso, autore di e-book di <em>narrativa assurda</em> e collezionista di esperimenti software improbabili.<br>
+Sono <strong>Giancarlo</strong>, programmatore curioso, autore di e-book di <em>narrativa assurda</em> e collezionista di esperimenti software improbabili.<br><br>
 <strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
 Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
