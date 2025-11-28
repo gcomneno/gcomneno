@@ -25,7 +25,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
-  - 🌀 <strong>Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer">turbo-bucketizer</a>
+  - 🌀 <strong>Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer 2</a> <code>NEW</code>
   - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 📊 <strong>Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
@@ -45,13 +45,13 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo.
 <p align="left">
   <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer?style=flat-square">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer-cpp?style=flat-square">
   </a>
   <a href="https://github.com/gcomneno/turbo-bucketizer/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer?style=flat-square">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer-cpp?style=flat-square">
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/turbo-bucketizer/blob/main/LICENSE">
+  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
