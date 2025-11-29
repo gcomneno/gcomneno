@@ -25,9 +25,10 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
-  - 🌀 <strong>Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer 2</a> <code>NEW</code>
-  - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
-  - 📊 <strong>Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
+  - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a> <code>NEW</code>
+  - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer 2</a> <code>NEW</code>
+  - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
+  - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 🤖 <strong>Machine Learning Lab:</strong> <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
@@ -40,6 +41,21 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ---
 
 ## 🧩 Progetti attivi
+
+#### 💎 <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">GiadaWare Crystal Codec (GCC v1)</a> — p-adic crystal/prism prototype
+GCC v1, è un codec concettuale p-adico in Python strutturato come pacchetto installabile (<code>pyproject.toml</code>), con API pulita (<code>encode_block</code>/<code>decode_block</code>), SPEC matematico dettagliato, test pytest, pre-commit + Ruff e pipeline CI su GitHub Actions. E' una personale rappresentazione di dati numerici come "prisma" di noduli p-adici ("cristalli"), con invarianti specifici, kernel modulare e spettrografia logica su piccoli primi.
+<p align="left">
+  <a href="https://github.com/gcomneno/crystal-codec-gcc-v1/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/crystal-codec-gcc-v1?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/crystal-codec-gcc-v1/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/crystal-codec-gcc-v1?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/crystal-codec-gcc-v1/ci.yml?style=flat-square&label=CI">
+  <a href="https://github.com/gcomneno/crystal-codec-gcc-v1/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square">
+  </a>
+</p>
 
 #### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">Turbo-Bucketizer v2 C++17</a>
 Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo. Nuova release 2.0 in C++17.
