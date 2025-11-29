@@ -41,8 +41,8 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧩 Progetti attivi
 
-#### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">Turbo-Bucketizer</a>
-Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo.
+#### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">Turbo-Bucketizer v2 C++17</a>
+Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo. Nuova release 2.0 in C++17.
 <p align="left">
   <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer-cpp?style=flat-square">
