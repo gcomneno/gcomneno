@@ -26,7 +26,8 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a> <code>NEW</code>
-  - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer 2</a> <code>NEW</code>
+  - 🍝 <strong>GCC Lasagna Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">lasagna-compressor</a> <code>NEW</code>
+  - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>NEW</code>
   - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
@@ -43,7 +44,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ## 🧩 Progetti attivi
 
 #### 💎 <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">GiadaWare Crystal Codec (GCC v1)</a> — p-adic crystal/prism prototype
-GCC v1, è un codec concettuale p-adico in Python strutturato come pacchetto installabile (<code>pyproject.toml</code>), con API pulita (<code>encode_block</code>/<code>decode_block</code>), SPEC matematico dettagliato, test pytest, pre-commit + Ruff e pipeline CI su GitHub Actions. E' una personale rappresentazione di dati numerici come "prisma" di noduli p-adici ("cristalli"), con invarianti specifici, kernel modulare e spettrografia logica su piccoli primi.
+GCC v1 è un codec concettuale p-adico in Python strutturato come pacchetto installabile (<code>pyproject.toml</code>), con API pulita (<code>encode_block</code>/<code>decode_block</code>), SPEC matematico dettagliato, test pytest, pre-commit + Ruff e pipeline CI su GitHub Actions. È una personale rappresentazione di dati numerici come "prisma" di noduli p-adici ("cristalli"), con invarianti specifici, kernel modulare e spettrografia logica su piccoli primi.
 <p align="left">
   <a href="https://github.com/gcomneno/crystal-codec-gcc-v1/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/crystal-codec-gcc-v1?style=flat-square">
@@ -57,13 +58,28 @@ GCC v1, è un codec concettuale p-adico in Python strutturato come pacchetto ins
   </a>
 </p>
 
+#### 🍝 <a href="https://github.com/gcomneno/lasagna-compressor">GCC Lasagna Compressor</a> — Huffman a strati
+Compressor sperimentale “a lasagna”: pipeline in più strati con GCC v1 come trasformazione numerica e uno stadio Huffman sovrapposto. Roundtrip testato su file di testo, pensato come laboratorio per confrontare compressione classica, rappresentazioni p-adiche e pipeline multi-step.
+<p align="left">
+  <a href="https://github.com/gcomneno/lasagna-compressor/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lasagna-compressor?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/lasagna-compressor/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lasagna-compressor?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
+  <a href="https://github.com/gcomneno/lasagna-compressor/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
 #### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">Turbo-Bucketizer v2 C++17</a>
 Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo. Nuova release 2.0 in C++17.
 <p align="left">
-  <a href="https://github.com/gcomneno/turbo-bucketizer/stargazers">
+  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer-cpp?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/turbo-bucketizer/commits/main">
+  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/commits/main">
     <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer-cpp?style=flat-square">
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
