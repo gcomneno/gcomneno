@@ -28,7 +28,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a> <code>NEW</code>
   - 🍝 <strong>GCC Lasagna Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">lasagna-compressor</a> <code>NEW</code>
   - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
-  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v0.3.0</code>
+  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>Release v1.0</code>
   - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
@@ -89,7 +89,7 @@ Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³�
 </p>
 
 #### 🎙️ <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor — GYTE</a>
-GiadaWare YouTube Transcript Extractor — estrattore massivo di trascrizioni da YouTube (yt-dlp + bash).
+GiadaWare YouTube Transcript Extractor v1.0 — estrattore massivo di trascrizioni da YouTube (yt-dlp + bash).
 <p align="left">
   <a href="https://github.com/gcomneno/gyte/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/gyte?style=flat-square">
