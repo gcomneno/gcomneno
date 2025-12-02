@@ -32,7 +32,6 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
-  - 🤖 <strong>Machine Learning Lab:</strong> <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
 <br>  
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
@@ -144,21 +143,6 @@ Recon, enumerazione e hardening <strong>white-hat</strong>: lab ripetibili, scri
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/cyse-lab/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
-### 🤖 <a href="https://github.com/gcomneno/ML-Lab">ML-Lab</a> — Machine Learning Laboratory
-Sandbox ordinato per esperimenti ML/AI (notebook, pipeline leggere, dataset helpers, utility CLI).
-<p align="left">
-  <a href="https://github.com/gcomneno/ML-Lab/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/ML-Lab?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/ML-Lab/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/ML-Lab?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/ML-Lab/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
