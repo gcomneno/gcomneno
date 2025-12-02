@@ -26,13 +26,13 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a> <code>NEW</code>
-  - 🍝 <strong>GCC Lasagna Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">lasagna-compressor</a> <code>NEW</code>
-  - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
-  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>Release v1.0</code>
-  - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
-  - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
+  - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
+  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>Release v1.0</code>
+  - 🍝 <strong>GCC Lasagna Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">lasagna-compressor</a> <code>NEW</code>
+  - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
+  - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
 <br>  
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
 <br>
@@ -57,62 +57,17 @@ GCC v1 è un codec concettuale p-adico in Python strutturato come pacchetto inst
   </a>
 </p>
 
-#### 🍝 <a href="https://github.com/gcomneno/lasagna-compressor">GCC Lasagna Compressor</a> — Huffman a strati
-Compressor sperimentale “a lasagna”: pipeline in più strati con GCC v1 come trasformazione numerica e uno stadio Huffman sovrapposto. Roundtrip testato su file di testo, pensato come laboratorio per confrontare compressione classica, rappresentazioni p-adiche e pipeline multi-step.
+### 🔐 <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a> — Cyber-Security Lab (didattico, CLI-first)
+Recon, enumerazione e hardening <strong>white-hat</strong>: lab ripetibili, script essenziali, template report “Lesson Learned”.
 <p align="left">
-  <a href="https://github.com/gcomneno/lasagna-compressor/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lasagna-compressor?style=flat-square">
+  <a href="https://github.com/gcomneno/cyse-lab/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/cyse-lab?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/lasagna-compressor/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lasagna-compressor?style=flat-square">
+  <a href="https://github.com/gcomneno/cyse-lab/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/cyse-lab?style=flat-square">
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/lasagna-compressor/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
-#### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">Turbo-Bucketizer v2 C++17</a>
-Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo. Nuova release 2.0 in C++17.
-<p align="left">
-  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer-cpp?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer-cpp?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
-#### 🎙️ <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor — GYTE</a>
-GiadaWare YouTube Transcript Extractor v1.0 — estrattore massivo di trascrizioni da YouTube (yt-dlp + bash).
-<p align="left">
-  <a href="https://github.com/gcomneno/gyte/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/gyte?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/gyte/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/gyte?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/gyte/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
-#### 🐒 <a href="https://github.com/gcomneno/lele-manager">LeLe Manager</a>
-Gestore personale di lesson learned testuali: raccolta, tagging, ricerca e suggerimenti intelligenti.
-<p align="left">
-  <a href="https://github.com/gcomneno/lele-manager/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lele-manager?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/lele-manager/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lele-manager?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/lele-manager/blob/main/LICENSE">
+  <a href="https://github.com/gcomneno/cyse-lab/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
@@ -132,21 +87,6 @@ Analizzatore statistico/strutturale per sequenze numeriche: <strong>chi-square</
   </a>
 </p>
 
-### 🔐 <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a> — Cyber-Security Lab (didattico, CLI-first)
-Recon, enumerazione e hardening <strong>white-hat</strong>: lab ripetibili, script essenziali, template report “Lesson Learned”.
-<p align="left">
-  <a href="https://github.com/gcomneno/cyse-lab/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/cyse-lab?style=flat-square">
-  </a>
-  <a href="https://github.com/gcomneno/cyse-lab/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/cyse-lab?style=flat-square">
-  </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/cyse-lab/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
-  </a>
-</p>
-
 #### 🎲 <a href="https://github.com/gcomneno/giankolotto-smart-combos">Giankolotto Smart-Combos</a> — <strong>Giadaware™ Edition</strong>
 Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e design abbastanza lucido da essere sospetto.
 <p align="left">
@@ -158,6 +98,66 @@ Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e d
   </a>
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/giankolotto-smart-combos/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
+#### 🎙️ <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor — GYTE</a>
+GiadaWare YouTube Transcript Extractor v1.0 — estrattore massivo di trascrizioni da YouTube (yt-dlp + bash).
+<p align="left">
+  <a href="https://github.com/gcomneno/gyte/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/gyte?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/gyte/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/gyte?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
+  <a href="https://github.com/gcomneno/gyte/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
+#### 🍝 <a href="https://github.com/gcomneno/lasagna-compressor">GCC Lasagna Compressor</a> — Huffman a strati
+Compressor sperimentale “a lasagna”: pipeline in più strati con GCC v1 come trasformazione numerica e uno stadio Huffman sovrapposto. Roundtrip testato su file di testo, pensato come laboratorio per confrontare compressione classica, rappresentazioni p-adiche e pipeline multi-step.
+<p align="left">
+  <a href="https://github.com/gcomneno/lasagna-compressor/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lasagna-compressor?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/lasagna-compressor/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lasagna-compressor?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
+  <a href="https://github.com/gcomneno/lasagna-compressor/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
+#### 🐒 <a href="https://github.com/gcomneno/lele-manager">LeLe Manager</a>
+Gestore personale di lesson learned testuali: raccolta, tagging, ricerca e suggerimenti intelligenti.
+<p align="left">
+  <a href="https://github.com/gcomneno/lele-manager/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lele-manager?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/lele-manager/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lele-manager?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
+  <a href="https://github.com/gcomneno/lele-manager/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
+#### 🌀 <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">Turbo-Bucketizer v2 C++17</a>
+Partizionatore IPv4 deterministico ad alta entropia (permutazioni affini su 2³²). Caos controllato, velocissimo. Nuova release 2.0 in C++17.
+<p align="left">
+  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/turbo-bucketizer-cpp?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/turbo-bucketizer-cpp?style=flat-square">
+  </a>
+  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
+  <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
   </a>
 </p>
