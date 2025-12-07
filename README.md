@@ -29,7 +29,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>Release v1.0</code>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
-  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>Release v1.0</code>
+  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
   - 🍝 <strong>GCC Lasagna Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">lasagna-compressor</a> <code>NEW</code>
   - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
@@ -103,7 +103,7 @@ Motore combinatorio Lotto-compliant con pruning aggressivo, vincoli modulari e d
 </p>
 
 #### 🎙️ <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor — GYTE</a>
-GiadaWare YouTube Transcript Extractor v1.0 — estrattore massivo di trascrizioni da YouTube (yt-dlp + bash).
+GiadaWare YouTube Transcript Extractor v1.1,0 — estrattore massivo di trascrizioni da YouTube (yt-dlp + bash).
 <p align="left">
   <a href="https://github.com/gcomneno/gyte/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/gyte?style=flat-square">
