@@ -25,9 +25,9 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
-  - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a> <code>NEW</code>
+  - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
-  - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>Release v1.0</code>
+  - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
   - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
   - 🍝 <strong>GCC Lasagna Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">lasagna-compressor</a> <code>NEW</code>
