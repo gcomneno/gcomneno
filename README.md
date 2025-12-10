@@ -30,7 +30,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
   - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
-  - 🍝 <strong>GCC Lasagna Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">lasagna-compressor</a> <code>NEW</code>
+  - 🍝 <strong>GCC Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a> <code>NEW</code>
   - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
 <br>  
@@ -117,18 +117,20 @@ GiadaWare YouTube Transcript Extractor v1.1,0 — estrattore massivo di trascriz
   </a>
 </p>
 
-#### 🍝 <a href="https://github.com/gcomneno/lasagna-compressor">GCC Lasagna Compressor</a> — Huffman a strati
-Compressor sperimentale “a lasagna”: pipeline in più strati con GCC v1 come trasformazione numerica e uno stadio Huffman sovrapposto. Roundtrip testato su file di testo, pensato come laboratorio per confrontare compressione classica, rappresentazioni p-adiche e pipeline multi-step.
+#### 🍝 <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2 – Brain-Inspired Time-Series Compressor</a> — serie temporali univariate
+Codec sperimentale a strati (“me pare na lasagna!”) per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern. 
 <p align="left">
-  <a href="https://github.com/gcomneno/lasagna-compressor/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lasagna-compressor?style=flat-square">
+  <a href="https://github.com/gcomneno/lasagna-v2/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lasagna-v2?style=flat-square">
   </a>
-  <a href="https://github.com/gcomneno/lasagna-compressor/commits/main">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lasagna-compressor?style=flat-square">
+  <a href="https://github.com/gcomneno/lasagna-v2/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/lasagna-v2?style=flat-square">
   </a>
-  <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
-  <a href="https://github.com/gcomneno/lasagna-compressor/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  <a href="https://github.com/gcomneno/lasagna-v2/actions/workflows/ci.yml">
+    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/lasagna-v2/ci.yml?branch=main&label=CI&style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/lasagna-v2/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/lasagna-v2?style=flat-square">
   </a>
 </p>
 
