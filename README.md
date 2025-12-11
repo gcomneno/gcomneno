@@ -29,8 +29,9 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
-  - 🎙️ <strong>GiadaWare&YT — GYTE</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
-  - 🍝 <strong>GCC Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a> <code>NEW</code>
+  - 🎙️ <strong>GiadaWare&YT — GYTE:</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
+  - 🍝 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">huffman-compressor</a>
+  - 🍝 <strong>Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a> <code>NEW</code>
   - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
 <br>  
@@ -117,8 +118,25 @@ GiadaWare YouTube Transcript Extractor v1.1,0 — estrattore massivo di trascriz
   </a>
 </p>
 
-#### 🍝 <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2 – Brain-Inspired Time-Series Compressor</a> — serie temporali univariate
-Codec sperimentale a strati (“me pare na lasagna!”) per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern. 
+#### 🍝 <a href="https://github.com/gcomneno/huffman-compressor">GCC Huffman Compressor</a>
+Compressor sperimentale “a strati”: pipeline in più strati con GCC v1 come trasformazione numerica e uno stadio Huffman sovrapposto. Roundtrip testato su file di testo, pensato come laboratorio per confrontare compressione classica, rappresentazioni p-adiche e pipeline multi-step.
+<p align="left">
+  <a href="https://github.com/gcomneno/huffman-compressor/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/huffman-compressor?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/huffman-compressor/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/huffman-compressor?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/huffman-compressor/actions/workflows/ci.yml">
+    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/huffman-compressor/ci.yml?branch=main&label=CI&style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/huffman-compressor/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/huffman-compressor?style=flat-square">
+  </a>
+</p>
+
+#### 🍝 <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2 – Brain-Inspired Time-Series Compressor</a>
+Codec sperimentale per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern. 
 <p align="left">
   <a href="https://github.com/gcomneno/lasagna-v2/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/lasagna-v2?style=flat-square">
