@@ -30,7 +30,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
   - 🎙️ <strong>GiadaWare&YT — GYTE:</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
-  - 🍝 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/lasagna-compressor">huffman-compressor</a>
+  - 🍝 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/huffman-compressor">huffman-compressor</a>
   - 🍝 <strong>Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a> <code>NEW</code>
   - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
