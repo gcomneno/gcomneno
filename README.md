@@ -28,6 +28,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
+  - 🕰️ <strong>Prime Tower Clocks:</strong> <a href="https://github.com/gcomneno/prime-tower-clocks">prime-tower-clocks</a> <code>NEW</code>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
   - 🎙️ <strong>GiadaWare&YT — GYTE:</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
   - 🍝 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/huffman-compressor">huffman-compressor</a>
@@ -85,6 +86,25 @@ Analizzatore statistico/strutturale per sequenze numeriche: <strong>chi-square</
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-inactive?style=flat-square">
   <a href="https://github.com/gcomneno/digit-probe/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-View-blue?style=flat-square">
+  </a>
+</p>
+
+<!-- ✅ NEW PROJECT -->
+#### 🕰️ <a href="https://github.com/gcomneno/prime-tower-clocks">Prime Tower Clocks</a> — firme modulari via orologi primi + CRT
+Laboratorio matematico/CLI per “ingabbiare” interi (anche mostri da 100+ cifre) in una <strong>firma modulare minimale</strong> salvabile su file (JSONL).<br>
+<em>Incantesimo anti-mostro incluso di default.</em>
+<p align="left">
+  <a href="https://github.com/gcomneno/prime-tower-clocks/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/prime-tower-clocks?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/prime-tower-clocks/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/prime-tower-clocks?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/prime-tower-clocks/actions">
+    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/prime-tower-clocks/ci.yml?branch=main&label=CI&style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/prime-tower-clocks/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/prime-tower-clocks?style=flat-square">
   </a>
 </p>
 
