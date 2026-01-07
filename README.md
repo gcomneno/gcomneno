@@ -25,16 +25,17 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
+  - 🧮 <strong>OEIS Probe:</strong> <a href="https://github.com/gcomneno/oeis-probe">OEIS-probe</a> <code>NEW</code>
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
-  - 🕰️ <strong>Prime Tower Clocks:</strong> <a href="https://github.com/gcomneno/prime-tower-clocks">prime-tower-clocks</a> <code>NEW</code>
+  - 🕰️ <strong>Prime Tower Clocks:</strong> <a href="https://github.com/gcomneno/prime-tower-clocks">prime-tower-clocks</a>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
   - 🎙️ <strong>GiadaWare&YT — GYTE:</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
   - 🍝 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/huffman-compressor">huffman-compressor</a>
-  - 🍝 <strong>Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a> <code>NEW</code>
-  - 🐒 <strong>GiadaWare LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
-  - 🌀 <strong>GiadaWare Turbo-Bucketizer:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
+  - 🍝 <strong>Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a>
+  - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
+  - 🌀 <strong>Turbo-Bucketizer 2:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
 <br>  
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
 <br>
@@ -43,6 +44,24 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ---
 
 ## 🧩 Progetti attivi
+
+#### 🧮 <a href="https://github.com/gcomneno/oeis-probe">oeis-probe</a> — fingerprinting di sequenze su OEIS (online/offline)
+Tool CLI Python per riconoscere sequenze di interi archiviate su OEIS, con ricerca offline su stripped/names e cache SQLite.  
+Ideale come “oracolo esterno” da laboratorio per validare le sequenze generate da algoritmi, regressioni, e riconoscimento rapido di pattern noti.
+<p align="left">
+  <a href="https://github.com/gcomneno/oeis-probe/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/oeis-probe?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/oeis-probe/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/oeis-probe?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/oeis-probe/actions/workflows/ci.yml">
+    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/oeis-probe/ci.yml?branch=main&label=CI&style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/oeis-probe/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/oeis-probe?style=flat-square">
+  </a>
+</p>
 
 #### 💎 <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">GiadaWare Crystal Codec (GCC v1)</a> — p-adic crystal/prism prototype
 GCC v1 è un codec concettuale p-adico in Python strutturato come pacchetto installabile (<code>pyproject.toml</code>), con API pulita (<code>encode_block</code>/<code>decode_block</code>), SPEC matematico dettagliato, test pytest, pre-commit + Ruff e pipeline CI su GitHub Actions. È una personale rappresentazione di dati numerici come "prisma" di noduli p-adici ("cristalli"), con invarianti specifici, kernel modulare e spettrografia logica su piccoli primi.
