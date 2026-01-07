@@ -46,8 +46,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ## 🧩 Progetti attivi
 
 #### 🧮 <a href="https://github.com/gcomneno/oeis-probe">oeis-probe</a> — fingerprinting di sequenze su OEIS (online/offline)
-Tool CLI Python per riconoscere sequenze di interi archiviate su OEIS, con ricerca offline su stripped/names e cache SQLite.  
-Ideale come “oracolo esterno” da laboratorio per validare le sequenze generate da algoritmi, regressioni, e riconoscimento rapido di pattern noti.
+Tool CLI Python per riconoscere sequenze di interi archiviate su OEIS, con ricerca offline su stripped/names e cache SQLite. Ideale come “oracolo esterno” da laboratorio per validare le sequenze generate da algoritmi, regressioni, e riconoscimento rapido di pattern noti.
 <p align="left">
   <a href="https://github.com/gcomneno/oeis-probe/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/oeis-probe?style=flat-square">
