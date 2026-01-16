@@ -25,7 +25,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
-  - 🧅 <strong>OCF</strong> <a href="https://github.com/gcomneno/oeis-probe">Onion Compressor/Codec Framework</a> <code>NEW</code>
+  - 🧅 <strong>OCF</strong> <a href="https://github.com/gcomneno/onion-compressor-framework">Onion Compressor Framework</a> <code>NEW</code>
   - 🧮 <strong>OEIS Probe:</strong> <a href="https://github.com/gcomneno/oeis-probe">OEIS-probe</a>
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
