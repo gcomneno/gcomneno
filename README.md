@@ -25,7 +25,8 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
-  - 🧮 <strong>OEIS Probe:</strong> <a href="https://github.com/gcomneno/oeis-probe">OEIS-probe</a> <code>NEW</code>
+  - 🧮 <strong>OCF: Onion Codec Framework</strong> <a href="https://github.com/gcomneno/oeis-probe">Onion Compressor Framework</a> <code>NEW</code>
+  - 🧮 <strong>OEIS Probe:</strong> <a href="https://github.com/gcomneno/oeis-probe">OEIS-probe</a>
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
   - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
@@ -44,6 +45,23 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 ---
 
 ## 🧩 Progetti attivi
+
+#### 🧮 <a href="https://github.com/gcomneno/onion-compressor-framework">OCF</a> — Onion Compressor/Codec Framework
+Tool CLI Python per la compressione del testo lossless, modulare e a strati (“La cipolla”). Codec e Layer semantici pluggabili e personalizzabili, directory-based con archivi .gca a risorsa condivisa. Verifica integrità completa con hash-mismatch.
+<p align="left">
+  <a href="https://github.com/gcomneno/onion-compressor-framework/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/onion-compressor-framework?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/onion-compressor-framework/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/onion-compressor-framework?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml">
+    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/gcomneno/onion-compressor-framework/ci.yml?branch=main&label=CI&style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/onion-compressor-framework/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/onion-compressor-framework?style=flat-square">
+  </a>
+</p>
 
 #### 🧮 <a href="https://github.com/gcomneno/oeis-probe">oeis-probe</a> — fingerprinting di sequenze su OEIS (online/offline)
 Tool CLI Python per riconoscere sequenze di interi archiviate su OEIS, con ricerca offline su stripped/names e cache SQLite. Ideale come “oracolo esterno” da laboratorio per validare le sequenze generate da algoritmi, regressioni, e riconoscimento rapido di pattern noti.
