@@ -25,7 +25,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧭 Hub rapido
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
-  - 🧮 <strong>OCF: Onion Codec Framework</strong> <a href="https://github.com/gcomneno/oeis-probe">Onion Compressor Framework</a> <code>NEW</code>
+  - 🧅 <strong>OCF: Onion Codec Framework</strong> <a href="https://github.com/gcomneno/oeis-probe">Onion Compressor Framework</a> <code>NEW</code>
   - 🧮 <strong>OEIS Probe:</strong> <a href="https://github.com/gcomneno/oeis-probe">OEIS-probe</a>
   - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
   - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
@@ -46,8 +46,9 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ## 🧩 Progetti attivi
 
-#### 🧮 <a href="https://github.com/gcomneno/onion-compressor-framework">OCF</a> — Onion Compressor/Codec Framework
-Tool CLI Python per la compressione del testo lossless, modulare e a strati (“La cipolla”). Codec e Layer semantici pluggabili e personalizzabili, directory-based con archivi .gca a risorsa condivisa. Verifica integrità completa con hash-mismatch.
+#### 🧅 <a href="https://github.com/gcomneno/onion-compressor-framework">OCF</a> — Onion Compressor/Codec Framework
+Tool CLI Python per la compressione del testo: lossless, modulare e stratificato (“da cui, la cipolla”). 
+Codec e Layer semantici pluggabili e personalizzabili, "directory-based analysis" con archivi .gca a risorsa condivisa. Verifica integrità completa di hash-mismatching.
 <p align="left">
   <a href="https://github.com/gcomneno/onion-compressor-framework/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/onion-compressor-framework?style=flat-square">
