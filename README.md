@@ -39,7 +39,7 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🌀 <strong>Turbo-Bucketizer 2:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
 <br>  
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
-<br>
+<br><br>
 - 🎵 <strong>Musica (Bandcamp):</strong> <a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
 
 ---
@@ -70,7 +70,7 @@ Appunti, esercizi, progetti e riflessioni pubblicate in formato narrativo.
 
 ---
 
-## 🧩 GiadaWareLab
+## 🧩 GiadaWare Lab
 
 #### 🧅 <a href="https://github.com/gcomneno/onion-compressor-framework">OCF</a> — Onion Compressor/Codec Framework
 Tool CLI Python per la compressione del testo: lossless, modulare e stratificato (“da cui, la cipolla”). 
