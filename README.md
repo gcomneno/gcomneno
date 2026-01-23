@@ -44,7 +44,33 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
 
 ---
 
-## 🧩 Progetti attivi
+## 🧠 GiadaWare Learning & Journals
+> “Anche la follia ha bisogno di documentazione.”
+
+📚 Questa sezione raccoglie i progetti di apprendimento, ricerca personale e sperimentazione didattica.
+Sono repository speciali perché raccontano un percorso, non solo del codice.
+
+#### 🪶 <a href="https://github.com/gcomneno/nuxtjs-developer-journal">Nuxt.js Developer Journal</a> — diario di studio in 8 settimane
+Percorso personale di 8 settimane per imparare <strong>Vue 3 + Nuxt 3</strong>, documentato giorno per giorno.<br>
+Appunti, esercizi, progetti e riflessioni pubblicate in formato narrativo.
+<p align="left">
+  <a href="https://github.com/gcomneno/nuxtjs-developer-journal/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/gcomneno/nuxtjs-developer-journal?style=flat-square">
+  </a>
+  <a href="https://github.com/gcomneno/nuxtjs-developer-journal/commits/main">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/gcomneno/nuxtjs-developer-journal?style=flat-square">
+  </a>
+  <img alt="Progress" src="https://img.shields.io/badge/Progress-Week 1 of 8-blue?style=flat-square">
+  <a href="https://github.com/gcomneno/nuxtjs-developer-journal/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/nuxtjs-developer-journal?style=flat-square">
+  </a>
+</p>
+
+> “Scrivere codice è facile. Scrivere di ciò che impari lo è molto meno, ma ti rende due volte sviluppatore.”  
+
+---
+
+## 🧩 GiadaWareLab
 
 #### 🧅 <a href="https://github.com/gcomneno/onion-compressor-framework">OCF</a> — Onion Compressor/Codec Framework
 Tool CLI Python per la compressione del testo: lossless, modulare e stratificato (“da cui, la cipolla”). 
