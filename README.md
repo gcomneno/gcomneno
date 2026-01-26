@@ -38,7 +38,11 @@ Qui convivono logica e follia, matematica, fisica e ironia, codice e narrativa.
   - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
   - 🌀 <strong>Turbo-Bucketizer 2:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
 <br>  
-- 📚 <strong>Libri (surreale/ironico-filosofico):</strong> <em>link in arrivo</em>
+- 📚 <strong>Libri (surreale/ironico-filosofico):</strong>
+  <a href="https://github.com/gcomneno/club-dell-assurdo"><strong>Il Club dell’Assurdo</strong></a>
+  — <em><a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/docs/@INIZIA_DA_QUI.md">inizia da qui</a>
+  · <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">catalogo</a>
+  · <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/LICENSE">licenza</a></em>
 <br><br>
 - 🎵 <strong>Musica (Bandcamp):</strong> <a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
 
