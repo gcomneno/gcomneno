@@ -60,7 +60,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   <a href="https://github.com/gcomneno/club-dell-assurdo"><strong>Il Club dell’Assurdo</strong></a>
   <p>
     - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/docs/@INIZIA_DA_QUI.md">Inizia da qui!</a><br>
-    - <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news)">News</a><br>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news">News</a><br>
     - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">Catalogo</a><br>
     - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/LICENSE">Licenza</a>
   </p>
