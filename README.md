@@ -15,6 +15,12 @@
 
 ---
 
+<p align="center">
+  🗞️ News del Club → https://github.com/gcomneno/club-dell-assurdo#news
+</p>
+
+---
+
 <a id="top"></a>
 
 Sono <strong>Giancarlo</strong>, programmatore curioso, <a href="#music">compositore</a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software">esperimenti software</a> improbabili.<br><br>
