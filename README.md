@@ -58,9 +58,12 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 <a id="books"></a>
 - 📚 <strong>Libri (surreale/ironico-filosofico):</strong>
   <a href="https://github.com/gcomneno/club-dell-assurdo"><strong>Il Club dell’Assurdo</strong></a>
-  — <em><a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/docs/@INIZIA_DA_QUI.md">inizia da qui</a>
-  · <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">catalogo</a>
-  · <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/LICENSE">licenza</a></em>
+  <p>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/docs/@INIZIA_DA_QUI.md">Inizia da qui!</a><br>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news)">News</a><br>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">Catalogo</a><br>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/LICENSE">Licenza</a>
+  </p>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
