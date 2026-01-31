@@ -42,37 +42,37 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 **🧅 OCF Onion Compressor Framework — `gcc-ocf`**<br>
 Framework sperimentale per pipeline di compressione “a cipolla”: più stadi combinabili (trasformazioni numeriche, Huffman, ecc.), pensato per confrontare strategie diverse su dati eterogenei.
 
-**🧮 OEIS Probe — `oeis-probe`**
+**🧮 OEIS Probe — `oeis-probe`**<br>
 Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.
 
-**💎 Crystal Codec (GCC v1) — `crystal-codec-gcc-v1`**
+**💎 Crystal Codec (GCC v1) — `crystal-codec-gcc-v1`**<br>
 Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.
 
-**🛡️ Cyber-Security Lab — `cyse-lab`**
+**🛡️ Cyber-Security Lab — `cyse-lab`**<br>
 Laboratorio didattico di CyberSec white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.
 
-**📊 Digit-Probe — `digit-probe`**
+**📊 Digit-Probe — `digit-probe`**<br>
 Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.
 
-**🕰️ Prime Tower Clocks — `prime-tower-clocks`**
+**🕰️ Prime Tower Clocks — `prime-tower-clocks`**<br>
 Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.
 
-**🎯 GianKoLotto® — Smart Combos — `giankolotto-smart-combos`**
+**🎯 GianKoLotto® — Smart Combos — `giankolotto-smart-combos`**<br>
 Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo le combinazioni “sensate” rispetto a regole/filtri configurabili, pensato come palestra algoritmica sui vincoli.
 
-**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — `gyte`**
+**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — `gyte`**<br>
 Toolkit per scaricare, tradurre e processare trascrizioni YouTube in batch: separazione netta dei provider AI, hardening DevSecOps e comandi “umani” per chi vuole lavorare sui testi dei video.
 
-**🧬 GCC Huffman Compressor (legacy) — `huffman-compressor`**
+**🧬 GCC Huffman Compressor (legacy) — `huffman-compressor`**<br>
 Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.
 
-**🍝 Lasagna v2 — `lasagna-v2`**
+**🍝 Lasagna v2 — `lasagna-v2`**<br>
 Codec sperimentale per serie temporali ispirato a una lasagna: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.
 
-**🐒 LeLe Manager — `lele-manager`**
+**🐒 LeLe Manager — `lele-manager`**<br>
 Gestore personale di “lesson learned”: CLI + API per raccogliere, taggare e cercare note tecniche, incidenti e micro-postmortem, con l’idea di non ripetere due volte lo stesso errore.
 
-**🌀 Turbo-Bucketizer 2 — `turbo-bucketizer-cpp`**
+**🌀 Turbo-Bucketizer 2 — `turbo-bucketizer-cpp`**<br>
 Partizionatore IPv4 deterministico ad alta entropia scritto in C++17: realizza permutazioni affini su 2³² per distribuire indirizzi in bucket “mescolati” ma ripetibili, utile per sharding e load-balancing.
 
 ---
