@@ -39,7 +39,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 </p>
 
 
-**🧅 OCF Onion Compressor Framework — `gcc-ocf`**
+**🧅 OCF Onion Compressor Framework — `gcc-ocf`**<br>
 Framework sperimentale per pipeline di compressione “a cipolla”: più stadi combinabili (trasformazioni numeriche, Huffman, ecc.), pensato per confrontare strategie diverse su dati eterogenei.
 
 **🧮 OEIS Probe — `oeis-probe`**
@@ -90,6 +90,8 @@ Partizionatore IPv4 deterministico ad alta entropia scritto in C++17: realizza p
   </p>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
+
+---
 
 <a id="music"></a>
 - 🎵 <strong>Musica (Bandcamp):</strong><br><br><a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
