@@ -40,18 +40,19 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 <a id="software"></a>
 - 🔩 <strong>Software — progetti attivi su GitHub</strong>
+  - 🌀 <strong>Turbo-Bucketizer 2:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
+  - 💎 <strong>Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
   - 🧅 <strong>OCF</strong> <a href="https://github.com/gcomneno/onion-compressor-framework">Onion Compressor Framework</a> <code>NEW</code>
+  - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
+  - 🎙️ <strong>GiadaWare&YT — GYTE:</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
+  - 📊 <strong>Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
   - 🧮 <strong>OEIS Probe:</strong> <a href="https://github.com/gcomneno/oeis-probe">OEIS-probe</a>
-  - 💎 <strong>GiadaWare Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
-  - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
-  - 📊 <strong>GiadaWare Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
+
+  - 🧬 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/huffman-compressor">huffman-compressor</a>
+  - 🍝 <strong>Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a>
   - 🕰️ <strong>Prime Tower Clocks:</strong> <a href="https://github.com/gcomneno/prime-tower-clocks">prime-tower-clocks</a>
   - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
-  - 🎙️ <strong>GiadaWare&YT — GYTE:</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
-  - 🍝 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/huffman-compressor">huffman-compressor</a>
-  - 🍝 <strong>Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a>
-  - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
-  - 🌀 <strong>Turbo-Bucketizer 2:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
+  - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
@@ -68,7 +69,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 <a id="music"></a>
-- 🎵 <strong>Musica (Bandcamp):</strong> <a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
+- 🎵 <strong>Musica (Bandcamp):</strong><br><br><a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
