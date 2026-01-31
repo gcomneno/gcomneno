@@ -38,21 +38,44 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   <a href="#music"><strong>[Musica]</strong></a>
 </p>
 
-<a id="software"></a>
-- 🔩 <strong>Software — progetti attivi su GitHub</strong>
-  - 🌀 <strong>Turbo-Bucketizer 2:</strong> <a href="https://github.com/gcomneno/turbo-bucketizer-cpp">turbo-bucketizer-cpp</a> <code>v2 C++17</code>
-  - 💎 <strong>Crystal Codec (GCC v1):</strong> <a href="https://github.com/gcomneno/crystal-codec-gcc-v1">crystal-codec-gcc-v1</a>
-  - 🧅 <strong>OCF</strong> <a href="https://github.com/gcomneno/onion-compressor-framework">Onion Compressor Framework</a> <code>NEW</code>
-  - 🐒 <strong>LeLe Manager — Lesson Learned Manager:</strong> <a href="https://github.com/gcomneno/lele-manager">lele-manager</a>
-  - 🎙️ <strong>GiadaWare&YT — GYTE:</strong> <a href="https://github.com/gcomneno/gyte">GiadaWare YouTube Transcript Extractor</a> <code>v1.1.0</code>
-  - 📊 <strong>Digit-Probe:</strong> <a href="https://github.com/gcomneno/digit-probe">digit-probe</a> <code>v1.0.0</code>
-  - 🧮 <strong>OEIS Probe:</strong> <a href="https://github.com/gcomneno/oeis-probe">OEIS-probe</a>
 
-  - 🧬 <strong>GCC Huffman Compressor:</strong> <a href="https://github.com/gcomneno/huffman-compressor">huffman-compressor</a>
-  - 🍝 <strong>Lasagna v2:</strong> <a href="https://github.com/gcomneno/lasagna-v2">Lasagna v2</a>
-  - 🕰️ <strong>Prime Tower Clocks:</strong> <a href="https://github.com/gcomneno/prime-tower-clocks">prime-tower-clocks</a>
-  - 🎯 <strong>GianKoLotto® — Smart Combos:</strong> <a href="https://github.com/gcomneno/giankolotto-smart-combos">giankolotto-smart-combos</a>
-  - 🛡️ <strong>Cyber-Security Lab:</strong> <a href="https://github.com/gcomneno/cyse-lab">cyse-lab</a>
+**🧅 OCF Onion Compressor Framework — `gcc-ocf`**
+Framework sperimentale per pipeline di compressione “a cipolla”: più stadi combinabili (trasformazioni numeriche, Huffman, ecc.), pensato per confrontare strategie diverse su dati eterogenei.
+
+**🧮 OEIS Probe — `oeis-probe`**
+Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.
+
+**💎 Crystal Codec (GCC v1) — `crystal-codec-gcc-v1`**
+Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.
+
+**🛡️ Cyber-Security Lab — `cyse-lab`**
+Laboratorio didattico di CyberSec white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.
+
+**📊 Digit-Probe — `digit-probe`**
+Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.
+
+**🕰️ Prime Tower Clocks — `prime-tower-clocks`**
+Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.
+
+**🎯 GianKoLotto® — Smart Combos — `giankolotto-smart-combos`**
+Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo le combinazioni “sensate” rispetto a regole/filtri configurabili, pensato come palestra algoritmica sui vincoli.
+
+**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — `gyte`**
+Toolkit per scaricare, tradurre e processare trascrizioni YouTube in batch: separazione netta dei provider AI, hardening DevSecOps e comandi “umani” per chi vuole lavorare sui testi dei video.
+
+**🧬 GCC Huffman Compressor (legacy) — `huffman-compressor`**
+Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.
+
+**🍝 Lasagna v2 — `lasagna-v2`**
+Codec sperimentale per serie temporali ispirato a una lasagna: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.
+
+**🐒 LeLe Manager — `lele-manager`**
+Gestore personale di “lesson learned”: CLI + API per raccogliere, taggare e cercare note tecniche, incidenti e micro-postmortem, con l’idea di non ripetere due volte lo stesso errore.
+
+**🌀 Turbo-Bucketizer 2 — `turbo-bucketizer-cpp`**
+Partizionatore IPv4 deterministico ad alta entropia scritto in C++17: realizza permutazioni affini su 2³² per distribuire indirizzi in bucket “mescolati” ma ripetibili, utile per sharding e load-balancing.
+
+---
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
