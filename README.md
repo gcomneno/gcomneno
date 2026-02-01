@@ -38,43 +38,44 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   <a href="#music"><strong>[Musica]</strong></a>
 </p>
 
-
-
-**🌀 Turbo-Bucketizer 2 — `turbo-bucketizer-cpp`**<br>
+**🌀 Turbo-Bucketizer 2 — [`turbo-bucketizer-cpp`](https://github.com/gcomneno/turbo-bucketizer-cpp)**<br>
 Partizionatore IPv4 deterministico ad alta entropia scritto in C++17: realizza permutazioni affini su 2³² per distribuire indirizzi in bucket “mescolati” ma ripetibili, utile per sharding e load-balancing.
 
-**💎 Crystal Codec (GCC v1) — `crystal-codec-gcc-v1`**<br>
+**💎 Crystal Codec (GCC v1) — [`crystal-codec-gcc-v1`](https://github.com/gcomneno/crystal-codec-gcc-v1)**<br>
 Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.
 
-**🧅 OCF Onion Compressor Framework — `gcc-ocf`**<br>
+**🧅 OCF Onion Compressor Framework — [`onion-compressor-framework`](https://github.com/gcomneno/onion-compressor-framework)**<br>
 Framework sperimentale per pipeline di compressione “a cipolla”: più stadi combinabili (trasformazioni numeriche, Huffman, ecc.), pensato per confrontare strategie diverse su dati eterogenei.
 
-**🐒 LeLe Manager — `lele-manager`**<br>
+**🐒 LeLe Manager — [`lele-manager`](https://github.com/gcomneno/lele-manager)**<br>
 Gestore personale di “lesson learned”: CLI + API per raccogliere, taggare e cercare note tecniche, incidenti e micro-postmortem, con l’idea di non ripetere due volte lo stesso errore.
 
-**🧮 OEIS Probe — `oeis-probe`**<br>
+**🧮 OEIS Probe — [`oeis-probe`](https://github.com/gcomneno/oeis-probe)**<br>
 Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.
 
-**📊 Digit-Probe — `digit-probe`**<br>
+**📊 Digit-Probe — [`digit-probe`](https://github.com/gcomneno/digit-probe)**<br>
 Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.
 
-**🕰️ Prime Tower Clocks — `prime-tower-clocks`**<br>
+**🕰️ Prime Tower Clocks — [`prime-tower-clocks`](https://github.com/gcomneno/prime-tower-clocks)**<br>
 Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.
 
-**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — `gyte`**<br>
+**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — [`gyte`](https://github.com/gcomneno/gyte)**<br>
 Toolkit per scaricare, tradurre e processare trascrizioni YouTube in batch: separazione netta dei provider AI, hardening DevSecOps e comandi “umani” per chi vuole lavorare sui testi dei video.
 
-**🧬 GCC Huffman Compressor (legacy) — `huffman-compressor`**<br>
+**🧬 GCC Huffman Compressor (legacy) — [`huffman-compressor`](https://github.com/gcomneno/huffman-compressor)**<br>
 Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.
 
-**🍝 Lasagna v2 — `lasagna-v2`**<br>
+**🍝 Lasagna v2 — [`lasagna-v2`](https://github.com/gcomneno/lasagna-v2)**<br>
 Codec sperimentale per serie temporali ispirato a una lasagna: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.
 
-**🛡️ Cyber-Security Lab — `cyse-lab`**<br>
+**🛡️ Cyber-Security Lab — [`cyse-lab`](https://github.com/gcomneno/cyse-lab)**<br>
 Laboratorio didattico di CyberSec white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.
 
-**🎯 GianKoLotto® — Smart Combos — `giankolotto-smart-combos`**<br>
+**🎯 GianKoLotto® — Smart Combos — [`giankolotto-smart-combos`](https://github.com/gcomneno/giankolotto-smart-combos)**<br>
 Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo le combinazioni “sensate” rispetto a regole/filtri configurabili, pensato come palestra algoritmica sui vincoli.
+
+[1]: https://github.com/topics/giadaware "giadaware · GitHub Topics · GitHub"
+[2]: https://github.com/gcomneno/onion-compressor-framework "GitHub - gcomneno/onion-compressor-framework: Framework “a cipolla” per compressione lossless con layer semantici pluggabili (multi-stream), codec pluggabili (Huffman, zlib, raw, …), container binario con payload e workflow directory-based con bucketing + autopick + archivi `.gca` (GCA1) + resources"
 
 ---
 
