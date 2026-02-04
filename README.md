@@ -38,6 +38,9 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   <a href="#music"><strong>[Musica]</strong></a>
 </p>
 
+**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — [`gyte`](https://github.com/gcomneno/gyte)**<br>
+Toolkit per scaricare, tradurre e processare trascrizioni YouTube in batch: separazione netta dei provider AI, hardening DevSecOps e comandi “umani” per chi vuole lavorare sui testi dei video.
+
 **🌀 Turbo-Bucketizer 2 — [`turbo-bucketizer-cpp`](https://github.com/gcomneno/turbo-bucketizer-cpp)**<br>
 Partizionatore IPv4 deterministico ad alta entropia scritto in C++17: realizza permutazioni affini su 2³² per distribuire indirizzi in bucket “mescolati” ma ripetibili, utile per sharding e load-balancing.
 
@@ -58,9 +61,6 @@ Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, 
 
 **🕰️ Prime Tower Clocks — [`prime-tower-clocks`](https://github.com/gcomneno/prime-tower-clocks)**<br>
 Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.
-
-**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — [`gyte`](https://github.com/gcomneno/gyte)**<br>
-Toolkit per scaricare, tradurre e processare trascrizioni YouTube in batch: separazione netta dei provider AI, hardening DevSecOps e comandi “umani” per chi vuole lavorare sui testi dei video.
 
 **🧬 GCC Huffman Compressor (legacy) — [`huffman-compressor`](https://github.com/gcomneno/huffman-compressor)**<br>
 Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.
