@@ -15,12 +15,6 @@
 
 ---
 
-<p align="center">
-  🗞️ News del Club → https://github.com/gcomneno/club-dell-assurdo#news
-</p>
-
----
-
 <a id="top"></a>
 
 Sono <strong>Giancarlo</strong>, programmatore curioso, <a href="#music">compositore</a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software">esperimenti software</a> improbabili.<br><br>
@@ -31,7 +25,27 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ---
 
-## 🧭 Hub rapido
+### 💖 Progetti in vetrina:
+
+- **OCF — Onion Compressor Framework** → architettura modulare + CI “seria” (lint/test + gate CLI)  
+  Repo: [onion-compressor-framework](https://github.com/gcomneno/onion-compressor-framework)
+  <br><br>[![CI Gate](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml/badge.svg)](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml)
+[![CI](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml)
+![Ruff](https://img.shields.io/badge/ruff-lint-success)
+
+- **LeLe Manager** → ML tooling end-to-end (CLI + API), testabilità, packaging, disciplina da prodotto  
+  Repo: [lele-manager](https://github.com/gcomneno/lele-manager)
+  <br><br>[![Security](https://github.com/gcomneno/lele-manager/actions/workflows/security.yml/badge.svg)](https://github.com/gcomneno/lele-manager/actions/workflows/security.yml)
+[![CI](https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml)
+![Ruff](https://img.shields.io/badge/ruff-lint-success)
+
+- **Turbo-Bucketizer C++17** → determinismo, performance, clean C++ (CMake/CTest), design “da colloquio”  
+  Repo: [turbo-bucketizer-cpp](https://github.com/gcomneno/turbo-bucketizer-cpp)
+  <br><br>[![CI](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml)
+![License](https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp)
+</details>
+
+## 🧭 Hub completo
 <p>
   <a href="#software"><strong>[Software]</strong></a>
   <a href="#books"><strong>[Libri]</strong></a>
