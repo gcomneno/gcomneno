@@ -25,7 +25,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ---
 
-### 💖 Progetti in vetrina:
+### 💖 Progetti in evidenza:
 
 - **OCF — Onion Compressor Framework** → architettura modulare + CI “seria” (lint/test + gate CLI)  
   Repo: [onion-compressor-framework](https://github.com/gcomneno/onion-compressor-framework)
@@ -41,11 +41,10 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 - **Turbo-Bucketizer C++17** → determinismo, performance, clean C++ (CMake/CTest), design “da colloquio”  
   Repo: [turbo-bucketizer-cpp](https://github.com/gcomneno/turbo-bucketizer-cpp)
-  <br><br>[![CI](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml)
-![License](https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp)
+  <br><br>[![CI](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml)![License](https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp)
 </details>
 
-## 🧭 Hub completo
+## 🧭 Altri laboratori
 <p>
   <a href="#software"><strong>[Software]</strong></a>
   <a href="#books"><strong>[Libri]</strong></a>
@@ -55,17 +54,8 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 **🎙️ GYTE — GiadaWare YouTube Transcript Extractor — [`gyte`](https://github.com/gcomneno/gyte)**<br>
 Toolkit per scaricare, tradurre e processare trascrizioni YouTube in batch: separazione netta dei provider AI, hardening DevSecOps e comandi “umani” per chi vuole lavorare sui testi dei video.
 
-**🌀 Turbo-Bucketizer 2 — [`turbo-bucketizer-cpp`](https://github.com/gcomneno/turbo-bucketizer-cpp)**<br>
-Partizionatore IPv4 deterministico ad alta entropia scritto in C++17: realizza permutazioni affini su 2³² per distribuire indirizzi in bucket “mescolati” ma ripetibili, utile per sharding e load-balancing.
-
 **💎 Crystal Codec (GCC v1) — [`crystal-codec-gcc-v1`](https://github.com/gcomneno/crystal-codec-gcc-v1)**<br>
 Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.
-
-**🧅 OCF Onion Compressor Framework — [`onion-compressor-framework`](https://github.com/gcomneno/onion-compressor-framework)**<br>
-Framework sperimentale per pipeline di compressione “a cipolla”: più stadi combinabili (trasformazioni numeriche, Huffman, ecc.), pensato per confrontare strategie diverse su dati eterogenei.
-
-**🐒 LeLe Manager — [`lele-manager`](https://github.com/gcomneno/lele-manager)**<br>
-Gestore personale di “lesson learned”: CLI + API per raccogliere, taggare e cercare note tecniche, incidenti e micro-postmortem, con l’idea di non ripetere due volte lo stesso errore.
 
 **🧮 OEIS Probe — [`oeis-probe`](https://github.com/gcomneno/oeis-probe)**<br>
 Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.
