@@ -168,7 +168,8 @@ Highlights (1):
 <!-- Aggiungi qui sotto nuovi contributi (uno per blocco). Mantieni formato coerente. -->
 
 - **astral-sh/ruff** — PR: “TD003: allow Jira-style issue keys on TODO line”  
-  https://github.com/astral-sh/ruff/pull/23118
+  PR: [astral-sh/ruff #23118](https://github.com/astral-sh/ruff/pull/23118)  
+  _Closed after maintainers consolidated multiple parallel PRs on the same issue._
 
 </details>
 ---
