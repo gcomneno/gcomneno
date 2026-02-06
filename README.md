@@ -106,6 +106,16 @@ Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: g
 
 ---
 
+## 🌍 Contributi Open Source
+
+- **pypa/pip-audit** — PR: “Issue templates: improve bug report guidance (latest release + duplicates)”  
+  https://github.com/pypa/pip-audit/pull/996
+
+- **astral-sh/ruff** — PR: “TD003: allow Jira-style issue keys on TODO line”  
+  https://github.com/astral-sh/ruff/pull/23118
+
+---
+
 ### 💬 Motto
 > “Se funziona ed è assurdo, allora è perfettamente logico!”
 
