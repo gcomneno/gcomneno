@@ -39,16 +39,50 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 ### 💖 Progetti in evidenza
 
 - **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer: performance + test/CI + release pronta  
-  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp
+  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
+  <p>
+    <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg">
+    </a>
+    &nbsp;
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp">
+  </p>
 
 - **LeLe Manager (Python)** — ML tooling end-to-end (CLI + API): testabilità, packaging, disciplina da prodotto  
-  Repo: https://github.com/gcomneno/lele-manager
+  Repo: https://github.com/gcomneno/lele-manager  
+  <p>
+    <a href="https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml/badge.svg">
+    </a>
+    &nbsp;
+    <a href="https://github.com/gcomneno/lele-manager/actions/workflows/security.yml">
+      <img alt="Security" src="https://github.com/gcomneno/lele-manager/actions/workflows/security.yml/badge.svg">
+    </a>
+  </p>
 
 - **OCF — Onion Compressor Framework** — framework modulare: layer pluggabili + quality gates (lint/test)  
-  Repo: https://github.com/gcomneno/onion-compressor-framework
+  Repo: https://github.com/gcomneno/onion-compressor-framework  
+  <p>
+    <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml">
+      <img alt="CI Gate" src="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml/badge.svg">
+    </a>
+    &nbsp;
+    <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml/badge.svg">
+    </a>
+  </p>
 
-- **GYTE — YouTube Transcript Extractor** — pipeline batch di trascrizioni: provider AI separati + comandi “umani” per lavorare sui testi  
-  Repo: https://github.com/gcomneno/gyte
+- **GYTE — YouTube Transcript Extractor** — pipeline batch di trascrizioni: provider separati + CLI “umana” per lavorare sui testi  
+  Repo: https://github.com/gcomneno/gyte  
+  <p>
+    <a href="https://github.com/gcomneno/gyte/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/gyte/actions/workflows/ci.yml/badge.svg">
+    </a>
+    &nbsp;
+    <a href="https://github.com/gcomneno/gyte/actions/workflows/yt-dlp-dry-run.yml">
+      <img alt="yt-dlp dry run" src="https://github.com/gcomneno/gyte/actions/workflows/yt-dlp-dry-run.yml/badge.svg">
+    </a>
+  </p>
 
 ---
 
