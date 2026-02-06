@@ -1,4 +1,4 @@
-<h1 align="center">👋 Benvenuto nel laboratorio semi-serio di un folle lucido — <strong>Giadaware</strong></h1>
+<h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong></h1>
 
 <p align="center">
   <a href="https://github.com/sponsors/gcomneno">
@@ -16,6 +16,17 @@
 ---
 
 <a id="top"></a>
+
+<h1 align="center">
+  Giadaware Lab (Italia)<br>
+  Backend & Data Engineering
+</h1>
+
+<p align="center">
+  Tooling & librerie “production-style”: CI, test automatici, release, documentazione e CLI usabili.
+</p>
+
+---
 
 Sono <strong>Giancarlo</strong>, programmatore curioso, <a href="#music">compositore</a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software">esperimenti software</a> improbabili.<br><br>
 <strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
