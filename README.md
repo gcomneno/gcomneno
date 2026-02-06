@@ -73,7 +73,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   </p>
 
 - **GYTE — YouTube Transcript Extractor** — pipeline batch di trascrizioni: provider separati + CLI “umana” per lavorare sui testi  
-  Repo: https://github.com/gcomneno/gyte  
+  Repo: https://github.com/gcomneno/gyte · Release: https://github.com/gcomneno/gyte/releases/tag/v1.2.1  
   <p>
     <a href="https://github.com/gcomneno/gyte/actions/workflows/ci.yml">
       <img alt="CI" src="https://github.com/gcomneno/gyte/actions/workflows/ci.yml/badge.svg">
@@ -82,6 +82,8 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     <a href="https://github.com/gcomneno/gyte/actions/workflows/yt-dlp-dry-run.yml">
       <img alt="yt-dlp dry run" src="https://github.com/gcomneno/gyte/actions/workflows/yt-dlp-dry-run.yml/badge.svg">
     </a>
+    &nbsp;
+    <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/gyte?display_name=tag">
   </p>
 
 ---
