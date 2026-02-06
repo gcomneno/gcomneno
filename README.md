@@ -1,4 +1,4 @@
-<h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong></h1>
+<h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong> 👋</h1>
 
 <p align="center">
   <a href="https://github.com/sponsors/gcomneno">
@@ -18,7 +18,7 @@
 <a id="top"></a>
 
 <h1 align="center">
-  Giadaware Lab (Italia)<br>
+  Giadaware Remote Lab (Italia)<br>
   Backend & Data Engineering
 </h1>
 
@@ -36,61 +36,62 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ---
 
-### 💖 Progetti in evidenza:
+### 💖 Progetti in evidenza
 
-- **OCF — Onion Compressor Framework** → architettura modulare + CI “seria” (lint/test + gate CLI)  
-  Repo: [onion-compressor-framework](https://github.com/gcomneno/onion-compressor-framework)
-  <br><br>[![CI Gate](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml/badge.svg)](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml)
-[![CI](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml)
-![Ruff](https://img.shields.io/badge/ruff-lint-success)
+- **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer: performance + test/CI + release pronta  
+  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp
 
-- **LeLe Manager** → ML tooling end-to-end (CLI + API), testabilità, packaging, disciplina da prodotto  
-  Repo: [lele-manager](https://github.com/gcomneno/lele-manager)
-  <br><br>[![Security](https://github.com/gcomneno/lele-manager/actions/workflows/security.yml/badge.svg)](https://github.com/gcomneno/lele-manager/actions/workflows/security.yml)
-[![CI](https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml)
-![Ruff](https://img.shields.io/badge/ruff-lint-success)
+- **LeLe Manager (Python)** — ML tooling end-to-end (CLI + API): testabilità, packaging, disciplina da prodotto  
+  Repo: https://github.com/gcomneno/lele-manager
 
-- **Turbo-Bucketizer C++17** → determinismo, performance, clean C++ (CMake/CTest), design “da colloquio”  
-  Repo: [turbo-bucketizer-cpp](https://github.com/gcomneno/turbo-bucketizer-cpp)
-  <br><br>[![CI](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg)](https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml)![License](https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp)
+- **OCF — Onion Compressor Framework** — framework modulare: layer pluggabili + quality gates (lint/test)  
+  Repo: https://github.com/gcomneno/onion-compressor-framework
+
+- **GYTE — YouTube Transcript Extractor** — pipeline batch di trascrizioni: provider AI separati + comandi “umani” per lavorare sui testi  
+  Repo: https://github.com/gcomneno/gyte
+
+---
+
+## 🧭 Altri progetti (R&D / laboratori)
+
+<details>
+<summary><strong>Apri elenco completo (matematica, compressione, security-lab, esperimenti)</strong></summary>
+
+<br>
+
+- **💎 Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
+  Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.  
+  Repo: https://github.com/gcomneno/crystal-codec-gcc-v1
+
+- **🧮 OEIS Probe** — `oeis-probe`  
+  Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.  
+  Repo: https://github.com/gcomneno/oeis-probe
+
+- **📊 Digit-Probe** — `digit-probe`  
+  Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.  
+  Repo: https://github.com/gcomneno/digit-probe
+
+- **🕰️ Prime Tower Clocks** — `prime-tower-clocks`  
+  Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.  
+  Repo: https://github.com/gcomneno/prime-tower-clocks
+
+- **🧬 Huffman Compressor (legacy)** — `huffman-compressor`  
+  Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.  
+  Repo: https://github.com/gcomneno/huffman-compressor
+
+- **🍝 Lasagna v2** — `lasagna-v2`  
+  Codec sperimentale per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.  
+  Repo: https://github.com/gcomneno/lasagna-v2
+
+- **🛡️ Cyber-Security Lab** — `cyse-lab`  
+  Laboratorio didattico white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.  
+  Repo: https://github.com/gcomneno/cyse-lab
+
+- **🎯 GianKoLotto® — Smart Combos** — `giankolotto-smart-combos`  
+  Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo combinazioni “sensate” rispetto a regole/filtri configurabili.  
+  Repo: https://github.com/gcomneno/giankolotto-smart-combos
+
 </details>
-
-## 🧭 Altri laboratori
-<p>
-  <a href="#software"><strong>[Software]</strong></a>
-  <a href="#books"><strong>[Libri]</strong></a>
-  <a href="#music"><strong>[Musica]</strong></a>
-</p>
-
-**🎙️ GYTE — GiadaWare YouTube Transcript Extractor — [`gyte`](https://github.com/gcomneno/gyte)**<br>
-Toolkit per scaricare, tradurre e processare trascrizioni YouTube in batch: separazione netta dei provider AI, hardening DevSecOps e comandi “umani” per chi vuole lavorare sui testi dei video.
-
-**💎 Crystal Codec (GCC v1) — [`crystal-codec-gcc-v1`](https://github.com/gcomneno/crystal-codec-gcc-v1)**<br>
-Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.
-
-**🧮 OEIS Probe — [`oeis-probe`](https://github.com/gcomneno/oeis-probe)**<br>
-Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.
-
-**📊 Digit-Probe — [`digit-probe`](https://github.com/gcomneno/digit-probe)**<br>
-Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.
-
-**🕰️ Prime Tower Clocks — [`prime-tower-clocks`](https://github.com/gcomneno/prime-tower-clocks)**<br>
-Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.
-
-**🧬 GCC Huffman Compressor (legacy) — [`huffman-compressor`](https://github.com/gcomneno/huffman-compressor)**<br>
-Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.
-
-**🍝 Lasagna v2 — [`lasagna-v2`](https://github.com/gcomneno/lasagna-v2)**<br>
-Codec sperimentale per serie temporali ispirato a una lasagna: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.
-
-**🛡️ Cyber-Security Lab — [`cyse-lab`](https://github.com/gcomneno/cyse-lab)**<br>
-Laboratorio didattico di CyberSec white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.
-
-**🎯 GianKoLotto® — Smart Combos — [`giankolotto-smart-combos`](https://github.com/gcomneno/giankolotto-smart-combos)**<br>
-Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo le combinazioni “sensate” rispetto a regole/filtri configurabili, pensato come palestra algoritmica sui vincoli.
-
-[1]: https://github.com/topics/giadaware "giadaware · GitHub Topics · GitHub"
-[2]: https://github.com/gcomneno/onion-compressor-framework "GitHub - gcomneno/onion-compressor-framework: Framework “a cipolla” per compressione lossless con layer semantici pluggabili (multi-stream), codec pluggabili (Huffman, zlib, raw, …), container binario con payload e workflow directory-based con bucketing + autopick + archivi `.gca` (GCA1) + resources"
 
 ---
 
@@ -119,12 +120,21 @@ Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: g
 
 ## 🌍 Contributi Open Source
 
+Highlights (1):
 - **pypa/pip-audit** — PR: “Issue templates: improve bug report guidance (latest release + duplicates)”  
   https://github.com/pypa/pip-audit/pull/996
+
+<details>
+<summary><strong>Apri elenco completo (in crescita)</strong></summary>
+
+<br>
+
+<!-- Aggiungi qui sotto nuovi contributi (uno per blocco). Mantieni formato coerente. -->
 
 - **astral-sh/ruff** — PR: “TD003: allow Jira-style issue keys on TODO line”  
   https://github.com/astral-sh/ruff/pull/23118
 
+</details>
 ---
 
 ### 💬 Motto
