@@ -172,9 +172,13 @@ Highlights (1):
 
 - **astral-sh/ruff** — PR: “TD003: allow Jira-style issue keys on TODO line”  
   PR: [astral-sh/ruff #23118](https://github.com/astral-sh/ruff/pull/23118)  
-  _Closed after maintainers consolidated multiple parallel PRs on the same issue._
+  _Closed after maintainers consolidated multiple parallel PRs on the same issue._<br>
+  _astral-sh/ruff — tests: TD003 fixtures for inline Jira issue keys (commit link)_
 
 </details>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
 ---
 
 ### 💬 Motto
@@ -186,6 +190,8 @@ Highlights (1):
   </a>
 </p>
 
+---
+
 <p align="center"><em>💖 Supporta “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
 
 <br>
@@ -193,3 +199,7 @@ Highlights (1):
   <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
 </p>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
+---
