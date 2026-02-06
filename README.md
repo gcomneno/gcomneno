@@ -159,9 +159,12 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ## 🌍 Contributi Open Source
 
-Highlights (1):
+Highlights (2):
+- **pypa/pip-audit** — PR: “tests(osv): document and cover ecosystem_specific python_runtime (no filtering)”  
+  PR: [pypa/pip-audit #997](https://github.com/pypa/pip-audit/pull/997) · Issue: [#949](https://github.com/pypa/pip-audit/issues/949)
+
 - **pypa/pip-audit** — PR: “Issue templates: improve bug report guidance (latest release + duplicates)”  
-  https://github.com/pypa/pip-audit/pull/996
+  PR: [pypa/pip-audit #996](https://github.com/pypa/pip-audit/pull/996)
 
 <details>
 <summary><strong>Apri elenco completo (in crescita)</strong></summary>
@@ -172,14 +175,17 @@ Highlights (1):
 
 - **astral-sh/ruff** — PR: “TD003: allow Jira-style issue keys on TODO line”  
   PR: [astral-sh/ruff #23118](https://github.com/astral-sh/ruff/pull/23118)  
-  _Closed after maintainers consolidated multiple parallel PRs on the same issue._<br>
-  _astral-sh/ruff — tests: TD003 fixtures for inline Jira issue keys (commit link)_
+  _Closed after maintainers consolidated multiple parallel PRs on the same issue._
+
+- **astral-sh/ruff** — tests: TD003 fixtures for inline Jira issue keys  
+  Commit: [0f26e06706](https://github.com/gcomneno/ruff/commit/0f26e06706af5143cace1321925873e66ee50c1f)
 
 </details>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
+
 
 ### 💬 Motto
 > “Se funziona ed è assurdo, allora è perfettamente logico!”
