@@ -1,4 +1,7 @@
 <h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong> 👋</h1>
+<p align="center">
+  Backend & Data Engineer — C / C++ / PHP / Python · CLI tooling · OSS contributor
+</p>
 
 <p align="center">
   <a href="https://github.com/sponsors/gcomneno">
