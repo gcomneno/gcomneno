@@ -156,22 +156,25 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
-
 ## 🌍 Contributi Open Source
 
 Highlights (2):
-- **pypa/pip-audit** — PR: “tests(osv): document and cover ecosystem_specific python_runtime (no filtering)”  
-  PR: [pypa/pip-audit #997](https://github.com/pypa/pip-audit/pull/997) · Issue: [#949](https://github.com/pypa/pip-audit/issues/949)
+- **pypa/pip** — PR: “Improve pip config set error when PIP_CONFIG_FILE is non-regular”  
+  PR: [pypa/pip #13790](https://github.com/pypa/pip/pull/13790) · Issue: [pypa/pip #11880](https://github.com/pypa/pip/issues/11880)
 
 - **pypa/pip-audit** — PR: “Issue templates: improve bug report guidance (latest release + duplicates)”  
-  PR: [pypa/pip-audit #996](https://github.com/pypa/pip-audit/pull/996)
+  PR: [pypa/pip-audit #996](https://github.com/pypa/pip-audit/pull/996) · Issue: [#588](https://github.com/pypa/pip-audit/issues/588)
 
 <details>
-<summary><strong>Apri elenco completo (in crescita)</strong></summary>
+<summary><strong>Apri elenco completo</strong></summary>
 
 <br>
 
 <!-- Aggiungi qui sotto nuovi contributi (uno per blocco). Mantieni formato coerente. -->
+
+- **pypa/pip-audit** — PR: “tests(osv): document and cover ecosystem_specific python_runtime (no filtering)”  
+  PR: [pypa/pip-audit #997](https://github.com/pypa/pip-audit/pull/997) · Issue: [#949](https://github.com/pypa/pip-audit/issues/949)  
+  _Closed after maintainer feedback: OSV/PYSEC semantics need to be standardised before documenting/testing._
 
 - **astral-sh/ruff** — PR: “TD003: allow Jira-style issue keys on TODO line”  
   PR: [astral-sh/ruff #23118](https://github.com/astral-sh/ruff/pull/23118)  
