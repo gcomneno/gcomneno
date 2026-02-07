@@ -98,6 +98,11 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 <br>
 
+- **🛠️ Ubuntu System Tools** — `ubuntu-system-tools`  
+  A small set of **read-only** Ubuntu CLI tools (Bash), designed to be **public-safe**.
+  - `who-uses`: scan projects (and optional system snapshots) to find references to a term
+  - Repo: https://github.com/gcomneno/ubuntu-system-tools
+
 - **💎 Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
   Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.  
   Repo: https://github.com/gcomneno/crystal-codec-gcc-v1
