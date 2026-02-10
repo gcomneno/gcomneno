@@ -161,36 +161,43 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
+
 ## 🌍 Contributi Open Source
 
-Highlights (2):
-- **pypa/pip** — PR: “Improve pip config set error when PIP_CONFIG_FILE is non-regular”  
-  PR: [pypa/pip #13790](https://github.com/pypa/pip/pull/13790) · Issue: [pypa/pip #11880](https://github.com/pypa/pip/issues/11880)
+Highlights (recenti):
 
-- **pypa/pip-audit** — PR: “Issue templates: improve bug report guidance (latest release + duplicates)”  
-  PR: [pypa/pip-audit #996](https://github.com/pypa/pip-audit/pull/996) · Issue: [#588](https://github.com/pypa/pip-audit/issues/588)
+- **pypa/pip** — UX / error messages (constraints)  
+  PR **#13797** · Fixes #13226
+
+- **pypa/pip** — config UX (PIP_CONFIG_FILE non-regular)  
+  PR **#13790** · Fixes #11880
+
+- **pypa/pip** — warning diagnostics (self version check reason)  
+  PR **#13793** · Refs #13352
+
+- **pypa/pip-audit** — issue templates / triage quality  
+  PR **#996** · Closes #588
 
 <details>
 <summary><strong>Apri elenco completo</strong></summary>
 
 <br>
 
-<!-- Aggiungi qui sotto nuovi contributi (uno per blocco). Mantieni formato coerente. -->
+- **pypa/pip-audit** — CLI contract + regression test  
+  PR **#998**
 
-- **pypa/pip-audit** — PR: “tests(osv): document and cover ecosystem_specific python_runtime (no filtering)”  
-  PR: [pypa/pip-audit #997](https://github.com/pypa/pip-audit/pull/997) · Issue: [#949](https://github.com/pypa/pip-audit/issues/949)  
-  _Closed after maintainer feedback: OSV/PYSEC semantics need to be standardised before documenting/testing._
+- **pypa/pip-audit** — OSV semantics (rinviata)  
+  PR **#997**  
+  _Closed after maintainer feedback: semantics need standardisation._
 
-- **astral-sh/ruff** — PR: “TD003: allow Jira-style issue keys on TODO line”  
-  PR: [astral-sh/ruff #23118](https://github.com/astral-sh/ruff/pull/23118)  
-  _Closed after maintainers consolidated multiple parallel PRs on the same issue._
+- **astral-sh/ruff** — TD003 Jira keys (chiusa per duplicazione)  
+  PR **#23118**  
+  _Closed after maintainers consolidated parallel PRs._
 
-- **astral-sh/ruff** — tests: TD003 fixtures for inline Jira issue keys  
-  Commit: [0f26e06706](https://github.com/gcomneno/ruff/commit/0f26e06706af5143cace1321925873e66ee50c1f)
+- **astral-sh/ruff** — tests/fixtures (fork)  
+  Commit `0f26e06706` (TD003 fixtures for inline Jira issue keys)
 
 </details>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
 
