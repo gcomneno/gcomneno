@@ -20,10 +20,9 @@
 
 <a id="top"></a>
 
-<h1 align="center">
-  Giadaware Remote Lab (Italia)<br>
-  Backend & Data Engineering
-</h1>
+<h2 align="center">
+  Giadaware Remote Lab (Italia) · Backend & Data Engineering
+</h2>
 
 <p align="center">
   Tooling & librerie “production-style”: CI, test automatici, release, documentazione e CLI usabili.
