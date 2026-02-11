@@ -40,7 +40,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ### 💖 Progetti in evidenza
 
-- **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer: performance + test/CI + release pronta  
+- **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.
   Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
   <p>
     <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml">
@@ -50,7 +50,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp">
   </p>
 
-- **LeLe Manager (Python)** — ML tooling end-to-end (CLI + API): testabilità, packaging, disciplina da prodotto  
+- **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e disciplina di packaging.
   Repo: https://github.com/gcomneno/lele-manager  
   <p>
     <a href="https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml">
@@ -62,7 +62,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     </a>
   </p>
 
-- **OCF — Onion Compressor Framework** — framework modulare: layer pluggabili + quality gates (lint/test)  
+- **OCF — Onion Compressor Framework** — Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.
   Repo: https://github.com/gcomneno/onion-compressor-framework  
   <p>
     <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml">
@@ -74,7 +74,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     </a>
   </p>
 
-- **GYTE — YouTube Transcript Extractor** — pipeline batch di trascrizioni: provider separati + CLI “umana” per lavorare sui testi  
+- **GYTE — YouTube Transcript Extractor** — Batch extractor di trascrizioni YouTube con astrazione dei provider, CLI “umana” e workflow riproducibili.
   Repo: https://github.com/gcomneno/gyte · Release: https://github.com/gcomneno/gyte/releases/tag/v1.2.1  
   <p>
     <a href="https://github.com/gcomneno/gyte/actions/workflows/ci.yml">
