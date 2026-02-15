@@ -97,9 +97,13 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 <br>
 
+- **🧪 QHSE Supply Chain Demo** — `qhse-supplychain-demo`  
+  Demo di gestione **Qualità, Health, Safety & Environment** lungo la supply chain: controllo NC, KPI, auditabilità e flussi dati con confini architetturali chiari, pronta per essere estesa verso produzione (permessi, osservabilità, integrazioni).  
+  - Repo: https://github.com/gcomneno/qhse-supplychain-demo
+
 - **🛠️ Ubuntu System Tools** — `ubuntu-system-tools`  
-  A small set of **read-only** Ubuntu CLI tools (Bash), designed to be **public-safe**.
-  - `who-uses`: scan projects (and optional system snapshots) to find references to a term
+  Piccolo set di tool CLI per Ubuntu (Bash), **read-only** e pensati per essere **public-safe**.  
+  - `who-uses`: scansiona progetti (e opzionali snapshot di sistema) per trovare riferimenti a un termine  
   - Repo: https://github.com/gcomneno/ubuntu-system-tools
 
 - **💎 Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
