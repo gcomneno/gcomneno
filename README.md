@@ -40,14 +40,15 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ### 💖 Progetti in evidenza
 
-- **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.
-  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
+- **QHSE Supply Chain Demo** — Reliability-oriented backend architecture (FastAPI + SQLAlchemy + Postgres + Outbox pattern).  
+  Transaction boundaries, idempotent worker, RBAC enforcement and documented failure model.  
+  Repo: https://github.com/gcomneno/qhse-supplychain-demo  
   <p>
-    <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml">
-      <img alt="CI" src="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg">
-    </a>
+    <img alt="Architecture" src="https://img.shields.io/badge/Architecture-Transactional%20Outbox-blue">
     &nbsp;
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp">
+    <img alt="RBAC" src="https://img.shields.io/badge/Security-JWT%20%2B%20RBAC-green">
+    &nbsp;
+    <img alt="Tests" src="https://img.shields.io/badge/Tested-Yes-brightgreen">
   </p>
 
 - **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e disciplina di packaging.
@@ -88,6 +89,16 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/gyte?display_name=tag">
   </p>
 
+- **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.
+  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
+  <p>
+    <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg">
+    </a>
+    &nbsp;
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp">
+  </p>
+
 ---
 
 ## 🧭 Altri progetti (R&D / laboratori)
@@ -96,10 +107,6 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 <summary><strong>Apri elenco completo (matematica, compressione, security-lab, esperimenti)</strong></summary>
 
 <br>
-
-- **🧪 QHSE Supply Chain Demo** — `qhse-supplychain-demo`  
-  Demo di gestione **Qualità, Health, Safety & Environment** lungo la supply chain: controllo NC, KPI, auditabilità e flussi dati con confini architetturali chiari, pronta per essere estesa verso produzione (permessi, osservabilità, integrazioni).  
-  - Repo: https://github.com/gcomneno/qhse-supplychain-demo
 
 - **🛠️ Ubuntu System Tools** — `ubuntu-system-tools`  
   Piccolo set di tool CLI per Ubuntu (Bash), **read-only** e pensati per essere **public-safe**.  
