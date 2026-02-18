@@ -33,6 +33,14 @@
 
  ---
 
+## 🗞️ News
+
+<!-- NEWS:START -->
+- **2026-02-18** — Completato **ATTO III** (*Le Cronache del Gentiluomo delle Ombre*). "Il Primo Cerchio" ✅
+<!-- NEWS:END -->
+
+ ---
+
 Sono <strong>Giancarlo</strong>, programmatore curioso, <a href="#music">compositore</a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software">esperimenti software</a> improbabili.<br><br>
  <strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
  Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e narrativa.
