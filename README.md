@@ -16,6 +16,18 @@
   <img alt="Views" src="https://komarev.com/ghpvc/?username=gcomneno&style=for-the-badge">
 </p>
 
+<p align="center">
+  <a href="#software">
+    <img alt="SOFTWARE LABs" src="https://img.shields.io/badge/SOFTWARE%20LABs-R%26D%20%2F%20tools-blue?style=for-the-badge">
+  </a>
+  <a href="#books">
+    <img alt="CLUB DELL'ASSURDO (Narrativa)" src="https://img.shields.io/badge/CLUB%20DELL'ASSURDO-Narrativa-purple?style=for-the-badge">
+  </a>
+  <a href="#music">
+    <img alt="MUSICA" src="https://img.shields.io/badge/MUSICA-Bandcamp-black?style=for-the-badge">
+  </a>
+</p>
+
 ---
 
 <a id="top"></a>
@@ -100,7 +112,7 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
   </p>
 
 ---
-
+<a id="software"></a>
 ## 🧭 Altri progetti (R&D / laboratori)
 
 <details>
