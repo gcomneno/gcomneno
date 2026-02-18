@@ -225,8 +225,8 @@ Highlights (recenti):
 <p align="center"><em>💖 Supporta “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true&cache_seconds=21600" height="140" alt="Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact&cache_seconds=21600" height="140" alt="Top Langs">
+  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
 </p>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
