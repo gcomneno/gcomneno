@@ -1,46 +1,234 @@
- <h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong> 👋</h1>
- <p align="center">
-   Backend & Data Engineer — C / C++ / PHP / Python · CLI tooling · OSS contributor
- </p>
+<h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong> 👋</h1>
+<p align="center">
+  Backend & Data Engineer — C / C++ / PHP / Python · CLI tooling · OSS contributor
+</p>
 
- <p align="center">
-   <a href="https://github.com/sponsors/gcomneno">
-     <img alt="Sponsor" src="https://img.shields.io/badge/Sponsor-💖-ea4aaa?style=for-the-badge">
-   </a>
-   <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news">
-     <img alt="News" src="https://img.shields.io/badge/News-ultimi%20aggiornamenti-orange?style=for-the-badge">
-   </a>
-   <a href="https://github.com/gcomneno">
-     <img alt="Followers" src="https://img.shields.io/github/followers/gcomneno?style=for-the-badge&label=Followers">
-   </a>
-   <a href="https://github.com/gcomneno?tab=repositories">
-     <img alt="Repos" src="https://img.shields.io/badge/Repos-Explore-blue?style=for-the-badge">
-   </a>
-   <img alt="Views" src="https://komarev.com/ghpvc/?username=gcomneno&style=for-the-badge">
- </p>
+<p align="center">
+  <a href="https://github.com/sponsors/gcomneno">
+    <img alt="Sponsor" src="https://img.shields.io/badge/Sponsor-💖-ea4aaa?style=for-the-badge">
+  </a>
+  <a href="https://github.com/gcomneno">
+    <img alt="Followers" src="https://img.shields.io/github/followers/gcomneno?style=for-the-badge&label=Followers">
+  </a>
+  <a href="https://github.com/gcomneno?tab=repositories">
+    <img alt="Repos" src="https://img.shields.io/badge/Repos-Explore-blue?style=for-the-badge">
+  </a>
+  <img alt="Views" src="https://komarev.com/ghpvc/?username=gcomneno&style=for-the-badge">
+</p>
 
- ---
+---
 
- <a id="top"></a>
+<a id="top"></a>
 
- <h2 align="center">
-   Giadaware Remote Lab (Italia) · Backend & Data Engineering
- </h2>
+<h2 align="center">
+  Giadaware Remote Lab (Italia) · Backend & Data Engineering
+</h2>
 
- <p align="center">
-   Tooling & librerie “production-style”: CI, test automatici, release, documentazione e CLI usabili.
- </p>
+<p align="center">
+  Tooling & librerie “production-style”: CI, test automatici, release, documentazione e CLI usabili.
+</p>
 
- ---
-
-## 🗞️ News
-
-<!-- NEWS:START -->
-- **2026-02-18** — Completato **ATTO III** (*Le Cronache del Gentiluomo delle Ombre*). "Il Primo Cerchio" ✅
-<!-- NEWS:END -->
-
- ---
+---
 
 Sono <strong>Giancarlo</strong>, programmatore curioso, <a href="#music">compositore</a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software">esperimenti software</a> improbabili.<br><br>
- <strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
- Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e narrativa.
+<strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
+Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e narrativa.
+
+<em>Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!</em>
+
+---
+
+### 💖 Progetti in evidenza
+
+- **QHSE Supply Chain Demo** — Architettura backend orientata all’affidabilità (FastAPI + SQLAlchemy + Postgres + pattern Outbox).
+Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e modelli ben documentati.
+  Repo: https://github.com/gcomneno/qhse-supplychain-demo  
+  <p>
+    <img alt="Architecture" src="https://img.shields.io/badge/Architecture-Transactional%20Outbox-blue">
+    &nbsp;
+    <img alt="RBAC" src="https://img.shields.io/badge/Security-JWT%20%2B%20RBAC-green">
+    &nbsp;
+    <img alt="Tests" src="https://img.shields.io/badge/Tested-Yes-brightgreen">
+  </p>
+
+- **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e disciplina di packaging.
+  Repo: https://github.com/gcomneno/lele-manager  
+  <p>
+    <a href="https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml/badge.svg">
+    </a>
+    &nbsp;
+    <a href="https://github.com/gcomneno/lele-manager/actions/workflows/security.yml">
+      <img alt="Security" src="https://github.com/gcomneno/lele-manager/actions/workflows/security.yml/badge.svg">
+    </a>
+  </p>
+
+- **OCF — Onion Compressor Framework** — Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.
+  Repo: https://github.com/gcomneno/onion-compressor-framework  
+  <p>
+    <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml">
+      <img alt="CI Gate" src="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml/badge.svg">
+    </a>
+    &nbsp;
+    <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml/badge.svg">
+    </a>
+  </p>
+
+- **GYTE — YouTube Transcript Extractor** — Batch extractor di trascrizioni YouTube con astrazione dei provider, CLI “umana” e workflow riproducibili.
+  Repo: https://github.com/gcomneno/gyte · Release: https://github.com/gcomneno/gyte/releases/tag/v1.2.1  
+  <p>
+    <a href="https://github.com/gcomneno/gyte/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/gyte/actions/workflows/ci.yml/badge.svg">
+    </a>
+    &nbsp;
+    <a href="https://github.com/gcomneno/gyte/actions/workflows/yt-dlp-dry-run.yml">
+      <img alt="yt-dlp dry run" src="https://github.com/gcomneno/gyte/actions/workflows/yt-dlp-dry-run.yml/badge.svg">
+    </a>
+    &nbsp;
+    <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/gyte?display_name=tag">
+  </p>
+
+- **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.
+  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
+  <p>
+    <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml">
+      <img alt="CI" src="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg">
+    </a>
+    &nbsp;
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp">
+  </p>
+
+---
+
+## 🧭 Altri progetti (R&D / laboratori)
+
+<details>
+<summary><strong>Apri elenco completo (matematica, compressione, security-lab, esperimenti)</strong></summary>
+
+<br>
+
+- **🛠️ Ubuntu System Tools** — `ubuntu-system-tools`  
+  Piccolo set di tool CLI per Ubuntu (Bash), **read-only** e pensati per essere **public-safe**.  
+  Repo: https://github.com/gcomneno/ubuntu-system-tools
+
+- **💎 Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
+  Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.  
+  Repo: https://github.com/gcomneno/crystal-codec-gcc-v1
+
+- **🧮 OEIS Probe** — `oeis-probe`  
+  Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.  
+  Repo: https://github.com/gcomneno/oeis-probe
+
+- **📊 Digit-Probe** — `digit-probe`  
+  Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.  
+  Repo: https://github.com/gcomneno/digit-probe
+
+- **🕰️ Prime Tower Clocks** — `prime-tower-clocks`  
+  Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.  
+  Repo: https://github.com/gcomneno/prime-tower-clocks
+
+- **🧬 Huffman Compressor (legacy)** — `huffman-compressor`  
+  Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.  
+  Repo: https://github.com/gcomneno/huffman-compressor
+
+- **🍝 Lasagna v2** — `lasagna-v2`  
+  Codec sperimentale per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.  
+  Repo: https://github.com/gcomneno/lasagna-v2
+
+- **🛡️ Cyber-Security Lab** — `cyse-lab`  
+  Laboratorio didattico white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.  
+  Repo: https://github.com/gcomneno/cyse-lab
+
+- **🎯 GianKoLotto® — Smart Combos** — `giankolotto-smart-combos`  
+  Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo combinazioni “sensate” rispetto a regole/filtri configurabili.  
+  Repo: https://github.com/gcomneno/giankolotto-smart-combos
+
+</details>
+
+---
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
+<a id="books"></a>
+- 📚 <strong>Libri (surreale/ironico-filosofico):</strong>
+  <a href="https://github.com/gcomneno/club-dell-assurdo"><strong>Il Club dell’Assurdo</strong></a>
+  <p>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/@INIZIA_DA_QUI.md">Inizia da qui!</a><br>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news">News</a><br>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">Catalogo</a><br>
+    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/LICENSE">Licenza</a>
+  </p>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
+---
+
+<a id="music"></a>
+- 🎵 <strong>Musica (Bandcamp):</strong><br><br><a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
+---
+
+## 🌍 Contributi Open Source
+
+Highlights (recenti):
+
+- **pypa/pip** — UX / error messages (constraints)  
+  PR **#13797** · Fixes #13226
+
+- **pypa/pip** — config UX (PIP_CONFIG_FILE non-regular)  
+  PR **#13790** · Fixes #11880
+
+- **pypa/pip** — warning diagnostics (self version check reason)  
+  PR **#13793** · Refs #13352
+
+- **pypa/pip-audit** — issue templates / triage quality  
+  PR **#996** · Closes #588
+
+<details>
+<summary><strong>Apri elenco completo</strong></summary>
+
+<br>
+
+- **pypa/pip-audit** — CLI contract + regression test  
+  PR **#998**
+
+- **pypa/pip-audit** — OSV semantics (rinviata)  
+  PR **#997**  
+  _Closed after maintainer feedback: semantics need standardisation._
+
+- **astral-sh/ruff** — TD003 Jira keys (chiusa per duplicazione)  
+  PR **#23118**  
+  _Closed after maintainers consolidated parallel PRs._
+
+- **astral-sh/ruff** — tests/fixtures (fork)  
+  Commit `0f26e06706` (TD003 fixtures for inline Jira issue keys)
+
+</details>
+
+---
+
+
+### 💬 Motto
+> “Se funziona ed è assurdo, allora è perfettamente logico!”
+
+<p align="center">
+  <a href="https://github.com/sponsors/gcomneno">
+    <img alt="Sponsor on GitHub" src="https://img.shields.io/badge/Sponsor%20on%20GitHub-💖-pink?style=for-the-badge">
+  </a>
+</p>
+
+---
+
+<p align="center"><em>💖 Supporta “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
+</p>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
+---
