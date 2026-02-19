@@ -42,11 +42,12 @@
 
 ---
 
-Sono <strong>Giancarlo</strong>, programmatore curioso, <a href="#music">compositore</a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software">esperimenti software</a> improbabili.<br><br>
+<p align="center">
+Sono <strong>Giancarlo</strong>, <a href="#music"><em>compositore</em></a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software"><em>esperimenti software</em></a> improbabili.<br><br>
 <strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
-Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e narrativa.
-
+Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e narrativa.<br><br>
 <em>Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!</em>
+</p>
 
 ---
 
