@@ -146,6 +146,14 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
 
 ---
 
+## 🌍 Contributi Open Source
+
+- **[pypa/pip](https://github.com/pypa/pip)**
+- **[pypa/pip-audit](https://github.com/pypa/pip-audit)**
+- **[astral-sh/ruff](https://github.com/astral-sh/ruff)**
+
+---
+
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 <a id="books"></a>
@@ -166,14 +174,6 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
 - 🎵 <strong>Musica (Bandcamp):</strong><br><br><a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
-
----
-
-## 🌍 Contributi Open Source
-
-- **[pypa/pip](https://github.com/pypa/pip)**
-- **[pypa/pip-audit](https://github.com/pypa/pip-audit)**
-- **[astral-sh/ruff](https://github.com/astral-sh/ruff)**
 
 ---
 
