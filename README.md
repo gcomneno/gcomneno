@@ -75,18 +75,6 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
     </a>
   </p>
 
-- **OCF — Onion Compressor Framework** — Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.
-  Repo: https://github.com/gcomneno/onion-compressor-framework  
-  <p>
-    <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml">
-      <img alt="CI Gate" src="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci_gate.yml/badge.svg">
-    </a>
-    &nbsp;
-    <a href="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml">
-      <img alt="CI" src="https://github.com/gcomneno/onion-compressor-framework/actions/workflows/ci.yml/badge.svg">
-    </a>
-  </p>
-
 - **GYTE — YouTube Transcript Extractor** — Batch extractor di trascrizioni YouTube con astrazione dei provider, CLI “umana” e workflow riproducibili.
   Repo: https://github.com/gcomneno/gyte · Release: https://github.com/gcomneno/gyte/releases/tag/v1.2.1  
   <p>
@@ -101,16 +89,6 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
     <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/gyte?display_name=tag">
   </p>
 
-- **Turbo-Bucketizer (C++17)** — deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.
-  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
-  <p>
-    <a href="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml">
-      <img alt="CI" src="https://github.com/gcomneno/turbo-bucketizer-cpp/actions/workflows/ci.yml/badge.svg">
-    </a>
-    &nbsp;
-    <img alt="License" src="https://img.shields.io/github/license/gcomneno/turbo-bucketizer-cpp">
-  </p>
-
 ---
 <a id="software"></a>
 ## 🧭 Altri progetti (R&D / laboratori)
@@ -120,41 +98,49 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
 
 <br>
 
+- **OCF — Onion Compressor Framework** — `onion-compressor-framework`  
+  Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.  
+  Repo: https://github.com/gcomneno/onion-compressor-framework  
+
+- **Turbo-Bucketizer (C++17)** — `turbo-bucketizer-cpp`  
+  Deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.  
+  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
+
 - **🛠️ Ubuntu System Tools** — `ubuntu-system-tools`  
   Piccolo set di tool CLI per Ubuntu (Bash), **read-only** e pensati per essere **public-safe**.  
-  Repo: https://github.com/gcomneno/ubuntu-system-tools
+  Repo: https://github.com/gcomneno/ubuntu-system-tools  
 
 - **💎 Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
-  Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione.  
-  Repo: https://github.com/gcomneno/crystal-codec-gcc-v1
+  Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione. 
+  Repo: https://github.com/gcomneno/crystal-codec-gcc-v1  
 
 - **🧮 OEIS Probe** — `oeis-probe`  
   Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.  
-  Repo: https://github.com/gcomneno/oeis-probe
+  Repo: https://github.com/gcomneno/oeis-probe  
 
 - **📊 Digit-Probe** — `digit-probe`  
   Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.  
-  Repo: https://github.com/gcomneno/digit-probe
+  Repo: https://github.com/gcomneno/digit-probe  
 
 - **🕰️ Prime Tower Clocks** — `prime-tower-clocks`  
   Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.  
-  Repo: https://github.com/gcomneno/prime-tower-clocks
+  Repo: https://github.com/gcomneno/prime-tower-clocks  
 
 - **🧬 Huffman Compressor (legacy)** — `huffman-compressor`  
   Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.  
-  Repo: https://github.com/gcomneno/huffman-compressor
+  Repo: https://github.com/gcomneno/huffman-compressor  
 
 - **🍝 Lasagna v2** — `lasagna-v2`  
   Codec sperimentale per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.  
-  Repo: https://github.com/gcomneno/lasagna-v2
+  Repo: https://github.com/gcomneno/lasagna-v2  
 
 - **🛡️ Cyber-Security Lab** — `cyse-lab`  
   Laboratorio didattico white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.  
-  Repo: https://github.com/gcomneno/cyse-lab
+  Repo: https://github.com/gcomneno/cyse-lab  
 
 - **🎯 GianKoLotto® — Smart Combos** — `giankolotto-smart-combos`  
   Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo combinazioni “sensate” rispetto a regole/filtri configurabili.  
-  Repo: https://github.com/gcomneno/giankolotto-smart-combos
+  Repo: https://github.com/gcomneno/giankolotto-smart-combos  
 
 </details>
 
