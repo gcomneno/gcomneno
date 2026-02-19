@@ -158,23 +158,59 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 <a id="books"></a>
-- 📚 <strong>Libri (surreale/ironico-filosofico):</strong>
-  <a href="https://github.com/gcomneno/club-dell-assurdo"><strong>Il Club dell’Assurdo</strong></a>
-  <p>
-    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/@INIZIA_DA_QUI.md">Inizia da qui!</a><br>
-    - <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news">News</a><br>
-    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">Catalogo</a><br>
-    - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/LICENSE">Licenza</a>
-  </p>
+## 📚 Narrativa — Il Club dell’Assurdo
+
+<p>
+<strong>Narrativa breve e seriale tra surreale e satira.</strong>Storie che fanno ridere… e poi ti rubano la sedia da sotto il (????).
+</p>
+
+<p>
+Universo narrativo in evoluzione continua, strutturato come una vera libreria digitale:
+atti, episodi, catalogo, roadmap editoriale e manifesto poetico.
+</p>
+
+<ul>
+  <li>🎭 Surreale logico</li>
+  <li>🧠 Satira filosofica</li>
+  <li>🕰️ Memoria, identità, potere</li>
+  <li>📖 Serialità modulare (atti / episodi / bites)</li>
+</ul>
+
+<p>
+👉 <a href="https://github.com/gcomneno/club-dell-assurdo"><strong>Entra nel Club dell’Assurdo</strong></a>
+</p>
+
+<p>
+- <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/@INIZIA_DA_QUI.md">Inizia da qui</a><br>
+- <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">Catalogo completo</a><br>
+- <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news">News & aggiornamenti</a>
+</p>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
 
 <a id="music"></a>
-- 🎵 <strong>Musica (Bandcamp):</strong><br><br><a href="https://theonlyfly.bandcamp.com/"><em>The Only Fly</em></a>
+## 🎵 Musica — "The Only Fly"
 
-<p align="right"><a href="#top">↑ torna su</a></p>
+<p>
+Composizioni originali tra elettronica minimale, atmosfera e sperimentazione.
+Strutture iterative, variazioni tematiche e ricerca timbrica.
+</p>
+
+<ul>
+  <li>🎹 Pattern ripetitivi e mutazioni controllate</li>
+  <li>🌌 Atmosfere cinematiche</li>
+  <li>🔁 Strutture quasi algoritmiche</li>
+</ul>
+
+<p>
+La musica è l’altra faccia del laboratorio: meno codice, stessa ossessione per struttura e forma.
+</p>
+
+<p>
+👉 <a href="https://theonlyfly.bandcamp.com/"><strong>Ascolta su Bandcamp</strong></a>
+</p>
 
 ---
 
