@@ -185,43 +185,11 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
 
 ## 🌍 Contributi Open Source
 
-Highlights (recenti):
-
-- **pypa/pip** — UX / error messages (constraints)  
-  PR **#13797** · Fixes #13226
-
-- **pypa/pip** — config UX (PIP_CONFIG_FILE non-regular)  
-  PR **#13790** · Fixes #11880
-
-- **pypa/pip** — warning diagnostics (self version check reason)  
-  PR **#13793** · Refs #13352
-
-- **pypa/pip-audit** — issue templates / triage quality  
-  PR **#996** · Closes #588
-
-<details>
-<summary><strong>Apri elenco completo</strong></summary>
-
-<br>
-
-- **pypa/pip-audit** — CLI contract + regression test  
-  PR **#998**
-
-- **pypa/pip-audit** — OSV semantics (rinviata)  
-  PR **#997**  
-  _Closed after maintainer feedback: semantics need standardisation._
-
-- **astral-sh/ruff** — TD003 Jira keys (chiusa per duplicazione)  
-  PR **#23118**  
-  _Closed after maintainers consolidated parallel PRs._
-
-- **astral-sh/ruff** — tests/fixtures (fork)  
-  Commit `0f26e06706` (TD003 fixtures for inline Jira issue keys)
-
-</details>
+- **[pypa/pip](https://github.com/pypa/pip)**
+- **[pypa/pip-audit](https://github.com/pypa/pip-audit)**
+- **[astral-sh/ruff](https://github.com/astral-sh/ruff)**
 
 ---
-
 
 ### 💬 Motto
 > “Se funziona ed è assurdo, allora è perfettamente logico!”
