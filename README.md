@@ -64,6 +64,9 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
     <img alt="Tests" src="https://img.shields.io/badge/Tested-Yes-brightgreen">
   </p>
 
+- **Ubuntu System Tools** — Piccolo set di tool CLI per Ubuntu (Bash), **read-only** e pensati per essere **public-safe**.  
+  Repo: https://github.com/gcomneno/ubuntu-system-tools  
+
 - **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e disciplina di packaging.
   Repo: https://github.com/gcomneno/lele-manager  
   <p>
@@ -106,10 +109,6 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
 - **Turbo-Bucketizer (C++17)** — `turbo-bucketizer-cpp`  
   Deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.  
   Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
-
-- **🛠️ Ubuntu System Tools** — `ubuntu-system-tools`  
-  Piccolo set di tool CLI per Ubuntu (Bash), **read-only** e pensati per essere **public-safe**.  
-  Repo: https://github.com/gcomneno/ubuntu-system-tools  
 
 - **💎 Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
   Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione. 
