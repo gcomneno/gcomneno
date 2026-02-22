@@ -149,9 +149,12 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
 
 ## 🌍 Contributi Open Source
 
-- **[pypa/pip](https://github.com/pypa/pip)**
-- **[pypa/pip-audit](https://github.com/pypa/pip-audit)**
-- **[astral-sh/ruff](https://github.com/astral-sh/ruff)**
+- [canonical/rockcraft](https://github.com/canonical/rockcraft)
+- [pypa/pip](https://github.com/pypa/pip)
+- [pypa/pip-audit](https://github.com/pypa/pip-audit)
+- [astral-sh/ruff](https://github.com/astral-sh/ruff)
+- [pydantic/pydantic-core](https://github.com/pydantic/pydantic-core)
+- [google/osv-schema](https://github.com/google/osv-schema)
 
 ---
 
