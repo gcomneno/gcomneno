@@ -53,8 +53,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ### 💖 Progetti in evidenza
 
-- **QHSE Supply Chain Demo** — Architettura backend orientata all’affidabilità (FastAPI + SQLAlchemy + Postgres + pattern Outbox).  
-Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e modelli ben documentati.  
+- **QHSE Supply Chain Demo** — Architettura backend orientata all’affidabilità (FastAPI + SQLAlchemy + Postgres + pattern Outbox). Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e modelli ben documentati.  
   Repo: https://github.com/gcomneno/qhse-supplychain-demo  
   <p>
     <img alt="Architecture" src="https://img.shields.io/badge/Architecture-Transactional%20Outbox-blue">
