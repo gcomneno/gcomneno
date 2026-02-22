@@ -53,8 +53,8 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ### 💖 Progetti in evidenza
 
-- **QHSE Supply Chain Demo** — Architettura backend orientata all’affidabilità (FastAPI + SQLAlchemy + Postgres + pattern Outbox).
-Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e modelli ben documentati.
+- **QHSE Supply Chain Demo** — Architettura backend orientata all’affidabilità (FastAPI + SQLAlchemy + Postgres + pattern Outbox).  
+Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e modelli ben documentati.  
   Repo: https://github.com/gcomneno/qhse-supplychain-demo  
   <p>
     <img alt="Architecture" src="https://img.shields.io/badge/Architecture-Transactional%20Outbox-blue">
@@ -64,10 +64,11 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
     <img alt="Tests" src="https://img.shields.io/badge/Tested-Yes-brightgreen">
   </p>
 
-- **Ubuntu System Tools** — Piccolo set di tool CLI per Ubuntu (Bash), **read-only** e pensati per essere **public-safe**.  
+- **Ubuntu System Tools** — Piccolo set di tool CLI per Ubuntu (Bash), pensati per essere **public-safe**.  
+![Testing](https://img.shields.io/badge/Testing-Automated-informational) ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black?logo=githubactions) ![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu)  
   Repo: https://github.com/gcomneno/ubuntu-system-tools  
 
-- **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e disciplina di packaging.
+- **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e packaging.  
   Repo: https://github.com/gcomneno/lele-manager  
   <p>
     <a href="https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml">
@@ -79,7 +80,7 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
     </a>
   </p>
 
-- **GYTE — YouTube Transcript Extractor** — Batch extractor di trascrizioni YouTube con astrazione dei provider, CLI “umana” e workflow riproducibili.
+- **GYTE — YouTube Transcript Extractor** — Batch extractor di trascrizioni YouTube con astrazione dei provider, CLI “umana” e workflow riproducibili.  
   Repo: https://github.com/gcomneno/gyte · Release: https://github.com/gcomneno/gyte/releases/tag/v1.2.1  
   <p>
     <a href="https://github.com/gcomneno/gyte/actions/workflows/ci.yml">
