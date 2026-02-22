@@ -65,7 +65,7 @@ Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e 
   </p>
 
 - **Ubuntu System Tools** — Piccolo set di tool CLI per Ubuntu (Bash), pensati per essere **public-safe**.  
-![Testing](https://img.shields.io/badge/Testing-Automated-informational) ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black?logo=githubactions) ![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu)  
+![Testing](https://img.shields.io/badge/Testing-Automated-informational) ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black?logo=githubactions) ![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu) [![Release](https://img.shields.io/github/v/release/gcomneno/ubuntu-system-tools?label=release)](https://github.com/gcomneno/ubuntu-system-tools/releases)  
   Repo: https://github.com/gcomneno/ubuntu-system-tools  
 
 - **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e packaging.  
