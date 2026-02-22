@@ -148,12 +148,15 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ## 🌍 Contributi Open Source
 
-- [canonical/rockcraft](https://github.com/canonical/rockcraft)
-- [pypa/pip](https://github.com/pypa/pip)
-- [pypa/pip-audit](https://github.com/pypa/pip-audit)
-- [astral-sh/ruff](https://github.com/astral-sh/ruff)
-- [pydantic/pydantic-core](https://github.com/pydantic/pydantic-core)
-- [google/osv-schema](https://github.com/google/osv-schema)
+Fork di lavoro per contributi e patch:
+
+- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
+- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
+- [pypa/pip](https://github.com/pypa/pip) → [gcomneno/pip](https://github.com/gcomneno/pip)
+- [pypa/pip-audit](https://github.com/pypa/pip-audit) → [gcomneno/pip-audit](https://github.com/gcomneno/pip-audit)
+- [astral-sh/ruff](https://github.com/astral-sh/ruff) → [gcomneno/ruff](https://github.com/gcomneno/ruff)
+- [pydantic/pydantic-core](https://github.com/pydantic/pydantic-core) → [gcomneno/pydantic-core](https://github.com/gcomneno/pydantic-core)
+- [ossf/osv-schema](https://github.com/ossf/osv-schema) → [gcomneno/osv-schema](https://github.com/gcomneno/osv-schema)
 
 ---
 
