@@ -155,7 +155,6 @@ Fork di lavoro per contributi e patch:
 - [pypa/pip](https://github.com/pypa/pip) → [gcomneno/pip](https://github.com/gcomneno/pip)
 - [pypa/pip-audit](https://github.com/pypa/pip-audit) → [gcomneno/pip-audit](https://github.com/gcomneno/pip-audit)
 - [astral-sh/ruff](https://github.com/astral-sh/ruff) → [gcomneno/ruff](https://github.com/gcomneno/ruff)
-- [pydantic/pydantic-core](https://github.com/pydantic/pydantic-core) → [gcomneno/pydantic-core](https://github.com/gcomneno/pydantic-core)
 - [ossf/osv-schema](https://github.com/ossf/osv-schema) → [gcomneno/osv-schema](https://github.com/gcomneno/osv-schema)
 
 ---
