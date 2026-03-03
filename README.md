@@ -113,6 +113,10 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 <br>
 
+- **MIDAS — Modular Integer Dataset Analysis System** — `midas`  
+  Tool CLI deterministico per analisi forense di dataset numerici: hotspot modulari, pattern strutturali e indicatori di non-casualità.  
+  Repo: https://github.com/gcomneno/midas
+
 - **OCF — Onion Compressor Framework** — `onion-compressor-framework`  
   Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.  
   Repo: https://github.com/gcomneno/onion-compressor-framework  
@@ -163,9 +167,6 @@ Fork di lavoro per contributi e patch:
 
 - [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
 - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
-- [pypa/pip](https://github.com/pypa/pip) → [gcomneno/pip](https://github.com/gcomneno/pip)
-- [pypa/pip-audit](https://github.com/pypa/pip-audit) → [gcomneno/pip-audit](https://github.com/gcomneno/pip-audit)
-- [astral-sh/ruff](https://github.com/astral-sh/ruff) → [gcomneno/ruff](https://github.com/gcomneno/ruff)
 - [ossf/osv-schema](https://github.com/ossf/osv-schema) → [gcomneno/osv-schema](https://github.com/gcomneno/osv-schema)
 
 ---
