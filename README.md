@@ -53,6 +53,18 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ### 💖 Progetti in evidenza
 
+- **MIDAS — Modular Forensic Analysis Tool**  
+  Tool forense modulare per analisi di identificatori deboli, hotspot strutturali e pattern anomali.  
+  CLI deterministica, report leggibili e architettura estendibile.  
+  Repo: https://github.com/gcomneno/midas  
+  <p>
+    <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
+    &nbsp;
+    <img alt="Deterministic" src="https://img.shields.io/badge/Deterministic-Yes-brightgreen">
+    &nbsp;
+    <img alt="Forensics" src="https://img.shields.io/badge/Domain-Forensics-critical">
+  </p>
+
 - **QHSE Supply Chain Demo** — Architettura backend orientata all’affidabilità (FastAPI + SQLAlchemy + Postgres + pattern Outbox). Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e modelli ben documentati.  
   Repo: https://github.com/gcomneno/qhse-supplychain-demo  
   <p>
