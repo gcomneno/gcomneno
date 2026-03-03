@@ -117,6 +117,22 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   Tool CLI deterministico per analisi forense di dataset numerici: hotspot modulari, pattern strutturali e indicatori di non-casualità.  
   Repo: https://github.com/gcomneno/midas
 
+- **QHSE Supply Chain Demo** — `qhse-supplychain-demo`  
+  Backend demo affidabilità: Outbox, worker idempotente, RBAC.  
+  Repo: https://github.com/gcomneno/qhse-supplychain-demo  
+
+- **Ubuntu System Tools** — `ubuntu-system-tools`  
+  Tool CLI Bash per Ubuntu, “public-safe”.  
+  Repo: https://github.com/gcomneno/ubuntu-system-tools  
+
+- **LeLe Manager** — `lele-manager`  
+  Lessons Learned manager (CLI + REST API), ML toolkit, packaging e test.  
+  Repo: https://github.com/gcomneno/lele-manager  
+
+- **GYTE — YouTube Transcript Extractor** — `gyte`  
+  Batch extractor trascrizioni YouTube, provider abstraction, workflow riproducibili.  
+  Repo: https://github.com/gcomneno/gyte
+  
 - **OCF — Onion Compressor Framework** — `onion-compressor-framework`  
   Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.  
   Repo: https://github.com/gcomneno/onion-compressor-framework  
@@ -125,35 +141,35 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   Deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.  
   Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
 
-- **💎 Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
+- **Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
   Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione. 
   Repo: https://github.com/gcomneno/crystal-codec-gcc-v1  
 
-- **🧮 OEIS Probe** — `oeis-probe`  
+- **OEIS Probe** — `oeis-probe`  
   Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.  
   Repo: https://github.com/gcomneno/oeis-probe  
 
-- **📊 Digit-Probe** — `digit-probe`  
+- **Digit-Probe** — `digit-probe`  
   Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.  
   Repo: https://github.com/gcomneno/digit-probe  
 
-- **🕰️ Prime Tower Clocks** — `prime-tower-clocks`  
+- **Prime Tower Clocks** — `prime-tower-clocks`  
   Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.  
   Repo: https://github.com/gcomneno/prime-tower-clocks  
 
-- **🧬 Huffman Compressor (legacy)** — `huffman-compressor`  
+- **Huffman Compressor (legacy)** — `huffman-compressor`  
   Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.  
   Repo: https://github.com/gcomneno/huffman-compressor  
 
-- **🍝 Lasagna v2** — `lasagna-v2`  
+- **Lasagna v2** — `lasagna-v2`  
   Codec sperimentale per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.  
   Repo: https://github.com/gcomneno/lasagna-v2  
 
-- **🛡️ Cyber-Security Lab** — `cyse-lab`  
+- **Cyber-Security Lab** — `cyse-lab`  
   Laboratorio didattico white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.  
   Repo: https://github.com/gcomneno/cyse-lab  
 
-- **🎯 GianKoLotto® — Smart Combos** — `giankolotto-smart-combos`  
+- **GianKoLotto® — Smart Combos** — `giankolotto-smart-combos`  
   Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo combinazioni “sensate” rispetto a regole/filtri configurabili.  
   Repo: https://github.com/gcomneno/giankolotto-smart-combos  
 
