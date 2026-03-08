@@ -177,13 +177,12 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 
 ---
 
-## 🌍 Contributi Open Source
+🌍 Contributi Open Source  
+Fork attivi di lavoro per contributi e patch:
 
-Fork di lavoro per contributi e patch:
-
-- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
-- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
-- [ossf/osv-schema](https://github.com/ossf/osv-schema) → [gcomneno/osv-schema](https://github.com/gcomneno/osv-schema)
+[canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)  
+[canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)  
+[canonical/dqlite](https://github.com/canonical/dqlite) → [gcomneno/dqlite](https://github.com/gcomneno/dqlite)
 
 ---
 
