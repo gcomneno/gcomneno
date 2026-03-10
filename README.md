@@ -132,7 +132,11 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 - **GYTE — YouTube Transcript Extractor** — `gyte`  
   Batch extractor trascrizioni YouTube, provider abstraction, workflow riproducibili.  
   Repo: https://github.com/gcomneno/gyte
-  
+
+- **PET — Prime Exponent Tree** — `pet`  
+  Progetto R&D sulla rappresentazione canonica ricorsiva degli interi: non solo valori, ma anche forme. Include codifica/decodifica, validazione,   formato JSON canonico, metriche strutturali e CLI minimale.  
+  Repo: https://github.com/gcomneno/pet
+
 - **OCF — Onion Compressor Framework** — `onion-compressor-framework`  
   Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.  
   Repo: https://github.com/gcomneno/onion-compressor-framework  
