@@ -182,7 +182,7 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
 ---
 🌍 Contributi Open Source  
 
-Fork attivi di lavoro per contributi e patch:
+Fork attivi di lavoro per contributi e patch:  
 [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)  
 [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)  
 [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)  
