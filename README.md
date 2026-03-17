@@ -187,7 +187,7 @@ Fork attivi di lavoro per contributi e patch:
 [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)  
 [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)  
 [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)  
-[canonical/chisel](https://github.com/canonical/craft-cli) → [gcomneno/chisel](https://github.com/gcomneno/craft-cli)  
+[canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)  
 [canonical/dqlite](https://github.com/canonical/dqlite) → [gcomneno/dqlite](https://github.com/gcomneno/dqlite)
 
 ---
