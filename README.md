@@ -1,6 +1,14 @@
+<a id="top"></a>
+
 <h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong> 👋</h1>
+
 <p align="center">
   Backend & Data Engineer — C / C++ / PHP / Python · CLI tooling · OSS contributor
+</p>
+
+<p align="center">
+  Tooling, librerie e laboratori R&D con approccio <strong>production-style</strong>:
+  CI, test automatici, release, documentazione e CLI usabili.
 </p>
 
 <p align="center">
@@ -17,6 +25,9 @@
 </p>
 
 <p align="center">
+  <a href="#flagship">
+    <img alt="FLAGSHIP PROJECT" src="https://img.shields.io/badge/FLAGSHIP-PET-gold?style=for-the-badge">
+  </a>
   <a href="#software">
     <img alt="SOFTWARE LABs" src="https://img.shields.io/badge/SOFTWARE%20LABs-R%26D%20%2F%20tools-blue?style=for-the-badge">
   </a>
@@ -30,28 +41,46 @@
 
 ---
 
-<a id="top"></a>
-
-<h2 align="center">
-  Giadaware Remote Lab (Italia) · Backend & Data Engineering
-</h2>
+<h2 align="center">Giadaware Remote Lab (Italia) · Backend & Data Engineering</h2>
 
 <p align="center">
-  Tooling & librerie “production-style”: CI, test automatici, release, documentazione e CLI usabili.
+Sono <strong>Giancarlo</strong>: costruisco strumenti software, CLI e laboratori computazionali dove convivono
+determinismo, struttura, matematica e una dose controllata di assurdità.<br><br>
+<em>Se qualcosa funziona ed è anche elegante, allora il caos è stato domato per qualche minuto.</em>
 </p>
 
 ---
 
-<p align="center">
-Sono <strong>Giancarlo</strong>, <a href="#music"><em>compositore</em></a>, autore di e-book di <a href="#books"><em>narrativa assurda</em></a> e collezionista di <a href="#software"><em>esperimenti software</em></a> improbabili.<br><br>
-<strong>Algoritmi deterministici, assurdità logica e creatività computazionale in un'unica soluzione!</strong><br>
-Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e narrativa.<br><br>
-<em>Se qualcosa funziona, non chiedermi come — probabilmente non dovrebbe!</em>
+<a id="flagship"></a>
+## 👑 Progetto di punta
+
+### **PET — Prime Exponent Tree**
+**Canonical recursive representation of integers based on prime factorization and exponent trees.**
+
+PET è il mio progetto-bandiera: un modello strutturale degli interi che non guarda solo il valore numerico,
+ma anche la loro **forma fattoriale ricorsiva**.
+
+- rappresentazione **canonica, invertibile e lossless**
+- codifica/decodifica, validazione e **JSON canonico**
+- metriche strutturali e analisi di dataset numerici
+- CLI minimale e workflow riproducibili
+- focus R&D tra matematica computazionale, struttura e sperimentazione
+
+**Repo:** https://github.com/gcomneno/pet
+
+<p>
+  <img alt="Interface" src="https://img.shields.io/badge/Interface-CLI-blue">
+  &nbsp;
+  <img alt="Canonical" src="https://img.shields.io/badge/Representation-Canonical-brightgreen">
+  &nbsp;
+  <img alt="Lossless" src="https://img.shields.io/badge/Encoding-Lossless-success">
+  &nbsp;
+  <img alt="R&D" src="https://img.shields.io/badge/Focus-Math%20R%26D-purple">
 </p>
 
 ---
 
-### 💖 Progetti in evidenza
+## 💖 Selected engineering work
 
 - **MIDAS — Modular Integer Dataset Analysis System**  
   Deterministic CLI tool per analisi di dataset di interi, con focus su pattern modulari e struttura non-casuale.  
@@ -64,7 +93,8 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/midas?label=v0.1.0">
   </p>
 
-- **QHSE Supply Chain Demo** — Architettura backend orientata all’affidabilità (FastAPI + SQLAlchemy + Postgres + pattern Outbox). Transazioni DB, worker idempotente, controllo accessi basato sui ruoli (RBAC) e modelli ben documentati.  
+- **QHSE Supply Chain Demo**  
+  Architettura backend orientata all’affidabilità: FastAPI + SQLAlchemy + Postgres + pattern Outbox, worker idempotente, RBAC e modelli ben documentati.  
   Repo: https://github.com/gcomneno/qhse-supplychain-demo  
   <p>
     <img alt="Architecture" src="https://img.shields.io/badge/Architecture-Transactional%20Outbox-blue">
@@ -74,11 +104,21 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     <img alt="Tests" src="https://img.shields.io/badge/Tested-Yes-brightgreen">
   </p>
 
-- **Ubuntu System Tools** — Piccolo set di tool CLI per Ubuntu (Bash), pensati per essere **public-safe**.  
-![Testing](https://img.shields.io/badge/Testing-Automated-informational) ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black?logo=githubactions) ![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu) [![Release](https://img.shields.io/github/v/release/gcomneno/ubuntu-system-tools?label=release)](https://github.com/gcomneno/ubuntu-system-tools/releases)  
+- **Ubuntu System Tools**  
+  Set di tool CLI Bash per Ubuntu progettati per essere **public-safe**, con attenzione a automazione, manutenzione e riproducibilità.  
   Repo: https://github.com/gcomneno/ubuntu-system-tools  
+  <p>
+    <img alt="Testing" src="https://img.shields.io/badge/Testing-Automated-informational">
+    &nbsp;
+    <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-black?logo=githubactions">
+    &nbsp;
+    <img alt="Linux" src="https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu">
+    &nbsp;
+    <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/ubuntu-system-tools?label=release">
+  </p>
 
-- **LeLe Manager** — Gestore Lessons Learned, ML toolkit (CLI + REST API) con architettura pulita, test automatici e packaging.  
+- **LeLe Manager**  
+  Lessons Learned manager e ML toolkit con CLI + REST API, architettura pulita, test automatici e packaging.  
   Repo: https://github.com/gcomneno/lele-manager  
   <p>
     <a href="https://github.com/gcomneno/lele-manager/actions/workflows/ci.yml">
@@ -90,7 +130,8 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
     </a>
   </p>
 
-- **GYTE — YouTube Transcript Extractor** — Batch extractor di trascrizioni YouTube con astrazione dei provider, CLI “umana” e workflow riproducibili.  
+- **GYTE — YouTube Transcript Extractor**  
+  Batch extractor di trascrizioni YouTube con provider abstraction, CLI leggibile e workflow riproducibili.  
   Repo: https://github.com/gcomneno/gyte · Release: https://github.com/gcomneno/gyte/releases/tag/v1.2.1  
   <p>
     <a href="https://github.com/gcomneno/gyte/actions/workflows/ci.yml">
@@ -105,104 +146,83 @@ Qui convivono logica e follia, matematica, musica, fisica e ironia, codice e nar
   </p>
 
 ---
+
 <a id="software"></a>
 ## 🧭 Altri progetti (R&D / laboratori)
 
 <details>
-<summary><strong>Apri elenco completo (matematica, compressione, security-lab, esperimenti)</strong></summary>
+<summary><strong>Apri elenco completo</strong></summary>
 
 <br>
 
-- **MIDAS — Modular Integer Dataset Analysis System** — `midas`  
-  Tool CLI deterministico per analisi forense di dataset numerici: hotspot modulari, pattern strutturali e indicatori di non-casualità.  
-  Repo: https://github.com/gcomneno/midas
-
-- **QHSE Supply Chain Demo** — `qhse-supplychain-demo`  
-  Backend demo affidabilità: Outbox, worker idempotente, RBAC.  
-  Repo: https://github.com/gcomneno/qhse-supplychain-demo  
-
-- **Ubuntu System Tools** — `ubuntu-system-tools`  
-  Tool CLI Bash per Ubuntu, “public-safe”.  
-  Repo: https://github.com/gcomneno/ubuntu-system-tools  
-
-- **LeLe Manager** — `lele-manager`  
-  Lessons Learned manager (CLI + REST API), ML toolkit, packaging e test.  
-  Repo: https://github.com/gcomneno/lele-manager  
-
-- **GYTE — YouTube Transcript Extractor** — `gyte`  
-  Batch extractor trascrizioni YouTube, provider abstraction, workflow riproducibili.  
-  Repo: https://github.com/gcomneno/gyte
-
-- **PET — Prime Exponent Tree** — `pet`  
-  Progetto R&D sulla rappresentazione canonica ricorsiva degli interi: non solo valori, ma anche forme. Include codifica/decodifica, validazione,   formato JSON canonico, metriche strutturali e CLI minimale.  
-  Repo: https://github.com/gcomneno/pet
-
 - **OCF — Onion Compressor Framework** — `onion-compressor-framework`  
   Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.  
-  Repo: https://github.com/gcomneno/onion-compressor-framework  
+  Repo: https://github.com/gcomneno/onion-compressor-framework
 
 - **Turbo-Bucketizer (C++17)** — `turbo-bucketizer-cpp`  
   Deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.  
-  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp  
+  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp
 
 - **Crystal Codec (GCC v1)** — `crystal-codec-gcc-v1`  
-  Codec p-adico in Python con API pulita, test e SPEC matematica: rappresenta i dati come “cristalli” numerici, con invarianti e kernel modulari per esperimenti su strutture e compressione. 
-  Repo: https://github.com/gcomneno/crystal-codec-gcc-v1  
+  Codec p-adico in Python con API pulita, test e SPEC matematica per esperimenti su struttura, invarianti e compressione.  
+  Repo: https://github.com/gcomneno/crystal-codec-gcc-v1
 
 - **OEIS Probe** — `oeis-probe`  
-  Strumento CLI per fare “fingerprinting” di sequenze su OEIS: query online via API, indici offline, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza di interi.  
-  Repo: https://github.com/gcomneno/oeis-probe  
+  Strumento CLI per fingerprinting di sequenze su OEIS: query online via API, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza.  
+  Repo: https://github.com/gcomneno/oeis-probe
 
 - **Digit-Probe** — `digit-probe`  
-  Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e SchurProbe per confrontare cifre “reali” (π, Lotto, RNG) con modelli ideali.  
-  Repo: https://github.com/gcomneno/digit-probe  
+  Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e confronti con modelli ideali.  
+  Repo: https://github.com/gcomneno/digit-probe
 
 - **Prime Tower Clocks** — `prime-tower-clocks`  
-  Tool matematico/CLI per rappresentare interi grandi tramite “firme modulari” basate su orologi primi e CRT: comprimi numeri mostruosi in descrizioni modulari leggere salvabili su file.  
-  Repo: https://github.com/gcomneno/prime-tower-clocks  
+  Tool matematico/CLI per rappresentare interi grandi tramite firme modulari basate su orologi primi e CRT.  
+  Repo: https://github.com/gcomneno/prime-tower-clocks
 
 - **Huffman Compressor (legacy)** — `huffman-compressor`  
-  Vecchio laboratorio di compressione “a strati” con GCC v1 + Huffman: base storica da cui nasce OCF, mantenuto come esempio di pipeline sperimentale prima del refactoring a framework.  
-  Repo: https://github.com/gcomneno/huffman-compressor  
+  Laboratorio storico di compressione “a strati”, mantenuto come base evolutiva verso framework più maturi.  
+  Repo: https://github.com/gcomneno/huffman-compressor
 
 - **Lasagna v2** — `lasagna-v2`  
-  Codec sperimentale per serie temporali: segmentazione adattiva, predittori multipli, quantizzazione percettiva dei residui e tagging dei pattern per capire (e comprimere) il segnale.  
-  Repo: https://github.com/gcomneno/lasagna-v2  
+  Codec sperimentale per serie temporali con segmentazione adattiva, predittori multipli e tagging dei pattern.  
+  Repo: https://github.com/gcomneno/lasagna-v2
 
 - **Cyber-Security Lab** — `cyse-lab`  
-  Laboratorio didattico white-hat: script per recon/enumeration, scenari ripetibili e template di “Lesson Learned” per documentare cosa si è trovato e cosa si è rotto.  
-  Repo: https://github.com/gcomneno/cyse-lab  
+  Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.  
+  Repo: https://github.com/gcomneno/cyse-lab
 
 - **GianKoLotto® — Smart Combos** — `giankolotto-smart-combos`  
-  Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari: genera solo combinazioni “sensate” rispetto a regole/filtri configurabili.  
-  Repo: https://github.com/gcomneno/giankolotto-smart-combos  
+  Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari configurabili.  
+  Repo: https://github.com/gcomneno/giankolotto-smart-combos
 
 </details>
 
 ---
 
-🌍 Contributi Open Source  
+## 🌍 Contributi Open Source
 
-Fork attivi di lavoro per contributi e patch:  
-[canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)  
-[canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)  
-[canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)  
-[canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)  
-[canonical/dqlite](https://github.com/canonical/dqlite) → [gcomneno/dqlite](https://github.com/gcomneno/dqlite)
+Fork attivi di lavoro per contributi e patch:
 
----
+- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
+- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
+- [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
+- [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
+- [canonical/dqlite](https://github.com/canonical/dqlite) → [gcomneno/dqlite](https://github.com/gcomneno/dqlite)
 
 <p align="right"><a href="#top">↑ torna su</a></p>
+
+---
 
 <a id="books"></a>
 ## 📚 Narrativa — Il Club dell’Assurdo
 
 <p>
-<strong>Narrativa breve e seriale tra surreale e satira.</strong>Storie che fanno ridere… e poi ti rubano la sedia da sotto il (????).
+<strong>Narrativa breve e seriale tra surreale e satira.</strong>
+Storie che fanno ridere… e poi ti spostano anche il pavimento.
 </p>
 
 <p>
-Universo narrativo in evoluzione continua, strutturato come una vera libreria digitale:
+Universo narrativo in evoluzione continua, strutturato come una libreria digitale:
 atti, episodi, catalogo, roadmap editoriale e manifesto poetico.
 </p>
 
@@ -251,16 +271,14 @@ La musica è l’altra faccia del laboratorio: meno codice, stessa ossessione pe
 
 ---
 
-### 💬 Motto
-> “Se funziona ed è assurdo, allora è perfettamente logico!”
+## 💬 Motto
+> “Se funziona ed è assurdo, allora è perfettamente logico.”
 
 <p align="center">
   <a href="https://github.com/sponsors/gcomneno">
     <img alt="Sponsor on GitHub" src="https://img.shields.io/badge/Sponsor%20on%20GitHub-💖-pink?style=for-the-badge">
   </a>
 </p>
-
----
 
 <p align="center"><em>💖 Supporta “La Scimmia Curiosa” — perché anche i bit hanno bisogno di banane 🍌</em></p>
 
