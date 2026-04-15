@@ -248,26 +248,40 @@ atti, episodi, catalogo, roadmap editoriale e manifesto poetico.
 ---
 
 <a id="music"></a>
-## 🎵 Musica — "The Only Fly"
+## 🎵 Musica — The Only Fly
 
 <p>
 Composizioni originali tra elettronica minimale, atmosfera e sperimentazione.
-Strutture iterative, variazioni tematiche e ricerca timbrica.
+Pattern iterativi, variazioni controllate e ricerca timbrica.
 </p>
 
 <ul>
-  <li>🎹 Pattern ripetitivi e mutazioni controllate</li>
-  <li>🌌 Atmosfere cinematiche</li>
-  <li>🔁 Strutture quasi algoritmiche</li>
+  <li>🎹 Elettronica minimale e struttura</li>
+  <li>🌌 Atmosfere cinematiche e sospese</li>
+  <li>🔁 Variazioni tematiche e forme iterative</li>
 </ul>
 
 <p>
-La musica è l’altra faccia del laboratorio: meno codice, stessa ossessione per struttura e forma.
+La musica è l’altra faccia del laboratorio: meno codice, stessa ossessione per struttura, forma e mutazione.
 </p>
 
-<p>
-👉 <a href="https://theonlyfly.bandcamp.com/"><strong>Ascolta su Bandcamp</strong></a>
+<p align="center">
+  👉 <a href="https://theonlyfly.bandcamp.com/"><strong>Ascolta su Bandcamp</strong></a>
 </p>
+
+<p align="center">
+  <a href="https://theonlyfly.bandcamp.com/">
+    <img
+      alt="Segui The Only Fly su Bandcamp"
+      src="https://img.shields.io/badge/Bandcamp-Segui%20The%20Only%20Fly-629aa9?style=for-the-badge&logo=bandcamp&logoColor=white">
+  </a>
+</p>
+
+<p align="center">
+  <em>Un laboratorio sonoro dove anche i loop hanno una dignità filosofica.</em>
+</p>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
 
