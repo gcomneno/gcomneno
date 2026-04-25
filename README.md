@@ -207,6 +207,7 @@ Fork attivi di lavoro per contributi e patch:
 - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
 - [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
+- [canonical/operator](https://github.com/canonical/operator) → [gcomneno/operator](https://github.com/gcomneno/operator)
 - [canonical/dqlite](https://github.com/canonical/dqlite) → [gcomneno/dqlite](https://github.com/gcomneno/dqlite)
 
 <p align="right"><a href="#top">↑ torna su</a></p>
