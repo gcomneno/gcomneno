@@ -8,7 +8,7 @@
 
 <p align="center">
   Tooling, librerie e laboratori R&D con approccio <strong>production-style</strong>:
-  CI, test automatici, release, documentazione e CLI usabili.
+  CI, test automatici, versioning, documentazione, CLI usabili e output verificabili.
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
     <img alt="FLAGSHIP PROJECT" src="https://img.shields.io/badge/FLAGSHIP-PET-gold?style=for-the-badge">
   </a>
   <a href="#software">
-    <img alt="SOFTWARE LABs" src="https://img.shields.io/badge/SOFTWARE%20LABs-R%26D%20%2F%20tools-blue?style=for-the-badge">
+    <img alt="SOFTWARE LABs" src="https://img.shields.io/badge/SOFTWARE%20LABs-R%26D%20%2F%20CLI%20%2F%20data-blue?style=for-the-badge">
   </a>
   <a href="#books">
     <img alt="CLUB DELL'ASSURDO (Narrativa)" src="https://img.shields.io/badge/CLUB%20DELL'ASSURDO-Narrativa-purple?style=for-the-badge">
@@ -45,7 +45,7 @@
 
 <p align="center">
 Sono <strong>Giancarlo</strong>: costruisco strumenti software, CLI e laboratori computazionali dove convivono
-determinismo, struttura, matematica e una dose controllata di assurdità.<br><br>
+ determinismo, struttura, matematica e una dose controllata di assurdità.<br><br>
 <em>Se qualcosa funziona ed è anche elegante, allora il caos è stato domato per qualche minuto.</em>
 </p>
 
@@ -81,6 +81,25 @@ ma anche la loro **forma fattoriale ricorsiva**.
 ---
 
 ## 💖 Selected engineering work
+
+- **ISS — Integer Structural Search**  
+  Motore di ricerca strutturale bounded su interi: strategie dichiarate, budget espliciti, output JSON stabile e guardrail contro la fattorizzazione generale mascherata.  
+  Repo: https://github.com/gcomneno/integer-structural-search · Milestone: `iss-core-v0.4.6`  
+  <p>
+    <a href="https://github.com/gcomneno/integer-structural-search/actions/workflows/tests.yml">
+      <img alt="Tests" src="https://github.com/gcomneno/integer-structural-search/actions/workflows/tests.yml/badge.svg">
+    </a>
+    &nbsp;
+    <img alt="Search" src="https://img.shields.io/badge/Search-Bounded%20Structural-blue">
+    &nbsp;
+    <img alt="Guardrail" src="https://img.shields.io/badge/Guardrail-No%20General%20Factorization-red">
+    &nbsp;
+    <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
+    &nbsp;
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
+    &nbsp;
+    <img alt="License" src="https://img.shields.io/github/license/gcomneno/integer-structural-search">
+  </p>
 
 - **MIDAS — Modular Integer Dataset Analysis System**  
   Deterministic CLI tool per analisi di dataset di interi, con focus su pattern modulari e struttura non-casuale.  
