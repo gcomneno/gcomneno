@@ -112,17 +112,6 @@ ma anche la loro **forma fattoriale ricorsiva**.
     <img alt="Release" src="https://img.shields.io/github/v/release/gcomneno/midas?label=v0.1.0">
   </p>
 
-- **QHSE Supply Chain Demo**  
-  Architettura backend orientata all’affidabilità: FastAPI + SQLAlchemy + Postgres + pattern Outbox, worker idempotente, RBAC e modelli ben documentati.  
-  Repo: https://github.com/gcomneno/qhse-supplychain-demo  
-  <p>
-    <img alt="Architecture" src="https://img.shields.io/badge/Architecture-Transactional%20Outbox-blue">
-    &nbsp;
-    <img alt="RBAC" src="https://img.shields.io/badge/Security-JWT%20%2B%20RBAC-green">
-    &nbsp;
-    <img alt="Tests" src="https://img.shields.io/badge/Tested-Yes-brightgreen">
-  </p>
-
 - **Ubuntu System Tools**  
   Set di tool CLI Bash per Ubuntu progettati per essere **public-safe**, con attenzione a automazione, manutenzione e riproducibilità.  
   Repo: https://github.com/gcomneno/ubuntu-system-tools  
@@ -214,6 +203,14 @@ ma anche la loro **forma fattoriale ricorsiva**.
   Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari configurabili.  
   Repo: https://github.com/gcomneno/giankolotto-smart-combos
 
+- **QHSE Supply Chain Demo** — `qhse-supplychain-demo`  
+  Architettura backend orientata all’affidabilità: FastAPI + SQLAlchemy + Postgres + pattern Outbox, worker idempotente, RBAC e modelli ben documentati.  
+  Repo: https://github.com/gcomneno/qhse-supplychain-demo  
+
+- **JavaScript Lab — Didattico** — `js-lab-didattico`  
+  Laboratorio didattico in JavaScript e TypeScript sui design pattern, con esempi eseguibili, test automatici e spiegazioni pensate per chi vuole capire davvero il codice.  
+  Repo: https://github.com/gcomneno/js-lab-didattico
+
 </details>
 
 ---
@@ -227,7 +224,6 @@ Fork attivi di lavoro per contributi e patch:
 - [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 - [canonical/operator](https://github.com/canonical/operator) → [gcomneno/operator](https://github.com/gcomneno/operator)
-- [canonical/dqlite](https://github.com/canonical/dqlite) → [gcomneno/dqlite](https://github.com/gcomneno/dqlite)
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
