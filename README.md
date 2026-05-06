@@ -211,6 +211,10 @@ ma anche la loro **forma fattoriale ricorsiva**.
   Laboratorio didattico in JavaScript e TypeScript sui design pattern, con esempi eseguibili, test automatici e spiegazioni pensate per chi vuole capire davvero il codice.  
   Repo: https://github.com/gcomneno/js-lab-didattico
 
+- **C# Lab — Didattico** — `kleis-csharp`  
+  Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per chi vuole capire il linguaggio.  
+  Repo: https://github.com/gcomneno/kleis-csharp
+
 </details>
 
 ---
@@ -224,7 +228,8 @@ Fork attivi di lavoro per contributi e patch:
 - [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 - [canonical/operator](https://github.com/canonical/operator) → [gcomneno/operator](https://github.com/gcomneno/operator)
-
+- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+  
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
