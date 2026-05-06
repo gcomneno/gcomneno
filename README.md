@@ -15,9 +15,9 @@
   <a href="https://github.com/sponsors/gcomneno">
     <img alt="Sponsor" src="https://img.shields.io/badge/Sponsor-💖-ea4aaa?style=for-the-badge">
   </a>
-  <a href="https://github.com/gcomneno">
-    <img alt="Followers" src="https://img.shields.io/github/followers/gcomneno?style=for-the-badge&label=Followers">
-  </a>
+<a href="https://github.com/gcomneno?tab=followers">
+  <img alt="Followers" src="https://img.shields.io/badge/Followers-GitHub-555?style=for-the-badge&logo=github">
+</a>
   <a href="https://github.com/gcomneno?tab=repositories">
     <img alt="Repos" src="https://img.shields.io/badge/Repos-Explore-blue?style=for-the-badge">
   </a>
