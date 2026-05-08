@@ -55,7 +55,7 @@ Sono <strong>Giancarlo</strong>: costruisco strumenti software, CLI e laboratori
 ---
 
 <a id="flagship"></a>
-## 👑 Progetto di punta
+## 👑 Progetto in Evidenza
 
 ### **PET — Prime Exponent Tree**
 **Canonical recursive representation of integers based on prime factorization and exponent trees.**
@@ -136,7 +136,7 @@ A differenza dei progetti R&D più sperimentali, qui il focus è didattico: appu
 
 ---
 
-## 💖 Selected engineering work
+## 💖 Progetti tecnici selezionati
 
 - **ISS — Integer Structural Search**  
   Motore di ricerca strutturale bounded su interi: strategie dichiarate, budget espliciti, output JSON stabile e guardrail contro la fattorizzazione generale mascherata.  
