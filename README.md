@@ -15,9 +15,9 @@
   <a href="https://github.com/sponsors/gcomneno">
     <img alt="Sponsor" src="https://img.shields.io/badge/Sponsor-💖-ea4aaa?style=for-the-badge">
   </a>
-<a href="https://github.com/gcomneno?tab=followers">
-  <img alt="Followers" src="https://img.shields.io/badge/Followers-GitHub-555?style=for-the-badge&logo=github">
-</a>
+  <a href="https://github.com/gcomneno?tab=followers">
+    <img alt="Followers" src="https://img.shields.io/badge/Followers-GitHub-555?style=for-the-badge&logo=github">
+  </a>
   <a href="https://github.com/gcomneno?tab=repositories">
     <img alt="Repos" src="https://img.shields.io/badge/Repos-Explore-blue?style=for-the-badge">
   </a>
@@ -28,8 +28,11 @@
   <a href="#flagship">
     <img alt="FLAGSHIP PROJECT" src="https://img.shields.io/badge/FLAGSHIP-PET-gold?style=for-the-badge">
   </a>
+  <a href="#labs">
+    <img alt="LAB DIDATTICI" src="https://img.shields.io/badge/LAB%20DIDATTICI-Learning%20%2F%20Web%20%2F%20Language%20Labs-brightgreen?style=for-the-badge">
+  </a>
   <a href="#software">
-    <img alt="SOFTWARE LABs" src="https://img.shields.io/badge/SOFTWARE%20LABs-R%26D%20%2F%20CLI%20%2F%20data-blue?style=for-the-badge">
+    <img alt="SOFTWARE R&D" src="https://img.shields.io/badge/SOFTWARE%20R%26D-CLI%20%2F%20data%20%2F%20tools-blue?style=for-the-badge">
   </a>
   <a href="#books">
     <img alt="CLUB DELL'ASSURDO (Narrativa)" src="https://img.shields.io/badge/CLUB%20DELL'ASSURDO-Narrativa-purple?style=for-the-badge">
@@ -77,6 +80,59 @@ ma anche la loro **forma fattoriale ricorsiva**.
   &nbsp;
   <img alt="R&D" src="https://img.shields.io/badge/Focus-Math%20R%26D-purple">
 </p>
+
+---
+
+<a id="labs"></a>
+## 🧪 Laboratori didattici in evidenza
+
+Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
+
+A differenza dei progetti R&D più sperimentali, qui il focus è didattico: appunti, esempi progressivi, Lesson Learned, codice leggibile e ripartenza facile anche dopo mesi.
+
+- **Web Lab / Laravel Lab** — `web`  
+  Laboratorio personale per progetti web. Il primo sottoprogetto attivo è un percorso Laravel seguito lezione per lezione, con appunti, glossario, progetto locale e Lesson Learned.  
+  Repo: https://github.com/gcomneno/web  
+  <p>
+    <img alt="Laravel" src="https://img.shields.io/badge/Laravel-Lab-red?logo=laravel">
+    &nbsp;
+    <img alt="PHP" src="https://img.shields.io/badge/PHP-8.3-777bb4?logo=php&logoColor=white">
+    &nbsp;
+    <img alt="Learning" src="https://img.shields.io/badge/Focus-Beginner%20Friendly-brightgreen">
+  </p>
+
+- **JavaScript Lab — Didattico** — `js-lab-didattico`  
+  Laboratorio didattico in JavaScript e TypeScript sui design pattern, con esempi eseguibili, test automatici e spiegazioni pensate per chi vuole capire davvero il codice.  
+  Repo: https://github.com/gcomneno/js-lab-didattico  
+  <p>
+    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-Lab-f7df1e?logo=javascript&logoColor=black">
+    &nbsp;
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Examples-3178c6?logo=typescript&logoColor=white">
+    &nbsp;
+    <img alt="Patterns" src="https://img.shields.io/badge/Focus-Design%20Patterns-blue">
+  </p>
+
+- **C# Lab — Didattico** — `kleis-csharp`  
+  Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per chi vuole capire il linguaggio passo dopo passo.  
+  Repo: https://github.com/gcomneno/kleis-csharp  
+  <p>
+    <img alt="CSharp" src="https://img.shields.io/badge/C%23-Lab-68217a?logo=csharp&logoColor=white">
+    &nbsp;
+    <img alt="Learning" src="https://img.shields.io/badge/Focus-Fondamenti-brightgreen">
+  </p>
+
+- **Cyber-Security Lab** — `cyse-lab`  
+  Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.  
+  Repo: https://github.com/gcomneno/cyse-lab  
+  <p>
+    <img alt="Security" src="https://img.shields.io/badge/Security-White%20Hat-black">
+    &nbsp;
+    <img alt="Lab" src="https://img.shields.io/badge/Format-Lab-blue">
+    &nbsp;
+    <img alt="Lessons Learned" src="https://img.shields.io/badge/Output-Lesson%20Learned-purple">
+  </p>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
 
@@ -156,7 +212,7 @@ ma anche la loro **forma fattoriale ricorsiva**.
 ---
 
 <a id="software"></a>
-## 🧭 Altri progetti (R&D / laboratori)
+## 🧭 Altri progetti R&D / software
 
 <details>
 <summary><strong>Apri elenco completo</strong></summary>
@@ -195,10 +251,6 @@ ma anche la loro **forma fattoriale ricorsiva**.
   Codec sperimentale per serie temporali con segmentazione adattiva, predittori multipli e tagging dei pattern.  
   Repo: https://github.com/gcomneno/lasagna-v2
 
-- **Cyber-Security Lab** — `cyse-lab`  
-  Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.  
-  Repo: https://github.com/gcomneno/cyse-lab
-
 - **GianKoLotto® — Smart Combos** — `giankolotto-smart-combos`  
   Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari configurabili.  
   Repo: https://github.com/gcomneno/giankolotto-smart-combos
@@ -206,14 +258,6 @@ ma anche la loro **forma fattoriale ricorsiva**.
 - **QHSE Supply Chain Demo** — `qhse-supplychain-demo`  
   Architettura backend orientata all’affidabilità: FastAPI + SQLAlchemy + Postgres + pattern Outbox, worker idempotente, RBAC e modelli ben documentati.  
   Repo: https://github.com/gcomneno/qhse-supplychain-demo  
-
-- **JavaScript Lab — Didattico** — `js-lab-didattico`  
-  Laboratorio didattico in JavaScript e TypeScript sui design pattern, con esempi eseguibili, test automatici e spiegazioni pensate per chi vuole capire davvero il codice.  
-  Repo: https://github.com/gcomneno/js-lab-didattico
-
-- **C# Lab — Didattico** — `kleis-csharp`  
-  Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per chi vuole capire il linguaggio.  
-  Repo: https://github.com/gcomneno/kleis-csharp
 
 </details>
 
@@ -229,7 +273,7 @@ Fork attivi di lavoro per contributi e patch:
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 - [canonical/operator](https://github.com/canonical/operator) → [gcomneno/operator](https://github.com/gcomneno/operator)
 - [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
-  
+
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
