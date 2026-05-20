@@ -90,6 +90,15 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
 
 A differenza dei progetti R&D più sperimentali, qui il focus è didattico: appunti, esempi progressivi, Lesson Learned, codice leggibile e ripartenza facile anche dopo mesi.
 
+- **C# / HTML Lab — Didattico** — `kleis-sviluppo-software-4`  
+  Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per chi vuole capire il linguaggio passo dopo passo.  
+  Repo: https://github.com/gcomneno/kleis-sviluppo-software-4  
+  <p>
+    <img alt="CSharp" src="https://img.shields.io/badge/C%23-Lab-68217a?logo=csharp&logoColor=white">
+    &nbsp;
+    <img alt="Learning" src="https://img.shields.io/badge/Focus-Fondamenti-brightgreen">
+  </p>
+
 - **Web Lab / Laravel Lab** — `web`  
   Laboratorio personale per progetti web. Il primo sottoprogetto attivo è un percorso Laravel seguito lezione per lezione, con appunti, glossario, progetto locale e Lesson Learned.  
   Repo: https://github.com/gcomneno/web  
@@ -110,15 +119,6 @@ A differenza dei progetti R&D più sperimentali, qui il focus è didattico: appu
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Examples-3178c6?logo=typescript&logoColor=white">
     &nbsp;
     <img alt="Patterns" src="https://img.shields.io/badge/Focus-Design%20Patterns-blue">
-  </p>
-
-- **C# Lab — Didattico** — `kleis-csharp`  
-  Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per chi vuole capire il linguaggio passo dopo passo.  
-  Repo: https://github.com/gcomneno/kleis-csharp  
-  <p>
-    <img alt="CSharp" src="https://img.shields.io/badge/C%23-Lab-68217a?logo=csharp&logoColor=white">
-    &nbsp;
-    <img alt="Learning" src="https://img.shields.io/badge/Focus-Fondamenti-brightgreen">
   </p>
 
 - **Cyber-Security Lab** — `cyse-lab`  
