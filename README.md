@@ -267,12 +267,15 @@ A differenza dei progetti R&D più sperimentali, qui il focus è didattico: appu
 
 Fork attivi di lavoro per contributi e patch:
 
+Fork attivi di lavoro per contributi e patch:
+
 - [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
 - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
 - [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 - [canonical/operator](https://github.com/canonical/operator) → [gcomneno/operator](https://github.com/gcomneno/operator)
 - [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+- [copier-org/copier](https://github.com/copier-org/copier) → [gcomneno/copier](https://github.com/gcomneno/copier)
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
