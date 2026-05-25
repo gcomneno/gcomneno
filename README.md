@@ -49,7 +49,7 @@
 <p align="center">
 Sono <strong>Giancarlo</strong>: costruisco strumenti software, CLI e laboratori computazionali dove convivono
  determinismo, struttura, matematica e una dose controllata di assurdità.<br><br>
-<em>Se qualcosa funziona ed è anche elegante, allora il caos è stato domato per qualche minuto.</em>
+<em>Se qualcosa funziona ed è anche elegante, allora non l'ho fatto io!</em>
 </p>
 
 ---
