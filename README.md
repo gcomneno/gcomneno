@@ -28,9 +28,8 @@
   <a href="#flagship">
     <img alt="FLAGSHIP PROJECT" src="https://img.shields.io/badge/FLAGSHIP-PET-gold?style=for-the-badge">
   </a>
+  <a href="#labs"> <img alt="LAB DIDATTICI" src="https://img.shields.io/badge/LAB%20DIDATTICI-Python%20%2F%20Web%20%2F%20Language%20Labs-brightgreen?style=for-the-badge"> </a>
   <a href="#labs">
-    <img alt="LAB DIDATTICI" src="https://img.shields.io/badge/LAB%20DIDATTICI-Learning%20%2F%20Web%20%2F%20Language%20Labs-brightgreen?style=for-the-badge">
-  </a>
   <a href="#software">
     <img alt="SOFTWARE R&D" src="https://img.shields.io/badge/SOFTWARE%20R%26D-CLI%20%2F%20data%20%2F%20tools-blue?style=for-the-badge">
   </a>
@@ -98,6 +97,10 @@ A differenza dei progetti R&D più sperimentali, qui il focus è didattico: appu
     &nbsp;
     <img alt="Learning" src="https://img.shields.io/badge/Focus-Fondamenti-brightgreen">
   </p>
+
+- **Python Clean Coding Lab — Smart File Organizer** — `smart-file-organizer`  
+Laboratorio didattico Python orientato a codice pulito e sviluppo production-style: CLI con `argparse`, layout `src/`, gestione progetto con `uv`, lint/format con `ruff`, test con `pytest`, dry-run sicuro e applicazione esplicita con `--apply`.  
+Repo: https://github.com/gcomneno/smart-file-organizer <p> <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">   &nbsp; <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue"> &nbsp; <img alt="uv" src="https://img.shields.io/badge/Tooling-uv-purple"> &nbsp; <img alt="pytest" src="https://img.shields.io/badge/Tests-pytest-brightgreen"> &nbsp; <img alt="ruff" src="https://img.shields.io/badge/Lint%20%2F%20Format-ruff-black"> &nbsp; <img alt="Focus" src="https://img.shields.io/badge/Focus-Clean%20Coding-blue"> </p>
 
 - **Web Lab / Laravel Lab** — `web`  
   Laboratorio personale per progetti web. Il primo sottoprogetto attivo è un percorso Laravel seguito lezione per lezione, con appunti, glossario, progetto locale e Lesson Learned.  
