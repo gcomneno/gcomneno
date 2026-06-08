@@ -137,18 +137,54 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
 - **C# / HTML Lab - Didattico** - `kleis-sviluppo-software-4`
   Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per capire il linguaggio passo dopo passo.
   Repo: https://github.com/gcomneno/kleis-sviluppo-software-4
+  <p>
+    <img alt="C#" src="https://img.shields.io/badge/C%23-.NET-purple?logo=dotnet">
+    &nbsp;
+    <img alt="HTML" src="https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white">
+    &nbsp;
+    <img alt="CSS" src="https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white">
+    &nbsp;
+    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
+  </p>
 
 - **Web Lab / Laravel Lab** - `web`
   Laboratorio personale per progetti web. Il primo sottoprogetto attivo è un percorso Laravel seguito lezione per lezione, con appunti, glossario, progetto locale e Lesson Learned.
   Repo: https://github.com/gcomneno/web
+  <p>
+    <img alt="Laravel" src="https://img.shields.io/badge/Laravel-Lab-red?logo=laravel&logoColor=white">
+    &nbsp;
+    <img alt="PHP" src="https://img.shields.io/badge/PHP-Web-blue?logo=php&logoColor=white">
+    &nbsp;
+    <img alt="Lesson Learned" src="https://img.shields.io/badge/Docs-Lesson%20Learned-brightgreen">
+    &nbsp;
+    <img alt="Focus" src="https://img.shields.io/badge/Focus-Web%20Lab-purple">
+  </p>
 
 - **JavaScript Lab - Didattico** - `js-lab-didattico`
   Laboratorio didattico in JavaScript e TypeScript sui design pattern, con esempi eseguibili, test automatici e spiegazioni.
   Repo: https://github.com/gcomneno/js-lab-didattico
+  <p>
+    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-Lab-yellow?logo=javascript&logoColor=black">
+    &nbsp;
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Patterns-blue?logo=typescript&logoColor=white">
+    &nbsp;
+    <img alt="Tests" src="https://img.shields.io/badge/Tests-Automatici-brightgreen">
+    &nbsp;
+    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
+  </p>
 
 - **Cyber-Security Lab** - `cyse-lab`
   Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.
   Repo: https://github.com/gcomneno/cyse-lab
+  <p>
+    <img alt="Cybersecurity" src="https://img.shields.io/badge/Cybersecurity-White--hat-black">
+    &nbsp;
+    <img alt="Recon" src="https://img.shields.io/badge/Recon-Enumeration-blue">
+    &nbsp;
+    <img alt="Scripts" src="https://img.shields.io/badge/Scripts-Lab-purple">
+    &nbsp;
+    <img alt="Lesson Learned" src="https://img.shields.io/badge/Docs-Lesson%20Learned-brightgreen">
+  </p>
 
 </details>
 
