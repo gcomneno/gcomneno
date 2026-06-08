@@ -60,10 +60,6 @@ determinismo, struttura, matematica e una dose controllata di assurdità.<br><br
 <a id="flagship"></a>
 ## 👑 Progetto in Evidenza
 
-<details>
-<summary><strong>Apri elenco completo</strong></summary>
-<br>
-
 ### PET - Prime Exponent Tree
 
 **Canonical recursive representation of integers based on prime factorization and exponent trees.**
@@ -88,8 +84,6 @@ ma anche la loro **forma fattoriale ricorsiva**.
   &nbsp;
   <img alt="R&D" src="https://img.shields.io/badge/Focus-Math%20R%26D-purple">
 </p>
-
-</details>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
