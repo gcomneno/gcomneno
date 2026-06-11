@@ -108,6 +108,12 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
     &nbsp;
     <img alt="BitBake" src="https://img.shields.io/badge/BitBake-Recipes-purple">
     &nbsp;
+    <img alt="Release" src="https://img.shields.io/badge/Release-v0.1.0-brightgreen">
+    &nbsp;
+    <img alt="Preflight" src="https://img.shields.io/badge/Preflight-Read--only-success">
+    &nbsp;
+    <img alt="vscode-bitbake" src="https://img.shields.io/badge/vscode--bitbake-Workspace-blueviolet">
+    &nbsp;
     <img alt="Embedded Linux" src="https://img.shields.io/badge/Embedded-Linux-black?logo=linux&logoColor=white">
     &nbsp;
     <img alt="Focus" src="https://img.shields.io/badge/Focus-Tutor%20Friendly-brightgreen">
