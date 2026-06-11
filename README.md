@@ -92,10 +92,6 @@ ma anche la loro **forma fattoriale ricorsiva**.
 <a id="labs"></a>
 ## 🧪 Laboratori didattici in evidenza
 
-<details>
-<summary><strong>Apri elenco completo</strong></summary>
-<br>
-
 Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
 
 - **Yocto/QEMU Mini Lab** - `yocto-qemu-mini-lab`
@@ -118,6 +114,10 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
     &nbsp;
     <img alt="Focus" src="https://img.shields.io/badge/Focus-Tutor%20Friendly-brightgreen">
   </p>
+
+<details>
+<summary><strong>Apri elenco completo</strong></summary>
+<br>
 
 - **Python Clean Coding Lab - Smart File Organizer** - `smart-file-organizer`
   Laboratorio Python orientato a codice pulito e sviluppo production-style: CLI con `argparse`, layout `src/`, gestione progetto con `uv`, lint/format con `ruff`, test con `pytest`, dry-run sicuro e applicazione esplicita con `--apply`.
@@ -281,6 +281,8 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
 <a id="oss"></a>
 ## 🌍 Contributi Open Source
 
+- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+
 <details>
 <summary><strong>Apri elenco completo</strong></summary>
 <br>
@@ -293,7 +295,6 @@ Fork attivi di lavoro per contributi e patch:
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
 - [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
-- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
 - [copier-org/copier](https://github.com/copier-org/copier) → [gcomneno/copier](https://github.com/gcomneno/copier)
 
 </details>
@@ -304,10 +305,6 @@ Fork attivi di lavoro per contributi e patch:
 
 <a id="books"></a>
 ## 📚 Narrativa - Il Club dell'Assurdo
-
-<details>
-<summary><strong>Apri elenco completo</strong></summary>
-<br>
 
 <strong>Narrativa breve e seriale tra surreale e satira.</strong>
 
@@ -325,18 +322,12 @@ atti, episodi, catalogo, roadmap editoriale e manifesto poetico.
 - <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">Catalogo completo</a>
 - <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news">News & aggiornamenti</a>
 
-</details>
-
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
 
 <a id="music"></a>
 ## 🎵 Musica - The Only Fly
-
-<details>
-<summary><strong>Apri elenco completo</strong></summary>
-<br>
 
 Composizioni originali tra elettronica minimale, atmosfera e sperimentazione.
 Pattern iterativi, variazioni controllate e ricerca timbrica.
@@ -360,8 +351,6 @@ Pattern iterativi, variazioni controllate e ricerca timbrica.
 <p align="center">
   <em>Un laboratorio sonoro dove anche i loop hanno una dignità filosofica.</em>
 </p>
-
-</details>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
