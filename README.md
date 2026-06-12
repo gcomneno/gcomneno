@@ -215,6 +215,25 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
   Lessons Learned manager e ML toolkit con CLI + REST API, architettura pulita, test automatici e packaging.
   Repo: https://github.com/gcomneno/lele-manager
 
+- **LeLe Quizzer**
+  Quiz game didattico per programmatori, collegato alla knowledge base prodotta da LeLe Manager: ricerca locale, draft di domande, sessioni interattive da terminale e salvataggio dei tentativi in locale.
+  Repo: https://github.com/gcomneno/lele-quizzer
+  Release: https://github.com/gcomneno/lele-quizzer/releases/tag/v0.1.0
+  Privacy: knowledge base reale, configurazione privata e tentativi restano locali, non nel repository pubblico.
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
+    &nbsp;
+    <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
+    &nbsp;
+    <img alt="Quiz" src="https://img.shields.io/badge/Mode-Quiz%20Game-purple">
+    &nbsp;
+    <img alt="LeLe" src="https://img.shields.io/badge/Knowledge-LeLe%20Manager-brightgreen">
+    &nbsp;
+    <img alt="Release" src="https://img.shields.io/badge/Release-v0.1.0-success">
+    &nbsp;
+    <img alt="Privacy" src="https://img.shields.io/badge/Privacy-Local%20KB-black">
+  </p>
+
 - **GYTE - YouTube Transcript Extractor**
   Batch extractor di trascrizioni YouTube con provider abstraction, CLI leggibile e workflow riproducibili.
   Repo: https://github.com/gcomneno/gyte
