@@ -1,14 +1,13 @@
 <a id="top"></a>
 
-<h1 align="center">Giancarlo Comneno</h1>
+<h1 align="center">Giancarlo Cicellyn Comneno</h1>
 
 <p align="center">
-  Backend Software Developer · PHP/Laravel · Python · Linux · CLI tooling · OSS
+  Backend Software Developer · C · PHP/Laravel · Python · Linux · CLI tooling · OSS
 </p>
 
 <p align="center">
-  Costruisco piccoli sistemi verificabili: CLI, API, tooling, laboratori tecnici e progetti
-  con test automatici, documentazione, versioning e workflow riproducibili.
+  CLI, API, tooling, laboratori tecnici e progetti con test automatici, documentazione, versioning e workflow riproducibili.
 </p>
 
 <p align="center">
@@ -28,7 +27,7 @@
 <h2 align="center">Giadaware Remote Lab · Backend tools, CLI and reproducible experiments</h2>
 
 <p align="center">
-Sono <strong>Giancarlo</strong>: lavoro su strumenti software, CLI, API e laboratori tecnici
+Lavoro su strumenti software, CLI, API e laboratori tecnici
 con attenzione a chiarezza, automazione, test e documentazione.<br><br>
 <em>Obiettivo pratico: rendere visibile non solo cosa costruisco, ma anche come ragiono mentre lo costruisco.</em>
 </p>
@@ -38,7 +37,7 @@ con attenzione a chiarezza, automazione, test e documentazione.<br><br>
 <a id="updates"></a>
 ## 🗞️ Ultimi aggiornamenti
 
-- **2026-06-19** · Riorganizzato il profilo GitHub con una struttura più orientata a recruiter, progetti selezionati e lavoro software concreto.
+- **2026-06-19** · Avviato [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), laboratorio didattico per esplorare come modellare concetti OOP in C.
 - **2026-06-12** · Pubblicato LeLe Quizzer `v0.1.0`, quiz da terminale collegato alla knowledge base locale di LeLe Manager.
 - **2026-06-11** · Ripreso PET dai principi primi, chiarendo rappresentazione canonica, confini del modello e ruolo come lente strutturale sugli interi.
 
