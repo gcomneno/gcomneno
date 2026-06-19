@@ -225,6 +225,19 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
     <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
   </p>
 
+- **OOP-in-C Lab - Didattico** - `oop-in-c-lab`
+  Laboratorio didattico in C per esplorare come modellare concetti tipici della programmazione a oggetti usando `struct`, puntatori, layout di memoria e dispatch manuale.
+  Repo: https://github.com/gcomneno/oop-in-c-lab
+  <p>
+    <img alt="C" src="https://img.shields.io/badge/C-Lab-blue">
+    &nbsp;
+    <img alt="OOP" src="https://img.shields.io/badge/OOP-Concepts-purple">
+    &nbsp;
+    <img alt="Memory Layout" src="https://img.shields.io/badge/Memory-Layout-orange">
+    &nbsp;
+    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
+  </p>
+ 
 - **Cyber-Security Lab** - `cyse-lab`
   Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.
   Repo: https://github.com/gcomneno/cyse-lab
