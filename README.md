@@ -35,6 +35,17 @@ con attenzione a chiarezza, automazione, test e documentazione.<br><br>
 
 ---
 
+<a id="updates"></a>
+## 🗞️ Ultimi aggiornamenti
+
+- **2026-06-19** · Riorganizzato il profilo GitHub con una struttura più orientata a recruiter, progetti selezionati e lavoro software concreto.
+- **2026-06-12** · Pubblicato LeLe Quizzer `v0.1.0`, quiz da terminale collegato alla knowledge base locale di LeLe Manager.
+- **2026-06-11** · Ripreso PET dai principi primi, chiarendo rappresentazione canonica, confini del modello e ruolo come lente strutturale sugli interi.
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
+---
+
 <a id="selected-work"></a>
 ## 🧰 Selected work
 
