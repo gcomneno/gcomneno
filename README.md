@@ -1,59 +1,137 @@
 <a id="top"></a>
 
-<h1 align="center">👋 Benvenuto nel laboratorio di <strong>Giancarlo</strong> 👋</h1>
+<h1 align="center">Giancarlo Comneno</h1>
 
 <p align="center">
-  Backend & Data Engineer · C / C++ / PHP / Python · CLI tooling · OSS contributor · AI Assisted
+  Backend Software Developer · PHP/Laravel · Python · Linux · CLI tooling · OSS
 </p>
 
 <p align="center">
-  Tooling, librerie, laboratori didattici e R&D con approccio <strong>production-style</strong>:
-  CI, test automatici, versioning, documentazione, CLI usabili e output verificabili.
+  Costruisco piccoli sistemi verificabili: CLI, API, tooling, laboratori tecnici e progetti
+  con test automatici, documentazione, versioning e workflow riproducibili.
 </p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/gcomneno">
-    <img alt="Sponsor" src="https://img.shields.io/badge/Sponsor-💖-ea4aaa?style=for-the-badge">
+  <a href="#selected-work">
+    <img alt="Selected Work" src="https://img.shields.io/badge/Selected%20Work-Backend%20%2F%20Python%20%2F%20Linux-blue?style=for-the-badge">
   </a>
-  <a href="https://github.com/gcomneno?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/badge/Followers-GitHub-555?style=for-the-badge&logo=github">
-  </a>
-  <a href="https://github.com/gcomneno?tab=repositories">
-    <img alt="Repos" src="https://img.shields.io/badge/Repos-Explore-blue?style=for-the-badge">
-  </a>
-  <img alt="Views" src="https://komarev.com/ghpvc/?username=gcomneno&style=for-the-badge">
-</p>
-
-<p align="center">
   <a href="#flagship">
-    <img alt="FLAGSHIP PROJECT" src="https://img.shields.io/badge/FLAGSHIP-PET-gold?style=for-the-badge">
-  </a>
-  <a href="#labs">
-    <img alt="LAB DIDATTICI" src="https://img.shields.io/badge/LAB%20DIDATTICI-Yocto%20%2F%20Python%20%2F%20Web%20%2F%20Security-brightgreen?style=for-the-badge">
-  </a>
-  <a href="#software">
-    <img alt="SOFTWARE R&D" src="https://img.shields.io/badge/SOFTWARE%20R%26D-CLI%20%2F%20data%20%2F%20tools-blue?style=for-the-badge">
+    <img alt="Research Flagship" src="https://img.shields.io/badge/Research-PET-gold?style=for-the-badge">
   </a>
   <a href="#oss">
-    <img alt="OPEN SOURCE" src="https://img.shields.io/badge/OSS-Contributions-black?style=for-the-badge&logo=github">
-  </a>
-  <a href="#books">
-    <img alt="CLUB DELL'ASSURDO" src="https://img.shields.io/badge/CLUB%20DELL'ASSURDO-Narrativa-purple?style=for-the-badge">
-  </a>
-  <a href="#music">
-    <img alt="MUSICA" src="https://img.shields.io/badge/MUSICA-Bandcamp-black?style=for-the-badge">
+    <img alt="Open Source" src="https://img.shields.io/badge/OSS-Contributions-black?style=for-the-badge&logo=github">
   </a>
 </p>
 
 ---
 
-<h2 align="center">Giadaware Remote Lab (Italia) · Backend & Data Engineering</h2>
+<h2 align="center">Giadaware Remote Lab · Backend tools, CLI and reproducible experiments</h2>
 
 <p align="center">
-Sono <strong>Giancarlo</strong>: costruisco strumenti software, CLI e laboratori computazionali dove convivono
-determinismo, struttura, matematica e una dose controllata di assurdità.<br><br>
-<em>Se qualcosa funziona ed è anche elegante, allora non l'ho fatta io!</em>
+Sono <strong>Giancarlo</strong>: lavoro su strumenti software, CLI, API e laboratori tecnici
+con attenzione a chiarezza, automazione, test e documentazione.<br><br>
+<em>Obiettivo pratico: rendere visibile non solo cosa costruisco, ma anche come ragiono mentre lo costruisco.</em>
 </p>
+
+---
+
+<a id="selected-work"></a>
+## 🧰 Selected work
+
+Una selezione breve per capire rapidamente cosa so costruire, senza aprire quaranta tab e perdere la fede nell'umanità.
+
+### LeLe Manager - Knowledge-base tooling
+
+Lessons Learned manager e toolkit ML con CLI, REST API, test automatici e packaging.
+
+- gestione di una knowledge base locale in JSONL
+- ricerca/similarità con backend deterministici
+- CLI e API pensate per workflow riproducibili
+- attenzione a privacy, configurazione e confini tra dati pubblici e locali
+
+**Repo:** https://github.com/gcomneno/lele-manager
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
+  &nbsp;
+  <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
+  &nbsp;
+  <img alt="API" src="https://img.shields.io/badge/API-REST-brightgreen">
+  &nbsp;
+  <img alt="Tests" src="https://img.shields.io/badge/Tests-Automatici-success">
+</p>
+
+### LeLe Quizzer - Terminal quiz game
+
+Quiz game didattico collegato alla knowledge base prodotta da LeLe Manager.
+
+- configurazione tramite YAML
+- ricerca locale nella knowledge base
+- generazione di bozze di domande
+- quiz interattivo da terminale
+- salvataggio locale dei tentativi
+- release pubblica `v0.1.0`
+
+**Repo:** https://github.com/gcomneno/lele-quizzer
+
+**Release:** https://github.com/gcomneno/lele-quizzer/releases/tag/v0.1.0
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
+  &nbsp;
+  <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
+  &nbsp;
+  <img alt="Quiz" src="https://img.shields.io/badge/Mode-Quiz%20Game-purple">
+  &nbsp;
+  <img alt="Release" src="https://img.shields.io/badge/Release-v0.1.0-success">
+</p>
+
+### Smart File Organizer - Python clean coding lab
+
+Laboratorio Python orientato a codice pulito e sviluppo production-style.
+
+- layout `src/`
+- project management con `uv`
+- lint/format con `ruff`
+- test con `pytest`
+- CLI con dry-run sicuro e applicazione esplicita
+
+**Repo:** https://github.com/gcomneno/smart-file-organizer
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
+  &nbsp;
+  <img alt="uv" src="https://img.shields.io/badge/Tooling-uv-purple">
+  &nbsp;
+  <img alt="pytest" src="https://img.shields.io/badge/Tests-pytest-brightgreen">
+  &nbsp;
+  <img alt="ruff" src="https://img.shields.io/badge/Lint%20%2F%20Format-ruff-black">
+</p>
+
+### Yocto/QEMU Mini Lab - Embedded Linux learning lab
+
+Mini laboratorio Yocto/QEMU per build, boot, layer custom e ricette BitBake.
+
+- build di `core-image-minimal`
+- boot con QEMU
+- layer custom `meta-monkey`
+- ricetta `hello-monkey`
+- immagine custom `monkey-image-minimal`
+- release pubblica `v0.1.0`
+
+**Repo:** https://github.com/gcomneno/yocto-qemu-mini-lab
+
+<p>
+  <img alt="Yocto" src="https://img.shields.io/badge/Yocto-Lab-blue">
+  &nbsp;
+  <img alt="QEMU" src="https://img.shields.io/badge/QEMU-Boot-orange">
+  &nbsp;
+  <img alt="BitBake" src="https://img.shields.io/badge/BitBake-Recipes-purple">
+  &nbsp;
+  <img alt="Embedded Linux" src="https://img.shields.io/badge/Embedded-Linux-black?logo=linux&logoColor=white">
+</p>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
 
@@ -90,49 +168,13 @@ ma anche la loro **forma fattoriale ricorsiva**.
 ---
 
 <a id="labs"></a>
-## 🧪 Laboratori didattici in evidenza
+## 🧪 Altri laboratori didattici
 
-Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
-
-- **Yocto/QEMU Mini Lab** - `yocto-qemu-mini-lab`
-  Mini laboratorio didattico Yocto/QEMU: build di `core-image-minimal`, boot con QEMU, layer custom `meta-monkey`, ricetta `hello-monkey` e image custom `monkey-image-minimal`.
-  Repo: https://github.com/gcomneno/yocto-qemu-mini-lab
-  <p>
-    <img alt="Yocto" src="https://img.shields.io/badge/Yocto-Lab-blue">
-    &nbsp;
-    <img alt="QEMU" src="https://img.shields.io/badge/QEMU-Boot-orange">
-    &nbsp;
-    <img alt="BitBake" src="https://img.shields.io/badge/BitBake-Recipes-purple">
-    &nbsp;
-    <img alt="Release" src="https://img.shields.io/badge/Release-v0.1.0-brightgreen">
-    &nbsp;
-    <img alt="Preflight" src="https://img.shields.io/badge/Preflight-Read--only-success">
-    &nbsp;
-    <img alt="vscode-bitbake" src="https://img.shields.io/badge/vscode--bitbake-Workspace-blueviolet">
-    &nbsp;
-    <img alt="Embedded Linux" src="https://img.shields.io/badge/Embedded-Linux-black?logo=linux&logoColor=white">
-    &nbsp;
-    <img alt="Focus" src="https://img.shields.io/badge/Focus-Tutor%20Friendly-brightgreen">
-  </p>
+Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
 
 <details>
 <summary><strong>Apri elenco completo</strong></summary>
 <br>
-
-- **Python Clean Coding Lab - Smart File Organizer** - `smart-file-organizer`
-  Laboratorio Python orientato a codice pulito e sviluppo production-style: CLI con `argparse`, layout `src/`, gestione progetto con `uv`, lint/format con `ruff`, test con `pytest`, dry-run sicuro e applicazione esplicita con `--apply`.
-  Repo: https://github.com/gcomneno/smart-file-organizer
-  <p>
-    <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
-    &nbsp;
-    <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
-    &nbsp;
-    <img alt="uv" src="https://img.shields.io/badge/Tooling-uv-purple">
-    &nbsp;
-    <img alt="pytest" src="https://img.shields.io/badge/Tests-pytest-brightgreen">
-    &nbsp;
-    <img alt="ruff" src="https://img.shields.io/badge/Lint%20%2F%20Format-ruff-black">
-  </p>
 
 - **C# / HTML Lab - Didattico** - `kleis-sviluppo-software-4`
   Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per capire il linguaggio passo dopo passo.
@@ -193,7 +235,7 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
 ---
 
 <a id="software"></a>
-## 💖 Progetti tecnici selezionati
+## 💖 Altri progetti tecnici
 
 <details>
 <summary><strong>Apri elenco completo</strong></summary>
@@ -210,29 +252,6 @@ Questi repository raccolgono percorsi di studio, esercizi guidati e laboratori p
 - **Ubuntu System Tools**
   Tool CLI Bash per Ubuntu progettati per essere public-safe, con attenzione a automazione, manutenzione e riproducibilità.
   Repo: https://github.com/gcomneno/ubuntu-system-tools
-
-- **LeLe Manager**
-  Lessons Learned manager e ML toolkit con CLI + REST API, architettura pulita, test automatici e packaging.
-  Repo: https://github.com/gcomneno/lele-manager
-
-- **LeLe Quizzer**
-  Quiz game didattico per programmatori, collegato alla knowledge base prodotta da LeLe Manager: ricerca locale, draft di domande, sessioni interattive da terminale e salvataggio dei tentativi in locale.
-  Repo: https://github.com/gcomneno/lele-quizzer
-  Release: https://github.com/gcomneno/lele-quizzer/releases/tag/v0.1.0
-  Privacy: knowledge base reale, configurazione privata e tentativi restano locali, non nel repository pubblico.
-  <p>
-    <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
-    &nbsp;
-    <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
-    &nbsp;
-    <img alt="Quiz" src="https://img.shields.io/badge/Mode-Quiz%20Game-purple">
-    &nbsp;
-    <img alt="LeLe" src="https://img.shields.io/badge/Knowledge-LeLe%20Manager-brightgreen">
-    &nbsp;
-    <img alt="Release" src="https://img.shields.io/badge/Release-v0.1.0-success">
-    &nbsp;
-    <img alt="Privacy" src="https://img.shields.io/badge/Privacy-Local%20KB-black">
-  </p>
 
 - **GYTE - YouTube Transcript Extractor**
   Batch extractor di trascrizioni YouTube con provider abstraction, CLI leggibile e workflow riproducibili.
