@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<h1 align="center">Giancarlo Cicellyn Comneno</h1>
+<h1 align="center">👋 Giancarlo Cicellyn Comneno 👋</h1>
 
 <p align="center">
   Backend Software Developer · C · PHP/Laravel · Python · Linux · CLI tooling · OSS
