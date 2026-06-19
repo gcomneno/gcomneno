@@ -287,7 +287,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 ---
 
 <a id="rnd"></a>
-## 🧭 Altri progetti R&D / software
+## 🧭 Altri progetti di ricerca
 
 <details>
 <summary><strong>Apri elenco completo</strong></summary>
