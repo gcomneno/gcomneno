@@ -150,7 +150,7 @@ Mini laboratorio Yocto/QEMU per build, boot, layer custom e ricette BitBake.
 
 ### PET - Prime Exponent Tree
 
-**Canonical recursive representation of integers based on prime factorization and exponent trees.**
+**Rappresentazione canonica e ricorsiva degli interi basata su fattorizzazione in numeri primi e alberi degli esponenti.**
 
 PET è il mio progetto-bandiera: un modello strutturale degli interi che non guarda solo il valore numerico,
 ma anche la loro **forma fattoriale ricorsiva**.
