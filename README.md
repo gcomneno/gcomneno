@@ -37,6 +37,7 @@ con attenzione a chiarezza, automazione, test e documentazione.<br><br>
 <a id="updates"></a>
 ## 🗞️ Ultimi aggiornamenti
 
+- **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`, due nuovi laboratori didattici su Python per sviluppatori esperti e internals di Git ricostruiti in Python.
 - **2026-06-19** · Avviato [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), laboratorio didattico per esplorare come modellare concetti OOP in C.
 - **2026-06-12** · Pubblicato LeLe Quizzer `v0.1.0`, quiz da terminale collegato alla knowledge base locale di LeLe Manager.
 - **2026-06-11** · Ripreso PET dai principi primi, chiarendo rappresentazione canonica, confini del modello e ruolo come lente strutturale sugli interi.
@@ -189,6 +190,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 
 - **C# / HTML Lab - Didattico** - `kleis-sviluppo-software-4`
   Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per capire il linguaggio passo dopo passo.
+  <br>
   Repo: https://github.com/gcomneno/kleis-sviluppo-software-4
   <p>
     <img alt="C#" src="https://img.shields.io/badge/C%23-.NET-purple?logo=dotnet">
@@ -200,8 +202,31 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
     <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
   </p>
 
+* **Python Fast Track** - `python-fast-track`
+  Percorso compatto di Python per sviluppatori già esperti: lezioni pratiche, confronti con altri linguaggi, esercizi e appunti orientati a diventare produttivi rapidamente.
+  <br>
+  Repo: https://github.com/gcomneno/python-fast-track
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Python-Fast%20Track-yellow?logo=python">
+    <img alt="Experienced Developers" src="https://img.shields.io/badge/Target-Experienced%20Developers-blue">
+    <img alt="Lessons" src="https://img.shields.io/badge/Docs-Lessons-brightgreen">
+    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
+  </p>
+
+* **PyGit Lab** - `pygit-lab`
+  Laboratorio didattico per esplorare gli internals di Git ricostruendo concetti fondamentali con Python: repository, oggetti, comandi minimi e Lesson Learned operative.
+  <br>
+  Repo: https://github.com/gcomneno/pygit-lab
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Python-Lab-yellow?logo=python">
+    <img alt="Git" src="https://img.shields.io/badge/Git-Internals-orange?logo=git&logoColor=white">
+    <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
+    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
+  </p>
+
 - **Web Lab / Laravel Lab** - `web`
   Laboratorio personale per progetti web. Il primo sottoprogetto attivo è un percorso Laravel seguito lezione per lezione, con appunti, glossario, progetto locale e Lesson Learned.
+  <br>
   Repo: https://github.com/gcomneno/web
   <p>
     <img alt="Laravel" src="https://img.shields.io/badge/Laravel-Lab-red?logo=laravel&logoColor=white">
@@ -215,6 +240,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 
 - **JavaScript Lab - Didattico** - `js-lab-didattico`
   Laboratorio didattico in JavaScript e TypeScript sui design pattern, con esempi eseguibili, test automatici e spiegazioni.
+  <br>
   Repo: https://github.com/gcomneno/js-lab-didattico
   <p>
     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-Lab-yellow?logo=javascript&logoColor=black">
@@ -228,6 +254,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 
 - **OOP-in-C Lab - Didattico** - `oop-in-c-lab`
   Laboratorio didattico in C per esplorare come modellare concetti tipici della programmazione a oggetti usando `struct`, puntatori, layout di memoria e dispatch manuale.
+  <br>
   Repo: https://github.com/gcomneno/oop-in-c-lab
   <p>
     <img alt="C" src="https://img.shields.io/badge/C-Lab-blue">
@@ -241,6 +268,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
  
 - **Cyber-Security Lab** - `cyse-lab`
   Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.
+  <br>
   Repo: https://github.com/gcomneno/cyse-lab
   <p>
     <img alt="Cybersecurity" src="https://img.shields.io/badge/Cybersecurity-White--hat-black">
