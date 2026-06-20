@@ -20,6 +20,9 @@
   <a href="#oss">
     <img alt="Open Source" src="https://img.shields.io/badge/OSS-Contributions-black?style=for-the-badge&logo=github">
   </a>
+  <a href="#visitors">
+    <img alt="Visite profilo" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&style=for-the-badge">
+  </a>  
 </p>
 
 ---
