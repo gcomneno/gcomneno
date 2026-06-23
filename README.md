@@ -40,7 +40,8 @@ con attenzione a chiarezza, automazione, test e documentazione.<br><br>
 <a id="updates"></a>
 ## 🗞️ Ultimi aggiornamenti
 
-- **2026-06-21** · ["Il Gentiluomo delle Ombre"](https://github.com/gcomneno/club-dell-assurdo/blob/main/fiction/stories/Nero%20quotidiano/Le%20Cronache%20del%20Gentiluomo%20delle%20Ombre/01.%20Il%20Gentiluomo%20delle%20Ombre%20(Atto%20I)/Capitolo-14.md). Finale del primo atto riscritto. Molto meglio adesso! ❤️
+- **2026-06-23** · ["Il Gentiluomo delle Ombre III"] Nuovo prologo e revisione finale del capitolo 1 e capitolo 2.
+- **2026-06-21** · ["Il Gentiluomo delle Ombre I"](https://github.com/gcomneno/club-dell-assurdo/blob/main/fiction/stories/Nero%20quotidiano/Le%20Cronache%20del%20Gentiluomo%20delle%20Ombre/01.%20Il%20Gentiluomo%20delle%20Ombre%20(Atto%20I)/Capitolo-14.md). Finale del primo atto riscritto. Molto meglio adesso! ❤️
 - **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`, due nuovi laboratori didattici su Python per sviluppatori esperti e internals di Git ricostruiti in Python.
 - **2026-06-19** · `Canis Polymorphicus Manualis`, [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), laboratorio didattico per esplorare come modellare concetti OOP in C.
 - **2026-06-12** · Pubblicato LeLe Quizzer `v0.1.0`, quiz da terminale collegato alla knowledge base locale di LeLe Manager.
