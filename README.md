@@ -15,10 +15,10 @@
     <img alt="Progetti" src="https://img.shields.io/badge/-Progetti-2ea44f?style=flat-square">
   </a>
   <a href="#flagship">
-    <img alt="PET" src="https://img.shields.io/badge/-PET-b8860b?style=flat-square">
+    <img alt="PET" src="https://img.shields.io/badge/-In%20Evidenza-b8860b?style=flat-square">
   </a>
   <a href="#labs">
-    <img alt="Lab" src="https://img.shields.io/badge/-Lab-7b61ff?style=flat-square">
+    <img alt="Lab" src="https://img.shields.io/badge/-Laboratori-7b61ff?style=flat-square">
   </a>
   <a href="#software">
     <img alt="Software" src="https://img.shields.io/badge/-Software-555555?style=flat-square">
