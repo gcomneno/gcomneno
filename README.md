@@ -11,31 +11,6 @@
 </p>
 
 <p align="center">
-  <a href="#selected-work">
-    <img alt="Selected Work" src="https://img.shields.io/badge/Selected%20Work-Backend%20%2F%20Python%20%2F%20Linux-blue?style=for-the-badge">
-  </a>
-  <a href="#flagship">
-    <img alt="Research Flagship" src="https://img.shields.io/badge/Research-PET-gold?style=for-the-badge">
-  </a>
-  <a href="#oss">
-    <img alt="Open Source" src="https://img.shields.io/badge/OSS-Contributions-black?style=for-the-badge&logo=github">
-  </a>
-  <a href="#visitors">
-    <img alt="Visite profilo" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&style=for-the-badge">
-  </a>  
-</p>
-
----
-
-<h2 align="center">Giadaware Remote Lab · Backend tools, CLI and reproducible experiments</h2>
-
-<p align="center">
-Lavoro su strumenti software, CLI, API e laboratori tecnici
-con attenzione a chiarezza, automazione, test e documentazione.<br><br>
-</p>
-
-<p align="center">
-  <strong>Accesso rapido</strong><br><br>
   <a href="#updates">
     <img alt="Ultimi aggiornamenti" src="https://img.shields.io/badge/News-Ultimi%20aggiornamenti-blue?style=for-the-badge">
   </a>
