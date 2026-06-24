@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
+  <a href="#flagship">
+    <img alt="In Evidenza" src="https://img.shields.io/badge/-In%20Evidenza-b8860b?style=flat-square">
+  </a>
   <a href="#selected-work">
     <img alt="Progetti" src="https://img.shields.io/badge/-Progetti-2ea44f?style=flat-square">
   </a>
-  <a href="#flagship">
-    <img alt="PET" src="https://img.shields.io/badge/-In%20Evidenza-b8860b?style=flat-square">
-  </a>
   <a href="#labs">
-    <img alt="Lab" src="https://img.shields.io/badge/-Laboratori-7b61ff?style=flat-square">
+    <img alt="Laboratori" src="https://img.shields.io/badge/-Laboratori-7b61ff?style=flat-square">
   </a>
   <a href="#software">
     <img alt="Software" src="https://img.shields.io/badge/-Software-555555?style=flat-square">
@@ -43,14 +43,14 @@
 ## 🗞️ Ultimi aggiornamenti
 
 - **2026-06-23** · ["Il Gentiluomo delle Ombre III"] Nuovo prologo e revisione finale del capitolo 1 e capitolo 2.
+- **2026-06-21** · ["Il Gentiluomo delle Ombre I"](https://github.com/gcomneno/club-dell-assurdo/blob/main/fiction/stories/Nero%20quotidiano/Le%20Cronache%20del%20Gentiluomo%20delle%20Ombre/01.%20Il%20Gentiluomo%20delle%20Ombre%20(Atto%20I)/Capitolo-14.md). Finale del primo atto riscritto. Molto meglio adesso! ❤️
+- **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`, due nuovi laboratori didattici su Python per sviluppatori esperti e internals di Git ricostruiti in Python.
+- **2026-06-19** · `Canis Polymorphicus Manualis`, [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), laboratorio didattico per esplorare come modellare concetti OOP in C.
 
 <details>
 <summary><strong>Apri aggiornamenti precedenti</strong></summary>
 <br>
 
-- **2026-06-21** · ["Il Gentiluomo delle Ombre I"](https://github.com/gcomneno/club-dell-assurdo/blob/main/fiction/stories/Nero%20quotidiano/Le%20Cronache%20del%20Gentiluomo%20delle%20Ombre/01.%20Il%20Gentiluomo%20delle%20Ombre%20(Atto%20I)/Capitolo-14.md). Finale del primo atto riscritto. Molto meglio adesso! ❤️
-- **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`, due nuovi laboratori didattici su Python per sviluppatori esperti e internals di Git ricostruiti in Python.
-- **2026-06-19** · `Canis Polymorphicus Manualis`, [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), laboratorio didattico per esplorare come modellare concetti OOP in C.
 - **2026-06-12** · Pubblicato LeLe Quizzer `v0.1.0`, quiz da terminale collegato alla knowledge base locale di LeLe Manager.
 - **2026-06-11** · Ripreso PET dai principi primi, chiarendo rappresentazione canonica, confini del modello e ruolo come lente strutturale sugli interi.
 
