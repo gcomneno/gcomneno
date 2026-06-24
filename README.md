@@ -46,11 +46,18 @@
 ## 🗞️ Ultimi aggiornamenti
 
 - **2026-06-23** · ["Il Gentiluomo delle Ombre III"] Nuovo prologo e revisione finale del capitolo 1 e capitolo 2.
+
+<details>
+<summary><strong>Apri aggiornamenti precedenti</strong></summary>
+<br>
+
 - **2026-06-21** · ["Il Gentiluomo delle Ombre I"](https://github.com/gcomneno/club-dell-assurdo/blob/main/fiction/stories/Nero%20quotidiano/Le%20Cronache%20del%20Gentiluomo%20delle%20Ombre/01.%20Il%20Gentiluomo%20delle%20Ombre%20(Atto%20I)/Capitolo-14.md). Finale del primo atto riscritto. Molto meglio adesso! ❤️
 - **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`, due nuovi laboratori didattici su Python per sviluppatori esperti e internals di Git ricostruiti in Python.
 - **2026-06-19** · `Canis Polymorphicus Manualis`, [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), laboratorio didattico per esplorare come modellare concetti OOP in C.
 - **2026-06-12** · Pubblicato LeLe Quizzer `v0.1.0`, quiz da terminale collegato alla knowledge base locale di LeLe Manager.
 - **2026-06-11** · Ripreso PET dai principi primi, chiarendo rappresentazione canonica, confini del modello e ruolo come lente strutturale sugli interi.
+
+</details>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
@@ -82,9 +89,13 @@ Lessons Learned manager e toolkit ML con CLI, REST API, test automatici e packag
   <img alt="Tests" src="https://img.shields.io/badge/Tests-Automatici-success">
 </p>
 
+<details>
+<summary><strong>Apri altri progetti selezionati</strong></summary>
+<br>
+
 ### LeLe Quizzer - Terminal quiz game
 
-Quiz game didattico collegato alla "Knowledge Base" prodotta da LeLe Manager. Permette di ispezionare la KB, cercare lesson, generare domande deterministiche, giocare quiz interattivi, salvare i tentativi in locale e riepilogare le aree più allenate/deboli. 
+Quiz game didattico collegato alla "Knowledge Base" prodotta da LeLe Manager. Permette di ispezionare la KB, cercare lesson, generare domande deterministiche, giocare quiz interattivi, salvare i tentativi in locale e riepilogare le aree più allenate/deboli.
 
 Privacy-first: configurazione privata, knowledge base reale e risposte utente restano fuori dal repository:
 - configurazione tramite YAML
@@ -153,6 +164,8 @@ Mini laboratorio Yocto/QEMU per build, boot, layer custom e ricette BitBake.
   <img alt="Embedded Linux" src="https://img.shields.io/badge/Embedded-Linux-black?logo=linux&logoColor=white">
 </p>
 
+</details>
+
 <p align="right"><a href="#top">↑ torna su</a></p>
 
 ---
@@ -194,8 +207,19 @@ ma anche la loro **forma fattoriale ricorsiva**.
 
 Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
 
+- **Python Fast Track** - `python-fast-track`
+  Percorso compatto di Python per sviluppatori già esperti: lezioni pratiche, confronti con altri linguaggi, esercizi e appunti orientati a diventare produttivi rapidamente.
+  <br>
+  Repo: https://github.com/gcomneno/python-fast-track
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Python-Fast%20Track-yellow?logo=python">
+    <img alt="Experienced Developers" src="https://img.shields.io/badge/Target-Experienced%20Developers-blue">
+    <img alt="Lessons" src="https://img.shields.io/badge/Docs-Lessons-brightgreen">
+    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
+  </p>
+
 <details>
-<summary><strong>Apri elenco completo</strong></summary>
+<summary><strong>Apri altri laboratori didattici</strong></summary>
 <br>
 
 - **C# / HTML Lab - Didattico** - `kleis-sviluppo-software-4`
@@ -212,18 +236,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
     <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
   </p>
 
-* **Python Fast Track** - `python-fast-track`
-  Percorso compatto di Python per sviluppatori già esperti: lezioni pratiche, confronti con altri linguaggi, esercizi e appunti orientati a diventare produttivi rapidamente.
-  <br>
-  Repo: https://github.com/gcomneno/python-fast-track
-  <p>
-    <img alt="Python" src="https://img.shields.io/badge/Python-Fast%20Track-yellow?logo=python">
-    <img alt="Experienced Developers" src="https://img.shields.io/badge/Target-Experienced%20Developers-blue">
-    <img alt="Lessons" src="https://img.shields.io/badge/Docs-Lessons-brightgreen">
-    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
-  </p>
-
-* **PyGit Lab** - `pygit-lab`
+- **PyGit Lab** - `pygit-lab`
   Laboratorio didattico per esplorare gli internals di Git ricostruendo concetti fondamentali con Python: repository, oggetti, comandi minimi e Lesson Learned operative.
   <br>
   Repo: https://github.com/gcomneno/pygit-lab
@@ -275,7 +288,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
     &nbsp;
     <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
   </p>
- 
+
 - **Cyber-Security Lab** - `cyse-lab`
   Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.
   <br>
@@ -299,13 +312,13 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 <a id="software"></a>
 ## 💖 Altri progetti tecnici
 
-<details>
-<summary><strong>Apri elenco completo</strong></summary>
-<br>
-
 - **ISS - Integer Structural Search**
   Motore di ricerca strutturale bounded su interi: strategie dichiarate, budget espliciti, output JSON stabile e guardrail contro la fattorizzazione generale mascherata.
   Repo: https://github.com/gcomneno/integer-structural-search
+
+<details>
+<summary><strong>Apri altri progetti tecnici</strong></summary>
+<br>
 
 - **MIDAS - Modular Integer Dataset Analysis System**
   Deterministic CLI tool per analisi di dataset di interi, con focus su pattern modulari e struttura non-casuale.
@@ -328,13 +341,13 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 <a id="rnd"></a>
 ## 🧭 Altri progetti di ricerca
 
-<details>
-<summary><strong>Apri elenco completo</strong></summary>
-<br>
-
 - **OCF - Onion Compressor Framework** - `onion-compressor-framework`
   Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.
   Repo: https://github.com/gcomneno/onion-compressor-framework
+
+<details>
+<summary><strong>Apri altri progetti di ricerca</strong></summary>
+<br>
 
 - **Turbo-Bucketizer (C++17)** - `turbo-bucketizer-cpp`
   Deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.
