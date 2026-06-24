@@ -15,7 +15,7 @@
     <img alt="In Evidenza" src="https://img.shields.io/badge/-In%20Evidenza-b8860b?style=flat-square">
   </a>
   <a href="#selected-work">
-    <img alt="Progetti" src="https://img.shields.io/badge/-Progetti-2ea44f?style=flat-square">
+    <img alt="Progetti" src="https://img.shields.io/badge/-Progetti%20selezionati-2ea44f?style=flat-square">
   </a>
   <a href="#labs">
     <img alt="Laboratori" src="https://img.shields.io/badge/-Laboratori-7b61ff?style=flat-square">
@@ -93,7 +93,7 @@ ma anche la loro **forma fattoriale ricorsiva**.
 ---
 
 <a id="selected-work"></a>
-## 🧰 Selected work
+## 🧰 Progetti selezionati
 
 Una selezione breve per capire rapidamente cosa so costruire, senza aprire quaranta tab e perdere la fede nell'umanità.
 
