@@ -11,11 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="#updates">
-    <img alt="Ultimi aggiornamenti" src="https://img.shields.io/badge/News-Ultimi%20aggiornamenti-blue?style=for-the-badge">
-  </a>
   <a href="#selected-work">
-    <img alt="Progetti selezionati" src="https://img.shields.io/badge/Work-Progetti%20selezionati-brightgreen?style=for-the-badge">
+    <img alt="Progetti" src="https://img.shields.io/badge/Work-Progetti%20selezionati-brightgreen?style=for-the-badge">
   </a>
   <a href="#flagship">
     <img alt="PET" src="https://img.shields.io/badge/Flagship-PET-gold?style=for-the-badge">
@@ -58,6 +55,38 @@
 - **2026-06-11** · Ripreso PET dai principi primi, chiarendo rappresentazione canonica, confini del modello e ruolo come lente strutturale sugli interi.
 
 </details>
+
+<p align="right"><a href="#top">↑ torna su</a></p>
+
+---
+
+<a id="flagship"></a>
+## 👑 Progetto in Evidenza
+
+### PET - Prime Exponent Tree
+
+**Rappresentazione canonica e ricorsiva degli interi basata su fattorizzazione in numeri primi e alberi degli esponenti.**
+
+PET è il mio progetto-bandiera: un modello strutturale degli interi che non guarda solo il valore numerico,
+ma anche la loro **forma fattoriale ricorsiva**.
+
+- rappresentazione **canonica, invertibile e lossless**
+- codifica/decodifica, validazione e **JSON canonico**
+- metriche strutturali e analisi di dataset numerici
+- CLI minimale e workflow riproducibili
+- focus R&D tra matematica computazionale, struttura e sperimentazione
+
+**Repo:** https://github.com/gcomneno/pet
+
+<p>
+  <img alt="Interface" src="https://img.shields.io/badge/Interface-CLI-blue">
+  &nbsp;
+  <img alt="Canonical" src="https://img.shields.io/badge/Representation-Canonical-brightgreen">
+  &nbsp;
+  <img alt="Lossless" src="https://img.shields.io/badge/Encoding-Lossless-success">
+  &nbsp;
+  <img alt="R&D" src="https://img.shields.io/badge/Focus-Math%20R%26D-purple">
+</p>
 
 <p align="right"><a href="#top">↑ torna su</a></p>
 
@@ -170,57 +199,8 @@ Mini laboratorio Yocto/QEMU per build, boot, layer custom e ricette BitBake.
 
 ---
 
-<a id="flagship"></a>
-## 👑 Progetto in Evidenza
-
-### PET - Prime Exponent Tree
-
-**Rappresentazione canonica e ricorsiva degli interi basata su fattorizzazione in numeri primi e alberi degli esponenti.**
-
-PET è il mio progetto-bandiera: un modello strutturale degli interi che non guarda solo il valore numerico,
-ma anche la loro **forma fattoriale ricorsiva**.
-
-- rappresentazione **canonica, invertibile e lossless**
-- codifica/decodifica, validazione e **JSON canonico**
-- metriche strutturali e analisi di dataset numerici
-- CLI minimale e workflow riproducibili
-- focus R&D tra matematica computazionale, struttura e sperimentazione
-
-**Repo:** https://github.com/gcomneno/pet
-
-<p>
-  <img alt="Interface" src="https://img.shields.io/badge/Interface-CLI-blue">
-  &nbsp;
-  <img alt="Canonical" src="https://img.shields.io/badge/Representation-Canonical-brightgreen">
-  &nbsp;
-  <img alt="Lossless" src="https://img.shields.io/badge/Encoding-Lossless-success">
-  &nbsp;
-  <img alt="R&D" src="https://img.shields.io/badge/Focus-Math%20R%26D-purple">
-</p>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
-
----
-
 <a id="labs"></a>
 ## 🧪 Altri laboratori didattici
-
-Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
-
-- **Python Fast Track** - `python-fast-track`
-  Percorso compatto di Python per sviluppatori già esperti: lezioni pratiche, confronti con altri linguaggi, esercizi e appunti orientati a diventare produttivi rapidamente.
-  <br>
-  Repo: https://github.com/gcomneno/python-fast-track
-  <p>
-    <img alt="Python" src="https://img.shields.io/badge/Python-Fast%20Track-yellow?logo=python">
-    <img alt="Experienced Developers" src="https://img.shields.io/badge/Target-Experienced%20Developers-blue">
-    <img alt="Lessons" src="https://img.shields.io/badge/Docs-Lessons-brightgreen">
-    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
-  </p>
-
-<details>
-<summary><strong>Apri altri laboratori didattici</strong></summary>
-<br>
 
 - **C# / HTML Lab - Didattico** - `kleis-sviluppo-software-4`
   Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per capire il linguaggio passo dopo passo.
@@ -234,6 +214,23 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
     <img alt="CSS" src="https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white">
     &nbsp;
     <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
+  </p>
+
+Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
+
+<details>
+<summary><strong>Apri altri laboratori didattici</strong></summary>
+<br>
+
+- **Python Fast Track** - `python-fast-track`
+  Percorso compatto di Python per sviluppatori già esperti: lezioni pratiche, confronti con altri linguaggi, esercizi e appunti orientati a diventare produttivi rapidamente.
+  <br>
+  Repo: https://github.com/gcomneno/python-fast-track
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Python-Fast%20Track-yellow?logo=python">
+    <img alt="Experienced Developers" src="https://img.shields.io/badge/Target-Experienced%20Developers-blue">
+    <img alt="Lessons" src="https://img.shields.io/badge/Docs-Lessons-brightgreen">
+    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
   </p>
 
 - **PyGit Lab** - `pygit-lab`
