@@ -11,6 +11,10 @@
 </p>
 
 <p align="center">
+  <sub><strong>NAVIGAZIONE RAPIDA</strong></sub>
+</p>
+
+<p align="center">
   <a href="#selected-work"><kbd>Progetti</kbd></a>
   <a href="#flagship"><kbd>PET</kbd></a>
   <a href="#labs"><kbd>Lab</kbd></a>
