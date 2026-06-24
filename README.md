@@ -11,18 +11,30 @@
 </p>
 
 <p align="center">
-  <sub><strong>NAVIGAZIONE RAPIDA</strong></sub>
-</p>
-
-<p align="center">
-  <a href="#selected-work"><kbd>Progetti</kbd></a>
-  <a href="#flagship"><kbd>PET</kbd></a>
-  <a href="#labs"><kbd>Lab</kbd></a>
-  <a href="#software"><kbd>Software</kbd></a>
-  <a href="#rnd"><kbd>R&amp;D</kbd></a>
-  <a href="#oss"><kbd>OSS</kbd></a>
-  <a href="#books"><kbd>Storie</kbd></a>
-  <a href="#music"><kbd>Musica</kbd></a>
+  <a href="#selected-work">
+    <img alt="Progetti" src="https://img.shields.io/badge/-Progetti-2ea44f?style=flat-square">
+  </a>
+  <a href="#flagship">
+    <img alt="PET" src="https://img.shields.io/badge/-PET-b8860b?style=flat-square">
+  </a>
+  <a href="#labs">
+    <img alt="Lab" src="https://img.shields.io/badge/-Lab-7b61ff?style=flat-square">
+  </a>
+  <a href="#software">
+    <img alt="Software" src="https://img.shields.io/badge/-Software-555555?style=flat-square">
+  </a>
+  <a href="#rnd">
+    <img alt="R&D" src="https://img.shields.io/badge/-R%26D-6c757d?style=flat-square">
+  </a>
+  <a href="#oss">
+    <img alt="OSS" src="https://img.shields.io/badge/-OSS-111111?style=flat-square">
+  </a>
+  <a href="#books">
+    <img alt="Storie" src="https://img.shields.io/badge/-Storie-8e44ad?style=flat-square">
+  </a>
+  <a href="#music">
+    <img alt="Musica" src="https://img.shields.io/badge/-Musica-629aa9?style=flat-square">
+  </a>
 </p>
 
 ---
