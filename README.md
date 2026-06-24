@@ -127,6 +127,7 @@ Lessons Learned manager e toolkit ML con CLI, REST API, test automatici e packag
 Quiz game didattico collegato alla "Knowledge Base" prodotta da LeLe Manager. Permette di ispezionare la KB, cercare lesson, generare domande deterministiche, giocare quiz interattivi, salvare i tentativi in locale e riepilogare le aree più allenate/deboli.
 
 Privacy-first: configurazione privata, knowledge base reale e risposte utente restano fuori dal repository:
+
 - configurazione tramite YAML
 - ricerca locale nella knowledge base
 - generazione di bozze di domande
