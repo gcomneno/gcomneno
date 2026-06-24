@@ -11,30 +11,14 @@
 </p>
 
 <p align="center">
-  <a href="#selected-work">
-    <img alt="Progetti selezionati" src="https://img.shields.io/badge/Work-Progetti%20selezionati-brightgreen?style=for-the-badge">
-  </a>
-  <a href="#flagship">
-    <img alt="PET" src="https://img.shields.io/badge/Flagship-PET-gold?style=for-the-badge">
-  </a>
-  <a href="#labs">
-    <img alt="Laboratori" src="https://img.shields.io/badge/Lab-Didattici-purple?style=for-the-badge">
-  </a>
-  <a href="#software">
-    <img alt="Altri progetti tecnici" src="https://img.shields.io/badge/Software-Altri%20progetti-orange?style=for-the-badge">
-  </a>
-  <a href="#rnd">
-    <img alt="R&D" src="https://img.shields.io/badge/R%26D-Sperimentazione-lightgrey?style=for-the-badge">
-  </a>
-  <a href="#oss">
-    <img alt="Open Source" src="https://img.shields.io/badge/OSS-Contributi-black?style=for-the-badge&logo=github">
-  </a>
-  <a href="#books">
-    <img alt="Narrativa" src="https://img.shields.io/badge/Narrativa-Club%20dell'Assurdo-purple?style=for-the-badge">
-  </a>
-  <a href="#music">
-    <img alt="Musica" src="https://img.shields.io/badge/Musica-The%20Only%20Fly-629aa9?style=for-the-badge">
-  </a>
+  <a href="#selected-work"><kbd>Progetti</kbd></a>
+  <a href="#flagship"><kbd>PET</kbd></a>
+  <a href="#labs"><kbd>Lab</kbd></a>
+  <a href="#software"><kbd>Software</kbd></a>
+  <a href="#rnd"><kbd>R&amp;D</kbd></a>
+  <a href="#oss"><kbd>OSS</kbd></a>
+  <a href="#books"><kbd>Storie</kbd></a>
+  <a href="#music"><kbd>Musica</kbd></a>
 </p>
 
 ---
