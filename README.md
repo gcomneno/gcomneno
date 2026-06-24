@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="#selected-work">
-    <img alt="Progetti" src="https://img.shields.io/badge/Work-Progetti%20selezionati-brightgreen?style=for-the-badge">
+    <img alt="Progetti selezionati" src="https://img.shields.io/badge/Work-Progetti%20selezionati-brightgreen?style=for-the-badge">
   </a>
   <a href="#flagship">
     <img alt="PET" src="https://img.shields.io/badge/Flagship-PET-gold?style=for-the-badge">
@@ -200,7 +200,9 @@ Mini laboratorio Yocto/QEMU per build, boot, layer custom e ricette BitBake.
 ---
 
 <a id="labs"></a>
-## 🧪 Altri laboratori didattici
+## 🧪 Laboratori didattici
+
+Percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
 
 - **C# / HTML Lab - Didattico** - `kleis-sviluppo-software-4`
   Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per capire il linguaggio passo dopo passo.
@@ -216,10 +218,8 @@ Mini laboratorio Yocto/QEMU per build, boot, layer custom e ricette BitBake.
     <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
   </p>
 
-Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
-
 <details>
-<summary><strong>Apri altri laboratori didattici</strong></summary>
+<summary><strong>Altri laboratori didattici</strong></summary>
 <br>
 
 - **Python Fast Track** - `python-fast-track`
@@ -336,14 +336,14 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 ---
 
 <a id="rnd"></a>
-## 🧭 Altri progetti di ricerca
+## 🧭 Progetti di ricerca [R&D]
 
 - **OCF - Onion Compressor Framework** - `onion-compressor-framework`
   Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.
   Repo: https://github.com/gcomneno/onion-compressor-framework
 
 <details>
-<summary><strong>Apri altri progetti di ricerca</strong></summary>
+<summary><strong>Altri progetti di ricerca</strong></summary>
 <br>
 
 - **Turbo-Bucketizer (C++17)** - `turbo-bucketizer-cpp`
@@ -394,7 +394,7 @@ Altri percorsi di studio, esercizi guidati e laboratori pratici pensati per impa
 - [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
 
 <details>
-<summary><strong>Apri elenco completo</strong></summary>
+<summary><strong>Elenco completo dei repo OSS</strong></summary>
 <br>
 
 Fork attivi di lavoro per contributi e patch:
@@ -476,7 +476,7 @@ Pattern iterativi, variazioni controllate e ricerca timbrica.
   </a>
 </p>
 
-<p align="center"><em>💖 Supporta “La Scimmia Curiosa” - perché anche i bit hanno bisogno di banane 🍌</em></p>
+<p align="center"><em>💖 Supporta “La Scimmietta Curiosa” - perché anche i bit hanno bisogno di banane 🍌</em></p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
