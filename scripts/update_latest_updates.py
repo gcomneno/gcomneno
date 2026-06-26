@@ -21,7 +21,11 @@ MAX_ITEMS = 5
 SINCE_DAYS = 14
 MAX_REPOS = 100
 
+FALLBACK_UPDATE = "- Nessun aggiornamento automatico disponibile al momento."
+
 NEWS_PATTERN = re.compile(r"^(news|release):\s*(.+)$", re.IGNORECASE)
+
+API_HAD_FAILURE = False
 
 
 @dataclass(frozen=True)
@@ -33,7 +37,13 @@ class UpdateItem:
     url: str
 
 
+def parse_github_datetime(value: str) -> datetime:
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+
 def github_get_json(url: str) -> object | None:
+    global API_HAD_FAILURE
+
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
     headers = {
@@ -51,12 +61,11 @@ def github_get_json(url: str) -> object | None:
         with urlopen(request, timeout=20) as response:
             return json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:
-        if exc.code == 404:
-            print(f"info: skipping unavailable endpoint: {url}", file=sys.stderr)
-        else:
-            print(f"warning: GitHub API returned {exc.code} for {url}", file=sys.stderr)
+        API_HAD_FAILURE = True
+        print(f"warning: GitHub API returned {exc.code} for {url}", file=sys.stderr)
         return None
     except URLError as exc:
+        API_HAD_FAILURE = True
         print(f"warning: GitHub API failed for {url}: {exc}", file=sys.stderr)
         return None
 
@@ -64,6 +73,7 @@ def github_get_json(url: str) -> object | None:
 def discover_public_repositories() -> list[str]:
     repos: list[str] = []
     page = 1
+    cutoff = datetime.now(timezone.utc) - timedelta(days=SINCE_DAYS)
 
     while len(repos) < MAX_REPOS:
         url = (
@@ -103,6 +113,14 @@ def discover_public_repositories() -> list[str]:
 
             if repo.get("disabled") is True:
                 continue
+
+            pushed_at = repo.get("pushed_at")
+            if isinstance(pushed_at, str):
+                try:
+                    if parse_github_datetime(pushed_at) < cutoff:
+                        continue
+                except ValueError:
+                    pass
 
             repos.append(full_name)
 
@@ -158,7 +176,7 @@ def fetch_repo_updates(repo: str) -> list[UpdateItem]:
             date_raw = commit["committer"]["date"]
             html_url = commit_obj["html_url"]
 
-            date = datetime.fromisoformat(date_raw.replace("Z", "+00:00"))
+            date = parse_github_datetime(date_raw)
 
             items.append(
                 UpdateItem(
@@ -178,7 +196,7 @@ def fetch_repo_updates(repo: str) -> list[UpdateItem]:
 def collect_updates() -> list[UpdateItem]:
     repos = discover_public_repositories()
 
-    print(f"Discovered {len(repos)} public repository/repositories.", file=sys.stderr)
+    print(f"Discovered {len(repos)} recently updated public repository/repositories.", file=sys.stderr)
 
     items: list[UpdateItem] = []
 
@@ -196,6 +214,9 @@ def collect_updates() -> list[UpdateItem]:
 
 
 def render_updates(items: list[UpdateItem]) -> str:
+    if not items:
+        return FALLBACK_UPDATE
+
     lines = []
 
     for item in items:
@@ -225,8 +246,8 @@ def replace_updates_block(readme: str, updates_markdown: str) -> str:
 def main() -> int:
     items = collect_updates()
 
-    if not items:
-        print("No tagged news/release commits found. README.md left unchanged.")
+    if API_HAD_FAILURE:
+        print("GitHub API failure detected. README.md left unchanged.")
         return 0
 
     readme = README_PATH.read_text(encoding="utf-8")
@@ -238,7 +259,12 @@ def main() -> int:
         return 0
 
     README_PATH.write_text(updated, encoding="utf-8")
-    print(f"Updated README.md with {len(items)} item(s).")
+
+    if items:
+        print(f"Updated README.md with {len(items)} item(s).")
+    else:
+        print("No tagged news/release commits found. Fallback written to README.md.")
+
     return 0
 
 
