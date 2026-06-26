@@ -1,488 +1,147 @@
-<a id="top"></a>
+# Giancarlo Cicellyn Comneno
 
-<h1 align="center">👋 Giancarlo Cicellyn Comneno 👋</h1>
+Backend Software Developer · PHP/Laravel · Python · Linux · CLI tooling · Open Source
 
-<p align="center">
-  Backend Software Developer · C · PHP/Laravel · Python · Linux · CLI tooling · OSS
-</p>
+> Problems become knowledge. Knowledge becomes tools. Tools become open source.
 
-<p align="center">
-  CLI, API, tooling, laboratori tecnici e progetti con test automatici, documentazione, versioning e workflow riproducibili.
-</p>
+Non colleziono repository. Colleziono problemi risolti.
 
-<p align="center">
-  <a href="#flagship">
-    <img alt="In Evidenza" src="https://img.shields.io/badge/-In%20Evidenza-b8860b?style=flat-square">
-  </a>
-  <a href="#selected-work">
-    <img alt="Progetti" src="https://img.shields.io/badge/-Progetti%20Selezionati-2ea44f?style=flat-square">
-  </a>
-  <a href="#labs">
-    <img alt="Laboratori" src="https://img.shields.io/badge/-Laboratori-7b61ff?style=flat-square">
-  </a>
-  <a href="#software">
-    <img alt="Software" src="https://img.shields.io/badge/-Software-555555?style=flat-square">
-  </a>
-  <a href="#rnd">
-    <img alt="R&D" src="https://img.shields.io/badge/-R%26D-6c757d?style=flat-square">
-  </a>
-  <a href="#oss">
-    <img alt="OSS" src="https://img.shields.io/badge/-OSS-111111?style=flat-square">
-  </a>
-  <a href="#books">
-    <img alt="Storie" src="https://img.shields.io/badge/-Storie-8e44ad?style=flat-square">
-  </a>
-  <a href="#music">
-    <img alt="Musica" src="https://img.shields.io/badge/-Musica-629aa9?style=flat-square">
-  </a>
-</p>
+Ogni progetto qui nasce da un attrito reale: qualcosa che ho dovuto capire, ripetere, automatizzare, spiegare o rendere più affidabile. Quando un problema torna più di una volta, lo trasformo in conoscenza. Quando quella conoscenza diventa riutilizzabile, provo a trasformarla in uno strumento. Quando lo strumento può essere utile anche ad altri, lo pubblico.
+
+**GiadaWare** è il nome del mio laboratorio personale: il posto dove problemi ricorrenti diventano appunti, strumenti e progetti pubblici.
 
 ---
 
-<a id="updates"></a>
-## 🗞️ Ultimi aggiornamenti
+## Latest Updates
 
-- **2026-06-26** · Recuperate e documentate le lezioni su Responsive Design, Flexbox, CSS Grid e media query. Aggiunti esercizi guidati, layout responsive, schede prodotto e Lesson Learned su Bootstrap.
-- **2026-06-23** · ["Il Gentiluomo delle Ombre III"] Nuovo prologo e revisione finale del capitolo 1 e capitolo 2.
-- **2026-06-21** · ["Il Gentiluomo delle Ombre I"](https://github.com/gcomneno/club-dell-assurdo/blob/main/fiction/stories/Nero%20quotidiano/Le%20Cronache%20del%20Gentiluomo%20delle%20Ombre/01.%20Il%20Gentiluomo%20delle%20Ombre%20(Atto%20I)/Capitolo-14.md). Finale del primo atto riscritto. Molto meglio adesso! ❤️
+<!-- updates:start -->
 
-<details>
-<summary><strong>Apri aggiornamenti precedenti</strong></summary>
-<br>
+- **2026-06-26** · Recuperate e documentate lezioni su responsive design, Flexbox, CSS Grid e media query.
+- **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`.
+- **2026-06-19** · Pubblicato `oop-in-c-lab`, laboratorio didattico su OOP modellata in C.
 
-- **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`, due nuovi laboratori didattici su Python per sviluppatori esperti e internals di Git ricostruiti in Python.
-- **2026-06-19** · `Canis Polymorphicus Manualis`, [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), laboratorio didattico per esplorare come modellare concetti OOP in C.
-- **2026-06-12** · Pubblicato LeLe Quizzer `v0.1.0`, quiz da terminale collegato alla knowledge base locale di LeLe Manager.
-- **2026-06-11** · Ripreso PET dai principi primi, chiarendo rappresentazione canonica, confini del modello e ruolo come lente strutturale sugli interi.
-
-</details>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
+<!-- updates:end -->
 
 ---
 
-<a id="flagship"></a>
-## 👑 Progetto in Evidenza
+## The Problem Collection
 
-### PET - Prime Exponent Tree
+Una selezione di problemi reali trasformati in strumenti, laboratori o progetti open source.
 
-**Rappresentazione canonica e ricorsiva degli interi basata su fattorizzazione in numeri primi e alberi degli esponenti.**
+### 1. Come non perdere le lesson learned?
 
-PET è il mio progetto-bandiera: un modello strutturale degli interi che non guarda solo il valore numerico,
-ma anche la loro **forma fattoriale ricorsiva**.
+**Problema:** Le conoscenze operative si disperdono facilmente tra chat, file, appunti, repo e memoria personale.
 
-- rappresentazione **canonica, invertibile e lossless**
-- codifica/decodifica, validazione e **JSON canonico**
-- metriche strutturali e analisi di dataset numerici
-- CLI minimale e workflow riproducibili
-- focus R&D tra matematica computazionale, struttura e sperimentazione
+**Strumento:** LeLe Manager: una knowledge base locale in JSONL, interrogabile da CLI e API, pensata per rendere ricercabili le lesson learned.
 
-**Repo:** https://github.com/gcomneno/pet
+**Metodo:** CLI, REST API, backend deterministici, test automatici, configurazione esplicita e confini chiari tra dati pubblici e dati locali.
 
-<p>
-  <img alt="Interface" src="https://img.shields.io/badge/Interface-CLI-blue">
-  &nbsp;
-  <img alt="Canonical" src="https://img.shields.io/badge/Representation-Canonical-brightgreen">
-  &nbsp;
-  <img alt="Lossless" src="https://img.shields.io/badge/Encoding-Lossless-success">
-  &nbsp;
-  <img alt="R&D" src="https://img.shields.io/badge/Focus-Math%20R%26D-purple">
-</p>
+**Repo:** [gcomneno/lele-manager](https://github.com/gcomneno/lele-manager)
 
-<p align="right"><a href="#top">↑ torna su</a></p>
+### 2. Come trasformare una knowledge base in allenamento?
 
----
+**Problema:** Archiviare conoscenza non basta: bisogna richiamarla, verificarla e usarla.
 
-<a id="selected-work"></a>
-## 🧰 Progetti selezionati
+**Strumento:** LeLe Quizzer: un quiz da terminale collegato alla knowledge base locale di LeLe Manager.
 
-Una selezione breve per capire rapidamente cosa so costruire, senza aprire quaranta tab e perdere la fede nell'umanità.
+**Metodo:** Quiz interattivo, domande deterministiche, tentativi salvati localmente, riepilogo delle aree allenate/deboli e approccio privacy-first.
 
-### LeLe Manager - Knowledge-base tooling
+**Repo:** [gcomneno/lele-quizzer](https://github.com/gcomneno/lele-quizzer)
 
-Lessons Learned manager e toolkit ML con CLI, REST API, test automatici e packaging.
+### 3. Come automatizzare file senza creare disastri?
 
-- gestione di una knowledge base locale in JSONL
-- ricerca/similarità con backend deterministici
-- CLI e API pensate per workflow riproducibili
-- attenzione a privacy, configurazione e confini tra dati pubblici e locali
+**Problema:** Gli script che spostano file possono diventare pericolosi se non mostrano chiaramente cosa stanno per fare.
 
-**Repo:** https://github.com/gcomneno/lele-manager
+**Strumento:** Smart File Organizer: una CLI Python che organizza file con piano, dry-run e applicazione esplicita.
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
-  &nbsp;
-  <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
-  &nbsp;
-  <img alt="API" src="https://img.shields.io/badge/API-REST-brightgreen">
-  &nbsp;
-  <img alt="Tests" src="https://img.shields.io/badge/Tests-Automatici-success">
-</p>
+**Metodo:** Layout `src/`, `uv`, `ruff`, `pytest`, comandi chiari e attenzione alla sicurezza operativa.
 
-<details>
-<summary><strong>Apri altri progetti selezionati</strong></summary>
-<br>
+**Repo:** [gcomneno/smart-file-organizer](https://github.com/gcomneno/smart-file-organizer)
 
-### LeLe Quizzer - Terminal quiz game
+### 4. Come capire Git oltre i comandi copiati?
 
-Quiz game didattico collegato alla "Knowledge Base" prodotta da LeLe Manager. Permette di ispezionare la KB, cercare lesson, generare domande deterministiche, giocare quiz interattivi, salvare i tentativi in locale e riepilogare le aree più allenate/deboli.
+**Problema:** Git viene spesso usato come sequenza di incantesimi terminale, senza capire il modello sotto.
 
-Privacy-first: configurazione privata, knowledge base reale e risposte utente restano fuori dal repository:
+**Strumento:** PyGit Lab: laboratorio didattico per ricostruire concetti fondamentali di Git in Python.
 
-- configurazione tramite YAML
-- ricerca locale nella knowledge base
-- generazione di bozze di domande
-- quiz interattivo da terminale
-- salvataggio locale dei tentativi
-- release pubblica `v0.1.0`
+**Metodo:** Oggetti, repository, comandi minimi, esperimenti riproducibili e lesson learned operative.
 
-**Repo:** https://github.com/gcomneno/lele-quizzer
+**Repo:** [gcomneno/pygit-lab](https://github.com/gcomneno/pygit-lab)
 
-**Release:** https://github.com/gcomneno/lele-quizzer/releases/tag/v0.1.0
+### 5. Come capire davvero cosa c’è sotto l’OOP?
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
-  &nbsp;
-  <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
-  &nbsp;
-  <img alt="Quiz" src="https://img.shields.io/badge/Mode-Quiz%20Game-purple">
-  &nbsp;
-  <img alt="Release" src="https://img.shields.io/badge/Release-v0.1.0-success">
-</p>
+**Problema:** L’Object-Oriented Programming rischia di sembrare magia se non si guarda cosa succede sotto astrazioni, metodi e dispatch.
 
-### Smart File Organizer - Python clean coding lab
+**Strumento:** OOP-in-C Lab: laboratorio in C che modella concetti OOP con `struct`, puntatori, vtable e layout di memoria.
 
-Laboratorio Python orientato a codice pulito e sviluppo production-style.
+**Metodo:** Esempi piccoli, output osservabile, confronto tra astrazione e memoria reale.
 
-- layout `src/`
-- project management con `uv`
-- lint/format con `ruff`
-- test con `pytest`
-- CLI con dry-run sicuro e applicazione esplicita
-
-**Repo:** https://github.com/gcomneno/smart-file-organizer
-
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-yellow?logo=python">
-  &nbsp;
-  <img alt="uv" src="https://img.shields.io/badge/Tooling-uv-purple">
-  &nbsp;
-  <img alt="pytest" src="https://img.shields.io/badge/Tests-pytest-brightgreen">
-  &nbsp;
-  <img alt="ruff" src="https://img.shields.io/badge/Lint%20%2F%20Format-ruff-black">
-</p>
-
-### Yocto/QEMU Mini Lab - Embedded Linux learning lab
-
-Mini laboratorio Yocto/QEMU per build, boot, layer custom e ricette BitBake.
-
-- build di `core-image-minimal`
-- boot con QEMU
-- layer custom `meta-monkey`
-- ricetta `hello-monkey`
-- immagine custom `monkey-image-minimal`
-- release pubblica `v0.1.0`
-
-**Repo:** https://github.com/gcomneno/yocto-qemu-mini-lab
-
-<p>
-  <img alt="Yocto" src="https://img.shields.io/badge/Yocto-Lab-blue">
-  &nbsp;
-  <img alt="QEMU" src="https://img.shields.io/badge/QEMU-Boot-orange">
-  &nbsp;
-  <img alt="BitBake" src="https://img.shields.io/badge/BitBake-Recipes-purple">
-  &nbsp;
-  <img alt="Embedded Linux" src="https://img.shields.io/badge/Embedded-Linux-black?logo=linux&logoColor=white">
-</p>
-
-</details>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
+**Repo:** [gcomneno/oop-in-c-lab](https://github.com/gcomneno/oop-in-c-lab)
 
 ---
 
-<a id="labs"></a>
-## 🧪 Laboratori didattici
+## Working Method
 
-Percorsi di studio, esercizi guidati e laboratori pratici pensati per imparare facendo.
+Il mio metodo di lavoro è semplice:
 
-- **C# / HTML Lab - Didattico** - `kleis-sviluppo-software-4`
-  Laboratorio didattico in C# sui fondamenti della programmazione, con esempi e commenti utili per capire il linguaggio passo dopo passo.
-  <br>
-  Repo: https://github.com/gcomneno/kleis-sviluppo-software-4
-  <p>
-    <img alt="C#" src="https://img.shields.io/badge/C%23-.NET-purple?logo=dotnet">
-    &nbsp;
-    <img alt="HTML" src="https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white">
-    &nbsp;
-    <img alt="CSS" src="https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white">
-    &nbsp;
-    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
-  </p>
+1. parto da un problema reale o ricorrente;
+2. lo documento come conoscenza riutilizzabile;
+3. cerco il modello minimo che lo rende comprensibile;
+4. costruisco uno strumento piccolo e verificabile;
+5. aggiungo test, documentazione e workflow riproducibile;
+6. pubblico il progetto quando può essere utile anche fuori dal mio contesto.
 
-<details>
-<summary><strong>Altri laboratori didattici</strong></summary>
-<br>
-
-- **Python Fast Track** - `python-fast-track`
-  Percorso compatto di Python per sviluppatori già esperti: lezioni pratiche, confronti con altri linguaggi, esercizi e appunti orientati a diventare produttivi rapidamente.
-  <br>
-  Repo: https://github.com/gcomneno/python-fast-track
-  <p>
-    <img alt="Python" src="https://img.shields.io/badge/Python-Fast%20Track-yellow?logo=python">
-    <img alt="Experienced Developers" src="https://img.shields.io/badge/Target-Experienced%20Developers-blue">
-    <img alt="Lessons" src="https://img.shields.io/badge/Docs-Lessons-brightgreen">
-    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
-  </p>
-
-- **PyGit Lab** - `pygit-lab`
-  Laboratorio didattico per esplorare gli internals di Git ricostruendo concetti fondamentali con Python: repository, oggetti, comandi minimi e Lesson Learned operative.
-  <br>
-  Repo: https://github.com/gcomneno/pygit-lab
-  <p>
-    <img alt="Python" src="https://img.shields.io/badge/Python-Lab-yellow?logo=python">
-    <img alt="Git" src="https://img.shields.io/badge/Git-Internals-orange?logo=git&logoColor=white">
-    <img alt="CLI" src="https://img.shields.io/badge/Interface-CLI-blue">
-    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
-  </p>
-
-- **Web Lab / Laravel Lab** - `web`
-  Laboratorio personale per progetti web. Il primo sottoprogetto attivo è un percorso Laravel seguito lezione per lezione, con appunti, glossario, progetto locale e Lesson Learned.
-  <br>
-  Repo: https://github.com/gcomneno/web
-  <p>
-    <img alt="Laravel" src="https://img.shields.io/badge/Laravel-Lab-red?logo=laravel&logoColor=white">
-    &nbsp;
-    <img alt="PHP" src="https://img.shields.io/badge/PHP-Web-blue?logo=php&logoColor=white">
-    &nbsp;
-    <img alt="Lesson Learned" src="https://img.shields.io/badge/Docs-Lesson%20Learned-brightgreen">
-    &nbsp;
-    <img alt="Focus" src="https://img.shields.io/badge/Focus-Web%20Lab-purple">
-  </p>
-
-- **JavaScript Lab - Didattico** - `js-lab-didattico`
-  Laboratorio didattico in JavaScript e TypeScript sui design pattern, con esempi eseguibili, test automatici e spiegazioni.
-  <br>
-  Repo: https://github.com/gcomneno/js-lab-didattico
-  <p>
-    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-Lab-yellow?logo=javascript&logoColor=black">
-    &nbsp;
-    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Patterns-blue?logo=typescript&logoColor=white">
-    &nbsp;
-    <img alt="Tests" src="https://img.shields.io/badge/Tests-Automatici-brightgreen">
-    &nbsp;
-    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-purple">
-  </p>
-
-- **OOP-in-C Lab - Didattico** - `oop-in-c-lab`
-  Laboratorio didattico in C per esplorare come modellare concetti tipici della programmazione a oggetti usando `struct`, puntatori, layout di memoria e dispatch manuale.
-  <br>
-  Repo: https://github.com/gcomneno/oop-in-c-lab
-  <p>
-    <img alt="C" src="https://img.shields.io/badge/C-Lab-blue">
-    &nbsp;
-    <img alt="OOP" src="https://img.shields.io/badge/OOP-Concepts-purple">
-    &nbsp;
-    <img alt="Memory Layout" src="https://img.shields.io/badge/Memory-Layout-orange">
-    &nbsp;
-    <img alt="Didattico" src="https://img.shields.io/badge/Focus-Didattico-brightgreen">
-  </p>
-
-- **Cyber-Security Lab** - `cyse-lab`
-  Laboratorio didattico white-hat con script per recon/enumeration, scenari ripetibili e template di Lesson Learned.
-  <br>
-  Repo: https://github.com/gcomneno/cyse-lab
-  <p>
-    <img alt="Cybersecurity" src="https://img.shields.io/badge/Cybersecurity-White--hat-black">
-    &nbsp;
-    <img alt="Recon" src="https://img.shields.io/badge/Recon-Enumeration-blue">
-    &nbsp;
-    <img alt="Scripts" src="https://img.shields.io/badge/Scripts-Lab-purple">
-    &nbsp;
-    <img alt="Lesson Learned" src="https://img.shields.io/badge/Docs-Lesson%20Learned-brightgreen">
-  </p>
-
-</details>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
+Non mi interessa solo “fare un repo”. Mi interessa lasciare dietro un percorso leggibile: problema, ragionamento, soluzione, limiti, prossimi passi.
 
 ---
 
-<a id="software"></a>
-## 💖 Altri progetti tecnici
+## Flagship Research: PET
 
-- **ISS - Integer Structural Search**
-  Motore di ricerca strutturale bounded su interi: strategie dichiarate, budget espliciti, output JSON stabile e guardrail contro la fattorizzazione generale mascherata.
-  Repo: https://github.com/gcomneno/integer-structural-search
+PET, Prime Exponent Tree, è il punto in cui lo stesso metodo entra nella matematica computazionale.
 
-<details>
-<summary><strong>Apri altri progetti tecnici</strong></summary>
-<br>
+**Problema:** Gli interi possono essere osservati non solo come valori, ma come strutture ricorsive generate dalla fattorizzazione.
 
-- **MIDAS - Modular Integer Dataset Analysis System**
-  Deterministic CLI tool per analisi di dataset di interi, con focus su pattern modulari e struttura non-casuale.
-  Repo: https://github.com/gcomneno/midas
+**Strumento:** PET rappresenta gli interi come alberi canonici degli esponenti primi.
 
-- **Ubuntu System Tools**
-  Tool CLI Bash per Ubuntu progettati per essere public-safe, con attenzione a automazione, manutenzione e riproducibilità.
-  Repo: https://github.com/gcomneno/ubuntu-system-tools
+**Metodo:** Rappresentazione canonica, codifica/decodifica lossless, JSON canonico, CLI minimale, metriche strutturali e dataset analizzabili.
 
-- **GYTE - YouTube Transcript Extractor**
-  Batch extractor di trascrizioni YouTube con provider abstraction, CLI leggibile e workflow riproducibili.
-  Repo: https://github.com/gcomneno/gyte
-
-</details>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
+**Repo:** [gcomneno/pet](https://github.com/gcomneno/pet)
 
 ---
 
-<a id="rnd"></a>
-## 🧭 Progetti di ricerca [R&D]
+## Learning in Public
 
-- **OCF - Onion Compressor Framework** - `onion-compressor-framework`
-  Framework modulare di compressione con layer pluggabili, pipeline deterministiche e quality gates automatizzati.
-  Repo: https://github.com/gcomneno/onion-compressor-framework
+Uso i laboratori pubblici per trasformare studio, appunti e prove tecniche in percorsi riproducibili.
 
-<details>
-<summary><strong>Altri progetti di ricerca</strong></summary>
-<br>
-
-- **Turbo-Bucketizer (C++17)** - `turbo-bucketizer-cpp`
-  Deterministic IPv4 bucketizer in C++17 per classificazione ad alte prestazioni, testing e esperimenti di rete riproducibili.
-  Repo: https://github.com/gcomneno/turbo-bucketizer-cpp
-
-- **Crystal Codec (GCC v1)** - `crystal-codec-gcc-v1`
-  Codec p-adico in Python con API pulita, test e SPEC matematica per esperimenti su struttura, invarianti e compressione.
-  Repo: https://github.com/gcomneno/crystal-codec-gcc-v1
-
-- **OEIS Probe** - `oeis-probe`
-  Strumento CLI per fingerprinting di sequenze su OEIS: query online via API, cache SQLite e comandi rapidi per capire “a cosa somiglia” una sequenza.
-  Repo: https://github.com/gcomneno/oeis-probe
-
-- **Digit-Probe** - `digit-probe`
-  Analizzatore statistico/strutturale per sequenze numeriche: chi-quadrato, runs, gaps, autocorrelazione, compressione, n-gram e confronti con modelli ideali.
-  Repo: https://github.com/gcomneno/digit-probe
-
-- **Prime Tower Clocks** - `prime-tower-clocks`
-  Tool matematico/CLI per rappresentare interi grandi tramite firme modulari basate su orologi primi e CRT.
-  Repo: https://github.com/gcomneno/prime-tower-clocks
-
-- **Huffman Compressor (legacy)** - `huffman-compressor`
-  Laboratorio storico di compressione “a strati”, mantenuto come base evolutiva verso framework più maturi.
-  Repo: https://github.com/gcomneno/huffman-compressor
-
-- **Lasagna v2** - `lasagna-v2`
-  Codec sperimentale per serie temporali con segmentazione adattiva, predittori multipli e tagging dei pattern.
-  Repo: https://github.com/gcomneno/lasagna-v2
-
-- **GianKoLotto® - Smart Combos** - `giankolotto-smart-combos`
-  Motore combinatorio Lotto-compliant con pruning aggressivo e vincoli modulari configurabili.
-  Repo: https://github.com/gcomneno/giankolotto-smart-combos
-
-- **QHSE Supply Chain Demo** - `qhse-supplychain-demo`
-  Architettura backend orientata all’affidabilità: FastAPI + SQLAlchemy + Postgres + pattern Outbox, worker idempotente, RBAC e modelli ben documentati.
-  Repo: https://github.com/gcomneno/qhse-supplychain-demo
-
-</details>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
+* [Python Fast Track](https://github.com/gcomneno/python-fast-track): Python per sviluppatori già esperti.
+* [Web / Laravel Lab](https://github.com/gcomneno/web): percorso pratico su Laravel e sviluppo backend web.
+* [PyGit Lab](https://github.com/gcomneno/pygit-lab): internals di Git ricostruiti in Python.
+* [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab): concetti OOP ricostruiti in C.
+* [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab): embedded Linux, build, boot e BitBake.
+* [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4): fondamenti di programmazione e web.
+* [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico): pattern, TypeScript e test.
+* [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab): laboratorio white-hat con recon, script e lesson learned.
 
 ---
 
-<a id="oss"></a>
-## 🌍 Contributi Open Source
+## Open Source Path
 
-- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+Il mio percorso open source è ancora in costruzione, ma segue la stessa logica: partire da problemi concreti, leggere il contesto tecnico, proporre modifiche piccole e verificabili.
 
-<details>
-<summary><strong>Elenco completo dei repo OSS</strong></summary>
-<br>
+Contributo principale in corso:
 
-Fork attivi di lavoro per contributi e patch:
+* [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
 
-- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
-- [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
-- [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
-- [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
-- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
-- [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
-- [copier-org/copier](https://github.com/copier-org/copier) → [gcomneno/copier](https://github.com/gcomneno/copier)
+Fork attivi di lavoro:
 
-</details>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
+* [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
+* [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
+* [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
+* [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
+* [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
+* [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
+* [copier-org/copier](https://github.com/copier-org/copier) → [gcomneno/copier](https://github.com/gcomneno/copier)
 
 ---
 
-<a id="books"></a>
-## 📚 Narrativa - Il Club dell'Assurdo
-
-<strong>Narrativa breve e seriale tra surreale e satira.</strong>
-
-Universo narrativo in evoluzione continua, strutturato come libreria digitale:
-atti, episodi, catalogo, roadmap editoriale e manifesto poetico.
-
-- 🎭 Surreale logico
-- 🧠 Satira filosofica
-- 🕰️ Memoria, identità, potere
-- 📖 Serialità modulare
-
-👉 <a href="https://github.com/gcomneno/club-dell-assurdo"><strong>Entra nel Club dell'Assurdo</strong></a>
-
-- <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/@INIZIA_DA_QUI.md">Inizia da qui</a>
-- <a href="https://github.com/gcomneno/club-dell-assurdo/blob/main/CATALOG.md">Catalogo completo</a>
-- <a href="https://github.com/gcomneno/club-dell-assurdo?tab=readme-ov-file#news">News & aggiornamenti</a>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
-
----
-
-<a id="music"></a>
-## 🎵 Musica - The Only Fly
-
-Composizioni originali tra elettronica minimale, atmosfera e sperimentazione.
-Pattern iterativi, variazioni controllate e ricerca timbrica.
-
-- 🎹 Elettronica minimale e struttura
-- 🌌 Atmosfere cinematiche e sospese
-- 🔁 Variazioni tematiche e forme iterative
-
-<p align="center">
-  👉 <a href="https://theonlyfly.bandcamp.com/"><strong>Ascolta su Bandcamp</strong></a>
-</p>
-
-<p align="center">
-  <a href="https://theonlyfly.bandcamp.com/">
-    <img
-      alt="Segui The Only Fly su Bandcamp"
-      src="https://img.shields.io/badge/Bandcamp-Segui%20The%20Only%20Fly-629aa9?style=for-the-badge&logo=bandcamp&logoColor=white">
-  </a>
-</p>
-
-<p align="center">
-  <em>Un laboratorio sonoro dove anche i loop hanno una dignità filosofica.</em>
-</p>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
-
----
-
-## 💬 Motto
-
-> “Se funziona ed è assurdo, allora è perfettamente logico.”
-
-<p align="center">
-  <a href="https://github.com/sponsors/gcomneno">
-    <img alt="Sponsor on GitHub" src="https://img.shields.io/badge/Sponsor%20on%20GitHub-💖-pink?style=for-the-badge">
-  </a>
-</p>
-
-<p align="center"><em>💖 Supporta “La Scimmietta Curiosa” - perché anche i bit hanno bisogno di banane 🍌</em></p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gcomneno&show_icons=true&hide_title=true" height="140" alt="Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcomneno&layout=compact" height="140" alt="Top Langs">
-</p>
-
-<p align="right"><a href="#top">↑ torna su</a></p>
+Questo profilo è un laboratorio in movimento: problemi reali, strumenti piccoli, documentazione chiara e iterazioni pubbliche.
