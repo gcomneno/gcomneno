@@ -132,7 +132,8 @@ Main contribution in progress:
 
 * [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
 
-Active working forks:
+<details>
+<summary>Active working forks</summary>
 
 * [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
 * [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
@@ -141,6 +142,8 @@ Active working forks:
 * [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
 * [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
 * [copier-org/copier](https://github.com/copier-org/copier) → [gcomneno/copier](https://github.com/gcomneno/copier)
+
+</details>
 
 ---
 
