@@ -16,9 +16,7 @@ Ogni progetto qui nasce da un attrito reale: qualcosa che ho dovuto capire, ripe
 
 <!-- updates:start -->
 
-- **2026-06-26** · Recuperate e documentate lezioni su responsive design, Flexbox, CSS Grid e media query.
-- **2026-06-20** · Avviati `python-fast-track` e `pygit-lab`.
-- **2026-06-19** · Pubblicato `oop-in-c-lab`, laboratorio didattico su OOP modellata in C.
+- Nessun aggiornamento automatico disponibile al momento.
 
 <!-- updates:end -->
 
