@@ -21,7 +21,7 @@ MAX_ITEMS = 5
 SINCE_DAYS = 14
 MAX_REPOS = 100
 
-FALLBACK_UPDATE = "- Nessun aggiornamento automatico disponibile al momento."
+FALLBACK_UPDATE = "- No automatic updates available at the moment."
 
 NEWS_PATTERN = re.compile(r"^(news|release):\s*(.+)$", re.IGNORECASE)
 
