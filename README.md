@@ -24,57 +24,59 @@ Ogni progetto qui nasce da un attrito reale: qualcosa che ho dovuto capire, ripe
 
 ## The Problem Collection
 
-Una selezione di problemi reali trasformati in strumenti, laboratori o progetti open source.
+> Real problems turned into reusable tools, labs and open-source artifacts.
 
-### 1. Come non perdere le lesson learned?
+### At a glance
 
-**Problema:** Le conoscenze operative si disperdono facilmente tra chat, file, appunti, repo e memoria personale.
+| Focus | Project | Technical signal |
+| --- | --- | --- |
+| Safe file automation | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Python CLI, dry-run, tests, operational safety |
+| Searchable lesson learned | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
+| Knowledge recall | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
+| OOP under the hood | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
+| Git beyond commands | [PyGit Lab](https://github.com/gcomneno/pygit-lab) | Git internals, Python, reconstruction-based learning |
 
-**Strumento:** LeLe Manager: una knowledge base locale in JSONL, interrogabile da CLI e API, pensata per rendere ricercabili le lesson learned.
+### Project notes
 
-**Metodo:** CLI, REST API, backend deterministici, test automatici, configurazione esplicita e confini chiari tra dati pubblici e dati locali.
+#### 1. Safe file automation
 
-**Repo:** [gcomneno/lele-manager](https://github.com/gcomneno/lele-manager)
+**Problem:** scripts that move files can become dangerous when they hide their plan.
 
-### 2. Come trasformare una knowledge base in allenamento?
+**Project:** Smart File Organizer, a Python CLI that organizes files through an explicit plan, dry-run mode and intentional apply step.
 
-**Problema:** Archiviare conoscenza non basta: bisogna richiamarla, verificarla e usarla.
+**Signal:** Python, CLI design, `uv`, `ruff`, `pytest`, safe defaults and operational thinking.
 
-**Strumento:** LeLe Quizzer: un quiz da terminale collegato alla knowledge base locale di LeLe Manager.
+#### 2. Searchable lesson learned
 
-**Metodo:** Quiz interattivo, domande deterministiche, tentativi salvati localmente, riepilogo delle aree allenate/deboli e approccio privacy-first.
+**Problem:** practical knowledge gets lost across chats, notes, files, repositories and memory.
 
-**Repo:** [gcomneno/lele-quizzer](https://github.com/gcomneno/lele-quizzer)
+**Project:** LeLe Manager, a local-first knowledge base built around JSONL lessons, CLI usage and API access.
 
-### 3. Come automatizzare file senza creare disastri?
+**Signal:** backend boundaries, deterministic storage, local data ownership, testing and clean project structure.
 
-**Problema:** Gli script che spostano file possono diventare pericolosi se non mostrano chiaramente cosa stanno per fare.
+#### 3. Knowledge recall
 
-**Strumento:** Smart File Organizer: una CLI Python che organizza file con piano, dry-run e applicazione esplicita.
+**Problem:** storing knowledge is not enough: useful knowledge must be recalled, tested and reused.
 
-**Metodo:** Layout `src/`, `uv`, `ruff`, `pytest`, comandi chiari e attenzione alla sicurezza operativa.
+**Project:** LeLe Quizzer, an interactive terminal quiz connected to the local LeLe Manager knowledge base.
 
-**Repo:** [gcomneno/smart-file-organizer](https://github.com/gcomneno/smart-file-organizer)
+**Signal:** CLI UX, deterministic question generation, saved attempts and privacy-first reuse of local data.
 
-### 4. Come capire Git oltre i comandi copiati?
+#### 4. OOP under the hood
 
-**Problema:** Git viene spesso usato come sequenza di incantesimi terminale, senza capire il modello sotto.
+**Problem:** Object-Oriented Programming can look like magic when memory, dispatch and layout stay hidden.
 
-**Strumento:** PyGit Lab: laboratorio didattico per ricostruire concetti fondamentali di Git in Python.
+**Project:** OOP-in-C Lab, a C laboratory that models OOP concepts with `struct`, pointers, vtables and observable output.
 
-**Metodo:** Oggetti, repository, comandi minimi, esperimenti riproducibili e lesson learned operative.
+**Signal:** memory layout, polymorphism, function pointers, upcasting and low-level reasoning.
 
-**Repo:** [gcomneno/pygit-lab](https://github.com/gcomneno/pygit-lab)
+#### 5. Git beyond commands
 
-### 5. Come capire davvero cosa c’è sotto l’OOP?
+**Problem:** Git is often used as a sequence of copied terminal spells instead of a mental model.
 
-**Problema:** L’Object-Oriented Programming rischia di sembrare magia se non si guarda cosa succede sotto astrazioni, metodi e dispatch.
+**Project:** PyGit Lab, a Python learning lab that reconstructs fundamental Git concepts from the inside.
 
-**Strumento:** OOP-in-C Lab: laboratorio in C che modella concetti OOP con `struct`, puntatori, vtable e layout di memoria.
-
-**Metodo:** Esempi piccoli, output osservabile, confronto tra astrazione e memoria reale.
-
-**Repo:** [gcomneno/oop-in-c-lab](https://github.com/gcomneno/oop-in-c-lab)
+**Signal:** Git internals, Python experiments, reproducible lessons and learning by reconstruction.
 
 ---
 
