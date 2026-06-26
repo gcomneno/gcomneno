@@ -13,21 +13,13 @@ from urllib.request import Request, urlopen
 
 
 README_PATH = Path("README.md")
-MAX_ITEMS = 5
-SINCE_DAYS = 30
-OWNER_LOGIN = "gcomneno"
 
-# Aggiungere qui solo repo pubblici e verificati.
-# python-fast-track e pygit-lab restano fuori finché la GitHub API risponde 404.
-REPOS = [
-    "gcomneno/lele-manager",
-    "gcomneno/lele-quizzer",
-    "gcomneno/smart-file-organizer",
-    "gcomneno/oop-in-c-lab",
-    "gcomneno/web",
-    "gcomneno/yocto-qemu-mini-lab",
-    "gcomneno/pet",
-]
+OWNER_LOGIN = "gcomneno"
+PROFILE_REPO = f"{OWNER_LOGIN}/{OWNER_LOGIN}"
+
+MAX_ITEMS = 5
+SINCE_DAYS = 14
+MAX_REPOS = 100
 
 NEWS_PATTERN = re.compile(r"^(news|release):\s*(.+)$", re.IGNORECASE)
 
@@ -60,13 +52,69 @@ def github_get_json(url: str) -> object | None:
             return json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:
         if exc.code == 404:
-            print(f"info: skipping unavailable repository endpoint: {url}", file=sys.stderr)
+            print(f"info: skipping unavailable endpoint: {url}", file=sys.stderr)
         else:
             print(f"warning: GitHub API returned {exc.code} for {url}", file=sys.stderr)
         return None
     except URLError as exc:
         print(f"warning: GitHub API failed for {url}: {exc}", file=sys.stderr)
         return None
+
+
+def discover_public_repositories() -> list[str]:
+    repos: list[str] = []
+    page = 1
+
+    while len(repos) < MAX_REPOS:
+        url = (
+            f"https://api.github.com/users/{OWNER_LOGIN}/repos"
+            f"?type=owner&sort=pushed&direction=desc&per_page=100&page={page}"
+        )
+
+        payload = github_get_json(url)
+        if not isinstance(payload, list):
+            break
+
+        if not payload:
+            break
+
+        for repo in payload:
+            if not isinstance(repo, dict):
+                continue
+
+            full_name = repo.get("full_name")
+            owner = repo.get("owner", {})
+            owner_login = owner.get("login") if isinstance(owner, dict) else None
+
+            if not isinstance(full_name, str):
+                continue
+
+            if owner_login != OWNER_LOGIN:
+                continue
+
+            if full_name == PROFILE_REPO:
+                continue
+
+            if repo.get("private") is True:
+                continue
+
+            if repo.get("archived") is True:
+                continue
+
+            if repo.get("disabled") is True:
+                continue
+
+            repos.append(full_name)
+
+            if len(repos) >= MAX_REPOS:
+                break
+
+        if len(payload) < 100:
+            break
+
+        page += 1
+
+    return repos
 
 
 def is_own_commit(commit_obj: dict) -> bool:
@@ -111,6 +159,7 @@ def fetch_repo_updates(repo: str) -> list[UpdateItem]:
             html_url = commit_obj["html_url"]
 
             date = datetime.fromisoformat(date_raw.replace("Z", "+00:00"))
+
             items.append(
                 UpdateItem(
                     date=date,
@@ -127,9 +176,13 @@ def fetch_repo_updates(repo: str) -> list[UpdateItem]:
 
 
 def collect_updates() -> list[UpdateItem]:
+    repos = discover_public_repositories()
+
+    print(f"Discovered {len(repos)} public repository/repositories.", file=sys.stderr)
+
     items: list[UpdateItem] = []
 
-    for repo in REPOS:
+    for repo in repos:
         items.extend(fetch_repo_updates(repo))
 
     deduped: dict[tuple[str, str], UpdateItem] = {}
