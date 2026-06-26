@@ -10,6 +10,12 @@ Each project here starts from real friction: something I had to understand, repe
 
 **GiadaWare** is my personal lab: the place where recurring problems become notes, tools and public projects.
 
+## Current Focus
+
+* Backend development with PHP/Laravel, Python, APIs and Linux workflows.
+* CLI tools, local-first systems, reproducible labs and operational safety.
+* Open-source contributions around developer tooling, documentation and Linux ecosystems.
+
 ---
 
 ## Latest Updates
