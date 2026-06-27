@@ -17,6 +17,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/sponsors/gcomneno">
+    <img alt="Sponsor this lab on GitHub" src="https://img.shields.io/badge/Sponsor%20this%20lab-GitHub%20Sponsors-0B1F3A?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=555555">
+  </a>
+</p>
+
+<p align="center">
   Each project here starts from real friction: something I had to understand, repeat, automate, explain or make more reliable.
   When a problem returns more than once, I turn it into knowledge.
   When that knowledge becomes reusable, I try to turn it into a tool.
@@ -24,7 +30,7 @@
 </p>
 
 <p align="center">
-  <strong>GiadaWare</strong> is my personal lab: the place where recurring problems become notes, tools and public projects.
+  <strong>GiadaWare™</strong> is my personal lab: the place where recurring problems become notes, tools and public projects.
 </p>
 
 ---
