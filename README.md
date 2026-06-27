@@ -1,16 +1,41 @@
-# Giancarlo Cicellyn Comneno
+<h1 align="center">Giancarlo Cicellyn Comneno</h1>
 
-Backend Software Developer · PHP/Laravel · Python · Linux · CLI tooling · Open Source
+<p align="center">
+  <strong>Backend Software Developer · PHP/Laravel · Python · Linux · CLI tooling · Open Source</strong>
+</p>
 
-> Problems become knowledge. Knowledge becomes tools. Tools become open source.
+<p align="center">
+  <img alt="PHP Laravel" src="https://img.shields.io/badge/PHP%20%2F%20Laravel-Backend-0B1F3A?style=flat-square">
+  <img alt="Python" src="https://img.shields.io/badge/Python-CLI%20%26%20Tools-0B1F3A?style=flat-square">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-Workflows-0B1F3A?style=flat-square">
+  <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-Public%20Learning-0B1F3A?style=flat-square">
+</p>
 
-I do not collect repositories. I collect solved problems.
+<p align="center">
+  <em>Problems become knowledge. Knowledge becomes tools. Tools become open source.</em>
+</p>
 
-Each project here starts from real friction: something I had to understand, repeat, automate, explain or make more reliable. When a problem returns more than once, I turn it into knowledge. When that knowledge becomes reusable, I try to turn it into a tool. When the tool can help others, I publish it.
+<p align="center">
+  <strong>I do not collect repositories. I collect solved problems.</strong>
+</p>
 
-**GiadaWare** is my personal lab: the place where recurring problems become notes, tools and public projects.
+<p align="center">
+  Each project here starts from real friction: something I had to understand, repeat, automate, explain or make more reliable.
+  When a problem returns more than once, I turn it into knowledge.
+  When that knowledge becomes reusable, I try to turn it into a tool.
+  When the tool can help others, I publish it.
+</p>
+
+<p align="center">
+  <strong>GiadaWare</strong> is my personal lab: the place where recurring problems become notes, tools and public projects.
+</p>
 
 ## Current Focus
+
+<p align="center">
+  <img alt="Current Focus" src="https://img.shields.io/badge/Current%20Focus-Backend%20%7C%20CLI%20%7C%20Linux%20%7C%20OSS-0B1F3A?style=for-the-badge">
+</p>
+
 
 * Backend development with PHP/Laravel, Python, APIs and Linux workflows.
 * CLI tools, local-first systems, reproducible labs and operational safety.
@@ -19,6 +44,11 @@ Each project here starts from real friction: something I had to understand, repe
 ---
 
 ## Latest Updates
+
+<p align="center">
+  <img alt="Latest Updates" src="https://img.shields.io/badge/Latest%20Updates-Automated%20from%20public%20work-0B1F3A?style=for-the-badge">
+</p>
+
 
 <!-- updates:start -->
 
@@ -29,6 +59,11 @@ Each project here starts from real friction: something I had to understand, repe
 ---
 
 ## The Problem Collection
+
+<p align="center">
+  <img alt="Problem Collection" src="https://img.shields.io/badge/Problem%20Collection-Real%20problems%20to%20reusable%20tools-0B1F3A?style=for-the-badge">
+</p>
+
 
 <p align="center">
   <strong>Real problems turned into reusable tools, learning labs and open-source artifacts.</strong>
@@ -142,8 +177,9 @@ Practical abstraction, documentation-first thinking and iterative delivery.</p>
 ## Working Method
 
 <p align="center">
-  <strong>Problem → Knowledge → Tool → Verify → Publish</strong>
+  <img alt="Working Method" src="https://img.shields.io/badge/Working%20Method-Problem%20%E2%86%92%20Knowledge%20%E2%86%92%20Tool%20%E2%86%92%20Verify%20%E2%86%92%20Publish-0B1F3A?style=for-the-badge">
 </p>
+
 
 | Step | What it means |
 | --- | --- |
@@ -158,6 +194,11 @@ I am not interested in “just making repositories”. I care about leaving a re
 ---
 
 ## Flagship Research: PET
+
+<p align="center">
+  <img alt="PET" src="https://img.shields.io/badge/Flagship%20Research-Prime%20Exponent%20Tree-0B1F3A?style=for-the-badge">
+</p>
+
 
 <p align="center">
   <strong>Prime Exponent Tree</strong><br>
@@ -175,6 +216,11 @@ I am not interested in “just making repositories”. I care about leaving a re
 
 ## Learning in Public
 
+<p align="center">
+  <img alt="Learning in Public" src="https://img.shields.io/badge/Learning%20in%20Public-Reproducible%20labs%20and%20technical%20notes-0B1F3A?style=for-the-badge">
+</p>
+
+
 I use public learning labs to turn study, notes and technical experiments into reproducible paths.
 
 | Area | Repository | Focus |
@@ -191,6 +237,11 @@ I use public learning labs to turn study, notes and technical experiments into r
 ---
 
 ## Open Source Path
+
+<p align="center">
+  <img alt="Open Source Path" src="https://img.shields.io/badge/Open%20Source%20Path-Small%20verifiable%20contributions-0B1F3A?style=for-the-badge">
+</p>
+
 
 My open-source path is still growing, but it follows the same logic: start from concrete problems, read the technical context and propose small, verifiable changes.
 
