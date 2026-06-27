@@ -30,10 +30,8 @@
   <strong>GiadaWare</strong> is my personal lab: the place where recurring problems become notes, tools and public projects.
 </p>
 
-## Current Focus
-
 <p align="center">
-  <img alt="Current Focus" src="https://img.shields.io/badge/Current%20Focus-Backend%20%7C%20CLI%20%7C%20Linux%20%7C%20OSS-0B1F3A?style=for-the-badge">
+  <img alt="Current Focus" src="https://img.shields.io/badge/CURRENT%20FOCUS-Backend%20%7C%20CLI%20%7C%20Linux%20%7C%20OSS-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
 </p>
 
 
@@ -43,10 +41,8 @@
 
 ---
 
-## Latest Updates
-
 <p align="center">
-  <img alt="Latest Updates" src="https://img.shields.io/badge/Latest%20Updates-Automated%20from%20public%20work-0B1F3A?style=for-the-badge">
+  <img alt="Latest Updates" src="https://img.shields.io/badge/LATEST%20UPDATES-Automatic%20public%20activity-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
 </p>
 
 
@@ -58,10 +54,8 @@
 
 ---
 
-## The Problem Collection
-
 <p align="center">
-  <img alt="Problem Collection" src="https://img.shields.io/badge/Problem%20Collection-Real%20problems%20to%20reusable%20tools-0B1F3A?style=for-the-badge">
+  <img alt="The Problem Collection" src="https://img.shields.io/badge/THE%20PROBLEM%20COLLECTION-Real%20problems%20to%20reusable%20tools-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
 </p>
 
 
@@ -73,11 +67,11 @@
 
 | Focus | Project | Technical signal |
 | --- | --- | --- |
-| Safe file automation | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Python CLI, dry-run, tests, operational safety |
-| Searchable lesson learned | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
-| Knowledge recall | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
-| OOP under the hood | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
-| Git beyond commands | [PyGit Lab](https://github.com/gcomneno/pygit-lab) | Git internals, Python, reconstruction-based learning |
+| <img alt="Safe automation" src="https://img.shields.io/badge/SAFE-AUTOMATION-0B1F3A?style=flat-square&labelColor=0B1F3A"> | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Python CLI, dry-run, tests, operational safety |
+| <img alt="Searchable knowledge" src="https://img.shields.io/badge/SEARCHABLE-KNOWLEDGE-0B1F3A?style=flat-square&labelColor=0B1F3A"> | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
+| <img alt="Knowledge recall" src="https://img.shields.io/badge/KNOWLEDGE-RECALL-0B1F3A?style=flat-square&labelColor=0B1F3A"> | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
+| <img alt="OOP internals" src="https://img.shields.io/badge/OOP-INTERNALS-0B1F3A?style=flat-square&labelColor=0B1F3A"> | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
+| <img alt="Git internals" src="https://img.shields.io/badge/GIT-INTERNALS-0B1F3A?style=flat-square&labelColor=0B1F3A"> | [PyGit Lab](https://github.com/gcomneno/pygit-lab) | Git internals, Python, reconstruction-based learning |
 
 ### Featured project cards
 
@@ -85,7 +79,9 @@
 <tr>
 <td width="50%" valign="top">
 
-<h4>Safe file automation</h4>
+<p align="center">
+  <img alt="Safe automation" src="https://img.shields.io/badge/SAFE-AUTOMATION-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
+</p>
 
 <p><strong>Problem</strong><br>
 Scripts that move files can become dangerous when they hide their plan.</p>
@@ -99,7 +95,9 @@ Python, CLI design, <code>uv</code>, <code>ruff</code>, <code>pytest</code>, saf
 </td>
 <td width="50%" valign="top">
 
-<h4>Searchable lesson learned</h4>
+<p align="center">
+  <img alt="Searchable knowledge" src="https://img.shields.io/badge/SEARCHABLE-KNOWLEDGE-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
+</p>
 
 <p><strong>Problem</strong><br>
 Practical knowledge gets lost across chats, notes, files, repositories and memory.</p>
@@ -115,7 +113,9 @@ Backend boundaries, deterministic storage, local data ownership, testing and cle
 <tr>
 <td width="50%" valign="top">
 
-<h4>Knowledge recall</h4>
+<p align="center">
+  <img alt="Knowledge recall" src="https://img.shields.io/badge/KNOWLEDGE-RECALL-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
+</p>
 
 <p><strong>Problem</strong><br>
 Storing knowledge is not enough: useful knowledge must be recalled, tested and reused.</p>
@@ -129,7 +129,9 @@ CLI UX, deterministic question generation, saved attempts and privacy-first reus
 </td>
 <td width="50%" valign="top">
 
-<h4>OOP under the hood</h4>
+<p align="center">
+  <img alt="OOP internals" src="https://img.shields.io/badge/OOP-INTERNALS-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
+</p>
 
 <p><strong>Problem</strong><br>
 Object-Oriented Programming can look like magic when memory, dispatch and layout stay hidden.</p>
@@ -145,7 +147,9 @@ Memory layout, polymorphism, function pointers, upcasting and low-level reasonin
 <tr>
 <td width="50%" valign="top">
 
-<h4>Git beyond commands</h4>
+<p align="center">
+  <img alt="Git internals" src="https://img.shields.io/badge/GIT-INTERNALS-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
+</p>
 
 <p><strong>Problem</strong><br>
 Git is often used as a sequence of copied terminal spells instead of a mental model.</p>
@@ -159,7 +163,9 @@ Git internals, Python experiments, reproducible lessons and learning by reconstr
 </td>
 <td width="50%" valign="top">
 
-<h4>Pattern</h4>
+<p align="center">
+  <img alt="Problem to tool path" src="https://img.shields.io/badge/PROBLEM-TOOL%20PATH-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
+</p>
 
 <p><strong>Problem → Knowledge → Tool</strong></p>
 
@@ -174,10 +180,8 @@ Practical abstraction, documentation-first thinking and iterative delivery.</p>
 
 ---
 
-## Working Method
-
 <p align="center">
-  <img alt="Working Method" src="https://img.shields.io/badge/Working%20Method-Problem%20%E2%86%92%20Knowledge%20%E2%86%92%20Tool%20%E2%86%92%20Verify%20%E2%86%92%20Publish-0B1F3A?style=for-the-badge">
+  <img alt="Working Method" src="https://img.shields.io/badge/WORKING%20METHOD-Problem%20%E2%86%92%20Knowledge%20%E2%86%92%20Tool%20%E2%86%92%20Publish-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
 </p>
 
 
@@ -193,10 +197,8 @@ I am not interested in “just making repositories”. I care about leaving a re
 
 ---
 
-## Flagship Research: PET
-
 <p align="center">
-  <img alt="PET" src="https://img.shields.io/badge/Flagship%20Research-Prime%20Exponent%20Tree-0B1F3A?style=for-the-badge">
+  <img alt="Flagship Research PET" src="https://img.shields.io/badge/FLAGSHIP%20RESEARCH-Prime%20Exponent%20Tree-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
 </p>
 
 
@@ -214,10 +216,8 @@ I am not interested in “just making repositories”. I care about leaving a re
 
 ---
 
-## Learning in Public
-
 <p align="center">
-  <img alt="Learning in Public" src="https://img.shields.io/badge/Learning%20in%20Public-Reproducible%20labs%20and%20technical%20notes-0B1F3A?style=for-the-badge">
+  <img alt="Learning in Public" src="https://img.shields.io/badge/LEARNING%20IN%20PUBLIC-Labs%20and%20reproducible%20study-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
 </p>
 
 
@@ -236,10 +236,8 @@ I use public learning labs to turn study, notes and technical experiments into r
 
 ---
 
-## Open Source Path
-
 <p align="center">
-  <img alt="Open Source Path" src="https://img.shields.io/badge/Open%20Source%20Path-Small%20verifiable%20contributions-0B1F3A?style=for-the-badge">
+  <img alt="Open Source Path" src="https://img.shields.io/badge/OPEN%20SOURCE%20PATH-Small%20verifiable%20contributions-0B1F3A?style=for-the-badge&labelColor=0B1F3A">
 </p>
 
 
@@ -264,4 +262,6 @@ Main contribution in progress:
 
 ---
 
-This profile is a moving lab: real problems, small tools, clear documentation and public iterations.
+<p align="center">
+  <em>This profile is a moving lab: real problems, small tools, clear documentation and public iterations.</em>
+</p>
