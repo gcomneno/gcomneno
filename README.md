@@ -30,7 +30,9 @@ Each project here starts from real friction: something I had to understand, repe
 
 ## The Problem Collection
 
-> Real problems turned into reusable tools, labs and open-source artifacts.
+<p align="center">
+  <strong>Real problems turned into reusable tools, learning labs and open-source artifacts.</strong>
+</p>
 
 ### At a glance
 
@@ -42,60 +44,114 @@ Each project here starts from real friction: something I had to understand, repe
 | OOP under the hood | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
 | Git beyond commands | [PyGit Lab](https://github.com/gcomneno/pygit-lab) | Git internals, Python, reconstruction-based learning |
 
-### Project notes
+### Featured project cards
 
-#### 1. Safe file automation
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Problem:** scripts that move files can become dangerous when they hide their plan.
+<h4>Safe file automation</h4>
 
-**Project:** Smart File Organizer, a Python CLI that organizes files through an explicit plan, dry-run mode and intentional apply step.
+<p><strong>Problem</strong><br>
+Scripts that move files can become dangerous when they hide their plan.</p>
 
-**Signal:** Python, CLI design, `uv`, `ruff`, `pytest`, safe defaults and operational thinking.
+<p><strong>Built</strong><br>
+<a href="https://github.com/gcomneno/smart-file-organizer">Smart File Organizer</a>, a Python CLI with explicit planning, dry-run mode and intentional apply step.</p>
 
-#### 2. Searchable lesson learned
+<p><strong>Signal</strong><br>
+Python, CLI design, <code>uv</code>, <code>ruff</code>, <code>pytest</code>, safe defaults and operational thinking.</p>
 
-**Problem:** practical knowledge gets lost across chats, notes, files, repositories and memory.
+</td>
+<td width="50%" valign="top">
 
-**Project:** LeLe Manager, a local-first knowledge base built around JSONL lessons, CLI usage and API access.
+<h4>Searchable lesson learned</h4>
 
-**Signal:** backend boundaries, deterministic storage, local data ownership, testing and clean project structure.
+<p><strong>Problem</strong><br>
+Practical knowledge gets lost across chats, notes, files, repositories and memory.</p>
 
-#### 3. Knowledge recall
+<p><strong>Built</strong><br>
+<a href="https://github.com/gcomneno/lele-manager">LeLe Manager</a>, a local-first knowledge base built around JSONL lessons, CLI usage and API access.</p>
 
-**Problem:** storing knowledge is not enough: useful knowledge must be recalled, tested and reused.
+<p><strong>Signal</strong><br>
+Backend boundaries, deterministic storage, local data ownership, testing and clean project structure.</p>
 
-**Project:** LeLe Quizzer, an interactive terminal quiz connected to the local LeLe Manager knowledge base.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Signal:** CLI UX, deterministic question generation, saved attempts and privacy-first reuse of local data.
+<h4>Knowledge recall</h4>
 
-#### 4. OOP under the hood
+<p><strong>Problem</strong><br>
+Storing knowledge is not enough: useful knowledge must be recalled, tested and reused.</p>
 
-**Problem:** Object-Oriented Programming can look like magic when memory, dispatch and layout stay hidden.
+<p><strong>Built</strong><br>
+<a href="https://github.com/gcomneno/lele-quizzer">LeLe Quizzer</a>, an interactive terminal quiz connected to the local LeLe Manager knowledge base.</p>
 
-**Project:** OOP-in-C Lab, a C laboratory that models OOP concepts with `struct`, pointers, vtables and observable output.
+<p><strong>Signal</strong><br>
+CLI UX, deterministic question generation, saved attempts and privacy-first reuse of local data.</p>
 
-**Signal:** memory layout, polymorphism, function pointers, upcasting and low-level reasoning.
+</td>
+<td width="50%" valign="top">
 
-#### 5. Git beyond commands
+<h4>OOP under the hood</h4>
 
-**Problem:** Git is often used as a sequence of copied terminal spells instead of a mental model.
+<p><strong>Problem</strong><br>
+Object-Oriented Programming can look like magic when memory, dispatch and layout stay hidden.</p>
 
-**Project:** PyGit Lab, a Python learning lab that reconstructs fundamental Git concepts from the inside.
+<p><strong>Built</strong><br>
+<a href="https://github.com/gcomneno/oop-in-c-lab">OOP-in-C Lab</a>, a C laboratory that models OOP concepts with structs, pointers, vtables and observable output.</p>
 
-**Signal:** Git internals, Python experiments, reproducible lessons and learning by reconstruction.
+<p><strong>Signal</strong><br>
+Memory layout, polymorphism, function pointers, upcasting and low-level reasoning.</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h4>Git beyond commands</h4>
+
+<p><strong>Problem</strong><br>
+Git is often used as a sequence of copied terminal spells instead of a mental model.</p>
+
+<p><strong>Built</strong><br>
+<a href="https://github.com/gcomneno/pygit-lab">PyGit Lab</a>, a Python learning lab that reconstructs fundamental Git concepts from the inside.</p>
+
+<p><strong>Signal</strong><br>
+Git internals, Python experiments, reproducible lessons and learning by reconstruction.</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h4>Pattern</h4>
+
+<p><strong>Problem → Knowledge → Tool</strong></p>
+
+<p>Most projects here follow the same path: a repeated problem becomes a documented model, then a small tool, then a public artifact when it can help someone else.</p>
+
+<p><strong>Signal</strong><br>
+Practical abstraction, documentation-first thinking and iterative delivery.</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Working Method
 
-My working method is simple:
+<p align="center">
+  <strong>Problem → Knowledge → Tool → Verify → Publish</strong>
+</p>
 
-1. start from a real or recurring problem;
-2. document it as reusable knowledge;
-3. find the smallest model that makes it understandable;
-4. build a small and verifiable tool;
-5. add tests, documentation and reproducible workflows;
-6. publish the project when it can be useful outside my own context.
+| Step | What it means |
+| --- | --- |
+| **Problem** | Start from a real or recurring friction. |
+| **Knowledge** | Make the reasoning explicit and reusable. |
+| **Tool** | Build the smallest useful model or implementation. |
+| **Verify** | Add tests, documentation and reproducible workflows. |
+| **Publish** | Release it when it can be useful outside my own context. |
 
 I am not interested in “just making repositories”. I care about leaving a readable path behind: problem, reasoning, solution, limits and next steps.
 
@@ -103,15 +159,17 @@ I am not interested in “just making repositories”. I care about leaving a re
 
 ## Flagship Research: PET
 
-PET, Prime Exponent Tree, is where the same method enters computational mathematics.
+<p align="center">
+  <strong>Prime Exponent Tree</strong><br>
+  A recursive way to study integers as structures generated by prime factorization.
+</p>
 
-**Problem:** integers can be studied not only as values, but as recursive structures generated by prime factorization.
-
-**Project:** PET represents integers as canonical trees of prime exponents.
-
-**Signal:** canonical representation, lossless encoding/decoding, canonical JSON, minimal CLI, structural metrics and analyzable datasets.
-
-**Repo:** [gcomneno/pet](https://github.com/gcomneno/pet)
+| Item | Description |
+| --- | --- |
+| **Problem** | Integers can be studied not only as values, but as recursive structures. |
+| **Project** | PET represents integers as canonical trees of prime exponents. |
+| **Signal** | Canonical representation, lossless encoding/decoding, canonical JSON, minimal CLI, structural metrics and analyzable datasets. |
+| **Repo** | [gcomneno/pet](https://github.com/gcomneno/pet) |
 
 ---
 
@@ -119,14 +177,16 @@ PET, Prime Exponent Tree, is where the same method enters computational mathemat
 
 I use public learning labs to turn study, notes and technical experiments into reproducible paths.
 
-* [Python Fast Track](https://github.com/gcomneno/python-fast-track): Python for already experienced developers.
-* [Web / Laravel Lab](https://github.com/gcomneno/web): practical Laravel and backend web development.
-* [PyGit Lab](https://github.com/gcomneno/pygit-lab): Git internals reconstructed in Python.
-* [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab): OOP concepts reconstructed in C.
-* [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab): embedded Linux, build, boot and BitBake.
-* [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4): programming and web fundamentals.
-* [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico): patterns, TypeScript and tests.
-* [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab): white-hat lab with recon, scripts and lesson learned.
+| Area | Repository | Focus |
+| --- | --- | --- |
+| Python | [Python Fast Track](https://github.com/gcomneno/python-fast-track) | Python for already experienced developers |
+| Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
+| Git internals | [PyGit Lab](https://github.com/gcomneno/pygit-lab) | Git internals reconstructed in Python |
+| Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
+| Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake and Linux workflows |
+| Programming basics | [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
+| JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
+| Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 
 ---
 
