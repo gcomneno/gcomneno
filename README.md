@@ -17,9 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/gcomneno">
-    <img alt="Sponsor this lab on GitHub" src="https://img.shields.io/badge/Sponsor%20this%20lab-GitHub%20Sponsors-0B1F3A?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=555555">
-  </a>
+  <img alt="Profile visitors" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&color=0B1F3A&style=flat-square">
 </p>
 
 <p align="center">
@@ -33,15 +31,9 @@
   <strong>GiadaWare™</strong> is my personal lab: the place where recurring problems become notes, tools and public projects.
 </p>
 
----
+## The Problem Collection
 
-## Current Focus
-
-**Backend | CLI | Linux | OSS**
-
-- Backend development with PHP/Laravel, Python, APIs and Linux workflows.
-- CLI tools, local-first systems, reproducible labs and operational safety.
-- Open-source contributions around developer tooling, documentation and Linux ecosystems.
+**Real problems turned into reusable tools, learning labs and open-source artifacts.**
 
 ## Latest Updates
 
@@ -51,9 +43,13 @@
 
 <!-- updates:end -->
 
-## The Problem Collection
+## Current Focus
 
-**Real problems turned into reusable tools, learning labs and open-source artifacts.**
+**Backend | CLI | Linux | OSS**
+
+- Backend development with PHP/Laravel, Python, APIs and Linux workflows.
+- CLI tools, local-first systems, reproducible labs and operational safety.
+- Open-source contributions around developer tooling, documentation and Linux ecosystems.
 
 ### At a glance
 
@@ -131,18 +127,6 @@ Most projects here follow the same path: a repeated problem becomes a documented
 **Signal**<br>
 Practical abstraction, documentation-first thinking and iterative delivery.
 
-## Working Method
-
-| Step | What it means |
-| --- | --- |
-| **Problem** | Start from a real or recurring friction. |
-| **Knowledge** | Make the reasoning explicit and reusable. |
-| **Tool** | Build the smallest useful model or implementation. |
-| **Verify** | Add tests, documentation and reproducible workflows. |
-| **Publish** | Release it when it can be useful outside my own context. |
-
-I am not interested in “just making repositories”. I care about leaving a readable path behind: problem, reasoning, solution, limits and next steps.
-
 ## Flagship Research: PET
 
 **Prime Exponent Tree**<br>
@@ -195,4 +179,10 @@ Main contribution in progress:
 
 <p align="center">
   <em>This profile is a moving lab: real problems, small tools, clear documentation and public iterations.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sponsors/gcomneno">
+    <img alt="Sponsor this lab on GitHub" src="https://img.shields.io/badge/Sponsor%20this%20lab-GitHub%20Sponsors-0B1F3A?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=555555">
+  </a>
 </p>
