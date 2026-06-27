@@ -39,7 +39,7 @@
 
 <!-- updates:start -->
 
-- No automatic updates available at the moment.
+- 2026-06-27 · Added [ubuntu-system-tools](https://github.com/gcomneno/ubuntu-system-tools): paranoid, safety-first Linux utilities, now including `printer-doctor list` for CUPS queue inspection.
 
 <!-- updates:end -->
 
@@ -48,6 +48,7 @@
 | Focus | Project | Technical signal |
 | --- | --- | --- |
 | **Safe file automation** | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Python CLI, dry-run, tests, operational safety |
+| **Linux system utilities** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Bash CLI, CUPS diagnostics, read-only inspection, safe defaults |
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
 | **OOP under the hood** | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
