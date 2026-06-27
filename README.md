@@ -39,6 +39,7 @@
 
 <!-- updates:start -->
 
+- 2026-06-27 · Started [legacy-ecommerce-migration-lab](https://github.com/gcomneno/legacy-ecommerce-migration-lab): a bilingual architecture assessment lab for reasoning about legacy PHP e-commerce modernization before choosing migration or replatforming.
 - 2026-06-27 · Added [ubuntu-system-tools](https://github.com/gcomneno/ubuntu-system-tools): paranoid, safety-first Linux utilities, now including `printer-doctor list` for CUPS queue inspection.
 
 <!-- updates:end -->
@@ -53,6 +54,7 @@
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
 | **OOP under the hood** | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
 | **Git beyond commands** | [PyGit Lab](https://github.com/gcomneno/pygit-lab) | Git internals, Python, reconstruction-based learning |
+| **Architecture assessment** | [Legacy E-commerce Migration Lab](https://github.com/gcomneno/legacy-ecommerce-migration-lab) | Legacy PHP e-commerce, assessment method, risk mapping, migration reasoning |
 
 ## <code>04 · FEATURED PROJECTS</code>
 
@@ -150,6 +152,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 | --- | --- | --- |
 | Python | [Python Fast Track](https://github.com/gcomneno/python-fast-track) | Python for already experienced developers |
 | Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
+| Architecture | [Legacy E-commerce Migration Lab](https://github.com/gcomneno/legacy-ecommerce-migration-lab) | Assessment, risk mapping and migration strategy for legacy PHP e-commerce systems |
 | Git internals | [PyGit Lab](https://github.com/gcomneno/pygit-lab) | Git internals reconstructed in Python |
 | Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake and Linux workflows |
