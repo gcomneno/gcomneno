@@ -40,7 +40,6 @@
 <!-- updates:start -->
 
 - **2026-06-28** · `web` · **News:** [add Laravel lessons 11-12 with Eloquent CRUD and request data](https://github.com/gcomneno/web/commit/5f1a46b14cef102b6f4a6e52ed837ade2b45fb11)
-- **2026-06-28** · `web` · **News:** [add Laravel lab lessons 11-12 update](https://github.com/gcomneno/web/commit/8b3124403d5498fe82a316b399d47e0f749d5af8)
 - **2026-06-28** · `ubuntu-system-tools` · **News:** [add garbage-collector audit tool](https://github.com/gcomneno/ubuntu-system-tools/commit/fafd9cf623b77e94cb658f0a41f9222764d1943e)
 
 <!-- updates:end -->

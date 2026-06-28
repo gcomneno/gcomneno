@@ -206,7 +206,9 @@ def collect_updates() -> list[UpdateItem]:
     deduped: dict[tuple[str, str], UpdateItem] = {}
 
     for item in items:
-        key = (item.repo, item.text.lower())
+        # Keep at most one update per repository per day.
+        # If multiple tagged commits exist, keep the most recent one.
+        key = (item.repo, item.date.strftime("%Y-%m-%d"))
         if key not in deduped or item.date > deduped[key].date:
             deduped[key] = item
 
