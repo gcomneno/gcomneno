@@ -39,8 +39,7 @@
 
 <!-- updates:start -->
 
-- 2026-06-27 · Started [legacy-ecommerce-migration-lab](https://github.com/gcomneno/legacy-ecommerce-migration-lab): a bilingual architecture assessment lab for reasoning about legacy PHP e-commerce modernization before choosing migration or replatforming.
-- 2026-06-27 · Added [ubuntu-system-tools](https://github.com/gcomneno/ubuntu-system-tools): paranoid, safety-first Linux utilities, now including `printer-doctor list` for CUPS queue inspection.
+- No automatic updates available at the moment.
 
 <!-- updates:end -->
 
