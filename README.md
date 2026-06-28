@@ -39,7 +39,7 @@
 
 <!-- updates:start -->
 
-- No automatic updates available at the moment.
+- **2026-06-28** · `ubuntu-system-tools` · **News:** [add garbage-collector audit tool](https://github.com/gcomneno/ubuntu-system-tools/commit/fafd9cf623b77e94cb658f0a41f9222764d1943e)
 
 <!-- updates:end -->
 
