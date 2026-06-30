@@ -41,7 +41,19 @@
 - **2026-06-30** · `ubuntu-system-tools` · **News:** [add bulk EPUB to AZW3 Kindle converter](https://github.com/gcomneno/ubuntu-system-tools/commit/bfeccd65e2590953e87ee6f3cc75556e8e5df8dc)
 - **2026-06-28** · `concorso-inps-assistente-informatico` · **News:** [launch INPS assistant informatics study lab](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/89f65df6531615d70928ada4d692ba1ecb7bdc1e)
 - **2026-06-28** · `web` · **News:** [add Laravel lessons 11-12 with Eloquent CRUD and request data](https://github.com/gcomneno/web/commit/5f1a46b14cef102b6f4a6e52ed837ade2b45fb11)
+
+<details>
+<summary>More updates from the last 6 months</summary>
+
 - **2026-06-28** · `ubuntu-system-tools` · **News:** [add garbage-collector audit tool](https://github.com/gcomneno/ubuntu-system-tools/commit/fafd9cf623b77e94cb658f0a41f9222764d1943e)
+- **2026-02-22** · `ubuntu-system-tools` · **Release:** [v0.1.3](https://github.com/gcomneno/ubuntu-system-tools/commit/c808684e3b9658ea9b3b32857a01c93ef27edb1c)
+- **2026-02-05** · `lele-manager` · **Release:** [v1.1.1](https://github.com/gcomneno/lele-manager/commit/866a952c84854b90b3fae73e82c26265690090de)
+- **2026-02-03** · `gyte` · **Release:** [manifest + misc updates](https://github.com/gcomneno/gyte/commit/dafb729f44762e6af7560425d0a3220b698116d2)
+- **2026-01-26** · `oeis-probe` · **Release:** [v0.1.3](https://github.com/gcomneno/oeis-probe/commit/4a3f037e593b9045d9940fdebe47474e20933ea2)
+- **2026-01-16** · `onion-compressor-framework` · **Release:** [v0.2.1 (docs specs + dir roundtrip test)](https://github.com/gcomneno/onion-compressor-framework/commit/fa75d2c0f04ea6b18eb2b4eacc4357436b43591d)
+- **2026-01-07** · `oeis-probe` · **Release:** [v0.1.2](https://github.com/gcomneno/oeis-probe/commit/9bdb87c865c4d43a80c24755f2b11d0ac493aa52)
+
+</details>
 
 <!-- updates:end -->
 

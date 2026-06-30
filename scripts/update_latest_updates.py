@@ -17,8 +17,8 @@ README_PATH = Path("README.md")
 OWNER_LOGIN = "gcomneno"
 PROFILE_REPO = f"{OWNER_LOGIN}/{OWNER_LOGIN}"
 
-MAX_ITEMS = 5
-SINCE_DAYS = 14
+VISIBLE_ITEMS = 3
+LOOKBACK_DAYS = 183
 MAX_REPOS = 100
 
 FALLBACK_UPDATE = "- No automatic updates available at the moment."
@@ -73,7 +73,7 @@ def github_get_json(url: str) -> object | None:
 def discover_public_repositories() -> list[str]:
     repos: list[str] = []
     page = 1
-    cutoff = datetime.now(timezone.utc) - timedelta(days=SINCE_DAYS)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
 
     while len(repos) < MAX_REPOS:
         url = (
@@ -147,51 +147,64 @@ def is_own_commit(commit_obj: dict) -> bool:
     return False
 
 
+
 def fetch_repo_updates(repo: str) -> list[UpdateItem]:
-    since = (datetime.now(timezone.utc) - timedelta(days=SINCE_DAYS)).isoformat()
-    url = f"https://api.github.com/repos/{repo}/commits?since={since}&per_page=50"
-
-    commits = github_get_json(url)
-    if not isinstance(commits, list):
-        return []
-
+    since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).isoformat()
     items: list[UpdateItem] = []
+    page = 1
 
-    for commit_obj in commits:
-        if not isinstance(commit_obj, dict):
-            continue
+    while True:
+        url = (
+            f"https://api.github.com/repos/{repo}/commits"
+            f"?since={since}&per_page=100&page={page}"
+        )
 
-        if not is_own_commit(commit_obj):
-            continue
+        commits = github_get_json(url)
+        if not isinstance(commits, list):
+            return items
 
-        try:
-            commit = commit_obj["commit"]
-            message = commit["message"].splitlines()[0].strip()
-            match = NEWS_PATTERN.match(message)
-            if not match:
+        if not commits:
+            break
+
+        for commit_obj in commits:
+            if not isinstance(commit_obj, dict):
                 continue
 
-            kind = match.group(1).lower()
-            text = match.group(2).strip()
-            date_raw = commit["committer"]["date"]
-            html_url = commit_obj["html_url"]
+            if not is_own_commit(commit_obj):
+                continue
 
-            date = parse_github_datetime(date_raw)
+            try:
+                commit = commit_obj["commit"]
+                message = commit["message"].splitlines()[0].strip()
+                match = NEWS_PATTERN.match(message)
+                if not match:
+                    continue
 
-            items.append(
-                UpdateItem(
-                    date=date,
-                    repo=repo.split("/", 1)[1],
-                    kind=kind,
-                    text=text,
-                    url=html_url,
+                kind = match.group(1).lower()
+                text = match.group(2).strip()
+                date_raw = commit["committer"]["date"]
+                html_url = commit_obj["html_url"]
+
+                date = parse_github_datetime(date_raw)
+
+                items.append(
+                    UpdateItem(
+                        date=date,
+                        repo=repo.split("/", 1)[1],
+                        kind=kind,
+                        text=text,
+                        url=html_url,
+                    )
                 )
-            )
-        except (KeyError, TypeError, ValueError):
-            continue
+            except (KeyError, TypeError, ValueError):
+                continue
+
+        if len(commits) < 100:
+            break
+
+        page += 1
 
     return items
-
 
 def collect_updates() -> list[UpdateItem]:
     repos = discover_public_repositories()
@@ -212,25 +225,42 @@ def collect_updates() -> list[UpdateItem]:
         if key not in deduped or item.date > deduped[key].date:
             deduped[key] = item
 
-    return sorted(deduped.values(), key=lambda item: item.date, reverse=True)[:MAX_ITEMS]
+    return sorted(deduped.values(), key=lambda item: item.date, reverse=True)
+
+
+
+def render_update_item(item: UpdateItem) -> str:
+    date = item.date.strftime("%Y-%m-%d")
+    label = "Release" if item.kind == "release" else "News"
+
+    return (
+        f"- **{date}** · `{item.repo}` · **{label}:** "
+        f"[{item.text}]({item.url})"
+    )
 
 
 def render_updates(items: list[UpdateItem]) -> str:
     if not items:
         return FALLBACK_UPDATE
 
-    lines = []
+    visible_items = items[:VISIBLE_ITEMS]
+    hidden_items = items[VISIBLE_ITEMS:]
 
-    for item in items:
-        date = item.date.strftime("%Y-%m-%d")
-        label = "Release" if item.kind == "release" else "News"
-        lines.append(
-            f"- **{date}** · `{item.repo}` · **{label}:** "
-            f"[{item.text}]({item.url})"
+    lines = [render_update_item(item) for item in visible_items]
+
+    if hidden_items:
+        lines.extend(
+            [
+                "",
+                "<details>",
+                "<summary>More updates from the last 6 months</summary>",
+                "",
+            ]
         )
+        lines.extend(render_update_item(item) for item in hidden_items)
+        lines.extend(["", "</details>"])
 
     return "\n".join(lines)
-
 
 def replace_updates_block(readme: str, updates_markdown: str) -> str:
     start_marker = "<!-- updates:start -->"
