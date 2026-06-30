@@ -37,6 +37,7 @@
 
 ## <code>02 · LATEST UPDATES</code>
 
+2026-06-30 · ubuntu-system-tools · News: add bulk EPUB to AZW3 Kindle converter
 <!-- updates:start -->
 
 - **2026-06-28** · `concorso-inps-assistente-informatico` · **News:** [launch INPS assistant informatics study lab](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/89f65df6531615d70928ada4d692ba1ecb7bdc1e)
