@@ -36,8 +36,6 @@
 **Real problems turned into reusable tools, learning labs and open-source artifacts.**
 
 ## <code>02 · LATEST UPDATES</code>
-
-2026-06-30 · ubuntu-system-tools · News: add bulk EPUB to AZW3 Kindle converter
 <!-- updates:start -->
 
 - **2026-06-30** · `ubuntu-system-tools` · **News:** [add bulk EPUB to AZW3 Kindle converter](https://github.com/gcomneno/ubuntu-system-tools/commit/bfeccd65e2590953e87ee6f3cc75556e8e5df8dc)
