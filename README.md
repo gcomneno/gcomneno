@@ -33,7 +33,10 @@
 
 ## <code>01 · THE PROBLEM COLLECTION</code>
 
-**Real problems turned into reusable tools, learning labs and open-source artifacts.**
+<p align="right">
+  <em>Real problems turned into reusable tools,<br>
+  learning labs and open-source artifacts.</em>
+</p>
 
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
