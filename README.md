@@ -165,7 +165,6 @@ Main contribution in progress:
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
 - [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
-- [copier-org/copier](https://github.com/copier-org/copier) → [gcomneno/copier](https://github.com/gcomneno/copier)
 
 </details>
 
