@@ -69,7 +69,6 @@
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
 | **OOP under the hood** | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
-| **Architecture assessment** | [Legacy E-commerce Migration Lab](https://github.com/gcomneno/legacy-ecommerce-migration-lab) | Legacy PHP e-commerce, assessment method, risk mapping, migration reasoning |
 
 ## <code>04 · FEATURED PROJECTS</code>
 
@@ -143,7 +142,6 @@ I use public learning labs to turn study, notes and technical experiments into r
 | --- | --- | --- |
 | Python | [Python Fast Track](https://github.com/gcomneno/python-fast-track) | Python for already experienced developers |
 | Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
-| Architecture | [Legacy E-commerce Migration Lab](https://github.com/gcomneno/legacy-ecommerce-migration-lab) | Assessment, risk mapping and migration strategy for legacy PHP e-commerce systems |
 | Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake and Linux workflows |
 | Programming basics | [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
