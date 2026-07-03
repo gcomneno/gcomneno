@@ -40,13 +40,14 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-03** · `gyte` · **Release:** [GYTE v1.3.0](https://github.com/gcomneno/gyte/commit/7398b1c8a695ca06aaf31aaced387f9a068168b9)
 - **2026-06-30** · `kleis-sviluppo-software-4` · **News:** [Kleis Corso: add Bootstrap 5 examples](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/8471f57be6c5bb67e752fd563b4a4e974685e5b2)
 - **2026-06-30** · `ubuntu-system-tools` · **News:** [add bulk EPUB to AZW3 Kindle converter](https://github.com/gcomneno/ubuntu-system-tools/commit/bfeccd65e2590953e87ee6f3cc75556e8e5df8dc)
-- **2026-06-28** · `concorso-inps-assistente-informatico` · **News:** [launch INPS assistant informatics study lab](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/89f65df6531615d70928ada4d692ba1ecb7bdc1e)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-06-28** · `concorso-inps-assistente-informatico` · **News:** [launch INPS assistant informatics study lab](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/89f65df6531615d70928ada4d692ba1ecb7bdc1e)
 - **2026-06-28** · `web` · **News:** [add Laravel lessons 11-12 with Eloquent CRUD and request data](https://github.com/gcomneno/web/commit/5f1a46b14cef102b6f4a6e52ed837ade2b45fb11)
 - **2026-06-28** · `ubuntu-system-tools` · **News:** [add garbage-collector audit tool](https://github.com/gcomneno/ubuntu-system-tools/commit/fafd9cf623b77e94cb658f0a41f9222764d1943e)
 - **2026-02-22** · `ubuntu-system-tools` · **Release:** [v0.1.3](https://github.com/gcomneno/ubuntu-system-tools/commit/c808684e3b9658ea9b3b32857a01c93ef27edb1c)
