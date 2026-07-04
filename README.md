@@ -40,7 +40,7 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-07-04** · `system-design-study` · **News:** [add study sessions index](https://github.com/gcomneno/system-design-study/commit/4c5952580b2828daa3a7e962feef68a67804500f)
+- **2026-07-04** · `system-design-study` · **News:** [add api design study session map](https://github.com/gcomneno/system-design-study/commit/7c01faac5a00d2567c5ee8bec908afa43035ea80)
 - **2026-07-03** · `gyte` · **Release:** [GYTE v1.3.0](https://github.com/gcomneno/gyte/commit/7398b1c8a695ca06aaf31aaced387f9a068168b9)
 - **2026-06-30** · `kleis-sviluppo-software-4` · **News:** [Kleis Corso: add Bootstrap 5 examples](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/8471f57be6c5bb67e752fd563b4a4e974685e5b2)
 
