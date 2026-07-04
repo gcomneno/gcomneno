@@ -30,8 +30,8 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-07-04** · `ubuntu-system-tools` · **News:** [add EPUB preflight metadata audit](https://github.com/gcomneno/ubuntu-system-tools/commit/3e4001a9f5cef36e5bfb2a7fa0352c7406c9e328)
-- **2026-07-04** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.6](https://github.com/gcomneno/atelier-kit/commit/e9c76e80f24e03a48859c641428f15eaa1bac6a8)
+- **2026-07-04** · `ubuntu-system-tools` · **News:** [add conversion manifest with checksums and tool versions](https://github.com/gcomneno/ubuntu-system-tools/commit/7b0b278d68b221881ad58a7ad762c4af3a4b02ca)
+- **2026-07-04** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.7](https://github.com/gcomneno/atelier-kit/commit/972907268d04e2caf76f8adf44f17dedf7dfab9f)
 - **2026-07-04** · `system-design-study` · **News:** [add api design study session map](https://github.com/gcomneno/system-design-study/commit/7c01faac5a00d2567c5ee8bec908afa43035ea80)
 
 <details>
