@@ -30,13 +30,14 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-07-04** · `atelier-kit` · **News:** [publish Atelier-Kit v0.1.0 release](https://github.com/gcomneno/atelier-kit/commit/8ae71974d592fedbf867a8d72826ce857074aa6a)
+- **2026-07-04** · `ubuntu-system-tools` · **News:** [add EPUB preflight metadata audit](https://github.com/gcomneno/ubuntu-system-tools/commit/3e4001a9f5cef36e5bfb2a7fa0352c7406c9e328)
+- **2026-07-04** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.6](https://github.com/gcomneno/atelier-kit/commit/e9c76e80f24e03a48859c641428f15eaa1bac6a8)
 - **2026-07-04** · `system-design-study` · **News:** [add api design study session map](https://github.com/gcomneno/system-design-study/commit/7c01faac5a00d2567c5ee8bec908afa43035ea80)
-- **2026-07-03** · `gyte` · **Release:** [GYTE v1.3.0](https://github.com/gcomneno/gyte/commit/7398b1c8a695ca06aaf31aaced387f9a068168b9)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-03** · `gyte` · **Release:** [GYTE v1.3.0](https://github.com/gcomneno/gyte/commit/7398b1c8a695ca06aaf31aaced387f9a068168b9)
 - **2026-06-30** · `kleis-sviluppo-software-4` · **News:** [Kleis Corso: add Bootstrap 5 examples](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/8471f57be6c5bb67e752fd563b4a4e974685e5b2)
 - **2026-06-30** · `ubuntu-system-tools` · **News:** [add bulk EPUB to AZW3 Kindle converter](https://github.com/gcomneno/ubuntu-system-tools/commit/bfeccd65e2590953e87ee6f3cc75556e8e5df8dc)
 - **2026-06-28** · `concorso-inps-assistente-informatico` · **News:** [launch INPS assistant informatics study lab](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/89f65df6531615d70928ada4d692ba1ecb7bdc1e)
