@@ -30,13 +30,15 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-07-04** · `ubuntu-system-tools` · **News:** [add conversion manifest with checksums and tool versions](https://github.com/gcomneno/ubuntu-system-tools/commit/7b0b278d68b221881ad58a7ad762c4af3a4b02ca)
-- **2026-07-04** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.7](https://github.com/gcomneno/atelier-kit/commit/972907268d04e2caf76f8adf44f17dedf7dfab9f)
-- **2026-07-04** · `system-design-study` · **News:** [add api design study session map](https://github.com/gcomneno/system-design-study/commit/7c01faac5a00d2567c5ee8bec908afa43035ea80)
+- **2026-07-05** · `ubuntu-system-tools` · **News:** [complete bulk ebook converter epics with audit and Kindle controls](https://github.com/gcomneno/ubuntu-system-tools/commit/fd9560f537cfe095ed6b1f44bd696ff217f056cd)
+- **2026-07-04** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.8](https://github.com/gcomneno/atelier-kit/commit/ac9125125a96ad0b860ef914957438abdec72cd6)
+- **2026-07-04** · `smart-file-organizer` · **Release:** [prepare v0.3.1](https://github.com/gcomneno/smart-file-organizer/commit/d7de75b7381cf721287a2366bba25e201def0947)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-04** · `ubuntu-system-tools` · **News:** [add conversion manifest with checksums and tool versions](https://github.com/gcomneno/ubuntu-system-tools/commit/7b0b278d68b221881ad58a7ad762c4af3a4b02ca)
+- **2026-07-04** · `system-design-study` · **News:** [add api design study session map](https://github.com/gcomneno/system-design-study/commit/7c01faac5a00d2567c5ee8bec908afa43035ea80)
 - **2026-07-03** · `gyte` · **Release:** [GYTE v1.3.0](https://github.com/gcomneno/gyte/commit/7398b1c8a695ca06aaf31aaced387f9a068168b9)
 - **2026-06-30** · `kleis-sviluppo-software-4` · **News:** [Kleis Corso: add Bootstrap 5 examples](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/8471f57be6c5bb67e752fd563b4a4e974685e5b2)
 - **2026-06-30** · `ubuntu-system-tools` · **News:** [add bulk EPUB to AZW3 Kindle converter](https://github.com/gcomneno/ubuntu-system-tools/commit/bfeccd65e2590953e87ee6f3cc75556e8e5df8dc)
@@ -59,7 +61,7 @@
 | Focus | Project | Technical signal |
 | --- | --- | --- |
 | **Safe file automation** | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Python CLI, dry-run, tests, operational safety |
-| **Linux system utilities** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Bash CLI, CUPS diagnostics, read-only inspection, safe defaults |
+| **Linux system utilities** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Bash CLI, bulk ebook conversion (Calibre), manifest/quarantine, CUPS diagnostics, safe defaults |
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
 | **OOP under the hood** | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
@@ -186,6 +188,17 @@ Everyday friction turned into small, deterministic command-line tools.
 | **Media extraction** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript CLI, manifest-driven extraction |
 | **IPv4 partitioning** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Deterministic high-entropy IPv4 bucketization |
 | **IPv4 partitioning (C++)** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library + CLI, clean architecture, RAII, stats engine, tests |
+
+### <code>BULK EBOOK CONVERSION</code>
+
+**Problem**<br>
+Bulk ebook conversion for Kindle and other readers needs auditability, safe defaults and readable options — not an opaque wall of Calibre flags.
+
+**Built**<br>
+[Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) with `bulk-epub-to-azw3` and `bulk-ebook-convert`: EPUB preflight, JSONL manifest, failure quarantine, multi-format export, Kindle profiles, cover policy, typography cleanup and custom CSS injection.
+
+**Signal**<br>
+Bash, Calibre `ebook-convert`, dry-run first, selftests with fake converter, conservative CLI design.
 
 ## <code>05 · LEARNING IN PUBLIC</code>
 
