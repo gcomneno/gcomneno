@@ -30,7 +30,7 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-07-05** · `ubuntu-system-tools` · **News:** [complete bulk ebook converter epics with audit and Kindle controls](https://github.com/gcomneno/ubuntu-system-tools/commit/fd9560f537cfe095ed6b1f44bd696ff217f056cd)
+- **2026-07-05** · `ubuntu-system-tools` · **Release:** [v0.2.0 bulk ebook converter milestone](https://github.com/gcomneno/ubuntu-system-tools/commit/8911d773bd26309599ce8c40ef7d725ffcafdd11)
 - **2026-07-04** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.8](https://github.com/gcomneno/atelier-kit/commit/ac9125125a96ad0b860ef914957438abdec72cd6)
 - **2026-07-04** · `smart-file-organizer` · **Release:** [prepare v0.3.1](https://github.com/gcomneno/smart-file-organizer/commit/d7de75b7381cf721287a2366bba25e201def0947)
 
