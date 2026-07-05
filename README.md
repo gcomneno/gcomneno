@@ -61,12 +61,9 @@
 
 | Focus | Project | Technical signal |
 | --- | --- | --- |
-| **Safe file automation** | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Python CLI, dry-run, tests, operational safety |
-| **Linux system utilities** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Bash CLI, bulk ebook conversion (Calibre), manifest/quarantine, CUPS diagnostics, safe defaults |
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
 | **OOP under the hood** | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
-| **Creative showcase kit** | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Configurable maker/artist showcase, lightweight site delivery |
 | **Media extraction CLI** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript extraction, manifest-driven CLI |
 | **Integer structures** | [Prime Exponent Tree](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless encoding, structural metrics |
 | **Layered compression** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams, GCA1 archives |
@@ -84,32 +81,6 @@ If one of them saves you time or helps you ship work that earns, you can optiona
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
 
 ## <code>05 · FEATURED PROJECTS</code>
-
-### <code>SAFE AUTOMATION</code>
-
-**Problem**<br>
-Scripts that move files can become dangerous when they hide their plan.
-
-**Built**<br>
-[Smart File Organizer](https://github.com/gcomneno/smart-file-organizer), a Python CLI with explicit planning, dry-run mode and intentional apply step.
-
-**Signal**<br>
-Python, CLI design, `uv`, `ruff`, `pytest`, safe defaults and operational thinking.
-
----
-
-### <code>CLIENT-SITE SCAFFOLDING</code>
-
-**Problem**<br>
-Small creative projects often need a clean public website without introducing a CMS, database or heavy deployment workflow.
-
-**Built**<br>
-[Atelier Kit](https://github.com/gcomneno/atelier-kit), a developer-assisted, file-based toolkit for generating lightweight portfolio and atelier-style websites.
-
-**Signal**<br>
-Python CLI, file-based content, reusable templates, static-site workflow, documentation boundaries and product-oriented thinking.
-
----
 
 ### <code>SEARCHABLE KNOWLEDGE</code>
 
@@ -179,19 +150,6 @@ Lossless compression experiments — from semantic layers to specialized payload
 
 ---
 
-### <code>ATELIER KIT</code>
-
-**Problem**<br>
-Small creative businesses need a lightweight, configurable web showcase without rebuilding the same layout every time.
-
-**Built**<br>
-[Atelier-Kit](https://github.com/gcomneno/atelier-kit), a configurable showcase kit for makers, artists and small creative activities.
-
-**Signal**<br>
-Configurable templates, maker-focused UX, small-site delivery, reusable showcase patterns.
-
----
-
 ### <code>CLI & NETWORK TOOLING</code>
 
 Everyday friction turned into small, deterministic command-line tools.
@@ -201,17 +159,6 @@ Everyday friction turned into small, deterministic command-line tools.
 | **Media extraction** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript CLI, manifest-driven extraction |
 | **IPv4 partitioning** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Deterministic high-entropy IPv4 bucketization |
 | **IPv4 partitioning (C++)** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library + CLI, clean architecture, RAII, stats engine, tests |
-
-### <code>BULK EBOOK CONVERSION</code>
-
-**Problem**<br>
-Bulk ebook conversion for Kindle and other readers needs auditability, safe defaults and readable options — not an opaque wall of Calibre flags.
-
-**Built**<br>
-[Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) with `bulk-epub-to-azw3` and `bulk-ebook-convert`: EPUB preflight, JSONL manifest, failure quarantine, multi-format export, Kindle profiles, cover policy, typography cleanup and custom CSS injection.
-
-**Signal**<br>
-Bash, Calibre `ebook-convert`, dry-run first, selftests with fake converter, conservative CLI design.
 
 ## <code>06 · LEARNING IN PUBLIC</code>
 
