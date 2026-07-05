@@ -217,7 +217,19 @@ I use public learning labs to turn study, notes and technical experiments into r
 | Public sector exam | [Concorso INPS Assistente Informatico](https://github.com/gcomneno/concorso-inps-assistente-informatico) | Lessons learned, quizzes and operational exam notes |
 | Public library | [Club dell'Assurdo](https://github.com/gcomneno/club-dell-assurdo) | Curated public library project |
 
-## <code>06 · OPEN SOURCE PATH</code>
+## <code>06 · SPONSOR-BACKED PUBLIC TOOLS</code>
+
+Some projects here are maintained as **free public tools** — built to be reused in real workflows, not just studied once.
+
+If one of them saves you time or helps you ship work that earns, you can optionally [sponsor the lab on GitHub](https://github.com/sponsors/gcomneno). No obligation, no lock-in: just a straightforward way to send back a small thank-you.
+
+| Tool | Typical use |
+| --- | --- |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight client showcase for makers and small creative businesses |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
+| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
+
+## <code>07 · OPEN SOURCE PATH</code>
 
 My open-source path is still growing, but it follows the same logic: start from concrete problems, read the technical context and propose small, verifiable changes.
 
@@ -236,18 +248,6 @@ Main contribution in progress:
 - [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
 
 </details>
-
-### <code>SPONSOR-BACKED PUBLIC TOOLS</code>
-
-Some projects here are maintained as **free public tools** — built to be reused in real workflows, not just studied once.
-
-If one of them saves you time or helps you ship work that earns, you can optionally [sponsor the lab on GitHub](https://github.com/sponsors/gcomneno). No obligation, no lock-in: just a straightforward way to send back a small thank-you.
-
-| Tool | Typical use |
-| --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight client showcase for makers and small creative businesses |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
-| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
 
 ---
 
