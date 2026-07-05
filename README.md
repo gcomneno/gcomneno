@@ -236,11 +236,24 @@ Main contribution in progress:
 
 </details>
 
+### <code>SPONSOR-BACKED PUBLIC TOOLS</code>
+
+Some projects here are maintained as **free public tools** — built to be reused in real workflows, not just studied once.
+
+If one of them saves you time or helps you ship work that earns, you can optionally [sponsor the lab on GitHub](https://github.com/sponsors/gcomneno). No obligation, no lock-in: just a straightforward way to send back a small thank-you.
+
+| Tool | Typical use |
+| --- | --- |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight client showcase for makers and small creative businesses |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
+| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
+
 ---
 
 <p align="center">
   <br>
-  <em>This profile is a moving lab: real problems, small tools, clear documentation and public iterations.</em>
+  <em>This profile is a moving lab: real problems, small tools, clear documentation and public iterations.</em><br>
+  <em>Like a sponsor-backed tool? <a href="https://github.com/sponsors/gcomneno">Send a small thank-you on GitHub Sponsors</a>.</em>
 </p>
 
 <p align="center">
