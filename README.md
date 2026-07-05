@@ -108,19 +108,6 @@ CLI UX, deterministic question generation, saved attempts and privacy-first reus
 
 ---
 
-### <code>OOP INTERNALS</code>
-
-**Problem**<br>
-Object-Oriented Programming can look like magic when memory, dispatch and layout stay hidden.
-
-**Built**<br>
-[OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab), a C laboratory that models OOP concepts with structs, pointers, vtables and observable output.
-
-**Signal**<br>
-Memory layout, polymorphism, function pointers, upcasting and low-level reasoning.
-
----
-
 ### <code>INTEGER & STRUCTURAL LAB</code>
 
 Integers studied as structures — recognition, search, modular signatures and constrained generation.
