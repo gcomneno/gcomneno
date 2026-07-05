@@ -83,6 +83,19 @@ Python, CLI design, `uv`, `ruff`, `pytest`, safe defaults and operational thinki
 
 ---
 
+### <code>CLIENT-SITE SCAFFOLDING</code>
+
+**Problem**<br>
+Small creative projects often need a clean public website without introducing a CMS, database or heavy deployment workflow.
+
+**Built**<br>
+[Atelier Kit](https://github.com/gcomneno/atelier-kit), a developer-assisted, file-based toolkit for generating lightweight portfolio and atelier-style websites.
+
+**Signal**<br>
+Python CLI, file-based content, reusable templates, static-site workflow, documentation boundaries and product-oriented thinking.
+
+---
+
 ### <code>SEARCHABLE KNOWLEDGE</code>
 
 **Problem**<br>
