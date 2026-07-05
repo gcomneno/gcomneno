@@ -150,15 +150,15 @@ Lossless compression experiments — from semantic layers to specialized payload
 
 ---
 
-### <code>CLI & NETWORK TOOLING</code>
+### <code>CLI TOOLING</code>
 
 Everyday friction turned into small, deterministic command-line tools.
 
 | Focus | Project | Technical signal |
 | --- | --- | --- |
 | **Media extraction** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript CLI, manifest-driven extraction |
-| **IPv4 partitioning** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Deterministic high-entropy IPv4 bucketization |
-| **IPv4 partitioning (C++)** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library + CLI, clean architecture, RAII, stats engine, tests |
+| **IPv4 bucketization** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Deterministic high-entropy IPv4 partitioning |
+| **IPv4 bucketization (C++)** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library + CLI, clean architecture, RAII, stats engine, tests |
 
 ## <code>06 · LEARNING IN PUBLIC</code>
 
