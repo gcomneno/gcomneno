@@ -161,7 +161,6 @@ I use public learning labs to turn study, notes and technical experiments into r
 | JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
 | Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 | Public sector exam | [Concorso INPS Assistente Informatico](https://github.com/gcomneno/concorso-inps-assistente-informatico) | Lessons learned, quizzes and operational exam notes |
-| Public library | [Club dell'Assurdo](https://github.com/gcomneno/club-dell-assurdo) | Curated public library project |
 
 ## <code>07 · OPEN SOURCE PATH</code>
 
