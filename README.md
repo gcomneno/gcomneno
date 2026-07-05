@@ -71,7 +71,19 @@
 | **Integer structures** | [Prime Exponent Tree](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless encoding, structural metrics |
 | **Layered compression** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams, GCA1 archives |
 
-## <code>04 · FEATURED PROJECTS</code>
+## <code>04 · SPONSOR-BACKED PUBLIC TOOLS</code>
+
+Some projects here are maintained as **free public tools** — built to be reused in real workflows, not just studied once.
+
+If one of them saves you time or helps you ship work that earns, you can optionally [sponsor the lab on GitHub](https://github.com/sponsors/gcomneno). No obligation, no lock-in: just a straightforward way to send back a small thank-you.
+
+| Tool | Typical use |
+| --- | --- |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight client showcase for makers and small creative businesses |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
+| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
+
+## <code>05 · FEATURED PROJECTS</code>
 
 ### <code>SAFE AUTOMATION</code>
 
@@ -201,7 +213,7 @@ Bulk ebook conversion for Kindle and other readers needs auditability, safe defa
 **Signal**<br>
 Bash, Calibre `ebook-convert`, dry-run first, selftests with fake converter, conservative CLI design.
 
-## <code>05 · LEARNING IN PUBLIC</code>
+## <code>06 · LEARNING IN PUBLIC</code>
 
 I use public learning labs to turn study, notes and technical experiments into reproducible paths.
 
@@ -216,18 +228,6 @@ I use public learning labs to turn study, notes and technical experiments into r
 | Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 | Public sector exam | [Concorso INPS Assistente Informatico](https://github.com/gcomneno/concorso-inps-assistente-informatico) | Lessons learned, quizzes and operational exam notes |
 | Public library | [Club dell'Assurdo](https://github.com/gcomneno/club-dell-assurdo) | Curated public library project |
-
-## <code>06 · SPONSOR-BACKED PUBLIC TOOLS</code>
-
-Some projects here are maintained as **free public tools** — built to be reused in real workflows, not just studied once.
-
-If one of them saves you time or helps you ship work that earns, you can optionally [sponsor the lab on GitHub](https://github.com/sponsors/gcomneno). No obligation, no lock-in: just a straightforward way to send back a small thank-you.
-
-| Tool | Typical use |
-| --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight client showcase for makers and small creative businesses |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
-| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
 
 ## <code>07 · OPEN SOURCE PATH</code>
 
@@ -253,8 +253,7 @@ Main contribution in progress:
 
 <p align="center">
   <br>
-  <em>This profile is a moving lab: real problems, small tools, clear documentation and public iterations.</em><br>
-  <em>Like a sponsor-backed tool? <a href="https://github.com/sponsors/gcomneno">Send a small thank-you on GitHub Sponsors</a>.</em>
+  <em>This profile is a moving lab: real problems, small tools, clear documentation and public iterations.</em>
 </p>
 
 <p align="center">
