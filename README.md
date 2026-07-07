@@ -31,8 +31,8 @@
 <!-- updates:start -->
 
 - **2026-07-07** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.19 — studio site settings](https://github.com/gcomneno/atelier-kit/commit/e2d753b0ee90a9081cd7af2de93ead79e5184b02)
-- **2026-07-05** · `lele-manager` · **Release:** [v1.5.0 — LICENSE, doc hygiene, similarity hardening](https://github.com/gcomneno/lele-manager/commit/a3798474c3a2b3e4fa48a0f9084232fda7ba14bf)
-- **2026-07-05** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.9](https://github.com/gcomneno/atelier-kit/commit/4b7ec02e667e1cf4a63682afa29f79201d00d9ad)
+- **2026-07-05** · `lele-manager` · **Release:** [v1.9.0 — Fase 4 docs and version bump](https://github.com/gcomneno/lele-manager/commit/4036ba54a89219eb618cfc64f063f3c05b249360)
+- **2026-07-05** · `atelier-kit` · **Release:** [v0.1.17 — Atelier Desktop build fix](https://github.com/gcomneno/atelier-kit/commit/2c344969e0a7766f705cc847fbdbb0fe668e976f)
 
 <details>
 <summary>More updates from the last 6 months</summary>
@@ -48,7 +48,10 @@
 - **2026-06-28** · `concorso-inps-assistente-informatico` · **News:** [launch INPS assistant informatics study lab](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/89f65df6531615d70928ada4d692ba1ecb7bdc1e)
 - **2026-06-28** · `web` · **News:** [add Laravel lessons 11-12 with Eloquent CRUD and request data](https://github.com/gcomneno/web/commit/5f1a46b14cef102b6f4a6e52ed837ade2b45fb11)
 - **2026-06-28** · `ubuntu-system-tools` · **News:** [add garbage-collector audit tool](https://github.com/gcomneno/ubuntu-system-tools/commit/fafd9cf623b77e94cb658f0a41f9222764d1943e)
+- **2026-04-14** · `pet` · **Release:** [prepare v0.1.4](https://github.com/gcomneno/pet/commit/a096050544dabf455def9cc2781a944549c976f2)
 - **2026-02-22** · `ubuntu-system-tools` · **Release:** [v0.1.3](https://github.com/gcomneno/ubuntu-system-tools/commit/c808684e3b9658ea9b3b32857a01c93ef27edb1c)
+- **2026-02-06** · `gyte` · **Release:** [v1.2.1](https://github.com/gcomneno/gyte/commit/9b032867d6805cf64662b8e62d828e764db42d06)
+- **2026-02-06** · `lele-manager` · **Release:** [v1.1.2](https://github.com/gcomneno/lele-manager/commit/3df270b558aaa3c9277c1f75a1873b938c987cd8)
 - **2026-02-05** · `lele-manager` · **Release:** [v1.1.1](https://github.com/gcomneno/lele-manager/commit/866a952c84854b90b3fae73e82c26265690090de)
 - **2026-02-03** · `gyte` · **Release:** [manifest + misc updates](https://github.com/gcomneno/gyte/commit/dafb729f44762e6af7560425d0a3220b698116d2)
 - **2026-01-26** · `oeis-probe` · **Release:** [v0.1.3](https://github.com/gcomneno/oeis-probe/commit/4a3f037e593b9045d9940fdebe47474e20933ea2)

@@ -23,7 +23,12 @@ MAX_REPOS = 100
 
 FALLBACK_UPDATE = "- No automatic updates available at the moment."
 
-NEWS_PATTERN = re.compile(r"^(news|release):\s*(.+)$", re.IGNORECASE)
+UPDATE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
+    (re.compile(r"^news:\s*(.+)$", re.IGNORECASE), "news"),
+    (re.compile(r"^release:\s*(.+)$", re.IGNORECASE), "release"),
+    (re.compile(r"^chore\(release\):\s*(.+)$", re.IGNORECASE), "release"),
+    (re.compile(r"^chore:\s*release\s+(.+)$", re.IGNORECASE), "release"),
+)
 
 API_HAD_FAILURE = False
 
@@ -68,6 +73,17 @@ def github_get_json(url: str) -> object | None:
         API_HAD_FAILURE = True
         print(f"warning: GitHub API failed for {url}: {exc}", file=sys.stderr)
         return None
+
+
+def parse_update_message(message: str) -> tuple[str, str] | None:
+    first_line = message.splitlines()[0].strip()
+
+    for pattern, kind in UPDATE_PATTERNS:
+        match = pattern.match(first_line)
+        if match:
+            return kind, match.group(1).strip()
+
+    return None
 
 
 def discover_public_repositories() -> list[str]:
@@ -175,13 +191,12 @@ def fetch_repo_updates(repo: str) -> list[UpdateItem]:
 
             try:
                 commit = commit_obj["commit"]
-                message = commit["message"].splitlines()[0].strip()
-                match = NEWS_PATTERN.match(message)
-                if not match:
+                message = commit["message"]
+                parsed = parse_update_message(message)
+                if not parsed:
                     continue
 
-                kind = match.group(1).lower()
-                text = match.group(2).strip()
+                kind, text = parsed
                 date_raw = commit["committer"]["date"]
                 html_url = commit_obj["html_url"]
 
@@ -293,7 +308,8 @@ def main() -> int:
     README_PATH.write_text(updated, encoding="utf-8")
 
     if items:
-        print(f"Updated README.md with {len(items)} item(s).")
+        visible = min(len(items), VISIBLE_ITEMS)
+        print(f"Updated README.md with {len(items)} item(s), {visible} visible.")
     else:
         print("No tagged news/release commits found. Fallback written to README.md.")
 
