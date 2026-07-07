@@ -30,13 +30,14 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-07** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.19 — studio site settings](https://github.com/gcomneno/atelier-kit/commit/e2d753b0ee90a9081cd7af2de93ead79e5184b02)
 - **2026-07-05** · `lele-manager` · **Release:** [v1.5.0 — LICENSE, doc hygiene, similarity hardening](https://github.com/gcomneno/lele-manager/commit/a3798474c3a2b3e4fa48a0f9084232fda7ba14bf)
 - **2026-07-05** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.9](https://github.com/gcomneno/atelier-kit/commit/4b7ec02e667e1cf4a63682afa29f79201d00d9ad)
-- **2026-07-05** · `ubuntu-system-tools` · **Release:** [v0.2.0 bulk ebook converter milestone](https://github.com/gcomneno/ubuntu-system-tools/commit/8911d773bd26309599ce8c40ef7d725ffcafdd11)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-05** · `ubuntu-system-tools` · **Release:** [v0.2.0 bulk ebook converter milestone](https://github.com/gcomneno/ubuntu-system-tools/commit/8911d773bd26309599ce8c40ef7d725ffcafdd11)
 - **2026-07-04** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.8](https://github.com/gcomneno/atelier-kit/commit/ac9125125a96ad0b860ef914957438abdec72cd6)
 - **2026-07-04** · `smart-file-organizer` · **Release:** [prepare v0.3.1](https://github.com/gcomneno/smart-file-organizer/commit/d7de75b7381cf721287a2366bba25e201def0947)
 - **2026-07-04** · `ubuntu-system-tools` · **News:** [add conversion manifest with checksums and tool versions](https://github.com/gcomneno/ubuntu-system-tools/commit/7b0b278d68b221881ad58a7ad762c4af3a4b02ca)
