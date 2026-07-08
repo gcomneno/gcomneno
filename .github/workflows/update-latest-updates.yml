@@ -3,7 +3,8 @@ name: Update latest profile updates
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 6 * * *"
+    # 04:30 Europe/Rome (CET/CEST) ≈ 02:30 UTC in summer (CEST)
+    - cron: "30 2 * * *"
 
 permissions:
   contents: write
