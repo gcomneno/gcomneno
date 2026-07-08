@@ -30,6 +30,11 @@ UPDATE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"^chore:\s*release\s+(.+)$", re.IGNORECASE), "release"),
 )
 
+# Higher priority wins when multiple updates share repo + day.
+PRIORITY_RELEASE_API = 3
+PRIORITY_RELEASE_COMMIT = 2
+PRIORITY_NEWS_COMMIT = 1
+
 API_HAD_FAILURE = False
 
 
@@ -40,6 +45,7 @@ class UpdateItem:
     kind: str
     text: str
     url: str
+    priority: int = 0
 
 
 def parse_github_datetime(value: str) -> datetime:
@@ -163,11 +169,81 @@ def is_own_commit(commit_obj: dict) -> bool:
     return False
 
 
+def release_label(tag_name: str, name: str | None) -> str:
+    cleaned_name = (name or "").strip()
+    cleaned_tag = tag_name.strip()
 
-def fetch_repo_updates(repo: str) -> list[UpdateItem]:
+    if cleaned_name and cleaned_name != cleaned_tag:
+        return cleaned_name
+
+    return cleaned_tag
+
+
+def fetch_repo_releases(repo: str) -> list[UpdateItem]:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
+    items: list[UpdateItem] = []
+    page = 1
+    repo_name = repo.split("/", 1)[1]
+
+    while True:
+        url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page={page}"
+        releases = github_get_json(url)
+
+        if not isinstance(releases, list):
+            return items
+
+        if not releases:
+            break
+
+        for release in releases:
+            if not isinstance(release, dict):
+                continue
+
+            if release.get("draft") is True:
+                continue
+
+            published_at = release.get("published_at")
+            tag_name = release.get("tag_name")
+            html_url = release.get("html_url")
+
+            if not isinstance(published_at, str) or not isinstance(tag_name, str):
+                continue
+
+            if not isinstance(html_url, str):
+                continue
+
+            try:
+                date = parse_github_datetime(published_at)
+            except ValueError:
+                continue
+
+            if date < cutoff:
+                continue
+
+            items.append(
+                UpdateItem(
+                    date=date,
+                    repo=repo_name,
+                    kind="release",
+                    text=release_label(tag_name, release.get("name") if isinstance(release.get("name"), str) else None),
+                    url=html_url,
+                    priority=PRIORITY_RELEASE_API,
+                )
+            )
+
+        if len(releases) < 100:
+            break
+
+        page += 1
+
+    return items
+
+
+def fetch_repo_commit_updates(repo: str) -> list[UpdateItem]:
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).isoformat()
     items: list[UpdateItem] = []
     page = 1
+    repo_name = repo.split("/", 1)[1]
 
     while True:
         url = (
@@ -201,14 +277,16 @@ def fetch_repo_updates(repo: str) -> list[UpdateItem]:
                 html_url = commit_obj["html_url"]
 
                 date = parse_github_datetime(date_raw)
+                priority = PRIORITY_RELEASE_COMMIT if kind == "release" else PRIORITY_NEWS_COMMIT
 
                 items.append(
                     UpdateItem(
                         date=date,
-                        repo=repo.split("/", 1)[1],
+                        repo=repo_name,
                         kind=kind,
                         text=text,
                         url=html_url,
+                        priority=priority,
                     )
                 )
             except (KeyError, TypeError, ValueError):
@@ -221,6 +299,28 @@ def fetch_repo_updates(repo: str) -> list[UpdateItem]:
 
     return items
 
+
+def dedupe_updates(items: list[UpdateItem]) -> list[UpdateItem]:
+    deduped: dict[tuple[str, str], UpdateItem] = {}
+
+    for item in items:
+        key = (item.repo, item.date.strftime("%Y-%m-%d"))
+        existing = deduped.get(key)
+
+        if existing is None:
+            deduped[key] = item
+            continue
+
+        if item.priority > existing.priority:
+            deduped[key] = item
+            continue
+
+        if item.priority == existing.priority and item.date > existing.date:
+            deduped[key] = item
+
+    return sorted(deduped.values(), key=lambda item: item.date, reverse=True)
+
+
 def collect_updates() -> list[UpdateItem]:
     repos = discover_public_repositories()
 
@@ -229,19 +329,19 @@ def collect_updates() -> list[UpdateItem]:
     items: list[UpdateItem] = []
 
     for repo in repos:
-        items.extend(fetch_repo_updates(repo))
+        items.extend(fetch_repo_releases(repo))
+        items.extend(fetch_repo_commit_updates(repo))
 
-    deduped: dict[tuple[str, str], UpdateItem] = {}
+    merged = dedupe_updates(items)
 
-    for item in items:
-        # Keep at most one update per repository per day.
-        # If multiple tagged commits exist, keep the most recent one.
-        key = (item.repo, item.date.strftime("%Y-%m-%d"))
-        if key not in deduped or item.date > deduped[key].date:
-            deduped[key] = item
+    release_count = sum(1 for item in merged if item.kind == "release")
+    news_count = sum(1 for item in merged if item.kind == "news")
+    print(
+        f"Collected {len(merged)} update(s) after merge ({release_count} release, {news_count} news).",
+        file=sys.stderr,
+    )
 
-    return sorted(deduped.values(), key=lambda item: item.date, reverse=True)
-
+    return merged
 
 
 def render_update_item(item: UpdateItem) -> str:
@@ -277,6 +377,7 @@ def render_updates(items: list[UpdateItem]) -> str:
 
     return "\n".join(lines)
 
+
 def replace_updates_block(readme: str, updates_markdown: str) -> str:
     start_marker = "<!-- updates:start -->"
     end_marker = "<!-- updates:end -->"
@@ -311,7 +412,7 @@ def main() -> int:
         visible = min(len(items), VISIBLE_ITEMS)
         print(f"Updated README.md with {len(items)} item(s), {visible} visible.")
     else:
-        print("No tagged news/release commits found. Fallback written to README.md.")
+        print("No tagged news/release updates found. Fallback written to README.md.")
 
     return 0
 
