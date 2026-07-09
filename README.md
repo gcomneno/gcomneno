@@ -180,6 +180,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 
 | Area | Repository | Focus |
 | --- | --- | --- |
+| AI workflows | [AI Operating Profiles](https://github.com/gcomneno/ai-operating-profiles) | Custom instruction profiles, reusable AI-human workflow patterns and terminal-first guidance |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Notes, quizzes and interview-oriented system design lessons |
 | Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
 | Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
