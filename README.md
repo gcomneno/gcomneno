@@ -30,13 +30,14 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-09** · `ai-operating-profiles` · **News:** [launch AI operating profiles lab](https://github.com/gcomneno/ai-operating-profiles/commit/024ff6cc3af7e7d2ce4b24eae52b805f264798ff)
 - **2026-07-08** · `web` · **News:** [add new Laravel backend lessons](https://github.com/gcomneno/web/commit/f4d3fdc6f1280a62ed52ba48eb8c8333307f6205)
 - **2026-07-08** · `atelier-kit` · **Release:** [Atelier-Kit v0.2.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.2.0)
-- **2026-07-07** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.19 — studio site settings](https://github.com/gcomneno/atelier-kit/commit/e2d753b0ee90a9081cd7af2de93ead79e5184b02)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-07** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.19 — studio site settings](https://github.com/gcomneno/atelier-kit/commit/e2d753b0ee90a9081cd7af2de93ead79e5184b02)
 - **2026-07-05** · `lele-manager` · **Release:** [v1.9.0 — Fase 4 docs and version bump](https://github.com/gcomneno/lele-manager/commit/4036ba54a89219eb618cfc64f063f3c05b249360)
 - **2026-07-05** · `atelier-kit` · **Release:** [v0.1.11 — Operator UI i18n (en + it)](https://github.com/gcomneno/atelier-kit/releases/tag/v0.1.11)
 - **2026-07-05** · `ubuntu-system-tools` · **Release:** [v0.2.0 — bulk ebook converter milestone](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.2.0)
