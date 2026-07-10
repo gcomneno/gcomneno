@@ -30,7 +30,7 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-07-09** · `ai-operating-profiles` · **News:** [launch AI operating profiles lab](https://github.com/gcomneno/ai-operating-profiles/commit/024ff6cc3af7e7d2ce4b24eae52b805f264798ff)
+- **2026-07-09** · `ai-operating-profiles` · **News:** [add usage guidance and license](https://github.com/gcomneno/ai-operating-profiles/commit/9e974b1ef9a2ea5a75ac242ccd8eca51f3a1313e)
 - **2026-07-08** · `web` · **News:** [add new Laravel backend lessons](https://github.com/gcomneno/web/commit/f4d3fdc6f1280a62ed52ba48eb8c8333307f6205)
 - **2026-07-08** · `atelier-kit` · **Release:** [Atelier-Kit v0.2.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.2.0)
 
@@ -78,7 +78,6 @@
 - **2026-01-23** · `onion-compressor-framework` · **Release:** [v0.2.4](https://github.com/gcomneno/onion-compressor-framework/releases/tag/v0.2.4)
 - **2026-01-21** · `onion-compressor-framework` · **Release:** [v0.2.3](https://github.com/gcomneno/onion-compressor-framework/releases/tag/v0.2.3)
 - **2026-01-16** · `onion-compressor-framework` · **Release:** [v0.2.1](https://github.com/gcomneno/onion-compressor-framework/releases/tag/v0.2.1)
-- **2026-01-07** · `oeis-probe` · **Release:** [v0.1.2](https://github.com/gcomneno/oeis-probe/releases/tag/v0.1.2)
 
 </details>
 
