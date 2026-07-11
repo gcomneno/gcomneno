@@ -25,15 +25,25 @@ FALLBACK_UPDATE = "- No automatic updates available at the moment."
 
 UPDATE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"^news:\s*(.+)$", re.IGNORECASE), "news"),
+    (re.compile(r"^update:\s*(.+)$", re.IGNORECASE), "update"),
     (re.compile(r"^release:\s*(.+)$", re.IGNORECASE), "release"),
     (re.compile(r"^chore\(release\):\s*(.+)$", re.IGNORECASE), "release"),
     (re.compile(r"^chore:\s*release\s+(.+)$", re.IGNORECASE), "release"),
 )
 
 # Higher priority wins when multiple updates share repo + day.
-PRIORITY_RELEASE_API = 3
-PRIORITY_RELEASE_COMMIT = 2
-PRIORITY_NEWS_COMMIT = 1
+PRIORITY_RELEASE_API = 4
+COMMIT_PRIORITY_BY_KIND = {
+    "release": 3,
+    "update": 2,
+    "news": 1,
+}
+
+LABEL_BY_KIND = {
+    "release": "Release",
+    "update": "Update",
+    "news": "News",
+}
 
 API_HAD_FAILURE = False
 
@@ -102,12 +112,8 @@ def discover_public_repositories() -> list[str]:
             f"https://api.github.com/users/{OWNER_LOGIN}/repos"
             f"?type=owner&sort=pushed&direction=desc&per_page=100&page={page}"
         )
-
         payload = github_get_json(url)
-        if not isinstance(payload, list):
-            break
-
-        if not payload:
+        if not isinstance(payload, list) or not payload:
             break
 
         for repo in payload:
@@ -118,21 +124,14 @@ def discover_public_repositories() -> list[str]:
             owner = repo.get("owner", {})
             owner_login = owner.get("login") if isinstance(owner, dict) else None
 
-            if not isinstance(full_name, str):
+            if not isinstance(full_name, str) or owner_login != OWNER_LOGIN:
                 continue
-
-            if owner_login != OWNER_LOGIN:
-                continue
-
             if full_name == PROFILE_REPO:
                 continue
-
             if repo.get("private") is True:
                 continue
-
             if repo.get("archived") is True:
                 continue
-
             if repo.get("disabled") is True:
                 continue
 
@@ -145,13 +144,11 @@ def discover_public_repositories() -> list[str]:
                     pass
 
             repos.append(full_name)
-
             if len(repos) >= MAX_REPOS:
                 break
 
         if len(payload) < 100:
             break
-
         page += 1
 
     return repos
@@ -163,10 +160,7 @@ def is_own_commit(commit_obj: dict) -> bool:
         return True
 
     committer = commit_obj.get("committer")
-    if isinstance(committer, dict) and committer.get("login") == OWNER_LOGIN:
-        return True
-
-    return False
+    return isinstance(committer, dict) and committer.get("login") == OWNER_LOGIN
 
 
 def release_label(tag_name: str, name: str | None) -> str:
@@ -191,15 +185,11 @@ def fetch_repo_releases(repo: str) -> list[UpdateItem]:
 
         if not isinstance(releases, list):
             return items
-
         if not releases:
             break
 
         for release in releases:
-            if not isinstance(release, dict):
-                continue
-
-            if release.get("draft") is True:
+            if not isinstance(release, dict) or release.get("draft") is True:
                 continue
 
             published_at = release.get("published_at")
@@ -208,7 +198,6 @@ def fetch_repo_releases(repo: str) -> list[UpdateItem]:
 
             if not isinstance(published_at, str) or not isinstance(tag_name, str):
                 continue
-
             if not isinstance(html_url, str):
                 continue
 
@@ -220,12 +209,13 @@ def fetch_repo_releases(repo: str) -> list[UpdateItem]:
             if date < cutoff:
                 continue
 
+            name = release.get("name")
             items.append(
                 UpdateItem(
                     date=date,
                     repo=repo_name,
                     kind="release",
-                    text=release_label(tag_name, release.get("name") if isinstance(release.get("name"), str) else None),
+                    text=release_label(tag_name, name if isinstance(name, str) else None),
                     url=html_url,
                     priority=PRIORITY_RELEASE_API,
                 )
@@ -233,7 +223,6 @@ def fetch_repo_releases(repo: str) -> list[UpdateItem]:
 
         if len(releases) < 100:
             break
-
         page += 1
 
     return items
@@ -250,34 +239,27 @@ def fetch_repo_commit_updates(repo: str) -> list[UpdateItem]:
             f"https://api.github.com/repos/{repo}/commits"
             f"?since={since}&per_page=100&page={page}"
         )
-
         commits = github_get_json(url)
+
         if not isinstance(commits, list):
             return items
-
         if not commits:
             break
 
         for commit_obj in commits:
-            if not isinstance(commit_obj, dict):
-                continue
-
-            if not is_own_commit(commit_obj):
+            if not isinstance(commit_obj, dict) or not is_own_commit(commit_obj):
                 continue
 
             try:
                 commit = commit_obj["commit"]
-                message = commit["message"]
-                parsed = parse_update_message(message)
+                parsed = parse_update_message(commit["message"])
                 if not parsed:
                     continue
 
                 kind, text = parsed
-                date_raw = commit["committer"]["date"]
+                date = parse_github_datetime(commit["committer"]["date"])
                 html_url = commit_obj["html_url"]
-
-                date = parse_github_datetime(date_raw)
-                priority = PRIORITY_RELEASE_COMMIT if kind == "release" else PRIORITY_NEWS_COMMIT
+                priority = COMMIT_PRIORITY_BY_KIND[kind]
 
                 items.append(
                     UpdateItem(
@@ -294,7 +276,6 @@ def fetch_repo_commit_updates(repo: str) -> list[UpdateItem]:
 
         if len(commits) < 100:
             break
-
         page += 1
 
     return items
@@ -323,21 +304,19 @@ def dedupe_updates(items: list[UpdateItem]) -> list[UpdateItem]:
 
 def collect_updates() -> list[UpdateItem]:
     repos = discover_public_repositories()
-
     print(f"Discovered {len(repos)} recently updated public repository/repositories.", file=sys.stderr)
 
     items: list[UpdateItem] = []
-
     for repo in repos:
         items.extend(fetch_repo_releases(repo))
         items.extend(fetch_repo_commit_updates(repo))
 
     merged = dedupe_updates(items)
-
-    release_count = sum(1 for item in merged if item.kind == "release")
-    news_count = sum(1 for item in merged if item.kind == "news")
+    counts = {kind: sum(1 for item in merged if item.kind == kind) for kind in LABEL_BY_KIND}
     print(
-        f"Collected {len(merged)} update(s) after merge ({release_count} release, {news_count} news).",
+        "Collected "
+        f"{len(merged)} update(s) after merge "
+        f"({counts['release']} release, {counts['update']} update, {counts['news']} news).",
         file=sys.stderr,
     )
 
@@ -346,7 +325,7 @@ def collect_updates() -> list[UpdateItem]:
 
 def render_update_item(item: UpdateItem) -> str:
     date = item.date.strftime("%Y-%m-%d")
-    label = "Release" if item.kind == "release" else "News"
+    label = LABEL_BY_KIND[item.kind]
 
     return (
         f"- **{date}** · `{item.repo}` · **{label}:** "
@@ -360,7 +339,6 @@ def render_updates(items: list[UpdateItem]) -> str:
 
     visible_items = items[:VISIBLE_ITEMS]
     hidden_items = items[VISIBLE_ITEMS:]
-
     lines = [render_update_item(item) for item in visible_items]
 
     if hidden_items:
@@ -387,7 +365,6 @@ def replace_updates_block(readme: str, updates_markdown: str) -> str:
 
     start = readme.index(start_marker) + len(start_marker)
     end = readme.index(end_marker, start)
-
     return readme[:start] + "\n\n" + updates_markdown + "\n\n" + readme[end:]
 
 
@@ -412,7 +389,7 @@ def main() -> int:
         visible = min(len(items), VISIBLE_ITEMS)
         print(f"Updated README.md with {len(items)} item(s), {visible} visible.")
     else:
-        print("No tagged news/release updates found. Fallback written to README.md.")
+        print("No tagged news/update/release updates found. Fallback written to README.md.")
 
     return 0
 
