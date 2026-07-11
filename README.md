@@ -30,13 +30,14 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-11** · `ai-operating-profiles` · **Update:** [align Scimmietta Operativa profile](https://github.com/gcomneno/ai-operating-profiles/commit/0544d8ede3c8cfe04bfea6214f527056884a42f8)
 - **2026-07-10** · `kleis-sviluppo-software-4` · **News:** [add database fundamentals lesson](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/9c74fa02e885033ec691fa9e4eb8e77055ddb07e)
 - **2026-07-09** · `ai-operating-profiles` · **News:** [add usage guidance and license](https://github.com/gcomneno/ai-operating-profiles/commit/9e974b1ef9a2ea5a75ac242ccd8eca51f3a1313e)
-- **2026-07-08** · `web` · **News:** [add new Laravel backend lessons](https://github.com/gcomneno/web/commit/f4d3fdc6f1280a62ed52ba48eb8c8333307f6205)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-08** · `web` · **News:** [add new Laravel backend lessons](https://github.com/gcomneno/web/commit/f4d3fdc6f1280a62ed52ba48eb8c8333307f6205)
 - **2026-07-08** · `atelier-kit` · **Release:** [Atelier-Kit v0.2.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.2.0)
 - **2026-07-07** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.19 — studio site settings](https://github.com/gcomneno/atelier-kit/commit/e2d753b0ee90a9081cd7af2de93ead79e5184b02)
 - **2026-07-05** · `lele-manager` · **Release:** [v1.9.0 — Fase 4 docs and version bump](https://github.com/gcomneno/lele-manager/commit/4036ba54a89219eb618cfc64f063f3c05b249360)
