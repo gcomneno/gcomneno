@@ -159,7 +159,6 @@
 | --- | --- | --- |
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
-| **OOP under the hood** | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | C, structs, pointers, vtables, memory layout |
 | **Media extraction CLI** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript extraction, manifest-driven CLI |
 | **Integer structures** | [Prime Exponent Tree](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless encoding, structural metrics |
 | **Layered compression** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams, GCA1 archives |
@@ -185,6 +184,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 | AI workflows | [AI Operating Profiles](https://github.com/gcomneno/ai-operating-profiles) | Custom instruction profiles, reusable AI-human workflow patterns and terminal-first guidance |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Notes, quizzes and interview-oriented system design lessons |
 | Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
+| Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake and Linux workflows |
 | Programming basics | [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
 | JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
