@@ -160,10 +160,28 @@
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
 | **Media extraction CLI** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript extraction, manifest-driven CLI |
-| **Integer structures** | [Prime Exponent Tree](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless encoding, structural metrics |
-| **Layered compression** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams, GCA1 archives |
 
-## <code>04 · SPONSOR-BACKED PUBLIC TOOLS</code>
+## <code>04 · RESEARCH & EXPERIMENTAL PROJECTS</code>
+
+These repositories explore integer structures, sequence analysis, compression, deterministic partitioning and constrained search through reproducible software experiments.
+
+| Area | Project | Technical focus |
+| --- | --- | --- |
+| **Integer structures** | [Prime Exponent Tree](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless representations and structural metrics |
+| **Modular analysis** | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints, integer datasets and structural comparison |
+| **Sequence analysis** | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
+| **Sequence recognition** | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
+| **Structural search** | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and structural constraints |
+| **Modular signatures** | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, Chinese Remainder Theorem and modular signatures |
+| **Constrained combinatorics** | [Giankolotto Smart Combos](https://github.com/gcomneno/giankolotto-smart-combos) | Constraint-driven generation, aggressive pruning and reproducible combinations |
+| **Layered compression** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams and reproducible archives |
+| **Linguistic compression** | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Italian text preprocessing and layered Huffman coding |
+| **Time-series compression** | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Experimental lossless compression for univariate time series |
+| **Experimental codec** | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | p-adic crystal and prism codec prototype |
+| **Deterministic bucketing** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
+| **Systems implementation** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library and CLI, RAII, statistics engine and tests |
+
+## <code>05 · SPONSOR-BACKED PUBLIC TOOLS</code>
 
 Some projects here are maintained as **free public tools** — built to be reused in real workflows, not just studied once.
 
@@ -175,7 +193,7 @@ If one of them saves you time or helps you ship work that earns, you can optiona
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
 
-## <code>05 · LEARNING IN PUBLIC</code>
+## <code>06 · LEARNING IN PUBLIC</code>
 
 I use public learning labs to turn study, notes and technical experiments into reproducible paths.
 
@@ -190,7 +208,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 | JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
 | Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 
-## <code>06 · OPEN SOURCE PATH</code>
+## <code>07 · OPEN SOURCE PATH</code>
 
 My open-source path is still growing, but it follows the same logic: start from concrete problems, read the technical context and propose small, verifiable changes.
 
