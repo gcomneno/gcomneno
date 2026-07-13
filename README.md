@@ -176,74 +176,7 @@ If one of them saves you time or helps you ship work that earns, you can optiona
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
 
-## <code>05 · FEATURED PROJECTS</code>
-
-### <code>SEARCHABLE KNOWLEDGE</code>
-
-**Problem**<br>
-Practical knowledge gets lost across chats, notes, files, repositories and memory.
-
-**Built**<br>
-[LeLe Manager](https://github.com/gcomneno/lele-manager), a local-first knowledge base built around JSONL lessons, CLI usage and API access.
-
-**Signal**<br>
-Backend boundaries, deterministic storage, local data ownership, testing and clean project structure.
-
----
-
-### <code>KNOWLEDGE RECALL</code>
-
-**Problem**<br>
-Storing knowledge is not enough: useful knowledge must be recalled, tested and reused.
-
-**Built**<br>
-[LeLe Quizzer](https://github.com/gcomneno/lele-quizzer), an interactive terminal quiz connected to the local LeLe Manager knowledge base.
-
-**Signal**<br>
-CLI UX, deterministic question generation, saved attempts and privacy-first reuse of local data.
-
----
-
-### <code>INTEGER & STRUCTURAL LAB</code>
-
-Integers studied as structures — recognition, search, modular signatures and constrained generation.
-
-| Focus | Project | Technical signal |
-| --- | --- | --- |
-| **Prime exponent trees** | [Prime Exponent Tree (PET)](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless encoding/decoding, canonical JSON, minimal CLI, structural metrics |
-| **Modular fingerprints** | [Midas](https://github.com/gcomneno/midas) | Deterministic modular analysis, structural fingerprints, integer datasets |
-| **Sequence analysis** | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compression, autocorrelation, n-gram predictability, Schur-like patterns |
-| **OEIS recognition** | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, stripped/name search, SQLite cache, Python CLI |
-| **Bounded search** | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded structural search over integer payloads |
-| **Modular signatures** | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, Chinese Remainder Theorem, integer signatures |
-| **Constrained generation** | [Giankolotto Smart Combos](https://github.com/gcomneno/giankolotto-smart-combos) | Lotto-compliant combos, configurable constraints, aggressive pruning |
-
----
-
-### <code>COMPRESSION LAB</code>
-
-Lossless compression experiments — from semantic layers to specialized payloads.
-
-| Focus | Project | Technical signal |
-| --- | --- | --- |
-| **Layered framework** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams, GCA1 archives, directory workflows |
-| **Linguistic Huffman** | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Layered Italian text compression, linguistic pre-processing |
-| **Time-series** | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Brain-inspired univariate time-series compressor MVP |
-| **Crystal codec** | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | p-adic crystal/prism codec prototype |
-
----
-
-### <code>CLI TOOLING</code>
-
-Everyday friction turned into small, deterministic command-line tools.
-
-| Focus | Project | Technical signal |
-| --- | --- | --- |
-| **Media extraction** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript CLI, manifest-driven extraction |
-| **IPv4 bucketization** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Deterministic high-entropy IPv4 partitioning |
-| **IPv4 bucketization (C++)** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library + CLI, clean architecture, RAII, stats engine, tests |
-
-## <code>06 · LEARNING IN PUBLIC</code>
+## <code>05 · LEARNING IN PUBLIC</code>
 
 I use public learning labs to turn study, notes and technical experiments into reproducible paths.
 
@@ -257,9 +190,8 @@ I use public learning labs to turn study, notes and technical experiments into r
 | Programming basics | [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
 | JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
 | Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
-| Public sector exam | [Concorso INPS Assistente Informatico](https://github.com/gcomneno/concorso-inps-assistente-informatico) | Lessons learned, quizzes and operational exam notes |
 
-## <code>07 · OPEN SOURCE PATH</code>
+## <code>06 · OPEN SOURCE PATH</code>
 
 My open-source path is still growing, but it follows the same logic: start from concrete problems, read the technical context and propose small, verifiable changes.
 
