@@ -21,6 +21,12 @@
   <strong>GiadaWare™</strong> is my personal lab for turning recurring friction into notes, tools and public projects.
 </p>
 
+<p align="center">
+  <a href="https://github.com/sponsors/gcomneno">
+    <img alt="Sponsor this lab on GitHub" src="https://img.shields.io/badge/Sponsor%20this%20lab-GitHub%20Sponsors-0B1F3A?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=555555">
+  </a>
+</p>
+
 ## <code>01 · THE PROBLEM COLLECTION</code>
 
 <p align="right">
