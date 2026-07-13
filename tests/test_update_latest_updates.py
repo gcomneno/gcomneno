@@ -16,6 +16,54 @@ SPEC.loader.exec_module(MODULE)
 
 
 class UpdateTagTests(unittest.TestCase):
+    def test_parse_docs_tag(self) -> None:
+        self.assertEqual(
+            MODULE.parse_update_message("docs: explain why and when to use Yocto"),
+            ("docs", "explain why and when to use Yocto"),
+        )
+
+    def test_parse_docs_tag_is_case_insensitive(self) -> None:
+        self.assertEqual(
+            MODULE.parse_update_message("DOCS: Pin Wrynose release notes link"),
+            ("docs", "Pin Wrynose release notes link"),
+        )
+
+    def test_render_docs_label(self) -> None:
+        item = MODULE.UpdateItem(
+            date=datetime(2026, 7, 13, 9, 0, tzinfo=timezone.utc),
+            repo="yocto-qemu-mini-lab",
+            kind="docs",
+            text="explain why and when to use Yocto",
+            url="https://example.test/commit/123",
+            priority=MODULE.COMMIT_PRIORITY_BY_KIND["docs"],
+        )
+
+        self.assertEqual(
+            MODULE.render_update_item(item),
+            "- **2026-07-13** · `yocto-qemu-mini-lab` · **Docs:** "
+            "[explain why and when to use Yocto](https://example.test/commit/123)",
+        )
+
+    def test_news_wins_over_docs_for_same_repo_and_day(self) -> None:
+        docs = MODULE.UpdateItem(
+            date=datetime(2026, 7, 13, 9, 0, tzinfo=timezone.utc),
+            repo="example",
+            kind="docs",
+            text="documentation",
+            url="https://example.test/docs",
+            priority=MODULE.COMMIT_PRIORITY_BY_KIND["docs"],
+        )
+        news = MODULE.UpdateItem(
+            date=datetime(2026, 7, 13, 8, 0, tzinfo=timezone.utc),
+            repo="example",
+            kind="news",
+            text="important news",
+            url="https://example.test/news",
+            priority=MODULE.COMMIT_PRIORITY_BY_KIND["news"],
+        )
+
+        self.assertEqual(MODULE.dedupe_updates([docs, news]), [news])
+
     def test_parse_update_tag(self) -> None:
         self.assertEqual(
             MODULE.parse_update_message("update: align Scimmietta Operativa profile"),
