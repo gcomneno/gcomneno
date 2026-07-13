@@ -160,6 +160,9 @@
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
 | **Media extraction CLI** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript extraction, manifest-driven CLI |
+| **Client showcase toolkit** | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight showcase sites for makers and small creative businesses |
+| **Safe file automation** | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Deterministic file organization with explicit dry-run workflows |
+| **Linux system utilities** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational CLI tools, including safe bulk ebook conversion |
 
 ## <code>04 · RESEARCH & EXPERIMENTAL PROJECTS</code>
 
@@ -181,19 +184,7 @@ These repositories explore integer structures, sequence analysis, compression, d
 | **Deterministic bucketing** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | **Systems implementation** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library and CLI, RAII, statistics engine and tests |
 
-## <code>05 · SPONSOR-BACKED PUBLIC TOOLS</code>
-
-Some projects here are maintained as **free public tools** — built to be reused in real workflows, not just studied once.
-
-If one of them saves you time or helps you ship work that earns, you can optionally [sponsor the lab on GitHub](https://github.com/sponsors/gcomneno). No obligation, no lock-in: just a straightforward way to send back a small thank-you.
-
-| Tool | Typical use |
-| --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight client showcase for makers and small creative businesses |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Safe file automation with explicit dry-run workflows |
-| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational Linux CLI utilities, including bulk ebook conversion |
-
-## <code>06 · LEARNING IN PUBLIC</code>
+## <code>05 · LEARNING IN PUBLIC</code>
 
 I use public learning labs to turn study, notes and technical experiments into reproducible paths.
 
@@ -208,7 +199,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 | JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
 | Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 
-## <code>07 · OPEN SOURCE PATH</code>
+## <code>06 · OPEN SOURCE PATH</code>
 
 My open-source path is still growing, but it follows the same logic: start from concrete problems, read the technical context and propose small, verifiable changes.
 
