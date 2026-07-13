@@ -24,6 +24,7 @@ MAX_REPOS = 100
 FALLBACK_UPDATE = "- No automatic updates available at the moment."
 
 UPDATE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
+    (re.compile(r"^docs:\s*(.+)$", re.IGNORECASE), "docs"),
     (re.compile(r"^news:\s*(.+)$", re.IGNORECASE), "news"),
     (re.compile(r"^update:\s*(.+)$", re.IGNORECASE), "update"),
     (re.compile(r"^release:\s*(.+)$", re.IGNORECASE), "release"),
@@ -37,12 +38,14 @@ COMMIT_PRIORITY_BY_KIND = {
     "release": 3,
     "update": 2,
     "news": 1,
+    "docs": 0,
 }
 
 LABEL_BY_KIND = {
     "release": "Release",
     "update": "Update",
     "news": "News",
+    "docs": "Docs",
 }
 
 API_HAD_FAILURE = False
@@ -316,7 +319,8 @@ def collect_updates() -> list[UpdateItem]:
     print(
         "Collected "
         f"{len(merged)} update(s) after merge "
-        f"({counts['release']} release, {counts['update']} update, {counts['news']} news).",
+        f"({counts['release']} release, {counts['update']} update, "
+        f"{counts['news']} news, {counts['docs']} docs).",
         file=sys.stderr,
     )
 
