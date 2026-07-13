@@ -157,10 +157,12 @@
 
 | Focus | Project | Technical signal |
 | --- | --- | --- |
+| **Custom showcase toolkit** | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight showcase sites for makers and small creative businesses |
+| **Reference document engine** | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Deterministic extraction, validation, provenance and querying |
+| **UI component package** | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte components, packed artifacts, SSR/hydration and accessibility gates |
+| **Media extraction CLI** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript extraction, manifest-driven CLI |
 | **Searchable lesson learned** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL, API boundaries, backend design |
 | **Knowledge recall** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | CLI UX, deterministic quiz generation, data reuse |
-| **Media extraction CLI** | [GYTE](https://github.com/gcomneno/gyte) | YouTube transcript extraction, manifest-driven CLI |
-| **Client showcase toolkit** | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight showcase sites for makers and small creative businesses |
 | **Safe file automation** | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Deterministic file organization with explicit dry-run workflows |
 | **Linux system utilities** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational CLI tools, including safe bulk ebook conversion |
 
@@ -170,17 +172,17 @@ These repositories explore integer structures, sequence analysis, compression, d
 
 | Area | Project | Technical focus |
 | --- | --- | --- |
-| **Integer structures** | [Prime Exponent Tree](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless representations and structural metrics |
-| **Modular analysis** | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints, integer datasets and structural comparison |
-| **Sequence analysis** | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
-| **Sequence recognition** | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
-| **Structural search** | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and structural constraints |
-| **Modular signatures** | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, Chinese Remainder Theorem and modular signatures |
-| **Constrained combinatorics** | [Giankolotto Smart Combos](https://github.com/gcomneno/giankolotto-smart-combos) | Constraint-driven generation, aggressive pruning and reproducible combinations |
-| **Layered compression** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams and reproducible archives |
-| **Linguistic compression** | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Italian text preprocessing and layered Huffman coding |
-| **Time-series compression** | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Experimental lossless compression for univariate time series |
 | **Experimental codec** | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | p-adic crystal and prism codec prototype |
+| **Sequence analysis** | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
+| **Constrained combinatorics** | [Giankolotto Smart Combos](https://github.com/gcomneno/giankolotto-smart-combos) | Constraint-driven generation, aggressive pruning and reproducible combinations |
+| **Linguistic compression** | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Italian text preprocessing and layered Huffman coding |
+| **Structural search** | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and structural constraints |
+| **Time-series compression** | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Experimental lossless compression for univariate time series |
+| **Modular analysis** | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints, integer datasets and structural comparison |
+| **Sequence recognition** | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
+| **Layered compression** | [Onion Compressor Framework](https://github.com/gcomneno/onion-compressor-framework) | Pluggable semantic layers, multi-codec streams and reproducible archives |
+| **Integer structures** | [Prime Exponent Tree](https://github.com/gcomneno/pet) | Canonical prime-exponent trees, lossless representations and structural metrics |
+| **Modular signatures** | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, Chinese Remainder Theorem and modular signatures |
 | **Deterministic bucketing** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | **Systems implementation** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library and CLI, RAII, statistics engine and tests |
 
@@ -190,14 +192,15 @@ I use public learning labs to turn study, notes and technical experiments into r
 
 | Area | Repository | Focus |
 | --- | --- | --- |
-| AI workflows | [AI Operating Profiles](https://github.com/gcomneno/ai-operating-profiles) | Custom instruction profiles, reusable AI-human workflow patterns and terminal-first guidance |
+| AI workflows | [AI Operating Profiles](https://github.com/gcomneno/ai-operating-profiles) | Reusable AI-human workflow patterns and terminal-first guidance |
+| Programming basics | [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
+| Public sector exam | [Concorso INPS Assistente Informatico](https://github.com/gcomneno/concorso-inps-assistente-informatico) | Selective study notes, lessons learned and multiple-choice quizzes |
+| Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
+| JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
+| Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Notes, quizzes and interview-oriented system design lessons |
 | Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
-| Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake and Linux workflows |
-| Programming basics | [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
-| JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
-| Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 
 ## <code>06 · OPEN SOURCE PATH</code>
 
@@ -208,14 +211,21 @@ Main contribution in progress:
 - [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
 
 <details>
-<summary>Previously contributed — Canonical craft ecosystem (archived forks)</summary>
+<summary>Previously contributed — Canonical craft ecosystem</summary>
 
-- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
-- [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
 - [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
 - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
 - [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
+- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
+- [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
+
+</details>
+
+<details>
+<summary>Other public upstream forks</summary>
+
+- [canonical/testflinger](https://github.com/canonical/testflinger) → [gcomneno/testflinger](https://github.com/gcomneno/testflinger)
 
 </details>
 
