@@ -30,14 +30,15 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-12** · `reference-engine` · **Update:** [define document model YAML v1 schema](https://github.com/gcomneno/reference-engine/commit/bd2966e4d661362c5e2f7e5cd7839484005d3f75)
 - **2026-07-11** · `atelier-kit` · **Release:** [Atelier-Kit v0.3.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.3.0)
 - **2026-07-11** · `ai-operating-profiles` · **Update:** [align Scimmietta Operativa profile](https://github.com/gcomneno/ai-operating-profiles/commit/0544d8ede3c8cfe04bfea6214f527056884a42f8)
 - **2026-07-10** · `kleis-sviluppo-software-4` · **News:** [add database fundamentals lesson](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/9c74fa02e885033ec691fa9e4eb8e77055ddb07e)
-- **2026-07-09** · `ai-operating-profiles` · **News:** [add usage guidance and license](https://github.com/gcomneno/ai-operating-profiles/commit/9e974b1ef9a2ea5a75ac242ccd8eca51f3a1313e)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-09** · `ai-operating-profiles` · **News:** [add usage guidance and license](https://github.com/gcomneno/ai-operating-profiles/commit/9e974b1ef9a2ea5a75ac242ccd8eca51f3a1313e)
 - **2026-07-08** · `web` · **News:** [add new Laravel backend lessons](https://github.com/gcomneno/web/commit/f4d3fdc6f1280a62ed52ba48eb8c8333307f6205)
 - **2026-07-08** · `atelier-kit` · **Release:** [Atelier-Kit v0.2.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.2.0)
 - **2026-07-07** · `atelier-kit` · **Release:** [Atelier-Kit v0.1.19 — studio site settings](https://github.com/gcomneno/atelier-kit/commit/e2d753b0ee90a9081cd7af2de93ead79e5184b02)
