@@ -36,14 +36,15 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-14** · `lele-manager` · **Docs:** [compare storage backend options (#108)](https://github.com/gcomneno/lele-manager/commit/29810d4f23e63006a1aa0a87347b0ab814cadafc)
 - **2026-07-13** · `yocto-qemu-mini-lab` · **Docs:** [pin Wrynose release notes link (#14)](https://github.com/gcomneno/yocto-qemu-mini-lab/commit/48a3366b28bc147d8ca5226bd9685dc56963a8be)
 - **2026-07-12** · `atelier-kit` · **Docs:** [adopt private giadaware-ui-components identity (#166)](https://github.com/gcomneno/atelier-kit/commit/d47dcf6d4fc92c08c53004fa07fd7e16881a4038)
 - **2026-07-12** · `reference-engine` · **Update:** [define document model YAML v1 schema](https://github.com/gcomneno/reference-engine/commit/bd2966e4d661362c5e2f7e5cd7839484005d3f75)
-- **2026-07-11** · `atelier-kit` · **Release:** [Atelier-Kit v0.3.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.3.0)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-11** · `atelier-kit` · **Release:** [Atelier-Kit v0.3.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.3.0)
 - **2026-07-11** · `ai-operating-profiles` · **Update:** [align Scimmietta Operativa profile](https://github.com/gcomneno/ai-operating-profiles/commit/0544d8ede3c8cfe04bfea6214f527056884a42f8)
 - **2026-07-10** · `kleis-sviluppo-software-4` · **News:** [add database fundamentals lesson](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/9c74fa02e885033ec691fa9e4eb8e77055ddb07e)
 - **2026-07-09** · `ai-operating-profiles` · **News:** [add usage guidance and license](https://github.com/gcomneno/ai-operating-profiles/commit/9e974b1ef9a2ea5a75ac242ccd8eca51f3a1313e)
