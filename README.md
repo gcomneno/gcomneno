@@ -36,7 +36,7 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-07-15** · `atelier-kit` · **Release:** [Atelier-Kit v0.4.0 — editorial layouts, social actions and Studio shutdown](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.0)
+- **2026-07-15** · `atelier-kit` · **Release:** [Atelier-Kit v0.4.1 — correct client version reporting](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.1)
 - **2026-07-14** · `lele-manager` · **Docs:** [compare storage backend options (#108)](https://github.com/gcomneno/lele-manager/commit/29810d4f23e63006a1aa0a87347b0ab814cadafc)
 - **2026-07-13** · `yocto-qemu-mini-lab` · **Docs:** [pin Wrynose release notes link (#14)](https://github.com/gcomneno/yocto-qemu-mini-lab/commit/48a3366b28bc147d8ca5226bd9685dc56963a8be)
 - **2026-07-12** · `atelier-kit` · **Docs:** [adopt private giadaware-ui-components identity (#166)](https://github.com/gcomneno/atelier-kit/commit/d47dcf6d4fc92c08c53004fa07fd7e16881a4038)
