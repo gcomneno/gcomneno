@@ -36,14 +36,16 @@
 ## <code>02 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-18** · `kleis-sviluppo-software-4` · **News:** [add database relationships and CRUD lesson](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/350184a95f2edee4a5d944b590b19ea7e2a362ce)
+- **2026-07-18** · `boardlab` · **Docs:** [record Python toolchain decision](https://github.com/gcomneno/boardlab/commit/ff8db7ddc72db3e7f509e6854c189e43a6fc573c)
 - **2026-07-16** · `atelier-kit` · **Release:** [Atelier-Kit v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3)
 - **2026-07-15** · `atelier-kit` · **Release:** [Atelier-Kit v0.4.1 — correct client version reporting](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.1)
-- **2026-07-14** · `lele-manager` · **Docs:** [compare storage backend options (#108)](https://github.com/gcomneno/lele-manager/commit/29810d4f23e63006a1aa0a87347b0ab814cadafc)
-- **2026-07-13** · `yocto-qemu-mini-lab` · **Docs:** [pin Wrynose release notes link (#14)](https://github.com/gcomneno/yocto-qemu-mini-lab/commit/48a3366b28bc147d8ca5226bd9685dc56963a8be)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-14** · `lele-manager` · **Docs:** [compare storage backend options (#108)](https://github.com/gcomneno/lele-manager/commit/29810d4f23e63006a1aa0a87347b0ab814cadafc)
+- **2026-07-13** · `yocto-qemu-mini-lab` · **Docs:** [pin Wrynose release notes link (#14)](https://github.com/gcomneno/yocto-qemu-mini-lab/commit/48a3366b28bc147d8ca5226bd9685dc56963a8be)
 - **2026-07-12** · `atelier-kit` · **Docs:** [adopt private giadaware-ui-components identity (#166)](https://github.com/gcomneno/atelier-kit/commit/d47dcf6d4fc92c08c53004fa07fd7e16881a4038)
 - **2026-07-12** · `reference-engine` · **Update:** [define document model YAML v1 schema](https://github.com/gcomneno/reference-engine/commit/bd2966e4d661362c5e2f7e5cd7839484005d3f75)
 - **2026-07-11** · `atelier-kit` · **Release:** [Atelier-Kit v0.3.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.3.0)
