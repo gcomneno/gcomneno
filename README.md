@@ -158,7 +158,6 @@
 - **2026-01-24** · `onion-compressor-framework` · **Docs:** [add MBN byte-level examples (golden vectors)](https://github.com/gcomneno/onion-compressor-framework/commit/8d1fafe7c7dd8c603508859d37479aa65156d801)
 - **2026-01-23** · `onion-compressor-framework` · **Release:** [v0.2.4](https://github.com/gcomneno/onion-compressor-framework/releases/tag/v0.2.4)
 - **2026-01-21** · `onion-compressor-framework` · **Release:** [v0.2.3](https://github.com/gcomneno/onion-compressor-framework/releases/tag/v0.2.3)
-- **2026-01-16** · `onion-compressor-framework` · **Release:** [v0.2.1 (docs specs + dir roundtrip test)](https://github.com/gcomneno/onion-compressor-framework/commit/fa75d2c0f04ea6b18eb2b4eacc4357436b43591d)
 
 </details>
 
