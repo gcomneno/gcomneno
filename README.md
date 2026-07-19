@@ -148,8 +148,8 @@
 - **2026-02-16** · `lele-manager` · **Release:** [v1.4.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.4.1)
 - **2026-02-15** · `lele-manager` · **Release:** [v1.4.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.4.0)
 - **2026-02-07** · `ubuntu-system-tools` · **Release:** [v0.1.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.1.0)
-- **2026-02-06** · `gyte` · **Release:** [v1.2.1](https://github.com/gcomneno/gyte/commit/9b032867d6805cf64662b8e62d828e764db42d06)
-- **2026-02-06** · `lele-manager` · **Release:** [v1.1.2](https://github.com/gcomneno/lele-manager/commit/3df270b558aaa3c9277c1f75a1873b938c987cd8)
+- **2026-02-06** · `gyte` · **Release:** [v1.2.1](https://github.com/gcomneno/gyte/commit/9b032867d6805cf64662e8e62d828e764db42d06)
+- **2026-02-06** · `lele-manager` · **Release:** [v1.1.2](https://github.com/gcomneno/lele-manager/commit/3df270b558aaa3c9277c2c06eb69c948122065a)
 - **2026-02-05** · `lele-manager` · **Release:** [v1.1.1](https://github.com/gcomneno/lele-manager/commit/866a952c84854b90b3fae73e82c26265690090de)
 - **2026-02-05** · `turbo-bucketizer-cpp` · **Release:** [v0.1.1 — CI + tests out-of-the-box](https://github.com/gcomneno/turbo-bucketizer-cpp/releases/tag/v0.1.1)
 - **2026-02-05** · `gyte` · **Release:** [v1.2.1](https://github.com/gcomneno/gyte/releases/tag/v1.2.1)
@@ -211,6 +211,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 | Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 | JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
 | Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
+| Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Algorithms, failure models, distributed coordination and interview-oriented exercises |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Notes, quizzes and interview-oriented system design lessons |
 | Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake and Linux workflows |
