@@ -26,7 +26,7 @@
   </a>
 </p>
 
-<p align="right">
+<p align="center">
   <em>⟨ Real problems turned into reusable tools, learning labs and open-source artifacts. ⟩</em>
 </p>
 
