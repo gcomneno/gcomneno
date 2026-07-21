@@ -33,14 +33,16 @@
 ## <code>01 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-21** · `smart-file-organizer` · **Docs:** [add product readiness assessment (#44)](https://github.com/gcomneno/smart-file-organizer/commit/edb7164b621da096ccd7fe1dad4020fcd0f95408)
+- **2026-07-21** · `pet` · **Docs:** [archive activation trace prototype (#157)](https://github.com/gcomneno/pet/commit/7d7e7d35ae6c0a59bce28fc497df94c11cd4fd1b)
 - **2026-07-20** · `giadaware-ui-components` · **Docs:** [define Studio control extraction inventory](https://github.com/gcomneno/giadaware-ui-components/commit/bd649101858b18f0c9f8ed355881a62dd2c748af)
 - **2026-07-19** · `reference-engine` · **Docs:** [define deterministic recognition contract (#17)](https://github.com/gcomneno/reference-engine/commit/f75856a44add67ea4e3ae680d6eef0a4a3d43edd)
-- **2026-07-19** · `distributed-systems-study` · **Docs:** [add distributed systems session 01](https://github.com/gcomneno/distributed-systems-study/commit/5c75a1dfe4312e6872c0f98858e582f0a43c1d89)
-- **2026-07-18** · `kleis-sviluppo-software-4` · **News:** [add database relationships and CRUD lesson](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/350184a95f2edee4a5d944b590b19ea7e2a362ce)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-19** · `distributed-systems-study` · **Docs:** [add distributed systems session 01](https://github.com/gcomneno/distributed-systems-study/commit/5c75a1dfe4312e6872c0f98858e582f0a43c1d89)
+- **2026-07-18** · `kleis-sviluppo-software-4` · **News:** [add database relationships and CRUD lesson](https://github.com/gcomneno/kleis-sviluppo-software-4/commit/350184a95f2edee4a5d944b590b19ea7e2a362ce)
 - **2026-07-18** · `boardlab` · **Docs:** [record Python toolchain decision](https://github.com/gcomneno/boardlab/commit/ff8db7ddc72db3e7f509e6854c189e43a6fc573c)
 - **2026-07-16** · `atelier-kit` · **Release:** [Atelier-Kit v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3)
 - **2026-07-15** · `atelier-kit` · **Release:** [Atelier-Kit v0.4.1 — correct client version reporting](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.1)
