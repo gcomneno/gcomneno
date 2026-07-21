@@ -13,7 +13,6 @@
 
 <p align="center">
   <em>Problems become knowledge. Knowledge becomes tools. Tools become open source.</em><br>
-  <strong>I do not collect repositories. I collect solved problems.</strong><br>
   <img alt="Profile visitors" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
 </p>
 
@@ -27,13 +26,11 @@
   </a>
 </p>
 
-## <code>01 · THE PROBLEM COLLECTION</code>
-
 <p align="right">
   <em>⟨ Real problems turned into reusable tools, learning labs and open-source artifacts. ⟩</em>
 </p>
 
-## <code>02 · LATEST UPDATES</code>
+## <code>01 · LATEST UPDATES</code>
 <!-- updates:start -->
 
 - **2026-07-20** · `giadaware-ui-components` · **Docs:** [define Studio control extraction inventory](https://github.com/gcomneno/giadaware-ui-components/commit/bd649101858b18f0c9f8ed355881a62dd2c748af)
@@ -166,7 +163,7 @@
 
 <!-- updates:end -->
 
-## <code>03 · AT A GLANCE</code>
+## <code>02 · AT A GLANCE</code>
 
 | Focus | Project | Technical signal |
 | --- | --- | --- |
@@ -179,7 +176,7 @@
 | **Safe file automation** | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Deterministic file organization with explicit dry-run workflows |
 | **Linux system utilities** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Operational CLI tools, including safe bulk ebook conversion |
 
-## <code>04 · RESEARCH & EXPERIMENTAL PROJECTS</code>
+## <code>03 · RESEARCH & EXPERIMENTAL PROJECTS</code>
 
 These repositories explore integer structures, sequence analysis, compression, deterministic partitioning and constrained search through reproducible software experiments.
 
@@ -199,7 +196,7 @@ These repositories explore integer structures, sequence analysis, compression, d
 | **Deterministic bucketing** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | **Systems implementation** | [Turbo-Bucketizer C++](https://github.com/gcomneno/turbo-bucketizer-cpp) | C++17 library and CLI, RAII, statistics engine and tests |
 
-## <code>05 · LEARNING IN PUBLIC</code>
+## <code>04 · LEARNING IN PUBLIC</code>
 
 I use public learning labs to turn study, notes and technical experiments into reproducible paths.
 
@@ -217,7 +214,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 | Backend web | [Web / Laravel Lab](https://github.com/gcomneno/web) | Practical Laravel and backend web development |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake and Linux workflows |
 
-## <code>06 · OPEN SOURCE PATH</code>
+## <code>05 · OPEN SOURCE PATH</code>
 
 My open-source path is still growing, but it follows the same logic: start from concrete problems, read the technical context and propose small, verifiable changes.
 
