@@ -207,8 +207,7 @@ I use public learning labs to turn study, notes and technical experiments into r
 | --- | --- | --- |
 | AI workflows | [AI Operating Profiles](https://github.com/gcomneno/ai-operating-profiles) | Reusable AI-human workflow patterns and terminal-first guidance |
 | Game AI | [BoardLab](https://github.com/gcomneno/boardlab) | Generic board-game engine and reproducible experiments with search algorithms and game AI |
-| Programming basics | [C# / HTML Lab](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
-| Public sector exam | [Concorso INPS Assistente Informatico](https://github.com/gcomneno/concorso-inps-assistente-informatico) | Selective study notes, lessons learned and multiple-choice quizzes |
+| Programming basics | [C# / HTML / SQL / PHP](https://github.com/gcomneno/kleis-sviluppo-software-4) | Programming and web fundamentals |
 | Security | [Cyber-Security Lab](https://github.com/gcomneno/cyse-lab) | White-hat recon, scripts and lesson learned |
 | JavaScript | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | Patterns, TypeScript and tests |
 | Low-level OOP | [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) | OOP concepts reconstructed in C |
