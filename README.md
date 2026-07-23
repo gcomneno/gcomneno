@@ -33,14 +33,15 @@
 ## <code>01 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-07-22** · `giadaware-ui-components` · **Docs:** [align component inventory with current exports (#19)](https://github.com/gcomneno/giadaware-ui-components/commit/93a7d0c370b757f5a4a37436e0722bb4522e6837)
 - **2026-07-22** · `web` · **News:** [add Laravel validation and flash message lessons](https://github.com/gcomneno/web/commit/22ef4a74b4045a3612ce055ba69669d3cac6ddfa)
 - **2026-07-22** · `kleis-corso-sviluppo-software` · **News:** [add SQL shop practice lesson](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/15ff108460b904f73866e551d0acc73fe0cac69c)
 - **2026-07-21** · `smart-file-organizer` · **Docs:** [add product readiness assessment (#44)](https://github.com/gcomneno/smart-file-organizer/commit/edb7164b621da096ccd7fe1dad4020fcd0f95408)
-- **2026-07-21** · `pet` · **Docs:** [archive activation trace prototype (#157)](https://github.com/gcomneno/pet/commit/7d7e7d35ae6c0a59bce28fc497df94c11cd4fd1b)
 
 <details>
 <summary>More updates from the last 6 months</summary>
 
+- **2026-07-21** · `pet` · **Docs:** [archive activation trace prototype (#157)](https://github.com/gcomneno/pet/commit/7d7e7d35ae6c0a59bce28fc497df94c11cd4fd1b)
 - **2026-07-20** · `giadaware-ui-components` · **Docs:** [define Studio control extraction inventory](https://github.com/gcomneno/giadaware-ui-components/commit/bd649101858b18f0c9f8ed355881a62dd2c748af)
 - **2026-07-19** · `reference-engine` · **Docs:** [define deterministic recognition contract (#17)](https://github.com/gcomneno/reference-engine/commit/f75856a44add67ea4e3ae680d6eef0a4a3d43edd)
 - **2026-07-19** · `distributed-systems-study` · **Docs:** [add distributed systems session 01](https://github.com/gcomneno/distributed-systems-study/commit/5c75a1dfe4312e6872c0f98858e582f0a43c1d89)
