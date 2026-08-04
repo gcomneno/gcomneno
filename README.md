@@ -14,7 +14,8 @@
 
 <p align="center">
   <em>Every problem solved once deserves to become knowledge.<br>
-  If that knowledge is reusable, it deserves to become a tool. If that tool is useful to others too, it deserves to become open source.</em><br>
+  If that knowledge is reusable, it deserves to become a tool.<br>
+  If that tool is useful to others too, it deserves to become open source.</em><br>
   <img alt="Profile visitors" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
 </p>
 
