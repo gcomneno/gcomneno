@@ -135,7 +135,7 @@
 - **2026-07-28** · `lotto-digit-coverage-dynamics` · **Refactoring:** [consolidate current coverage summary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/92beb8d6c1a2f07ad3f80ff7f23d9f3bb6c8e55b)
 - **2026-07-28** · `lotto-digit-coverage-dynamics` · **Refactoring:** [simplify current cycle details](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bdc8ffa6fa9ed277d95c7a41e297600b969f1f2c)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 614 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 610 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
