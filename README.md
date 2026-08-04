@@ -13,7 +13,8 @@
 </p>
 
 <p align="center">
-  <em>Problems become knowledge. Knowledge becomes tools. Tools become open source.</em><br>
+  <em>Every problem solved once deserves to become knowledge. If that knowledge is reusable, it deserves to become a tool. If that tool is useful to others too, it deserves to become open source.</em><br>
+  <strong>— GiadaWare</strong><br>
   <img alt="Profile visitors" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
 </p>
 
