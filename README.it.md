@@ -13,7 +13,8 @@
 </p>
 
 <p align="center">
-  <em>I problemi diventano conoscenza. La conoscenza diventa strumenti. Gli strumenti diventano open source.</em><br>
+  <em>Ogni problema risolto una volta merita di essere trasformato in conoscenza. Se quella conoscenza è riutilizzabile, merita di diventare uno strumento. Se lo strumento è utile anche ad altri, merita di diventare open source.</em><br>
+  <strong>— GiadaWare</strong><br>
   <img alt="Visitatori del profilo" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
 </p>
 
