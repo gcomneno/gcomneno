@@ -50,7 +50,7 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Architettura per vetrine leggere, integrazione di prodotto e adozione di UI riutilizzabile |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Utilità Linux e automazione operativa sicura |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
-| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Pacchettizzazione Svelte, SSR e hydration, accessibilità e primitive di presentazione riutilizzabili |
+| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
 
 </details>
 
@@ -87,6 +87,7 @@ Questi repository usano esperimenti software riproducibili per studiare struttur
 
 | Area | Progetto | Focus tecnico |
 | --- | --- | --- |
+| Analisi di sequenze operative | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Normalizzazione privacy-safe dei journal Linux, classificazione deterministica, manifest riproducibili e confronto temporale |
 | Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
 | Analisi di sequenze | [Digit Probe](https://github.com/gcomneno/digit-probe) | Casualità, comprimibilità, autocorrelazione, n-grammi e pattern di tipo Schur |
 | Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel e confronto storico |
@@ -112,6 +113,7 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 
 | Area | Repository | Focus attuale |
 | --- | --- | --- |
+| Linux embedded | [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build riproducibili di immagini, layer e recipe personalizzati, flussi BitBake e validazione del boot con QEMU |
 | Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |
 | Sistemi distribuiti | [Studio dei sistemi distribuiti](https://github.com/gcomneno/distributed-systems-study) | Algoritmi, modelli di guasto, coordinamento ed esercizi orientati ai colloqui |
 | System design | [Studio del system design](https://github.com/gcomneno/system-design-study) | Appunti di architettura, quiz e lezioni orientate ai colloqui |
@@ -119,11 +121,10 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 <details>
 <summary>Laboratori precedenti o di supporto</summary>
 
-- [Web / Laboratorio Laravel](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione
-- [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) — Linux embedded, BitBake e flussi di boot
-- [BoardLab](https://github.com/gcomneno/boardlab) — algoritmi di ricerca ed esperimenti di IA per giochi
-- [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, pattern e test
-- [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — concetti orientati agli oggetti ricostruiti in C
+- [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — layout degli oggetti, dispatch virtuale manuale, identità di tipo a runtime e downcast controllato
+- [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — pipeline middleware e pattern riutilizzabili in JavaScript e TypeScript, con test eseguibili
+- [BoardLab](https://github.com/gcomneno/boardlab) — architettura generica per motori di gioco ed esperimenti riproducibili di ricerca e IA, ancora in incubazione iniziale
+- [Laboratorio Laravel storico](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione
 
 </details>
 

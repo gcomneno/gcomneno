@@ -50,7 +50,7 @@ These projects best represent my current work across backend design, reliable au
 | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight showcase architecture, product integration and reusable UI adoption |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Linux utilities and safe operational automation |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
-| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte packaging, SSR and hydration behavior, accessibility and reusable presentation primitives |
+| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 
 </details>
 
@@ -87,6 +87,7 @@ These repositories use reproducible software experiments to investigate sequence
 
 | Area | Project | Technical focus |
 | --- | --- | --- |
+| Operational sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Privacy-safe Linux journal normalization, deterministic classification, reproducible manifests and temporal comparison |
 | Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
 | Sequence analysis | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
 | Finite-state stochastic modeling | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Exact absorbing Markov models, exhaustive kernel verification and historical comparison |
@@ -112,6 +113,7 @@ I turn active study into documented, reproducible paths rather than presenting l
 
 | Area | Repository | Current focus |
 | --- | --- | --- |
+| Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |
 | Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |
 | Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Algorithms, failure models, coordination and interview-oriented exercises |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Architecture notes, quizzes and interview-oriented lessons |
@@ -119,11 +121,10 @@ I turn active study into documented, reproducible paths rather than presenting l
 <details>
 <summary>Earlier or supporting learning labs</summary>
 
-- [Web / Laravel Lab](https://github.com/gcomneno/web) — earlier backend web study and documentation
-- [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) — embedded Linux, BitBake and boot workflows
-- [BoardLab](https://github.com/gcomneno/boardlab) — search algorithms and game AI experiments
-- [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, patterns and tests
-- [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) — object-oriented concepts reconstructed in C
+- [OOP in C Lab](https://github.com/gcomneno/oop-in-c-lab) — object layout, manual virtual dispatch, runtime type identity and checked downcasting
+- [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) — JavaScript and TypeScript middleware pipelines and reusable design patterns, with executable tests
+- [BoardLab](https://github.com/gcomneno/boardlab) — generic game-engine architecture and reproducible search/AI experiments in early incubation
+- [Historical Laravel Lab](https://github.com/gcomneno/web) — earlier backend web study and documentation
 
 </details>
 
