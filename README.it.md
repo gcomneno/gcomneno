@@ -191,7 +191,6 @@ Uso laboratori didattici pubblici per trasformare studio, appunti ed esperimenti
 | IA per giochi | [BoardLab](https://github.com/gcomneno/boardlab) | Motore generico per giochi da tavolo ed esperimenti riproducibili con algoritmi di ricerca e IA |
 | JavaScript | [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) | Pattern, TypeScript e test |
 | OOP a basso livello | [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) | Concetti OOP ricostruiti in C |
-| Sicurezza | [Laboratorio di cyber security](https://github.com/gcomneno/cyse-lab) | Ricognizione white-hat, script e lesson learned |
 
 ## <code>05 · PERCORSO OPEN SOURCE</code>
 

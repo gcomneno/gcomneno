@@ -49,7 +49,7 @@
 - **2026-08-04** · `atelier-kit` · **Feature:** [adopt PageIntro and FormActions (#228)](https://github.com/gcomneno/atelier-kit/commit/a72ec91f7a514a1a7bec2eb84958e0df80f96e74)
 - **2026-08-04** · `smart-file-organizer` · **Feature:** [introduce application orchestration (#75)](https://github.com/gcomneno/smart-file-organizer/commit/059115c989dc7d315eaa5ee6c7b9b68e149a95d4)
 - **2026-08-04** · `lele-manager` · **Feature:** [add TritaLeLe candidate review workflow (#139)](https://github.com/gcomneno/lele-manager/commit/8f0df6ca7f8fabff7241b7c144e7958ae99201a1)
-- **2026-08-04** · `atelier-kit` · **Feature:** [adopt AsyncOperationPanel in Readiness (#227)](https://github.com/gcomneno/atelier-kit/commit/c592784d52688e63ccc372b596a808a48)
+- **2026-08-04** · `atelier-kit` · **Feature:** [adopt AsyncOperationPanel in Readiness (#227)](https://github.com/gcomneno/atelier-kit/commit/c592784d52688dabbf87e63ccc372b596a808a48)
 - **2026-08-04** · `system-design-study` · **Docs:** [establish bilingual documentation foundation (#2)](https://github.com/gcomneno/system-design-study/commit/38cea8b0fc14f564b7bbfad85bb5c019e75075da)
 - **2026-08-04** · `distributed-systems-study` · **Docs:** [establish bilingual documentation foundation (#3)](https://github.com/gcomneno/distributed-systems-study/commit/13a7c5eea974fb01d5efb72f0fe5469a19f6b372)
 - **2026-08-03** · `web` · **Docs:** [migrate Laravel Lab README and harden validation (#2)](https://github.com/gcomneno/web/commit/7549ece7265ac987fe4f13770b6cffc760b20fdd)
