@@ -1,0 +1,46 @@
+name: Fix project reintegration validation
+
+on:
+  push:
+    paths:
+      - .github/workflows/fix-project-reintegration-validation.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Scope validation to curated content
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('.github/workflows/reintegrate-profile-projects.yml')
+          text = path.read_text(encoding='utf-8')
+          old = '''              for link in required:
+                  if revised.count(link) != 1:
+                      raise SystemExit(f"Expected one curated occurrence of {link} in {path}; found {revised.count(link)}")
+'''
+          new = '''              curated = revised.split("## <code>05 ·", 1)[0]
+              for link in required:
+                  if curated.count(link) != 1:
+                      raise SystemExit(f"Expected one curated occurrence of {link} in {path}; found {curated.count(link)}")
+'''
+          if text.count(old) != 1:
+              raise SystemExit('Expected validation block not found exactly once')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/workflows/reintegrate-profile-projects.yml
+          git commit -m "fix: scope profile reintegration validation"
+          git push origin HEAD:main
