@@ -1,0 +1,449 @@
+name: Reposition profile showcase
+
+on:
+  push:
+    paths:
+      - .github/workflows/reposition-profile-showcase.yml
+
+permissions:
+  contents: write
+
+jobs:
+  reposition:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild bilingual profile showcase
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import textwrap
+
+          english_path = Path("README.md")
+          italian_path = Path("README.it.md")
+          badge_path = Path("assets/profile-badges.svg")
+
+          marker_pattern = re.compile(
+              r"<!-- updates:start -->.*?<!-- updates:end -->",
+              flags=re.DOTALL,
+          )
+
+          def extract_updates(path: Path) -> str:
+              text = path.read_text(encoding="utf-8")
+              match = marker_pattern.search(text)
+              if match is None:
+                  raise SystemExit(f"Missing generated updates block in {path}")
+              if len(marker_pattern.findall(text)) != 1:
+                  raise SystemExit(f"Unexpected number of updates blocks in {path}")
+              return match.group(0)
+
+          english_updates = extract_updates(english_path)
+          italian_updates = extract_updates(italian_path)
+
+          english = textwrap.dedent(f'''\
+          <h1 align="center">Giancarlo Cicellyn Comneno</h1>
+
+          <p align="center">
+            <strong>English</strong> · <a href="./README.it.md">Italiano</a>
+          </p>
+
+          <p align="center">
+            <strong>Backend &amp; Tooling Software Developer · Python · Linux · CLI Automation · Open Source</strong>
+          </p>
+
+          <p align="center">
+            <img alt="Backend — Tooling · Python — Systems and APIs · Linux — Automation · Open Source — Engineering" src="./assets/profile-badges.svg">
+          </p>
+
+          <p align="center">
+            I build reliable backend systems, developer tools and operational automation with explicit boundaries, tests and reproducible workflows.
+          </p>
+
+          <p align="center">
+            <em>Every problem solved once deserves to become knowledge.<br>
+            If that knowledge is reusable, it deserves to become a tool.<br>
+            If that tool is useful to others too, it deserves to become open source.</em><br>
+            <img alt="Profile visitors" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
+          </p>
+
+          <p align="center">
+            <strong>GiadaWare™</strong> is my personal lab for turning recurring friction into notes, tools and public projects.
+          </p>
+
+          <p align="center">
+            Earlier professional experience includes PHP and Laravel; my current public work focuses on Python, Linux, automation and open-source engineering.<br>
+            <strong>Open to remote roles and opportunities in Tuscany.</strong>
+          </p>
+
+          ## <code>01 · SELECTED PROJECTS</code>
+
+          These projects best represent my current work across backend design, reliable automation, developer tooling and reproducible software workflows.
+
+          | Project | What it demonstrates |
+          | --- | --- |
+          | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
+          | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
+          | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
+          | [GYTE](https://github.com/gcomneno/gyte) | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
+
+          <details>
+          <summary>More operational projects</summary>
+
+          | Project | Technical signal |
+          | --- | --- |
+          | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight showcase architecture, product integration and reusable UI adoption |
+          | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Linux utilities and safe operational automation |
+          | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
+          | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte packaging, SSR and hydration behavior, accessibility and reusable presentation primitives |
+
+          </details>
+
+          ## <code>02 · OPEN SOURCE ENGINEERING</code>
+
+          My open-source work focuses on small, reviewable changes grounded in real project needs, supported by tests, documentation and reproducible evidence.
+
+          Current upstream contribution:
+
+          - [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+
+          <details>
+          <summary>Previously contributed — Canonical Craft ecosystem</summary>
+
+          - [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
+          - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
+          - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
+          - [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
+          - [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
+          - [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
+
+          </details>
+
+          <details>
+          <summary>Other public upstream forks</summary>
+
+          - [canonical/testflinger](https://github.com/canonical/testflinger) → [gcomneno/testflinger](https://github.com/gcomneno/testflinger)
+
+          </details>
+
+          ## <code>03 · SELECTED RESEARCH</code>
+
+          These repositories use reproducible software experiments to investigate sequence structure, statistical behavior and deterministic computation.
+
+          | Area | Project | Technical focus |
+          | --- | --- | --- |
+          | Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
+          | Sequence analysis | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
+          | Finite-state stochastic modeling | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Exact absorbing Markov models, exhaustive kernel verification and historical comparison |
+
+          <details>
+          <summary>More research and experimental projects</summary>
+
+          | Area | Project | Technical focus |
+          | --- | --- | --- |
+          | Deterministic bucketing | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
+          | Modular analysis | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints and structural comparison |
+          | Structural search | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and constraints |
+          | Linguistic compression | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Italian text preprocessing and layered Huffman coding |
+          | Modular signatures | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, the Chinese Remainder Theorem and modular signatures |
+          | Time-series compression | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Experimental lossless compression for univariate time series |
+          | Experimental codec | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | p-adic crystal and prism codec prototype |
+
+          </details>
+
+          ## <code>04 · LEARNING IN PUBLIC</code>
+
+          I turn active study into documented, reproducible paths rather than presenting learning repositories as production experience.
+
+          | Area | Repository | Current focus |
+          | --- | --- | --- |
+          | Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |
+          | Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Algorithms, failure models, coordination and interview-oriented exercises |
+          | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Architecture notes, quizzes and interview-oriented lessons |
+
+          <details>
+          <summary>Earlier or supporting learning labs</summary>
+
+          - [Web / Laravel Lab](https://github.com/gcomneno/web) — earlier backend web study and documentation
+          - [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) — embedded Linux, BitBake and boot workflows
+          - [BoardLab](https://github.com/gcomneno/boardlab) — search algorithms and game AI experiments
+          - [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, patterns and tests
+          - [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) — object-oriented concepts reconstructed in C
+
+          </details>
+
+          ## <code>05 · LATEST UPDATES</code>
+          {english_updates}
+
+          ---
+
+          <p align="center">
+            <br>
+            <em>This profile is a moving lab: reliable software, explicit decisions, clear documentation and public iteration.</em>
+          </p>
+
+          <p align="center">
+            <a href="https://github.com/sponsors/gcomneno">
+              <img alt="Sponsor this lab on GitHub" src="https://img.shields.io/badge/Sponsor%20this%20lab-GitHub%20Sponsors-0B1F3A?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=555555">
+            </a>
+          </p>
+          ''')
+
+          italian = textwrap.dedent(f'''\
+          <h1 align="center">Giancarlo Cicellyn Comneno</h1>
+
+          <p align="center">
+            <a href="./README.md">English</a> · <strong>Italiano</strong>
+          </p>
+
+          <p align="center">
+            <strong>Sviluppatore software backend e tooling · Python · Linux · Automazione CLI · Open Source</strong>
+          </p>
+
+          <p align="center">
+            <img alt="Backend — Tooling · Python — Sistemi e API · Linux — Automazione · Open Source — Engineering" src="./assets/profile-badges.svg">
+          </p>
+
+          <p align="center">
+            Progetto sistemi backend affidabili, strumenti per sviluppatori e automazioni operative con confini espliciti, test e flussi riproducibili.
+          </p>
+
+          <p align="center">
+            <em>Ogni problema risolto una volta merita di essere trasformato in conoscenza.<br>
+            Se quella conoscenza è riutilizzabile, merita di diventare uno strumento.<br>
+            Se lo strumento è utile anche ad altri, merita di diventare open source.</em><br>
+            <img alt="Visitatori del profilo" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
+          </p>
+
+          <p align="center">
+            <strong>GiadaWare™</strong> è il mio laboratorio personale per trasformare gli attriti ricorrenti in appunti, strumenti e progetti pubblici.
+          </p>
+
+          <p align="center">
+            La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubblico attuale è concentrato su Python, Linux, automazione e ingegneria open source.<br>
+            <strong>Disponibile per ruoli da remoto e opportunità in Toscana.</strong>
+          </p>
+
+          ## <code>01 · PROGETTI SELEZIONATI</code>
+
+          Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione backend, automazione affidabile, strumenti per sviluppatori e flussi software riproducibili.
+
+          | Progetto | Cosa dimostra |
+          | --- | --- |
+          | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
+          | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili e operazioni recuperabili |
+          | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Estrazione deterministica, validazione, provenienza, interrogazione e confini persistenti del repository |
+          | [GYTE](https://github.com/gcomneno/gyte) | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
+
+          <details>
+          <summary>Altri progetti operativi</summary>
+
+          | Progetto | Segnale tecnico |
+          | --- | --- |
+          | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Architettura per vetrine leggere, integrazione di prodotto e adozione di UI riutilizzabile |
+          | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Utilità Linux e automazione operativa sicura |
+          | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
+          | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Pacchettizzazione Svelte, SSR e hydration, accessibilità e primitive di presentazione riutilizzabili |
+
+          </details>
+
+          ## <code>02 · INGEGNERIA OPEN SOURCE</code>
+
+          Il mio lavoro open source si concentra su modifiche piccole e revisionabili, fondate su esigenze reali e sostenute da test, documentazione ed evidenze riproducibili.
+
+          Contributo upstream attuale:
+
+          - [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+
+          <details>
+          <summary>Contributi precedenti — ecosistema Canonical Craft</summary>
+
+          - [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
+          - [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
+          - [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
+          - [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
+          - [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
+          - [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
+
+          </details>
+
+          <details>
+          <summary>Altri fork upstream pubblici</summary>
+
+          - [canonical/testflinger](https://github.com/canonical/testflinger) → [gcomneno/testflinger](https://github.com/gcomneno/testflinger)
+
+          </details>
+
+          ## <code>03 · RICERCA SELEZIONATA</code>
+
+          Questi repository usano esperimenti software riproducibili per studiare strutture di sequenze, comportamento statistico e calcolo deterministico.
+
+          | Area | Progetto | Focus tecnico |
+          | --- | --- | --- |
+          | Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
+          | Analisi di sequenze | [Digit Probe](https://github.com/gcomneno/digit-probe) | Casualità, comprimibilità, autocorrelazione, n-grammi e pattern di tipo Schur |
+          | Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel e confronto storico |
+
+          <details>
+          <summary>Altri progetti di ricerca e sperimentali</summary>
+
+          | Area | Progetto | Focus tecnico |
+          | --- | --- | --- |
+          | Partizionamento deterministico | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Partizionamento IPv4 ad alta entropia e allocazione deterministica |
+          | Analisi modulare | [Midas](https://github.com/gcomneno/midas) | Impronte modulari deterministiche e confronto strutturale |
+          | Ricerca strutturale | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Ricerca limitata su rappresentazioni intere e vincoli |
+          | Compressione linguistica | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Pre-elaborazione del testo italiano e codifica Huffman a strati |
+          | Firme modulari | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Orologi primi, teorema cinese del resto e firme modulari |
+          | Compressione di serie temporali | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Compressione lossless sperimentale per serie temporali univariate |
+          | Codec sperimentale | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | Prototipo di codec p-adico basato su cristalli e prismi |
+
+          </details>
+
+          ## <code>04 · IMPARARE IN PUBBLICO</code>
+
+          Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presentare i repository didattici come esperienza di produzione.
+
+          | Area | Repository | Focus attuale |
+          | --- | --- | --- |
+          | Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |
+          | Sistemi distribuiti | [Studio dei sistemi distribuiti](https://github.com/gcomneno/distributed-systems-study) | Algoritmi, modelli di guasto, coordinamento ed esercizi orientati ai colloqui |
+          | System design | [Studio del system design](https://github.com/gcomneno/system-design-study) | Appunti di architettura, quiz e lezioni orientate ai colloqui |
+
+          <details>
+          <summary>Laboratori precedenti o di supporto</summary>
+
+          - [Web / Laboratorio Laravel](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione
+          - [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) — Linux embedded, BitBake e flussi di boot
+          - [BoardLab](https://github.com/gcomneno/boardlab) — algoritmi di ricerca ed esperimenti di IA per giochi
+          - [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, pattern e test
+          - [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — concetti orientati agli oggetti ricostruiti in C
+
+          </details>
+
+          ## <code>05 · ULTIMI AGGIORNAMENTI</code>
+          {italian_updates}
+
+          ---
+
+          <p align="center">
+            <br>
+            <em>Questo profilo è un laboratorio in movimento: software affidabile, decisioni esplicite, documentazione chiara e iterazione pubblica.</em>
+          </p>
+
+          <p align="center">
+            <a href="https://github.com/sponsors/gcomneno">
+              <img alt="Sostieni questo laboratorio su GitHub" src="https://img.shields.io/badge/Sostieni%20questo%20laboratorio-GitHub%20Sponsors-0B1F3A?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=555555">
+            </a>
+          </p>
+          ''')
+
+          badge = textwrap.dedent('''\
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="586"
+            height="20"
+            viewBox="0 0 586 20"
+            role="img"
+            aria-label="Backend — Tooling; Python — Systems and APIs; Linux — Automation; Open Source — Engineering"
+          >
+            <title>Backend development, tooling, automation and open-source engineering</title>
+
+            <g
+              fill="#fff"
+              font-family="Verdana, DejaVu Sans, sans-serif"
+              font-size="11"
+              text-anchor="middle"
+            >
+              <g transform="translate(0 0)">
+                <rect width="80" height="20" fill="#555"/>
+                <rect x="80" width="60" height="20" fill="#0B1F3A"/>
+                <text x="40" y="14">Backend</text>
+                <text x="110" y="14">Tooling</text>
+              </g>
+
+              <g transform="translate(146 0)">
+                <rect width="52" height="20" fill="#555"/>
+                <rect x="52" width="90" height="20" fill="#0B1F3A"/>
+                <text x="26" y="14">Python</text>
+                <text x="97" y="14">Systems &amp; APIs</text>
+              </g>
+
+              <g transform="translate(294 0)">
+                <rect width="44" height="20" fill="#555"/>
+                <rect x="44" width="76" height="20" fill="#0B1F3A"/>
+                <text x="22" y="14">Linux</text>
+                <text x="82" y="14">Automation</text>
+              </g>
+
+              <g transform="translate(420 0)">
+                <rect width="84" height="20" fill="#555"/>
+                <rect x="84" width="82" height="20" fill="#0B1F3A"/>
+                <text x="42" y="14">Open Source</text>
+                <text x="125" y="14">Engineering</text>
+              </g>
+            </g>
+          </svg>
+          ''')
+
+          def validate(text: str, path: str, selected_heading: str, updates_heading: str) -> None:
+              checks = {
+                  "single updates block": len(marker_pattern.findall(text)) == 1,
+                  "selected projects before updates": text.index(selected_heading) < text.index(updates_heading),
+                  "single sponsor badge": text.count("github.com/sponsors/gcomneno") == 1,
+                  "CYSE absent": "cyse-lab" not in text.lower(),
+                  "obsolete hero absent": "Backend Software Developer · PHP/Laravel" not in text,
+                  "current positioning present": "Python" in text and "Linux" in text and "Tooling" in text,
+              }
+              failed = [name for name, passed in checks.items() if not passed]
+              if failed:
+                  raise SystemExit(f"Validation failed for {path}: {', '.join(failed)}")
+
+          validate(english, "README.md", "01 · SELECTED PROJECTS", "05 · LATEST UPDATES")
+          validate(italian, "README.it.md", "01 · PROGETTI SELEZIONATI", "05 · ULTIMI AGGIORNAMENTI")
+
+          if "PHP / Laravel" in badge or "Public Learning" in badge:
+              raise SystemExit("Obsolete badge positioning remains")
+          if badge.count("role=\"img\"") != 1 or "aria-label=" not in badge:
+              raise SystemExit("Badge accessibility metadata missing")
+
+          english_path.write_text(english, encoding="utf-8")
+          italian_path.write_text(italian, encoding="utf-8")
+          badge_path.write_text(badge, encoding="utf-8")
+          PY
+
+      - name: Commit repositioned showcase
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.it.md assets/profile-badges.svg
+
+          if git diff --cached --quiet; then
+            echo "No profile repositioning changes required."
+            exit 0
+          fi
+
+          git commit -m "docs: reposition profile around backend tooling"
+
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Profile repositioning pushed successfully."
+              break
+            fi
+
+            if [ "$attempt" -eq 3 ]; then
+              echo "Unable to push profile repositioning after three attempts." >&2
+              exit 1
+            fi
+
+            sleep 2
+          done
