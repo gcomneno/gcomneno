@@ -1,0 +1,163 @@
+name: Reintegrate selected profile projects
+
+on:
+  push:
+    paths:
+      - .github/workflows/reintegrate-profile-projects.yml
+
+permissions:
+  contents: write
+
+jobs:
+  reintegrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update bilingual project curation
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          updates_pattern = re.compile(
+              r"<!-- updates:start -->.*?<!-- updates:end -->",
+              flags=re.DOTALL,
+          )
+
+          def replace_once(text: str, old: str, new: str, label: str) -> str:
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f"Expected exactly one {label}; found {count}")
+              return text.replace(old, new, 1)
+
+          def update_english(text: str) -> str:
+              text = replace_once(
+                  text,
+                  "| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte packaging, SSR and hydration behavior, accessibility and reusable presentation primitives |",
+                  "| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |",
+                  "English GiadaWare UI row",
+              )
+
+              text = replace_once(
+                  text,
+                  "| Area | Project | Technical focus |\n| --- | --- | --- |\n| Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |",
+                  "| Area | Project | Technical focus |\n| --- | --- | --- |\n| Operational sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Privacy-safe Linux journal normalization, deterministic classification, reproducible manifests and temporal comparison |\n| Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |",
+                  "English selected research table",
+              )
+
+              text = replace_once(
+                  text,
+                  "| Area | Repository | Current focus |\n| --- | --- | --- |\n| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |",
+                  "| Area | Repository | Current focus |\n| --- | --- | --- |\n| Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |\n| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |",
+                  "English visible learning table",
+              )
+
+              old_labs = """- [Web / Laravel Lab](https://github.com/gcomneno/web) — earlier backend web study and documentation
+- [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) — embedded Linux, BitBake and boot workflows
+- [BoardLab](https://github.com/gcomneno/boardlab) — search algorithms and game AI experiments
+- [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, patterns and tests
+- [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) — object-oriented concepts reconstructed in C"""
+              new_labs = """- [OOP in C Lab](https://github.com/gcomneno/oop-in-c-lab) — object layout, manual virtual dispatch, runtime type identity and checked downcasting
+- [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) — JavaScript and TypeScript middleware pipelines and reusable design patterns, with executable tests
+- [BoardLab](https://github.com/gcomneno/boardlab) — generic game-engine architecture and reproducible search/AI experiments in early incubation
+- [Historical Laravel Lab](https://github.com/gcomneno/web) — earlier backend web study and documentation"""
+              return replace_once(text, old_labs, new_labs, "English supporting labs")
+
+          def update_italian(text: str) -> str:
+              text = replace_once(
+                  text,
+                  "| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Pacchettizzazione Svelte, SSR e hydration, accessibilità e primitive di presentazione riutilizzabili |",
+                  "| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |",
+                  "Italian GiadaWare UI row",
+              )
+
+              text = replace_once(
+                  text,
+                  "| Area | Progetto | Focus tecnico |\n| --- | --- | --- |\n| Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |",
+                  "| Area | Progetto | Focus tecnico |\n| --- | --- | --- |\n| Analisi di sequenze operative | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Normalizzazione privacy-safe dei journal Linux, classificazione deterministica, manifest riproducibili e confronto temporale |\n| Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |",
+                  "Italian selected research table",
+              )
+
+              text = replace_once(
+                  text,
+                  "| Area | Repository | Focus attuale |\n| --- | --- | --- |\n| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |",
+                  "| Area | Repository | Focus attuale |\n| --- | --- | --- |\n| Linux embedded | [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build riproducibili di immagini, layer e recipe personalizzati, flussi BitBake e validazione del boot con QEMU |\n| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |",
+                  "Italian visible learning table",
+              )
+
+              old_labs = """- [Web / Laboratorio Laravel](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione
+- [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) — Linux embedded, BitBake e flussi di boot
+- [BoardLab](https://github.com/gcomneno/boardlab) — algoritmi di ricerca ed esperimenti di IA per giochi
+- [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, pattern e test
+- [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — concetti orientati agli oggetti ricostruiti in C"""
+              new_labs = """- [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — layout degli oggetti, dispatch virtuale manuale, identità di tipo a runtime e downcast controllato
+- [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — pipeline middleware e pattern riutilizzabili in JavaScript e TypeScript, con test eseguibili
+- [BoardLab](https://github.com/gcomneno/boardlab) — architettura generica per motori di gioco ed esperimenti riproducibili di ricerca e IA, ancora in incubazione iniziale
+- [Laboratorio Laravel storico](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione"""
+              return replace_once(text, old_labs, new_labs, "Italian supporting labs")
+
+          files = [
+              (Path("README.md"), update_english),
+              (Path("README.it.md"), update_italian),
+          ]
+
+          for path, updater in files:
+              original = path.read_text(encoding="utf-8")
+              updates = updates_pattern.search(original)
+              if updates is None:
+                  raise SystemExit(f"Missing updates block in {path}")
+              updates_block = updates.group(0)
+
+              revised = updater(original)
+              revised_updates = updates_pattern.search(revised)
+              if revised_updates is None or revised_updates.group(0) != updates_block:
+                  raise SystemExit(f"Generated updates block changed in {path}")
+
+              required = [
+                  "https://github.com/gcomneno/system-log-dynamics",
+                  "https://github.com/gcomneno/yocto-qemu-mini-lab",
+                  "https://github.com/gcomneno/oop-in-c-lab",
+                  "https://github.com/gcomneno/js-lab-didattico",
+                  "https://github.com/gcomneno/boardlab",
+                  "https://github.com/gcomneno/web",
+                  "https://github.com/gcomneno/giadaware-ui-components",
+              ]
+              for link in required:
+                  if revised.count(link) != 1:
+                      raise SystemExit(f"Expected one curated occurrence of {link} in {path}; found {revised.count(link)}")
+
+              path.write_text(revised, encoding="utf-8")
+          PY
+
+      - name: Commit profile curation
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.it.md
+
+          if git diff --cached --quiet; then
+            echo "Profile curation already applied."
+            exit 0
+          fi
+
+          git commit -m "docs: reintegrate aligned technical projects"
+
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              exit 1
+            fi
+            sleep 2
+          done
