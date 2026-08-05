@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Sviluppatore software backend e tooling · Python · Linux · Automazione CLI · Open Source</strong>
+  <strong>Sviluppatore software backend e tooling · Python · Linux · Automazione · Open Source</strong>
 </p>
 
 <p align="center">
@@ -13,22 +13,11 @@
 </p>
 
 <p align="center">
-  Progetto sistemi backend affidabili, strumenti per sviluppatori e automazioni operative con confini espliciti, test e flussi riproducibili.
+  Trasformo problemi operativi ricorrenti in strumenti affidabili, flussi espliciti e software open source riutilizzabile.
 </p>
 
 <p align="center">
-  <em>Ogni problema risolto una volta merita di essere trasformato in conoscenza.<br>
-  Se quella conoscenza è riutilizzabile, merita di diventare uno strumento.<br>
-  Se lo strumento è utile anche ad altri, merita di diventare open source.</em><br>
   <img alt="Visitatori del profilo" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
-</p>
-
-<p align="center">
-  <strong>GiadaWare™</strong> è il mio laboratorio personale per trasformare gli attriti ricorrenti in appunti, strumenti e progetti pubblici.
-</p>
-
-<p align="center">
-  La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubblico attuale è concentrato su Python, Linux, automazione e ingegneria open source. Disponibile per ruoli da remoto e opportunità professionali.
 </p>
 
 ## <code>01 · PROGETTI SELEZIONATI</code>
@@ -51,6 +40,17 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Utilità Linux e automazione operativa sicura |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
+
+</details>
+
+<details>
+<summary>Esperienza e GiadaWare</summary>
+
+**GiadaWare™** è il mio laboratorio personale per trasformare gli attriti ricorrenti in appunti, strumenti e progetti pubblici.
+
+La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubblico attuale è concentrato su Python, Linux, automazione e ingegneria open source. Disponibile per ruoli da remoto e opportunità professionali.
+
+> Ogni problema risolto una volta merita di diventare conoscenza. Se quella conoscenza è riutilizzabile, merita di diventare uno strumento. Se lo strumento è utile anche ad altri, merita di diventare open source.
 
 </details>
 
