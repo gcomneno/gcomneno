@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Backend &amp; Tooling Software Developer · Python · Linux · CLI Automation · Open Source</strong>
+  <strong>Backend &amp; Tooling Software Developer · Python · Linux · Automation · Open Source</strong>
 </p>
 
 <p align="center">
@@ -13,22 +13,11 @@
 </p>
 
 <p align="center">
-  I build reliable backend systems, developer tools and operational automation with explicit boundaries, tests and reproducible workflows.
+  I turn recurring operational problems into reliable tools, explicit workflows and reusable open-source software.
 </p>
 
 <p align="center">
-  <em>Every problem solved once deserves to become knowledge.<br>
-  If that knowledge is reusable, it deserves to become a tool.<br>
-  If that tool is useful to others too, it deserves to become open source.</em><br>
   <img alt="Profile visitors" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
-</p>
-
-<p align="center">
-  <strong>GiadaWare™</strong> is my personal lab for turning recurring friction into notes, tools and public projects.
-</p>
-
-<p align="center">
-  Earlier professional experience includes PHP and Laravel; my current public work focuses on Python, Linux, automation and open-source engineering. Open to remote roles and opportunities.
 </p>
 
 ## <code>01 · SELECTED PROJECTS</code>
@@ -51,6 +40,17 @@ These projects best represent my current work across backend design, reliable au
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Linux utilities and safe operational automation |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
+
+</details>
+
+<details>
+<summary>Background and GiadaWare</summary>
+
+**GiadaWare™** is my personal lab for turning recurring friction into notes, tools and public projects.
+
+Earlier professional experience includes PHP and Laravel; my current public work focuses on Python, Linux, automation and open-source engineering. Open to remote roles and opportunities.
+
+> Every problem solved once deserves to become knowledge. If that knowledge is reusable, it deserves to become a tool. If that tool is useful to others too, it deserves to become open source.
 
 </details>
 
