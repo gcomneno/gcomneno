@@ -1,0 +1,65 @@
+name: Direct profile curation
+
+on:
+  push:
+    paths:
+      - .github/workflows/direct-profile-curation.yml
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update curated sections
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          def one(text, old, new):
+              if text.count(old) != 1:
+                  raise RuntimeError(f"expected one match, found {text.count(old)}: {old[:80]}")
+              return text.replace(old, new, 1)
+
+          p = Path('README.md')
+          s = p.read_text()
+          s = one(s,
+              '| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte packaging, SSR and hydration behavior, accessibility and reusable presentation primitives |',
+              '| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |')
+          s = one(s,
+              '| Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |',
+              '| Operational sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Privacy-safe Linux journal normalization, deterministic classification, reproducible manifests and temporal comparison |\n| Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |')
+          s = one(s,
+              '| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |',
+              '| Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |\n| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |')
+          s = one(s,
+              '- [Web / Laravel Lab](https://github.com/gcomneno/web) — earlier backend web study and documentation\n- [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) — embedded Linux, BitBake and boot workflows\n- [BoardLab](https://github.com/gcomneno/boardlab) — search algorithms and game AI experiments\n- [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, patterns and tests\n- [OOP-in-C Lab](https://github.com/gcomneno/oop-in-c-lab) — object-oriented concepts reconstructed in C',
+              '- [OOP in C Lab](https://github.com/gcomneno/oop-in-c-lab) — object layout, manual virtual dispatch, runtime type identity and checked downcasting\n- [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) — JavaScript and TypeScript middleware pipelines and reusable design patterns, with executable tests\n- [BoardLab](https://github.com/gcomneno/boardlab) — generic game-engine architecture and reproducible search/AI experiments in early incubation\n- [Historical Laravel Lab](https://github.com/gcomneno/web) — earlier backend web study and documentation')
+          p.write_text(s)
+
+          p = Path('README.it.md')
+          s = p.read_text()
+          s = one(s,
+              '| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Pacchettizzazione Svelte, SSR e hydration, accessibilità e primitive di presentazione riutilizzabili |',
+              '| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |')
+          s = one(s,
+              '| Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |',
+              '| Analisi di sequenze operative | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Normalizzazione privacy-safe dei journal Linux, classificazione deterministica, manifest riproducibili e confronto temporale |\n| Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |')
+          s = one(s,
+              '| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |',
+              '| Linux embedded | [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build riproducibili di immagini, layer e recipe personalizzati, flussi BitBake e validazione del boot con QEMU |\n| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |')
+          s = one(s,
+              '- [Web / Laboratorio Laravel](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione\n- [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) — Linux embedded, BitBake e flussi di boot\n- [BoardLab](https://github.com/gcomneno/boardlab) — algoritmi di ricerca ed esperimenti di IA per giochi\n- [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, pattern e test\n- [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — concetti orientati agli oggetti ricostruiti in C',
+              '- [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — layout degli oggetti, dispatch virtuale manuale, identità di tipo a runtime e downcast controllato\n- [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — pipeline middleware e pattern riutilizzabili in JavaScript e TypeScript, con test eseguibili\n- [BoardLab](https://github.com/gcomneno/boardlab) — architettura generica per motori di gioco ed esperimenti riproducibili di ricerca e IA, ancora in incubazione iniziale\n- [Laboratorio Laravel storico](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione')
+          p.write_text(s)
+          PY
+
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add README.md README.it.md
+          git commit -m 'docs: reintegrate aligned technical projects'
+          git push
