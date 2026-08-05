@@ -4,9 +4,9 @@
   height="20"
   viewBox="0 0 586 20"
   role="img"
-  aria-label="PHP / Laravel — Backend; Python — CLI and Tools; Linux — Workflows; Open Source — Public Learning"
+  aria-label="Backend — Tooling; Python — Systems and APIs; Linux — Automation; Open Source — Engineering"
 >
-  <title>Backend development, tooling and open-source areas</title>
+  <title>Backend development, tooling, automation and open-source engineering</title>
 
   <g
     fill="#fff"
@@ -15,31 +15,31 @@
     text-anchor="middle"
   >
     <g transform="translate(0 0)">
-      <rect width="90" height="20" fill="#555"/>
-      <rect x="90" width="60" height="20" fill="#0B1F3A"/>
-      <text x="45" y="14">PHP / Laravel</text>
-      <text x="120" y="14">Backend</text>
+      <rect width="80" height="20" fill="#555"/>
+      <rect x="80" width="60" height="20" fill="#0B1F3A"/>
+      <text x="40" y="14">Backend</text>
+      <text x="110" y="14">Tooling</text>
     </g>
 
-    <g transform="translate(156 0)">
+    <g transform="translate(146 0)">
       <rect width="52" height="20" fill="#555"/>
-      <rect x="52" width="72" height="20" fill="#0B1F3A"/>
+      <rect x="52" width="90" height="20" fill="#0B1F3A"/>
       <text x="26" y="14">Python</text>
-      <text x="88" y="14">CLI &amp; Tools</text>
+      <text x="97" y="14">Systems &amp; APIs</text>
     </g>
 
-    <g transform="translate(286 0)">
+    <g transform="translate(294 0)">
       <rect width="44" height="20" fill="#555"/>
-      <rect x="44" width="68" height="20" fill="#0B1F3A"/>
+      <rect x="44" width="76" height="20" fill="#0B1F3A"/>
       <text x="22" y="14">Linux</text>
-      <text x="78" y="14">Workflows</text>
+      <text x="82" y="14">Automation</text>
     </g>
 
-    <g transform="translate(404 0)">
+    <g transform="translate(420 0)">
       <rect width="84" height="20" fill="#555"/>
-      <rect x="84" width="98" height="20" fill="#0B1F3A"/>
+      <rect x="84" width="82" height="20" fill="#0B1F3A"/>
       <text x="42" y="14">Open Source</text>
-      <text x="133" y="14">Public Learning</text>
+      <text x="125" y="14">Engineering</text>
     </g>
   </g>
 </svg>

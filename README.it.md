@@ -5,11 +5,15 @@
 </p>
 
 <p align="center">
-  <strong>Sviluppatore software backend · PHP/Laravel · Python · Linux · Strumenti CLI · Open Source</strong>
+  <strong>Sviluppatore software backend e tooling · Python · Linux · Automazione CLI · Open Source</strong>
 </p>
 
 <p align="center">
-  <img alt="PHP / Laravel — Backend · Python — CLI e strumenti · Linux — Flussi di lavoro · Open Source — Apprendimento pubblico" src="./assets/profile-badges.svg">
+  <img alt="Backend — Tooling · Python — Sistemi e API · Linux — Automazione · Open Source — Engineering" src="./assets/profile-badges.svg">
+</p>
+
+<p align="center">
+  Progetto sistemi backend affidabili, strumenti per sviluppatori e automazioni operative con confini espliciti, test e flussi riproducibili.
 </p>
 
 <p align="center">
@@ -24,12 +28,107 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/gcomneno">
-    <img alt="Sostieni questo laboratorio su GitHub" src="https://img.shields.io/badge/Sostieni%20questo%20laboratorio-GitHub%20Sponsors-0B1F3A?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=555555">
-  </a>
+  La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubblico attuale è concentrato su Python, Linux, automazione e ingegneria open source.<br>
+  <strong>Disponibile per ruoli da remoto e opportunità in Toscana.</strong>
 </p>
 
-## <code>01 · ULTIMI AGGIORNAMENTI</code>
+## <code>01 · PROGETTI SELEZIONATI</code>
+
+Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione backend, automazione affidabile, strumenti per sviluppatori e flussi software riproducibili.
+
+| Progetto | Cosa dimostra |
+| --- | --- |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili e operazioni recuperabili |
+| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Estrazione deterministica, validazione, provenienza, interrogazione e confini persistenti del repository |
+| [GYTE](https://github.com/gcomneno/gyte) | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
+
+<details>
+<summary>Altri progetti operativi</summary>
+
+| Progetto | Segnale tecnico |
+| --- | --- |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Architettura per vetrine leggere, integrazione di prodotto e adozione di UI riutilizzabile |
+| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Utilità Linux e automazione operativa sicura |
+| [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
+| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Pacchettizzazione Svelte, SSR e hydration, accessibilità e primitive di presentazione riutilizzabili |
+
+</details>
+
+## <code>02 · INGEGNERIA OPEN SOURCE</code>
+
+Il mio lavoro open source si concentra su modifiche piccole e revisionabili, fondate su esigenze reali e sostenute da test, documentazione ed evidenze riproducibili.
+
+Contributo upstream attuale:
+
+- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+
+<details>
+<summary>Contributi precedenti — ecosistema Canonical Craft</summary>
+
+- [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
+- [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
+- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
+- [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
+- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
+- [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
+
+</details>
+
+<details>
+<summary>Altri fork upstream pubblici</summary>
+
+- [canonical/testflinger](https://github.com/canonical/testflinger) → [gcomneno/testflinger](https://github.com/gcomneno/testflinger)
+
+</details>
+
+## <code>03 · RICERCA SELEZIONATA</code>
+
+Questi repository usano esperimenti software riproducibili per studiare strutture di sequenze, comportamento statistico e calcolo deterministico.
+
+| Area | Progetto | Focus tecnico |
+| --- | --- | --- |
+| Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
+| Analisi di sequenze | [Digit Probe](https://github.com/gcomneno/digit-probe) | Casualità, comprimibilità, autocorrelazione, n-grammi e pattern di tipo Schur |
+| Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel e confronto storico |
+
+<details>
+<summary>Altri progetti di ricerca e sperimentali</summary>
+
+| Area | Progetto | Focus tecnico |
+| --- | --- | --- |
+| Partizionamento deterministico | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Partizionamento IPv4 ad alta entropia e allocazione deterministica |
+| Analisi modulare | [Midas](https://github.com/gcomneno/midas) | Impronte modulari deterministiche e confronto strutturale |
+| Ricerca strutturale | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Ricerca limitata su rappresentazioni intere e vincoli |
+| Compressione linguistica | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Pre-elaborazione del testo italiano e codifica Huffman a strati |
+| Firme modulari | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Orologi primi, teorema cinese del resto e firme modulari |
+| Compressione di serie temporali | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Compressione lossless sperimentale per serie temporali univariate |
+| Codec sperimentale | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | Prototipo di codec p-adico basato su cristalli e prismi |
+
+</details>
+
+## <code>04 · IMPARARE IN PUBBLICO</code>
+
+Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presentare i repository didattici come esperienza di produzione.
+
+| Area | Repository | Focus attuale |
+| --- | --- | --- |
+| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |
+| Sistemi distribuiti | [Studio dei sistemi distribuiti](https://github.com/gcomneno/distributed-systems-study) | Algoritmi, modelli di guasto, coordinamento ed esercizi orientati ai colloqui |
+| System design | [Studio del system design](https://github.com/gcomneno/system-design-study) | Appunti di architettura, quiz e lezioni orientate ai colloqui |
+
+<details>
+<summary>Laboratori precedenti o di supporto</summary>
+
+- [Web / Laboratorio Laravel](https://github.com/gcomneno/web) — studio precedente del backend web e relativa documentazione
+- [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) — Linux embedded, BitBake e flussi di boot
+- [BoardLab](https://github.com/gcomneno/boardlab) — algoritmi di ricerca ed esperimenti di IA per giochi
+- [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) — JavaScript, TypeScript, pattern e test
+- [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) — concetti orientati agli oggetti ricostruiti in C
+
+</details>
+
+## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
 - **2026-08-04** · `lele-manager` · **Release:** [LeLe Manager 1.10.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.0)
@@ -143,87 +242,11 @@ _Sono mostrati i 100 aggiornamenti significativi più recenti; 621 aggiornamenti
 
 <!-- updates:end -->
 
-## <code>02 · A COLPO D'OCCHIO</code>
-
-I progetti sono ordinati per maturità: prima le release operative, poi gli strumenti in evoluzione e infine i lavori in incubazione attiva.
-
-| Ambito | Progetto | Segnale tecnico |
-| --- | --- | --- |
-| **Lesson learned consultabili** | [LeLe Manager](https://github.com/gcomneno/lele-manager) | Dati local-first, JSONL, confini API e progettazione backend |
-| **CLI per estrazione multimediale** | [GYTE](https://github.com/gcomneno/gyte) | Estrazione di trascrizioni YouTube e CLI guidata da manifest |
-| **Toolkit per vetrine personalizzate** | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Siti vetrina leggeri per creatori e piccole attività creative |
-| **Utilità di sistema Linux** | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | Strumenti CLI operativi, inclusa la conversione sicura in massa degli ebook |
-| **Automazione sicura dei file** | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Organizzazione deterministica dei file con flussi dry-run espliciti |
-| **Richiamo della conoscenza** | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | UX da terminale, generazione deterministica dei quiz e riuso dei dati |
-| **Motore per documenti di riferimento** | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Estrazione deterministica, validazione, provenienza e interrogazione |
-| **Pacchetto di componenti UI** | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Componenti Svelte, artefatti pacchettizzati, SSR/hydration e controlli di accessibilità |
-
-## <code>03 · PROGETTI DI RICERCA E SPERIMENTALI</code>
-
-Questi repository esplorano strutture intere, analisi di sequenze, compressione, partizionamento deterministico e ricerca vincolata attraverso esperimenti software riproducibili.
-
-I progetti sono ordinati dagli strumenti di ricerca stabili e riutilizzabili fino agli MVP esplorativi e ai prototipi concettuali.
-
-| Area | Progetto | Focus tecnico |
-| --- | --- | --- |
-| **Riconoscimento di sequenze** | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
-| **Partizionamento deterministico** | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Partizionamento IPv4 ad alta entropia e allocazione deterministica |
-| **Analisi di sequenze** | [Digit Probe](https://github.com/gcomneno/digit-probe) | Casualità, comprimibilità, autocorrelazione, n-grammi e pattern di tipo Schur |
-| **Modellazione stocastica a stati finiti** | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modello di Markov assorbente esatto, verifica esaustiva del kernel e confronto storico |
-| **Analisi modulare** | [Midas](https://github.com/gcomneno/midas) | Impronte modulari deterministiche, dataset di interi e confronto strutturale |
-| **Ricerca strutturale** | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Ricerca limitata su rappresentazioni intere e vincoli strutturali |
-| **Compressione linguistica** | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Pre-elaborazione del testo italiano e codifica Huffman a strati |
-| **Firme modulari** | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Orologi primi, teorema cinese del resto e firme modulari |
-| **Compressione di serie temporali** | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Compressione lossless sperimentale per serie temporali univariate |
-| **Codec sperimentale** | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | Prototipo di codec p-adico basato su cristalli e prismi |
-
-## <code>04 · IMPARARE IN PUBBLICO</code>
-
-Uso laboratori didattici pubblici per trasformare studio, appunti ed esperimenti tecnici in percorsi riproducibili. I percorsi attuali e in sviluppo attivo compaiono per primi.
-
-| Area | Repository | Focus |
-| --- | --- | --- |
-| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP pianificato |
-| Web backend | [Web / Laboratorio Laravel](https://github.com/gcomneno/web) | Laravel pratico e sviluppo web backend |
-| Sistemi distribuiti | [Studio dei sistemi distribuiti](https://github.com/gcomneno/distributed-systems-study) | Algoritmi, modelli di guasto, coordinamento distribuito ed esercizi orientati ai colloqui |
-| System design | [Studio del system design](https://github.com/gcomneno/system-design-study) | Appunti, quiz e lezioni di system design orientate ai colloqui |
-| Linux embedded | [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build, boot, BitBake e flussi di lavoro Linux |
-| IA per giochi | [BoardLab](https://github.com/gcomneno/boardlab) | Motore generico per giochi da tavolo ed esperimenti riproducibili con algoritmi di ricerca e IA |
-| JavaScript | [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) | Pattern, TypeScript e test |
-| OOP a basso livello | [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) | Concetti OOP ricostruiti in C |
-
-## <code>05 · PERCORSO OPEN SOURCE</code>
-
-Il mio percorso open source è ancora in crescita, ma segue sempre la stessa logica: partire da problemi concreti, leggere il contesto tecnico e proporre modifiche piccole e verificabili.
-
-Contributo principale in corso:
-
-- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
-
-<details>
-<summary>Contributi precedenti — ecosistema Canonical Craft</summary>
-
-- [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
-- [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
-- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
-- [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
-- [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
-- [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
-
-</details>
-
-<details>
-<summary>Altri fork upstream pubblici</summary>
-
-- [canonical/testflinger](https://github.com/canonical/testflinger) → [gcomneno/testflinger](https://github.com/gcomneno/testflinger)
-
-</details>
-
 ---
 
 <p align="center">
   <br>
-  <em>Questo profilo è un laboratorio in movimento: problemi reali, piccoli strumenti, documentazione chiara e iterazioni pubbliche.</em>
+  <em>Questo profilo è un laboratorio in movimento: software affidabile, decisioni esplicite, documentazione chiara e iterazione pubblica.</em>
 </p>
 
 <p align="center">
