@@ -32,14 +32,20 @@
 ## <code>01 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [define public Python API (#76)](https://github.com/gcomneno/smart-file-organizer/commit/312c973beaf78fba5a8c5a763e2e0f636cc39e8b)
-- **2026-08-04** · `atelier-kit` · **Sviluppo:** [revert: remove accidental issue 223 placeholder](https://github.com/gcomneno/atelier-kit/commit/a22170cc6de952ecfc13ba736d163d18729243fe)
-- **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt Giada UI FieldLabel adapter (#229)](https://github.com/gcomneno/atelier-kit/commit/580a97bf153a6c92b775c9a8a1c3841cd8b507e6)
-- **2026-08-04** · `lele-manager` · **Documentazione:** [complete GUI guide and packaging decision (#140)](https://github.com/gcomneno/lele-manager/commit/7b6b3bc0bf56548444955b2b18b3b00b767a639c)
+- **2026-08-04** · `lele-manager` · **Release:** [LeLe Manager 1.10.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.0)
+- **2026-08-04** · `lele-manager` · **Sviluppo:** [Release LeLe Manager 1.10.0 (#146)](https://github.com/gcomneno/lele-manager/commit/a00d01177cce7bba06b3089aed5ca9d7aa144c20)
+- **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [add explainable evidence engine (#77)](https://github.com/gcomneno/smart-file-organizer/commit/124b63b377bb6e43eb8e678ea88e38de960be2dc)
+- **2026-08-04** · `lele-manager` · **Sviluppo:** [Update vulnerable frontend dependencies (#144)](https://github.com/gcomneno/lele-manager/commit/c34a6149f51751dc1a5ebeb0a00d9d8f038d1c43)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-04** · `lele-manager` · **Sviluppo:** [Fix release artifacts to include the compiled GUI (#143)](https://github.com/gcomneno/lele-manager/commit/379b068ab723aded5e67827a13f39d113bedda92)
+- **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt Giada UI Panel and Surface (#230)](https://github.com/gcomneno/atelier-kit/commit/7db4c5e6f4da184c3f4726b86f48d0d8ba813a8c)
+- **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [define public Python API (#76)](https://github.com/gcomneno/smart-file-organizer/commit/312c973beaf78fba5a8c5a763e2e0f636cc39e8b)
+- **2026-08-04** · `atelier-kit` · **Sviluppo:** [revert: remove accidental issue 223 placeholder](https://github.com/gcomneno/atelier-kit/commit/a22170cc6de952ecfc13ba736d163d18729243fe)
+- **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt Giada UI FieldLabel adapter (#229)](https://github.com/gcomneno/atelier-kit/commit/580a97bf153a6c92b775c9a8a1c3841cd8b507e6)
+- **2026-08-04** · `lele-manager` · **Documentazione:** [complete GUI guide and packaging decision (#140)](https://github.com/gcomneno/lele-manager/commit/7b6b3bc0bf56548444955b2b18b3b00b767a639c)
 - **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt PageIntro and FormActions (#228)](https://github.com/gcomneno/atelier-kit/commit/a72ec91f7a514a1a7bec2eb84958e0df80f96e74)
 - **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [introduce application orchestration (#75)](https://github.com/gcomneno/smart-file-organizer/commit/059115c989dc7d315eaa5ee6c7b9b68e149a95d4)
 - **2026-08-04** · `lele-manager` · **Funzionalità:** [add TritaLeLe candidate review workflow (#139)](https://github.com/gcomneno/lele-manager/commit/8f0df6ca7f8fabff7241b7c144e7958ae99201a1)
@@ -130,14 +136,8 @@
 - **2026-07-29** · `digit-probe` · **Documentazione:** [remove deleted C++ bucketizer reference](https://github.com/gcomneno/digit-probe/commit/6ee4b9c6efc115ea0ba1202c23d659f1adb0551c)
 - **2026-07-29** · `kleis-corso-sviluppo-software` · **Novità:** [add mini ecommerce planning foundation](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/1d63c5ef6409fafae800e05d3680f7072cb2547c)
 - **2026-07-29** · `kleis-corso-sviluppo-software` · **Documentazione:** [add mini ecommerce planning foundation](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a4d3a4d9313d4bfc466d8752db586aea0470563d)
-- **2026-07-29** · `kleis-corso-sviluppo-software` · **Novità:** [add final SQL quiz](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/f3285843aa9842133d47ff812ecd252cf22f9925)
-- **2026-07-29** · `kleis-corso-sviluppo-software` · **Documentazione:** [add final SQL quiz](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ae0143737230383b8f460cfe2baded2d796e393a)
-- **2026-07-29** · `kleis-corso-sviluppo-software` · **Novità:** [add SQL ecommerce lesson](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/555d8eba861bc1c5e5bf4477eef4941d5fbe1f52)
-- **2026-07-29** · `kleis-corso-sviluppo-software` · **Documentazione:** [add SQL ecommerce lesson](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c95d8dceadb61db7c800be2cc15e3fb35f279f04)
-- **2026-07-29** · `lotto-digit-coverage-dynamics` · **Refactoring:** [extract generic Lotto repository](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/cf87e1205aa03b0c6af8f4f017a8754c3bae5e34)
-- **2026-07-29** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [maintain complete annual Lotto archive](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a64220d014ce74b6e1349e69135b68d6145bf35a)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 615 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 621 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
