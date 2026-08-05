@@ -28,8 +28,7 @@
 </p>
 
 <p align="center">
-  La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubblico attuale è concentrato su Python, Linux, automazione e ingegneria open source.<br>
-  <strong>Disponibile per ruoli da remoto e opportunità in Toscana.</strong>
+  La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubblico attuale è concentrato su Python, Linux, automazione e ingegneria open source. Disponibile per ruoli da remoto e opportunità professionali.
 </p>
 
 ## <code>01 · PROGETTI SELEZIONATI</code>

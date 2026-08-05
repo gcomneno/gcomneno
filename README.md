@@ -28,8 +28,7 @@
 </p>
 
 <p align="center">
-  Earlier professional experience includes PHP and Laravel; my current public work focuses on Python, Linux, automation and open-source engineering.<br>
-  <strong>Open to remote roles and opportunities in Tuscany.</strong>
+  Earlier professional experience includes PHP and Laravel; my current public work focuses on Python, Linux, automation and open-source engineering. Open to remote roles and opportunities.
 </p>
 
 ## <code>01 · SELECTED PROJECTS</code>
