@@ -131,14 +131,30 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add deterministic Markdown reporting (#21)](https://github.com/gcomneno/system-log-dynamics/commit/4e873ac83239b89b05286e6f14be7972d8fb53c2)
-- **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add reproducible routine versus boot burst experiment (#20)](https://github.com/gcomneno/system-log-dynamics/commit/7243e6683a3dd167223788937793327710e943fa)
-- **2026-08-05** · `smart-file-organizer` · **Release:** [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0)
-- **2026-08-05** · `atelier-kit` · **Sviluppo:** [architecture: generalize structured long-form reading (#237)](https://github.com/gcomneno/atelier-kit/commit/c4e31e7f6b630a0a9387f61e5a73961e0880e322)
+- **2026-08-06** · `pkps` · **Documentazione:** [define package release identity](https://github.com/gcomneno/pkps/commit/9ba610351ce39244627756376990ef1db28d2bff)
+- **2026-08-06** · `pkps` · **Documentazione:** [record LeLe consumer baseline](https://github.com/gcomneno/pkps/commit/89a4e3581740e135d2878fd07c6d01d32dcfe8b4)
+- **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add deterministic taxonomy coverage](https://github.com/gcomneno/system-log-dynamics/commit/324f636935425a49f3cb89818cc63c9b188f8e58)
+- **2026-08-06** · `pkps` · **Documentazione:** [establish PKPS phase 0 baseline](https://github.com/gcomneno/pkps/commit/e64bbc5d0636941bd924f2d061fd30cc00a3713a)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-06** · `atelier-kit` · **Refactoring:** [complete ReorderActions adoption (#243)](https://github.com/gcomneno/atelier-kit/commit/34affc82d6908fea7ad5aa2c3ba72299028fe925)
+- **2026-08-06** · `pkps` · **Documentazione:** [initialize PKPS repository](https://github.com/gcomneno/pkps/commit/f1146941149083dbd5ce330db4527e3406728f7a)
+- **2026-08-06** · `lele-manager` · **Documentazione:** [clarify PKPS consumer boundary](https://github.com/gcomneno/lele-manager/commit/f6e261d21e65cf49dcc8ff520b87052f06448329)
+- **2026-08-06** · `vscode-bitbake` · **Sviluppo:** [npm: minor version updates](https://github.com/gcomneno/vscode-bitbake/commit/3156bceebf86127ac64948625b1c279b5b7edb4d)
+- **2026-08-06** · `vscode-bitbake` · **Correzione:** [clean up recipe-local stream handling](https://github.com/gcomneno/vscode-bitbake/commit/0d1d6ffae4b2552f33448b6fabe1feb664aeea55)
+- **2026-08-06** · `vscode-bitbake` · **Correzione:** [bound recipe-local file discovery](https://github.com/gcomneno/vscode-bitbake/commit/d1fb7055c584109303f02ea8feb252cc65a25116)
+- **2026-08-06** · `vscode-bitbake` · **Sviluppo:** [optim: defer recipe-local discovery to completion](https://github.com/gcomneno/vscode-bitbake/commit/485eccf9674c3029b35a5b8f05c0e527cd4caf12)
+- **2026-08-06** · `lele-manager` · **Funzionalità:** [import PKPS lesson packages](https://github.com/gcomneno/lele-manager/commit/62f0b7beb8aa52cbb6d316ebf0ae60cf797aad62)
+- **2026-08-06** · `system-log-dynamics` · **Release:** [System Log Dynamics 0.1.0](https://github.com/gcomneno/system-log-dynamics/releases/tag/v0.1.0)
+- **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add plain-language analysis summary (#29)](https://github.com/gcomneno/system-log-dynamics/commit/8a8ea50c9e5191fa3fb4264eedbb2fcc5fe30271)
+- **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add privacy-safe local journal acquisition (#23)](https://github.com/gcomneno/system-log-dynamics/commit/56e7fd43edcd275801101e75dc31c64e0e693199)
+- **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add file-based CLI orchestration (#22)](https://github.com/gcomneno/system-log-dynamics/commit/bba3efbc5ec7201eb8610eec251766b1dcf43fa0)
+- **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add deterministic Markdown reporting (#21)](https://github.com/gcomneno/system-log-dynamics/commit/4e873ac83239b89b05286e6f14be7972d8fb53c2)
+- **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add reproducible routine versus boot burst experiment (#20)](https://github.com/gcomneno/system-log-dynamics/commit/7243e6683a3dd167223788937793327710e943fa)
+- **2026-08-05** · `smart-file-organizer` · **Release:** [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0)
+- **2026-08-05** · `atelier-kit` · **Sviluppo:** [architecture: generalize structured long-form reading (#237)](https://github.com/gcomneno/atelier-kit/commit/c4e31e7f6b630a0a9387f61e5a73961e0880e322)
 - **2026-08-05** · `atelier-kit` · **Sviluppo:** [noop](https://github.com/gcomneno/atelier-kit/commit/9884bd5c3c35be16a8a685c2e41c720036b69ce3)
 - **2026-08-05** · `reference-engine` · **Sviluppo:** [Persist immutable document bindings (#55)](https://github.com/gcomneno/reference-engine/commit/cb1f6bce52ddfb3097ac09049b75bb9d56484233)
 - **2026-08-05** · `atelier-kit` · **Funzionalità:** [adopt Giada UI editable-list primitives (#233)](https://github.com/gcomneno/atelier-kit/commit/a95611050c21e70cf76ea468beb463c441c09f0a)
@@ -219,24 +235,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-07-31** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [research: add rolling frequency backtest CLI](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d8b7ac99423cf5ea1577f3a14910c18dfe16ce93)
 - **2026-07-31** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [research: add rolling frequency backtest engine](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/8cc26e0af384acd7e7de4e165f019c32d2f7bb5f)
 - **2026-07-31** · `system-log-dynamics` · **Funzionalità:** [add validated event symbol encoding (#6)](https://github.com/gcomneno/system-log-dynamics/commit/a5f89bfc40598a987910f603dd17e4c7f70bf1c4)
-- **2026-07-31** · `system-log-dynamics` · **Funzionalità:** [add deterministic event classification (#4)](https://github.com/gcomneno/system-log-dynamics/commit/10aba9fdda63ae5721e04012e586b896f7274f21)
-- **2026-07-31** · `lele-manager` · **Documentazione:** [establish English-canonical bilingual documentation (#136)](https://github.com/gcomneno/lele-manager/commit/490a327cb39231afd8ba261afa3a0346195ccc27)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Release:** [v1.1.0 — Historical occurrence tracing](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.1.0)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [trace historical occurrences from a reference draw](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6b00795f5532fbdb9299e29d378e69ae63d3a0b7)
-- **2026-07-31** · `giadaware-ui-components` · **Funzionalità:** [add FormActions primitive (#26)](https://github.com/gcomneno/giadaware-ui-components/commit/d26e9d18deb73ff13be7098ab8a135b199134dd3)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Release:** [Lotto Digit Coverage Dynamics v1.0.0 — First public release](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.0.0)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Documentazione:** [add MIT license](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/2af294ef7ed14f16bcab094c4a09a05fb3ab30c2)
-- **2026-07-31** · `gyte` · **Release:** [GYTE v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1)
-- **2026-07-31** · `gyte` · **Correzione:** [resolve repository root through symlinks](https://github.com/gcomneno/gyte/commit/a1744245f69502559197a8eb5f0ce92dfa80b8c2)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [highlight selected Lotto numbers](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bd2ce14a48644a4441f83ba8d52868e24dff10ae)
-- **2026-07-30** · `system-log-dynamics` · **Funzionalità:** [add journal JSON Lines parser (#2)](https://github.com/gcomneno/system-log-dynamics/commit/5e16e3a801dce6bb3ec016d7b58fd0068d0097fd)
-- **2026-07-30** · `digit-probe` · **Sviluppo:** [Scope compression reporting to compressibility (#19)](https://github.com/gcomneno/digit-probe/commit/eff9ee8fcb3909b811f1fbfefcb9ce914a8df524)
-- **2026-07-30** · `digit-probe` · **Sviluppo:** [Report empirical n-gram majority baseline (#18)](https://github.com/gcomneno/digit-probe/commit/69a0efdf29c7bc25d8223a179c1a8085f21d3f9f)
-- **2026-07-30** · `digit-probe` · **Sviluppo:** [Clarify SchurProbe first-match semantics (#17)](https://github.com/gcomneno/digit-probe/commit/55e3eae4c55017703e023c1aaac0838b873482db)
-- **2026-07-30** · `digit-probe` · **Documentazione:** [add Digit-Probe interpretation lesson](https://github.com/gcomneno/digit-probe/commit/b98559e6893bd46e8c50d449d8242499f376564a)
-- **2026-07-30** · `digit-probe` · **Funzionalità:** [add importable public API (#13)](https://github.com/gcomneno/digit-probe/commit/892ac50b205e4c9c075a1abd985725d8f8707be3)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 624 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 641 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
