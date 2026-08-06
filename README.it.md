@@ -131,14 +131,23 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-04** · `lele-manager` · **Release:** [LeLe Manager 1.10.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.0)
-- **2026-08-04** · `lele-manager` · **Sviluppo:** [Release LeLe Manager 1.10.0 (#146)](https://github.com/gcomneno/lele-manager/commit/a00d01177cce7bba06b3089aed5ca9d7aa144c20)
-- **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [add explainable evidence engine (#77)](https://github.com/gcomneno/smart-file-organizer/commit/124b63b377bb6e43eb8e678ea88e38de960be2dc)
-- **2026-08-04** · `lele-manager` · **Sviluppo:** [Update vulnerable frontend dependencies (#144)](https://github.com/gcomneno/lele-manager/commit/c34a6149f51751dc1a5ebeb0a00d9d8f038d1c43)
+- **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add deterministic Markdown reporting (#21)](https://github.com/gcomneno/system-log-dynamics/commit/4e873ac83239b89b05286e6f14be7972d8fb53c2)
+- **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add reproducible routine versus boot burst experiment (#20)](https://github.com/gcomneno/system-log-dynamics/commit/7243e6683a3dd167223788937793327710e943fa)
+- **2026-08-05** · `smart-file-organizer` · **Release:** [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0)
+- **2026-08-05** · `atelier-kit` · **Sviluppo:** [architecture: generalize structured long-form reading (#237)](https://github.com/gcomneno/atelier-kit/commit/c4e31e7f6b630a0a9387f61e5a73961e0880e322)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-05** · `atelier-kit` · **Sviluppo:** [noop](https://github.com/gcomneno/atelier-kit/commit/9884bd5c3c35be16a8a685c2e41c720036b69ce3)
+- **2026-08-05** · `reference-engine` · **Sviluppo:** [Persist immutable document bindings (#55)](https://github.com/gcomneno/reference-engine/commit/cb1f6bce52ddfb3097ac09049b75bb9d56484233)
+- **2026-08-05** · `atelier-kit` · **Funzionalità:** [adopt Giada UI editable-list primitives (#233)](https://github.com/gcomneno/atelier-kit/commit/a95611050c21e70cf76ea468beb463c441c09f0a)
+- **2026-08-05** · `giadaware-ui-components` · **Funzionalità:** [add editable-list primitives (#31)](https://github.com/gcomneno/giadaware-ui-components/commit/b088653cba3c940ff6b4baf3b396a109cb04e8b7)
+- **2026-08-05** · `smart-file-organizer` · **Funzionalità:** [add manifest verification and recovery planning (#78)](https://github.com/gcomneno/smart-file-organizer/commit/f4755c5e95a6fe2a99b2011a047e5bff907e45c1)
+- **2026-08-04** · `lele-manager` · **Release:** [LeLe Manager 1.10.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.0)
+- **2026-08-04** · `lele-manager` · **Sviluppo:** [Release LeLe Manager 1.10.0 (#146)](https://github.com/gcomneno/lele-manager/commit/a00d01177cce7bba06b3089aed5ca9d7aa144c20)
+- **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [add explainable evidence engine (#77)](https://github.com/gcomneno/smart-file-organizer/commit/124b63b377bb6e43eb8e678ea88e38de960be2dc)
+- **2026-08-04** · `lele-manager` · **Sviluppo:** [Update vulnerable frontend dependencies (#144)](https://github.com/gcomneno/lele-manager/commit/c34a6149f51751dc1a5ebeb0a00d9d8f038d1c43)
 - **2026-08-04** · `lele-manager` · **Sviluppo:** [Fix release artifacts to include the compiled GUI (#143)](https://github.com/gcomneno/lele-manager/commit/379b068ab723aded5e67827a13f39d113bedda92)
 - **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt Giada UI Panel and Surface (#230)](https://github.com/gcomneno/atelier-kit/commit/7db4c5e6f4da184c3f4726b86f48d0d8ba813a8c)
 - **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [define public Python API (#76)](https://github.com/gcomneno/smart-file-organizer/commit/312c973beaf78fba5a8c5a763e2e0f636cc39e8b)
@@ -226,17 +235,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-07-30** · `digit-probe` · **Sviluppo:** [Clarify SchurProbe first-match semantics (#17)](https://github.com/gcomneno/digit-probe/commit/55e3eae4c55017703e023c1aaac0838b873482db)
 - **2026-07-30** · `digit-probe` · **Documentazione:** [add Digit-Probe interpretation lesson](https://github.com/gcomneno/digit-probe/commit/b98559e6893bd46e8c50d449d8242499f376564a)
 - **2026-07-30** · `digit-probe` · **Funzionalità:** [add importable public API (#13)](https://github.com/gcomneno/digit-probe/commit/892ac50b205e4c9c075a1abd985725d8f8707be3)
-- **2026-07-29** · `digit-probe` · **Funzionalità:** [add installable digit-probe CLI (#9)](https://github.com/gcomneno/digit-probe/commit/36c07952381111134ead7bdba01f52adf5b65d84)
-- **2026-07-29** · `digit-probe` · **Sviluppo:** [Fix Gitleaks pull request authentication (#11)](https://github.com/gcomneno/digit-probe/commit/4872090fe0a670ff33ced4d2bfa38941d45c3c05)
-- **2026-07-29** · `lotto-digit-coverage-dynamics` · **Correzione:** [allow repeated digits in transversal numbers](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6932af06711c4e49fa4d4510387327ae715e3bec)
-- **2026-07-29** · `lotto-digit-coverage-dynamics` · **Correzione:** [restrict transversal missing digits to top Markov group](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/60a048a5ab88b2a08503814482ba3f525f2bee98)
-- **2026-07-29** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add unified CLI and transversal coverage summary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bf2570472b29e92a734990a744e1ee8871ddc69d)
-- **2026-07-29** · `lotto-digit-coverage-dynamics` · **Documentazione:** [add complete Italian documentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/cebd2c1511b87fb0babf3aeecd050193fd068d2b)
-- **2026-07-29** · `digit-probe` · **Documentazione:** [remove deleted C++ bucketizer reference](https://github.com/gcomneno/digit-probe/commit/6ee4b9c6efc115ea0ba1202c23d659f1adb0551c)
-- **2026-07-29** · `kleis-corso-sviluppo-software` · **Novità:** [add mini ecommerce planning foundation](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/1d63c5ef6409fafae800e05d3680f7072cb2547c)
-- **2026-07-29** · `kleis-corso-sviluppo-software` · **Documentazione:** [add mini ecommerce planning foundation](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a4d3a4d9313d4bfc466d8752db586aea0470563d)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 621 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 624 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
