@@ -156,14 +156,18 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-07** · `pkps` · **Docs:** [define provenance boundary](https://github.com/gcomneno/pkps/commit/90e2f812377d4a9f31c83b9392b575e2b24f2548)
-- **2026-08-07** · `atelier-kit` · **Fix:** [preserve item fields on edit (#245)](https://github.com/gcomneno/atelier-kit/commit/63703cf2c71da844aa749d8f6b6c84af29b8e4f6)
-- **2026-08-07** · `pkps` · **Docs:** [define canonical logical paths](https://github.com/gcomneno/pkps/commit/5d46e8f6452276122d6e9d012b5a5df34ae31530)
-- **2026-08-07** · `pkps` · **Docs:** [define package release digest](https://github.com/gcomneno/pkps/commit/1a126a53a2f7d03c26d8d363d016cf3055738fbe)
+- **2026-08-07** · `atelier-kit` · **Development:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/e7dc576a0a8b80dc27dccef9eaee85569bb2c06c)
+- **2026-08-07** · `atelier-kit` · **Development:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/8a5760fed0da59df8d73b954140ca7e4767425e3)
+- **2026-08-07** · `atelier-kit` · **Development:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/053ca2f96a30f19b1e11d6ee80894566367d68fc)
+- **2026-08-07** · `atelier-kit` · **Development:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/cbaa19481fdfe218808bbdadd4b3a0355d261793)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-07** · `pkps` · **Docs:** [define provenance boundary](https://github.com/gcomneno/pkps/commit/90e2f812377d4a9f31c83b9392b575e2b24f2548)
+- **2026-08-07** · `atelier-kit` · **Fix:** [preserve item fields on edit (#245)](https://github.com/gcomneno/atelier-kit/commit/63703cf2c71da844aa749d8f6b6c84af29b8e4f6)
+- **2026-08-07** · `pkps` · **Docs:** [define canonical logical paths](https://github.com/gcomneno/pkps/commit/5d46e8f6452276122d6e9d012b5a5df34ae31530)
+- **2026-08-07** · `pkps` · **Docs:** [define package release digest](https://github.com/gcomneno/pkps/commit/1a126a53a2f7d03c26d8d363d016cf3055738fbe)
 - **2026-08-07** · `pkps` · **Docs:** [define manifest extension policy](https://github.com/gcomneno/pkps/commit/12963e3e9d5708363db2b13c6d8ec7d48afcbf11)
 - **2026-08-07** · `pkps` · **Docs:** [define protocol versioning](https://github.com/gcomneno/pkps/commit/32e3d416ff56db4a88cb1c7d9b5a08fffb8e89d8)
 - **2026-08-07** · `lele-manager` · **Feature:** [complete GUI localization (#158)](https://github.com/gcomneno/lele-manager/commit/7c16b9c5153e448ef3cb81070b103f9280e7840c)
@@ -256,12 +260,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Track completed Lotto historical databases](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1b0203c6b75082aad29fc443780826d6fed0a74c)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add sortable coverage hit reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/61e2c95a40c001196736be76460de0cfafecf7de)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add CSV export for coverage hits](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5a38fcb81910785fee84597ea659c7e94bec210c)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add coverage hit statistics](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e5eb5550231042ab747770516e14022cd6e0f77e)
-- **2026-08-01** · `smart-file-organizer` · **Fix:** [ignore incidental paths in content matching (#74)](https://github.com/gcomneno/smart-file-organizer/commit/ce68dbe2d4c74cd7a5d070645651b6e72e75fdd9)
-- **2026-08-01** · `smart-file-organizer` · **Docs:** [record approved evolution architecture (#73)](https://github.com/gcomneno/smart-file-organizer/commit/0ac3e438925ec8d04c454cd54425e86e36b69a16)
-- **2026-08-01** · `lele-manager` · **Feature:** [add duplicate review workflow (#138)](https://github.com/gcomneno/lele-manager/commit/a7b7e7f0a7608402bb4e65b4f9920454b47a789d)
 
-_Showing the 100 most recent meaningful updates; 664 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 667 older update(s) omitted._
 
 </details>
 
