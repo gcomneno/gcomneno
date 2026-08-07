@@ -156,20 +156,27 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-06** · `web` · **Documentazione:** [migrate Laravel lessons 19-21 to bilingual pairs](https://github.com/gcomneno/web/commit/b3a1474f99f48e93a91377f38bd9a9f70bf7eef2)
-- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 21 delete project flow](https://github.com/gcomneno/web/commit/2e3608157ada1bec463b1c7e8d11b3b46c9ff00b)
-- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 20 Eloquent ordering](https://github.com/gcomneno/web/commit/3e0c1662a7b9c0718d1d2c895784ad52125aaad5)
-- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 19 project listing](https://github.com/gcomneno/web/commit/267616199ba00bda5ba5b144fabb54b7ee45554c)
+- **2026-08-07** · `physics-study` · **Documentazione:** [add finite speed of light lesson](https://github.com/gcomneno/physics-study/commit/4791d9fdeb284ce685862653602b439df6c3d61b)
+- **2026-08-07** · `gyte-study-tools` · **Correzione:** [prefer original caption language](https://github.com/gcomneno/gyte-study-tools/commit/a02a21d4a0414f913824ccc2480b7dcb81476edc)
+- **2026-08-07** · `gyte-study-tools` · **Correzione:** [enforce transcript extraction postcondition](https://github.com/gcomneno/gyte-study-tools/commit/ed793391719f2b290d3bee0a3b798d01c96812a4)
+- **2026-08-07** · `gyte` · **Correzione:** [fail when transcript extraction produces no output (#51)](https://github.com/gcomneno/gyte/commit/a4cd987e1bd9ca8d9c1d784c6e2b599d20473768)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-06** · `web` · **Documentazione:** [migrate Laravel lessons 19-21 to bilingual pairs](https://github.com/gcomneno/web/commit/b3a1474f99f48e93a91377f38bd9a9f70bf7eef2)
+- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 21 delete project flow](https://github.com/gcomneno/web/commit/2e3608157ada1bec463b1c7e8d11b3b46c9ff00b)
+- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 20 Eloquent ordering](https://github.com/gcomneno/web/commit/3e0c1662a7b9c0718d1d2c895784ad52125aaad5)
+- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 19 project listing](https://github.com/gcomneno/web/commit/267616199ba00bda5ba5b144fabb54b7ee45554c)
+- **2026-08-06** · `lele-manager` · **Documentazione:** [finalize Giada UI adoption](https://github.com/gcomneno/lele-manager/commit/14d91469999448c6a1bacfc4422e4daf73cdaa7c)
 - **2026-08-06** · `pkps` · **Documentazione:** [define package release identity](https://github.com/gcomneno/pkps/commit/9ba610351ce39244627756376990ef1db28d2bff)
+- **2026-08-06** · `lele-manager` · **Funzionalità:** [extend Giada UI adoption](https://github.com/gcomneno/lele-manager/commit/f39ad4c7cec2e9c36a27bd8e53d65cb554cd5ba6)
 - **2026-08-06** · `pkps` · **Documentazione:** [record LeLe consumer baseline](https://github.com/gcomneno/pkps/commit/89a4e3581740e135d2878fd07c6d01d32dcfe8b4)
 - **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add deterministic taxonomy coverage](https://github.com/gcomneno/system-log-dynamics/commit/324f636935425a49f3cb89818cc63c9b188f8e58)
 - **2026-08-06** · `pkps` · **Documentazione:** [establish PKPS phase 0 baseline](https://github.com/gcomneno/pkps/commit/e64bbc5d0636941bd924f2d061fd30cc00a3713a)
 - **2026-08-06** · `atelier-kit` · **Refactoring:** [complete ReorderActions adoption (#243)](https://github.com/gcomneno/atelier-kit/commit/34affc82d6908fea7ad5aa2c3ba72299028fe925)
 - **2026-08-06** · `pkps` · **Documentazione:** [initialize PKPS repository](https://github.com/gcomneno/pkps/commit/f1146941149083dbd5ce330db4527e3406728f7a)
+- **2026-08-06** · `lele-manager` · **Funzionalità:** [adopt Giada UI foundations](https://github.com/gcomneno/lele-manager/commit/4f54de876f05c87bc890ce0a03825426820cd3f7)
 - **2026-08-06** · `lele-manager` · **Documentazione:** [clarify PKPS consumer boundary](https://github.com/gcomneno/lele-manager/commit/f6e261d21e65cf49dcc8ff520b87052f06448329)
 - **2026-08-06** · `vscode-bitbake` · **Sviluppo:** [npm: minor version updates](https://github.com/gcomneno/vscode-bitbake/commit/3156bceebf86127ac64948625b1c279b5b7edb4d)
 - **2026-08-06** · `vscode-bitbake` · **Correzione:** [clean up recipe-local stream handling](https://github.com/gcomneno/vscode-bitbake/commit/0d1d6ffae4b2552f33448b6fabe1feb664aeea55)
@@ -178,6 +185,7 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-06** · `lele-manager` · **Funzionalità:** [import PKPS lesson packages](https://github.com/gcomneno/lele-manager/commit/62f0b7beb8aa52cbb6d316ebf0ae60cf797aad62)
 - **2026-08-06** · `system-log-dynamics` · **Release:** [System Log Dynamics 0.1.0](https://github.com/gcomneno/system-log-dynamics/releases/tag/v0.1.0)
 - **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add plain-language analysis summary (#29)](https://github.com/gcomneno/system-log-dynamics/commit/8a8ea50c9e5191fa3fb4264eedbb2fcc5fe30271)
+- **2026-08-06** · `lele-manager` · **Funzionalità:** [establish LeLe Manager brand design system](https://github.com/gcomneno/lele-manager/commit/ebb35650744f7511b52d8b84e5b991bf9d039efe)
 - **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add privacy-safe local journal acquisition (#23)](https://github.com/gcomneno/system-log-dynamics/commit/56e7fd43edcd275801101e75dc31c64e0e693199)
 - **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add file-based CLI orchestration (#22)](https://github.com/gcomneno/system-log-dynamics/commit/bba3efbc5ec7201eb8610eec251766b1dcf43fa0)
 - **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add deterministic Markdown reporting (#21)](https://github.com/gcomneno/system-log-dynamics/commit/4e873ac83239b89b05286e6f14be7972d8fb53c2)
@@ -194,9 +202,11 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [add explainable evidence engine (#77)](https://github.com/gcomneno/smart-file-organizer/commit/124b63b377bb6e43eb8e678ea88e38de960be2dc)
 - **2026-08-04** · `lele-manager` · **Sviluppo:** [Update vulnerable frontend dependencies (#144)](https://github.com/gcomneno/lele-manager/commit/c34a6149f51751dc1a5ebeb0a00d9d8f038d1c43)
 - **2026-08-04** · `lele-manager` · **Sviluppo:** [Fix release artifacts to include the compiled GUI (#143)](https://github.com/gcomneno/lele-manager/commit/379b068ab723aded5e67827a13f39d113bedda92)
+- **2026-08-04** · `gyte-study-tools` · **Funzionalità:** [add restartable Kindle delivery handoff](https://github.com/gcomneno/gyte-study-tools/commit/0485473ee58d5835a96b2bb4b47629ea216e331e)
 - **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt Giada UI Panel and Surface (#230)](https://github.com/gcomneno/atelier-kit/commit/7db4c5e6f4da184c3f4726b86f48d0d8ba813a8c)
 - **2026-08-04** · `smart-file-organizer` · **Funzionalità:** [define public Python API (#76)](https://github.com/gcomneno/smart-file-organizer/commit/312c973beaf78fba5a8c5a763e2e0f636cc39e8b)
 - **2026-08-04** · `atelier-kit` · **Sviluppo:** [revert: remove accidental issue 223 placeholder](https://github.com/gcomneno/atelier-kit/commit/a22170cc6de952ecfc13ba736d163d18729243fe)
+- **2026-08-04** · `gyte-study-tools` · **Funzionalità:** [ingest articles into study workspaces](https://github.com/gcomneno/gyte-study-tools/commit/6a68cfaa3d6d34b2bd5d08b1bea1f0b1b697f2b6)
 - **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt Giada UI FieldLabel adapter (#229)](https://github.com/gcomneno/atelier-kit/commit/580a97bf153a6c92b775c9a8a1c3841cd8b507e6)
 - **2026-08-04** · `lele-manager` · **Documentazione:** [complete GUI guide and packaging decision (#140)](https://github.com/gcomneno/lele-manager/commit/7b6b3bc0bf56548444955b2b18b3b00b767a639c)
 - **2026-08-04** · `atelier-kit` · **Funzionalità:** [adopt PageIntro and FormActions (#228)](https://github.com/gcomneno/atelier-kit/commit/a72ec91f7a514a1a7bec2eb84958e0df80f96e74)
@@ -206,6 +216,10 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-04** · `system-design-study` · **Documentazione:** [establish bilingual documentation foundation (#2)](https://github.com/gcomneno/system-design-study/commit/38cea8b0fc14f564b7bbfad85bb5c019e75075da)
 - **2026-08-04** · `distributed-systems-study` · **Documentazione:** [establish bilingual documentation foundation (#3)](https://github.com/gcomneno/distributed-systems-study/commit/13a7c5eea974fb01d5efb72f0fe5469a19f6b372)
 - **2026-08-03** · `web` · **Documentazione:** [migrate Laravel Lab README and harden validation (#2)](https://github.com/gcomneno/web/commit/7549ece7265ac987fe4f13770b6cffc760b20fdd)
+- **2026-08-03** · `gyte-study-tools` · **Release:** [version 0.4.0](https://github.com/gcomneno/gyte-study-tools/commit/3f64176cb8304a80da6577de250f70aac887e749)
+- **2026-08-03** · `gyte-study-tools` · **Funzionalità:** [publish validated Lesson Learned editions](https://github.com/gcomneno/gyte-study-tools/commit/e5ba34d23c4abee78288be43708771bfa14e4a48)
+- **2026-08-03** · `gyte-study-tools` · **Funzionalità:** [prepare restartable transcript analysis](https://github.com/gcomneno/gyte-study-tools/commit/20dcadbad40fdc6de7cedc65c96aa421e854a86c)
+- **2026-08-03** · `gyte-study-tools` · **Funzionalità:** [inspect YouTube videos and prepare workspaces](https://github.com/gcomneno/gyte-study-tools/commit/d1b22c7c0451b5a6d9b4b600027668987d7cc1d9)
 - **2026-08-03** · `web` · **Documentazione:** [establish bilingual documentation foundation (#1)](https://github.com/gcomneno/web/commit/d33e63eeee5b509e4abb8e7e4b311c15441664f9)
 - **2026-08-03** · `oop-in-c-lab` · **Sviluppo:** [Document bilingual contribution policy (#9)](https://github.com/gcomneno/oop-in-c-lab/commit/c304c410d4642822a10edc42f9d8c009f8dd1f74)
 - **2026-08-03** · `oop-in-c-lab` · **Sviluppo:** [Add checked downcasting with runtime type identity (#8)](https://github.com/gcomneno/oop-in-c-lab/commit/8e77285c66b6d7ee5ee3a16871571103b42ae7bb)
@@ -246,22 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-01** · `smart-file-organizer` · **Release:** [v0.4.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.4.0)
 - **2026-08-01** · `smart-file-organizer` · **Funzionalità:** [add ordinary-user installation and release path (#58)](https://github.com/gcomneno/smart-file-organizer/commit/e5c644ebac1c2f98c59a1695906ee10bfb17ca63)
 - **2026-08-01** · `smart-file-organizer` · **Funzionalità:** [clarify classification overrides and reasons (#57)](https://github.com/gcomneno/smart-file-organizer/commit/8b01cd49473423a4b09fa2228f0d4eb971ef35ba)
-- **2026-08-01** · `smart-file-organizer` · **Correzione:** [harden content-inspection failure handling (#56)](https://github.com/gcomneno/smart-file-organizer/commit/dbd0e6ced165c3a8cb13a9e80ab6b8e0ddb1b5c1)
-- **2026-08-01** · `smart-file-organizer` · **Correzione:** [define symlink and hidden-file policy (#55)](https://github.com/gcomneno/smart-file-organizer/commit/9dee55eecd2accfcc3a619875ed0d279084bf903)
-- **2026-08-01** · `lele-manager` · **Funzionalità:** [integrate vault doctor (#137)](https://github.com/gcomneno/lele-manager/commit/db1e7e22d1cccdd090af7d3d4a4b8e85ba9342f8)
-- **2026-08-01** · `smart-file-organizer` · **Correzione:** [make apply failure-aware and recoverable (#54)](https://github.com/gcomneno/smart-file-organizer/commit/6bf3b884122907db6c0758c4feec8953fe753429)
-- **2026-08-01** · `giadaware-ui-components` · **Funzionalità:** [add FieldLabel presentation primitive (#29)](https://github.com/gcomneno/giadaware-ui-components/commit/8a5144c88b317be7849f019c17099d59b8aa0a10)
-- **2026-08-01** · `smart-file-organizer` · **Correzione:** [enforce source and destination path invariants (#53)](https://github.com/gcomneno/smart-file-organizer/commit/6a59f8b6f5a6434ed5c8432c6710e6150773b239)
-- **2026-08-01** · `ubuntu-system-tools` · **Funzionalità:** [add offline audio transcription tool (#34)](https://github.com/gcomneno/ubuntu-system-tools/commit/384e171e7032145e6abef5a92ea3060816ef155a)
-- **2026-08-01** · `system-log-dynamics` · **Funzionalità:** [add structured analysis window comparisons (#19)](https://github.com/gcomneno/system-log-dynamics/commit/51398545ce16a1b7c6c2d6141ee4c2c29ccaaead)
-- **2026-08-01** · `giadaware-ui-components` · **Funzionalità:** [add neutral Surface primitive (#28)](https://github.com/gcomneno/giadaware-ui-components/commit/162d8d74387bdc2281d6be4f17fa0c2d51c225e8)
-- **2026-08-01** · `system-log-dynamics` · **Funzionalità:** [add deterministic temporal burst summaries (#18)](https://github.com/gcomneno/system-log-dynamics/commit/5078744f6fe1deeb0b8194e91a7ec9e989af6e7f)
-- **2026-08-01** · `giadaware-ui-components` · **Funzionalità:** [add semantic Panel primitive (#27)](https://github.com/gcomneno/giadaware-ui-components/commit/aadd02f43294b29b5eb1d6fe11bd81abf629d6d9)
-- **2026-08-01** · `system-log-dynamics` · **Funzionalità:** [add reproducible analysis manifests (#10)](https://github.com/gcomneno/system-log-dynamics/commit/ffc4c98f05baf866cd1d6a4c05988768f53e5c35)
-- **2026-07-31** · `system-log-dynamics` · **Funzionalità:** [add validated Digit-Probe analysis boundary (#8)](https://github.com/gcomneno/system-log-dynamics/commit/ae83cf0fe25b7c5d6ad14ef1d1d5de42bf00e639)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [research: backtest rolling most-frequent digit windows (#4)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6e2df3d6a35dee57346abadcfeb6331e674df498)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 642 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 656 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
