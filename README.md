@@ -56,11 +56,35 @@ Earlier professional experience includes PHP and Laravel; my current public work
 
 ## <code>02 · OPEN SOURCE ENGINEERING</code>
 
-My open-source work focuses on small, reviewable changes grounded in real project needs, supported by tests, documentation and reproducible evidence.
+I contribute upstream by starting from real project problems: reproduce the behavior, bound the change, add tests and carry the patch through the project's review process.
 
-Current upstream contribution:
+### Yocto Project · `vscode-bitbake`
 
-- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+VS Code extension and language tooling for working with **BitBake and Yocto Project**.
+
+Upstream: [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) · Fork: [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+
+| What I contributed | What it demonstrates |
+| --- | --- |
+| Fixed recipe-local file discovery by bounding recursive scans and adding cancellation, caching and lazy loading | Debugging in an existing codebase, performance, concurrency/cancellation and non-regression testing |
+| Simplified the BitBake configuration-selection flow and corrected status-bar updates | Conservative refactoring, characterization tests and coherent UI state management |
+| Evolved the integration-test workspace toward `bitbake-setup` and Yocto 6.0 | Linux/Yocto, reproducible integration environments and test-infrastructure maintenance |
+| Updated npm dependencies in a controlled way, reducing vulnerabilities without changing declared ranges | Dependency maintenance, security hygiene and layered validation |
+
+<details>
+<summary>Selected merged upstream pull requests</summary>
+
+- [#541 — npm: minor version updates](https://github.com/yoctoproject/vscode-bitbake/pull/541)
+- [#538 — Fix unbounded recipe-local file discovery](https://github.com/yoctoproject/vscode-bitbake/pull/538)
+- [#535 — test: create integration workspace with bitbake-setup](https://github.com/yoctoproject/vscode-bitbake/pull/535)
+- [#533 — refactor: simplify BitBake config picker flow](https://github.com/yoctoproject/vscode-bitbake/pull/533)
+- [#532 — fix: update status bar after picking config by name](https://github.com/yoctoproject/vscode-bitbake/pull/532)
+- [#527 — docs: fetch Yocto 6.0 documentation resources](https://github.com/yoctoproject/vscode-bitbake/pull/527)
+- [#526 — fix: keep parse-on-save scans quiet on config errors](https://github.com/yoctoproject/vscode-bitbake/pull/526)
+- [#524 — test: fetch split Yocto 6.0 repositories](https://github.com/yoctoproject/vscode-bitbake/pull/524)
+- [#521 — fix(ui): hide toaster commands in eSDK mode](https://github.com/yoctoproject/vscode-bitbake/pull/521)
+
+</details>
 
 <details>
 <summary>Previously contributed — Canonical Craft ecosystem</summary>
@@ -183,7 +207,7 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-03** · `web` · **Docs:** [migrate Laravel Lab README and harden validation (#2)](https://github.com/gcomneno/web/commit/7549ece7265ac987fe4f13770b6cffc760b20fdd)
 - **2026-08-03** · `web` · **Docs:** [establish bilingual documentation foundation (#1)](https://github.com/gcomneno/web/commit/d33e63eeee5b509e4abb8e7e4b311c15441664f9)
 - **2026-08-03** · `oop-in-c-lab` · **Development:** [Document bilingual contribution policy (#9)](https://github.com/gcomneno/oop-in-c-lab/commit/c304c410d4642822a10edc42f9d8c009f8dd1f74)
-- **2026-08-03** · `oop-in-c-lab` · **Development:** [Add checked downcasting with runtime type identity (#8)](https://github.com/gcomneno/oop-in-c-lab/commit/8e77285c66b6d7ee5ee3a16871571103b42ae7bb)
+- **2026-08-03** · `oop-in-c-lab` · **Development:** [Add checked downcasting with runtime type identity (#8)](https://github.com/gcomneno/oop-in-c-lab/commit/8e77285c66b6bb6567209275b78cd6ae3ccbfc2)
 - **2026-08-03** · `oop-in-c-lab` · **Development:** [Add opaque pointer experiment and standalone lesson (#6)](https://github.com/gcomneno/oop-in-c-lab/commit/1b2ad8e5c195a1c093e55dbce5ffb237ccdf0841)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add evidence-adjusted current coverage signal](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/421a5eb3b0baa7219ca4cf63be56ed74e91f7a89)
 - **2026-08-02** · `.github` · **Development:** [Add default GitHub Sponsors funding configuration](https://github.com/gcomneno/.github/commit/c3058a30de40fab4adf61bf126e3f098b01f3d8c)
