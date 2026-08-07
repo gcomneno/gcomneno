@@ -56,11 +56,35 @@ La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubb
 
 ## <code>02 · INGEGNERIA OPEN SOURCE</code>
 
-Il mio lavoro open source si concentra su modifiche piccole e revisionabili, fondate su esigenze reali e sostenute da test, documentazione ed evidenze riproducibili.
+Contribuisco upstream partendo da problemi reali del progetto: riproduco il comportamento, delimito la modifica, aggiungo test e porto la patch attraverso il processo di review del progetto.
 
-Contributo upstream attuale:
+### Yocto Project · `vscode-bitbake`
 
-- [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) → [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+Estensione VS Code e language tooling per lavorare con **BitBake e Yocto Project**.
+
+Upstream: [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-bitbake) · Fork: [gcomneno/vscode-bitbake](https://github.com/gcomneno/vscode-bitbake)
+
+| Cosa ho contribuito | Cosa dimostra |
+| --- | --- |
+| Correzioni alla discovery dei file recipe-local, limitando le scansioni ricorsive e introducendo cancellazione, caching e caricamento lazy | Debugging su codebase esistente, performance, concorrenza/cancellazione e non-regression testing |
+| Semplificazione del flusso di selezione delle configurazioni BitBake e correzione dell'aggiornamento della status bar | Refactoring conservativo, characterization test e gestione coerente dello stato UI |
+| Evoluzione del workspace di integration test verso `bitbake-setup` e Yocto 6.0 | Linux/Yocto, ambienti di integrazione riproducibili e manutenzione dell'infrastruttura di test |
+| Aggiornamento controllato delle dipendenze npm, riducendo le vulnerabilità senza modificare i range dichiarati | Dependency maintenance, security hygiene e validazione multilivello |
+
+<details>
+<summary>Pull request upstream selezionate e integrate</summary>
+
+- [#541 — npm: minor version updates](https://github.com/yoctoproject/vscode-bitbake/pull/541)
+- [#538 — Fix unbounded recipe-local file discovery](https://github.com/yoctoproject/vscode-bitbake/pull/538)
+- [#535 — test: create integration workspace with bitbake-setup](https://github.com/yoctoproject/vscode-bitbake/pull/535)
+- [#533 — refactor: simplify BitBake config picker flow](https://github.com/yoctoproject/vscode-bitbake/pull/533)
+- [#532 — fix: update status bar after picking config by name](https://github.com/yoctoproject/vscode-bitbake/pull/532)
+- [#527 — docs: fetch Yocto 6.0 documentation resources](https://github.com/yoctoproject/vscode-bitbake/pull/527)
+- [#526 — fix: keep parse-on-save scans quiet on config errors](https://github.com/yoctoproject/vscode-bitbake/pull/526)
+- [#524 — test: fetch split Yocto 6.0 repositories](https://github.com/yoctoproject/vscode-bitbake/pull/524)
+- [#521 — fix(ui): hide toaster commands in eSDK mode](https://github.com/yoctoproject/vscode-bitbake/pull/521)
+
+</details>
 
 <details>
 <summary>Contributi precedenti — ecosistema Canonical Craft</summary>
