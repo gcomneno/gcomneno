@@ -24,12 +24,12 @@
 
 Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione backend, automazione affidabile, strumenti per sviluppatori e flussi software riproducibili.
 
-| Progetto | Cosa dimostra |
-| --- | --- |
-| [LeLe Manager](https://github.com/gcomneno/lele-manager) | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili e operazioni recuperabili |
-| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Estrazione deterministica, validazione, provenienza, interrogazione e confini persistenti del repository |
-| [GYTE](https://github.com/gcomneno/gyte) | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
+| Progetto | Cosa fa | Cosa dimostra |
+| --- | --- | --- |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Analizza i file, mostra in anteprima un piano di organizzazione e li sposta solo su richiesta esplicita | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili e operazioni recuperabili |
+| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Estrae, valida, traccia la provenienza e rende interrogabili informazioni da documenti personali di riferimento | Estrazione deterministica, validazione, provenienza, interrogazione e confini persistenti del repository |
+| [GYTE](https://github.com/gcomneno/gyte) | Estrae da YouTube trascrizioni, audio e video e supporta reflow, traduzione e trascrizione locale dei contenuti | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
 
 <details>
 <summary>Altri progetti operativi</summary>
