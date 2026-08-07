@@ -156,14 +156,22 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-07** · `physics-study` · **Documentazione:** [add finite speed of light lesson](https://github.com/gcomneno/physics-study/commit/4791d9fdeb284ce685862653602b439df6c3d61b)
-- **2026-08-07** · `gyte-study-tools` · **Correzione:** [prefer original caption language](https://github.com/gcomneno/gyte-study-tools/commit/a02a21d4a0414f913824ccc2480b7dcb81476edc)
-- **2026-08-07** · `gyte-study-tools` · **Correzione:** [enforce transcript extraction postcondition](https://github.com/gcomneno/gyte-study-tools/commit/ed793391719f2b290d3bee0a3b798d01c96812a4)
-- **2026-08-07** · `gyte` · **Correzione:** [fail when transcript extraction produces no output (#51)](https://github.com/gcomneno/gyte/commit/a4cd987e1bd9ca8d9c1d784c6e2b599d20473768)
+- **2026-08-07** · `pkps` · **Documentazione:** [define provenance boundary](https://github.com/gcomneno/pkps/commit/90e2f812377d4a9f31c83b9392b575e2b24f2548)
+- **2026-08-07** · `atelier-kit` · **Correzione:** [preserve item fields on edit (#245)](https://github.com/gcomneno/atelier-kit/commit/63703cf2c71da844aa749d8f6b6c84af29b8e4f6)
+- **2026-08-07** · `pkps` · **Documentazione:** [define canonical logical paths](https://github.com/gcomneno/pkps/commit/5d46e8f6452276122d6e9d012b5a5df34ae31530)
+- **2026-08-07** · `pkps` · **Documentazione:** [define package release digest](https://github.com/gcomneno/pkps/commit/1a126a53a2f7d03c26d8d363d016cf3055738fbe)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-07** · `pkps` · **Documentazione:** [define manifest extension policy](https://github.com/gcomneno/pkps/commit/12963e3e9d5708363db2b13c6d8ec7d48afcbf11)
+- **2026-08-07** · `pkps` · **Documentazione:** [define protocol versioning](https://github.com/gcomneno/pkps/commit/32e3d416ff56db4a88cb1c7d9b5a08fffb8e89d8)
+- **2026-08-07** · `lele-manager` · **Funzionalità:** [complete GUI localization (#158)](https://github.com/gcomneno/lele-manager/commit/7c16b9c5153e448ef3cb81070b103f9280e7840c)
+- **2026-08-07** · `atelier-kit` · **Funzionalità:** [make collection eyebrows configurable (#244)](https://github.com/gcomneno/atelier-kit/commit/825edbe9831d8229055fa7df1cc64b1d69253741)
+- **2026-08-07** · `physics-study` · **Documentazione:** [add finite speed of light lesson](https://github.com/gcomneno/physics-study/commit/4791d9fdeb284ce685862653602b439df6c3d61b)
+- **2026-08-07** · `gyte-study-tools` · **Correzione:** [prefer original caption language](https://github.com/gcomneno/gyte-study-tools/commit/a02a21d4a0414f913824ccc2480b7dcb81476edc)
+- **2026-08-07** · `gyte-study-tools` · **Correzione:** [enforce transcript extraction postcondition](https://github.com/gcomneno/gyte-study-tools/commit/ed793391719f2b290d3bee0a3b798d01c96812a4)
+- **2026-08-07** · `gyte` · **Correzione:** [fail when transcript extraction produces no output (#51)](https://github.com/gcomneno/gyte/commit/a4cd987e1bd9ca8d9c1d784c6e2b599d20473768)
 - **2026-08-06** · `web` · **Documentazione:** [migrate Laravel lessons 19-21 to bilingual pairs](https://github.com/gcomneno/web/commit/b3a1474f99f48e93a91377f38bd9a9f70bf7eef2)
 - **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 21 delete project flow](https://github.com/gcomneno/web/commit/2e3608157ada1bec463b1c7e8d11b3b46c9ff00b)
 - **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 20 Eloquent ordering](https://github.com/gcomneno/web/commit/3e0c1662a7b9c0718d1d2c895784ad52125aaad5)
@@ -252,16 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-01** · `smart-file-organizer` · **Correzione:** [ignore incidental paths in content matching (#74)](https://github.com/gcomneno/smart-file-organizer/commit/ce68dbe2d4c74cd7a5d070645651b6e72e75fdd9)
 - **2026-08-01** · `smart-file-organizer` · **Documentazione:** [record approved evolution architecture (#73)](https://github.com/gcomneno/smart-file-organizer/commit/0ac3e438925ec8d04c454cd54425e86e36b69a16)
 - **2026-08-01** · `lele-manager` · **Funzionalità:** [add duplicate review workflow (#138)](https://github.com/gcomneno/lele-manager/commit/a7b7e7f0a7608402bb4e65b4f9920454b47a789d)
-- **2026-08-01** · `smart-file-organizer` · **Release:** [v0.4.2](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.4.2)
-- **2026-08-01** · `smart-file-organizer` · **Correzione:** [resolve repeated rename conflict labels (#64)](https://github.com/gcomneno/smart-file-organizer/commit/211fdcfe33832681ee85751b81548c9479fa8e95)
-- **2026-08-01** · `smart-file-organizer` · **Release:** [v0.4.1](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.4.1)
-- **2026-08-01** · `atelier-kit` · **Funzionalità:** [adopt shared Button actions (#226)](https://github.com/gcomneno/atelier-kit/commit/f4e36bb4f2a2a98a1fdc63f103348789584c41c8)
-- **2026-08-01** · `smart-file-organizer` · **Funzionalità:** [align CLI output and operational docs (#59)](https://github.com/gcomneno/smart-file-organizer/commit/f66e372d06fc368c6242e4ff78a271863e085a19)
-- **2026-08-01** · `smart-file-organizer` · **Release:** [v0.4.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.4.0)
-- **2026-08-01** · `smart-file-organizer` · **Funzionalità:** [add ordinary-user installation and release path (#58)](https://github.com/gcomneno/smart-file-organizer/commit/e5c644ebac1c2f98c59a1695906ee10bfb17ca63)
-- **2026-08-01** · `smart-file-organizer` · **Funzionalità:** [clarify classification overrides and reasons (#57)](https://github.com/gcomneno/smart-file-organizer/commit/8b01cd49473423a4b09fa2228f0d4eb971ef35ba)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 656 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 664 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
