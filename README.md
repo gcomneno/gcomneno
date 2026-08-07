@@ -207,7 +207,7 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-03** · `web` · **Docs:** [migrate Laravel Lab README and harden validation (#2)](https://github.com/gcomneno/web/commit/7549ece7265ac987fe4f13770b6cffc760b20fdd)
 - **2026-08-03** · `web` · **Docs:** [establish bilingual documentation foundation (#1)](https://github.com/gcomneno/web/commit/d33e63eeee5b509e4abb8e7e4b311c15441664f9)
 - **2026-08-03** · `oop-in-c-lab` · **Development:** [Document bilingual contribution policy (#9)](https://github.com/gcomneno/oop-in-c-lab/commit/c304c410d4642822a10edc42f9d8c009f8dd1f74)
-- **2026-08-03** · `oop-in-c-lab` · **Development:** [Add checked downcasting with runtime type identity (#8)](https://github.com/gcomneno/oop-in-c-lab/commit/8e77285c66b6bb6567209275b78cd6ae3ccbfc2)
+- **2026-08-03** · `oop-in-c-lab` · **Development:** [Add checked downcasting with runtime type identity (#8)](https://github.com/gcomneno/oop-in-c-lab/commit/8e77285c66b6d7ee5ee3a16871571103b42ae7bb)
 - **2026-08-03** · `oop-in-c-lab` · **Development:** [Add opaque pointer experiment and standalone lesson (#6)](https://github.com/gcomneno/oop-in-c-lab/commit/1b2ad8e5c195a1c093e55dbce5ffb237ccdf0841)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add evidence-adjusted current coverage signal](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/421a5eb3b0baa7219ca4cf63be56ed74e91f7a89)
 - **2026-08-02** · `.github` · **Development:** [Add default GitHub Sponsors funding configuration](https://github.com/gcomneno/.github/commit/c3058a30de40fab4adf61bf126e3f098b01f3d8c)
