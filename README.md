@@ -24,12 +24,12 @@
 
 These projects best represent my current work across backend design, reliable automation, developer tooling and reproducible software workflows.
 
-| Project | What it demonstrates |
-| --- | --- |
-| [LeLe Manager](https://github.com/gcomneno/lele-manager) | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
-| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
-| [GYTE](https://github.com/gcomneno/gyte) | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
+| Project | What it does | What it demonstrates |
+| --- | --- | --- |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
+| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | Extracts, validates, traces provenance and queries information from personal reference documents | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
+| [GYTE](https://github.com/gcomneno/gyte) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
 
 <details>
 <summary>More operational projects</summary>
