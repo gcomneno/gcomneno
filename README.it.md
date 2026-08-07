@@ -131,14 +131,18 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-06** · `pkps` · **Documentazione:** [define package release identity](https://github.com/gcomneno/pkps/commit/9ba610351ce39244627756376990ef1db28d2bff)
-- **2026-08-06** · `pkps` · **Documentazione:** [record LeLe consumer baseline](https://github.com/gcomneno/pkps/commit/89a4e3581740e135d2878fd07c6d01d32dcfe8b4)
-- **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add deterministic taxonomy coverage](https://github.com/gcomneno/system-log-dynamics/commit/324f636935425a49f3cb89818cc63c9b188f8e58)
-- **2026-08-06** · `pkps` · **Documentazione:** [establish PKPS phase 0 baseline](https://github.com/gcomneno/pkps/commit/e64bbc5d0636941bd924f2d061fd30cc00a3713a)
+- **2026-08-06** · `web` · **Documentazione:** [migrate Laravel lessons 19-21 to bilingual pairs](https://github.com/gcomneno/web/commit/b3a1474f99f48e93a91377f38bd9a9f70bf7eef2)
+- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 21 delete project flow](https://github.com/gcomneno/web/commit/2e3608157ada1bec463b1c7e8d11b3b46c9ff00b)
+- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 20 Eloquent ordering](https://github.com/gcomneno/web/commit/3e0c1662a7b9c0718d1d2c895784ad52125aaad5)
+- **2026-08-06** · `web` · **Sviluppo:** [Add Laravel lesson 19 project listing](https://github.com/gcomneno/web/commit/267616199ba00bda5ba5b144fabb54b7ee45554c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-06** · `pkps` · **Documentazione:** [define package release identity](https://github.com/gcomneno/pkps/commit/9ba610351ce39244627756376990ef1db28d2bff)
+- **2026-08-06** · `pkps` · **Documentazione:** [record LeLe consumer baseline](https://github.com/gcomneno/pkps/commit/89a4e3581740e135d2878fd07c6d01d32dcfe8b4)
+- **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add deterministic taxonomy coverage](https://github.com/gcomneno/system-log-dynamics/commit/324f636935425a49f3cb89818cc63c9b188f8e58)
+- **2026-08-06** · `pkps` · **Documentazione:** [establish PKPS phase 0 baseline](https://github.com/gcomneno/pkps/commit/e64bbc5d0636941bd924f2d061fd30cc00a3713a)
 - **2026-08-06** · `atelier-kit` · **Refactoring:** [complete ReorderActions adoption (#243)](https://github.com/gcomneno/atelier-kit/commit/34affc82d6908fea7ad5aa2c3ba72299028fe925)
 - **2026-08-06** · `pkps` · **Documentazione:** [initialize PKPS repository](https://github.com/gcomneno/pkps/commit/f1146941149083dbd5ce330db4527e3406728f7a)
 - **2026-08-06** · `lele-manager` · **Documentazione:** [clarify PKPS consumer boundary](https://github.com/gcomneno/lele-manager/commit/f6e261d21e65cf49dcc8ff520b87052f06448329)
@@ -231,12 +235,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-01** · `system-log-dynamics` · **Funzionalità:** [add reproducible analysis manifests (#10)](https://github.com/gcomneno/system-log-dynamics/commit/ffc4c98f05baf866cd1d6a4c05988768f53e5c35)
 - **2026-07-31** · `system-log-dynamics` · **Funzionalità:** [add validated Digit-Probe analysis boundary (#8)](https://github.com/gcomneno/system-log-dynamics/commit/ae83cf0fe25b7c5d6ad14ef1d1d5de42bf00e639)
 - **2026-07-31** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [research: backtest rolling most-frequent digit windows (#4)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6e2df3d6a35dee57346abadcfeb6331e674df498)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Documentazione:** [document rolling frequency backtest](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/87e74d760c10d74d3c8c88866fe9710f7f1a272b)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [research: add rolling frequency backtest CLI](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d8b7ac99423cf5ea1577f3a14910c18dfe16ce93)
-- **2026-07-31** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [research: add rolling frequency backtest engine](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/8cc26e0af384acd7e7de4e165f019c32d2f7bb5f)
-- **2026-07-31** · `system-log-dynamics` · **Funzionalità:** [add validated event symbol encoding (#6)](https://github.com/gcomneno/system-log-dynamics/commit/a5f89bfc40598a987910f603dd17e4c7f70bf1c4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 641 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 642 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
