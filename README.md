@@ -261,7 +261,7 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add sortable coverage hit reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/61e2c95a40c001196736be76460de0cfafecf7de)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add CSV export for coverage hits](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5a38fcb81910785fee84597ea659c7e94bec210c)
 
-_Showing the 100 most recent meaningful updates; 667 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 657 older update(s) omitted._
 
 </details>
 
