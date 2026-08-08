@@ -156,14 +156,19 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/e7dc576a0a8b80dc27dccef9eaee85569bb2c06c)
-- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/8a5760fed0da59df8d73b954140ca7e4767425e3)
-- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/053ca2f96a30f19b1e11d6ee80894566367d68fc)
-- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/cbaa19481fdfe218808bbdadd4b3a0355d261793)
+- **2026-08-08** · `lele-manager` · **Sviluppo:** [product: add subtle motion to the LeLe monkey mascot (#160)](https://github.com/gcomneno/lele-manager/commit/928a8df1592253b131d1854273e6aeca95474696)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [make collection page title and introduction editable (#246)](https://github.com/gcomneno/atelier-kit/commit/b3bad17174d19bed208e9cd02b54761dc7c4eaab)
+- **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add bilingual README and pdf2epub guides](https://github.com/gcomneno/ubuntu-system-tools/commit/43197e5719b02efbe75d0981afb01a435b327200)
+- **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add pdf2epub usage guide](https://github.com/gcomneno/ubuntu-system-tools/commit/f5b7fd18a9e9368f5868d878d61e11b39f8ae0ed)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-08** · `ubuntu-system-tools` · **Funzionalità:** [add smart pdf to epub converter](https://github.com/gcomneno/ubuntu-system-tools/commit/20ac510445f01c8dc518a195e20baeafc89e596b)
+- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/e7dc576a0a8b80dc27dccef9eaee85569bb2c06c)
+- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/8a5760fed0da59df8d73b954140ca7e4767425e3)
+- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/053ca2f96a30f19b1e11d6ee80894566367d68fc)
+- **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/cbaa19481fdfe218808bbdadd4b3a0355d261793)
 - **2026-08-07** · `pkps` · **Documentazione:** [define provenance boundary](https://github.com/gcomneno/pkps/commit/90e2f812377d4a9f31c83b9392b575e2b24f2548)
 - **2026-08-07** · `atelier-kit` · **Correzione:** [preserve item fields on edit (#245)](https://github.com/gcomneno/atelier-kit/commit/63703cf2c71da844aa749d8f6b6c84af29b8e4f6)
 - **2026-08-07** · `pkps` · **Documentazione:** [define canonical logical paths](https://github.com/gcomneno/pkps/commit/5d46e8f6452276122d6e9d012b5a5df34ae31530)
@@ -255,13 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add safe multi-year Lotto database updates](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e14e5cc6891cf92143ef0cc2df0e61c3a6862af3)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Support historical Lotto archive layouts](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c820dc33d21d86caa5ea5fb0a1ad75cea9d03e9)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Route current-year imports to stable database](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09746635a170818137991f3516f5887a998de284)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Fix rolling frequency current database default](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/24df51cf1b2dcbb6887a8a96043c140bbc05c457)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Use stable current Lotto database path](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5bd9d4ba4e4ac40c2adf104e6799c33bd5867662)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Track completed Lotto historical databases](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1b0203c6b75082aad29fc443780826d6fed0a74c)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add sortable coverage hit reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/61e2c95a40c001196736be76460de0cfafecf7de)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add CSV export for coverage hits](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5a38fcb81910785fee84597ea659c7e94bec210c)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 657 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 662 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
