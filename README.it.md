@@ -261,7 +261,7 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add sortable coverage hit reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/61e2c95a40c001196736be76460de0cfafecf7de)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add CSV export for coverage hits](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5a38fcb81910785fee84597ea659c7e94bec210c)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 667 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 657 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
