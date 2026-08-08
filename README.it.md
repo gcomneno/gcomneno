@@ -156,14 +156,23 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-08** · `atelier-kit` · **Funzionalità:** [add GitHub authoring repository adapter (#256)](https://github.com/gcomneno/atelier-kit/commit/63b9cbac2eedecc60c38a534e131d0363d112295)
-- **2026-08-08** · `lele-manager` · **Correzione:** [align GiadaWare signature tongue (#165)](https://github.com/gcomneno/lele-manager/commit/0b4b96ad19eea19f28c3dfb518b652795f1b520d)
-- **2026-08-08** · `atelier-kit` · **Funzionalità:** [introduce authoring repository boundary (#254)](https://github.com/gcomneno/atelier-kit/commit/2fdec20936d5bad5c6bbe17da18470ec71eefed6)
-- **2026-08-08** · `lele-manager` · **Release:** [LeLe Manager v1.10.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.1)
+- **2026-08-08** · `lele-manager` · **Release:** [LeLe Manager v1.11.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.0)
+- **2026-08-08** · `lele-manager` · **Correzione:** [restore executable mode from release zip](https://github.com/gcomneno/lele-manager/commit/fa10ffb8ccf28c47d2657157a939539af9fa44ad)
+- **2026-08-08** · `lele-manager` · **Sviluppo:** [product: add Settings and About transparency (#168)](https://github.com/gcomneno/lele-manager/commit/0c131a79bfdf180281bdd0e0153133b82725b5e2)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [add GitHub OAuth provider integration (#264)](https://github.com/gcomneno/atelier-kit/commit/f46efdb28d05797fc62c2a517eac5d317a2b085e)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [add hosted session lifecycle (#262)](https://github.com/gcomneno/atelier-kit/commit/98c52b740c3b89f6995decd984099296e4c4b229)
+- **2026-08-08** · `lele-manager` · **Sviluppo:** [frontend: add product dashboard and meaningful first-run states (#167)](https://github.com/gcomneno/lele-manager/commit/acc0b0ac1b1174a426ccb8210330b8104891faa3)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [add canonical Hosted identity and authorization policy (#260)](https://github.com/gcomneno/atelier-kit/commit/8b0bbcaf96d899d623850f95b547ce5342b0f1f3)
+- **2026-08-08** · `atelier-kit` · **Documentazione:** [define Hosted Studio auth boundary (#258)](https://github.com/gcomneno/atelier-kit/commit/27d77a6c1ce7be1858f7edaeb8a1973aee722715)
+- **2026-08-08** · `lele-manager` · **Sviluppo:** [frontend: redesign the application shell and product navigation (#166)](https://github.com/gcomneno/lele-manager/commit/0a5eefe5579c367912fb4223d3006ddca914b3a6)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [add GitHub authoring repository adapter (#256)](https://github.com/gcomneno/atelier-kit/commit/63b9cbac2eedecc60c38a534e131d0363d112295)
+- **2026-08-08** · `lele-manager` · **Correzione:** [align GiadaWare signature tongue (#165)](https://github.com/gcomneno/lele-manager/commit/0b4b96ad19eea19f28c3dfb518b652795f1b520d)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [introduce authoring repository boundary (#254)](https://github.com/gcomneno/atelier-kit/commit/2fdec20936d5bad5c6bbe17da18470ec71eefed6)
+- **2026-08-08** · `lele-manager` · **Release:** [LeLe Manager v1.10.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.1)
 - **2026-08-08** · `atelier-kit` · **Funzionalità:** [introduce fail-closed runtime modes (#252)](https://github.com/gcomneno/atelier-kit/commit/bc7cd7047039bd292052756e044c86f0f9f7814b)
 - **2026-08-08** · `lele-manager` · **Funzionalità:** [add multiplatform native release packaging (#162)](https://github.com/gcomneno/lele-manager/commit/730afd40fd0f30233f9a38ebd56e7057c86bf8ab)
 - **2026-08-08** · `atelier-kit` · **Documentazione:** [define hosted Studio architecture (#249)](https://github.com/gcomneno/atelier-kit/commit/2d03d2f3000c860e0e0444c91bc61011e82828b6)
@@ -251,17 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-03** · `oop-in-c-lab` · **Sviluppo:** [Add opaque pointer experiment and standalone lesson (#6)](https://github.com/gcomneno/oop-in-c-lab/commit/1b2ad8e5c195a1c093e55dbce5ffb237ccdf0841)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add evidence-adjusted current coverage signal](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/421a5eb3b0baa7219ca4cf63be56ed74e91f7a89)
 - **2026-08-02** · `.github` · **Sviluppo:** [Add default GitHub Sponsors funding configuration](https://github.com/gcomneno/.github/commit/c3058a30de40fab4adf61bf126e3f098b01f3d8c)
-- **2026-08-02** · `.github` · **Sviluppo:** [Initial commit](https://github.com/gcomneno/.github/commit/0bad24089485a4b22aaedfbb236fd3f72a3c74fd)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Use historical checkpoint for current coverage](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/ab79dbaa7b71966cc962315caaa5c426ba84aa66)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add dynamic historical coverage checkpoint](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e19fe96a68366b371d6377646717d2837fee7901)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Preserve historical coverage-hit artifacts](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/69993d7c2a641ccd288482cffe583fb70bfae23c)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Rename historical database generator as archive tool](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5e9361bd24789363aace3204c668f155265b9195)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Move historical database generator to repository root](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1b07b4515afa51ebb6a3737bded4f937505b1f2c)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Document the complete historical Lotto archive](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/2ebaadbba9072f954cfb3d80ea15c59b97d61a8d)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add overall historical Lotto archive for 1871 through 2025](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3bc71c81a5533105a4c9d3d182e7050b1403bdcf)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add consolidated Lotto archive for 1871 through 1900](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a588a3e9d934b51f27b43cff082817e5deb5742d)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 670 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 679 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
