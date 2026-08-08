@@ -156,14 +156,15 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [make catalog page title editable (#248)](https://github.com/gcomneno/atelier-kit/commit/12beb63f47d1aa4a13f39ea5c3fcbfa2185be7d5)
 - **2026-08-08** · `lele-manager` · **Sviluppo:** [product: add subtle motion to the LeLe monkey mascot (#160)](https://github.com/gcomneno/lele-manager/commit/928a8df1592253b131d1854273e6aeca95474696)
 - **2026-08-08** · `atelier-kit` · **Funzionalità:** [make collection page title and introduction editable (#246)](https://github.com/gcomneno/atelier-kit/commit/b3bad17174d19bed208e9cd02b54761dc7c4eaab)
 - **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add bilingual README and pdf2epub guides](https://github.com/gcomneno/ubuntu-system-tools/commit/43197e5719b02efbe75d0981afb01a435b327200)
-- **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add pdf2epub usage guide](https://github.com/gcomneno/ubuntu-system-tools/commit/f5b7fd18a9e9368f5868d878d61e11b39f8ae0ed)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add pdf2epub usage guide](https://github.com/gcomneno/ubuntu-system-tools/commit/f5b7fd18a9e9368f5868d878d61e11b39f8ae0ed)
 - **2026-08-08** · `ubuntu-system-tools` · **Funzionalità:** [add smart pdf to epub converter](https://github.com/gcomneno/ubuntu-system-tools/commit/20ac510445f01c8dc518a195e20baeafc89e596b)
 - **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/e7dc576a0a8b80dc27dccef9eaee85569bb2c06c)
 - **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/8a5760fed0da59df8d73b954140ca7e4767425e3)
@@ -259,9 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add historical Lotto database generation tool](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3e4858f76832bda6626192e903ad3098be557de5)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add safe multi-year Lotto database updates](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e14e5cc6891cf92143ef0cc2df0e61c3a6862af3)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Support historical Lotto archive layouts](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c820dc33d21d86caa5ea5fb0a1ad75cea9d03e9)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Route current-year imports to stable database](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09746635a170818137991f3516f5887a998de284)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 662 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 663 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
