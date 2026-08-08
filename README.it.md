@@ -156,14 +156,21 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-08** · `atelier-kit` · **Funzionalità:** [make catalog page title editable (#248)](https://github.com/gcomneno/atelier-kit/commit/12beb63f47d1aa4a13f39ea5c3fcbfa2185be7d5)
-- **2026-08-08** · `lele-manager` · **Sviluppo:** [product: add subtle motion to the LeLe monkey mascot (#160)](https://github.com/gcomneno/lele-manager/commit/928a8df1592253b131d1854273e6aeca95474696)
-- **2026-08-08** · `atelier-kit` · **Funzionalità:** [make collection page title and introduction editable (#246)](https://github.com/gcomneno/atelier-kit/commit/b3bad17174d19bed208e9cd02b54761dc7c4eaab)
-- **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add bilingual README and pdf2epub guides](https://github.com/gcomneno/ubuntu-system-tools/commit/43197e5719b02efbe75d0981afb01a435b327200)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [add GitHub authoring repository adapter (#256)](https://github.com/gcomneno/atelier-kit/commit/63b9cbac2eedecc60c38a534e131d0363d112295)
+- **2026-08-08** · `lele-manager` · **Correzione:** [align GiadaWare signature tongue (#165)](https://github.com/gcomneno/lele-manager/commit/0b4b96ad19eea19f28c3dfb518b652795f1b520d)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [introduce authoring repository boundary (#254)](https://github.com/gcomneno/atelier-kit/commit/2fdec20936d5bad5c6bbe17da18470ec71eefed6)
+- **2026-08-08** · `lele-manager` · **Release:** [LeLe Manager v1.10.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.1)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [introduce fail-closed runtime modes (#252)](https://github.com/gcomneno/atelier-kit/commit/bc7cd7047039bd292052756e044c86f0f9f7814b)
+- **2026-08-08** · `lele-manager` · **Funzionalità:** [add multiplatform native release packaging (#162)](https://github.com/gcomneno/lele-manager/commit/730afd40fd0f30233f9a38ebd56e7057c86bf8ab)
+- **2026-08-08** · `atelier-kit` · **Documentazione:** [define hosted Studio architecture (#249)](https://github.com/gcomneno/atelier-kit/commit/2d03d2f3000c860e0e0444c91bc61011e82828b6)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [make catalog page title editable (#248)](https://github.com/gcomneno/atelier-kit/commit/12beb63f47d1aa4a13f39ea5c3fcbfa2185be7d5)
+- **2026-08-08** · `lele-manager` · **Sviluppo:** [product: add subtle motion to the LeLe monkey mascot (#160)](https://github.com/gcomneno/lele-manager/commit/928a8df1592253b131d1854273e6aeca95474696)
+- **2026-08-08** · `atelier-kit` · **Funzionalità:** [make collection page title and introduction editable (#246)](https://github.com/gcomneno/atelier-kit/commit/b3bad17174d19bed208e9cd02b54761dc7c4eaab)
+- **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add bilingual README and pdf2epub guides](https://github.com/gcomneno/ubuntu-system-tools/commit/43197e5719b02efbe75d0981afb01a435b327200)
 - **2026-08-08** · `ubuntu-system-tools` · **Documentazione:** [add pdf2epub usage guide](https://github.com/gcomneno/ubuntu-system-tools/commit/f5b7fd18a9e9368f5868d878d61e11b39f8ae0ed)
 - **2026-08-08** · `ubuntu-system-tools` · **Funzionalità:** [add smart pdf to epub converter](https://github.com/gcomneno/ubuntu-system-tools/commit/20ac510445f01c8dc518a195e20baeafc89e596b)
 - **2026-08-07** · `atelier-kit` · **Sviluppo:** [tmp: placeholder](https://github.com/gcomneno/atelier-kit/commit/e7dc576a0a8b80dc27dccef9eaee85569bb2c06c)
@@ -253,15 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Document the complete historical Lotto archive](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/2ebaadbba9072f954cfb3d80ea15c59b97d61a8d)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add overall historical Lotto archive for 1871 through 2025](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3bc71c81a5533105a4c9d3d182e7050b1403bdcf)
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add consolidated Lotto archive for 1871 through 1900](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a588a3e9d934b51f27b43cff082817e5deb5742d)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add consolidated Lotto archive for 1901 through 1950](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c2900ff2cbb6bb6567209275b78cd6ae3ccbfc2)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add consolidated Lotto archive for 1951 through 2000](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/921aca4f90e02dcd1416a600ee8f090b2dc61ef4)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add consolidated Lotto archive for 2001 through 2020](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3a55579278a3489540edd74fdce060ef2a4c2bb1)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add complete historical Lotto databases](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7548af499dd34f630999d28a4896c6f7b729200b)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add historical Lotto database generation tool](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3e4858f76832bda6626192e903ad3098be557de5)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add safe multi-year Lotto database updates](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e14e5cc6891cf92143ef0cc2df0e61c3a6862af3)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Support historical Lotto archive layouts](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c820dc33d21d86caa5ea5fb0a1ad75cea9d03e9)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 663 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 670 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
