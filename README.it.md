@@ -30,16 +30,16 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analizza i file, mostra in anteprima un piano di organizzazione e li sposta solo su richiesta esplicita | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili e operazioni recuperabili |
 | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Estrae, valida, traccia la provenienza e rende interrogabili informazioni da documenti personali di riferimento | Estrazione deterministica, validazione, provenienza, interrogazione e confini persistenti del repository |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Estrae da YouTube trascrizioni, audio e video e supporta reflow, traduzione e trascrizione locale dei contenuti | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
-| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | — | Utilità Linux e automazione operativa sicura | Strumenti di sistema safety-first, flussi espliciti su opt-in e operazioni di manutenzione riproducibili |
+| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | — | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite entry point base, visitor e studio isolati | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Fornisce un kit vetrina configurabile con authoring locale via Studio, catalogo content-driven e strumenti di pubblicazione | Architettura di prodotto SvelteKit, authoring local-first, distribuzione desktop e adozione downstream reale di componenti Giada UI riutilizzabili |
+| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.2.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.2.0) | Utilità Linux e automazione operativa sicura | Strumenti di sistema safety-first, flussi espliciti su opt-in e operazioni di manutenzione riproducibili |
 
 <details>
 <summary>Altri progetti operativi</summary>
 
 | Progetto | Segnale tecnico |
 | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Architettura per vetrine leggere, integrazione di prodotto e adozione di UI riutilizzabile |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
-| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
 
 </details>
 
