@@ -30,16 +30,16 @@ These projects best represent my current work across backend design, reliable au
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
 | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Extracts, validates, traces provenance and queries information from personal reference documents | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
-| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | — | Linux utilities and safe operational automation | Safety-first system tools, explicit opt-in workflows and reproducible maintenance operations |
+| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | — | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Provides a configurable showcase kit with local Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, local-first authoring, desktop delivery and real downstream adoption of reusable Giada UI components |
+| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.2.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.2.0) | Linux utilities and safe operational automation | Safety-first system tools, explicit opt-in workflows and reproducible maintenance operations |
 
 <details>
 <summary>More operational projects</summary>
 
 | Project | Technical signal |
 | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | Lightweight showcase architecture, product integration and reusable UI adoption |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
-| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 
 </details>
 
