@@ -261,7 +261,7 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-02** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [Add evidence-adjusted current coverage signal](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/421a5eb3b0baa7219ca4cf63be56ed74e91f7a89)
 - **2026-08-02** · `.github` · **Sviluppo:** [Add default GitHub Sponsors funding configuration](https://github.com/gcomneno/.github/commit/c3058a30de40fab4adf61bf126e3f098b01f3d8c)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 679 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 673 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
