@@ -156,14 +156,24 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-09** · `lele-manager` · **Fix:** [reuse running launcher instance](https://github.com/gcomneno/lele-manager/commit/2e730e1af2df736eafd6021a49d3fc8a1f45c577)
-- **2026-08-09** · `lele-manager` · **Development:** [ux: move similarity tuning to advanced options](https://github.com/gcomneno/lele-manager/commit/31c14be4d05273601d8f3490bafda4aa5e14cd1c)
-- **2026-08-09** · `lele-manager` · **Fix:** [lower mascot tongue by 3px](https://github.com/gcomneno/lele-manager/commit/a2554539c285928ce428eb47c5651a5df86ff812)
-- **2026-08-09** · `lele-manager` · **Fix:** [align duplicate comparison identity](https://github.com/gcomneno/lele-manager/commit/9e2bb1b833e607895b566a73f8a46921d01b938e)
+- **2026-08-10** · `system-log-dynamics` · **Development:** [Preserve descriptive event semantics for downstream IDS consumers (#36)](https://github.com/gcomneno/system-log-dynamics/commit/8fbaf8f03d6e0e1911c1ca3009b1d2445af10e38)
+- **2026-08-10** · `lele-manager` · **Development:** [ux: differentiate sidebar icons](https://github.com/gcomneno/lele-manager/commit/348b56aed4e5c83dadff7e73a14e4019fc3eca3f)
+- **2026-08-10** · `lele-manager` · **Development:** [ux: turn Settings into Diagnostics workflow](https://github.com/gcomneno/lele-manager/commit/5c2e74b2c6bb522b39282b1b80c232e8c5b82424)
+- **2026-08-10** · `system-log-dynamics` · **Fix:** [distinguish observed boot transitions (#34)](https://github.com/gcomneno/system-log-dynamics/commit/e01e943286c23b4fb6a4dd4218fbaa9cbe428ae5)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-10** · `lele-manager` · **Fix:** [serialize desktop launcher paths correctly](https://github.com/gcomneno/lele-manager/commit/292aa534207e8ef34cb6410f221b41d28197669c)
+- **2026-08-10** · `lele-manager` · **Feature:** [install Linux desktop integration](https://github.com/gcomneno/lele-manager/commit/6e90b369bce196d0898ae92a58bfbb012e76b065)
+- **2026-08-10** · `system-log-dynamics` · **Docs:** [define downstream IDS trust boundary (#32)](https://github.com/gcomneno/system-log-dynamics/commit/01587ee34b8fa2687de604d79d70b2114258d898)
+- **2026-08-10** · `lele-manager` · **Fix:** [isolate Linux install payload from user data](https://github.com/gcomneno/lele-manager/commit/8dc411e90325ed768ee3311d5b05e50923ad2956)
+- **2026-08-10** · `system-log-dynamics` · **Feature:** [export versioned evidence bundles (#31)](https://github.com/gcomneno/system-log-dynamics/commit/1718750adb0c937bb06d42e85d9cc075477c73fa)
+- **2026-08-10** · `lele-manager` · **Feature:** [add stable Linux install contract](https://github.com/gcomneno/lele-manager/commit/af309a147b8f089f057ff298e4cff66df1b96847)
+- **2026-08-09** · `lele-manager` · **Fix:** [reuse running launcher instance](https://github.com/gcomneno/lele-manager/commit/2e730e1af2df736eafd6021a49d3fc8a1f45c577)
+- **2026-08-09** · `lele-manager` · **Development:** [ux: move similarity tuning to advanced options](https://github.com/gcomneno/lele-manager/commit/31c14be4d05273601d8f3490bafda4aa5e14cd1c)
+- **2026-08-09** · `lele-manager` · **Fix:** [lower mascot tongue by 3px](https://github.com/gcomneno/lele-manager/commit/a2554539c285928ce428eb47c5651a5df86ff812)
+- **2026-08-09** · `lele-manager` · **Fix:** [align duplicate comparison identity](https://github.com/gcomneno/lele-manager/commit/9e2bb1b833e607895b566a73f8a46921d01b938e)
 - **2026-08-09** · `lele-manager` · **Fix:** [submit Browse filters with Enter](https://github.com/gcomneno/lele-manager/commit/e57ef7aceacae8f8ec510c8949a141d7a39570d3)
 - **2026-08-09** · `atelier-kit` · **Feature:** [add first Hosted social mutation (#274)](https://github.com/gcomneno/atelier-kit/commit/5bf517ea2b3df8b5a23c66ba07abaf4290ab8f16)
 - **2026-08-09** · `lele-manager` · **Docs:** [document PyPI installation with pipx](https://github.com/gcomneno/lele-manager/commit/32255452f7c011a39ec02cf25981b6c8298712b6)
@@ -250,18 +260,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-04** · `lele-manager` · **Development:** [Release LeLe Manager 1.10.0 (#146)](https://github.com/gcomneno/lele-manager/commit/a00d01177cce7bba06b3089aed5ca9d7aa144c20)
 - **2026-08-04** · `smart-file-organizer` · **Feature:** [add explainable evidence engine (#77)](https://github.com/gcomneno/smart-file-organizer/commit/124b63b377bb6e43eb8e678ea88e38de960be2dc)
 - **2026-08-04** · `lele-manager` · **Development:** [Update vulnerable frontend dependencies (#144)](https://github.com/gcomneno/lele-manager/commit/c34a6149f51751dc1a5ebeb0a00d9d8f038d1c43)
-- **2026-08-04** · `lele-manager` · **Development:** [Fix release artifacts to include the compiled GUI (#143)](https://github.com/gcomneno/lele-manager/commit/379b068ab723aded5e67827a13f39d113bedda92)
-- **2026-08-04** · `gyte-study-tools` · **Feature:** [add restartable Kindle delivery handoff](https://github.com/gcomneno/gyte-study-tools/commit/0485473ee58d5835a96b2bb4b47629ea216e331e)
-- **2026-08-04** · `atelier-kit` · **Feature:** [adopt Giada UI Panel and Surface (#230)](https://github.com/gcomneno/atelier-kit/commit/7db4c5e6f4da184c3f4726b86f48d0d8ba813a8c)
-- **2026-08-04** · `smart-file-organizer` · **Feature:** [define public Python API (#76)](https://github.com/gcomneno/smart-file-organizer/commit/312c973beaf78fba5a8c5a763e2e0f636cc39e8b)
-- **2026-08-04** · `atelier-kit` · **Development:** [revert: remove accidental issue 223 placeholder](https://github.com/gcomneno/atelier-kit/commit/a22170cc6de952ecfc13ba736d163d18729243fe)
-- **2026-08-04** · `gyte-study-tools` · **Feature:** [ingest articles into study workspaces](https://github.com/gcomneno/gyte-study-tools/commit/6a68cfaa3d6d34b2bd5d08b1bea1f0b1b697f2b6)
-- **2026-08-04** · `atelier-kit` · **Feature:** [adopt Giada UI FieldLabel adapter (#229)](https://github.com/gcomneno/atelier-kit/commit/580a97bf153a6c92b775c9a8a1c3841cd8b507e6)
-- **2026-08-04** · `lele-manager` · **Docs:** [complete GUI guide and packaging decision (#140)](https://github.com/gcomneno/lele-manager/commit/7b6b3bc0bf56548444955b2b18b3b00b767a639c)
-- **2026-08-04** · `atelier-kit` · **Feature:** [adopt PageIntro and FormActions (#228)](https://github.com/gcomneno/atelier-kit/commit/a72ec91f7a514a1a7bec2eb84958e0df80f96e74)
-- **2026-08-04** · `smart-file-organizer` · **Feature:** [introduce application orchestration (#75)](https://github.com/gcomneno/smart-file-organizer/commit/059115c989dc7d315eaa5ee6c7b9b68e149a95d4)
 
-_Showing the 100 most recent meaningful updates; 680 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 690 older update(s) omitted._
 
 </details>
 
