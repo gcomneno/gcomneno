@@ -156,14 +156,29 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-08** · `lele-manager` · **Release:** [LeLe Manager v1.11.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.0)
-- **2026-08-08** · `lele-manager` · **Fix:** [restore executable mode from release zip](https://github.com/gcomneno/lele-manager/commit/fa10ffb8ccf28c47d2657157a939539af9fa44ad)
-- **2026-08-08** · `lele-manager` · **Development:** [product: add Settings and About transparency (#168)](https://github.com/gcomneno/lele-manager/commit/0c131a79bfdf180281bdd0e0153133b82725b5e2)
-- **2026-08-08** · `atelier-kit` · **Feature:** [add GitHub OAuth provider integration (#264)](https://github.com/gcomneno/atelier-kit/commit/f46efdb28d05797fc62c2a517eac5d317a2b085e)
+- **2026-08-09** · `lele-manager` · **Fix:** [reuse running launcher instance](https://github.com/gcomneno/lele-manager/commit/2e730e1af2df736eafd6021a49d3fc8a1f45c577)
+- **2026-08-09** · `lele-manager` · **Development:** [ux: move similarity tuning to advanced options](https://github.com/gcomneno/lele-manager/commit/31c14be4d05273601d8f3490bafda4aa5e14cd1c)
+- **2026-08-09** · `lele-manager` · **Fix:** [lower mascot tongue by 3px](https://github.com/gcomneno/lele-manager/commit/a2554539c285928ce428eb47c5651a5df86ff812)
+- **2026-08-09** · `lele-manager` · **Fix:** [align duplicate comparison identity](https://github.com/gcomneno/lele-manager/commit/9e2bb1b833e607895b566a73f8a46921d01b938e)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-09** · `lele-manager` · **Fix:** [submit Browse filters with Enter](https://github.com/gcomneno/lele-manager/commit/e57ef7aceacae8f8ec510c8949a141d7a39570d3)
+- **2026-08-09** · `atelier-kit` · **Feature:** [add first Hosted social mutation (#274)](https://github.com/gcomneno/atelier-kit/commit/5bf517ea2b3df8b5a23c66ba07abaf4290ab8f16)
+- **2026-08-09** · `lele-manager` · **Docs:** [document PyPI installation with pipx](https://github.com/gcomneno/lele-manager/commit/32255452f7c011a39ec02cf25981b6c8298712b6)
+- **2026-08-09** · `lele-manager` · **Release:** [LeLe Manager v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1)
+- **2026-08-09** · `atelier-kit` · **Feature:** [add private Hosted read-only login PoC (#272)](https://github.com/gcomneno/atelier-kit/commit/f273c3746b000ade414e181c02ea9df7068963ea)
+- **2026-08-09** · `lele-manager` · **Fix:** [handle launcher Ctrl+C shutdown cleanly](https://github.com/gcomneno/lele-manager/commit/3cbba4fa2319aa76b8994f0404ebb92823d2c2ce)
+- **2026-08-09** · `atelier-kit` · **Feature:** [add Hosted security events and secret-safe logging (#270)](https://github.com/gcomneno/atelier-kit/commit/089c08f40b34e050418151f9b7a2d440901f51c6)
+- **2026-08-09** · `ubuntu-system-tools` · **Release:** [v0.3.0 — Linux release package](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0)
+- **2026-08-09** · `ubuntu-system-tools` · **Fix:** [preserve headings in compact pdf text (#40)](https://github.com/gcomneno/ubuntu-system-tools/commit/c5a074361687a0af81c1f57991bc5ada723412fa)
+- **2026-08-09** · `atelier-kit` · **Feature:** [enforce canonical Host/Origin and synchronizer CSRF (#268)](https://github.com/gcomneno/atelier-kit/commit/06615d64f7c6ea01d53013e41ac06135f30af484)
+- **2026-08-09** · `atelier-kit` · **Feature:** [centralize hosted route gating (#266)](https://github.com/gcomneno/atelier-kit/commit/9fd74cb5d6f938ba82a7e9d3e6e59236ced94205)
+- **2026-08-08** · `lele-manager` · **Release:** [LeLe Manager v1.11.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.0)
+- **2026-08-08** · `lele-manager` · **Fix:** [restore executable mode from release zip](https://github.com/gcomneno/lele-manager/commit/fa10ffb8ccf28c47d2657157a939539af9fa44ad)
+- **2026-08-08** · `lele-manager` · **Development:** [product: add Settings and About transparency (#168)](https://github.com/gcomneno/lele-manager/commit/0c131a79bfdf180281bdd0e0153133b82725b5e2)
+- **2026-08-08** · `atelier-kit` · **Feature:** [add GitHub OAuth provider integration (#264)](https://github.com/gcomneno/atelier-kit/commit/f46efdb28d05797fc62c2a517eac5d317a2b085e)
 - **2026-08-08** · `atelier-kit` · **Feature:** [add hosted session lifecycle (#262)](https://github.com/gcomneno/atelier-kit/commit/98c52b740c3b89f6995decd984099296e4c4b229)
 - **2026-08-08** · `lele-manager` · **Development:** [frontend: add product dashboard and meaningful first-run states (#167)](https://github.com/gcomneno/lele-manager/commit/acc0b0ac1b1174a426ccb8210330b8104891faa3)
 - **2026-08-08** · `atelier-kit` · **Feature:** [add canonical Hosted identity and authorization policy (#260)](https://github.com/gcomneno/atelier-kit/commit/8b0bbcaf96d899d623850f95b547ce5342b0f1f3)
@@ -245,23 +260,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-04** · `lele-manager` · **Docs:** [complete GUI guide and packaging decision (#140)](https://github.com/gcomneno/lele-manager/commit/7b6b3bc0bf56548444955b2b18b3b00b767a639c)
 - **2026-08-04** · `atelier-kit` · **Feature:** [adopt PageIntro and FormActions (#228)](https://github.com/gcomneno/atelier-kit/commit/a72ec91f7a514a1a7bec2eb84958e0df80f96e74)
 - **2026-08-04** · `smart-file-organizer` · **Feature:** [introduce application orchestration (#75)](https://github.com/gcomneno/smart-file-organizer/commit/059115c989dc7d315eaa5ee6c7b9b68e149a95d4)
-- **2026-08-04** · `lele-manager` · **Feature:** [add TritaLeLe candidate review workflow (#139)](https://github.com/gcomneno/lele-manager/commit/8f0df6ca7f8fabff7241b7c144e7958ae99201a1)
-- **2026-08-04** · `atelier-kit` · **Feature:** [adopt AsyncOperationPanel in Readiness (#227)](https://github.com/gcomneno/atelier-kit/commit/c592784d52688dabbf87e63ccc372b596a808a48)
-- **2026-08-04** · `system-design-study` · **Docs:** [establish bilingual documentation foundation (#2)](https://github.com/gcomneno/system-design-study/commit/38cea8b0fc14f564b7bbfad85bb5c019e75075da)
-- **2026-08-04** · `distributed-systems-study` · **Docs:** [establish bilingual documentation foundation (#3)](https://github.com/gcomneno/distributed-systems-study/commit/13a7c5eea974fb01d5efb72f0fe5469a19f6b372)
-- **2026-08-03** · `web` · **Docs:** [migrate Laravel Lab README and harden validation (#2)](https://github.com/gcomneno/web/commit/7549ece7265ac987fe4f13770b6cffc760b20fdd)
-- **2026-08-03** · `gyte-study-tools` · **Release:** [version 0.4.0](https://github.com/gcomneno/gyte-study-tools/commit/3f64176cb8304a80da6577de250f70aac887e749)
-- **2026-08-03** · `gyte-study-tools` · **Feature:** [publish validated Lesson Learned editions](https://github.com/gcomneno/gyte-study-tools/commit/e5ba34d23c4abee78288be43708771bfa14e4a48)
-- **2026-08-03** · `gyte-study-tools` · **Feature:** [prepare restartable transcript analysis](https://github.com/gcomneno/gyte-study-tools/commit/20dcadbad40fdc6de7cedc65c96aa421e854a86c)
-- **2026-08-03** · `gyte-study-tools` · **Feature:** [inspect YouTube videos and prepare workspaces](https://github.com/gcomneno/gyte-study-tools/commit/d1b22c7c0451b5a6d9b4b600027668987d7cc1d9)
-- **2026-08-03** · `web` · **Docs:** [establish bilingual documentation foundation (#1)](https://github.com/gcomneno/web/commit/d33e63eeee5b509e4abb8e7e4b311c15441664f9)
-- **2026-08-03** · `oop-in-c-lab` · **Development:** [Document bilingual contribution policy (#9)](https://github.com/gcomneno/oop-in-c-lab/commit/c304c410d4642822a10edc42f9d8c009f8dd1f74)
-- **2026-08-03** · `oop-in-c-lab` · **Development:** [Add checked downcasting with runtime type identity (#8)](https://github.com/gcomneno/oop-in-c-lab/commit/8e77285c66b6d7ee5ee3a16871571103b42ae7bb)
-- **2026-08-03** · `oop-in-c-lab` · **Development:** [Add opaque pointer experiment and standalone lesson (#6)](https://github.com/gcomneno/oop-in-c-lab/commit/1b2ad8e5c195a1c093e55dbce5ffb237ccdf0841)
-- **2026-08-02** · `lotto-digit-coverage-dynamics` · **Development:** [Add evidence-adjusted current coverage signal](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/421a5eb3b0baa7219ca4cf63be56ed74e91f7a89)
-- **2026-08-02** · `.github` · **Development:** [Add default GitHub Sponsors funding configuration](https://github.com/gcomneno/.github/commit/c3058a30de40fab4adf61bf126e3f098b01f3d8c)
 
-_Showing the 100 most recent meaningful updates; 673 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 680 older update(s) omitted._
 
 </details>
 
