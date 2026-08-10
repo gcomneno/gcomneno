@@ -74,6 +74,11 @@ class UpdateMessageTests(unittest.TestCase):
             ("update", "Refresh profile"),
         )
 
+    def test_excludes_empty_commit_message(self) -> None:
+        self.assertIsNone(
+            MODULE.parse_update_message("")
+        )
+
     def test_parses_conventional_feature(
         self,
     ) -> None:

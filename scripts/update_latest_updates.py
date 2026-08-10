@@ -226,7 +226,12 @@ def github_get_json(url: str) -> object | None:
 def parse_update_message(message: str) -> tuple[str, str] | None:
     """Classifica un commit significativo per la vetrina."""
 
-    first_line = message.splitlines()[0].strip()
+    lines = message.splitlines()
+
+    if not lines:
+        return None
+
+    first_line = lines[0].strip()
 
     if not first_line:
         return None
