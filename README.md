@@ -156,14 +156,20 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-10** · `system-log-dynamics` · **Development:** [Preserve descriptive event semantics for downstream IDS consumers (#36)](https://github.com/gcomneno/system-log-dynamics/commit/8fbaf8f03d6e0e1911c1ca3009b1d2445af10e38)
-- **2026-08-10** · `lele-manager` · **Development:** [ux: differentiate sidebar icons](https://github.com/gcomneno/lele-manager/commit/348b56aed4e5c83dadff7e73a14e4019fc3eca3f)
-- **2026-08-10** · `lele-manager` · **Development:** [ux: turn Settings into Diagnostics workflow](https://github.com/gcomneno/lele-manager/commit/5c2e74b2c6bb522b39282b1b80c232e8c5b82424)
-- **2026-08-10** · `system-log-dynamics` · **Fix:** [distinguish observed boot transitions (#34)](https://github.com/gcomneno/system-log-dynamics/commit/e01e943286c23b4fb6a4dd4218fbaa9cbe428ae5)
+- **2026-08-10** · `system-log-dynamics` · **Development:** [Add structured systemd lifecycle semantic facets v2 (#40)](https://github.com/gcomneno/system-log-dynamics/commit/5df2b7b1bbf963c03c40895864a759d9beb02c94)
+- **2026-08-10** · `lele-manager` · **Development:** [ux: simplify metadata authoring](https://github.com/gcomneno/lele-manager/commit/8a6b619f9ac19d45fb4b37a46d65dd7589f9cea3)
+- **2026-08-10** · `lele-manager` · **Fix:** [preserve responsive shell navigation contracts](https://github.com/gcomneno/lele-manager/commit/3f68e2362a44c5076a7c075abd24266727b7d9bd)
+- **2026-08-10** · `lele-manager` · **Development:** [ux: redesign global application header](https://github.com/gcomneno/lele-manager/commit/ab6af6e1245f704a7052008fa222020a058e8a78)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-10** · `system-log-dynamics` · **Development:** [Expose semantic evidence v1 through the CLI (#38)](https://github.com/gcomneno/system-log-dynamics/commit/a93a038788186c754ad52e289473dde2774457a4)
+- **2026-08-10** · `system-log-dynamics` · **Development:** [Preserve descriptive event semantics for downstream IDS consumers (#36)](https://github.com/gcomneno/system-log-dynamics/commit/8fbaf8f03d6e0e1911c1ca3009b1d2445af10e38)
+- **2026-08-10** · `lele-manager` · **Development:** [ux: make sidebar groups collapsible](https://github.com/gcomneno/lele-manager/commit/fc041d6ce0f8743ed1584a504931f220db7f3b8b)
+- **2026-08-10** · `lele-manager` · **Development:** [ux: differentiate sidebar icons](https://github.com/gcomneno/lele-manager/commit/348b56aed4e5c83dadff7e73a14e4019fc3eca3f)
+- **2026-08-10** · `lele-manager` · **Development:** [ux: turn Settings into Diagnostics workflow](https://github.com/gcomneno/lele-manager/commit/5c2e74b2c6bb522b39282b1b80c232e8c5b82424)
+- **2026-08-10** · `system-log-dynamics` · **Fix:** [distinguish observed boot transitions (#34)](https://github.com/gcomneno/system-log-dynamics/commit/e01e943286c23b4fb6a4dd4218fbaa9cbe428ae5)
 - **2026-08-10** · `lele-manager` · **Fix:** [serialize desktop launcher paths correctly](https://github.com/gcomneno/lele-manager/commit/292aa534207e8ef34cb6410f221b41d28197669c)
 - **2026-08-10** · `lele-manager` · **Feature:** [install Linux desktop integration](https://github.com/gcomneno/lele-manager/commit/6e90b369bce196d0898ae92a58bfbb012e76b065)
 - **2026-08-10** · `system-log-dynamics` · **Docs:** [define downstream IDS trust boundary (#32)](https://github.com/gcomneno/system-log-dynamics/commit/01587ee34b8fa2687de604d79d70b2114258d898)
@@ -254,14 +260,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-05** · `atelier-kit` · **Development:** [noop](https://github.com/gcomneno/atelier-kit/commit/9884bd5c3c35be16a8a685c2e41c720036b69ce3)
 - **2026-08-05** · `reference-engine` · **Development:** [Persist immutable document bindings (#55)](https://github.com/gcomneno/reference-engine/commit/cb1f6bce52ddfb3097ac09049b75bb9d56484233)
 - **2026-08-05** · `atelier-kit` · **Feature:** [adopt Giada UI editable-list primitives (#233)](https://github.com/gcomneno/atelier-kit/commit/a95611050c21e70cf76ea468beb463c441c09f0a)
-- **2026-08-05** · `giadaware-ui-components` · **Feature:** [add editable-list primitives (#31)](https://github.com/gcomneno/giadaware-ui-components/commit/b088653cba3c940ff6b4baf3b396a109cb04e8b7)
-- **2026-08-05** · `smart-file-organizer` · **Feature:** [add manifest verification and recovery planning (#78)](https://github.com/gcomneno/smart-file-organizer/commit/f4755c5e95a6fe2a99b2011a047e5bff907e45c1)
-- **2026-08-04** · `lele-manager` · **Release:** [LeLe Manager 1.10.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.10.0)
-- **2026-08-04** · `lele-manager` · **Development:** [Release LeLe Manager 1.10.0 (#146)](https://github.com/gcomneno/lele-manager/commit/a00d01177cce7bba06b3089aed5ca9d7aa144c20)
-- **2026-08-04** · `smart-file-organizer` · **Feature:** [add explainable evidence engine (#77)](https://github.com/gcomneno/smart-file-organizer/commit/124b63b377bb6e43eb8e678ea88e38de960be2dc)
-- **2026-08-04** · `lele-manager` · **Development:** [Update vulnerable frontend dependencies (#144)](https://github.com/gcomneno/lele-manager/commit/c34a6149f51751dc1a5ebeb0a00d9d8f038d1c43)
 
-_Showing the 100 most recent meaningful updates; 690 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 696 older update(s) omitted._
 
 </details>
 
