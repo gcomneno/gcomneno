@@ -156,14 +156,19 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-10** · `system-log-dynamics` · **Sviluppo:** [Add structured systemd lifecycle semantic facets v2 (#40)](https://github.com/gcomneno/system-log-dynamics/commit/5df2b7b1bbf963c03c40895864a759d9beb02c94)
-- **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: simplify metadata authoring](https://github.com/gcomneno/lele-manager/commit/8a6b619f9ac19d45fb4b37a46d65dd7589f9cea3)
-- **2026-08-10** · `lele-manager` · **Correzione:** [preserve responsive shell navigation contracts](https://github.com/gcomneno/lele-manager/commit/3f68e2362a44c5076a7c075abd24266727b7d9bd)
-- **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: redesign global application header](https://github.com/gcomneno/lele-manager/commit/ab6af6e1245f704a7052008fa222020a058e8a78)
+- **2026-08-10** · `lele-manager` · **Correzione:** [harden duplicate resolution workflows](https://github.com/gcomneno/lele-manager/commit/83daefb3f2b77d3dd8046febb09124ac8eaf92f0)
+- **2026-08-10** · `lele-manager` · **Funzionalità:** [add explicit duplicate resolution](https://github.com/gcomneno/lele-manager/commit/c12217338979a86c39b61d3ff318d175217d8abf)
+- **2026-08-10** · `atelier-kit` · **Funzionalità:** [deploy and validate the first real private Hosted Studio (#276)](https://github.com/gcomneno/atelier-kit/commit/784bca31be717e159f7ad34ed8aea24dbf2d6921)
+- **2026-08-10** · `lele-manager` · **Funzionalità:** [add safe Browse bulk deletion](https://github.com/gcomneno/lele-manager/commit/3476e4c717bbd89ccde033c1ac4b57930ce0ec48)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-10** · `lele-manager` · **Funzionalità:** [add canonical single-lesson actions](https://github.com/gcomneno/lele-manager/commit/73f7fb48d92b03ee518f64212ff901ce46d7bb9d)
+- **2026-08-10** · `system-log-dynamics` · **Sviluppo:** [Add structured systemd lifecycle semantic facets v2 (#40)](https://github.com/gcomneno/system-log-dynamics/commit/5df2b7b1bbf963c03c40895864a759d9beb02c94)
+- **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: simplify metadata authoring](https://github.com/gcomneno/lele-manager/commit/8a6b619f9ac19d45fb4b37a46d65dd7589f9cea3)
+- **2026-08-10** · `lele-manager` · **Correzione:** [preserve responsive shell navigation contracts](https://github.com/gcomneno/lele-manager/commit/3f68e2362a44c5076a7c075abd24266727b7d9bd)
+- **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: redesign global application header](https://github.com/gcomneno/lele-manager/commit/ab6af6e1245f704a7052008fa222020a058e8a78)
 - **2026-08-10** · `system-log-dynamics` · **Sviluppo:** [Expose semantic evidence v1 through the CLI (#38)](https://github.com/gcomneno/system-log-dynamics/commit/a93a038788186c754ad52e289473dde2774457a4)
 - **2026-08-10** · `system-log-dynamics` · **Sviluppo:** [Preserve descriptive event semantics for downstream IDS consumers (#36)](https://github.com/gcomneno/system-log-dynamics/commit/8fbaf8f03d6e0e1911c1ca3009b1d2445af10e38)
 - **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: make sidebar groups collapsible](https://github.com/gcomneno/lele-manager/commit/fc041d6ce0f8743ed1584a504931f220db7f3b8b)
@@ -255,11 +260,6 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add file-based CLI orchestration (#22)](https://github.com/gcomneno/system-log-dynamics/commit/bba3efbc5ec7201eb8610eec251766b1dcf43fa0)
 - **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add deterministic Markdown reporting (#21)](https://github.com/gcomneno/system-log-dynamics/commit/4e873ac83239b89b05286e6f14be7972d8fb53c2)
 - **2026-08-05** · `system-log-dynamics` · **Funzionalità:** [add reproducible routine versus boot burst experiment (#20)](https://github.com/gcomneno/system-log-dynamics/commit/7243e6683a3dd167223788937793327710e943fa)
-- **2026-08-05** · `smart-file-organizer` · **Release:** [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0)
-- **2026-08-05** · `atelier-kit` · **Sviluppo:** [architecture: generalize structured long-form reading (#237)](https://github.com/gcomneno/atelier-kit/commit/c4e31e7f6b630a0a9387f61e5a73961e0880e322)
-- **2026-08-05** · `atelier-kit` · **Sviluppo:** [noop](https://github.com/gcomneno/atelier-kit/commit/9884bd5c3c35be16a8a685c2e41c720036b69ce3)
-- **2026-08-05** · `reference-engine` · **Sviluppo:** [Persist immutable document bindings (#55)](https://github.com/gcomneno/reference-engine/commit/cb1f6bce52ddfb3097ac09049b75bb9d56484233)
-- **2026-08-05** · `atelier-kit` · **Funzionalità:** [adopt Giada UI editable-list primitives (#233)](https://github.com/gcomneno/atelier-kit/commit/a95611050c21e70cf76ea468beb463c441c09f0a)
 
 _Sono mostrati i 100 aggiornamenti significativi più recenti; 696 aggiornamenti precedenti sono stati omessi._
 
