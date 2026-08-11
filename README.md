@@ -156,14 +156,19 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-10** · `lele-manager` · **Fix:** [harden duplicate resolution workflows](https://github.com/gcomneno/lele-manager/commit/83daefb3f2b77d3dd8046febb09124ac8eaf92f0)
-- **2026-08-10** · `lele-manager` · **Feature:** [add explicit duplicate resolution](https://github.com/gcomneno/lele-manager/commit/c12217338979a86c39b61d3ff318d175217d8abf)
-- **2026-08-10** · `atelier-kit` · **Feature:** [deploy and validate the first real private Hosted Studio (#276)](https://github.com/gcomneno/atelier-kit/commit/784bca31be717e159f7ad34ed8aea24dbf2d6921)
-- **2026-08-10** · `lele-manager` · **Feature:** [add safe Browse bulk deletion](https://github.com/gcomneno/lele-manager/commit/3476e4c717bbd89ccde033c1ac4b57930ce0ec48)
+- **2026-08-11** · `lele-manager` · **Fix:** [harden vault snapshot restore boundaries](https://github.com/gcomneno/lele-manager/commit/6de01844a5dcff039c0d0feae9d3663e0758ee1d)
+- **2026-08-11** · `lele-manager` · **Feature:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/0cd38b6b82ae4ea30f255546b8b13dc47992ea01)
+- **2026-08-11** · `lele-manager` · **Fix:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/8996a6528df5f6f70941af30db16d0dcf84620b8)
+- **2026-08-11** · `lele-manager` · **Fix:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d082a78a04bfd9a362f2a1da5504c9ffa3e14f85)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-11** · `lele-manager` · **Feature:** [add multi-vault registry and active-vault management](https://github.com/gcomneno/lele-manager/commit/592c8177a5015f471e91afddf3a7da71c9b174c4)
+- **2026-08-10** · `lele-manager` · **Fix:** [harden duplicate resolution workflows](https://github.com/gcomneno/lele-manager/commit/83daefb3f2b77d3dd8046febb09124ac8eaf92f0)
+- **2026-08-10** · `lele-manager` · **Feature:** [add explicit duplicate resolution](https://github.com/gcomneno/lele-manager/commit/c12217338979a86c39b61d3ff318d175217d8abf)
+- **2026-08-10** · `atelier-kit` · **Feature:** [deploy and validate the first real private Hosted Studio (#276)](https://github.com/gcomneno/atelier-kit/commit/784bca31be717e159f7ad34ed8aea24dbf2d6921)
+- **2026-08-10** · `lele-manager` · **Feature:** [add safe Browse bulk deletion](https://github.com/gcomneno/lele-manager/commit/3476e4c717bbd89ccde033c1ac4b57930ce0ec48)
 - **2026-08-10** · `lele-manager` · **Feature:** [add canonical single-lesson actions](https://github.com/gcomneno/lele-manager/commit/73f7fb48d92b03ee518f64212ff901ce46d7bb9d)
 - **2026-08-10** · `system-log-dynamics` · **Development:** [Add structured systemd lifecycle semantic facets v2 (#40)](https://github.com/gcomneno/system-log-dynamics/commit/5df2b7b1bbf963c03c40895864a759d9beb02c94)
 - **2026-08-10** · `lele-manager` · **Development:** [ux: simplify metadata authoring](https://github.com/gcomneno/lele-manager/commit/8a6b619f9ac19d45fb4b37a46d65dd7589f9cea3)
@@ -255,13 +260,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-06** · `lele-manager` · **Feature:** [import PKPS lesson packages](https://github.com/gcomneno/lele-manager/commit/62f0b7beb8aa52cbb6d316ebf0ae60cf797aad62)
 - **2026-08-06** · `system-log-dynamics` · **Release:** [System Log Dynamics 0.1.0](https://github.com/gcomneno/system-log-dynamics/releases/tag/v0.1.0)
 - **2026-08-06** · `system-log-dynamics` · **Feature:** [add plain-language analysis summary (#29)](https://github.com/gcomneno/system-log-dynamics/commit/8a8ea50c9e5191fa3fb4264eedbb2fcc5fe30271)
-- **2026-08-06** · `lele-manager` · **Feature:** [establish LeLe Manager brand design system](https://github.com/gcomneno/lele-manager/commit/ebb35650744f7511b52d8b84e5b991bf9d039efe)
-- **2026-08-06** · `system-log-dynamics` · **Feature:** [add privacy-safe local journal acquisition (#23)](https://github.com/gcomneno/system-log-dynamics/commit/56e7fd43edcd275801101e75dc31c64e0e693199)
-- **2026-08-06** · `system-log-dynamics` · **Feature:** [add file-based CLI orchestration (#22)](https://github.com/gcomneno/system-log-dynamics/commit/bba3efbc5ec7201eb8610eec251766b1dcf43fa0)
-- **2026-08-05** · `system-log-dynamics` · **Feature:** [add deterministic Markdown reporting (#21)](https://github.com/gcomneno/system-log-dynamics/commit/4e873ac83239b89b05286e6f14be7972d8fb53c2)
-- **2026-08-05** · `system-log-dynamics` · **Feature:** [add reproducible routine versus boot burst experiment (#20)](https://github.com/gcomneno/system-log-dynamics/commit/7243e6683a3dd167223788937793327710e943fa)
 
-_Showing the 100 most recent meaningful updates; 696 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 701 older update(s) omitted._
 
 </details>
 
