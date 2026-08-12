@@ -40,6 +40,7 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | Progetto | Segnale tecnico |
 | --- | --- |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
+| [GYTE Study Tools](https://github.com/gcomneno/gyte-study-tools) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
 
 </details>
 

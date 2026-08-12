@@ -40,6 +40,7 @@ These projects best represent my current work across backend design, reliable au
 | Project | Technical signal |
 | --- | --- |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
+| [GYTE Study Tools](https://github.com/gcomneno/gyte-study-tools) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
 
 </details>
 
