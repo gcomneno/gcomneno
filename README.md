@@ -157,14 +157,23 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-12** · `gyte-study-tools` · **Development:** [Align source lesson handoff with LeLe Manager (#9)](https://github.com/gcomneno/gyte-study-tools/commit/88d924f3faa54abb0babe82296cef76bc67403e5)
-- **2026-08-12** · `giadaware-ui-components` · **Fix:** [make RelationshipGraph labels consumer-owned and improve keyboard navigation (#45)](https://github.com/gcomneno/giadaware-ui-components/commit/24b0318159d7f5481f80b7c66e1709c8e98e7b0e)
-- **2026-08-12** · `gyte-study-tools` · **Development:** [Preserve lexical words across transcript reflow (#6)](https://github.com/gcomneno/gyte-study-tools/commit/9a5ba932e45d6d4af9a72c419762975e4f94a604)
-- **2026-08-12** · `atelier-kit` · **Fix:** [preserve focal area and localize navigation (#278)](https://github.com/gcomneno/atelier-kit/commit/04909d71d62bf97d347e16ddf11c767622f77a88)
+- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect message-level label gaps (#12)](https://github.com/gcomneno/semantic-mail-archivist/commit/7647b4bb985fa303bda0b7fac2c4d6157b962e73)
+- **2026-08-12** · `atelier-kit` · **Feature:** [harden public demo deployment boundary (#282)](https://github.com/gcomneno/atelier-kit/commit/f36fdd55f865292044133a017abac5eef48b47a5)
+- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [define classification and safety model (#11)](https://github.com/gcomneno/semantic-mail-archivist/commit/5b850441494a747de1d7aece38ea2ca058b1f82c)
+- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [link roadmap to founding issues](https://github.com/gcomneno/semantic-mail-archivist/commit/fb71d9f894ec561c468fe60114e4cc7698023a04)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [add project charter](https://github.com/gcomneno/semantic-mail-archivist/commit/b4ac07fd0f7ed0eb843b7a3717ef8e104ca63d07)
+- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [initialize project documentation directory](https://github.com/gcomneno/semantic-mail-archivist/commit/8cb3982b0943eab4f3b1078197594cc0379c717b)
+- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [establish project vision and MVP](https://github.com/gcomneno/semantic-mail-archivist/commit/c975e7fbfb1b34a452726dddaf68e9729be69307)
+- **2026-08-12** · `semantic-mail-archivist` · **Development:** [Initial commit](https://github.com/gcomneno/semantic-mail-archivist/commit/e6520c0c24641cbf8933e3183ec894e4dae86f72)
+- **2026-08-12** · `gyte-study-tools` · **Docs:** [adopt bilingual documentation convention (#10) (#13)](https://github.com/gcomneno/gyte-study-tools/commit/da985b9f0d27eb77cf04fa617f9569558252435f)
+- **2026-08-12** · `gyte-study-tools` · **Development:** [Align source lesson handoff with LeLe Manager (#9)](https://github.com/gcomneno/gyte-study-tools/commit/88d924f3faa54abb0babe82296cef76bc67403e5)
+- **2026-08-12** · `giadaware-ui-components` · **Fix:** [make RelationshipGraph labels consumer-owned and improve keyboard navigation (#45)](https://github.com/gcomneno/giadaware-ui-components/commit/24b0318159d7f5481f80b7c66e1709c8e98e7b0e)
+- **2026-08-12** · `gyte-study-tools` · **Development:** [Preserve lexical words across transcript reflow (#6)](https://github.com/gcomneno/gyte-study-tools/commit/9a5ba932e45d6d4af9a72c419762975e4f94a604)
+- **2026-08-12** · `atelier-kit` · **Fix:** [preserve focal area and localize navigation (#278)](https://github.com/gcomneno/atelier-kit/commit/04909d71d62bf97d347e16ddf11c767622f77a88)
 - **2026-08-12** · `gyte-study-tools` · **Development:** [Fix extraction from article-scoped content containers (#4)](https://github.com/gcomneno/gyte-study-tools/commit/226ddbda0efca0c92e7d1b58a4816f4e34571685)
 - **2026-08-11** · `lele-manager` · **Fix:** [harden vault snapshot restore boundaries](https://github.com/gcomneno/lele-manager/commit/6de01844a5dcff039c0d0feae9d3663e0758ee1d)
 - **2026-08-11** · `lele-manager` · **Feature:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/0cd38b6b82ae4ea30f255546b8b13dc47992ea01)
@@ -252,17 +261,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-06** · `lele-manager` · **Docs:** [finalize Giada UI adoption](https://github.com/gcomneno/lele-manager/commit/14d91469999448c6a1bacfc4422e4daf73cdaa7c)
 - **2026-08-06** · `pkps` · **Docs:** [define package release identity](https://github.com/gcomneno/pkps/commit/9ba610351ce39244627756376990ef1db28d2bff)
 - **2026-08-06** · `lele-manager` · **Feature:** [extend Giada UI adoption](https://github.com/gcomneno/lele-manager/commit/f39ad4c7cec2e9c36a27bd8e53d65cb554cd5ba6)
-- **2026-08-06** · `pkps` · **Docs:** [record LeLe consumer baseline](https://github.com/gcomneno/pkps/commit/89a4e3581740e135d2878fd07c6d01d32dcfe8b4)
-- **2026-08-06** · `system-log-dynamics` · **Feature:** [add deterministic taxonomy coverage](https://github.com/gcomneno/system-log-dynamics/commit/324f636935425a49f3cb89818cc63c9b188f8e58)
-- **2026-08-06** · `pkps` · **Docs:** [establish PKPS phase 0 baseline](https://github.com/gcomneno/pkps/commit/e64bbc5d0636941bd924f2d061fd30cc00a3713a)
-- **2026-08-06** · `atelier-kit` · **Refactor:** [complete ReorderActions adoption (#243)](https://github.com/gcomneno/atelier-kit/commit/34affc82d6908fea7ad5aa2c3ba72299028fe925)
-- **2026-08-06** · `pkps` · **Docs:** [initialize PKPS repository](https://github.com/gcomneno/pkps/commit/f1146941149083dbd5ce330db4527e3406728f7a)
-- **2026-08-06** · `lele-manager` · **Feature:** [adopt Giada UI foundations](https://github.com/gcomneno/lele-manager/commit/4f54de876f05c87bc890ce0a03825426820cd3f7)
-- **2026-08-06** · `lele-manager` · **Docs:** [clarify PKPS consumer boundary](https://github.com/gcomneno/lele-manager/commit/f6e261d21e65cf49dcc8ff520b87052f06448329)
-- **2026-08-06** · `vscode-bitbake` · **Development:** [npm: minor version updates](https://github.com/gcomneno/vscode-bitbake/commit/3156bceebf86127ac64948625b1c279b5b7edb4d)
-- **2026-08-06** · `vscode-bitbake` · **Fix:** [clean up recipe-local stream handling](https://github.com/gcomneno/vscode-bitbake/commit/0d1d6ffae4b2552f33448b6fabe1feb664aeea55)
 
-_Showing the 100 most recent meaningful updates; 706 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 715 older update(s) omitted._
 
 </details>
 
