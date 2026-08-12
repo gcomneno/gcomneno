@@ -156,14 +156,16 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-12** · `atelier-kit` · **Correzione:** [preserve focal area and localize navigation (#278)](https://github.com/gcomneno/atelier-kit/commit/04909d71d62bf97d347e16ddf11c767622f77a88)
+- **2026-08-12** · `gyte-study-tools` · **Sviluppo:** [Fix extraction from article-scoped content containers (#4)](https://github.com/gcomneno/gyte-study-tools/commit/226ddbda0efca0c92e7d1b58a4816f4e34571685)
 - **2026-08-11** · `lele-manager` · **Correzione:** [harden vault snapshot restore boundaries](https://github.com/gcomneno/lele-manager/commit/6de01844a5dcff039c0d0feae9d3663e0758ee1d)
 - **2026-08-11** · `lele-manager` · **Funzionalità:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/0cd38b6b82ae4ea30f255546b8b13dc47992ea01)
-- **2026-08-11** · `lele-manager` · **Correzione:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/8996a6528df5f6f70941af30db16d0dcf84620b8)
-- **2026-08-11** · `lele-manager` · **Correzione:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d082a78a04bfd9a362f2a1da5504c9ffa3e14f85)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-11** · `lele-manager` · **Correzione:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/8996a6528df5f6f70941af30db16d0dcf84620b8)
+- **2026-08-11** · `lele-manager` · **Correzione:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d082a78a04bfd9a362f2a1da5504c9ffa3e14f85)
 - **2026-08-11** · `lele-manager` · **Funzionalità:** [add multi-vault registry and active-vault management](https://github.com/gcomneno/lele-manager/commit/592c8177a5015f471e91afddf3a7da71c9b174c4)
 - **2026-08-10** · `lele-manager` · **Correzione:** [harden duplicate resolution workflows](https://github.com/gcomneno/lele-manager/commit/83daefb3f2b77d3dd8046febb09124ac8eaf92f0)
 - **2026-08-10** · `lele-manager` · **Funzionalità:** [add explicit duplicate resolution](https://github.com/gcomneno/lele-manager/commit/c12217338979a86c39b61d3ff318d175217d8abf)
@@ -258,10 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-06** · `vscode-bitbake` · **Correzione:** [bound recipe-local file discovery](https://github.com/gcomneno/vscode-bitbake/commit/d1fb7055c584109303f02ea8feb252cc65a25116)
 - **2026-08-06** · `vscode-bitbake` · **Sviluppo:** [optim: defer recipe-local discovery to completion](https://github.com/gcomneno/vscode-bitbake/commit/485eccf9674c3029b35a5b8f05c0e527cd4caf12)
 - **2026-08-06** · `lele-manager` · **Funzionalità:** [import PKPS lesson packages](https://github.com/gcomneno/lele-manager/commit/62f0b7beb8aa52cbb6d316ebf0ae60cf797aad62)
-- **2026-08-06** · `system-log-dynamics` · **Release:** [System Log Dynamics 0.1.0](https://github.com/gcomneno/system-log-dynamics/releases/tag/v0.1.0)
-- **2026-08-06** · `system-log-dynamics` · **Funzionalità:** [add plain-language analysis summary (#29)](https://github.com/gcomneno/system-log-dynamics/commit/8a8ea50c9e5191fa3fb4264eedbb2fcc5fe30271)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 701 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 703 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
