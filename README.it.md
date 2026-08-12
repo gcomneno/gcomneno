@@ -156,14 +156,17 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-12** · `gyte-study-tools` · **Sviluppo:** [Align source lesson handoff with LeLe Manager (#9)](https://github.com/gcomneno/gyte-study-tools/commit/88d924f3faa54abb0babe82296cef76bc67403e5)
+- **2026-08-12** · `giadaware-ui-components` · **Correzione:** [make RelationshipGraph labels consumer-owned and improve keyboard navigation (#45)](https://github.com/gcomneno/giadaware-ui-components/commit/24b0318159d7f5481f80b7c66e1709c8e98e7b0e)
+- **2026-08-12** · `gyte-study-tools` · **Sviluppo:** [Preserve lexical words across transcript reflow (#6)](https://github.com/gcomneno/gyte-study-tools/commit/9a5ba932e45d6d4af9a72c419762975e4f94a604)
 - **2026-08-12** · `atelier-kit` · **Correzione:** [preserve focal area and localize navigation (#278)](https://github.com/gcomneno/atelier-kit/commit/04909d71d62bf97d347e16ddf11c767622f77a88)
-- **2026-08-12** · `gyte-study-tools` · **Sviluppo:** [Fix extraction from article-scoped content containers (#4)](https://github.com/gcomneno/gyte-study-tools/commit/226ddbda0efca0c92e7d1b58a4816f4e34571685)
-- **2026-08-11** · `lele-manager` · **Correzione:** [harden vault snapshot restore boundaries](https://github.com/gcomneno/lele-manager/commit/6de01844a5dcff039c0d0feae9d3663e0758ee1d)
-- **2026-08-11** · `lele-manager` · **Funzionalità:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/0cd38b6b82ae4ea30f255546b8b13dc47992ea01)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-12** · `gyte-study-tools` · **Sviluppo:** [Fix extraction from article-scoped content containers (#4)](https://github.com/gcomneno/gyte-study-tools/commit/226ddbda0efca0c92e7d1b58a4816f4e34571685)
+- **2026-08-11** · `lele-manager` · **Correzione:** [harden vault snapshot restore boundaries](https://github.com/gcomneno/lele-manager/commit/6de01844a5dcff039c0d0feae9d3663e0758ee1d)
+- **2026-08-11** · `lele-manager` · **Funzionalità:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/0cd38b6b82ae4ea30f255546b8b13dc47992ea01)
 - **2026-08-11** · `lele-manager` · **Correzione:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/8996a6528df5f6f70941af30db16d0dcf84620b8)
 - **2026-08-11** · `lele-manager` · **Correzione:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d082a78a04bfd9a362f2a1da5504c9ffa3e14f85)
 - **2026-08-11** · `lele-manager` · **Funzionalità:** [add multi-vault registry and active-vault management](https://github.com/gcomneno/lele-manager/commit/592c8177a5015f471e91afddf3a7da71c9b174c4)
@@ -257,11 +260,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-06** · `lele-manager` · **Documentazione:** [clarify PKPS consumer boundary](https://github.com/gcomneno/lele-manager/commit/f6e261d21e65cf49dcc8ff520b87052f06448329)
 - **2026-08-06** · `vscode-bitbake` · **Sviluppo:** [npm: minor version updates](https://github.com/gcomneno/vscode-bitbake/commit/3156bceebf86127ac64948625b1c279b5b7edb4d)
 - **2026-08-06** · `vscode-bitbake` · **Correzione:** [clean up recipe-local stream handling](https://github.com/gcomneno/vscode-bitbake/commit/0d1d6ffae4b2552f33448b6fabe1feb664aeea55)
-- **2026-08-06** · `vscode-bitbake` · **Correzione:** [bound recipe-local file discovery](https://github.com/gcomneno/vscode-bitbake/commit/d1fb7055c584109303f02ea8feb252cc65a25116)
-- **2026-08-06** · `vscode-bitbake` · **Sviluppo:** [optim: defer recipe-local discovery to completion](https://github.com/gcomneno/vscode-bitbake/commit/485eccf9674c3029b35a5b8f05c0e527cd4caf12)
-- **2026-08-06** · `lele-manager` · **Funzionalità:** [import PKPS lesson packages](https://github.com/gcomneno/lele-manager/commit/62f0b7beb8aa52cbb6d316ebf0ae60cf797aad62)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 703 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 706 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
