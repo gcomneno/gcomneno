@@ -157,14 +157,15 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-12** · `atelier-kit` · **Refactor:** [consume GIADA semantic palette contract](https://github.com/gcomneno/atelier-kit/commit/7360e7a91d7028ee0a830cb36f6f281f05dd6836)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [consume canonical GIADA theme tokens](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/84d734ff76a6540b4fd200cf7e5f5a216cfb3cb7)
 - **2026-08-12** · `giadaware-ui-components` · **Feature:** [add shared semantic palette tokens](https://github.com/gcomneno/giadaware-ui-components/commit/26f9e2068696ecfa215b75b2628cfce2736c164b)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add auditable mailbox change log (#22)](https://github.com/gcomneno/semantic-mail-archivist/commit/d8fdbaf51c4d25e490fa75ad05a7ceb10ffaa658)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [keep missing digits on two rows (#37)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bac5b21eecfa72d66442dcd9a8a633f546a9030c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [keep missing digits on two rows (#37)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bac5b21eecfa72d66442dcd9a8a633f546a9030c)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [improve digit-set readability and contrast (#36)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4fb432c6b9761cc612a8619d2d8551a41635f728)
 - **2026-08-12** · `atelier-kit-demo-sandbox` · **Development:** [demo: reset social links](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/d8b3e4273cd9e6667043510856af601038c2b9a9)
 - **2026-08-12** · `atelier-kit-demo-sandbox` · **Development:** [demo: update social links](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/95a82920f3a291bf1daf3bb2c25d9373b3172120)
@@ -260,9 +261,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-09** · `lele-manager` · **Fix:** [reuse running launcher instance](https://github.com/gcomneno/lele-manager/commit/2e730e1af2df736eafd6021a49d3fc8a1f45c577)
 - **2026-08-09** · `lele-manager` · **Development:** [ux: move similarity tuning to advanced options](https://github.com/gcomneno/lele-manager/commit/31c14be4d05273601d8f3490bafda4aa5e14cd1c)
 - **2026-08-09** · `lele-manager` · **Fix:** [lower mascot tongue by 3px](https://github.com/gcomneno/lele-manager/commit/a2554539c285928ce428eb47c5651a5df86ff812)
-- **2026-08-09** · `lele-manager` · **Fix:** [align duplicate comparison identity](https://github.com/gcomneno/lele-manager/commit/9e2bb1b833e607895b566a73f8a46921d01b938e)
 
-_Showing the 100 most recent meaningful updates; 956 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 957 older update(s) omitted._
 
 </details>
 
