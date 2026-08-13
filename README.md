@@ -157,14 +157,23 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-12** · `atelier-kit` · **Refactor:** [consume GIADA semantic palette contract](https://github.com/gcomneno/atelier-kit/commit/7360e7a91d7028ee0a830cb36f6f281f05dd6836)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [consume canonical GIADA theme tokens](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/84d734ff76a6540b4fd200cf7e5f5a216cfb3cb7)
-- **2026-08-12** · `giadaware-ui-components` · **Feature:** [add shared semantic palette tokens](https://github.com/gcomneno/giadaware-ui-components/commit/26f9e2068696ecfa215b75b2628cfce2736c164b)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add auditable mailbox change log (#22)](https://github.com/gcomneno/semantic-mail-archivist/commit/d8fdbaf51c4d25e490fa75ad05a7ceb10ffaa658)
+- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [connect Gmail repair dry-run (#39)](https://github.com/gcomneno/semantic-mail-archivist/commit/814ab9a15ad13f71f1cfcf8b5798059237fcc74e)
+- **2026-08-13** · `giadaware-ui-components` · **Feature:** [add consumer-owned actions to ImageLightbox (#51)](https://github.com/gcomneno/giadaware-ui-components/commit/99e0132a1aa606498e8d5ed6d6f4544cb39a4d5a)
+- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [wire Gmail read-only mailbox audit (#38)](https://github.com/gcomneno/semantic-mail-archivist/commit/4bfbddc195d861e47cc9ae60234fc5be5a0ae419)
+- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [add local CLI application shell (#37)](https://github.com/gcomneno/semantic-mail-archivist/commit/4f0b7bbed90c997f40e40ba5d0dd25a7cf645746)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-13** · `giadaware-ui-components` · **Feature:** [add progressive dropzone interaction to ImageAttachmentControl (#50)](https://github.com/gcomneno/giadaware-ui-components/commit/fd24ec23b39da12ab3e2d56d2389b8f4b7306227)
+- **2026-08-13** · `atelier-kit` · **Feature:** [support atomic multi-file repository mutations (#291)](https://github.com/gcomneno/atelier-kit/commit/ca853fe190daee20cc19bcf0fc1e9852bd504c90)
+- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [add Gmail read-only mailbox ingestion (#36)](https://github.com/gcomneno/semantic-mail-archivist/commit/fd84c5e2628ad57982088db70efface0e235e4af)
+- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [add local Gmail authentication (#35)](https://github.com/gcomneno/semantic-mail-archivist/commit/9aff33e859d4dbdaa52b69f3d6dc7036c212434a)
+- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [define provider adapter contract (#34)](https://github.com/gcomneno/semantic-mail-archivist/commit/73ff5c62fe83176a588ed85c1dd517aef12e2781)
+- **2026-08-12** · `atelier-kit` · **Refactor:** [consume GIADA semantic palette contract](https://github.com/gcomneno/atelier-kit/commit/7360e7a91d7028ee0a830cb36f6f281f05dd6836)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [consume canonical GIADA theme tokens](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/84d734ff76a6540b4fd200cf7e5f5a216cfb3cb7)
+- **2026-08-12** · `giadaware-ui-components` · **Feature:** [add shared semantic palette tokens](https://github.com/gcomneno/giadaware-ui-components/commit/26f9e2068696ecfa215b75b2628cfce2736c164b)
+- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add auditable mailbox change log (#22)](https://github.com/gcomneno/semantic-mail-archivist/commit/d8fdbaf51c4d25e490fa75ad05a7ceb10ffaa658)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [keep missing digits on two rows (#37)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bac5b21eecfa72d66442dcd9a8a633f546a9030c)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [improve digit-set readability and contrast (#36)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4fb432c6b9761cc612a8619d2d8551a41635f728)
 - **2026-08-12** · `atelier-kit-demo-sandbox` · **Development:** [demo: reset social links](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/d8b3e4273cd9e6667043510856af601038c2b9a9)
@@ -252,17 +261,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-10** · `lele-manager` · **Development:** [ux: differentiate sidebar icons](https://github.com/gcomneno/lele-manager/commit/348b56aed4e5c83dadff7e73a14e4019fc3eca3f)
 - **2026-08-10** · `lele-manager` · **Development:** [ux: turn Settings into Diagnostics workflow](https://github.com/gcomneno/lele-manager/commit/5c2e74b2c6bb522b39282b1b80c232e8c5b82424)
 - **2026-08-10** · `system-log-dynamics` · **Fix:** [distinguish observed boot transitions (#34)](https://github.com/gcomneno/system-log-dynamics/commit/e01e943286c23b4fb6a4dd4218fbaa9cbe428ae5)
-- **2026-08-10** · `lele-manager` · **Fix:** [serialize desktop launcher paths correctly](https://github.com/gcomneno/lele-manager/commit/292aa534207e8ef34cb6410f221b41d28197669c)
-- **2026-08-10** · `lele-manager` · **Feature:** [install Linux desktop integration](https://github.com/gcomneno/lele-manager/commit/6e90b369bce196d0898ae92a58bfbb012e76b065)
-- **2026-08-10** · `system-log-dynamics` · **Docs:** [define downstream IDS trust boundary (#32)](https://github.com/gcomneno/system-log-dynamics/commit/01587ee34b8fa2687de604d79d70b2114258d898)
-- **2026-08-10** · `lele-manager` · **Fix:** [isolate Linux install payload from user data](https://github.com/gcomneno/lele-manager/commit/8dc411e90325ed768ee3311d5b05e50923ad2956)
-- **2026-08-10** · `system-log-dynamics` · **Feature:** [export versioned evidence bundles (#31)](https://github.com/gcomneno/system-log-dynamics/commit/1718750adb0c937bb06d42e85d9cc075477c73fa)
-- **2026-08-10** · `lele-manager` · **Feature:** [add stable Linux install contract](https://github.com/gcomneno/lele-manager/commit/af309a147b8f089f057ff298e4cff66df1b96847)
-- **2026-08-09** · `lele-manager` · **Fix:** [reuse running launcher instance](https://github.com/gcomneno/lele-manager/commit/2e730e1af2df736eafd6021a49d3fc8a1f45c577)
-- **2026-08-09** · `lele-manager` · **Development:** [ux: move similarity tuning to advanced options](https://github.com/gcomneno/lele-manager/commit/31c14be4d05273601d8f3490bafda4aa5e14cd1c)
-- **2026-08-09** · `lele-manager` · **Fix:** [lower mascot tongue by 3px](https://github.com/gcomneno/lele-manager/commit/a2554539c285928ce428eb47c5651a5df86ff812)
 
-_Showing the 100 most recent meaningful updates; 957 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 966 older update(s) omitted._
 
 </details>
 
