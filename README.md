@@ -26,7 +26,7 @@ These projects best represent my current work across backend design, reliable au
 
 | Project | Official release | What it does | What it demonstrates |
 | --- | --- | --- | --- |
-| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.0) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
 | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Extracts, validates, traces provenance and queries information from personal reference documents | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
@@ -157,14 +157,15 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-14** · `boardlab` · **Feature:** [prepare canonical Session 01 learning path](https://github.com/gcomneno/boardlab/commit/12e853899590e5ba07e1f5cb333bc4b3fc20ae05)
 - **2026-08-14** · `lele-manager` · **Feature:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
 - **2026-08-14** · `lele-manager` · **Feature:** [add safe vault merge and transfer workflows (#230)](https://github.com/gcomneno/lele-manager/commit/4587399180a4ce6af42630500d580463420667e7)
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
-- **2026-08-14** · `semantic-mail-archivist` · **Feature:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-14** · `semantic-mail-archivist` · **Feature:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
 - **2026-08-14** · `ubuntu-system-tools` · **Feature:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add Button content regions (#53)](https://github.com/gcomneno/giadaware-ui-components/commit/427bf4c20df7836d90d75510a03e9585d39e5392)
@@ -260,9 +261,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-11** · `lele-manager` · **Fix:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/653d1854901805469d677ddd0565b7c45b3f898d)
 - **2026-08-11** · `lele-manager` · **Fix:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d15b501a76ed616075b9cd1e22d25ad7f8e06f48)
 - **2026-08-11** · `lele-manager` · **Feature:** [add multi-vault registry and active-vault management](https://github.com/gcomneno/lele-manager/commit/06567aa5dfdfae84e518411a52c3a6044b0274e4)
-- **2026-08-10** · `lele-manager` · **Fix:** [harden duplicate resolution workflows](https://github.com/gcomneno/lele-manager/commit/786494823950c042e594ce8b93c35233defe8373)
 
-_Showing the 100 most recent meaningful updates; 981 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 982 older update(s) omitted._
 
 </details>
 
