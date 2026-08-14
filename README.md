@@ -157,14 +157,20 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Feature:** [add global limit and aggregate totals (#42)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/16383cf58f36f50c71b47bcf192a62dca72c35d3)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [exclude reference draw from grouped counts (#41)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/11e90b0daf8b3d4e036254a0fbdd1b4db10b93e7)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [centralize consensus rendering (#40)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6a230b1c7f35d0915900c7990aec117acf40ead)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [clarify consensus labels (#39)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/298b4faa48733857f7dca5110ab03a3570bdb6cf)
+- **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
+- **2026-08-14** · `ubuntu-system-tools` · **Feature:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
+- **2026-08-14** · `giadaware-ui-components` · **Feature:** [add Button content regions (#53)](https://github.com/gcomneno/giadaware-ui-components/commit/427bf4c20df7836d90d75510a03e9585d39e5392)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [compact wheel digit chips (#50)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7fb7066615579a3e6d890f59a13a6913a3bb16c6)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [give consensus full-width layout (#49)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09e91f4252fb50d969c116a1d60536bfe73af7cf)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [align consensus semantics with CLI (#46)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/558072b21314daff1cf3e38e0a4e4f41e96d512b)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Feature:** [add global limit and aggregate totals (#42)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/16383cf58f36f50c71b47bcf192a62dca72c35d3)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [exclude reference draw from grouped counts (#41)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/11e90b0daf8b3d4e036254a0fbdd1b4db10b93e7)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [centralize consensus rendering (#40)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6a230b1c7f35d0915900c7990aec117acf40ead)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [clarify consensus labels (#39)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/298b4faa48733857f7dca5110ab03a3570bdb6cf)
 - **2026-08-13** · `giadaware-ui-components` · **Feature:** [add optional Panel footer (#52)](https://github.com/gcomneno/giadaware-ui-components/commit/520463e48095f9e17941b974d855a2e56086ec43)
 - **2026-08-13** · `semantic-mail-archivist` · **Feature:** [connect Gmail repair dry-run (#39)](https://github.com/gcomneno/semantic-mail-archivist/commit/6f6a23c6fd7513f1c2b02d7aff0d978d0836c91b)
 - **2026-08-13** · `giadaware-ui-components` · **Feature:** [add consumer-owned actions to ImageLightbox (#51)](https://github.com/gcomneno/giadaware-ui-components/commit/d50150a1f568d321a44d143f3052034c56188fd1)
@@ -255,14 +261,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-10** · `atelier-kit` · **Feature:** [deploy and validate the first real private Hosted Studio (#276)](https://github.com/gcomneno/atelier-kit/commit/2585043033e51709f36cfde156806883bc9735d5)
 - **2026-08-10** · `atelier-kit-demo-sandbox` · **Feature:** [deploy and validate the first real private Hosted Studio (#276)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/2585043033e51709f36cfde156806883bc9735d5)
 - **2026-08-10** · `lele-manager` · **Feature:** [add safe Browse bulk deletion](https://github.com/gcomneno/lele-manager/commit/c0732b94a7236071e215e124da5bf7f20378f8c4)
-- **2026-08-10** · `lele-manager` · **Feature:** [add canonical single-lesson actions](https://github.com/gcomneno/lele-manager/commit/7f2338474970db0a97c00826f2c3be0aad0590e3)
-- **2026-08-10** · `system-log-dynamics` · **Development:** [Add structured systemd lifecycle semantic facets v2 (#40)](https://github.com/gcomneno/system-log-dynamics/commit/5f05166c35cec5c791eb8ce93dc76025ab8ad530)
-- **2026-08-10** · `lele-manager` · **Development:** [ux: simplify metadata authoring](https://github.com/gcomneno/lele-manager/commit/ca101fb864fcd3b0d32245f33ac1d8d3f430459e)
-- **2026-08-10** · `lele-manager` · **Fix:** [preserve responsive shell navigation contracts](https://github.com/gcomneno/lele-manager/commit/34b87ce3d1c2f7245bb6db5a350f706cee598e2b)
-- **2026-08-10** · `lele-manager` · **Development:** [ux: redesign global application header](https://github.com/gcomneno/lele-manager/commit/8a6411b7621def6a08e9a5e210978ccb860bde9a)
-- **2026-08-10** · `system-log-dynamics` · **Development:** [Expose semantic evidence v1 through the CLI (#38)](https://github.com/gcomneno/system-log-dynamics/commit/a304c17d697650aacf8e0fedae145485f4c95d13)
 
-_Showing the 100 most recent meaningful updates; 971 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 977 older update(s) omitted._
 
 </details>
 
