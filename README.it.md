@@ -157,14 +157,18 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-13** · `giadaware-ui-components` · **Funzionalità:** [add optional Panel footer (#52)](https://github.com/gcomneno/giadaware-ui-components/commit/520463e48095f9e17941b974d855a2e56086ec43)
-- **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [connect Gmail repair dry-run (#39)](https://github.com/gcomneno/semantic-mail-archivist/commit/6f6a23c6fd7513f1c2b02d7aff0d978d0836c91b)
-- **2026-08-13** · `giadaware-ui-components` · **Funzionalità:** [add consumer-owned actions to ImageLightbox (#51)](https://github.com/gcomneno/giadaware-ui-components/commit/d50150a1f568d321a44d143f3052034c56188fd1)
-- **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [wire Gmail read-only mailbox audit (#38)](https://github.com/gcomneno/semantic-mail-archivist/commit/af41909b40be2aecd78f1415a2864eff89c5ad64)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add global limit and aggregate totals (#42)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/16383cf58f36f50c71b47bcf192a62dca72c35d3)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Correzione:** [exclude reference draw from grouped counts (#41)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/11e90b0daf8b3d4e036254a0fbdd1b4db10b93e7)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactoring:** [centralize consensus rendering (#40)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6a230b1c7f35d0915900c7990aec117acf40ead)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactoring:** [clarify consensus labels (#39)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/298b4faa48733857f7dca5110ab03a3570bdb6cf)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-13** · `giadaware-ui-components` · **Funzionalità:** [add optional Panel footer (#52)](https://github.com/gcomneno/giadaware-ui-components/commit/520463e48095f9e17941b974d855a2e56086ec43)
+- **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [connect Gmail repair dry-run (#39)](https://github.com/gcomneno/semantic-mail-archivist/commit/6f6a23c6fd7513f1c2b02d7aff0d978d0836c91b)
+- **2026-08-13** · `giadaware-ui-components` · **Funzionalità:** [add consumer-owned actions to ImageLightbox (#51)](https://github.com/gcomneno/giadaware-ui-components/commit/d50150a1f568d321a44d143f3052034c56188fd1)
+- **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [wire Gmail read-only mailbox audit (#38)](https://github.com/gcomneno/semantic-mail-archivist/commit/af41909b40be2aecd78f1415a2864eff89c5ad64)
 - **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [add local CLI application shell (#37)](https://github.com/gcomneno/semantic-mail-archivist/commit/63d97e7244b7855d39801f34d6e3bb122260c384)
 - **2026-08-13** · `giadaware-ui-components` · **Funzionalità:** [add progressive dropzone interaction to ImageAttachmentControl (#50)](https://github.com/gcomneno/giadaware-ui-components/commit/69cb67a533de90205cdf58894ddb92c09dafc2a7)
 - **2026-08-13** · `atelier-kit` · **Funzionalità:** [support atomic multi-file repository mutations (#291)](https://github.com/gcomneno/atelier-kit/commit/8edf3155ed98795cd97f16c6ed71fe1a1e498ed4)
@@ -257,12 +261,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-10** · `lele-manager` · **Correzione:** [preserve responsive shell navigation contracts](https://github.com/gcomneno/lele-manager/commit/34b87ce3d1c2f7245bb6db5a350f706cee598e2b)
 - **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: redesign global application header](https://github.com/gcomneno/lele-manager/commit/8a6411b7621def6a08e9a5e210978ccb860bde9a)
 - **2026-08-10** · `system-log-dynamics` · **Sviluppo:** [Expose semantic evidence v1 through the CLI (#38)](https://github.com/gcomneno/system-log-dynamics/commit/a304c17d697650aacf8e0fedae145485f4c95d13)
-- **2026-08-10** · `system-log-dynamics` · **Sviluppo:** [Preserve descriptive event semantics for downstream IDS consumers (#36)](https://github.com/gcomneno/system-log-dynamics/commit/6ed0b4101e16f4135f4af87f30f26cb4bcc083ce)
-- **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: make sidebar groups collapsible](https://github.com/gcomneno/lele-manager/commit/00a5c92ee8d4954b8aa7acf0e5808d2ba8be5144)
-- **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: differentiate sidebar icons](https://github.com/gcomneno/lele-manager/commit/f5f4fc22ef3add2c89f64685727c93f6e3936c22)
-- **2026-08-10** · `lele-manager` · **Sviluppo:** [ux: turn Settings into Diagnostics workflow](https://github.com/gcomneno/lele-manager/commit/49877e9525bd35a0b62616b7a1eee013c6da10b6)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 967 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 971 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
