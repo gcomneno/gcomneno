@@ -31,7 +31,7 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Estrae, valida, traccia la provenienza e rende interrogabili informazioni da documenti personali di riferimento | Estrazione deterministica, validazione, provenienza, interrogazione e confini persistenti del repository |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Estrae da YouTube trascrizioni, audio e video e supporta reflow, traduzione e trascrizione locale dei contenuti | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | — | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite entry point base, visitor e studio isolati | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Fornisce un kit vetrina configurabile con authoring locale via Studio, catalogo content-driven e strumenti di pubblicazione | Architettura di prodotto SvelteKit, authoring local-first, distribuzione desktop e adozione downstream reale di componenti Giada UI riutilizzabili |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Fornisce un kit vetrina configurabile con superfici di authoring Studio locali, desktop e hosted a perimetro esplicito, catalogo content-driven e strumenti di pubblicazione | Architettura di prodotto SvelteKit, confini di autorità espliciti tra local/hosted/demo, mutazioni repository atomiche, distribuzione desktop e adozione downstream di Giada UI |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Utilità Linux per diagnostica, manutenzione controllata, trascrizione offline e analisi degli avvisi kernel | Tooling di sistema safety-first, diagnostica read-only, flussi espliciti su opt-in e packaging Linux riproducibile |
 
 <details>
@@ -41,6 +41,7 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | --- | --- |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
 | [GYTE Study Tools](https://github.com/gcomneno/gyte-study-tools) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
+| [Semantic Mail Archivist](https://github.com/gcomneno/semantic-mail-archivist) | Audit Gmail privacy-first e repair dry-run, confini provider, confidence spiegabile e journal delle mutazioni crash-aware |
 
 </details>
 
@@ -71,10 +72,14 @@ Upstream: [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-b
 | Semplificazione del flusso di selezione delle configurazioni BitBake e correzione dell'aggiornamento della status bar | Refactoring conservativo, characterization test e gestione coerente dello stato UI |
 | Evoluzione del workspace di integration test verso `bitbake-setup` e Yocto 6.0 | Linux/Yocto, ambienti di integrazione riproducibili e manutenzione dell'infrastruttura di test |
 | Aggiornamento controllato delle dipendenze npm, riducendo le vulnerabilità senza modificare i range dichiarati | Dependency maintenance, security hygiene e validazione multilivello |
+| Estrazione di una ricerca file cancellabile riutilizzabile e di lifecycle dedicati per Toaster e gestione dei documenti BitBake | Refactoring TypeScript modulare, ownership esplicita del lifecycle e characterization test che preservano il comportamento |
 
 <details>
 <summary>Pull request upstream selezionate e integrate</summary>
 
+- [#545 — refactor: extract document lifecycle](https://github.com/yoctoproject/vscode-bitbake/pull/545)
+- [#544 — refactor: extract Toaster lifecycle](https://github.com/yoctoproject/vscode-bitbake/pull/544)
+- [#543 — Extract reusable cancellable file search utility](https://github.com/yoctoproject/vscode-bitbake/pull/543)
 - [#541 — npm: minor version updates](https://github.com/yoctoproject/vscode-bitbake/pull/541)
 - [#538 — Fix unbounded recipe-local file discovery](https://github.com/yoctoproject/vscode-bitbake/pull/538)
 - [#535 — test: create integration workspace with bitbake-setup](https://github.com/yoctoproject/vscode-bitbake/pull/535)
@@ -115,7 +120,7 @@ Questi repository usano esperimenti software riproducibili per studiare struttur
 | Analisi di sequenze operative | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Normalizzazione privacy-safe dei journal Linux, classificazione deterministica, manifest riproducibili e confronto temporale |
 | Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
 | Analisi di sequenze | [Digit Probe](https://github.com/gcomneno/digit-probe) | Casualità, comprimibilità, autocorrelazione, n-grammi e pattern di tipo Schur |
-| Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel e confronto storico |
+| Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel, analisi dei segnali storici, contratti applicativi versionati e GUI di ricerca locale riproducibile |
 
 <details>
 <summary>Altri progetti di ricerca e sperimentali</summary>
@@ -157,14 +162,15 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-14** · `atelier-kit` · **Documentazione:** [correct current release](https://github.com/gcomneno/atelier-kit/commit/75dad938c936ed662323e13a723e721a4ca5a218)
 - **2026-08-14** · `boardlab` · **Funzionalità:** [prepare canonical Session 01 learning path](https://github.com/gcomneno/boardlab/commit/12e853899590e5ba07e1f5cb333bc4b3fc20ae05)
 - **2026-08-14** · `lele-manager` · **Funzionalità:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
 - **2026-08-14** · `lele-manager` · **Funzionalità:** [add safe vault merge and transfer workflows (#230)](https://github.com/gcomneno/lele-manager/commit/4587399180a4ce6af42630500d580463420667e7)
-- **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
 - **2026-08-14** · `semantic-mail-archivist` · **Funzionalità:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 - **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
 - **2026-08-14** · `ubuntu-system-tools` · **Funzionalità:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
@@ -260,9 +266,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-11** · `lele-manager` · **Funzionalità:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/25172eedd421eff9466179fa3b6d3f43d312ee39)
 - **2026-08-11** · `lele-manager` · **Correzione:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/653d1854901805469d677ddd0565b7c45b3f898d)
 - **2026-08-11** · `lele-manager` · **Correzione:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d15b501a76ed616075b9cd1e22d25ad7f8e06f48)
-- **2026-08-11** · `lele-manager` · **Funzionalità:** [add multi-vault registry and active-vault management](https://github.com/gcomneno/lele-manager/commit/06567aa5dfdfae84e518411a52c3a6044b0274e4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 982 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 988 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
