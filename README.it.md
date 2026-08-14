@@ -157,14 +157,18 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
-- **2026-08-14** · `ubuntu-system-tools` · **Funzionalità:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
-- **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add Button content regions (#53)](https://github.com/gcomneno/giadaware-ui-components/commit/427bf4c20df7836d90d75510a03e9585d39e5392)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Correzione:** [compact wheel digit chips (#50)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7fb7066615579a3e6d890f59a13a6913a3bb16c6)
+- **2026-08-14** · `lele-manager` · **Funzionalità:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
+- **2026-08-14** · `lele-manager` · **Funzionalità:** [add safe vault merge and transfer workflows (#230)](https://github.com/gcomneno/lele-manager/commit/4587399180a4ce6af42630500d580463420667e7)
+- **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
+- **2026-08-14** · `semantic-mail-archivist` · **Funzionalità:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
+- **2026-08-14** · `ubuntu-system-tools` · **Funzionalità:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
+- **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add Button content regions (#53)](https://github.com/gcomneno/giadaware-ui-components/commit/427bf4c20df7836d90d75510a03e9585d39e5392)
+- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Correzione:** [compact wheel digit chips (#50)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7fb7066615579a3e6d890f59a13a6913a3bb16c6)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Correzione:** [give consensus full-width layout (#49)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09e91f4252fb50d969c116a1d60536bfe73af7cf)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Correzione:** [align consensus semantics with CLI (#46)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/558072b21314daff1cf3e38e0a4e4f41e96d512b)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add global limit and aggregate totals (#42)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/16383cf58f36f50c71b47bcf192a62dca72c35d3)
@@ -257,12 +261,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-11** · `lele-manager` · **Correzione:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d15b501a76ed616075b9cd1e22d25ad7f8e06f48)
 - **2026-08-11** · `lele-manager` · **Funzionalità:** [add multi-vault registry and active-vault management](https://github.com/gcomneno/lele-manager/commit/06567aa5dfdfae84e518411a52c3a6044b0274e4)
 - **2026-08-10** · `lele-manager` · **Correzione:** [harden duplicate resolution workflows](https://github.com/gcomneno/lele-manager/commit/786494823950c042e594ce8b93c35233defe8373)
-- **2026-08-10** · `lele-manager` · **Funzionalità:** [add explicit duplicate resolution](https://github.com/gcomneno/lele-manager/commit/dde7b25e5a16da641f48f6960f1c47a03506b761)
-- **2026-08-10** · `atelier-kit` · **Funzionalità:** [deploy and validate the first real private Hosted Studio (#276)](https://github.com/gcomneno/atelier-kit/commit/2585043033e51709f36cfde156806883bc9735d5)
-- **2026-08-10** · `atelier-kit-demo-sandbox` · **Funzionalità:** [deploy and validate the first real private Hosted Studio (#276)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/2585043033e51709f36cfde156806883bc9735d5)
-- **2026-08-10** · `lele-manager` · **Funzionalità:** [add safe Browse bulk deletion](https://github.com/gcomneno/lele-manager/commit/c0732b94a7236071e215e124da5bf7f20378f8c4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 977 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 981 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
