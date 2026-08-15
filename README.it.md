@@ -162,14 +162,15 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-14** · `concorso-inps-assistente-informatico` · **Novità:** [prepare INPS study repository readiness](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/074e8ed1245d9158e531d1ad847f726e03219b01)
 - **2026-08-14** · `atelier-kit` · **Documentazione:** [correct current release](https://github.com/gcomneno/atelier-kit/commit/75dad938c936ed662323e13a723e721a4ca5a218)
 - **2026-08-14** · `boardlab` · **Funzionalità:** [prepare canonical Session 01 learning path](https://github.com/gcomneno/boardlab/commit/12e853899590e5ba07e1f5cb333bc4b3fc20ae05)
 - **2026-08-14** · `lele-manager` · **Funzionalità:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
-- **2026-08-14** · `lele-manager` · **Funzionalità:** [add safe vault merge and transfer workflows (#230)](https://github.com/gcomneno/lele-manager/commit/4587399180a4ce6af42630500d580463420667e7)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-14** · `lele-manager` · **Funzionalità:** [add safe vault merge and transfer workflows (#230)](https://github.com/gcomneno/lele-manager/commit/4587399180a4ce6af42630500d580463420667e7)
 - **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
 - **2026-08-14** · `semantic-mail-archivist` · **Funzionalità:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 - **2026-08-14** · `giadaware-ui-components` · **Funzionalità:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
@@ -265,9 +266,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-11** · `lele-manager` · **Correzione:** [harden vault snapshot restore boundaries](https://github.com/gcomneno/lele-manager/commit/c35c27bdaab379d1d5738245386455a35ba2175f)
 - **2026-08-11** · `lele-manager` · **Funzionalità:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/25172eedd421eff9466179fa3b6d3f43d312ee39)
 - **2026-08-11** · `lele-manager` · **Correzione:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/653d1854901805469d677ddd0565b7c45b3f898d)
-- **2026-08-11** · `lele-manager` · **Correzione:** [harden multi-vault runtime boundaries](https://github.com/gcomneno/lele-manager/commit/d15b501a76ed616075b9cd1e22d25ad7f8e06f48)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 988 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 989 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
