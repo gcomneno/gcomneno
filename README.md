@@ -30,7 +30,7 @@ These projects best represent my current work across backend design, reliable au
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
 | [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Extracts, validates, traces provenance and queries information from personal reference documents | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
-| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | — | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
+| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Provides a configurable showcase kit with local, desktop and bounded hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit local/hosted/demo authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Linux utilities for diagnostics, controlled maintenance, offline transcription and kernel warning analysis | Safety-first system tooling, read-only diagnostics, explicit opt-in workflows and reproducible Linux packaging |
 
@@ -162,14 +162,33 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-14** · `concorso-inps-assistente-informatico` · **News:** [prepare INPS study repository readiness](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/074e8ed1245d9158e531d1ad847f726e03219b01)
-- **2026-08-14** · `atelier-kit` · **Docs:** [correct current release](https://github.com/gcomneno/atelier-kit/commit/75dad938c936ed662323e13a723e721a4ca5a218)
-- **2026-08-14** · `boardlab` · **Feature:** [prepare canonical Session 01 learning path](https://github.com/gcomneno/boardlab/commit/12e853899590e5ba07e1f5cb333bc4b3fc20ae05)
-- **2026-08-14** · `lele-manager` · **Feature:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
+- **2026-08-15** · `atelier-kit` · **Fix:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
+- **2026-08-15** · `lele-manager` · **Feature:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
+- **2026-08-15** · `atelier-kit` · **Feature:** [add optional Vercel Web Analytics (#296)](https://github.com/gcomneno/atelier-kit/commit/0ca74a873e1609f98a995b2c2ce9474fc50d46e6)
+- **2026-08-15** · `lele-manager` · **Feature:** [brand LeLe Manager as Your Managed Second Brain (#236)](https://github.com/gcomneno/lele-manager/commit/4272371360043e8176bb8d08331420a6865de67c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-15** · `lele-manager` · **Fix:** [refine original monkey cameo timing (#235)](https://github.com/gcomneno/lele-manager/commit/f9cb3a7238440d227316ab079d43674850fa5f20)
+- **2026-08-15** · `atelier-kit` · **Feature:** [migrate Hero image authoring to controlled boundary (#295)](https://github.com/gcomneno/atelier-kit/commit/abcbf1b4af2c155c3544d1b18dbf3d91ff77a54f)
+- **2026-08-15** · `atelier-kit` · **Development:** [noop](https://github.com/gcomneno/atelier-kit/commit/8a661cd14da1ad4451bdf8ae7edb9bfc9a34416f)
+- **2026-08-15** · `atelier-kit` · **Feature:** [add controlled image-upload authoring boundary (#293)](https://github.com/gcomneno/atelier-kit/commit/b43a09b4ba418b8eeb59c2a9451b4fdc2bf3cac5)
+- **2026-08-15** · `lele-manager` · **Feature:** [add explicit lesson lifecycle and supersession semantics (#234)](https://github.com/gcomneno/lele-manager/commit/b54229be80a2e9677feecad46119445cb2312545)
+- **2026-08-15** · `giadaware-ui-components` · **Release:** [Giada UI 0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0)
+- **2026-08-15** · `giadaware-ui-components` · **Docs:** [define release and versioning policy (#65)](https://github.com/gcomneno/giadaware-ui-components/commit/3d8d3bbf995bda6c4b6a4aa38d9ffc681cefa50a)
+- **2026-08-15** · `giadaware-ui-components` · **Docs:** [establish bilingual public documentation contract (#63)](https://github.com/gcomneno/giadaware-ui-components/commit/2ef23bb65466032502a71b275cdad49e0933c491)
+- **2026-08-15** · `lele-manager` · **Fix:** [serialize Danger Zone destructive commits against Vault activation (#233)](https://github.com/gcomneno/lele-manager/commit/f24c25a1b35d76802781bfefa0fb3b575e913f31)
+- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add editable list drag handles (#61)](https://github.com/gcomneno/giadaware-ui-components/commit/ce00ea338fd70091dfe2719e5fd6d5fa1e3f5abe)
+- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add async operation progress (#60)](https://github.com/gcomneno/giadaware-ui-components/commit/43e58d50928ed040c52184beb1e61efc55a0a4c7)
+- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add reorder position context (#59)](https://github.com/gcomneno/giadaware-ui-components/commit/f14422a0216aec6d32c139b29bd2c3961e07e4eb)
+- **2026-08-15** · `giadaware-ui-components` · **Feature:** [announce reorder outcomes accessibly (#58)](https://github.com/gcomneno/giadaware-ui-components/commit/08cd9e0734f95d27aa995d9c7647b2a0724ef188)
+- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add composable StatusNotice (#57)](https://github.com/gcomneno/giadaware-ui-components/commit/1578655b453a9dc66f9e2123f2991b1254a35c10)
+- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add field description and error primitives (#56)](https://github.com/gcomneno/giadaware-ui-components/commit/762d6677a3ce98aeb893b0e06e57108359a9e907)
+- **2026-08-14** · `concorso-inps-assistente-informatico` · **News:** [prepare INPS study repository readiness](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/074e8ed1245d9158e531d1ad847f726e03219b01)
+- **2026-08-14** · `atelier-kit` · **Docs:** [correct current release](https://github.com/gcomneno/atelier-kit/commit/75dad938c936ed662323e13a723e721a4ca5a218)
+- **2026-08-14** · `boardlab` · **Feature:** [prepare canonical Session 01 learning path](https://github.com/gcomneno/boardlab/commit/12e853899590e5ba07e1f5cb333bc4b3fc20ae05)
+- **2026-08-14** · `lele-manager` · **Feature:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
 - **2026-08-14** · `lele-manager` · **Feature:** [add safe vault merge and transfer workflows (#230)](https://github.com/gcomneno/lele-manager/commit/4587399180a4ce6af42630500d580463420667e7)
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
 - **2026-08-14** · `semantic-mail-archivist` · **Feature:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
@@ -247,27 +266,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `atelier-kit-demo-sandbox` · **Feature:** [establish isolated public demo runtime (#284)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/ffc798e238d30af5e7ac1beca788ddeac7a23bd3)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add dry-run repair reports](https://github.com/gcomneno/semantic-mail-archivist/commit/c57d069374cc99418ff878d55af0e4785313a98d)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect message-level label gaps (#12)](https://github.com/gcomneno/semantic-mail-archivist/commit/deffe03778d304779a9ac17a0c8f9de15418bd09)
-- **2026-08-12** · `atelier-kit` · **Feature:** [harden public demo deployment boundary (#282)](https://github.com/gcomneno/atelier-kit/commit/737c7d1939bfa00c16d525eb2fb5fdc752c0cb97)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Feature:** [harden public demo deployment boundary (#282)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/737c7d1939bfa00c16d525eb2fb5fdc752c0cb97)
-- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [define classification and safety model (#11)](https://github.com/gcomneno/semantic-mail-archivist/commit/bb9b4110e2922a3cdee17f204fab317562dc5133)
-- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [link roadmap to founding issues](https://github.com/gcomneno/semantic-mail-archivist/commit/b62e2c44299931a65758edfc9f318ad2691dcbfc)
-- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [add project charter](https://github.com/gcomneno/semantic-mail-archivist/commit/f3be40720a803d5b27781ddecfd67aab194ff57d)
-- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [initialize project documentation directory](https://github.com/gcomneno/semantic-mail-archivist/commit/9d94ec2ae428bc1c3f0222d942d40961edd4a84e)
-- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [establish project vision and MVP](https://github.com/gcomneno/semantic-mail-archivist/commit/01667df1c5e90265d83e1c0b3ebd2d8815b8f950)
-- **2026-08-12** · `semantic-mail-archivist` · **Development:** [Initial commit](https://github.com/gcomneno/semantic-mail-archivist/commit/08bcded007d8155b3259a8a64f4ffc221ea21013)
-- **2026-08-12** · `gyte-study-tools` · **Docs:** [adopt bilingual documentation convention (#10) (#13)](https://github.com/gcomneno/gyte-study-tools/commit/cc2eb1f5525963cca8c5d151e13ad02826663a2b)
-- **2026-08-12** · `gyte-study-tools` · **Development:** [Align source lesson handoff with LeLe Manager (#9)](https://github.com/gcomneno/gyte-study-tools/commit/097306f6b418333f9bfa6b551e54e8a605a2a35c)
-- **2026-08-12** · `giadaware-ui-components` · **Fix:** [make RelationshipGraph labels consumer-owned and improve keyboard navigation (#45)](https://github.com/gcomneno/giadaware-ui-components/commit/f2bac68ccc15d65f4a94df123afde2f13f1665fe)
-- **2026-08-12** · `gyte-study-tools` · **Development:** [Preserve lexical words across transcript reflow (#6)](https://github.com/gcomneno/gyte-study-tools/commit/37d50c9a9044f1a602c5e22a8ae677a2ea511984)
-- **2026-08-12** · `atelier-kit` · **Fix:** [preserve focal area and localize navigation (#278)](https://github.com/gcomneno/atelier-kit/commit/783101e4cb6c5eb96b14c7e26185127e4df520ca)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Fix:** [preserve focal area and localize navigation (#278)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/783101e4cb6c5eb96b14c7e26185127e4df520ca)
-- **2026-08-12** · `gyte-study-tools` · **Development:** [Fix extraction from article-scoped content containers (#4)](https://github.com/gcomneno/gyte-study-tools/commit/82723458ab2279c6e56d66e8bc9006f53fa565b1)
-- **2026-08-11** · `lele-manager` · **Fix:** [harden vault snapshot restore boundaries](https://github.com/gcomneno/lele-manager/commit/c35c27bdaab379d1d5738245386455a35ba2175f)
-- **2026-08-11** · `lele-manager` · **Feature:** [add vault snapshot and restore workflows](https://github.com/gcomneno/lele-manager/commit/25172eedd421eff9466179fa3b6d3f43d312ee39)
-- **2026-08-11** · `lele-manager` · **Fix:** [enforce active-vault snapshot coherence](https://github.com/gcomneno/lele-manager/commit/653d1854901805469d677ddd0565b7c45b3f898d)
 
-_Showing the 100 most recent meaningful updates; 989 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1003 older update(s) omitted._
 
 </details>
 
