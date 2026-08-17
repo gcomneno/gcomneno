@@ -161,14 +161,15 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-17** · `lele-manager` · **Feature:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Fix:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
 - **2026-08-17** · `atelier-kit` · **Fix:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
 - **2026-08-17** · `atelier-kit` · **Docs:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
-- **2026-08-17** · `atelier-kit` · **Docs:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-17** · `atelier-kit` · **Docs:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
 - **2026-08-17** · `atelier-kit` · **Fix:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
 - **2026-08-15** · `atelier-kit` · **Fix:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
 - **2026-08-15** · `lele-manager` · **Feature:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
@@ -264,9 +265,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add dry-run repair reports](https://github.com/gcomneno/semantic-mail-archivist/commit/c57d069374cc99418ff878d55af0e4785313a98d)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect message-level label gaps (#12)](https://github.com/gcomneno/semantic-mail-archivist/commit/deffe03778d304779a9ac17a0c8f9de15418bd09)
-- **2026-08-12** · `atelier-kit` · **Feature:** [harden public demo deployment boundary (#282)](https://github.com/gcomneno/atelier-kit/commit/737c7d1939bfa00c16d525eb2fb5fdc752c0cb97)
 
-_Showing the 100 most recent meaningful updates; 772 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 801 older update(s) omitted._
 
 </details>
 
