@@ -9,6 +9,7 @@ on:
     branches:
       - main
     paths:
+      - scripts/retire_profile_repositories_20260817.py
       - scripts/sync_selected_project_releases.py
       - scripts/update_latest_updates.py
       - tests/test_profile_curation.py
@@ -32,6 +33,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Apply retired repository cleanup
+        run: python scripts/retire_profile_repositories_20260817.py
+
       - name: Test profile generators and curation
         run: python -m unittest discover -s tests -v
 
@@ -47,14 +51,14 @@ jobs:
 
       - name: Commit changes if needed
         run: |
-          if git diff --quiet -- README.md README.it.md; then
-            echo "No README updates found."
+          if git diff --quiet -- README.md README.it.md scripts/sync_selected_project_releases.py scripts/update_latest_updates.py tests/test_profile_curation.py tests/test_sync_selected_project_releases.py tests/test_update_latest_updates.py; then
+            echo "No profile retirement updates found."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add README.md README.it.md
-          git commit -m "chore: update generated profile data"
+          git add README.md README.it.md scripts/sync_selected_project_releases.py scripts/update_latest_updates.py tests/test_profile_curation.py tests/test_sync_selected_project_releases.py tests/test_update_latest_updates.py
+          git commit -m "chore: retire stale profile repositories"
           git push
