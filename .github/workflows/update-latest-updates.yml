@@ -9,7 +9,6 @@ on:
     branches:
       - main
     paths:
-      - scripts/profile_priority_refresh_20260817.py
       - scripts/sync_selected_project_releases.py
       - scripts/update_latest_updates.py
       - tests/test_profile_curation.py
@@ -32,9 +31,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Apply approved priority refresh
-        run: python scripts/profile_priority_refresh_20260817.py
 
       - name: Test profile generators and curation
         run: python -m unittest discover -s tests -v
