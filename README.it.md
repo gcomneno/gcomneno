@@ -267,7 +267,7 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [add dry-run repair reports](https://github.com/gcomneno/semantic-mail-archivist/commit/c57d069374cc99418ff878d55af0e4785313a98d)
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1003 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 999 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

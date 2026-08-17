@@ -267,7 +267,7 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add dry-run repair reports](https://github.com/gcomneno/semantic-mail-archivist/commit/c57d069374cc99418ff878d55af0e4785313a98d)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
 
-_Showing the 100 most recent meaningful updates; 1003 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 999 older update(s) omitted._
 
 </details>
 
