@@ -26,12 +26,12 @@ These projects best represent my current work across backend design, reliable au
 
 | Project | Official release | What it does | What it demonstrates |
 | --- | --- | --- | --- |
-| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
-| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Extracts, validates, traces provenance and queries information from personal reference documents | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
-| [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
-| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Provides a configurable showcase kit with local, desktop and bounded hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit local/hosted/demo authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
+| [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
+| [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
+| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Extracts, validates, traces provenance and queries information from personal reference documents | Deterministic extraction, validation, provenance, querying and durable repository boundaries |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Linux utilities for diagnostics, controlled maintenance, offline transcription and kernel warning analysis | Safety-first system tooling, read-only diagnostics, explicit opt-in workflows and reproducible Linux packaging |
 
 <details>
@@ -39,9 +39,9 @@ These projects best represent my current work across backend design, reliable au
 
 | Project | Technical signal |
 | --- | --- |
-| [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
-| [GYTE Study Tools](https://github.com/gcomneno/gyte-study-tools) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
 | [Semantic Mail Archivist](https://github.com/gcomneno/semantic-mail-archivist) | Privacy-first Gmail audit and repair dry-runs, provider boundaries, explainable confidence and crash-aware mutation journaling |
+| [GYTE Study Tools](https://github.com/gcomneno/gyte-study-tools) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
+| [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
 
 </details>
 
@@ -77,30 +77,30 @@ Upstream: [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-b
 <details>
 <summary>Selected merged upstream pull requests</summary>
 
+- [#538 — Fix unbounded recipe-local file discovery](https://github.com/yoctoproject/vscode-bitbake/pull/538)
+- [#543 — Extract reusable cancellable file search utility](https://github.com/yoctoproject/vscode-bitbake/pull/543)
 - [#545 — refactor: extract document lifecycle](https://github.com/yoctoproject/vscode-bitbake/pull/545)
 - [#544 — refactor: extract Toaster lifecycle](https://github.com/yoctoproject/vscode-bitbake/pull/544)
-- [#543 — Extract reusable cancellable file search utility](https://github.com/yoctoproject/vscode-bitbake/pull/543)
-- [#541 — npm: minor version updates](https://github.com/yoctoproject/vscode-bitbake/pull/541)
-- [#538 — Fix unbounded recipe-local file discovery](https://github.com/yoctoproject/vscode-bitbake/pull/538)
-- [#535 — test: create integration workspace with bitbake-setup](https://github.com/yoctoproject/vscode-bitbake/pull/535)
 - [#533 — refactor: simplify BitBake config picker flow](https://github.com/yoctoproject/vscode-bitbake/pull/533)
 - [#532 — fix: update status bar after picking config by name](https://github.com/yoctoproject/vscode-bitbake/pull/532)
-- [#527 — docs: fetch Yocto 6.0 documentation resources](https://github.com/yoctoproject/vscode-bitbake/pull/527)
-- [#526 — fix: keep parse-on-save scans quiet on config errors](https://github.com/yoctoproject/vscode-bitbake/pull/526)
+- [#535 — test: create integration workspace with bitbake-setup](https://github.com/yoctoproject/vscode-bitbake/pull/535)
 - [#524 — test: fetch split Yocto 6.0 repositories](https://github.com/yoctoproject/vscode-bitbake/pull/524)
+- [#526 — fix: keep parse-on-save scans quiet on config errors](https://github.com/yoctoproject/vscode-bitbake/pull/526)
+- [#541 — npm: minor version updates](https://github.com/yoctoproject/vscode-bitbake/pull/541)
 - [#521 — fix(ui): hide toaster commands in eSDK mode](https://github.com/yoctoproject/vscode-bitbake/pull/521)
+- [#527 — docs: fetch Yocto 6.0 documentation resources](https://github.com/yoctoproject/vscode-bitbake/pull/527)
 
 </details>
 
 <details>
 <summary>Previously contributed — Canonical Craft ecosystem</summary>
 
-- [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
-- [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
-- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
-- [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
 - [canonical/rockcraft](https://github.com/canonical/rockcraft) → [gcomneno/rockcraft](https://github.com/gcomneno/rockcraft)
 - [canonical/snapcraft](https://github.com/canonical/snapcraft) → [gcomneno/snapcraft](https://github.com/gcomneno/snapcraft)
+- [canonical/craft-parts](https://github.com/canonical/craft-parts) → [gcomneno/craft-parts](https://github.com/gcomneno/craft-parts)
+- [canonical/craft-providers](https://github.com/canonical/craft-providers) → [gcomneno/craft-providers](https://github.com/gcomneno/craft-providers)
+- [canonical/craft-application](https://github.com/canonical/craft-application) → [gcomneno/craft-application](https://github.com/gcomneno/craft-application)
+- [canonical/craft-cli](https://github.com/canonical/craft-cli) → [gcomneno/craft-cli](https://github.com/gcomneno/craft-cli)
 
 </details>
 
@@ -118,17 +118,17 @@ These repositories use reproducible software experiments to investigate sequence
 | Area | Project | Technical focus |
 | --- | --- | --- |
 | Operational sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Privacy-safe Linux journal normalization, deterministic classification, reproducible manifests and temporal comparison |
-| Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
-| Sequence analysis | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
 | Finite-state stochastic modeling | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Exact absorbing Markov models, exhaustive kernel verification, historical signal analysis, versioned application contracts and a local reproducible research GUI |
+| Sequence analysis | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
+| Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
 
 <details>
 <summary>More research and experimental projects</summary>
 
 | Area | Project | Technical focus |
 | --- | --- | --- |
-| Deterministic bucketing | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | Modular analysis | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints and structural comparison |
+| Deterministic bucketing | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | Structural search | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and constraints |
 | Linguistic compression | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Italian text preprocessing and layered Huffman coding |
 | Modular signatures | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, the Chinese Remainder Theorem and modular signatures |
@@ -144,9 +144,9 @@ I turn active study into documented, reproducible paths rather than presenting l
 | Area | Repository | Current focus |
 | --- | --- | --- |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |
-| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |
 | Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Algorithms, failure models, coordination and interview-oriented exercises |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Architecture notes, quizzes and interview-oriented lessons |
+| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |
 | Physics | [Physics Study](https://github.com/gcomneno/physics-study) | Original, fact-checked lessons; first lesson: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), from Io eclipse timing to evidence for the finite speed of light |
 
 <details>
@@ -162,14 +162,18 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-15** · `atelier-kit` · **Fix:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
-- **2026-08-15** · `lele-manager` · **Feature:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
-- **2026-08-15** · `atelier-kit` · **Feature:** [add optional Vercel Web Analytics (#296)](https://github.com/gcomneno/atelier-kit/commit/0ca74a873e1609f98a995b2c2ce9474fc50d46e6)
-- **2026-08-15** · `lele-manager` · **Feature:** [brand LeLe Manager as Your Managed Second Brain (#236)](https://github.com/gcomneno/lele-manager/commit/4272371360043e8176bb8d08331420a6865de67c)
+- **2026-08-17** · `atelier-kit` · **Fix:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
+- **2026-08-17** · `atelier-kit` · **Docs:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
+- **2026-08-17** · `atelier-kit` · **Docs:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
+- **2026-08-17** · `atelier-kit` · **Fix:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-15** · `atelier-kit` · **Fix:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
+- **2026-08-15** · `lele-manager` · **Feature:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
+- **2026-08-15** · `atelier-kit` · **Feature:** [add optional Vercel Web Analytics (#296)](https://github.com/gcomneno/atelier-kit/commit/0ca74a873e1609f98a995b2c2ce9474fc50d46e6)
+- **2026-08-15** · `lele-manager` · **Feature:** [brand LeLe Manager as Your Managed Second Brain (#236)](https://github.com/gcomneno/lele-manager/commit/4272371360043e8176bb8d08331420a6865de67c)
 - **2026-08-15** · `lele-manager` · **Fix:** [refine original monkey cameo timing (#235)](https://github.com/gcomneno/lele-manager/commit/f9cb3a7238440d227316ab079d43674850fa5f20)
 - **2026-08-15** · `atelier-kit` · **Feature:** [migrate Hero image authoring to controlled boundary (#295)](https://github.com/gcomneno/atelier-kit/commit/abcbf1b4af2c155c3544d1b18dbf3d91ff77a54f)
 - **2026-08-15** · `atelier-kit` · **Development:** [noop](https://github.com/gcomneno/atelier-kit/commit/8a661cd14da1ad4451bdf8ae7edb9bfc9a34416f)
@@ -218,8 +222,6 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add auditable mailbox change log (#22)](https://github.com/gcomneno/semantic-mail-archivist/commit/d17f6a8b5c638fe0b2203fa8fe501635adfa17d5)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [keep missing digits on two rows (#37)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6679a1ff1acf19675d1b0aa68d2b54f5eaa19dfb)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [improve digit-set readability and contrast (#36)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/fac81bbeebac554acf3489f34d8cc9124cf864bc)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Development:** [demo: reset social links](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/80afac2112e81e040783f4144ad4bcde4b40fbe0)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Development:** [demo: update social links](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/a485a554558834ba6fb9d7da835bcf4b88053360)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [wait for complete pywebview API readiness (#35)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/86b1bc75558fff2c4581c83c9f1482aa4460b27c)
 - **2026-08-12** · `distributed-systems-study` · **Docs:** [prepare distributed systems foundations study path (#4)](https://github.com/gcomneno/distributed-systems-study/commit/f1107c2ba599d139fec0879b9a59e57d6d15e814)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [align native controls with application theme (#34)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/cb53452fe24f9e8c0c8f3619dcfdda300dc9ddb4)
@@ -232,7 +234,6 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [handshake pywebview bridge before loading reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e45535d5941908e0e54a20097f3e07c808c625f2)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add optional operational state layer (#19)](https://github.com/gcomneno/semantic-mail-archivist/commit/f8746d2ca6f69169f801b732048d7e5eaf9cdc25)
 - **2026-08-12** · `atelier-kit` · **Feature:** [wire bounded public social experience (#288)](https://github.com/gcomneno/atelier-kit/commit/18b9bd65e80c7aecf33aef8ce3930f803eb10db1)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Feature:** [wire bounded public social experience (#288)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/18b9bd65e80c7aecf33aef8ce3930f803eb10db1)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [repair road-test reactivity and research navigation (#30)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a50e98ec019384362d3a1df1c29e01cc44193e18)
 - **2026-08-12** · `software-architecture-study` · **Docs:** [prepare software architecture foundations study path](https://github.com/gcomneno/software-architecture-study/commit/750e815782a4932fa7100d6af7e533b9ee09cb52)
 - **2026-08-12** · `semantic-mail-archivist` · **Fix:** [validate protected document ownership](https://github.com/gcomneno/semantic-mail-archivist/commit/a6db5b48ad5bfada26f7843e2c52ef3dbb5e48fb)
@@ -246,7 +247,6 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [migrate historical Markov reports (#24)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e4521286b00feb647e120e05acad81421488d79)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Feature:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Feature:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
 - **2026-08-12** · `system-design-study` · **Docs:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
@@ -254,20 +254,20 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [isolate draw repository contract from SQLite (#19)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a7998c541ad333e63954818ad4d805ab8ef7c4f9)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [introduce protected semantic categories (#16)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e6b2d6cae2b431efe9a7f4f6237ded993d5a2f)
 - **2026-08-12** · `atelier-kit` · **Feature:** [enforce bounded mutation integrity (#286)](https://github.com/gcomneno/atelier-kit/commit/d793bbc9fd11f31c50d74dbe38741afe5e4331b3)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Feature:** [enforce bounded mutation integrity (#286)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/d793bbc9fd11f31c50d74dbe38741afe5e4331b3)
 - **2026-08-12** · `atelier-kit` · **Feature:** [add isolated guest session authority (#285)](https://github.com/gcomneno/atelier-kit/commit/1c434e533c9bb63a9a9a503cb517302f5cab3bf4)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Feature:** [add isolated guest session authority (#285)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/1c434e533c9bb63a9a9a503cb517302f5cab3bf4)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Development:** [Introduce explicit architecture package boundaries (#18)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/ef329e7f73de3211afdbf3e5f54e91d3d20d280d)
 - **2026-08-12** · `giadaware-ui-components` · **Feature:** [add accessible ImageLightbox (#46)](https://github.com/gcomneno/giadaware-ui-components/commit/998e358c3562e32a039bbd8770909dc47f82ef04)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect significant documents (#15)](https://github.com/gcomneno/semantic-mail-archivist/commit/093f839f3b50f200754484914b099167d35bd6a3)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Development:** [Add grouped occurrence totals to the Lotto viewer (#8)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/20fd321a8748fa007430196a4104b01c297db196)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Development:** [Replace TUTTE with consensus and add twin-number analysis (#7)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d5d4360c3a773ca67a00fb56790d1b5875a14a36)
 - **2026-08-12** · `atelier-kit` · **Feature:** [establish isolated public demo runtime (#284)](https://github.com/gcomneno/atelier-kit/commit/ffc798e238d30af5e7ac1beca788ddeac7a23bd3)
-- **2026-08-12** · `atelier-kit-demo-sandbox` · **Feature:** [establish isolated public demo runtime (#284)](https://github.com/gcomneno/atelier-kit-demo-sandbox/commit/ffc798e238d30af5e7ac1beca788ddeac7a23bd3)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add dry-run repair reports](https://github.com/gcomneno/semantic-mail-archivist/commit/c57d069374cc99418ff878d55af0e4785313a98d)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
+- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect message-level label gaps (#12)](https://github.com/gcomneno/semantic-mail-archivist/commit/deffe03778d304779a9ac17a0c8f9de15418bd09)
+- **2026-08-12** · `atelier-kit` · **Feature:** [harden public demo deployment boundary (#282)](https://github.com/gcomneno/atelier-kit/commit/737c7d1939bfa00c16d525eb2fb5fdc752c0cb97)
+- **2026-08-12** · `semantic-mail-archivist` · **Docs:** [define classification and safety model (#11)](https://github.com/gcomneno/semantic-mail-archivist/commit/bb9b4110e2922a3cdee17f204fab317562dc5133)
 
-_Showing the 100 most recent meaningful updates; 999 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 812 older update(s) omitted._
 
 </details>
 
