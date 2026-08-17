@@ -57,4 +57,5 @@ jobs:
 
           git add README.md README.it.md
           git commit -m "chore: update generated profile data"
+          git pull --rebase origin main
           git push
