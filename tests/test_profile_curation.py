@@ -12,7 +12,6 @@ SELECTED_PROJECTS = (
     "lele-manager",
     "giadaware-ui-components",
     "gyte",
-    "reference-engine",
     "ubuntu-system-tools",
 )
 
@@ -61,6 +60,11 @@ CANONICAL_FORKS = (
     "craft-providers",
     "craft-application",
     "craft-cli",
+)
+
+RETIRED_PROFILE_REPOSITORIES = (
+    "reference-engine",
+    "cyse-lab",
 )
 
 YOCTO_PULL_REQUESTS = (
@@ -171,6 +175,16 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                         for repo in CANONICAL_FORKS
                     ),
                     label=f"{path}: Canonical forks",
+                )
+
+    def test_retired_repositories_are_absent_from_curated_profile(self) -> None:
+        for path in README_PATHS:
+            text = path.read_text(encoding="utf-8")
+            for repository in RETIRED_PROFILE_REPOSITORIES:
+                self.assertNotIn(
+                    f"https://github.com/gcomneno/{repository}",
+                    text,
+                    f"{path}: retired repository still exposed: {repository}",
                 )
 
     def test_selected_yocto_prs_follow_signal_priority(self) -> None:

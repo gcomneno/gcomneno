@@ -20,6 +20,10 @@ DEFAULT_LOCALE = "en"
 
 OWNER_LOGIN = "gcomneno"
 PROFILE_REPO = f"{OWNER_LOGIN}/{OWNER_LOGIN}"
+EXCLUDED_REPOSITORIES = {
+    f"{OWNER_LOGIN}/reference-engine",
+    f"{OWNER_LOGIN}/cyse-lab",
+}
 
 VISIBLE_ITEMS = 4
 MAX_RENDERED_ITEMS = 100
@@ -295,6 +299,8 @@ def discover_public_repositories() -> list[str]:
             if not isinstance(full_name, str) or owner_login != OWNER_LOGIN:
                 continue
             if full_name == PROFILE_REPO:
+                continue
+            if full_name in EXCLUDED_REPOSITORIES:
                 continue
             if repo.get("private") is True:
                 continue

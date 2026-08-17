@@ -53,6 +53,47 @@ def item(
     )
 
 
+class RepositoryExclusionPolicyTests(unittest.TestCase):
+    def test_retired_repositories_are_explicitly_excluded(self) -> None:
+        self.assertEqual(
+            MODULE.EXCLUDED_REPOSITORIES,
+            {
+                "gcomneno/reference-engine",
+                "gcomneno/cyse-lab",
+            },
+        )
+
+    def test_discovery_skips_retired_repositories(self) -> None:
+        payload = [
+            {
+                "full_name": "gcomneno/reference-engine",
+                "owner": {"login": "gcomneno"},
+                "private": False,
+                "archived": False,
+                "disabled": False,
+            },
+            {
+                "full_name": "gcomneno/cyse-lab",
+                "owner": {"login": "gcomneno"},
+                "private": False,
+                "archived": False,
+                "disabled": False,
+            },
+            {
+                "full_name": "gcomneno/atelier-kit",
+                "owner": {"login": "gcomneno"},
+                "private": False,
+                "archived": False,
+                "disabled": False,
+            },
+        ]
+        with patch.object(MODULE, "github_get_json", side_effect=[payload, []]):
+            self.assertEqual(
+                MODULE.discover_public_repositories(),
+                ["gcomneno/atelier-kit"],
+            )
+
+
 class UpdateMessageTests(unittest.TestCase):
     def test_parses_explicit_docs_tag(
         self,

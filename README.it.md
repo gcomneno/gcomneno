@@ -31,7 +31,6 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite entry point base, visitor e studio isolati | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Estrae da YouTube trascrizioni, audio e video e supporta reflow, traduzione e trascrizione locale dei contenuti | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
-| [GiadaWare Reference Engine](https://github.com/gcomneno/reference-engine) | — | Estrae, valida, traccia la provenienza e rende interrogabili informazioni da documenti personali di riferimento | Estrazione deterministica, validazione, provenienza, interrogazione e confini persistenti del repository |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Utilità Linux per diagnostica, manutenzione controllata, trascrizione offline e analisi degli avvisi kernel | Tooling di sistema safety-first, diagnostica read-only, flussi espliciti su opt-in e packaging Linux riproducibile |
 
 <details>
@@ -162,14 +161,15 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-17** · `atelier-kit` · **Correzione:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
 - **2026-08-17** · `atelier-kit` · **Documentazione:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
 - **2026-08-17** · `atelier-kit` · **Documentazione:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
-- **2026-08-17** · `atelier-kit` · **Correzione:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-17** · `atelier-kit` · **Correzione:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
 - **2026-08-15** · `atelier-kit` · **Correzione:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
 - **2026-08-15** · `lele-manager` · **Funzionalità:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
 - **2026-08-15** · `atelier-kit` · **Funzionalità:** [add optional Vercel Web Analytics (#296)](https://github.com/gcomneno/atelier-kit/commit/0ca74a873e1609f98a995b2c2ce9474fc50d46e6)
@@ -265,9 +265,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [detect message-level label gaps (#12)](https://github.com/gcomneno/semantic-mail-archivist/commit/deffe03778d304779a9ac17a0c8f9de15418bd09)
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [harden public demo deployment boundary (#282)](https://github.com/gcomneno/atelier-kit/commit/737c7d1939bfa00c16d525eb2fb5fdc752c0cb97)
-- **2026-08-12** · `semantic-mail-archivist` · **Documentazione:** [define classification and safety model (#11)](https://github.com/gcomneno/semantic-mail-archivist/commit/bb9b4110e2922a3cdee17f204fab317562dc5133)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 812 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 772 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

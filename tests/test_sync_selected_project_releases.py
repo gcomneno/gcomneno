@@ -144,10 +144,7 @@ class AtomicBilingualTests(unittest.TestCase):
                 path.write_text(profile_fixture(), encoding="utf-8")
 
             def lookup(repository: str):
-                if repository in {
-                    "reference-engine",
-                    "giadaware-ui-components",
-                }:
+                if repository == "giadaware-ui-components":
                     return None
                 return MODULE.OfficialRelease(
                     tag_name="v9.9.9",
@@ -172,11 +169,6 @@ class AtomicBilingualTests(unittest.TestCase):
                 self.assertIn(
                     "[v9.9.9](https://github.com/gcomneno/lele-manager"
                     "/releases/tag/v9.9.9)",
-                    content,
-                )
-                self.assertIn(
-                    "| [reference-engine](https://github.com/gcomneno/"
-                    "reference-engine) | — |",
                     content,
                 )
 

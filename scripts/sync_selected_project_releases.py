@@ -21,7 +21,6 @@ SELECTED_REPOSITORIES = (
     "lele-manager",
     "giadaware-ui-components",
     "gyte",
-    "reference-engine",
     "ubuntu-system-tools",
 )
 
