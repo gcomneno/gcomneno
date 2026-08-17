@@ -3,14 +3,16 @@ name: Update generated profile data
 on:
   workflow_dispatch:
   schedule:
-    # 04:30 Europe/Rome (CET/CEST) ≈ 02:30 UTC in summer (CEST)
-    - cron: "30 2 * * *"
+    # Four-hour GitHub-native refresh; no maintainer-local scheduler required.
+    - cron: "17 */4 * * *"
   push:
     branches:
       - main
     paths:
+      - scripts/profile_priority_refresh_20260817.py
       - scripts/sync_selected_project_releases.py
       - scripts/update_latest_updates.py
+      - tests/test_profile_curation.py
       - tests/test_sync_selected_project_releases.py
       - tests/test_update_latest_updates.py
       - .github/workflows/update-latest-updates.yml
@@ -31,7 +33,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Test profile generators
+      - name: Apply approved priority refresh
+        run: python scripts/profile_priority_refresh_20260817.py
+
+      - name: Test profile generators and curation
         run: python -m unittest discover -s tests -v
 
       - name: Sync Selected Projects releases
