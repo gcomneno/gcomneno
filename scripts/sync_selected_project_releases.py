@@ -16,12 +16,12 @@ README_PATHS = {
     "it": Path("README.it.md"),
 }
 SELECTED_REPOSITORIES = (
-    "lele-manager",
-    "smart-file-organizer",
-    "reference-engine",
-    "gyte",
-    "giadaware-ui-components",
     "atelier-kit",
+    "smart-file-organizer",
+    "lele-manager",
+    "giadaware-ui-components",
+    "gyte",
+    "reference-engine",
     "ubuntu-system-tools",
 )
 
