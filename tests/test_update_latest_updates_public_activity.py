@@ -26,9 +26,8 @@ SPEC.loader.exec_module(MODULE)
 def push_event(
     *,
     repo: str = "gcomneno/vscode-bitbake",
-    sha: str = "abc123",
-    message: str = "feat: add branch capability",
-    email: str = "126195429+gcomneno@users.noreply.github.com",
+    head: str = "abc123",
+    before: str = "def456",
 ) -> dict:
     return {
         "type": "PushEvent",
@@ -37,16 +36,31 @@ def push_event(
         "repo": {"name": repo},
         "payload": {
             "ref": "refs/heads/contrib/issue-example",
-            "commits": [
-                {
-                    "sha": sha,
-                    "message": message,
-                    "author": {
-                        "name": "Giancarlo",
-                        "email": email,
-                    },
-                }
-            ],
+            "head": head,
+            "before": before,
+        },
+    }
+
+
+def commit_obj(
+    *,
+    sha: str = "abc123",
+    message: str = "feat: add branch capability",
+    login: str = "gcomneno",
+) -> dict:
+    return {
+        "sha": sha,
+        "html_url": (
+            "https://github.com/gcomneno/vscode-bitbake/commit/"
+            f"{sha}"
+        ),
+        "author": {"login": login},
+        "committer": {"login": login},
+        "commit": {
+            "message": message,
+            "committer": {
+                "date": datetime.now(timezone.utc).isoformat(),
+            },
         },
     }
 
@@ -56,7 +70,10 @@ class PublicPushActivityTests(unittest.TestCase):
         with patch.object(
             MODULE.core,
             "github_get_json",
-            return_value=[push_event()],
+            side_effect=[
+                [push_event()],
+                {"commits": [commit_obj()]},
+            ],
         ):
             items = MODULE.fetch_public_push_activity(
                 {"gcomneno/vscode-bitbake"}
@@ -70,6 +87,22 @@ class PublicPushActivityTests(unittest.TestCase):
             items[0].url,
             "https://github.com/gcomneno/vscode-bitbake/commit/abc123",
         )
+
+    def test_branch_creation_fetches_head_commit(self) -> None:
+        with patch.object(
+            MODULE.core,
+            "github_get_json",
+            side_effect=[
+                [push_event(before=MODULE.ZERO_SHA)],
+                commit_obj(),
+            ],
+        ):
+            items = MODULE.fetch_public_push_activity(
+                {"gcomneno/vscode-bitbake"}
+            )
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].text, "add branch capability")
 
     def test_skips_repository_not_in_public_eligibility_set(self) -> None:
         with patch.object(
@@ -87,8 +120,9 @@ class PublicPushActivityTests(unittest.TestCase):
         with patch.object(
             MODULE.core,
             "github_get_json",
-            return_value=[
-                push_event(email="someone@example.com")
+            side_effect=[
+                [push_event()],
+                {"commits": [commit_obj(login="someone-else")]},
             ],
         ):
             items = MODULE.fetch_public_push_activity(
@@ -101,8 +135,13 @@ class PublicPushActivityTests(unittest.TestCase):
         with patch.object(
             MODULE.core,
             "github_get_json",
-            return_value=[
-                push_event(message="test: adjust flaky fixture")
+            side_effect=[
+                [push_event()],
+                {
+                    "commits": [
+                        commit_obj(message="test: adjust flaky fixture")
+                    ]
+                },
             ],
         ):
             items = MODULE.fetch_public_push_activity(
