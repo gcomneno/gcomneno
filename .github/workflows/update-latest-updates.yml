@@ -11,9 +11,23 @@ on:
     paths:
       - scripts/sync_selected_project_releases.py
       - scripts/update_latest_updates.py
+      - scripts/update_latest_updates_public_activity.py
       - tests/test_profile_curation.py
       - tests/test_sync_selected_project_releases.py
       - tests/test_update_latest_updates.py
+      - tests/test_update_latest_updates_public_activity.py
+      - .github/workflows/update-latest-updates.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - scripts/sync_selected_project_releases.py
+      - scripts/update_latest_updates.py
+      - scripts/update_latest_updates_public_activity.py
+      - tests/test_profile_curation.py
+      - tests/test_sync_selected_project_releases.py
+      - tests/test_update_latest_updates.py
+      - tests/test_update_latest_updates_public_activity.py
       - .github/workflows/update-latest-updates.yml
 
 permissions:
@@ -43,9 +57,10 @@ jobs:
       - name: Update Latest Updates section
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_latest_updates.py
+        run: python scripts/update_latest_updates_public_activity.py
 
       - name: Commit changes if needed
+        if: github.event_name != 'pull_request'
         run: |
           if git diff --quiet -- README.md README.it.md; then
             echo "No README updates found."
