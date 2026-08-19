@@ -53,18 +53,11 @@ SUPPORTING_LEARNING = (
     "web",
 )
 
-CANONICAL_FORKS = (
-    "rockcraft",
-    "snapcraft",
-    "craft-parts",
-    "craft-providers",
-    "craft-application",
-    "craft-cli",
-)
-
-RETIRED_PROFILE_REPOSITORIES = (
-    "reference-engine",
-    "cyse-lab",
+FORBIDDEN_PROFILE_LINKS = (
+    "https://github.com/gcomneno/reference-engine",
+    "https://github.com/gcomneno/cyse-lab",
+    "https://github.com/gcomneno/testflinger",
+    "https://github.com/canonical/testflinger",
 )
 
 YOCTO_PULL_REQUESTS = (
@@ -72,15 +65,41 @@ YOCTO_PULL_REQUESTS = (
     543,
     545,
     544,
+    513,
+    518,
+    510,
     533,
     532,
     535,
     524,
     526,
-    541,
-    521,
-    527,
 )
+
+CANONICAL_CRAFT_PULL_REQUESTS = (
+    ("craft-parts", 1600),
+    ("craft-parts", 1598),
+    ("craft-parts", 1562),
+    ("craft-parts", 1533),
+    ("craft-application", 1068),
+    ("craft-providers", 966),
+    ("craft-cli", 425),
+    ("rockcraft", 1148),
+)
+
+CANONICAL_OPERATOR_PULL_REQUESTS = (
+    ("operator", 2454),
+)
+
+LEGACY_FORK_HEADINGS = {
+    "README.md": (
+        "Previously contributed — Canonical Craft ecosystem",
+        "Other public upstream forks",
+    ),
+    "README.it.md": (
+        "Contributi precedenti — ecosistema Canonical Craft",
+        "Altri fork upstream pubblici",
+    ),
+}
 
 
 def assert_tokens_in_order(
@@ -95,6 +114,7 @@ def assert_tokens_in_order(
         position = text.find(token)
         testcase.assertNotEqual(position, -1, f"{label}: missing {token}")
         positions.append(position)
+
     testcase.assertEqual(
         positions,
         sorted(positions),
@@ -106,6 +126,7 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
     def test_curated_repository_lists_follow_priority_order(self) -> None:
         for path in README_PATHS:
             text = path.read_text(encoding="utf-8")
+
             with self.subTest(path=path, section="selected"):
                 assert_tokens_in_order(
                     self,
@@ -116,6 +137,7 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     ),
                     label=f"{path}: Selected Projects",
                 )
+
             with self.subTest(path=path, section="operational"):
                 assert_tokens_in_order(
                     self,
@@ -126,6 +148,7 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     ),
                     label=f"{path}: operational projects",
                 )
+
             with self.subTest(path=path, section="primary-research"):
                 assert_tokens_in_order(
                     self,
@@ -136,6 +159,7 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     ),
                     label=f"{path}: primary research",
                 )
+
             with self.subTest(path=path, section="secondary-research"):
                 assert_tokens_in_order(
                     self,
@@ -146,6 +170,7 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     ),
                     label=f"{path}: secondary research",
                 )
+
             with self.subTest(path=path, section="primary-learning"):
                 assert_tokens_in_order(
                     self,
@@ -156,6 +181,7 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     ),
                     label=f"{path}: primary learning",
                 )
+
             with self.subTest(path=path, section="supporting-learning"):
                 assert_tokens_in_order(
                     self,
@@ -166,25 +192,25 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     ),
                     label=f"{path}: supporting learning",
                 )
-            with self.subTest(path=path, section="canonical-forks"):
-                assert_tokens_in_order(
-                    self,
-                    text,
-                    tuple(
-                        f"https://github.com/gcomneno/{repo})"
-                        for repo in CANONICAL_FORKS
-                    ),
-                    label=f"{path}: Canonical forks",
-                )
 
-    def test_retired_repositories_are_absent_from_curated_profile(self) -> None:
+    def test_forbidden_showcase_links_are_absent(self) -> None:
         for path in README_PATHS:
             text = path.read_text(encoding="utf-8")
-            for repository in RETIRED_PROFILE_REPOSITORIES:
+            for link in FORBIDDEN_PROFILE_LINKS:
                 self.assertNotIn(
-                    f"https://github.com/gcomneno/{repository}",
+                    link,
                     text,
-                    f"{path}: retired repository still exposed: {repository}",
+                    f"{path}: forbidden showcase link still present: {link}",
+                )
+
+    def test_legacy_fork_sections_are_absent(self) -> None:
+        for path in README_PATHS:
+            text = path.read_text(encoding="utf-8")
+            for heading in LEGACY_FORK_HEADINGS[path.name]:
+                self.assertNotIn(
+                    heading,
+                    text,
+                    f"{path}: legacy fork-centric heading still present",
                 )
 
     def test_selected_yocto_prs_follow_signal_priority(self) -> None:
@@ -194,10 +220,35 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                 self,
                 text,
                 tuple(
-                    f"https://github.com/yoctoproject/vscode-bitbake/pull/{number})"
+                    "https://github.com/yoctoproject/"
+                    f"vscode-bitbake/pull/{number})"
                     for number in YOCTO_PULL_REQUESTS
                 ),
                 label=f"{path}: selected Yocto pull requests",
+            )
+
+    def test_selected_canonical_prs_follow_signal_priority(self) -> None:
+        for path in README_PATHS:
+            text = path.read_text(encoding="utf-8")
+
+            assert_tokens_in_order(
+                self,
+                text,
+                tuple(
+                    f"https://github.com/canonical/{repo}/pull/{number})"
+                    for repo, number in CANONICAL_CRAFT_PULL_REQUESTS
+                ),
+                label=f"{path}: selected Canonical Craft pull requests",
+            )
+
+            assert_tokens_in_order(
+                self,
+                text,
+                tuple(
+                    f"https://github.com/canonical/{repo}/pull/{number})"
+                    for repo, number in CANONICAL_OPERATOR_PULL_REQUESTS
+                ),
+                label=f"{path}: selected Canonical Operator pull requests",
             )
 
 
