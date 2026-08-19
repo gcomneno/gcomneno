@@ -23,6 +23,7 @@ PROFILE_REPO = f"{OWNER_LOGIN}/{OWNER_LOGIN}"
 EXCLUDED_REPOSITORIES = {
     f"{OWNER_LOGIN}/reference-engine",
     f"{OWNER_LOGIN}/cyse-lab",
+    f"{OWNER_LOGIN}/testflinger",
 }
 
 VISIBLE_ITEMS = 4

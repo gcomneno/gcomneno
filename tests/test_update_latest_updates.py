@@ -54,16 +54,17 @@ def item(
 
 
 class RepositoryExclusionPolicyTests(unittest.TestCase):
-    def test_retired_repositories_are_explicitly_excluded(self) -> None:
+    def test_showcase_exclusions_are_explicit(self) -> None:
         self.assertEqual(
             MODULE.EXCLUDED_REPOSITORIES,
             {
                 "gcomneno/reference-engine",
                 "gcomneno/cyse-lab",
+                "gcomneno/testflinger",
             },
         )
 
-    def test_discovery_skips_retired_repositories(self) -> None:
+    def test_discovery_skips_showcase_exclusions(self) -> None:
         payload = [
             {
                 "full_name": "gcomneno/reference-engine",
@@ -74,6 +75,13 @@ class RepositoryExclusionPolicyTests(unittest.TestCase):
             },
             {
                 "full_name": "gcomneno/cyse-lab",
+                "owner": {"login": "gcomneno"},
+                "private": False,
+                "archived": False,
+                "disabled": False,
+            },
+            {
+                "full_name": "gcomneno/testflinger",
                 "owner": {"login": "gcomneno"},
                 "private": False,
                 "archived": False,
