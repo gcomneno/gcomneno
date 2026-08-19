@@ -161,16 +161,24 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-18** · `craft-parts` · **Fix:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Feature:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Fix:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
-- **2026-08-17** · `atelier-kit` · **Fix:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
-- **2026-08-17** · `atelier-kit` · **Docs:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/d63fb281f5ee235577ce8cf00a47189ce6164b99)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/2c6350a6cb95b9238baf045e8c9767257301c87d)
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/13bc586c183dc1d3241c5f8af061042eb1a07c14)
+- **2026-08-17** · `atelier-kit` · **Fix:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
+- **2026-08-17** · `atelier-kit` · **Docs:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
 - **2026-08-17** · `atelier-kit` · **Docs:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update social links](https://github.com/gcomneno/atelier-kit/commit/67ee35c547490a4eb2ca2c13eb3b43b56784ad83)
 - **2026-08-17** · `atelier-kit` · **Fix:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/4c244e735fe87f345991914bdd615fa330c58452)
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/0f9ac5befff8693e14bb2769de197272daeed6cc)
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/9b235b8105f42ff5e1cafce8ef778ebc6988cf80)
 - **2026-08-15** · `atelier-kit` · **Fix:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
 - **2026-08-15** · `lele-manager` · **Feature:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
 - **2026-08-15** · `atelier-kit` · **Feature:** [add optional Vercel Web Analytics (#296)](https://github.com/gcomneno/atelier-kit/commit/0ca74a873e1609f98a995b2c2ce9474fc50d46e6)
@@ -180,8 +188,16 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-15** · `atelier-kit` · **Development:** [noop](https://github.com/gcomneno/atelier-kit/commit/8a661cd14da1ad4451bdf8ae7edb9bfc9a34416f)
 - **2026-08-15** · `atelier-kit` · **Feature:** [add controlled image-upload authoring boundary (#293)](https://github.com/gcomneno/atelier-kit/commit/b43a09b4ba418b8eeb59c2a9451b4fdc2bf3cac5)
 - **2026-08-15** · `lele-manager` · **Feature:** [add explicit lesson lifecycle and supersession semantics (#234)](https://github.com/gcomneno/lele-manager/commit/b54229be80a2e9677feecad46119445cb2312545)
+- **2026-08-15** · `lele-manager` · **Fix:** [preserve lifecycle invariants across canonical workflows](https://github.com/gcomneno/lele-manager/commit/83093a305d1b2293f36691ed76a3925d8db89e29)
+- **2026-08-15** · `lele-manager` · **Docs:** [document lesson lifecycle workflows](https://github.com/gcomneno/lele-manager/commit/da1de8c07e338e0d1b8a3dd0baa4bb8885b3be85)
+- **2026-08-15** · `lele-manager` · **Feature:** [author lesson lifecycle explicitly](https://github.com/gcomneno/lele-manager/commit/09cca35bb7a1875a739e3dc7a9d9453278294a33)
 - **2026-08-15** · `giadaware-ui-components` · **Release:** [Giada UI 0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0)
+- **2026-08-15** · `lele-manager` · **Feature:** [navigate lesson supersession relationships](https://github.com/gcomneno/lele-manager/commit/595fb19e786d56a8aa3848e6e84ed7d2b95e7a63)
+- **2026-08-15** · `lele-manager` · **Feature:** [expose lesson lifecycle in Browse](https://github.com/gcomneno/lele-manager/commit/7899da952427fcb7eda9e771688a39f4278cd6e0)
 - **2026-08-15** · `giadaware-ui-components` · **Docs:** [define release and versioning policy (#65)](https://github.com/gcomneno/giadaware-ui-components/commit/3d8d3bbf995bda6c4b6a4aa38d9ffc681cefa50a)
+- **2026-08-15** · `lele-manager` · **Feature:** [scope lesson search and export by lifecycle](https://github.com/gcomneno/lele-manager/commit/6e356fe625edc9d9c99ddc17dbc2ea80b921edc7)
+- **2026-08-15** · `lele-manager` · **Feature:** [govern lesson lifecycle mutations](https://github.com/gcomneno/lele-manager/commit/40ca06ffd18a8d99530bcef57cbc3409a1b7ec88)
+- **2026-08-15** · `lele-manager` · **Feature:** [project canonical lesson lifecycle metadata](https://github.com/gcomneno/lele-manager/commit/194f1e232cecc1c2260a3efa0cd2cabea9bc7b1a)
 - **2026-08-15** · `giadaware-ui-components` · **Docs:** [establish bilingual public documentation contract (#63)](https://github.com/gcomneno/giadaware-ui-components/commit/2ef23bb65466032502a71b275cdad49e0933c491)
 - **2026-08-15** · `lele-manager` · **Fix:** [serialize Danger Zone destructive commits against Vault activation (#233)](https://github.com/gcomneno/lele-manager/commit/f24c25a1b35d76802781bfefa0fb3b575e913f31)
 - **2026-08-15** · `giadaware-ui-components` · **Feature:** [add editable list drag handles (#61)](https://github.com/gcomneno/giadaware-ui-components/commit/ce00ea338fd70091dfe2719e5fd6d5fa1e3f5abe)
@@ -249,24 +265,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Feature:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
 - **2026-08-12** · `system-design-study` · **Docs:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [expose structured current application report (#20)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c0a0247372a0a64dc88bb6cbd29e1e70bc2c648c)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [isolate draw repository contract from SQLite (#19)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a7998c541ad333e63954818ad4d805ab8ef7c4f9)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [introduce protected semantic categories (#16)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e6b2d6cae2b431efe9a7f4f6237ded993d5a2f)
-- **2026-08-12** · `atelier-kit` · **Feature:** [enforce bounded mutation integrity (#286)](https://github.com/gcomneno/atelier-kit/commit/d793bbc9fd11f31c50d74dbe38741afe5e4331b3)
-- **2026-08-12** · `atelier-kit` · **Feature:** [add isolated guest session authority (#285)](https://github.com/gcomneno/atelier-kit/commit/1c434e533c9bb63a9a9a503cb517302f5cab3bf4)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Development:** [Introduce explicit architecture package boundaries (#18)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/ef329e7f73de3211afdbf3e5f54e91d3d20d280d)
-- **2026-08-12** · `giadaware-ui-components` · **Feature:** [add accessible ImageLightbox (#46)](https://github.com/gcomneno/giadaware-ui-components/commit/998e358c3562e32a039bbd8770909dc47f82ef04)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect significant documents (#15)](https://github.com/gcomneno/semantic-mail-archivist/commit/093f839f3b50f200754484914b099167d35bd6a3)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Development:** [Add grouped occurrence totals to the Lotto viewer (#8)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/20fd321a8748fa007430196a4104b01c297db196)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Development:** [Replace TUTTE with consensus and add twin-number analysis (#7)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d5d4360c3a773ca67a00fb56790d1b5875a14a36)
-- **2026-08-12** · `atelier-kit` · **Feature:** [establish isolated public demo runtime (#284)](https://github.com/gcomneno/atelier-kit/commit/ffc798e238d30af5e7ac1beca788ddeac7a23bd3)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add dry-run repair reports](https://github.com/gcomneno/semantic-mail-archivist/commit/c57d069374cc99418ff878d55af0e4785313a98d)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect message-level label gaps (#12)](https://github.com/gcomneno/semantic-mail-archivist/commit/deffe03778d304779a9ac17a0c8f9de15418bd09)
 
-_Showing the 100 most recent meaningful updates; 777 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 793 older update(s) omitted._
 
 </details>
 
