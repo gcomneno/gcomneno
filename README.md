@@ -16,6 +16,10 @@
   I turn recurring operational problems into reliable tools, explicit workflows and reusable open-source software.
 </p>
 
+### AI-assisted engineering
+
+AI is part of my engineering toolkit. I use it to accelerate research, implementation, testing, review and documentation, while keeping human responsibility, technical understanding, verification and evidence at the center of every published contribution.
+
 <p align="center">
   <img alt="Profile visitors" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&nbsp;&color=0B1F3A&style=flat-square">
 </p>
