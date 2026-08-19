@@ -174,14 +174,15 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
 - **2026-08-18** · `craft-parts` · **Correzione:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Funzionalità:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
-- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/d63fb281f5ee235577ce8cf00a47189ce6164b99)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/d63fb281f5ee235577ce8cf00a47189ce6164b99)
 - **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/2c6350a6cb95b9238baf045e8c9767257301c87d)
 - **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/13bc586c183dc1d3241c5f8af061042eb1a07c14)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
@@ -277,9 +278,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [migrate historical Markov reports (#24)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e4521286b00feb647e120e05acad81421488d79)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
-- **2026-08-12** · `system-design-study` · **Documentazione:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 793 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 794 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
