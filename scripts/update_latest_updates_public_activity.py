@@ -40,6 +40,14 @@ def fetch_public_push_activity(
         days=PUBLIC_ACTIVITY_LOOKBACK_DAYS
     )
     items: list[core.UpdateItem] = []
+    stats = {
+        "events": 0,
+        "push_events": 0,
+        "eligible_push_events": 0,
+        "commits": 0,
+        "owner_commits": 0,
+        "meaningful": 0,
+    }
 
     for page in range(1, MAX_PUBLIC_ACTIVITY_PAGES + 1):
         url = (
@@ -49,7 +57,7 @@ def fetch_public_push_activity(
         events = core.github_get_json(url)
 
         if not isinstance(events, list):
-            return items
+            break
         if not events:
             break
 
@@ -57,6 +65,7 @@ def fetch_public_push_activity(
         for event in events:
             if not isinstance(event, dict):
                 continue
+            stats["events"] += 1
 
             created_at = event.get("created_at")
             if not isinstance(created_at, str):
@@ -73,6 +82,7 @@ def fetch_public_push_activity(
 
             if event.get("type") != "PushEvent":
                 continue
+            stats["push_events"] += 1
 
             actor = event.get("actor")
             repo = event.get("repo")
@@ -96,6 +106,7 @@ def fetch_public_push_activity(
             ref = payload.get("ref")
             if not isinstance(ref, str) or not ref.startswith("refs/heads/"):
                 continue
+            stats["eligible_push_events"] += 1
 
             commits = payload.get("commits")
             if not isinstance(commits, list):
@@ -105,8 +116,10 @@ def fetch_public_push_activity(
             for commit in commits:
                 if not isinstance(commit, dict):
                     continue
+                stats["commits"] += 1
                 if not event_commit_belongs_to_owner(commit, actor):
                     continue
+                stats["owner_commits"] += 1
 
                 sha = commit.get("sha")
                 message = commit.get("message")
@@ -118,6 +131,7 @@ def fetch_public_push_activity(
                 parsed = core.parse_update_message(message)
                 if not parsed:
                     continue
+                stats["meaningful"] += 1
 
                 kind, text = parsed
                 items.append(
@@ -134,6 +148,11 @@ def fetch_public_push_activity(
         if reached_cutoff or len(events) < PUBLIC_ACTIVITY_PER_PAGE:
             break
 
+    print(
+        "Public activity scan: "
+        + ", ".join(f"{name}={value}" for name, value in stats.items()),
+        file=sys.stderr,
+    )
     return items
 
 
