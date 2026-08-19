@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import sys
 from datetime import datetime, timedelta, timezone
+from urllib.parse import quote
 
 import update_latest_updates as core
 
@@ -10,27 +11,72 @@ import update_latest_updates as core
 PUBLIC_ACTIVITY_LOOKBACK_DAYS = 14
 MAX_PUBLIC_ACTIVITY_PAGES = 3
 PUBLIC_ACTIVITY_PER_PAGE = 100
+ZERO_SHA = "0" * 40
 
 
-def event_commit_belongs_to_owner(commit: dict, actor: dict) -> bool:
-    if actor.get("login") != core.OWNER_LOGIN:
-        return False
+def fetch_push_event_commits(
+    full_name: str,
+    payload: dict,
+) -> list[dict]:
+    head = payload.get("head")
+    before = payload.get("before")
 
-    author = commit.get("author")
-    if not isinstance(author, dict):
-        return False
+    if not isinstance(head, str) or not head or head == ZERO_SHA:
+        return []
 
-    email = author.get("email")
-    if not isinstance(email, str):
-        return False
+    if not isinstance(before, str) or not before or before == ZERO_SHA:
+        url = (
+            f"https://api.github.com/repos/{full_name}/commits/"
+            f"{quote(head, safe='')}"
+        )
+        commit = core.github_get_json(url)
+        return [commit] if isinstance(commit, dict) else []
 
-    login = core.OWNER_LOGIN.lower()
-    actor_id = actor.get("id")
-    accepted = {f"{login}@users.noreply.github.com"}
-    if isinstance(actor_id, int):
-        accepted.add(f"{actor_id}+{login}@users.noreply.github.com")
+    url = (
+        f"https://api.github.com/repos/{full_name}/compare/"
+        f"{quote(before, safe='')}...{quote(head, safe='')}"
+    )
+    comparison = core.github_get_json(url)
+    if not isinstance(comparison, dict):
+        return []
 
-    return email.strip().lower() in accepted
+    commits = comparison.get("commits")
+    if not isinstance(commits, list):
+        return []
+
+    return [commit for commit in commits if isinstance(commit, dict)]
+
+
+def update_item_from_commit(
+    full_name: str,
+    commit_obj: dict,
+) -> core.UpdateItem | None:
+    if not core.is_own_commit(commit_obj):
+        return None
+
+    try:
+        commit = commit_obj["commit"]
+        parsed = core.parse_update_message(commit["message"])
+        if not parsed:
+            return None
+
+        kind, text = parsed
+        date = core.parse_github_datetime(commit["committer"]["date"])
+        html_url = commit_obj["html_url"]
+    except (KeyError, TypeError, ValueError):
+        return None
+
+    if not isinstance(html_url, str):
+        return None
+
+    return core.UpdateItem(
+        date=date,
+        repo=full_name.split("/", 1)[1],
+        kind=kind,
+        text=text,
+        url=html_url,
+        priority=core.COMMIT_PRIORITY_BY_KIND[kind],
+    )
 
 
 def fetch_public_push_activity(
@@ -44,7 +90,7 @@ def fetch_public_push_activity(
         "events": 0,
         "push_events": 0,
         "eligible_push_events": 0,
-        "commits": 0,
+        "resolved_commits": 0,
         "owner_commits": 0,
         "meaningful": 0,
     }
@@ -72,11 +118,11 @@ def fetch_public_push_activity(
                 continue
 
             try:
-                date = core.parse_github_datetime(created_at)
+                event_date = core.parse_github_datetime(created_at)
             except ValueError:
                 continue
 
-            if date < cutoff:
+            if event_date < cutoff:
                 reached_cutoff = True
                 break
 
@@ -108,42 +154,19 @@ def fetch_public_push_activity(
                 continue
             stats["eligible_push_events"] += 1
 
-            commits = payload.get("commits")
-            if not isinstance(commits, list):
-                continue
+            commits = fetch_push_event_commits(full_name, payload)
+            stats["resolved_commits"] += len(commits)
 
-            repo_name = full_name.split("/", 1)[1]
-            for commit in commits:
-                if not isinstance(commit, dict):
-                    continue
-                stats["commits"] += 1
-                if not event_commit_belongs_to_owner(commit, actor):
-                    continue
-                stats["owner_commits"] += 1
+            for commit_obj in commits:
+                if core.is_own_commit(commit_obj):
+                    stats["owner_commits"] += 1
 
-                sha = commit.get("sha")
-                message = commit.get("message")
-                if not isinstance(sha, str) or not sha:
-                    continue
-                if not isinstance(message, str):
+                item = update_item_from_commit(full_name, commit_obj)
+                if item is None:
                     continue
 
-                parsed = core.parse_update_message(message)
-                if not parsed:
-                    continue
                 stats["meaningful"] += 1
-
-                kind, text = parsed
-                items.append(
-                    core.UpdateItem(
-                        date=date,
-                        repo=repo_name,
-                        kind=kind,
-                        text=text,
-                        url=f"https://github.com/{full_name}/commit/{sha}",
-                        priority=core.COMMIT_PRIORITY_BY_KIND[kind],
-                    )
-                )
+                items.append(item)
 
         if reached_cutoff or len(events) < PUBLIC_ACTIVITY_PER_PAGE:
             break
