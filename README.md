@@ -175,13 +175,14 @@ I turn active study into documented, reproducible paths rather than presenting l
 <!-- updates:start -->
 
 - **2026-08-19** · `atelier-kit` · **Docs:** [document Nero Quotidiano operator contract (#318)](https://github.com/gcomneno/atelier-kit/commit/a412f49e8534585e2807d8a8b519b7aab5c41fd2)
+- **2026-08-19** · `atelier-kit` · **Docs:** [add Nero Quotidiano operator runbook](https://github.com/gcomneno/atelier-kit/commit/6f8f8c65bcbfcbf4c7e062c6430f72ab3cd92d70)
 - **2026-08-19** · `atelier-kit` · **Fix:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
 - **2026-08-19** · `atelier-kit` · **Feature:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
-- **2026-08-19** · `atelier-kit` · **Fix:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-19** · `atelier-kit` · **Fix:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
 - **2026-08-18** · `craft-parts` · **Fix:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Feature:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Fix:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
@@ -277,9 +278,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Feature:** [establish GIADA UI desktop foundation (#27)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9d401669a06ccbc8b447d70e3fc6cd05b4618829)
 - **2026-08-12** · `system-design-study` · **Docs:** [complete API design study session](https://github.com/gcomneno/system-design-study/commit/db2694f37d845d547be3e364c2ebca89095ebeaf)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [complete historical research migration (#26)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/dc0b5a19fe4aeb801bc0c03ac376ee4dc5aaa690)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [migrate historical signal reports (#25)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c44daca80c7622d95ff4c8c7dcb87ce4879d3176)
 
-_Showing the 100 most recent meaningful updates; 797 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 798 older update(s) omitted._
 
 </details>
 

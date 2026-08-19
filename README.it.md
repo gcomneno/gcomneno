@@ -175,13 +175,14 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 <!-- updates:start -->
 
 - **2026-08-19** · `atelier-kit` · **Documentazione:** [document Nero Quotidiano operator contract (#318)](https://github.com/gcomneno/atelier-kit/commit/a412f49e8534585e2807d8a8b519b7aab5c41fd2)
+- **2026-08-19** · `atelier-kit` · **Documentazione:** [add Nero Quotidiano operator runbook](https://github.com/gcomneno/atelier-kit/commit/6f8f8c65bcbfcbf4c7e062c6430f72ab3cd92d70)
 - **2026-08-19** · `atelier-kit` · **Correzione:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
 - **2026-08-19** · `atelier-kit` · **Funzionalità:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
-- **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
 - **2026-08-18** · `craft-parts` · **Correzione:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Funzionalità:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
@@ -277,9 +278,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [establish GIADA UI desktop foundation (#27)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9d401669a06ccbc8b447d70e3fc6cd05b4618829)
 - **2026-08-12** · `system-design-study` · **Documentazione:** [complete API design study session](https://github.com/gcomneno/system-design-study/commit/db2694f37d845d547be3e364c2ebca89095ebeaf)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [complete historical research migration (#26)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/dc0b5a19fe4aeb801bc0c03ac376ee4dc5aaa690)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [migrate historical signal reports (#25)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c44daca80c7622d95ff4c8c7dcb87ce4879d3176)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 797 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 798 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
