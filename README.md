@@ -266,7 +266,7 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [infer labels with explainable confidence](https://github.com/gcomneno/semantic-mail-archivist/commit/bd15fc64b9ced4fd479b9cf68fb425b4f0a27125)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect message-level label gaps (#12)](https://github.com/gcomneno/semantic-mail-archivist/commit/deffe03778d304779a9ac17a0c8f9de15418bd09)
 
-_Showing the 100 most recent meaningful updates; 788 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 777 older update(s) omitted._
 
 </details>
 
