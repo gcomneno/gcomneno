@@ -174,36 +174,28 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-19** · `atelier-kit` · **Documentazione:** [document Nero Quotidiano operator contract (#318)](https://github.com/gcomneno/atelier-kit/commit/a412f49e8534585e2807d8a8b519b7aab5c41fd2)
-- **2026-08-19** · `atelier-kit` · **Documentazione:** [add Nero Quotidiano operator runbook](https://github.com/gcomneno/atelier-kit/commit/6f8f8c65bcbfcbf4c7e062c6430f72ab3cd92d70)
 - **2026-08-19** · `atelier-kit` · **Correzione:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
 - **2026-08-19** · `atelier-kit` · **Funzionalità:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
+- **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
+- **2026-08-18** · `craft-parts` · **Correzione:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
-- **2026-08-18** · `craft-parts` · **Correzione:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Funzionalità:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
 - **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/d63fb281f5ee235577ce8cf00a47189ce6164b99)
-- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/2c6350a6cb95b9238baf045e8c9767257301c87d)
-- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/13bc586c183dc1d3241c5f8af061042eb1a07c14)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
 - **2026-08-17** · `atelier-kit` · **Documentazione:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
 - **2026-08-17** · `atelier-kit` · **Documentazione:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
 - **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update social links](https://github.com/gcomneno/atelier-kit/commit/67ee35c547490a4eb2ca2c13eb3b43b56784ad83)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
-- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/4c244e735fe87f345991914bdd615fa330c58452)
-- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/0f9ac5befff8693e14bb2769de197272daeed6cc)
-- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/9b235b8105f42ff5e1cafce8ef778ebc6988cf80)
 - **2026-08-15** · `atelier-kit` · **Correzione:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
 - **2026-08-15** · `lele-manager` · **Funzionalità:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
 - **2026-08-15** · `atelier-kit` · **Funzionalità:** [add optional Vercel Web Analytics (#296)](https://github.com/gcomneno/atelier-kit/commit/0ca74a873e1609f98a995b2c2ce9474fc50d46e6)
 - **2026-08-15** · `lele-manager` · **Funzionalità:** [brand LeLe Manager as Your Managed Second Brain (#236)](https://github.com/gcomneno/lele-manager/commit/4272371360043e8176bb8d08331420a6865de67c)
 - **2026-08-15** · `lele-manager` · **Correzione:** [refine original monkey cameo timing (#235)](https://github.com/gcomneno/lele-manager/commit/f9cb3a7238440d227316ab079d43674850fa5f20)
 - **2026-08-15** · `atelier-kit` · **Funzionalità:** [migrate Hero image authoring to controlled boundary (#295)](https://github.com/gcomneno/atelier-kit/commit/abcbf1b4af2c155c3544d1b18dbf3d91ff77a54f)
-- **2026-08-15** · `atelier-kit` · **Sviluppo:** [noop](https://github.com/gcomneno/atelier-kit/commit/8a661cd14da1ad4451bdf8ae7edb9bfc9a34416f)
 - **2026-08-15** · `atelier-kit` · **Funzionalità:** [add controlled image-upload authoring boundary (#293)](https://github.com/gcomneno/atelier-kit/commit/b43a09b4ba418b8eeb59c2a9451b4fdc2bf3cac5)
 - **2026-08-15** · `lele-manager` · **Funzionalità:** [add explicit lesson lifecycle and supersession semantics (#234)](https://github.com/gcomneno/lele-manager/commit/b54229be80a2e9677feecad46119445cb2312545)
 - **2026-08-15** · `lele-manager` · **Correzione:** [preserve lifecycle invariants across canonical workflows](https://github.com/gcomneno/lele-manager/commit/83093a305d1b2293f36691ed76a3925d8db89e29)
@@ -224,7 +216,6 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-15** · `giadaware-ui-components` · **Funzionalità:** [announce reorder outcomes accessibly (#58)](https://github.com/gcomneno/giadaware-ui-components/commit/08cd9e0734f95d27aa995d9c7647b2a0724ef188)
 - **2026-08-15** · `giadaware-ui-components` · **Funzionalità:** [add composable StatusNotice (#57)](https://github.com/gcomneno/giadaware-ui-components/commit/1578655b453a9dc66f9e2123f2991b1254a35c10)
 - **2026-08-15** · `giadaware-ui-components` · **Funzionalità:** [add field description and error primitives (#56)](https://github.com/gcomneno/giadaware-ui-components/commit/762d6677a3ce98aeb893b0e06e57108359a9e907)
-- **2026-08-14** · `concorso-inps-assistente-informatico` · **Novità:** [prepare INPS study repository readiness](https://github.com/gcomneno/concorso-inps-assistente-informatico/commit/074e8ed1245d9158e531d1ad847f726e03219b01)
 - **2026-08-14** · `atelier-kit` · **Documentazione:** [correct current release](https://github.com/gcomneno/atelier-kit/commit/75dad938c936ed662323e13a723e721a4ca5a218)
 - **2026-08-14** · `boardlab` · **Funzionalità:** [prepare canonical Session 01 learning path](https://github.com/gcomneno/boardlab/commit/12e853899590e5ba07e1f5cb333bc4b3fc20ae05)
 - **2026-08-14** · `lele-manager` · **Funzionalità:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
@@ -263,14 +254,11 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [add complete mailbox audit report (#21)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e1018708ef03f73b57673483ef845eecd2dfcf)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [harden first desktop road-test experience](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a954d3340edf4f0dad1cd9d2efa6ab8d483e5a28)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [preserve default database through pywebview serialization](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/af9c57c9b37d3e7b6ab55f16004311e2f1104c94)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [probe](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e1986ffdfdce5229b9d9f17bcc76ab0479d9686)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Sviluppo:** [tmp](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e207b114c5a89f4ce94901da43a38dae041c2697)
 - **2026-08-12** · `semantic-mail-archivist` · **Correzione:** [tighten generic notification obsolescence cue](https://github.com/gcomneno/semantic-mail-archivist/commit/119d5adb9f2977f68b83309b3674b783316113d5)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [handshake pywebview bridge before loading reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e45535d5941908e0e54a20097f3e07c808c625f2)
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [add optional operational state layer (#19)](https://github.com/gcomneno/semantic-mail-archivist/commit/f8746d2ca6f69169f801b732048d7e5eaf9cdc25)
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [wire bounded public social experience (#288)](https://github.com/gcomneno/atelier-kit/commit/18b9bd65e80c7aecf33aef8ce3930f803eb10db1)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [repair road-test reactivity and research navigation (#30)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a50e98ec019384362d3a1df1c29e01cc44193e18)
-- **2026-08-12** · `software-architecture-study` · **Documentazione:** [prepare software architecture foundations study path](https://github.com/gcomneno/software-architecture-study/commit/750e815782a4932fa7100d6af7e533b9ee09cb52)
 - **2026-08-12** · `semantic-mail-archivist` · **Correzione:** [validate protected document ownership](https://github.com/gcomneno/semantic-mail-archivist/commit/a6db5b48ad5bfada26f7843e2c52ef3dbb5e48fb)
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [detect obsolete low-value messages safely (#17)](https://github.com/gcomneno/semantic-mail-archivist/commit/94602084453cf3d4832f8d99dcb7322cb4c21f0c)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [complete local research interface (#29)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c20d266f43928efe132b3b58c4000aa609cc1cc7)
@@ -278,8 +266,20 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [establish GIADA UI desktop foundation (#27)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9d401669a06ccbc8b447d70e3fc6cd05b4618829)
 - **2026-08-12** · `system-design-study` · **Documentazione:** [complete API design study session](https://github.com/gcomneno/system-design-study/commit/db2694f37d845d547be3e364c2ebca89095ebeaf)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [complete historical research migration (#26)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/dc0b5a19fe4aeb801bc0c03ac376ee4dc5aaa690)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [migrate historical signal reports (#25)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c44daca80c7622d95ff4c8c7dcb87ce4879d3176)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [migrate historical Markov reports (#24)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e4521286b00feb647e120e05acad81421488d79)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
+- **2026-08-12** · `atelier-kit` · **Funzionalità:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
+- **2026-08-12** · `system-design-study` · **Documentazione:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [expose structured current application report (#20)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c0a0247372a0a64dc88bb6cbd29e1e70bc2c648c)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [isolate draw repository contract from SQLite (#19)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a7998c541ad333e63954818ad4d805ab8ef7c4f9)
+- **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [introduce protected semantic categories (#16)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e6b2d6cae2b431efe9a7f4f6237ded993d5a2f)
+- **2026-08-12** · `atelier-kit` · **Funzionalità:** [enforce bounded mutation integrity (#286)](https://github.com/gcomneno/atelier-kit/commit/d793bbc9fd11f31c50d74dbe38741afe5e4331b3)
+- **2026-08-12** · `atelier-kit` · **Funzionalità:** [add isolated guest session authority (#285)](https://github.com/gcomneno/atelier-kit/commit/1c434e533c9bb63a9a9a503cb517302f5cab3bf4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 798 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 761 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
