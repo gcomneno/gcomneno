@@ -20,11 +20,60 @@ DEFAULT_LOCALE = "en"
 
 OWNER_LOGIN = "gcomneno"
 PROFILE_REPO = f"{OWNER_LOGIN}/{OWNER_LOGIN}"
-EXCLUDED_REPOSITORIES = {
-    f"{OWNER_LOGIN}/reference-engine",
-    f"{OWNER_LOGIN}/cyse-lab",
-    f"{OWNER_LOGIN}/testflinger",
-}
+
+# Latest Updates is fail-closed and positively curated.
+# Public visibility alone never makes a repository eligible.
+CURATED_REPOSITORIES = frozenset(
+    {
+        f"{OWNER_LOGIN}/atelier-kit",
+        f"{OWNER_LOGIN}/smart-file-organizer",
+        f"{OWNER_LOGIN}/lele-manager",
+        f"{OWNER_LOGIN}/giadaware-ui-components",
+        f"{OWNER_LOGIN}/gyte",
+        f"{OWNER_LOGIN}/ubuntu-system-tools",
+        f"{OWNER_LOGIN}/semantic-mail-archivist",
+        f"{OWNER_LOGIN}/gyte-study-tools",
+        f"{OWNER_LOGIN}/lele-quizzer",
+        f"{OWNER_LOGIN}/system-log-dynamics",
+        f"{OWNER_LOGIN}/lotto-digit-coverage-dynamics",
+        f"{OWNER_LOGIN}/digit-probe",
+        f"{OWNER_LOGIN}/oeis-probe",
+        f"{OWNER_LOGIN}/midas",
+        f"{OWNER_LOGIN}/turbo-bucketizer",
+        f"{OWNER_LOGIN}/integer-structural-search",
+        f"{OWNER_LOGIN}/huffman-compressor",
+        f"{OWNER_LOGIN}/prime-tower-clocks",
+        f"{OWNER_LOGIN}/lasagna-v2",
+        f"{OWNER_LOGIN}/crystal-codec-gcc-v1",
+        f"{OWNER_LOGIN}/yocto-qemu-mini-lab",
+        f"{OWNER_LOGIN}/distributed-systems-study",
+        f"{OWNER_LOGIN}/system-design-study",
+        f"{OWNER_LOGIN}/kleis-corso-sviluppo-software",
+        f"{OWNER_LOGIN}/physics-study",
+        f"{OWNER_LOGIN}/oop-in-c-lab",
+        f"{OWNER_LOGIN}/js-lab-didattico",
+        f"{OWNER_LOGIN}/boardlab",
+        f"{OWNER_LOGIN}/web",
+    }
+)
+
+UPSTREAM_WORK_REPOSITORIES = frozenset(
+    {
+        f"{OWNER_LOGIN}/vscode-bitbake",
+        f"{OWNER_LOGIN}/craft-parts",
+        f"{OWNER_LOGIN}/craft-application",
+        f"{OWNER_LOGIN}/craft-providers",
+        f"{OWNER_LOGIN}/craft-cli",
+        f"{OWNER_LOGIN}/rockcraft",
+        f"{OWNER_LOGIN}/snapcraft",
+    }
+)
+
+ALLOWED_REPOSITORIES = (
+    CURATED_REPOSITORIES | UPSTREAM_WORK_REPOSITORIES
+)
+
+PROFILE_BLOCK_TERMS_ENV = "PROFILE_LATEST_UPDATES_BLOCK_TERMS"
 
 VISIBLE_ITEMS = 4
 MAX_RENDERED_ITEMS = 100
@@ -140,6 +189,11 @@ IGNORED_MESSAGE_PATTERNS = (
     ),
 )
 
+PLACEHOLDER_MESSAGE_PATTERN = re.compile(
+    r"^(?:noop|tmp|temp|probe|wip|debug)$",
+    re.IGNORECASE,
+)
+
 PRIORITY_RELEASE_API = 10
 
 COMMIT_PRIORITY_BY_KIND = {
@@ -228,6 +282,33 @@ def github_get_json(url: str) -> object | None:
         return None
 
 
+def blocked_update_terms() -> tuple[str, ...]:
+    """
+    Return private editorial suppression terms supplied at runtime.
+
+    Values come from repository secret/configuration and are never
+    committed or logged by the generator.
+    """
+
+    raw = os.environ.get(PROFILE_BLOCK_TERMS_ENV, "")
+    terms: list[str] = []
+
+    for value in re.split(r"[\n,]+", raw):
+        normalized = value.strip().casefold()
+        if normalized and normalized not in terms:
+            terms.append(normalized)
+
+    return tuple(terms)
+
+
+def is_blocked_update_text(text: str) -> bool:
+    normalized = text.casefold()
+    return any(
+        term in normalized
+        for term in blocked_update_terms()
+    )
+
+
 def parse_update_message(message: str) -> tuple[str, str] | None:
     """Classifica un commit significativo per la vetrina."""
 
@@ -239,6 +320,12 @@ def parse_update_message(message: str) -> tuple[str, str] | None:
     first_line = lines[0].strip()
 
     if not first_line:
+        return None
+
+    if PLACEHOLDER_MESSAGE_PATTERN.fullmatch(first_line):
+        return None
+
+    if is_blocked_update_text(first_line):
         return None
 
     # Le release dichiarate come chore restano eventi
@@ -270,8 +357,9 @@ def parse_update_message(message: str) -> tuple[str, str] | None:
             conventional.group("text").strip(),
         )
 
-    # I messaggi non convenzionali sono significativi
-    # per impostazione predefinita.
+    # I messaggi non convenzionali possono ancora rappresentare
+    # lavoro reale, ma placeholder e contenuti editorialmente soppressi
+    # sono già stati scartati sopra.
     return "development", first_line
 
 
@@ -301,7 +389,7 @@ def discover_public_repositories() -> list[str]:
                 continue
             if full_name == PROFILE_REPO:
                 continue
-            if full_name in EXCLUDED_REPOSITORIES:
+            if full_name not in ALLOWED_REPOSITORIES:
                 continue
             if repo.get("private") is True:
                 continue
@@ -460,12 +548,12 @@ def dedupe_updates(
     items: list[UpdateItem],
 ) -> list[UpdateItem]:
     """
-    Elimina soltanto duplicati reali.
+    Remove transport duplicates and low-signal editorial repetition.
 
-    Tutti i commit significativi restano visibili, anche
-    quando appartengono allo stesso repository e giorno.
-    Una release ottenuta dall'API sostituisce soltanto
-    l'eventuale commit di annuncio della stessa giornata.
+    Distinct meaningful commits remain visible. Exact repeated titles
+    from the same repository, kind and day collapse to the newest
+    occurrence. An API release also replaces only a same-day release
+    announcement commit.
     """
 
     release_api_days = {
@@ -481,6 +569,9 @@ def dedupe_updates(
     }
 
     seen_urls: set[str] = set()
+    seen_editorial_keys: set[
+        tuple[str, str, str, str]
+    ] = set()
     deduped: list[UpdateItem] = []
 
     ordered = sorted(
@@ -508,7 +599,17 @@ def dedupe_updates(
         ):
             continue
 
+        editorial_key = (
+            item.repo,
+            item.date.strftime("%Y-%m-%d"),
+            item.kind,
+            re.sub(r"\s+", " ", item.text).strip().casefold(),
+        )
+        if editorial_key in seen_editorial_keys:
+            continue
+
         seen_urls.add(item.url)
+        seen_editorial_keys.add(editorial_key)
         deduped.append(item)
 
     return deduped

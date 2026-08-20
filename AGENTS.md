@@ -147,9 +147,15 @@ The exact markers are:
 
 They must remain present in both profile READMEs.
 
-The generator may summarize meaningful activity from recently updated public
-repositories, but must exclude the profile repository itself and must not
-surface private, archived or disabled repositories.
+The generator may summarize meaningful activity only from positively curated
+public repositories. Public visibility alone does not confer eligibility.
+Private, archived, disabled, unlisted or otherwise non-curated repositories
+must not become profile content through discovery or public activity fallback.
+
+A repository secret may supply private editorial suppression terms through
+`PROFILE_LATEST_UPDATES_BLOCK_TERMS`. Secret values must never be committed,
+rendered or logged. This filter exists to prevent the profile from amplifying
+otherwise public commit titles that are not appropriate for the showcase.
 
 The English and Italian blocks share the same update set and original commit or
 release titles. Only profile UI labels and surrounding text are localized.
