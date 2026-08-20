@@ -57,6 +57,7 @@ jobs:
       - name: Update Latest Updates section
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_LATEST_UPDATES_BLOCK_TERMS: ${{ secrets.PROFILE_LATEST_UPDATES_BLOCK_TERMS }}
         run: python scripts/update_latest_updates_public_activity.py
 
       - name: Commit changes if needed

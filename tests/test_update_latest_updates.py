@@ -53,35 +53,33 @@ def item(
     )
 
 
-class RepositoryExclusionPolicyTests(unittest.TestCase):
-    def test_showcase_exclusions_are_explicit(self) -> None:
-        self.assertEqual(
-            MODULE.EXCLUDED_REPOSITORIES,
-            {
-                "gcomneno/reference-engine",
-                "gcomneno/cyse-lab",
-                "gcomneno/testflinger",
-            },
+class RepositoryEligibilityPolicyTests(unittest.TestCase):
+    def test_repository_policy_is_positive_and_fail_closed(self) -> None:
+        self.assertIn(
+            "gcomneno/atelier-kit",
+            MODULE.ALLOWED_REPOSITORIES,
+        )
+        self.assertIn(
+            "gcomneno/vscode-bitbake",
+            MODULE.ALLOWED_REPOSITORIES,
+        )
+        self.assertIn(
+            "gcomneno/craft-parts",
+            MODULE.ALLOWED_REPOSITORIES,
+        )
+        self.assertNotIn(
+            MODULE.PROFILE_REPO,
+            MODULE.ALLOWED_REPOSITORIES,
+        )
+        self.assertNotIn(
+            "gcomneno/unlisted-public-repository",
+            MODULE.ALLOWED_REPOSITORIES,
         )
 
-    def test_discovery_skips_showcase_exclusions(self) -> None:
+    def test_discovery_skips_unlisted_public_repositories(self) -> None:
         payload = [
             {
-                "full_name": "gcomneno/reference-engine",
-                "owner": {"login": "gcomneno"},
-                "private": False,
-                "archived": False,
-                "disabled": False,
-            },
-            {
-                "full_name": "gcomneno/cyse-lab",
-                "owner": {"login": "gcomneno"},
-                "private": False,
-                "archived": False,
-                "disabled": False,
-            },
-            {
-                "full_name": "gcomneno/testflinger",
+                "full_name": "gcomneno/unlisted-public-repository",
                 "owner": {"login": "gcomneno"},
                 "private": False,
                 "archived": False,
@@ -95,7 +93,12 @@ class RepositoryExclusionPolicyTests(unittest.TestCase):
                 "disabled": False,
             },
         ]
-        with patch.object(MODULE, "github_get_json", side_effect=[payload, []]):
+
+        with patch.object(
+            MODULE,
+            "github_get_json",
+            side_effect=[payload, []],
+        ):
             self.assertEqual(
                 MODULE.discover_public_repositories(),
                 ["gcomneno/atelier-kit"],
@@ -147,6 +150,46 @@ class UpdateMessageTests(unittest.TestCase):
             ),
             ("fix", "reject malformed input"),
         )
+
+    def test_excludes_plain_placeholder_messages(self) -> None:
+        for message in (
+            "noop",
+            "TMP",
+            "temp",
+            "probe",
+            "wip",
+            "debug",
+        ):
+            with self.subTest(message=message):
+                self.assertIsNone(
+                    MODULE.parse_update_message(message)
+                )
+
+    def test_runtime_block_terms_are_private_editorial_filter(self) -> None:
+        with patch.dict(
+            MODULE.os.environ,
+            {
+                MODULE.PROFILE_BLOCK_TERMS_ENV:
+                    "Client Alpha,internal showcase"
+            },
+            clear=False,
+        ):
+            self.assertIsNone(
+                MODULE.parse_update_message(
+                    "docs: document Client Alpha operator runbook"
+                )
+            )
+            self.assertIsNone(
+                MODULE.parse_update_message(
+                    "Add INTERNAL SHOWCASE recovery notes"
+                )
+            )
+            self.assertEqual(
+                MODULE.parse_update_message(
+                    "fix: preserve unrelated public behavior"
+                ),
+                ("fix", "preserve unrelated public behavior"),
+            )
 
     def test_accepts_plain_meaningful_commit(
         self,
@@ -285,6 +328,66 @@ class UpdateDeduplicationTests(unittest.TestCase):
                 [older, newer]
             ),
             [newer],
+        )
+
+    def test_collapses_same_day_repeated_editorial_title(self) -> None:
+        older = item(
+            hour=8,
+            kind="development",
+            text="studio: update hero banner",
+            url="https://example.test/older",
+        )
+        newer = item(
+            hour=10,
+            kind="development",
+            text="studio: update hero banner",
+            url="https://example.test/newer",
+        )
+
+        self.assertEqual(
+            MODULE.dedupe_updates([older, newer]),
+            [newer],
+        )
+
+    def test_keeps_same_title_on_different_days(self) -> None:
+        older = MODULE.UpdateItem(
+            date=datetime(
+                2026,
+                8,
+                1,
+                10,
+                0,
+                tzinfo=timezone.utc,
+            ),
+            repo="example",
+            kind="development",
+            text="studio: update hero banner",
+            url="https://example.test/day-1",
+            priority=MODULE.COMMIT_PRIORITY_BY_KIND[
+                "development"
+            ],
+        )
+        newer = MODULE.UpdateItem(
+            date=datetime(
+                2026,
+                8,
+                2,
+                10,
+                0,
+                tzinfo=timezone.utc,
+            ),
+            repo="example",
+            kind="development",
+            text="studio: update hero banner",
+            url="https://example.test/day-2",
+            priority=MODULE.COMMIT_PRIORITY_BY_KIND[
+                "development"
+            ],
+        )
+
+        self.assertEqual(
+            MODULE.dedupe_updates([older, newer]),
+            [newer, older],
         )
 
     def test_api_release_replaces_release_commit_only(
