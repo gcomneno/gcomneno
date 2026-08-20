@@ -174,14 +174,15 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-20** · `lele-manager` · **Feature:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [accept verifiable recovery ADR](https://github.com/gcomneno/smart-file-organizer/commit/adfa6f116a02ab46e93d06cb098c29a46e69f3ce)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [align Italian recovery contract](https://github.com/gcomneno/smart-file-organizer/commit/3588e520846bbd4a3874a28e5783ff146e4cb720)
-- **2026-08-19** · `atelier-kit` · **Fix:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-19** · `atelier-kit` · **Fix:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
 - **2026-08-19** · `atelier-kit` · **Feature:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
 - **2026-08-19** · `atelier-kit` · **Fix:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
 - **2026-08-18** · `craft-parts` · **Fix:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
@@ -277,9 +278,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [expose structured current application report (#20)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c0a0247372a0a64dc88bb6cbd29e1e70bc2c648c)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [isolate draw repository contract from SQLite (#19)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a7998c541ad333e63954818ad4d805ab8ef7c4f9)
 
-_Showing the 100 most recent meaningful updates; 764 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 765 older update(s) omitted._
 
 </details>
 
