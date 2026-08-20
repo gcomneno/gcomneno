@@ -174,14 +174,17 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-20** · `smart-file-organizer` · **Documentazione:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
+- **2026-08-20** · `smart-file-organizer` · **Documentazione:** [accept verifiable recovery ADR](https://github.com/gcomneno/smart-file-organizer/commit/adfa6f116a02ab46e93d06cb098c29a46e69f3ce)
+- **2026-08-20** · `smart-file-organizer` · **Documentazione:** [align Italian recovery contract](https://github.com/gcomneno/smart-file-organizer/commit/3588e520846bbd4a3874a28e5783ff146e4cb720)
 - **2026-08-19** · `atelier-kit` · **Correzione:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
-- **2026-08-19** · `atelier-kit` · **Funzionalità:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
-- **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
-- **2026-08-18** · `craft-parts` · **Correzione:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-19** · `atelier-kit` · **Funzionalità:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
+- **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
+- **2026-08-18** · `craft-parts` · **Correzione:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Funzionalità:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
 - **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/d63fb281f5ee235577ce8cf00a47189ce6164b99)
@@ -275,11 +278,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [expose structured current application report (#20)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c0a0247372a0a64dc88bb6cbd29e1e70bc2c648c)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [isolate draw repository contract from SQLite (#19)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a7998c541ad333e63954818ad4d805ab8ef7c4f9)
-- **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [introduce protected semantic categories (#16)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e6b2d6cae2b431efe9a7f4f6237ded993d5a2f)
-- **2026-08-12** · `atelier-kit` · **Funzionalità:** [enforce bounded mutation integrity (#286)](https://github.com/gcomneno/atelier-kit/commit/d793bbc9fd11f31c50d74dbe38741afe5e4331b3)
-- **2026-08-12** · `atelier-kit` · **Funzionalità:** [add isolated guest session authority (#285)](https://github.com/gcomneno/atelier-kit/commit/1c434e533c9bb63a9a9a503cb517302f5cab3bf4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 761 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 764 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
