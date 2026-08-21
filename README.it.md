@@ -174,14 +174,15 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-21** · `craft-parts` · **Correzione:** [remove obsolete list-only package handling](https://github.com/gcomneno/craft-parts/commit/5fb6e7d16cb52b2f7f233f4f1c129de8c138e77f)
 - **2026-08-21** · `web` · **Documentazione:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
 - **2026-08-21** · `web` · **Sviluppo:** [Add Laravel lesson 23 Vite assets](https://github.com/gcomneno/web/commit/3b36a7c3dc2ae7650ef97671a17e2749e918d373)
 - **2026-08-21** · `web` · **Sviluppo:** [Add Laravel lesson 22 Eloquent events](https://github.com/gcomneno/web/commit/c97c7b5960104d22ceebe60dc9116e7da5310d4e)
-- **2026-08-20** · `lele-manager` · **Funzionalità:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-20** · `lele-manager` · **Funzionalità:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
 - **2026-08-20** · `smart-file-organizer` · **Documentazione:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
 - **2026-08-20** · `smart-file-organizer` · **Documentazione:** [accept verifiable recovery ADR](https://github.com/gcomneno/smart-file-organizer/commit/adfa6f116a02ab46e93d06cb098c29a46e69f3ce)
 - **2026-08-20** · `smart-file-organizer` · **Documentazione:** [align Italian recovery contract](https://github.com/gcomneno/smart-file-organizer/commit/3588e520846bbd4a3874a28e5783ff146e4cb720)
@@ -277,9 +278,8 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [migrate historical Markov reports (#24)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e4521286b00feb647e120e05acad81421488d79)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
-- **2026-08-12** · `system-design-study` · **Documentazione:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 768 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 769 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
