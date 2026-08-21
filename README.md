@@ -174,14 +174,15 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-21** · `web` · **Docs:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
 - **2026-08-21** · `web` · **Development:** [Add Laravel lesson 23 Vite assets](https://github.com/gcomneno/web/commit/3b36a7c3dc2ae7650ef97671a17e2749e918d373)
 - **2026-08-21** · `web` · **Development:** [Add Laravel lesson 22 Eloquent events](https://github.com/gcomneno/web/commit/c97c7b5960104d22ceebe60dc9116e7da5310d4e)
 - **2026-08-20** · `lele-manager` · **Feature:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
-- **2026-08-20** · `smart-file-organizer` · **Docs:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-20** · `smart-file-organizer` · **Docs:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [accept verifiable recovery ADR](https://github.com/gcomneno/smart-file-organizer/commit/adfa6f116a02ab46e93d06cb098c29a46e69f3ce)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [align Italian recovery contract](https://github.com/gcomneno/smart-file-organizer/commit/3588e520846bbd4a3874a28e5783ff146e4cb720)
 - **2026-08-19** · `atelier-kit` · **Fix:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
@@ -277,9 +278,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Feature:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
 - **2026-08-12** · `system-design-study` · **Docs:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
 
-_Showing the 100 most recent meaningful updates; 767 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 768 older update(s) omitted._
 
 </details>
 
