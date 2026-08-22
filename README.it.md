@@ -39,8 +39,10 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
   <a href="https://atelier-kit-public-demo.vercel.app/">
     <img alt="Demo live di Atelier-Kit" src="https://img.shields.io/badge/LIVE%20DEMO-Apri%20nel%20browser-0B1F3A?style=for-the-badge&logo=vercel&logoColor=white">
   </a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/gcomneno/atelier-kit">Codice sorgente</a>
+  &nbsp;
+  <a href="https://github.com/gcomneno/atelier-kit">
+    <img alt="Codice sorgente Atelier-Kit" src="https://img.shields.io/badge/SOURCE%20CODE-GITHUB-24292F?style=for-the-badge&logo=github&logoColor=white">
+  </a>
 </p>
 
 | Progetto | Release ufficiale | Cosa fa | Cosa dimostra |
