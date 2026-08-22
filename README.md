@@ -191,14 +191,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-22** · `craft-parts` · **Development:** [packages: preserve architecture in primed stage packages (#1558)](https://github.com/gcomneno/craft-parts/commit/0b6a556a215973e2a34d1db1538f4576372b45c6)
-- **2026-08-21** · `craft-parts` · **Fix:** [remove obsolete list-only package handling](https://github.com/gcomneno/craft-parts/commit/5fb6e7d16cb52b2f7f233f4f1c129de8c138e77f)
-- **2026-08-21** · `web` · **Docs:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
-- **2026-08-21** · `web` · **Development:** [Add Laravel lesson 23 Vite assets](https://github.com/gcomneno/web/commit/3b36a7c3dc2ae7650ef97671a17e2749e918d373)
+- **2026-08-22** · `physics-study` · **Docs:** [add introductory quantum mechanics lesson (#3)](https://github.com/gcomneno/physics-study/commit/dc4eaaefdc8ee1a97b39a31bdfbe41963e64a5b1)
+- **2026-08-22** · `atelier-kit` · **Security:** [lock production Vercel CLI (#319)](https://github.com/gcomneno/atelier-kit/commit/e4eef6cfc23fd017be28f92deb51e5b7f474a49b)
+- **2026-08-22** · `giadaware-ui-components` · **Security:** [align immutable release guarantees (#71)](https://github.com/gcomneno/giadaware-ui-components/commit/444e3df7b77ba86b814e07866c6bb758dc86b22a)
+- **2026-08-22** · `craft-parts` · **Fix:** [avoid magic value in status parser](https://github.com/gcomneno/craft-parts/commit/0735939319ec295d0cd2569d1a60af42b8ade9b6)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-22** · `craft-parts` · **Development:** [packages: preserve architecture in primed stage packages (#1558)](https://github.com/gcomneno/craft-parts/commit/0b6a556a215973e2a34d1db1538f4576372b45c6)
+- **2026-08-21** · `craft-parts` · **Fix:** [remove obsolete list-only package handling](https://github.com/gcomneno/craft-parts/commit/5fb6e7d16cb52b2f7f233f4f1c129de8c138e77f)
+- **2026-08-21** · `web` · **Docs:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
+- **2026-08-21** · `web` · **Development:** [Add Laravel lesson 23 Vite assets](https://github.com/gcomneno/web/commit/3b36a7c3dc2ae7650ef97671a17e2749e918d373)
 - **2026-08-21** · `web` · **Development:** [Add Laravel lesson 22 Eloquent events](https://github.com/gcomneno/web/commit/c97c7b5960104d22ceebe60dc9116e7da5310d4e)
 - **2026-08-20** · `lele-manager` · **Feature:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
@@ -291,12 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `system-design-study` · **Docs:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [expose structured current application report (#20)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c0a0247372a0a64dc88bb6cbd29e1e70bc2c648c)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [isolate draw repository contract from SQLite (#19)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a7998c541ad333e63954818ad4d805ab8ef7c4f9)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [introduce protected semantic categories (#16)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e6b2d6cae2b431efe9a7f4f6237ded993d5a2f)
-- **2026-08-12** · `atelier-kit` · **Feature:** [enforce bounded mutation integrity (#286)](https://github.com/gcomneno/atelier-kit/commit/d793bbc9fd11f31c50d74dbe38741afe5e4331b3)
 
-_Showing the 100 most recent meaningful updates; 760 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 764 older update(s) omitted._
 
 </details>
 
