@@ -279,7 +279,7 @@ Trasformo lo studio attivo in percorsi documentati e riproducibili, senza presen
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 769 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 767 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

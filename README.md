@@ -279,7 +279,7 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Feature:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
 
-_Showing the 100 most recent meaningful updates; 769 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 767 older update(s) omitted._
 
 </details>
 
