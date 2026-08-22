@@ -6,6 +6,22 @@ from pathlib import Path
 
 README_PATHS = (Path("README.md"), Path("README.it.md"))
 
+ATELIER_KIT_DEMO_URL = "https://atelier-kit-public-demo.vercel.app/"
+ATELIER_KIT_SOURCE_URL = "https://github.com/gcomneno/atelier-kit"
+
+FEATURED_DEMO_MARKERS = {
+    "README.md": (
+        "These projects best represent my current work",
+        "<strong>Featured live demo — Atelier-Kit</strong>",
+        "| Project | Official release | What it does | What it demonstrates |",
+    ),
+    "README.it.md": (
+        "Questi progetti rappresentano meglio il mio lavoro attuale",
+        "<strong>Demo live in evidenza — Atelier-Kit</strong>",
+        "| Progetto | Release ufficiale | Cosa fa | Cosa dimostra |",
+    ),
+}
+
 SELECTED_PROJECTS = (
     "atelier-kit",
     "smart-file-organizer",
@@ -123,6 +139,52 @@ def assert_tokens_in_order(
 
 
 class ProfilePriorityOrderingTests(unittest.TestCase):
+    def test_atelier_kit_featured_demo_is_prominent_and_bilingual(self) -> None:
+        for path in README_PATHS:
+            text = path.read_text(encoding="utf-8")
+            intro, demo_heading, table_heading = FEATURED_DEMO_MARKERS[path.name]
+
+            self.assertEqual(
+                text.count(ATELIER_KIT_DEMO_URL),
+                1,
+                f"{path}: Atelier-Kit demo URL must appear exactly once",
+            )
+            self.assertIn(
+                ATELIER_KIT_SOURCE_URL,
+                text,
+                f"{path}: Atelier-Kit source link missing",
+            )
+
+            intro_position = text.find(intro)
+            demo_position = text.find(demo_heading)
+            table_position = text.find(table_heading)
+
+            self.assertNotEqual(
+                intro_position,
+                -1,
+                f"{path}: Selected Projects intro missing",
+            )
+            self.assertNotEqual(
+                demo_position,
+                -1,
+                f"{path}: featured Atelier-Kit demo missing",
+            )
+            self.assertNotEqual(
+                table_position,
+                -1,
+                f"{path}: Selected Projects table missing",
+            )
+            self.assertLess(
+                intro_position,
+                demo_position,
+                f"{path}: demo must follow the Selected Projects intro",
+            )
+            self.assertLess(
+                demo_position,
+                table_position,
+                f"{path}: demo must precede the Selected Projects table",
+            )
+
     def test_curated_repository_lists_follow_priority_order(self) -> None:
         for path in README_PATHS:
             text = path.read_text(encoding="utf-8")
