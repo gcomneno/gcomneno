@@ -47,7 +47,7 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 
 | Progetto | Release ufficiale | Cosa fa | Cosa dimostra |
 | --- | --- | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Fornisce un kit vetrina configurabile con authoring Studio locale e desktop, catalogo content-driven e strumenti di pubblicazione, oltre ad authoring Hosted/Demo a perimetro esplicito dichiarato come current-main | Architettura di prodotto SvelteKit, confini di autorità espliciti tra local/hosted/demo, mutazioni repository atomiche, distribuzione desktop e adozione downstream di Giada UI |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.0) | Fornisce un kit vetrina configurabile con authoring Studio locale e desktop, catalogo content-driven e strumenti di pubblicazione, oltre ad authoring Hosted/Demo a perimetro esplicito dichiarato come current-main | Architettura di prodotto SvelteKit, confini di autorità espliciti tra local/hosted/demo, mutazioni repository atomiche, distribuzione desktop e adozione downstream di Giada UI |
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analizza i file, mostra in anteprima un piano di organizzazione e li sposta solo su richiesta esplicita | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili, verifica del filesystem e pianificazione read-only del recupero |
 | [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite entry point base, visitor e studio isolati | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
@@ -191,14 +191,18 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-22** · `physics-study` · **Documentazione:** [add introductory quantum mechanics lesson (#3)](https://github.com/gcomneno/physics-study/commit/dc4eaaefdc8ee1a97b39a31bdfbe41963e64a5b1)
-- **2026-08-22** · `atelier-kit` · **Sicurezza:** [lock production Vercel CLI (#319)](https://github.com/gcomneno/atelier-kit/commit/e4eef6cfc23fd017be28f92deb51e5b7f474a49b)
-- **2026-08-22** · `giadaware-ui-components` · **Sicurezza:** [align immutable release guarantees (#71)](https://github.com/gcomneno/giadaware-ui-components/commit/444e3df7b77ba86b814e07866c6bb758dc86b22a)
-- **2026-08-22** · `craft-parts` · **Correzione:** [avoid magic value in status parser](https://github.com/gcomneno/craft-parts/commit/0735939319ec295d0cd2569d1a60af42b8ade9b6)
+- **2026-08-22** · `atelier-kit` · **Sviluppo:** [product: define Atelier-Kit commercial offer (#328)](https://github.com/gcomneno/atelier-kit/commit/4c331fa99baf5a29e347f7ade5028a3c301480d4)
+- **2026-08-22** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.0)
+- **2026-08-22** · `atelier-kit` · **Sviluppo:** [Release Atelier-Kit v0.5.0 (#327)](https://github.com/gcomneno/atelier-kit/commit/e5abee822a9d01bd859ed5c962d64d699b4bcf30)
+- **2026-08-22** · `atelier-kit` · **Correzione:** [prevent mobile header search gap (#326)](https://github.com/gcomneno/atelier-kit/commit/04b2fa7e08c65c38573e27d2e8b4d591124175bb)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-22** · `physics-study` · **Documentazione:** [add introductory quantum mechanics lesson (#3)](https://github.com/gcomneno/physics-study/commit/dc4eaaefdc8ee1a97b39a31bdfbe41963e64a5b1)
+- **2026-08-22** · `atelier-kit` · **Sicurezza:** [lock production Vercel CLI (#319)](https://github.com/gcomneno/atelier-kit/commit/e4eef6cfc23fd017be28f92deb51e5b7f474a49b)
+- **2026-08-22** · `giadaware-ui-components` · **Sicurezza:** [align immutable release guarantees (#71)](https://github.com/gcomneno/giadaware-ui-components/commit/444e3df7b77ba86b814e07866c6bb758dc86b22a)
+- **2026-08-22** · `craft-parts` · **Correzione:** [avoid magic value in status parser](https://github.com/gcomneno/craft-parts/commit/0735939319ec295d0cd2569d1a60af42b8ade9b6)
 - **2026-08-22** · `craft-parts` · **Sviluppo:** [packages: preserve architecture in primed stage packages (#1558)](https://github.com/gcomneno/craft-parts/commit/0b6a556a215973e2a34d1db1538f4576372b45c6)
 - **2026-08-21** · `craft-parts` · **Correzione:** [remove obsolete list-only package handling](https://github.com/gcomneno/craft-parts/commit/5fb6e7d16cb52b2f7f233f4f1c129de8c138e77f)
 - **2026-08-21** · `web` · **Documentazione:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
@@ -218,7 +222,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-17** · `atelier-kit` · **Correzione:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
 - **2026-08-17** · `atelier-kit` · **Documentazione:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
 - **2026-08-17** · `atelier-kit` · **Documentazione:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
-- **2026-08-17** · `atelier-kit` · **Sviluppo:** [studio: update social links](https://github.com/gcomneno/atelier-kit/commit/67ee35c547490a4eb2ca2c13eb3b43b56784ad83)
 - **2026-08-17** · `atelier-kit` · **Correzione:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
 - **2026-08-15** · `atelier-kit` · **Correzione:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
 - **2026-08-15** · `lele-manager` · **Funzionalità:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
@@ -292,11 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [migrate historical Markov reports (#24)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e4521286b00feb647e120e05acad81421488d79)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
-- **2026-08-12** · `system-design-study` · **Documentazione:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactoring:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 764 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 767 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
