@@ -30,6 +30,19 @@
 
 These projects best represent my current work across backend design, reliable automation, developer tooling and reproducible software workflows.
 
+<p align="center">
+  <strong>Featured live demo — Atelier-Kit</strong><br>
+  Explore the public Atelier-Kit demo directly in your browser.
+</p>
+
+<p align="center">
+  <a href="https://atelier-kit-public-demo.vercel.app/">
+    <img alt="Atelier-Kit live demo" src="https://img.shields.io/badge/LIVE%20DEMO-Open%20in%20browser-0B1F3A?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/gcomneno/atelier-kit">Source code</a>
+</p>
+
 | Project | Official release | What it does | What it demonstrates |
 | --- | --- | --- | --- |
 | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Provides a configurable showcase kit with local, desktop and bounded hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit local/hosted/demo authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
