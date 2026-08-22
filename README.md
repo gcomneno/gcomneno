@@ -47,12 +47,14 @@ These projects best represent my current work across backend design, reliable au
 
 | Project | Official release | What it does | What it demonstrates |
 | --- | --- | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Provides a configurable showcase kit with local, desktop and bounded hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit local/hosted/demo authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions and recoverable operations |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.4.3](https://github.com/gcomneno/atelier-kit/releases/tag/v0.4.3) | Provides a configurable showcase kit with local and desktop Studio authoring, content-driven catalog workflows and deployment tooling, plus explicitly current-main bounded Hosted/Demo authoring | SvelteKit product architecture, explicit local/hosted/demo authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions, filesystem verification and read-only recovery planning |
 | [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Linux utilities for diagnostics, controlled maintenance, offline transcription and kernel warning analysis | Safety-first system tooling, read-only diagnostics, explicit opt-in workflows and reproducible Linux packaging |
+
+*Official release* values come from GitHub Releases. Wording marked **current-main** describes repository state and must not be read as capability guaranteed by the release cell.
 
 <details>
 <summary>More operational projects</summary>
@@ -144,9 +146,9 @@ These repositories use reproducible software experiments to investigate sequence
 
 | Area | Project | Technical focus |
 | --- | --- | --- |
-| Operational sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Privacy-safe Linux journal normalization, deterministic classification, reproducible manifests and temporal comparison |
+| Sequence analysis | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns through a reusable analysis API |
+| Modular structure analysis | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints, anomaly localization and structural comparison without predictive claims |
 | Finite-state stochastic modeling | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Exact absorbing Markov models, exhaustive kernel verification, historical signal analysis, versioned application contracts and a local reproducible research GUI |
-| Sequence analysis | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns |
 | Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
 
 <details>
@@ -154,24 +156,24 @@ These repositories use reproducible software experiments to investigate sequence
 
 | Area | Project | Technical focus |
 | --- | --- | --- |
-| Modular analysis | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints and structural comparison |
 | Deterministic bucketing | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | Structural search | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and constraints |
 | Linguistic compression | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Italian text preprocessing and layered Huffman coding |
 | Modular signatures | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, the Chinese Remainder Theorem and modular signatures |
-| Time-series compression | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Experimental lossless compression for univariate time series |
+| Time-series compression | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Adaptive segmentation, predictor-based residual coding and controlled lossy/lossless experiments on univariate time series |
 | Experimental codec | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | p-adic crystal and prism codec prototype |
 
 </details>
 
 ## <code>04 · LEARNING IN PUBLIC</code>
 
-I turn active study into documented, reproducible paths rather than presenting learning repositories as production experience.
+I turn study into documented, reproducible paths rather than presenting learning repositories as production experience.
 
 | Area | Repository | Current focus |
 | --- | --- | --- |
+| Applied sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Reproducible Digit-Probe demonstrator over privacy-safe Linux journal normalization, deterministic evidence and temporal comparison |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |
-| Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Algorithms, failure models, coordination and interview-oriented exercises |
+| Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Session 01 is prepared around algorithms, failure models and coordination; active study is not yet marked complete |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Architecture notes, quizzes and interview-oriented lessons |
 | Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |
 | Physics | [Physics Study](https://github.com/gcomneno/physics-study) | Original, fact-checked lessons; first lesson: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), from Io eclipse timing to evidence for the finite speed of light |

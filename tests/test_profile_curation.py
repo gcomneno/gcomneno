@@ -39,14 +39,13 @@ OPERATIONAL_PROJECTS = (
 )
 
 PRIMARY_RESEARCH = (
-    "system-log-dynamics",
-    "lotto-digit-coverage-dynamics",
     "digit-probe",
+    "midas",
+    "lotto-digit-coverage-dynamics",
     "oeis-probe",
 )
 
 SECONDARY_RESEARCH = (
-    "midas",
     "turbo-bucketizer",
     "integer-structural-search",
     "huffman-compressor",
@@ -56,6 +55,7 @@ SECONDARY_RESEARCH = (
 )
 
 PRIMARY_LEARNING = (
+    "system-log-dynamics",
     "yocto-qemu-mini-lab",
     "distributed-systems-study",
     "system-design-study",
