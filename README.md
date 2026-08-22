@@ -39,8 +39,10 @@ These projects best represent my current work across backend design, reliable au
   <a href="https://atelier-kit-public-demo.vercel.app/">
     <img alt="Atelier-Kit live demo" src="https://img.shields.io/badge/LIVE%20DEMO-Open%20in%20browser-0B1F3A?style=for-the-badge&logo=vercel&logoColor=white">
   </a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/gcomneno/atelier-kit">Source code</a>
+  &nbsp;
+  <a href="https://github.com/gcomneno/atelier-kit">
+    <img alt="Atelier-Kit source code" src="https://img.shields.io/badge/SOURCE%20CODE-GITHUB-24292F?style=for-the-badge&logo=github&logoColor=white">
+  </a>
 </p>
 
 | Project | Official release | What it does | What it demonstrates |

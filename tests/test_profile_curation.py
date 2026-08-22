@@ -8,6 +8,7 @@ README_PATHS = (Path("README.md"), Path("README.it.md"))
 
 ATELIER_KIT_DEMO_URL = "https://atelier-kit-public-demo.vercel.app/"
 ATELIER_KIT_SOURCE_URL = "https://github.com/gcomneno/atelier-kit"
+ATELIER_KIT_SOURCE_BADGE = "https://img.shields.io/badge/SOURCE%20CODE-GITHUB-24292F?style=for-the-badge&logo=github&logoColor=white"
 
 FEATURED_DEMO_MARKERS = {
     "README.md": (
@@ -153,6 +154,19 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                 ATELIER_KIT_SOURCE_URL,
                 text,
                 f"{path}: Atelier-Kit source link missing",
+            )
+            self.assertEqual(
+                text.count(ATELIER_KIT_SOURCE_BADGE),
+                1,
+                f"{path}: Atelier-Kit source badge must appear exactly once",
+            )
+            self.assertNotIn(
+                "&nbsp;·&nbsp;",
+                text[
+                    text.find(demo_heading):
+                    text.find(table_heading)
+                ],
+                f"{path}: demo actions must not use a dangling text separator",
             )
 
             intro_position = text.find(intro)
