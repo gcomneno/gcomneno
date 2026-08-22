@@ -218,7 +218,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-18** · `craft-parts` · **Fix:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Feature:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Fix:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
-- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/d63fb281f5ee235577ce8cf00a47189ce6164b99)
+- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/2c6350a6cb95b9238baf045e8c9767257301c87d)
 - **2026-08-17** · `atelier-kit` · **Fix:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
 - **2026-08-17** · `atelier-kit` · **Docs:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
 - **2026-08-17** · `atelier-kit` · **Docs:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
