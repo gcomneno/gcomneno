@@ -174,14 +174,15 @@ I turn active study into documented, reproducible paths rather than presenting l
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-22** · `craft-parts` · **Development:** [packages: preserve architecture in primed stage packages (#1558)](https://github.com/gcomneno/craft-parts/commit/0b6a556a215973e2a34d1db1538f4576372b45c6)
 - **2026-08-21** · `craft-parts` · **Fix:** [remove obsolete list-only package handling](https://github.com/gcomneno/craft-parts/commit/5fb6e7d16cb52b2f7f233f4f1c129de8c138e77f)
 - **2026-08-21** · `web` · **Docs:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
 - **2026-08-21** · `web` · **Development:** [Add Laravel lesson 23 Vite assets](https://github.com/gcomneno/web/commit/3b36a7c3dc2ae7650ef97671a17e2749e918d373)
-- **2026-08-21** · `web` · **Development:** [Add Laravel lesson 22 Eloquent events](https://github.com/gcomneno/web/commit/c97c7b5960104d22ceebe60dc9116e7da5310d4e)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-21** · `web` · **Development:** [Add Laravel lesson 22 Eloquent events](https://github.com/gcomneno/web/commit/c97c7b5960104d22ceebe60dc9116e7da5310d4e)
 - **2026-08-20** · `lele-manager` · **Feature:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
 - **2026-08-20** · `smart-file-organizer` · **Docs:** [accept verifiable recovery ADR](https://github.com/gcomneno/smart-file-organizer/commit/adfa6f116a02ab46e93d06cb098c29a46e69f3ce)
@@ -206,16 +207,8 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-15** · `atelier-kit` · **Feature:** [migrate Hero image authoring to controlled boundary (#295)](https://github.com/gcomneno/atelier-kit/commit/abcbf1b4af2c155c3544d1b18dbf3d91ff77a54f)
 - **2026-08-15** · `atelier-kit` · **Feature:** [add controlled image-upload authoring boundary (#293)](https://github.com/gcomneno/atelier-kit/commit/b43a09b4ba418b8eeb59c2a9451b4fdc2bf3cac5)
 - **2026-08-15** · `lele-manager` · **Feature:** [add explicit lesson lifecycle and supersession semantics (#234)](https://github.com/gcomneno/lele-manager/commit/b54229be80a2e9677feecad46119445cb2312545)
-- **2026-08-15** · `lele-manager` · **Fix:** [preserve lifecycle invariants across canonical workflows](https://github.com/gcomneno/lele-manager/commit/83093a305d1b2293f36691ed76a3925d8db89e29)
-- **2026-08-15** · `lele-manager` · **Docs:** [document lesson lifecycle workflows](https://github.com/gcomneno/lele-manager/commit/da1de8c07e338e0d1b8a3dd0baa4bb8885b3be85)
-- **2026-08-15** · `lele-manager` · **Feature:** [author lesson lifecycle explicitly](https://github.com/gcomneno/lele-manager/commit/09cca35bb7a1875a739e3dc7a9d9453278294a33)
 - **2026-08-15** · `giadaware-ui-components` · **Release:** [Giada UI 0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0)
-- **2026-08-15** · `lele-manager` · **Feature:** [navigate lesson supersession relationships](https://github.com/gcomneno/lele-manager/commit/595fb19e786d56a8aa3848e6e84ed7d2b95e7a63)
-- **2026-08-15** · `lele-manager` · **Feature:** [expose lesson lifecycle in Browse](https://github.com/gcomneno/lele-manager/commit/7899da952427fcb7eda9e771688a39f4278cd6e0)
 - **2026-08-15** · `giadaware-ui-components` · **Docs:** [define release and versioning policy (#65)](https://github.com/gcomneno/giadaware-ui-components/commit/3d8d3bbf995bda6c4b6a4aa38d9ffc681cefa50a)
-- **2026-08-15** · `lele-manager` · **Feature:** [scope lesson search and export by lifecycle](https://github.com/gcomneno/lele-manager/commit/6e356fe625edc9d9c99ddc17dbc2ea80b921edc7)
-- **2026-08-15** · `lele-manager` · **Feature:** [govern lesson lifecycle mutations](https://github.com/gcomneno/lele-manager/commit/40ca06ffd18a8d99530bcef57cbc3409a1b7ec88)
-- **2026-08-15** · `lele-manager` · **Feature:** [project canonical lesson lifecycle metadata](https://github.com/gcomneno/lele-manager/commit/194f1e232cecc1c2260a3efa0cd2cabea9bc7b1a)
 - **2026-08-15** · `giadaware-ui-components` · **Docs:** [establish bilingual public documentation contract (#63)](https://github.com/gcomneno/giadaware-ui-components/commit/2ef23bb65466032502a71b275cdad49e0933c491)
 - **2026-08-15** · `lele-manager` · **Fix:** [serialize Danger Zone destructive commits against Vault activation (#233)](https://github.com/gcomneno/lele-manager/commit/f24c25a1b35d76802781bfefa0fb3b575e913f31)
 - **2026-08-15** · `giadaware-ui-components` · **Feature:** [add editable list drag handles (#61)](https://github.com/gcomneno/giadaware-ui-components/commit/ce00ea338fd70091dfe2719e5fd6d5fa1e3f5abe)
@@ -278,8 +271,15 @@ I turn active study into documented, reproducible paths rather than presenting l
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [migrate historical Markov reports (#24)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e4521286b00feb647e120e05acad81421488d79)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
 - **2026-08-12** · `atelier-kit` · **Feature:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
+- **2026-08-12** · `system-design-study` · **Docs:** [integrate private study SOT workflow](https://github.com/gcomneno/system-design-study/commit/16a412710fb82e3821b59520f67403bfa1a2031f)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [add stable versioned application contracts (#22)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/3915fc42c9c00006b3870006e6501ac04df96d14)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [separate occurrence groups from terminal rendering (#21)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/bb42fb578d316f326392798ba7103fd7151b5137)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [expose structured current application report (#20)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c0a0247372a0a64dc88bb6cbd29e1e70bc2c648c)
+- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [isolate draw repository contract from SQLite (#19)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a7998c541ad333e63954818ad4d805ab8ef7c4f9)
+- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [introduce protected semantic categories (#16)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e6b2d6cae2b431efe9a7f4f6237ded993d5a2f)
+- **2026-08-12** · `atelier-kit` · **Feature:** [enforce bounded mutation integrity (#286)](https://github.com/gcomneno/atelier-kit/commit/d793bbc9fd11f31c50d74dbe38741afe5e4331b3)
 
-_Showing the 100 most recent meaningful updates; 767 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 760 older update(s) omitted._
 
 </details>
 
