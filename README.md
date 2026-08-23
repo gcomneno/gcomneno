@@ -191,14 +191,19 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-23** · `smart-file-organizer` · **Feature:** [write Manifest v2 identity evidence during apply (#88)](https://github.com/gcomneno/smart-file-organizer/commit/1ede468a5d97ebc59934f003e9f69b87f6c7a9e8)
-- **2026-08-23** · `smart-file-organizer` · **Fix:** [preserve manifest schema version ceiling](https://github.com/gcomneno/smart-file-organizer/commit/ceff9fa0461226413824167934f51cd03b3eac7f)
-- **2026-08-23** · `smart-file-organizer` · **Fix:** [align v2 writer compatibility contracts](https://github.com/gcomneno/smart-file-organizer/commit/5f81b2f7fcf9f8b7898df861aec688fbcd0d002a)
-- **2026-08-23** · `smart-file-organizer` · **Fix:** [dispatch all explicitly supported manifest schemas](https://github.com/gcomneno/smart-file-organizer/commit/15f6611109c4972046a83f24de0240e30910021f)
+- **2026-08-23** · `smart-file-organizer` · **Feature:** [verify current identity against Manifest v2 evidence (#90)](https://github.com/gcomneno/smart-file-organizer/commit/a5bef40cbf96eba52df644023bc0bc19d17e700f)
+- **2026-08-23** · `lele-manager` · **Feature:** [add potential contradiction review workflow (#246)](https://github.com/gcomneno/lele-manager/commit/e1cc041142128fa5575d3a6ffad51b786b9ba4a4)
+- **2026-08-23** · `semantic-mail-archivist` · **Docs:** [record read-only road-test evidence (#47)](https://github.com/gcomneno/semantic-mail-archivist/commit/50657c8ca8a929e438c777956f841708aaf22414)
+- **2026-08-23** · `physics-study` · **Docs:** [add lesson on nuclear structure and stability (#5)](https://github.com/gcomneno/physics-study/commit/dd29427772b2430032a6b851ddaf85256df7b342)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-23** · `physics-study` · **Docs:** [add lesson on nuclear structure and stability](https://github.com/gcomneno/physics-study/commit/4d9e71ebab90cf37c71a9fc00f934a5f85df7341)
+- **2026-08-23** · `smart-file-organizer` · **Feature:** [write Manifest v2 identity evidence during apply (#88)](https://github.com/gcomneno/smart-file-organizer/commit/1ede468a5d97ebc59934f003e9f69b87f6c7a9e8)
+- **2026-08-23** · `smart-file-organizer` · **Fix:** [preserve manifest schema version ceiling](https://github.com/gcomneno/smart-file-organizer/commit/ceff9fa0461226413824167934f51cd03b3eac7f)
+- **2026-08-23** · `smart-file-organizer` · **Fix:** [align v2 writer compatibility contracts](https://github.com/gcomneno/smart-file-organizer/commit/5f81b2f7fcf9f8b7898df861aec688fbcd0d002a)
+- **2026-08-23** · `smart-file-organizer` · **Fix:** [dispatch all explicitly supported manifest schemas](https://github.com/gcomneno/smart-file-organizer/commit/15f6611109c4972046a83f24de0240e30910021f)
 - **2026-08-23** · `smart-file-organizer` · **Feature:** [write two-sided Manifest v2 identity evidence](https://github.com/gcomneno/smart-file-organizer/commit/be0a66a28ea4ed7d416ccf271977f7f1e65ed6b1)
 - **2026-08-23** · `smart-file-organizer` · **Feature:** [add strict Manifest v2 schema dispatch](https://github.com/gcomneno/smart-file-organizer/commit/dc4fb1b497aecf849af4185796d1aab3fd66cc2e)
 - **2026-08-23** · `smart-file-organizer` · **Feature:** [retain Manifest v2 identity evidence](https://github.com/gcomneno/smart-file-organizer/commit/b7887d4f6e874d3e9f55b4ca451a6c5c9c0e876d)
@@ -290,13 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `distributed-systems-study` · **Docs:** [prepare distributed systems foundations study path (#4)](https://github.com/gcomneno/distributed-systems-study/commit/f1107c2ba599d139fec0879b9a59e57d6d15e814)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [align native controls with application theme (#34)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/cb53452fe24f9e8c0c8f3619dcfdda300dc9ddb4)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add complete mailbox audit report (#21)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e1018708ef03f73b57673483ef845eecd2dfcf)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [harden first desktop road-test experience](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a954d3340edf4f0dad1cd9d2efa6ab8d483e5a28)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [preserve default database through pywebview serialization](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/af9c57c9b37d3e7b6ab55f16004311e2f1104c94)
-- **2026-08-12** · `semantic-mail-archivist` · **Fix:** [tighten generic notification obsolescence cue](https://github.com/gcomneno/semantic-mail-archivist/commit/119d5adb9f2977f68b83309b3674b783316113d5)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [handshake pywebview bridge before loading reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e45535d5941908e0e54a20097f3e07c808c625f2)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add optional operational state layer (#19)](https://github.com/gcomneno/semantic-mail-archivist/commit/f8746d2ca6f69169f801b732048d7e5eaf9cdc25)
 
-_Showing the 100 most recent meaningful updates; 780 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 785 older update(s) omitted._
 
 </details>
 
