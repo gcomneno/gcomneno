@@ -191,14 +191,29 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-22** · `atelier-kit` · **Development:** [product: define Atelier-Kit commercial offer (#328)](https://github.com/gcomneno/atelier-kit/commit/4c331fa99baf5a29e347f7ade5028a3c301480d4)
-- **2026-08-22** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.0)
-- **2026-08-22** · `atelier-kit` · **Development:** [Release Atelier-Kit v0.5.0 (#327)](https://github.com/gcomneno/atelier-kit/commit/e5abee822a9d01bd859ed5c962d64d699b4bcf30)
-- **2026-08-22** · `atelier-kit` · **Fix:** [prevent mobile header search gap (#326)](https://github.com/gcomneno/atelier-kit/commit/04b2fa7e08c65c38573e27d2e8b4d591124175bb)
+- **2026-08-23** · `smart-file-organizer` · **Feature:** [write Manifest v2 identity evidence during apply (#88)](https://github.com/gcomneno/smart-file-organizer/commit/1ede468a5d97ebc59934f003e9f69b87f6c7a9e8)
+- **2026-08-23** · `smart-file-organizer` · **Fix:** [preserve manifest schema version ceiling](https://github.com/gcomneno/smart-file-organizer/commit/ceff9fa0461226413824167934f51cd03b3eac7f)
+- **2026-08-23** · `smart-file-organizer` · **Fix:** [align v2 writer compatibility contracts](https://github.com/gcomneno/smart-file-organizer/commit/5f81b2f7fcf9f8b7898df861aec688fbcd0d002a)
+- **2026-08-23** · `smart-file-organizer` · **Fix:** [dispatch all explicitly supported manifest schemas](https://github.com/gcomneno/smart-file-organizer/commit/15f6611109c4972046a83f24de0240e30910021f)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-23** · `smart-file-organizer` · **Feature:** [write two-sided Manifest v2 identity evidence](https://github.com/gcomneno/smart-file-organizer/commit/be0a66a28ea4ed7d416ccf271977f7f1e65ed6b1)
+- **2026-08-23** · `smart-file-organizer` · **Feature:** [add strict Manifest v2 schema dispatch](https://github.com/gcomneno/smart-file-organizer/commit/dc4fb1b497aecf849af4185796d1aab3fd66cc2e)
+- **2026-08-23** · `smart-file-organizer` · **Feature:** [retain Manifest v2 identity evidence](https://github.com/gcomneno/smart-file-organizer/commit/b7887d4f6e874d3e9f55b4ca451a6c5c9c0e876d)
+- **2026-08-23** · `smart-file-organizer` · **Feature:** [add manifest v2 identity evidence model](https://github.com/gcomneno/smart-file-organizer/commit/aec47fb50c2966254ae27254895ad3b49c701fd9)
+- **2026-08-23** · `smart-file-organizer` · **Docs:** [design Manifest v2 identity schema (#86)](https://github.com/gcomneno/smart-file-organizer/commit/dfb7aac1d594ea95ab97f222c5d29a65dc5bc5b2)
+- **2026-08-23** · `smart-file-organizer` · **Docs:** [mark Manifest v2 schema accepted](https://github.com/gcomneno/smart-file-organizer/commit/f8fe4aaaf0794838d1ffb0a9ead703116f3a3506)
+- **2026-08-23** · `smart-file-organizer` · **Docs:** [accept Italian Manifest v2 identity schema](https://github.com/gcomneno/smart-file-organizer/commit/6aff5d4430f70ad3f313faab0f632356fa12231f)
+- **2026-08-23** · `smart-file-organizer` · **Docs:** [accept Manifest v2 identity schema](https://github.com/gcomneno/smart-file-organizer/commit/4b39cc2c91785f8f0487d068565f50ced809927a)
+- **2026-08-23** · `smart-file-organizer` · **Docs:** [index Manifest v2 schema ADR](https://github.com/gcomneno/smart-file-organizer/commit/02823678e8e6e48e582ed0fd395df40dec370b9b)
+- **2026-08-23** · `smart-file-organizer` · **Docs:** [add Italian Manifest v2 schema mirror](https://github.com/gcomneno/smart-file-organizer/commit/ce4f09d8bab5a57b5013575a7f7fb02d27e11d61)
+- **2026-08-23** · `smart-file-organizer` · **Docs:** [design Manifest v2 identity schema](https://github.com/gcomneno/smart-file-organizer/commit/4225806a38bada918a1828062a5b7fc42bbbefd8)
+- **2026-08-22** · `atelier-kit` · **Development:** [product: define Atelier-Kit commercial offer (#328)](https://github.com/gcomneno/atelier-kit/commit/4c331fa99baf5a29e347f7ade5028a3c301480d4)
+- **2026-08-22** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.0)
+- **2026-08-22** · `atelier-kit` · **Development:** [Release Atelier-Kit v0.5.0 (#327)](https://github.com/gcomneno/atelier-kit/commit/e5abee822a9d01bd859ed5c962d64d699b4bcf30)
+- **2026-08-22** · `atelier-kit` · **Fix:** [prevent mobile header search gap (#326)](https://github.com/gcomneno/atelier-kit/commit/04b2fa7e08c65c38573e27d2e8b4d591124175bb)
 - **2026-08-22** · `physics-study` · **Docs:** [add introductory quantum mechanics lesson (#3)](https://github.com/gcomneno/physics-study/commit/dc4eaaefdc8ee1a97b39a31bdfbe41963e64a5b1)
 - **2026-08-22** · `atelier-kit` · **Security:** [lock production Vercel CLI (#319)](https://github.com/gcomneno/atelier-kit/commit/e4eef6cfc23fd017be28f92deb51e5b7f474a49b)
 - **2026-08-22** · `giadaware-ui-components` · **Security:** [align immutable release guarantees (#71)](https://github.com/gcomneno/giadaware-ui-components/commit/444e3df7b77ba86b814e07866c6bb758dc86b22a)
@@ -215,10 +230,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-19** · `atelier-kit` · **Fix:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
 - **2026-08-19** · `atelier-kit` · **Feature:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
 - **2026-08-19** · `atelier-kit` · **Fix:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
-- **2026-08-18** · `craft-parts` · **Fix:** [keep install manifest based on apt simulation](https://github.com/gcomneno/craft-parts/commit/7eba971494821a7fc33d9df317dd3c9fdd1aaa5b)
 - **2026-08-17** · `lele-manager` · **Feature:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
 - **2026-08-17** · `atelier-kit` · **Fix:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
-- **2026-08-17** · `atelier-kit` · **Development:** [studio: update hero banner](https://github.com/gcomneno/atelier-kit/commit/2c6350a6cb95b9238baf045e8c9767257301c87d)
 - **2026-08-17** · `atelier-kit` · **Fix:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
 - **2026-08-17** · `atelier-kit` · **Docs:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
 - **2026-08-17** · `atelier-kit` · **Docs:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
@@ -282,21 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `semantic-mail-archivist` · **Fix:** [tighten generic notification obsolescence cue](https://github.com/gcomneno/semantic-mail-archivist/commit/119d5adb9f2977f68b83309b3674b783316113d5)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [handshake pywebview bridge before loading reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e45535d5941908e0e54a20097f3e07c808c625f2)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add optional operational state layer (#19)](https://github.com/gcomneno/semantic-mail-archivist/commit/f8746d2ca6f69169f801b732048d7e5eaf9cdc25)
-- **2026-08-12** · `atelier-kit` · **Feature:** [wire bounded public social experience (#288)](https://github.com/gcomneno/atelier-kit/commit/18b9bd65e80c7aecf33aef8ce3930f803eb10db1)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [repair road-test reactivity and research navigation (#30)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a50e98ec019384362d3a1df1c29e01cc44193e18)
-- **2026-08-12** · `semantic-mail-archivist` · **Fix:** [validate protected document ownership](https://github.com/gcomneno/semantic-mail-archivist/commit/a6db5b48ad5bfada26f7843e2c52ef3dbb5e48fb)
-- **2026-08-12** · `semantic-mail-archivist` · **Feature:** [detect obsolete low-value messages safely (#17)](https://github.com/gcomneno/semantic-mail-archivist/commit/94602084453cf3d4832f8d99dcb7322cb4c21f0c)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Feature:** [complete local research interface (#29)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c20d266f43928efe132b3b58c4000aa609cc1cc7)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Feature:** [add same-wheel occurrence explorer (#28)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d6f62ea24e8ecebbb28980f6efa3259495d3e997)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Feature:** [establish GIADA UI desktop foundation (#27)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9d401669a06ccbc8b447d70e3fc6cd05b4618829)
-- **2026-08-12** · `system-design-study` · **Docs:** [complete API design study session](https://github.com/gcomneno/system-design-study/commit/db2694f37d845d547be3e364c2ebca89095ebeaf)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [complete historical research migration (#26)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/dc0b5a19fe4aeb801bc0c03ac376ee4dc5aaa690)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [migrate historical signal reports (#25)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c44daca80c7622d95ff4c8c7dcb87ce4879d3176)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [migrate historical Markov reports (#24)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0e4521286b00feb647e120e05acad81421488d79)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Refactor:** [dispatch migrated application commands directly (#23)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c270307388c0c78f830647b4bbe14c4d0d6270f1)
-- **2026-08-12** · `atelier-kit` · **Feature:** [isolate sandbox social authoring (#287)](https://github.com/gcomneno/atelier-kit/commit/d46155274278eeaf443d6fd6eb4c3bd7d6e50657)
 
-_Showing the 100 most recent meaningful updates; 767 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 780 older update(s) omitted._
 
 </details>
 
