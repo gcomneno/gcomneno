@@ -191,14 +191,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [add Mailbox Semantic Health Audit acceptance report (#48)](https://github.com/gcomneno/semantic-mail-archivist/commit/799bcfb992216c13add91b4336dc2ec95dbd6e5e)
 - **2026-08-23** · `smart-file-organizer` · **Funzionalità:** [verify current identity against Manifest v2 evidence (#90)](https://github.com/gcomneno/smart-file-organizer/commit/a5bef40cbf96eba52df644023bc0bc19d17e700f)
 - **2026-08-23** · `lele-manager` · **Funzionalità:** [add potential contradiction review workflow (#246)](https://github.com/gcomneno/lele-manager/commit/e1cc041142128fa5575d3a6ffad51b786b9ba4a4)
 - **2026-08-23** · `semantic-mail-archivist` · **Documentazione:** [record read-only road-test evidence (#47)](https://github.com/gcomneno/semantic-mail-archivist/commit/50657c8ca8a929e438c777956f841708aaf22414)
-- **2026-08-23** · `physics-study` · **Documentazione:** [add lesson on nuclear structure and stability (#5)](https://github.com/gcomneno/physics-study/commit/dd29427772b2430032a6b851ddaf85256df7b342)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-23** · `physics-study` · **Documentazione:** [add lesson on nuclear structure and stability (#5)](https://github.com/gcomneno/physics-study/commit/dd29427772b2430032a6b851ddaf85256df7b342)
 - **2026-08-23** · `physics-study` · **Documentazione:** [add lesson on nuclear structure and stability](https://github.com/gcomneno/physics-study/commit/4d9e71ebab90cf37c71a9fc00f934a5f85df7341)
 - **2026-08-23** · `smart-file-organizer` · **Funzionalità:** [write Manifest v2 identity evidence during apply (#88)](https://github.com/gcomneno/smart-file-organizer/commit/1ede468a5d97ebc59934f003e9f69b87f6c7a9e8)
 - **2026-08-23** · `smart-file-organizer` · **Correzione:** [preserve manifest schema version ceiling](https://github.com/gcomneno/smart-file-organizer/commit/ceff9fa0461226413824167934f51cd03b3eac7f)
@@ -294,7 +295,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [wait for complete pywebview API readiness (#35)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/86b1bc75558fff2c4581c83c9f1482aa4460b27c)
 - **2026-08-12** · `distributed-systems-study` · **Documentazione:** [prepare distributed systems foundations study path (#4)](https://github.com/gcomneno/distributed-systems-study/commit/f1107c2ba599d139fec0879b9a59e57d6d15e814)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [align native controls with application theme (#34)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/cb53452fe24f9e8c0c8f3619dcfdda300dc9ddb4)
-- **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [add complete mailbox audit report (#21)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e1018708ef03f73b57673483ef845eecd2dfcf)
 
 _Sono mostrati i 100 aggiornamenti significativi più recenti; 773 aggiornamenti precedenti sono stati omessi._
 
