@@ -191,14 +191,20 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [add Mailbox Semantic Health Audit acceptance report (#48)](https://github.com/gcomneno/semantic-mail-archivist/commit/799bcfb992216c13add91b4336dc2ec95dbd6e5e)
-- **2026-08-23** · `smart-file-organizer` · **Funzionalità:** [verify current identity against Manifest v2 evidence (#90)](https://github.com/gcomneno/smart-file-organizer/commit/a5bef40cbf96eba52df644023bc0bc19d17e700f)
-- **2026-08-23** · `lele-manager` · **Funzionalità:** [add potential contradiction review workflow (#246)](https://github.com/gcomneno/lele-manager/commit/e1cc041142128fa5575d3a6ffad51b786b9ba4a4)
-- **2026-08-23** · `semantic-mail-archivist` · **Documentazione:** [record read-only road-test evidence (#47)](https://github.com/gcomneno/semantic-mail-archivist/commit/50657c8ca8a929e438c777956f841708aaf22414)
+- **2026-08-24** · `smart-file-organizer` · **Funzionalità:** [classify verifiable recovery safety (#92)](https://github.com/gcomneno/smart-file-organizer/commit/9e18d7888e96afd170060d6f00ab2241f06632ba)
+- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [define production Gmail OAuth readiness boundary (#52)](https://github.com/gcomneno/semantic-mail-archivist/commit/4891a9f5b8d003089981252fdc8fff3541e88c86)
+- **2026-08-24** · `lele-manager` · **Funzionalità:** [add explainable hybrid search (#247)](https://github.com/gcomneno/lele-manager/commit/9f62147df2bf6d7cecb836ffb9d493844ad02c06)
+- **2026-08-24** · `smart-file-organizer` · **Correzione:** [refuse recovery when source parent is missing](https://github.com/gcomneno/smart-file-organizer/commit/2aabcd63cf8ee5931c6b3b66579ba7129d1f5ea2)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [record blocked commercial readiness checkpoint (#51)](https://github.com/gcomneno/semantic-mail-archivist/commit/fdbb92f9e42188d201be6c16e64b7f5f792048f6)
+- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [align public read-only product boundary (#49)](https://github.com/gcomneno/semantic-mail-archivist/commit/4a292a0dd5122352cd62d908aa99a668022d839d)
+- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [add Mailbox Semantic Health Audit acceptance report (#48)](https://github.com/gcomneno/semantic-mail-archivist/commit/799bcfb992216c13add91b4336dc2ec95dbd6e5e)
+- **2026-08-23** · `smart-file-organizer` · **Funzionalità:** [verify current identity against Manifest v2 evidence (#90)](https://github.com/gcomneno/smart-file-organizer/commit/a5bef40cbf96eba52df644023bc0bc19d17e700f)
+- **2026-08-23** · `lele-manager` · **Funzionalità:** [add potential contradiction review workflow (#246)](https://github.com/gcomneno/lele-manager/commit/e1cc041142128fa5575d3a6ffad51b786b9ba4a4)
+- **2026-08-23** · `semantic-mail-archivist` · **Documentazione:** [record read-only road-test evidence (#47)](https://github.com/gcomneno/semantic-mail-archivist/commit/50657c8ca8a929e438c777956f841708aaf22414)
 - **2026-08-23** · `physics-study` · **Documentazione:** [add lesson on nuclear structure and stability (#5)](https://github.com/gcomneno/physics-study/commit/dd29427772b2430032a6b851ddaf85256df7b342)
 - **2026-08-23** · `physics-study` · **Documentazione:** [add lesson on nuclear structure and stability](https://github.com/gcomneno/physics-study/commit/4d9e71ebab90cf37c71a9fc00f934a5f85df7341)
 - **2026-08-23** · `smart-file-organizer` · **Funzionalità:** [write Manifest v2 identity evidence during apply (#88)](https://github.com/gcomneno/smart-file-organizer/commit/1ede468a5d97ebc59934f003e9f69b87f6c7a9e8)
@@ -223,16 +229,11 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-22** · `physics-study` · **Documentazione:** [add introductory quantum mechanics lesson (#3)](https://github.com/gcomneno/physics-study/commit/dc4eaaefdc8ee1a97b39a31bdfbe41963e64a5b1)
 - **2026-08-22** · `atelier-kit` · **Sicurezza:** [lock production Vercel CLI (#319)](https://github.com/gcomneno/atelier-kit/commit/e4eef6cfc23fd017be28f92deb51e5b7f474a49b)
 - **2026-08-22** · `giadaware-ui-components` · **Sicurezza:** [align immutable release guarantees (#71)](https://github.com/gcomneno/giadaware-ui-components/commit/444e3df7b77ba86b814e07866c6bb758dc86b22a)
-- **2026-08-22** · `craft-parts` · **Correzione:** [avoid magic value in status parser](https://github.com/gcomneno/craft-parts/commit/0735939319ec295d0cd2569d1a60af42b8ade9b6)
-- **2026-08-22** · `craft-parts` · **Sviluppo:** [packages: preserve architecture in primed stage packages (#1558)](https://github.com/gcomneno/craft-parts/commit/0b6a556a215973e2a34d1db1538f4576372b45c6)
-- **2026-08-21** · `craft-parts` · **Correzione:** [remove obsolete list-only package handling](https://github.com/gcomneno/craft-parts/commit/5fb6e7d16cb52b2f7f233f4f1c129de8c138e77f)
 - **2026-08-21** · `web` · **Documentazione:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
 - **2026-08-21** · `web` · **Sviluppo:** [Add Laravel lesson 23 Vite assets](https://github.com/gcomneno/web/commit/3b36a7c3dc2ae7650ef97671a17e2749e918d373)
 - **2026-08-21** · `web` · **Sviluppo:** [Add Laravel lesson 22 Eloquent events](https://github.com/gcomneno/web/commit/c97c7b5960104d22ceebe60dc9116e7da5310d4e)
 - **2026-08-20** · `lele-manager` · **Funzionalità:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
 - **2026-08-20** · `smart-file-organizer` · **Documentazione:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
-- **2026-08-20** · `smart-file-organizer` · **Documentazione:** [accept verifiable recovery ADR](https://github.com/gcomneno/smart-file-organizer/commit/adfa6f116a02ab46e93d06cb098c29a46e69f3ce)
-- **2026-08-20** · `smart-file-organizer` · **Documentazione:** [align Italian recovery contract](https://github.com/gcomneno/smart-file-organizer/commit/3588e520846bbd4a3874a28e5783ff146e4cb720)
 - **2026-08-19** · `atelier-kit` · **Correzione:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
 - **2026-08-19** · `atelier-kit` · **Funzionalità:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
 - **2026-08-19** · `atelier-kit` · **Correzione:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
@@ -294,9 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [improve digit-set readability and contrast (#36)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/fac81bbeebac554acf3489f34d8cc9124cf864bc)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [wait for complete pywebview API readiness (#35)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/86b1bc75558fff2c4581c83c9f1482aa4460b27c)
 - **2026-08-12** · `distributed-systems-study` · **Documentazione:** [prepare distributed systems foundations study path (#4)](https://github.com/gcomneno/distributed-systems-study/commit/f1107c2ba599d139fec0879b9a59e57d6d15e814)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [align native controls with application theme (#34)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/cb53452fe24f9e8c0c8f3619dcfdda300dc9ddb4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 773 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 775 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
