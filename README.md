@@ -191,14 +191,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-24** · `craft-parts` · **Docs:** [clarify execute return value](https://github.com/gcomneno/craft-parts/commit/d874e282a7e79331303d58f41de8c73e6fb54ac7)
 - **2026-08-24** · `smart-file-organizer` · **Feature:** [classify verifiable recovery safety (#92)](https://github.com/gcomneno/smart-file-organizer/commit/9e18d7888e96afd170060d6f00ab2241f06632ba)
 - **2026-08-24** · `semantic-mail-archivist` · **Docs:** [define production Gmail OAuth readiness boundary (#52)](https://github.com/gcomneno/semantic-mail-archivist/commit/4891a9f5b8d003089981252fdc8fff3541e88c86)
 - **2026-08-24** · `lele-manager` · **Feature:** [add explainable hybrid search (#247)](https://github.com/gcomneno/lele-manager/commit/9f62147df2bf6d7cecb836ffb9d493844ad02c06)
-- **2026-08-24** · `smart-file-organizer` · **Fix:** [refuse recovery when source parent is missing](https://github.com/gcomneno/smart-file-organizer/commit/2aabcd63cf8ee5931c6b3b66579ba7129d1f5ea2)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-24** · `smart-file-organizer` · **Fix:** [refuse recovery when source parent is missing](https://github.com/gcomneno/smart-file-organizer/commit/2aabcd63cf8ee5931c6b3b66579ba7129d1f5ea2)
 - **2026-08-24** · `semantic-mail-archivist` · **Docs:** [record blocked commercial readiness checkpoint (#51)](https://github.com/gcomneno/semantic-mail-archivist/commit/fdbb92f9e42188d201be6c16e64b7f5f792048f6)
 - **2026-08-24** · `semantic-mail-archivist` · **Docs:** [align public read-only product boundary (#49)](https://github.com/gcomneno/semantic-mail-archivist/commit/4a292a0dd5122352cd62d908aa99a668022d839d)
 - **2026-08-24** · `semantic-mail-archivist` · **Docs:** [add Mailbox Semantic Health Audit acceptance report (#48)](https://github.com/gcomneno/semantic-mail-archivist/commit/799bcfb992216c13add91b4336dc2ec95dbd6e5e)
@@ -294,9 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [keep missing digits on two rows (#37)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6679a1ff1acf19675d1b0aa68d2b54f5eaa19dfb)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [improve digit-set readability and contrast (#36)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/fac81bbeebac554acf3489f34d8cc9124cf864bc)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [wait for complete pywebview API readiness (#35)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/86b1bc75558fff2c4581c83c9f1482aa4460b27c)
-- **2026-08-12** · `distributed-systems-study` · **Docs:** [prepare distributed systems foundations study path (#4)](https://github.com/gcomneno/distributed-systems-study/commit/f1107c2ba599d139fec0879b9a59e57d6d15e814)
 
-_Showing the 100 most recent meaningful updates; 775 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 776 older update(s) omitted._
 
 </details>
 
