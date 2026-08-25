@@ -191,14 +191,16 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-25** · `atelier-kit` · **Correzione:** [preserve client-owned News YAML (#339)](https://github.com/gcomneno/atelier-kit/commit/d9a9d48d9d9eb62608fb1e8232613bd2005d17f9)
+- **2026-08-25** · `atelier-kit` · **Funzionalità:** [add controlled strong/em emphasis tokens (#338)](https://github.com/gcomneno/atelier-kit/commit/ba31eecf6953b815c08319ff47b7bf2d523ae10a)
 - **2026-08-25** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1)
 - **2026-08-25** · `atelier-kit` · **Sviluppo:** [Release Atelier-Kit v0.5.1 (#334)](https://github.com/gcomneno/atelier-kit/commit/2532db3c573482ffd2a36b7f277779901311286e)
-- **2026-08-25** · `atelier-kit` · **Correzione:** [improve mobile sidebar readability (#333)](https://github.com/gcomneno/atelier-kit/commit/fe953516389b4d36f554db787e57226c4d3bdde0)
-- **2026-08-25** · `atelier-kit` · **Correzione:** [preserve News card contrast across themes (#332)](https://github.com/gcomneno/atelier-kit/commit/85f70c45493369b671a0d3b11987f4564e9a2040)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-25** · `atelier-kit` · **Correzione:** [improve mobile sidebar readability (#333)](https://github.com/gcomneno/atelier-kit/commit/fe953516389b4d36f554db787e57226c4d3bdde0)
+- **2026-08-25** · `atelier-kit` · **Correzione:** [preserve News card contrast across themes (#332)](https://github.com/gcomneno/atelier-kit/commit/85f70c45493369b671a0d3b11987f4564e9a2040)
 - **2026-08-24** · `craft-parts` · **Documentazione:** [clarify execute return value](https://github.com/gcomneno/craft-parts/commit/d874e282a7e79331303d58f41de8c73e6fb54ac7)
 - **2026-08-24** · `smart-file-organizer` · **Funzionalità:** [classify verifiable recovery safety (#92)](https://github.com/gcomneno/smart-file-organizer/commit/9e18d7888e96afd170060d6f00ab2241f06632ba)
 - **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [define production Gmail OAuth readiness boundary (#52)](https://github.com/gcomneno/semantic-mail-archivist/commit/4891a9f5b8d003089981252fdc8fff3541e88c86)
@@ -293,10 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [handshake pywebview bridge before loading reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e45535d5941908e0e54a20097f3e07c808c625f2)
 - **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [add optional operational state layer (#19)](https://github.com/gcomneno/semantic-mail-archivist/commit/f8746d2ca6f69169f801b732048d7e5eaf9cdc25)
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [wire bounded public social experience (#288)](https://github.com/gcomneno/atelier-kit/commit/18b9bd65e80c7aecf33aef8ce3930f803eb10db1)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [repair road-test reactivity and research navigation (#30)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a50e98ec019384362d3a1df1c29e01cc44193e18)
-- **2026-08-12** · `semantic-mail-archivist` · **Correzione:** [validate protected document ownership](https://github.com/gcomneno/semantic-mail-archivist/commit/a6db5b48ad5bfada26f7843e2c52ef3dbb5e48fb)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 762 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 764 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
