@@ -191,14 +191,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-25** · `atelier-kit` · **Fix:** [keep synopsis toggle in layout flow (#41) (#340)](https://github.com/gcomneno/atelier-kit/commit/5c5465649b5f8834b7bfe76231889b1bcac34ea8)
 - **2026-08-25** · `atelier-kit` · **Fix:** [preserve client-owned News YAML (#339)](https://github.com/gcomneno/atelier-kit/commit/d9a9d48d9d9eb62608fb1e8232613bd2005d17f9)
 - **2026-08-25** · `atelier-kit` · **Feature:** [add controlled strong/em emphasis tokens (#338)](https://github.com/gcomneno/atelier-kit/commit/ba31eecf6953b815c08319ff47b7bf2d523ae10a)
 - **2026-08-25** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1)
-- **2026-08-25** · `atelier-kit` · **Development:** [Release Atelier-Kit v0.5.1 (#334)](https://github.com/gcomneno/atelier-kit/commit/2532db3c573482ffd2a36b7f277779901311286e)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-25** · `atelier-kit` · **Development:** [Release Atelier-Kit v0.5.1 (#334)](https://github.com/gcomneno/atelier-kit/commit/2532db3c573482ffd2a36b7f277779901311286e)
 - **2026-08-25** · `atelier-kit` · **Fix:** [improve mobile sidebar readability (#333)](https://github.com/gcomneno/atelier-kit/commit/fe953516389b4d36f554db787e57226c4d3bdde0)
 - **2026-08-25** · `atelier-kit` · **Fix:** [preserve News card contrast across themes (#332)](https://github.com/gcomneno/atelier-kit/commit/85f70c45493369b671a0d3b11987f4564e9a2040)
 - **2026-08-24** · `craft-parts` · **Docs:** [clarify execute return value](https://github.com/gcomneno/craft-parts/commit/d874e282a7e79331303d58f41de8c73e6fb54ac7)
@@ -294,9 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `semantic-mail-archivist` · **Fix:** [tighten generic notification obsolescence cue](https://github.com/gcomneno/semantic-mail-archivist/commit/119d5adb9f2977f68b83309b3674b783316113d5)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [handshake pywebview bridge before loading reports](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/e45535d5941908e0e54a20097f3e07c808c625f2)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add optional operational state layer (#19)](https://github.com/gcomneno/semantic-mail-archivist/commit/f8746d2ca6f69169f801b732048d7e5eaf9cdc25)
-- **2026-08-12** · `atelier-kit` · **Feature:** [wire bounded public social experience (#288)](https://github.com/gcomneno/atelier-kit/commit/18b9bd65e80c7aecf33aef8ce3930f803eb10db1)
 
-_Showing the 100 most recent meaningful updates; 764 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 765 older update(s) omitted._
 
 </details>
 
