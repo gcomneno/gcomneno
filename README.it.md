@@ -62,7 +62,7 @@ I valori di *Release ufficiale* provengono da GitHub Releases. Il testo marcato 
 | Progetto | Segnale tecnico |
 | --- | --- |
 | [Semantic Mail Archivist](https://github.com/gcomneno/semantic-mail-archivist) | Audit Gmail privacy-first e repair dry-run, confini provider, confidence spiegabile e journal delle mutazioni crash-aware |
-| [GYTE Study Tools](https://github.com/gcomneno/gyte-study-tools) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
+| [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
 
 </details>

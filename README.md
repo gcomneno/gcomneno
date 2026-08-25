@@ -62,7 +62,7 @@ These projects best represent my current work across backend design, reliable au
 | Project | Technical signal |
 | --- | --- |
 | [Semantic Mail Archivist](https://github.com/gcomneno/semantic-mail-archivist) | Privacy-first Gmail audit and repair dry-runs, provider boundaries, explainable confidence and crash-aware mutation journaling |
-| [GYTE Study Tools](https://github.com/gcomneno/gyte-study-tools) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
+| [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
 
 </details>

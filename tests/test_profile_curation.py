@@ -34,7 +34,7 @@ SELECTED_PROJECTS = (
 
 OPERATIONAL_PROJECTS = (
     "semantic-mail-archivist",
-    "gyte-study-tools",
+    "gyte-ai-learning-pipeline",
     "lele-quizzer",
 )
 
@@ -69,6 +69,11 @@ SUPPORTING_LEARNING = (
     "boardlab",
     "web",
 )
+
+GYTE_AI_LEARNING_PIPELINE_URL = (
+    "https://github.com/gcomneno/gyte-ai-learning-pipeline"
+)
+LEGACY_GYTE_STUDY_TOOLS_URL = "https://github.com/gcomneno/gyte-study-tools"
 
 FORBIDDEN_PROFILE_LINKS = (
     "https://github.com/gcomneno/reference-engine",
@@ -268,6 +273,31 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     ),
                     label=f"{path}: supporting learning",
                 )
+
+    def test_gyte_ai_learning_pipeline_uses_canonical_identity(self) -> None:
+        for path in README_PATHS:
+            text = path.read_text(encoding="utf-8")
+
+            self.assertEqual(
+                text.count(GYTE_AI_LEARNING_PIPELINE_URL),
+                1,
+                f"{path}: canonical GYTE AI Learning Pipeline URL must appear once",
+            )
+            self.assertNotIn(
+                LEGACY_GYTE_STUDY_TOOLS_URL,
+                text,
+                f"{path}: legacy GYTE Study Tools URL must be absent",
+            )
+            self.assertIn(
+                "GYTE AI Learning Pipeline",
+                text,
+                f"{path}: canonical GYTE AI Learning Pipeline name missing",
+            )
+            self.assertNotIn(
+                "GYTE Study Tools",
+                text,
+                f"{path}: legacy GYTE Study Tools name must be absent",
+            )
 
     def test_forbidden_showcase_links_are_absent(self) -> None:
         for path in README_PATHS:
