@@ -47,7 +47,7 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 
 | Progetto | Release ufficiale | Cosa fa | Cosa dimostra |
 | --- | --- | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.0) | Fornisce un kit vetrina configurabile con authoring Studio locale e desktop, catalogo content-driven e strumenti di pubblicazione, oltre ad authoring Hosted/Demo a perimetro esplicito dichiarato come current-main | Architettura di prodotto SvelteKit, confini di autorità espliciti tra local/hosted/demo, mutazioni repository atomiche, distribuzione desktop e adozione downstream di Giada UI |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Fornisce un kit vetrina configurabile con authoring Studio locale e desktop, catalogo content-driven e strumenti di pubblicazione, oltre ad authoring Hosted/Demo a perimetro esplicito dichiarato come current-main | Architettura di prodotto SvelteKit, confini di autorità espliciti tra local/hosted/demo, mutazioni repository atomiche, distribuzione desktop e adozione downstream di Giada UI |
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analizza i file, mostra in anteprima un piano di organizzazione e li sposta solo su richiesta esplicita | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili, verifica del filesystem e pianificazione read-only del recupero |
 | [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite entry point base, visitor e studio isolati | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
@@ -191,15 +191,18 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-24** · `craft-parts` · **Documentazione:** [clarify execute return value](https://github.com/gcomneno/craft-parts/commit/d874e282a7e79331303d58f41de8c73e6fb54ac7)
-- **2026-08-24** · `smart-file-organizer` · **Funzionalità:** [classify verifiable recovery safety (#92)](https://github.com/gcomneno/smart-file-organizer/commit/9e18d7888e96afd170060d6f00ab2241f06632ba)
-- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [define production Gmail OAuth readiness boundary (#52)](https://github.com/gcomneno/semantic-mail-archivist/commit/4891a9f5b8d003089981252fdc8fff3541e88c86)
-- **2026-08-24** · `lele-manager` · **Funzionalità:** [add explainable hybrid search (#247)](https://github.com/gcomneno/lele-manager/commit/9f62147df2bf6d7cecb836ffb9d493844ad02c06)
+- **2026-08-25** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1)
+- **2026-08-25** · `atelier-kit` · **Sviluppo:** [Release Atelier-Kit v0.5.1 (#334)](https://github.com/gcomneno/atelier-kit/commit/2532db3c573482ffd2a36b7f277779901311286e)
+- **2026-08-25** · `atelier-kit` · **Correzione:** [improve mobile sidebar readability (#333)](https://github.com/gcomneno/atelier-kit/commit/fe953516389b4d36f554db787e57226c4d3bdde0)
+- **2026-08-25** · `atelier-kit` · **Correzione:** [preserve News card contrast across themes (#332)](https://github.com/gcomneno/atelier-kit/commit/85f70c45493369b671a0d3b11987f4564e9a2040)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-08-24** · `smart-file-organizer` · **Correzione:** [refuse recovery when source parent is missing](https://github.com/gcomneno/smart-file-organizer/commit/2aabcd63cf8ee5931c6b3b66579ba7129d1f5ea2)
+- **2026-08-24** · `craft-parts` · **Documentazione:** [clarify execute return value](https://github.com/gcomneno/craft-parts/commit/d874e282a7e79331303d58f41de8c73e6fb54ac7)
+- **2026-08-24** · `smart-file-organizer` · **Funzionalità:** [classify verifiable recovery safety (#92)](https://github.com/gcomneno/smart-file-organizer/commit/9e18d7888e96afd170060d6f00ab2241f06632ba)
+- **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [define production Gmail OAuth readiness boundary (#52)](https://github.com/gcomneno/semantic-mail-archivist/commit/4891a9f5b8d003089981252fdc8fff3541e88c86)
+- **2026-08-24** · `lele-manager` · **Funzionalità:** [add explainable hybrid search (#247)](https://github.com/gcomneno/lele-manager/commit/9f62147df2bf6d7cecb836ffb9d493844ad02c06)
 - **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [record blocked commercial readiness checkpoint (#51)](https://github.com/gcomneno/semantic-mail-archivist/commit/fdbb92f9e42188d201be6c16e64b7f5f792048f6)
 - **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [align public read-only product boundary (#49)](https://github.com/gcomneno/semantic-mail-archivist/commit/4a292a0dd5122352cd62d908aa99a668022d839d)
 - **2026-08-24** · `semantic-mail-archivist` · **Documentazione:** [add Mailbox Semantic Health Audit acceptance report (#48)](https://github.com/gcomneno/semantic-mail-archivist/commit/799bcfb992216c13add91b4336dc2ec95dbd6e5e)
@@ -292,11 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `atelier-kit` · **Funzionalità:** [wire bounded public social experience (#288)](https://github.com/gcomneno/atelier-kit/commit/18b9bd65e80c7aecf33aef8ce3930f803eb10db1)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [repair road-test reactivity and research navigation (#30)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a50e98ec019384362d3a1df1c29e01cc44193e18)
 - **2026-08-12** · `semantic-mail-archivist` · **Correzione:** [validate protected document ownership](https://github.com/gcomneno/semantic-mail-archivist/commit/a6db5b48ad5bfada26f7843e2c52ef3dbb5e48fb)
-- **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [detect obsolete low-value messages safely (#17)](https://github.com/gcomneno/semantic-mail-archivist/commit/94602084453cf3d4832f8d99dcb7322cb4c21f0c)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [complete local research interface (#29)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c20d266f43928efe132b3b58c4000aa609cc1cc7)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add same-wheel occurrence explorer (#28)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d6f62ea24e8ecebbb28980f6efa3259495d3e997)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 759 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 762 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
