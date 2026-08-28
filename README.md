@@ -296,7 +296,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [harden first desktop road-test experience](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a954d3340edf4f0dad1cd9d2efa6ab8d483e5a28)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [preserve default database through pywebview serialization](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/af9c57c9b37d3e7b6ab55f16004311e2f1104c94)
 
-_Showing the 100 most recent meaningful updates; 768 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 767 older update(s) omitted._
 
 </details>
 

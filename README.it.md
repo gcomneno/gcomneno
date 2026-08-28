@@ -296,7 +296,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [harden first desktop road-test experience](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a954d3340edf4f0dad1cd9d2efa6ab8d483e5a28)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [preserve default database through pywebview serialization](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/af9c57c9b37d3e7b6ab55f16004311e2f1104c94)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 768 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 767 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
