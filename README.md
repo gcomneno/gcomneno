@@ -193,13 +193,12 @@ I turn study into documented, reproducible paths rather than presenting learning
 
 - **2026-08-27** · `atelier-kit` · **Development:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
 - **2026-08-27** · `atelier-kit` · **Fix:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
-- **2026-08-26** · `smart-file-organizer` · **Development:** [x](https://github.com/gcomneno/smart-file-organizer/commit/c7dd0dad7b08bbfac5bdf23349b89a02625f573d)
 - **2026-08-26** · `smart-file-organizer` · **Feature:** [make recovery planning safety-aware (#96)](https://github.com/gcomneno/smart-file-organizer/commit/4a4a887b94e2a42d23587d84c2ca01072eeca364)
+- **2026-08-25** · `atelier-kit` · **Fix:** [keep synopsis toggle in layout flow (#41) (#340)](https://github.com/gcomneno/atelier-kit/commit/5c5465649b5f8834b7bfe76231889b1bcac34ea8)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
-- **2026-08-25** · `atelier-kit` · **Fix:** [keep synopsis toggle in layout flow (#41) (#340)](https://github.com/gcomneno/atelier-kit/commit/5c5465649b5f8834b7bfe76231889b1bcac34ea8)
 - **2026-08-25** · `atelier-kit` · **Fix:** [preserve client-owned News YAML (#339)](https://github.com/gcomneno/atelier-kit/commit/d9a9d48d9d9eb62608fb1e8232613bd2005d17f9)
 - **2026-08-25** · `atelier-kit` · **Feature:** [add controlled strong/em emphasis tokens (#338)](https://github.com/gcomneno/atelier-kit/commit/ba31eecf6953b815c08319ff47b7bf2d523ae10a)
 - **2026-08-25** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1)
@@ -295,8 +294,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add complete mailbox audit report (#21)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e1018708ef03f73b57673483ef845eecd2dfcf)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [harden first desktop road-test experience](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a954d3340edf4f0dad1cd9d2efa6ab8d483e5a28)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [preserve default database through pywebview serialization](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/af9c57c9b37d3e7b6ab55f16004311e2f1104c94)
+- **2026-08-12** · `semantic-mail-archivist` · **Fix:** [tighten generic notification obsolescence cue](https://github.com/gcomneno/semantic-mail-archivist/commit/119d5adb9f2977f68b83309b3674b783316113d5)
 
-_Showing the 100 most recent meaningful updates; 767 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 766 older update(s) omitted._
 
 </details>
 
