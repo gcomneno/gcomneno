@@ -191,14 +191,19 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-08-27** · `atelier-kit` · **Sviluppo:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
-- **2026-08-27** · `atelier-kit` · **Correzione:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
-- **2026-08-26** · `smart-file-organizer` · **Funzionalità:** [make recovery planning safety-aware (#96)](https://github.com/gcomneno/smart-file-organizer/commit/4a4a887b94e2a42d23587d84c2ca01072eeca364)
-- **2026-08-25** · `atelier-kit` · **Correzione:** [keep synopsis toggle in layout flow (#41) (#340)](https://github.com/gcomneno/atelier-kit/commit/5c5465649b5f8834b7bfe76231889b1bcac34ea8)
+- **2026-08-29** · `smart-file-organizer` · **Documentazione:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
+- **2026-08-29** · `lele-manager` · **Sicurezza:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
+- **2026-08-29** · `lele-manager` · **Sicurezza:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
+- **2026-08-29** · `smart-file-organizer` · **Funzionalità:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-29** · `lele-manager` · **Documentazione:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
+- **2026-08-27** · `atelier-kit` · **Sviluppo:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
+- **2026-08-27** · `atelier-kit` · **Correzione:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
+- **2026-08-26** · `smart-file-organizer` · **Funzionalità:** [make recovery planning safety-aware (#96)](https://github.com/gcomneno/smart-file-organizer/commit/4a4a887b94e2a42d23587d84c2ca01072eeca364)
+- **2026-08-25** · `atelier-kit` · **Correzione:** [keep synopsis toggle in layout flow (#41) (#340)](https://github.com/gcomneno/atelier-kit/commit/5c5465649b5f8834b7bfe76231889b1bcac34ea8)
 - **2026-08-25** · `atelier-kit` · **Correzione:** [preserve client-owned News YAML (#339)](https://github.com/gcomneno/atelier-kit/commit/d9a9d48d9d9eb62608fb1e8232613bd2005d17f9)
 - **2026-08-25** · `atelier-kit` · **Funzionalità:** [add controlled strong/em emphasis tokens (#338)](https://github.com/gcomneno/atelier-kit/commit/ba31eecf6953b815c08319ff47b7bf2d523ae10a)
 - **2026-08-25** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1)
@@ -290,13 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [improve digit-set readability and contrast (#36)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/fac81bbeebac554acf3489f34d8cc9124cf864bc)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [wait for complete pywebview API readiness (#35)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/86b1bc75558fff2c4581c83c9f1482aa4460b27c)
 - **2026-08-12** · `distributed-systems-study` · **Documentazione:** [prepare distributed systems foundations study path (#4)](https://github.com/gcomneno/distributed-systems-study/commit/f1107c2ba599d139fec0879b9a59e57d6d15e814)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [align native controls with application theme (#34)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/cb53452fe24f9e8c0c8f3619dcfdda300dc9ddb4)
-- **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [add complete mailbox audit report (#21)](https://github.com/gcomneno/semantic-mail-archivist/commit/e4e1018708ef03f73b57673483ef845eecd2dfcf)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [harden first desktop road-test experience](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a954d3340edf4f0dad1cd9d2efa6ab8d483e5a28)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [preserve default database through pywebview serialization](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/af9c57c9b37d3e7b6ab55f16004311e2f1104c94)
-- **2026-08-12** · `semantic-mail-archivist` · **Correzione:** [tighten generic notification obsolescence cue](https://github.com/gcomneno/semantic-mail-archivist/commit/119d5adb9f2977f68b83309b3674b783316113d5)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 766 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 771 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
