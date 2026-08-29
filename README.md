@@ -191,14 +191,17 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-29** · `lele-manager` · **Security:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
+- **2026-08-29** · `lele-manager` · **Security:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
+- **2026-08-29** · `lele-manager` · **Security:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `smart-file-organizer` · **Docs:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
-- **2026-08-29** · `lele-manager` · **Security:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
-- **2026-08-29** · `lele-manager` · **Security:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
-- **2026-08-29** · `smart-file-organizer` · **Feature:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-29** · `lele-manager` · **Security:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
+- **2026-08-29** · `lele-manager` · **Security:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
+- **2026-08-29** · `smart-file-organizer` · **Feature:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
 - **2026-08-29** · `lele-manager` · **Docs:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
 - **2026-08-27** · `atelier-kit` · **Development:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
 - **2026-08-27** · `atelier-kit` · **Fix:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
@@ -292,11 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-12** · `giadaware-ui-components` · **Feature:** [add shared semantic palette tokens](https://github.com/gcomneno/giadaware-ui-components/commit/224c449f62c01cb063b45a66dcc1cabc46acb296)
 - **2026-08-12** · `semantic-mail-archivist` · **Feature:** [add auditable mailbox change log (#22)](https://github.com/gcomneno/semantic-mail-archivist/commit/d17f6a8b5c638fe0b2203fa8fe501635adfa17d5)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [keep missing digits on two rows (#37)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6679a1ff1acf19675d1b0aa68d2b54f5eaa19dfb)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [improve digit-set readability and contrast (#36)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/fac81bbeebac554acf3489f34d8cc9124cf864bc)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Fix:** [wait for complete pywebview API readiness (#35)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/86b1bc75558fff2c4581c83c9f1482aa4460b27c)
-- **2026-08-12** · `distributed-systems-study` · **Docs:** [prepare distributed systems foundations study path (#4)](https://github.com/gcomneno/distributed-systems-study/commit/f1107c2ba599d139fec0879b9a59e57d6d15e814)
 
-_Showing the 100 most recent meaningful updates; 771 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 774 older update(s) omitted._
 
 </details>
 
