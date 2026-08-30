@@ -204,6 +204,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
 - **2026-08-29** · `smart-file-organizer` · **Funzionalità:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
 - **2026-08-29** · `lele-manager` · **Documentazione:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
+- **2026-08-28** · `vscode-bitbake` · **Correzione:** [manage bitbake-setup through a pinned virtualenv](https://github.com/gcomneno/vscode-bitbake/commit/d7a441b3ef95969bb9047ac65334ddea12c9ad8a)
 - **2026-08-27** · `atelier-kit` · **Sviluppo:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
 - **2026-08-27** · `atelier-kit` · **Correzione:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
 - **2026-08-26** · `smart-file-organizer` · **Funzionalità:** [make recovery planning safety-aware (#96)](https://github.com/gcomneno/smart-file-organizer/commit/4a4a887b94e2a42d23587d84c2ca01072eeca364)
@@ -294,9 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `atelier-kit` · **Refactoring:** [consume GIADA semantic palette contract](https://github.com/gcomneno/atelier-kit/commit/0bd9e1b088f227521cdf831d548dde72364ceec6)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [consume canonical GIADA theme tokens](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0fe92fd60aa6f23fc67989a9f6afe0e54ec90db4)
 - **2026-08-12** · `giadaware-ui-components` · **Funzionalità:** [add shared semantic palette tokens](https://github.com/gcomneno/giadaware-ui-components/commit/224c449f62c01cb063b45a66dcc1cabc46acb296)
-- **2026-08-12** · `semantic-mail-archivist` · **Funzionalità:** [add auditable mailbox change log (#22)](https://github.com/gcomneno/semantic-mail-archivist/commit/d17f6a8b5c638fe0b2203fa8fe501635adfa17d5)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 775 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 776 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
