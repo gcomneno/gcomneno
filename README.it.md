@@ -191,14 +191,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-30** · `craft-parts` · **Documentazione:** [add partition usage resolution changelog](https://github.com/gcomneno/craft-parts/commit/ce0f9f91691832fe7a90d7e7e2dbfc6cb4658fbd)
 - **2026-08-30** · `atelier-kit` · **Correzione:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
-- **2026-08-29** · `lele-manager` · **Sicurezza:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-29** · `lele-manager` · **Sicurezza:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `smart-file-organizer` · **Documentazione:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
@@ -294,9 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [define provider adapter contract (#34)](https://github.com/gcomneno/semantic-mail-archivist/commit/a9f2a0c36983fee8c865f1a262c6adc246d31a38)
 - **2026-08-12** · `atelier-kit` · **Refactoring:** [consume GIADA semantic palette contract](https://github.com/gcomneno/atelier-kit/commit/0bd9e1b088f227521cdf831d548dde72364ceec6)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [consume canonical GIADA theme tokens](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0fe92fd60aa6f23fc67989a9f6afe0e54ec90db4)
-- **2026-08-12** · `giadaware-ui-components` · **Funzionalità:** [add shared semantic palette tokens](https://github.com/gcomneno/giadaware-ui-components/commit/224c449f62c01cb063b45a66dcc1cabc46acb296)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 776 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 777 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
