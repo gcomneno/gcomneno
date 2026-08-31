@@ -191,14 +191,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-08-31** · `atelier-kit` · **Documentazione:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
 - **2026-08-30** · `craft-parts` · **Documentazione:** [add partition usage resolution changelog](https://github.com/gcomneno/craft-parts/commit/ce0f9f91691832fe7a90d7e7e2dbfc6cb4658fbd)
 - **2026-08-30** · `craft-parts` · **Correzione:** [handle empty-string organize path (#1532)](https://github.com/gcomneno/craft-parts/commit/46eeb3e8429ba10d18c5ccef6906ea90037462f7)
 - **2026-08-30** · `atelier-kit` · **Correzione:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
-- **2026-08-29** · `lele-manager` · **Sicurezza:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-29** · `lele-manager` · **Sicurezza:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `smart-file-organizer` · **Documentazione:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
@@ -294,9 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [add local CLI application shell (#37)](https://github.com/gcomneno/semantic-mail-archivist/commit/63d97e7244b7855d39801f34d6e3bb122260c384)
 - **2026-08-13** · `giadaware-ui-components` · **Funzionalità:** [add progressive dropzone interaction to ImageAttachmentControl (#50)](https://github.com/gcomneno/giadaware-ui-components/commit/69cb67a533de90205cdf58894ddb92c09dafc2a7)
 - **2026-08-13** · `atelier-kit` · **Funzionalità:** [support atomic multi-file repository mutations (#291)](https://github.com/gcomneno/atelier-kit/commit/8edf3155ed98795cd97f16c6ed71fe1a1e498ed4)
-- **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [add Gmail read-only mailbox ingestion (#36)](https://github.com/gcomneno/semantic-mail-archivist/commit/1981639457617fe2293253c2a8ec9857863983c6)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 779 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 780 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
