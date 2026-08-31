@@ -191,14 +191,17 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-08-31** · `atelier-kit` · **Feature:** [complete native sitemap integration (#354)](https://github.com/gcomneno/atelier-kit/commit/dc94b3d91ecaefe4d25b74cc41be8f55c0abf76d)
+- **2026-08-31** · `craft-parts` · **Fix:** [avoid substring package error matches](https://github.com/gcomneno/craft-parts/commit/f68c44d95b5e0888b3cf4d34a1e6bf5ac5b9cfdb)
+- **2026-08-31** · `snapcraft` · **Fix:** [allow long directory names (#6216)](https://github.com/gcomneno/snapcraft/commit/25454633707006595771f7a024c84809b4fa5ad1)
 - **2026-08-31** · `atelier-kit` · **Docs:** [formalize canonical language contract (#353)](https://github.com/gcomneno/atelier-kit/commit/c8dd99962dd9fb3771576a737611918f0e894879)
-- **2026-08-31** · `atelier-kit` · **Fix:** [preserve full item cover artwork (#352)](https://github.com/gcomneno/atelier-kit/commit/d6b41701b1f48ae84cefe98a30ec549003b4c595)
-- **2026-08-31** · `smart-file-organizer` · **Security:** [add immutable release provenance (#102)](https://github.com/gcomneno/smart-file-organizer/commit/cce0a459aecfc8047c7c27e4b8de129700859a25)
-- **2026-08-31** · `atelier-kit` · **Docs:** [define pricing and commercial economics (#351)](https://github.com/gcomneno/atelier-kit/commit/ace36b0784d4607871a3977a99e4fdc337441dd4)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-31** · `atelier-kit` · **Fix:** [preserve full item cover artwork (#352)](https://github.com/gcomneno/atelier-kit/commit/d6b41701b1f48ae84cefe98a30ec549003b4c595)
+- **2026-08-31** · `smart-file-organizer` · **Security:** [add immutable release provenance (#102)](https://github.com/gcomneno/smart-file-organizer/commit/cce0a459aecfc8047c7c27e4b8de129700859a25)
+- **2026-08-31** · `atelier-kit` · **Docs:** [define pricing and commercial economics (#351)](https://github.com/gcomneno/atelier-kit/commit/ace36b0784d4607871a3977a99e4fdc337441dd4)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define customer onboarding runbook (#350)](https://github.com/gcomneno/atelier-kit/commit/3a400d7c73aa3d930700744e74e175da81315ff5)
 - **2026-08-31** · `smart-file-organizer` · **Security:** [harden release workflow authority (#101)](https://github.com/gcomneno/smart-file-organizer/commit/f5061b877ae666f190863a770882611242805e1e)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
@@ -292,11 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [give consensus full-width layout (#49)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09e91f4252fb50d969c116a1d60536bfe73af7cf)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [align consensus semantics with CLI (#46)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/558072b21314daff1cf3e38e0a4e4f41e96d512b)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Feature:** [add global limit and aggregate totals (#42)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/16383cf58f36f50c71b47bcf192a62dca72c35d3)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [exclude reference draw from grouped counts (#41)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/11e90b0daf8b3d4e036254a0fbdd1b4db10b93e7)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [centralize consensus rendering (#40)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6a230b1c7f35d0915900c7990aec117acf40ead)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [clarify consensus labels (#39)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/298b4faa48733857f7dca5110ab03a3570bdb6cf)
 
-_Showing the 100 most recent meaningful updates; 787 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 794 older update(s) omitted._
 
 </details>
 
