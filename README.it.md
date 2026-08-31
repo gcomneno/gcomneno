@@ -296,7 +296,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-12** · `atelier-kit` · **Refactoring:** [consume GIADA semantic palette contract](https://github.com/gcomneno/atelier-kit/commit/0bd9e1b088f227521cdf831d548dde72364ceec6)
 - **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [consume canonical GIADA theme tokens](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0fe92fd60aa6f23fc67989a9f6afe0e54ec90db4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 777 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 775 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
