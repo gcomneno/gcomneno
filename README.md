@@ -191,14 +191,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-08-31** · `atelier-kit` · **Docs:** [define customer onboarding runbook (#350)](https://github.com/gcomneno/atelier-kit/commit/3a400d7c73aa3d930700744e74e175da81315ff5)
-- **2026-08-31** · `smart-file-organizer` · **Security:** [harden release workflow authority (#101)](https://github.com/gcomneno/smart-file-organizer/commit/f5061b877ae666f190863a770882611242805e1e)
-- **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
-- **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
+- **2026-08-31** · `atelier-kit` · **Docs:** [formalize canonical language contract (#353)](https://github.com/gcomneno/atelier-kit/commit/c8dd99962dd9fb3771576a737611918f0e894879)
+- **2026-08-31** · `atelier-kit` · **Fix:** [preserve full item cover artwork (#352)](https://github.com/gcomneno/atelier-kit/commit/d6b41701b1f48ae84cefe98a30ec549003b4c595)
+- **2026-08-31** · `smart-file-organizer` · **Security:** [add immutable release provenance (#102)](https://github.com/gcomneno/smart-file-organizer/commit/cce0a459aecfc8047c7c27e4b8de129700859a25)
+- **2026-08-31** · `atelier-kit` · **Docs:** [define pricing and commercial economics (#351)](https://github.com/gcomneno/atelier-kit/commit/ace36b0784d4607871a3977a99e4fdc337441dd4)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-08-31** · `atelier-kit` · **Docs:** [define customer onboarding runbook (#350)](https://github.com/gcomneno/atelier-kit/commit/3a400d7c73aa3d930700744e74e175da81315ff5)
+- **2026-08-31** · `smart-file-organizer` · **Security:** [harden release workflow authority (#101)](https://github.com/gcomneno/smart-file-organizer/commit/f5061b877ae666f190863a770882611242805e1e)
+- **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
+- **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
 - **2026-08-30** · `craft-parts` · **Docs:** [add partition usage resolution changelog](https://github.com/gcomneno/craft-parts/commit/ce0f9f91691832fe7a90d7e7e2dbfc6cb4658fbd)
 - **2026-08-30** · `craft-parts` · **Fix:** [handle empty-string organize path (#1532)](https://github.com/gcomneno/craft-parts/commit/46eeb3e8429ba10d18c5ccef6906ea90037462f7)
 - **2026-08-30** · `atelier-kit` · **Fix:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
@@ -291,12 +295,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [exclude reference draw from grouped counts (#41)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/11e90b0daf8b3d4e036254a0fbdd1b4db10b93e7)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [centralize consensus rendering (#40)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6a230b1c7f35d0915900c7990aec117acf40ead)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Refactor:** [clarify consensus labels (#39)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/298b4faa48733857f7dca5110ab03a3570bdb6cf)
-- **2026-08-13** · `giadaware-ui-components` · **Feature:** [add optional Panel footer (#52)](https://github.com/gcomneno/giadaware-ui-components/commit/520463e48095f9e17941b974d855a2e56086ec43)
-- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [connect Gmail repair dry-run (#39)](https://github.com/gcomneno/semantic-mail-archivist/commit/6f6a23c6fd7513f1c2b02d7aff0d978d0836c91b)
-- **2026-08-13** · `giadaware-ui-components` · **Feature:** [add consumer-owned actions to ImageLightbox (#51)](https://github.com/gcomneno/giadaware-ui-components/commit/d50150a1f568d321a44d143f3052034c56188fd1)
-- **2026-08-13** · `semantic-mail-archivist` · **Feature:** [wire Gmail read-only mailbox audit (#38)](https://github.com/gcomneno/semantic-mail-archivist/commit/af41909b40be2aecd78f1415a2864eff89c5ad64)
 
-_Showing the 100 most recent meaningful updates; 783 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 787 older update(s) omitted._
 
 </details>
 
