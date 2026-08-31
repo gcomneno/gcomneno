@@ -192,13 +192,14 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 <!-- updates:start -->
 
 - **2026-08-30** · `craft-parts` · **Documentazione:** [add partition usage resolution changelog](https://github.com/gcomneno/craft-parts/commit/ce0f9f91691832fe7a90d7e7e2dbfc6cb4658fbd)
+- **2026-08-30** · `craft-parts` · **Correzione:** [handle empty-string organize path (#1532)](https://github.com/gcomneno/craft-parts/commit/46eeb3e8429ba10d18c5ccef6906ea90037462f7)
 - **2026-08-30** · `atelier-kit` · **Correzione:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
-- **2026-08-29** · `lele-manager` · **Sicurezza:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-08-29** · `lele-manager` · **Sicurezza:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `smart-file-organizer` · **Documentazione:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
@@ -206,12 +207,14 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-29** · `smart-file-organizer` · **Funzionalità:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
 - **2026-08-29** · `lele-manager` · **Documentazione:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
 - **2026-08-28** · `vscode-bitbake` · **Correzione:** [manage bitbake-setup through a pinned virtualenv](https://github.com/gcomneno/vscode-bitbake/commit/d7a441b3ef95969bb9047ac65334ddea12c9ad8a)
+- **2026-08-27** · `craft-parts` · **Correzione:** [preserve special files during build copy (#1523)](https://github.com/gcomneno/craft-parts/commit/f7eae6af338ca3a2d70dbd445c8e9eb14b967874)
 - **2026-08-27** · `atelier-kit` · **Sviluppo:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
 - **2026-08-27** · `atelier-kit` · **Correzione:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
 - **2026-08-26** · `smart-file-organizer` · **Funzionalità:** [make recovery planning safety-aware (#96)](https://github.com/gcomneno/smart-file-organizer/commit/4a4a887b94e2a42d23587d84c2ca01072eeca364)
 - **2026-08-25** · `atelier-kit` · **Correzione:** [keep synopsis toggle in layout flow (#41) (#340)](https://github.com/gcomneno/atelier-kit/commit/5c5465649b5f8834b7bfe76231889b1bcac34ea8)
 - **2026-08-25** · `atelier-kit` · **Correzione:** [preserve client-owned News YAML (#339)](https://github.com/gcomneno/atelier-kit/commit/d9a9d48d9d9eb62608fb1e8232613bd2005d17f9)
 - **2026-08-25** · `atelier-kit` · **Funzionalità:** [add controlled strong/em emphasis tokens (#338)](https://github.com/gcomneno/atelier-kit/commit/ba31eecf6953b815c08319ff47b7bf2d523ae10a)
+- **2026-08-25** · `craft-parts` · **Correzione:** [refresh apt cache before marking packages (#1468)](https://github.com/gcomneno/craft-parts/commit/c2836c97d172304c3e7865ee73ce0b13214eb8f2)
 - **2026-08-25** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1)
 - **2026-08-25** · `atelier-kit` · **Sviluppo:** [Release Atelier-Kit v0.5.1 (#334)](https://github.com/gcomneno/atelier-kit/commit/2532db3c573482ffd2a36b7f277779901311286e)
 - **2026-08-25** · `atelier-kit` · **Correzione:** [improve mobile sidebar readability (#333)](https://github.com/gcomneno/atelier-kit/commit/fe953516389b4d36f554db787e57226c4d3bdde0)
@@ -228,6 +231,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-23** · `physics-study` · **Documentazione:** [add lesson on nuclear structure and stability (#5)](https://github.com/gcomneno/physics-study/commit/dd29427772b2430032a6b851ddaf85256df7b342)
 - **2026-08-23** · `smart-file-organizer` · **Funzionalità:** [write Manifest v2 identity evidence during apply (#88)](https://github.com/gcomneno/smart-file-organizer/commit/1ede468a5d97ebc59934f003e9f69b87f6c7a9e8)
 - **2026-08-23** · `smart-file-organizer` · **Documentazione:** [design Manifest v2 identity schema (#86)](https://github.com/gcomneno/smart-file-organizer/commit/dfb7aac1d594ea95ab97f222c5d29a65dc5bc5b2)
+- **2026-08-22** · `craft-parts` · **Correzione:** [preserve special files during build copy (#1523)](https://github.com/gcomneno/craft-parts/commit/e8e868630d4dda065be55f50acdb85d90905c84d)
 - **2026-08-22** · `atelier-kit` · **Sviluppo:** [product: define Atelier-Kit commercial offer (#328)](https://github.com/gcomneno/atelier-kit/commit/4c331fa99baf5a29e347f7ade5028a3c301480d4)
 - **2026-08-22** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.0)
 - **2026-08-22** · `atelier-kit` · **Sviluppo:** [Release Atelier-Kit v0.5.0 (#327)](https://github.com/gcomneno/atelier-kit/commit/e5abee822a9d01bd859ed5c962d64d699b4bcf30)
@@ -291,12 +295,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-13** · `giadaware-ui-components` · **Funzionalità:** [add progressive dropzone interaction to ImageAttachmentControl (#50)](https://github.com/gcomneno/giadaware-ui-components/commit/69cb67a533de90205cdf58894ddb92c09dafc2a7)
 - **2026-08-13** · `atelier-kit` · **Funzionalità:** [support atomic multi-file repository mutations (#291)](https://github.com/gcomneno/atelier-kit/commit/8edf3155ed98795cd97f16c6ed71fe1a1e498ed4)
 - **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [add Gmail read-only mailbox ingestion (#36)](https://github.com/gcomneno/semantic-mail-archivist/commit/1981639457617fe2293253c2a8ec9857863983c6)
-- **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [add local Gmail authentication (#35)](https://github.com/gcomneno/semantic-mail-archivist/commit/3be0d27f83fb8067186e0f54c864e617da6d3ce2)
-- **2026-08-13** · `semantic-mail-archivist` · **Funzionalità:** [define provider adapter contract (#34)](https://github.com/gcomneno/semantic-mail-archivist/commit/a9f2a0c36983fee8c865f1a262c6adc246d31a38)
-- **2026-08-12** · `atelier-kit` · **Refactoring:** [consume GIADA semantic palette contract](https://github.com/gcomneno/atelier-kit/commit/0bd9e1b088f227521cdf831d548dde72364ceec6)
-- **2026-08-12** · `lotto-digit-coverage-dynamics` · **Correzione:** [consume canonical GIADA theme tokens](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0fe92fd60aa6f23fc67989a9f6afe0e54ec90db4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 775 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 779 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
