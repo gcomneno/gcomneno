@@ -296,7 +296,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Correzione:** [align consensus semantics with CLI (#46)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/558072b21314daff1cf3e38e0a4e4f41e96d512b)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add global limit and aggregate totals (#42)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/16383cf58f36f50c71b47bcf192a62dca72c35d3)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 794 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 791 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

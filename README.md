@@ -296,7 +296,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [align consensus semantics with CLI (#46)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/558072b21314daff1cf3e38e0a4e4f41e96d512b)
 - **2026-08-14** · `lotto-digit-coverage-dynamics` · **Feature:** [add global limit and aggregate totals (#42)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/16383cf58f36f50c71b47bcf192a62dca72c35d3)
 
-_Showing the 100 most recent meaningful updates; 794 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 791 older update(s) omitted._
 
 </details>
 
