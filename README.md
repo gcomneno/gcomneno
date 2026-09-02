@@ -192,13 +192,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 <!-- updates:start -->
 
 - **2026-09-02** · `atelier-kit` · **Docs:** [record Nero Hosted chain retirement (#362)](https://github.com/gcomneno/atelier-kit/commit/64cb9c22114bd431768c6fcbbe80acf2b500c6ae)
+- **2026-09-02** · `atelier-kit` · **Development:** [x](https://github.com/gcomneno/atelier-kit/commit/70841fa7cbdda5f89225942b8a1e1a8d5566346d)
 - **2026-09-02** · `atelier-kit` · **Docs:** [reconcile retired #275 validation infrastructure (#360)](https://github.com/gcomneno/atelier-kit/commit/b02295956a15fc59739a8fd2f7080e1c05379620)
 - **2026-09-01** · `atelier-kit` · **Fix:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
-- **2026-09-01** · `atelier-kit` · **Fix:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-01** · `atelier-kit` · **Fix:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
 - **2026-08-31** · `atelier-kit` · **Feature:** [complete native sitemap integration (#354)](https://github.com/gcomneno/atelier-kit/commit/dc94b3d91ecaefe4d25b74cc41be8f55c0abf76d)
 - **2026-08-31** · `craft-parts` · **Fix:** [avoid substring package error matches](https://github.com/gcomneno/craft-parts/commit/f68c44d95b5e0888b3cf4d34a1e6bf5ac5b9cfdb)
 - **2026-08-31** · `snapcraft` · **Fix:** [allow long directory names (#6216)](https://github.com/gcomneno/snapcraft/commit/25454633707006595771f7a024c84809b4fa5ad1)
@@ -294,7 +295,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-14** · `semantic-mail-archivist` · **Feature:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
 - **2026-08-14** · `ubuntu-system-tools` · **Feature:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
-- **2026-08-14** · `giadaware-ui-components` · **Feature:** [add Button content regions (#53)](https://github.com/gcomneno/giadaware-ui-components/commit/427bf4c20df7836d90d75510a03e9585d39e5392)
 
 _Showing the 100 most recent meaningful updates; 790 older update(s) omitted._
 
