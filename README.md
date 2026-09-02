@@ -222,7 +222,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `lele-manager` · **Security:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
 - **2026-08-29** · `smart-file-organizer` · **Feature:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
 - **2026-08-29** · `lele-manager` · **Docs:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
-- **2026-08-28** · `vscode-bitbake` · **Fix:** [manage bitbake-setup through a pinned virtualenv](https://github.com/gcomneno/vscode-bitbake/commit/d7a441b3ef95969bb9047ac65334ddea12c9ad8a)
 - **2026-08-27** · `craft-parts` · **Fix:** [preserve special files during build copy (#1523)](https://github.com/gcomneno/craft-parts/commit/f7eae6af338ca3a2d70dbd445c8e9eb14b967874)
 - **2026-08-27** · `atelier-kit` · **Development:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
 - **2026-08-27** · `atelier-kit` · **Fix:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
@@ -295,8 +294,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-14** · `semantic-mail-archivist` · **Feature:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
 - **2026-08-14** · `ubuntu-system-tools` · **Feature:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
+- **2026-08-14** · `giadaware-ui-components` · **Feature:** [add Button content regions (#53)](https://github.com/gcomneno/giadaware-ui-components/commit/427bf4c20df7836d90d75510a03e9585d39e5392)
 
-_Showing the 100 most recent meaningful updates; 790 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 789 older update(s) omitted._
 
 </details>
 
