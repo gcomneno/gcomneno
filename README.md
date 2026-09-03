@@ -213,7 +213,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-31** · `smart-file-organizer` · **Security:** [harden release workflow authority (#101)](https://github.com/gcomneno/smart-file-organizer/commit/f5061b877ae666f190863a770882611242805e1e)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
-- **2026-08-30** · `craft-parts` · **Docs:** [add partition usage resolution changelog](https://github.com/gcomneno/craft-parts/commit/ce0f9f91691832fe7a90d7e7e2dbfc6cb4658fbd)
 - **2026-08-30** · `craft-parts` · **Fix:** [handle empty-string organize path (#1532)](https://github.com/gcomneno/craft-parts/commit/46eeb3e8429ba10d18c5ccef6906ea90037462f7)
 - **2026-08-30** · `atelier-kit` · **Fix:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
 - **2026-08-29** · `lele-manager` · **Security:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
@@ -295,8 +294,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
 - **2026-08-14** · `semantic-mail-archivist` · **Feature:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
 - **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
+- **2026-08-14** · `ubuntu-system-tools` · **Feature:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
 
-_Showing the 100 most recent meaningful updates; 791 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 790 older update(s) omitted._
 
 </details>
 
