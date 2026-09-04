@@ -67,6 +67,34 @@ class RepositoryEligibilityPolicyTests(unittest.TestCase):
             "gcomneno/craft-parts",
             MODULE.ALLOWED_REPOSITORIES,
         )
+        self.assertIn(
+            "gcomneno/gyte-ai-learning-pipeline",
+            MODULE.CURATED_REPOSITORIES,
+        )
+        self.assertIn(
+            "gcomneno/giadaware-ai",
+            MODULE.CURATED_REPOSITORIES,
+        )
+        self.assertIn(
+            "gcomneno/grocery-deal-intelligence",
+            MODULE.CURATED_REPOSITORIES,
+        )
+        self.assertIn(
+            "gcomneno/linux-container-lab",
+            MODULE.CURATED_REPOSITORIES,
+        )
+        self.assertIn(
+            "gcomneno/bmaptool",
+            MODULE.UPSTREAM_WORK_REPOSITORIES,
+        )
+        self.assertIn(
+            "gcomneno/tree-sitter-bitbake",
+            MODULE.UPSTREAM_WORK_REPOSITORIES,
+        )
+        self.assertNotIn(
+            "gcomneno/gyte-study-tools",
+            MODULE.ALLOWED_REPOSITORIES,
+        )
         self.assertNotIn(
             MODULE.PROFILE_REPO,
             MODULE.ALLOWED_REPOSITORIES,
@@ -159,6 +187,23 @@ class UpdateMessageTests(unittest.TestCase):
             "probe",
             "wip",
             "debug",
+            "x",
+            "X",
+            "7",
+            "!",
+            "??",
+        ):
+            with self.subTest(message=message):
+                self.assertIsNone(
+                    MODULE.parse_update_message(message)
+                )
+
+    def test_excludes_tagged_low_information_messages(self) -> None:
+        for message in (
+            "docs: x",
+            "feat: x",
+            "fix(ui): !",
+            "UPDATE: ??",
         ):
             with self.subTest(message=message):
                 self.assertIsNone(

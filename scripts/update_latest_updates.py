@@ -32,8 +32,10 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/gyte",
         f"{OWNER_LOGIN}/ubuntu-system-tools",
         f"{OWNER_LOGIN}/semantic-mail-archivist",
-        f"{OWNER_LOGIN}/gyte-study-tools",
+        f"{OWNER_LOGIN}/gyte-ai-learning-pipeline",
+        f"{OWNER_LOGIN}/giadaware-ai",
         f"{OWNER_LOGIN}/lele-quizzer",
+        f"{OWNER_LOGIN}/grocery-deal-intelligence",
         f"{OWNER_LOGIN}/system-log-dynamics",
         f"{OWNER_LOGIN}/lotto-digit-coverage-dynamics",
         f"{OWNER_LOGIN}/digit-probe",
@@ -46,6 +48,7 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/lasagna-v2",
         f"{OWNER_LOGIN}/crystal-codec-gcc-v1",
         f"{OWNER_LOGIN}/yocto-qemu-mini-lab",
+        f"{OWNER_LOGIN}/linux-container-lab",
         f"{OWNER_LOGIN}/distributed-systems-study",
         f"{OWNER_LOGIN}/system-design-study",
         f"{OWNER_LOGIN}/kleis-corso-sviluppo-software",
@@ -60,6 +63,8 @@ CURATED_REPOSITORIES = frozenset(
 UPSTREAM_WORK_REPOSITORIES = frozenset(
     {
         f"{OWNER_LOGIN}/vscode-bitbake",
+        f"{OWNER_LOGIN}/bmaptool",
+        f"{OWNER_LOGIN}/tree-sitter-bitbake",
         f"{OWNER_LOGIN}/craft-parts",
         f"{OWNER_LOGIN}/craft-application",
         f"{OWNER_LOGIN}/craft-providers",
@@ -194,6 +199,19 @@ PLACEHOLDER_MESSAGE_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+MIN_UPDATE_ALNUM_CHARS = 3
+
+
+def is_low_information_update_text(text: str) -> bool:
+    """Return true when text is too weak to represent showcase activity."""
+
+    normalized = text.strip()
+
+    if PLACEHOLDER_MESSAGE_PATTERN.fullmatch(normalized):
+        return True
+
+    return sum(char.isalnum() for char in normalized) < MIN_UPDATE_ALNUM_CHARS
+
 PRIORITY_RELEASE_API = 10
 
 COMMIT_PRIORITY_BY_KIND = {
@@ -322,7 +340,7 @@ def parse_update_message(message: str) -> tuple[str, str] | None:
     if not first_line:
         return None
 
-    if PLACEHOLDER_MESSAGE_PATTERN.fullmatch(first_line):
+    if is_low_information_update_text(first_line):
         return None
 
     if is_blocked_update_text(first_line):
@@ -333,7 +351,10 @@ def parse_update_message(message: str) -> tuple[str, str] | None:
     for pattern, kind in UPDATE_PATTERNS:
         match = pattern.match(first_line)
         if match:
-            return kind, match.group(1).strip()
+            update_text = match.group(1).strip()
+            if is_low_information_update_text(update_text):
+                return None
+            return kind, update_text
 
     if IGNORED_COMMIT_PATTERN.match(first_line):
         return None
@@ -352,9 +373,12 @@ def parse_update_message(message: str) -> tuple[str, str] | None:
         commit_type = conventional.group(
             "type"
         ).lower()
+        update_text = conventional.group("text").strip()
+        if is_low_information_update_text(update_text):
+            return None
         return (
             CONVENTIONAL_KIND_BY_TYPE[commit_type],
-            conventional.group("text").strip(),
+            update_text,
         )
 
     # I messaggi non convenzionali possono ancora rappresentare
