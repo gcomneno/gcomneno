@@ -254,7 +254,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-29** · `grocery-deal-intelligence` · **Correzione:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [support composite quantity relations (#150) (#151)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a20fbb736df4a6ee12198999377a73b377eda23b)
-- **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [support composite quantity relations (#150)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72910d28d5d87ef72c8ad8ac47748f2462915943)
 - **2026-08-29** · `grocery-deal-intelligence` · **Correzione:** [make canonical promotion claims evidence-optional (#149)](https://github.com/gcomneno/grocery-deal-intelligence/commit/11f2608dddc3a15cc687ba6592629d689243ee52)
 - **2026-08-29** · `grocery-deal-intelligence` · **Documentazione:** [align Despar with evidence-optional promotion contract (#148)](https://github.com/gcomneno/grocery-deal-intelligence/commit/94651bcb60bec2dec1ddd82e8d11af2abb0c2dad)
 - **2026-08-29** · `smart-file-organizer` · **Documentazione:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
@@ -269,7 +268,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [add evidence-grounded economic normalization (#139)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e7cda4a11d090b1527e4ecca948d5390c9577be5)
 - **2026-08-29** · `lele-manager` · **Documentazione:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
 - **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [add evidence-grounded normalized product attributes (#137)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c65dbbc87d17406509e3a6fa2d13b746cf84569a)
-- **2026-08-29** · `grocery-deal-intelligence` · **Documentazione:** [align comparison policy with normalized attributes (#136)](https://github.com/gcomneno/grocery-deal-intelligence/commit/1c88379ac2568febcd7475068533b9a692b52e7c)
 - **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [add overridable comparison policies (#135)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ae5556cdb517d8c7f5a9af31c03073cc08a3021b)
 - **2026-08-28** · `grocery-deal-intelligence` · **Funzionalità:** [add evidence-grounded product comparison proposals (#133)](https://github.com/gcomneno/grocery-deal-intelligence/commit/9e04d158a75881bd3b7eb002114f7d917984b1cb)
 - **2026-08-28** · `grocery-deal-intelligence` · **Funzionalità:** [add deterministic ingestion result set (#130) (#131)](https://github.com/gcomneno/grocery-deal-intelligence/commit/aea95ba401907278258d8544ed629fd112607d62)
@@ -302,8 +300,10 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-27** · `grocery-deal-intelligence` · **Funzionalità:** [capture and parse Despar store-scoped fixture (#78)](https://github.com/gcomneno/grocery-deal-intelligence/commit/1b74833992ff6dde2a374f3138790806926e9941)
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record Despar digital flyer source spike (#76)](https://github.com/gcomneno/grocery-deal-intelligence/commit/842900a24f6ea0fe6e86502b60d45927d7587e01)
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record ALDI store-scoped capture spike (#75)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c09b2b203c6332c481af135a93c128a39b1b78a1)
+- **2026-08-27** · `grocery-deal-intelligence` · **Funzionalità:** [add Lidl deterministic completion evidence (#63)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ec02c7c7c97c39912ed181949bee4f26218655a1)
+- **2026-08-27** · `atelier-kit` · **Sviluppo:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 922 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 920 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
