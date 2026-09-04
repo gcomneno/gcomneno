@@ -200,12 +200,13 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 
 - **2026-09-04** · `grocery-deal-intelligence` · **Funzionalità:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
 - **2026-09-04** · `digit-probe` · **Sicurezza:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [automate validated repository handoff to PR creation](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/cdbe0a5a3519d3cd45ceeca45279a88adea5a6f6)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [add physics-study consumer contract acceptance case](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/41a21ee123edc8a235226f5b129753da9f680243)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [add physics-study consumer contract acceptance case](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/41a21ee123edc8a235226f5b129753da9f680243)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
@@ -301,9 +302,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-27** · `grocery-deal-intelligence` · **Funzionalità:** [capture and parse Despar store-scoped fixture (#78)](https://github.com/gcomneno/grocery-deal-intelligence/commit/1b74833992ff6dde2a374f3138790806926e9941)
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record Despar digital flyer source spike (#76)](https://github.com/gcomneno/grocery-deal-intelligence/commit/842900a24f6ea0fe6e86502b60d45927d7587e01)
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record ALDI store-scoped capture spike (#75)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c09b2b203c6332c481af135a93c128a39b1b78a1)
-- **2026-08-27** · `grocery-deal-intelligence` · **Funzionalità:** [add Lidl deterministic completion evidence (#63)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ec02c7c7c97c39912ed181949bee4f26218655a1)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 921 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 922 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
