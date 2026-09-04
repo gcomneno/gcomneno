@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import importlib.util
+import sys
 import unittest
 from pathlib import Path
 
@@ -33,6 +35,7 @@ SELECTED_PROJECTS = (
 )
 
 OPERATIONAL_PROJECTS = (
+    "giadaware-ai",
     "semantic-mail-archivist",
     "gyte-ai-learning-pipeline",
     "lele-quizzer",
@@ -55,8 +58,10 @@ SECONDARY_RESEARCH = (
 )
 
 PRIMARY_LEARNING = (
+    "grocery-deal-intelligence",
     "system-log-dynamics",
     "yocto-qemu-mini-lab",
+    "linux-container-lab",
     "distributed-systems-study",
     "system-design-study",
     "kleis-corso-sviluppo-software",
@@ -69,6 +74,23 @@ SUPPORTING_LEARNING = (
     "boardlab",
     "web",
 )
+
+UPDATE_GENERATOR_PATH = (
+    Path(__file__).parents[1]
+    / "scripts"
+    / "update_latest_updates.py"
+)
+UPDATE_GENERATOR_SPEC = importlib.util.spec_from_file_location(
+    "profile_update_latest_updates_contract",
+    UPDATE_GENERATOR_PATH,
+)
+assert (
+    UPDATE_GENERATOR_SPEC is not None
+    and UPDATE_GENERATOR_SPEC.loader is not None
+)
+UPDATE_GENERATOR = importlib.util.module_from_spec(UPDATE_GENERATOR_SPEC)
+sys.modules[UPDATE_GENERATOR_SPEC.name] = UPDATE_GENERATOR
+UPDATE_GENERATOR_SPEC.loader.exec_module(UPDATE_GENERATOR)
 
 GYTE_AI_LEARNING_PIPELINE_URL = (
     "https://github.com/gcomneno/gyte-ai-learning-pipeline"
@@ -83,6 +105,7 @@ FORBIDDEN_PROFILE_LINKS = (
 )
 
 YOCTO_PULL_REQUESTS = (
+    546,
     538,
     543,
     545,
@@ -98,12 +121,16 @@ YOCTO_PULL_REQUESTS = (
 )
 
 CANONICAL_CRAFT_PULL_REQUESTS = (
+    ("craft-parts", 1523),
+    ("craft-parts", 1485),
     ("craft-parts", 1600),
     ("craft-parts", 1598),
     ("craft-parts", 1562),
     ("craft-parts", 1533),
     ("craft-application", 1068),
     ("craft-providers", 966),
+    ("craft-cli", 444),
+    ("snapcraft", 6216),
     ("craft-cli", 425),
     ("rockcraft", 1148),
 )
@@ -274,14 +301,43 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     label=f"{path}: supporting learning",
                 )
 
+    def test_manual_curation_matches_latest_updates_allowlist(self) -> None:
+        curated_repositories = {
+            f"gcomneno/{repo}"
+            for repo in (
+                *SELECTED_PROJECTS,
+                *OPERATIONAL_PROJECTS,
+                *PRIMARY_RESEARCH,
+                *SECONDARY_RESEARCH,
+                *PRIMARY_LEARNING,
+                *SUPPORTING_LEARNING,
+            )
+        }
+
+        self.assertEqual(
+            UPDATE_GENERATOR.CURATED_REPOSITORIES,
+            curated_repositories,
+            "manual Sections 01/03/04 and Latest Updates curated allowlist drifted",
+        )
+
     def test_gyte_ai_learning_pipeline_uses_canonical_identity(self) -> None:
         for path in README_PATHS:
             text = path.read_text(encoding="utf-8")
 
+            curated_text, marker, _generated_text = text.partition(
+                "<!-- updates:start -->"
+            )
+            self.assertTrue(
+                marker,
+                f"{path}: Latest Updates start marker missing",
+            )
             self.assertEqual(
-                text.count(GYTE_AI_LEARNING_PIPELINE_URL),
+                curated_text.count(GYTE_AI_LEARNING_PIPELINE_URL),
                 1,
-                f"{path}: canonical GYTE AI Learning Pipeline URL must appear once",
+                (
+                    f"{path}: canonical GYTE AI Learning Pipeline URL must "
+                    "appear once in manually curated profile content"
+                ),
             )
             self.assertNotIn(
                 LEGACY_GYTE_STUDY_TOOLS_URL,

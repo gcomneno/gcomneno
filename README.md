@@ -47,20 +47,20 @@ These projects best represent my current work across backend design, reliable au
 
 | Project | Official release | What it does | What it demonstrates |
 | --- | --- | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Provides a configurable showcase kit with local and desktop Studio authoring, content-driven catalog workflows and deployment tooling, plus explicitly current-main bounded Hosted/Demo authoring | SvelteKit product architecture, explicit local/hosted/demo authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Provides a configurable showcase kit with local Studio, Atelier Desktop and separately configured private Hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit Visitor/local/hosted authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions, filesystem verification and read-only recovery planning |
 | [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Linux utilities for diagnostics, controlled maintenance, offline transcription and kernel warning analysis | Safety-first system tooling, read-only diagnostics, explicit opt-in workflows and reproducible Linux packaging |
 
-*Official release* values come from GitHub Releases. Wording marked **current-main** describes repository state and must not be read as capability guaranteed by the release cell.
 
 <details>
 <summary>More operational projects</summary>
 
 | Project | Technical signal |
 | --- | --- |
+| [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Experimental 0.x infrastructure for provider-independent, read-only AI capabilities with typed outputs, deterministic validation boundaries and replaceable backends |
 | [Semantic Mail Archivist](https://github.com/gcomneno/semantic-mail-archivist) | Privacy-first Gmail audit and repair dry-runs, provider boundaries, explainable confidence and crash-aware mutation journaling |
 | [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
@@ -104,6 +104,7 @@ The entries below are upstream pull requests verified as merged; public forks ar
 <details>
 <summary>Yocto Project — <code>vscode-bitbake</code></summary>
 
+- [#546 — refactor: extract Devtool commands](https://github.com/yoctoproject/vscode-bitbake/pull/546)
 - [#538 — Fix unbounded recipe-local file discovery](https://github.com/yoctoproject/vscode-bitbake/pull/538)
 - [#543 — Extract reusable cancellable file search utility](https://github.com/yoctoproject/vscode-bitbake/pull/543)
 - [#545 — refactor: extract document lifecycle](https://github.com/yoctoproject/vscode-bitbake/pull/545)
@@ -122,12 +123,16 @@ The entries below are upstream pull requests verified as merged; public forks ar
 <details>
 <summary>Canonical Craft ecosystem</summary>
 
+- [craft-parts#1523 — fix(executor): preserve special files during build copy](https://github.com/canonical/craft-parts/pull/1523)
+- [craft-parts#1485 — fix(deb): avoid python-apt for installed package checks](https://github.com/canonical/craft-parts/pull/1485)
 - [craft-parts#1600 — fix(git): checkout commit before updating submodules](https://github.com/canonical/craft-parts/pull/1600)
 - [craft-parts#1598 — feat(organize): support build pseudo-partition source](https://github.com/canonical/craft-parts/pull/1598)
 - [craft-parts#1562 — fix(organize): reject sources outside install dir](https://github.com/canonical/craft-parts/pull/1562)
 - [craft-parts#1533 — fix(sources): handle streaming request errors](https://github.com/canonical/craft-parts/pull/1533)
 - [craft-application#1068 — fix(application): preserve non-success dispatcher return codes](https://github.com/canonical/craft-application/pull/1068)
 - [craft-providers#966 — chore(types): enable explicit re-export checking](https://github.com/canonical/craft-providers/pull/966)
+- [craft-cli#444 — fix(messages): reset terminal style after open_stream](https://github.com/canonical/craft-cli/pull/444)
+- [snapcraft#6216 — fix(init): allow long directory names](https://github.com/canonical/snapcraft/pull/6216)
 - [craft-cli#425 — fix(utils): correct humanize_list formatting for two-item lists](https://github.com/canonical/craft-cli/pull/425)
 - [rockcraft#1148 — docs: update LXD/Docker incompatibility handling](https://github.com/canonical/rockcraft/pull/1148)
 
@@ -171,8 +176,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 
 | Area | Repository | Current focus |
 | --- | --- | --- |
+| Verification-first data systems | [Grocery Deal Intelligence](https://github.com/gcomneno/grocery-deal-intelligence) | Deterministic retailer evidence, claim verification, fail-closed canonical admission and optional advisory AI across multi-retailer ingestion |
 | Applied sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Reproducible Digit-Probe demonstrator over privacy-safe Linux journal normalization, deterministic evidence and temporal comparison |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |
+| Linux isolation | [Linux Container Lab](https://github.com/gcomneno/linux-container-lab) | Studied Linux container primitives through executed non-privileged experiments and partial verification; container implementation has not started |
 | Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Session 01 is prepared around algorithms, failure models and coordination; active study is not yet marked complete |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Architecture notes, quizzes and interview-oriented lessons |
 | Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |
@@ -191,112 +198,112 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
 - **2026-09-02** · `atelier-kit` · **Docs:** [record Nero Hosted chain retirement (#362)](https://github.com/gcomneno/atelier-kit/commit/64cb9c22114bd431768c6fcbbe80acf2b500c6ae)
-- **2026-09-02** · `atelier-kit` · **Development:** [x](https://github.com/gcomneno/atelier-kit/commit/70841fa7cbdda5f89225942b8a1e1a8d5566346d)
 - **2026-09-02** · `atelier-kit` · **Docs:** [reconcile retired #275 validation infrastructure (#360)](https://github.com/gcomneno/atelier-kit/commit/b02295956a15fc59739a8fd2f7080e1c05379620)
-- **2026-09-02** · `atelier-kit` · **Docs:** [keep deployment credentials dedicated by default](https://github.com/gcomneno/atelier-kit/commit/aca0194f7a341bc27a75d95662c9048d739ebfa9)
+- **2026-09-01** · `atelier-kit` · **Fix:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
-- **2026-09-02** · `atelier-kit` · **Docs:** [retire obsolete validation deployment references](https://github.com/gcomneno/atelier-kit/commit/b7ce46230c412d81c308ff0972fa3b5c6f1461ed)
-- **2026-09-01** · `atelier-kit` · **Fix:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 - **2026-09-01** · `atelier-kit` · **Fix:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
 - **2026-08-31** · `atelier-kit` · **Feature:** [complete native sitemap integration (#354)](https://github.com/gcomneno/atelier-kit/commit/dc94b3d91ecaefe4d25b74cc41be8f55c0abf76d)
-- **2026-08-31** · `craft-parts` · **Fix:** [avoid substring package error matches](https://github.com/gcomneno/craft-parts/commit/f68c44d95b5e0888b3cf4d34a1e6bf5ac5b9cfdb)
 - **2026-08-31** · `snapcraft` · **Fix:** [allow long directory names (#6216)](https://github.com/gcomneno/snapcraft/commit/25454633707006595771f7a024c84809b4fa5ad1)
 - **2026-08-31** · `atelier-kit` · **Docs:** [formalize canonical language contract (#353)](https://github.com/gcomneno/atelier-kit/commit/c8dd99962dd9fb3771576a737611918f0e894879)
+- **2026-08-31** · `grocery-deal-intelligence` · **Feature:** [define Esselunga capture evidence contract (#175) (#176)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f095c360696c296cc34aeeafc79767c62c13cc5f)
 - **2026-08-31** · `atelier-kit` · **Fix:** [preserve full item cover artwork (#352)](https://github.com/gcomneno/atelier-kit/commit/d6b41701b1f48ae84cefe98a30ec549003b4c595)
 - **2026-08-31** · `smart-file-organizer` · **Security:** [add immutable release provenance (#102)](https://github.com/gcomneno/smart-file-organizer/commit/cce0a459aecfc8047c7c27e4b8de129700859a25)
+- **2026-08-31** · `grocery-deal-intelligence` · **Feature:** [establish Esselunga acquisition-context evidence boundary (#173) (#174)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e41c50d7a3083aba7a16b83d4dd84384beaa7343)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define pricing and commercial economics (#351)](https://github.com/gcomneno/atelier-kit/commit/ace36b0784d4607871a3977a99e4fdc337441dd4)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define customer onboarding runbook (#350)](https://github.com/gcomneno/atelier-kit/commit/3a400d7c73aa3d930700744e74e175da81315ff5)
+- **2026-08-31** · `grocery-deal-intelligence` · **Development:** [experiment: rerun Proposal path on pinned real corpus (#58) (#172)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bce1e2893dd8db2df71fab25e63b32ef52b1cb30)
 - **2026-08-31** · `smart-file-organizer` · **Security:** [harden release workflow authority (#101)](https://github.com/gcomneno/smart-file-organizer/commit/f5061b877ae666f190863a770882611242805e1e)
+- **2026-08-31** · `giadaware-ai` · **Development:** [experiment: add controlled prose naturalization spike (#21)](https://github.com/gcomneno/giadaware-ai/commit/b729dbba95e4f45969fdf859c5b576c037e5bfc8)
+- **2026-08-31** · `giadaware-ai` · **Docs:** [define capability qualification and admission contract (#23)](https://github.com/gcomneno/giadaware-ai/commit/41cbe7e1a50b05137d5bdece4a577ea194f00ac0)
+- **2026-08-31** · `giadaware-ai` · **Feature:** [add provider-independent translation capability (#26)](https://github.com/gcomneno/giadaware-ai/commit/a40edd8ed27fb9bab62f0be52103b49c1725f07e)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
+- **2026-08-31** · `giadaware-ai` · **Docs:** [adopt shared learning vocabulary (#25)](https://github.com/gcomneno/giadaware-ai/commit/8f6a049af8e5ad3ced8163307f41dd0ef1a69fc3)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
+- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [exercise business consumers over canonical corpus (#171)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ecc3cab6728fec2729b97d2b28b62df199328c39)
+- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [bridge Lidl into canonical corpus (#168) (#169)](https://github.com/gcomneno/grocery-deal-intelligence/commit/458a5ce3341e83c5c1a50d6927220ac54479bfb6)
+- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [assemble canonical corpus (#166) (#167)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6c7ce6264153dd0c6cc7dd36f71809355197f50f)
+- **2026-08-30** · `grocery-deal-intelligence` · **Docs:** [formalize retailer readiness architecture (#164) (#165)](https://github.com/gcomneno/grocery-deal-intelligence/commit/35ea3cf8a21673f3415f2f49c3b749239c3b5c24)
 - **2026-08-30** · `atelier-kit` · **Fix:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
+- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list available retailers (#162) (#163)](https://github.com/gcomneno/grocery-deal-intelligence/commit/57d9c1b913a969bb21f8dea43c63a463df5f3eb4)
+- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
+- **2026-08-30** · `grocery-deal-intelligence` · **Development:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
 - **2026-08-29** · `lele-manager` · **Security:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve shopping-item availability from verified offers (#152)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c5ecec3f5cb249f176f3c64d003d6045383bcc9f)
 - **2026-08-29** · `lele-manager` · **Security:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
+- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
 - **2026-08-29** · `lele-manager` · **Security:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [support composite quantity relations (#150) (#151)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a20fbb736df4a6ee12198999377a73b377eda23b)
+- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [make canonical promotion claims evidence-optional (#149)](https://github.com/gcomneno/grocery-deal-intelligence/commit/11f2608dddc3a15cc687ba6592629d689243ee52)
 - **2026-08-29** · `smart-file-organizer` · **Docs:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
 - **2026-08-29** · `lele-manager` · **Security:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add fail-closed business road test composition (#147)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e8893199cbbdf5085a1ee4c02e83d35900583125)
 - **2026-08-29** · `lele-manager` · **Security:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
+- **2026-08-29** · `grocery-deal-intelligence` · **Docs:** [explain business analysis and AI authority boundaries (#145)](https://github.com/gcomneno/grocery-deal-intelligence/commit/87d52687bb0f17b4940d0b822c9dfe4913d41699)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add deterministic exact price comparison (#143)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f5f5daf06e661bc76aba1f458cdc5f5a8ec38270)
 - **2026-08-29** · `smart-file-organizer` · **Feature:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
+- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [allow cross-size semantic comparison (#141)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f53f8784ac290d1f48378821b2bd13851af8e408)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add evidence-grounded economic normalization (#139)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e7cda4a11d090b1527e4ecca948d5390c9577be5)
 - **2026-08-29** · `lele-manager` · **Docs:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add evidence-grounded normalized product attributes (#137)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c65dbbc87d17406509e3a6fa2d13b746cf84569a)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add overridable comparison policies (#135)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ae5556cdb517d8c7f5a9af31c03073cc08a3021b)
+- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [add evidence-grounded product comparison proposals (#133)](https://github.com/gcomneno/grocery-deal-intelligence/commit/9e04d158a75881bd3b7eb002114f7d917984b1cb)
+- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [add deterministic ingestion result set (#130) (#131)](https://github.com/gcomneno/grocery-deal-intelligence/commit/aea95ba401907278258d8544ed629fd112607d62)
+- **2026-08-28** · `grocery-deal-intelligence` · **Fix:** [clarify canonical price semantics (#129)](https://github.com/gcomneno/grocery-deal-intelligence/commit/887017fc6dd8bde62b99783ba82913cf227ac425)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [align README with deterministic ingestion (#127)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6804494658d413d0460e7426e5602e5b760bd026)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [establish repository agent contract](https://github.com/gcomneno/grocery-deal-intelligence/commit/5832be20f5bd354291454698ba1abe037c4db5ae)
+- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [add deterministic batch source ingestion (#125)](https://github.com/gcomneno/grocery-deal-intelligence/commit/40158d26716e70a2b72869d9252782045fbdea5d)
+- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [make deterministic source ingestion first-class (#123)](https://github.com/gcomneno/grocery-deal-intelligence/commit/3f45f3b3b5d41f12985fc92e5d31622001e640ec)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Bennet selected-store transport verdict (#120)](https://github.com/gcomneno/grocery-deal-intelligence/commit/54c9e7100ba0e92eacfa9785a9ec1bf8d3c3b61e)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Pam selected-store transport verdict (#118)](https://github.com/gcomneno/grocery-deal-intelligence/commit/be63e069c35c1b2330c5459010181f7c3c3ab4a4)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Todis selected-store transport verdict (#116)](https://github.com/gcomneno/grocery-deal-intelligence/commit/01c85026b7cbedff176a7cd717553a876f6b350f)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Eurospin selected-store transport verdict (#114)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b687343e45db393d50e8948ad11908b323257b6f)
+- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [add deterministic multi-retailer road-test CLI (#112)](https://github.com/gcomneno/grocery-deal-intelligence/commit/23c78252f8040e786951c44564544c981f49e0e5)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record MD selected-store transport verdict (#110)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a48f8cabb247b173c92b6f0ed86e7b893dcdc932)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Conad selected-store transport verdict (#108)](https://github.com/gcomneno/grocery-deal-intelligence/commit/109d944b63bc7fb65f3a4bb8cfc11f77b363a5b5)
+- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [implement deterministic Carrefour retailer adapter (#105)](https://github.com/gcomneno/grocery-deal-intelligence/commit/0f658816e18b0c01b3d14a8199f7c54874bb74fe)
+- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [implement deterministic Despar retailer adapter (#103)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e3c9b35acb74a0ab2981d5a03343b0cff9deddd0)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [consolidate retailer source discovery (#101)](https://github.com/gcomneno/grocery-deal-intelligence/commit/60f9b17cc8edc3aff29dedeab4d1e51108004120)
+- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [persist PENNY source spike on current main (#100)](https://github.com/gcomneno/grocery-deal-intelligence/commit/2dcfdde3c94c502f599ef1d9b0fc075ef89d67ed)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Bennet selected-store source spike (#97)](https://github.com/gcomneno/grocery-deal-intelligence/commit/79e18fec35649d88e03a8599906e63358a13653a)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Pam selected-store source spike (#95)](https://github.com/gcomneno/grocery-deal-intelligence/commit/3b7d12b62d5b4e1ae1ce068396c470ea2764ceb7)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Todis selected-store source spike (#93)](https://github.com/gcomneno/grocery-deal-intelligence/commit/5c7eeb09fca0e64b6516d3312f4c9cdb3d506a5f)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Eurospin selected-store source spike (#91)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a22adf2ebcaa1879d891313b39b81dd9e9dfb2cf)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record MD selected-store source spike (#87)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c4b95d87639dd407447e781532bbb359094b98d3)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Conad selected-store source spike (#85)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b188e6fba196bdb58c78e8ef96384f4dab2b85bd)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [capture and parse Carrefour store-scoped fixture (#84)](https://github.com/gcomneno/grocery-deal-intelligence/commit/5486091181ff5fb65258fb59ed6f776b9dadd19c)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Carrefour public promotion source spike (#82)](https://github.com/gcomneno/grocery-deal-intelligence/commit/35562091893f6694672fad511ba9e6b5942cfd12)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Coop Etruria locality-aware retrieval spike (#81)](https://github.com/gcomneno/grocery-deal-intelligence/commit/7dd41a1bcda93b973b87fe9215495ce0792febf9)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Coop Etruria promotion source spike (#79)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6d99cb846a5bc90ecd71ee362bca5592b49ed5d5)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [capture and parse Despar store-scoped fixture (#78)](https://github.com/gcomneno/grocery-deal-intelligence/commit/1b74833992ff6dde2a374f3138790806926e9941)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Despar digital flyer source spike (#76)](https://github.com/gcomneno/grocery-deal-intelligence/commit/842900a24f6ea0fe6e86502b60d45927d7587e01)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record ALDI store-scoped capture spike (#75)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c09b2b203c6332c481af135a93c128a39b1b78a1)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [add Lidl deterministic completion evidence (#63)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ec02c7c7c97c39912ed181949bee4f26218655a1)
 - **2026-08-27** · `atelier-kit` · **Development:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [audit direct deterministic canonical projection (#61)](https://github.com/gcomneno/grocery-deal-intelligence/commit/977fe29e8abdf0c206123453482ab4c013f20d62)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [compose Proposal v0.1 ingestion path (#57)](https://github.com/gcomneno/grocery-deal-intelligence/commit/595223bf9a7dbef12f219fcec6b97c1e13c4d935)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [add deterministic Proposal v0.1 canonical projection (#55)](https://github.com/gcomneno/grocery-deal-intelligence/commit/15e451c2ef661624c3ff1c252dab5b30ffe7820a)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [add Proposal v0.1 AI capability and adapter (#53)](https://github.com/gcomneno/grocery-deal-intelligence/commit/2e7ebf40700a0a54a6040a9049528678cb09e1f1)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [add Proposal v0.1 contract and validator (#51)](https://github.com/gcomneno/grocery-deal-intelligence/commit/4221a5c4eed8795c2d622875e7578cb78a35f253)
+- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [define evidence-aware proposal contract (#48)](https://github.com/gcomneno/grocery-deal-intelligence/commit/96c48973057bdbefb30e23976c48a0063428a9b0)
 - **2026-08-27** · `atelier-kit` · **Fix:** [add theme-safe News reading surface (#342)](https://github.com/gcomneno/atelier-kit/commit/38b68ab367fce0d9299bc24def08cf8e6d6261f2)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [ground offer proposals with deterministic source evidence (#41)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f80c16c3c345c24cf250a65144e37e3013ce9f4f)
+- **2026-08-27** · `grocery-deal-intelligence` · **Development:** [experiment: rerun fixed retailer corpus with canonical admission (#39)](https://github.com/gcomneno/grocery-deal-intelligence/commit/dfa69686bbaa3e2ae6e5ca12d3cb05552940fea7)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [compose canonical admission in ingestion (#37)](https://github.com/gcomneno/grocery-deal-intelligence/commit/8ff570c787a029be27b3393d8ba3557a5ef8c344)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [define deterministic canonical admission policy (#35)](https://github.com/gcomneno/grocery-deal-intelligence/commit/331ed6331080434ca647a1463200fbbb11e448c9)
+- **2026-08-27** · `grocery-deal-intelligence` · **Development:** [experiment: classify semantic claims on fixed retailer corpus (#34)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e918ff908b5199b337c9298ba4545adaa082a4dc)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [add deterministic source evidence verification (#31)](https://github.com/gcomneno/grocery-deal-intelligence/commit/7a02ae4132c6f0569499f64798e6cad5f1b16275)
+- **2026-08-26** · `grocery-deal-intelligence` · **Feature:** [adopt schema-constrained grocery offer proposals (#29)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ee6be2a5a66d8a53c3c7de4ce1d1eab79ac32c19)
 - **2026-08-26** · `smart-file-organizer` · **Feature:** [make recovery planning safety-aware (#96)](https://github.com/gcomneno/smart-file-organizer/commit/4a4a887b94e2a42d23587d84c2ca01072eeca364)
-- **2026-08-25** · `atelier-kit` · **Fix:** [keep synopsis toggle in layout flow (#41) (#340)](https://github.com/gcomneno/atelier-kit/commit/5c5465649b5f8834b7bfe76231889b1bcac34ea8)
-- **2026-08-25** · `atelier-kit` · **Fix:** [preserve client-owned News YAML (#339)](https://github.com/gcomneno/atelier-kit/commit/d9a9d48d9d9eb62608fb1e8232613bd2005d17f9)
-- **2026-08-25** · `atelier-kit` · **Feature:** [add controlled strong/em emphasis tokens (#338)](https://github.com/gcomneno/atelier-kit/commit/ba31eecf6953b815c08319ff47b7bf2d523ae10a)
-- **2026-08-25** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1)
-- **2026-08-25** · `atelier-kit` · **Development:** [Release Atelier-Kit v0.5.1 (#334)](https://github.com/gcomneno/atelier-kit/commit/2532db3c573482ffd2a36b7f277779901311286e)
-- **2026-08-25** · `atelier-kit` · **Fix:** [improve mobile sidebar readability (#333)](https://github.com/gcomneno/atelier-kit/commit/fe953516389b4d36f554db787e57226c4d3bdde0)
-- **2026-08-25** · `atelier-kit` · **Fix:** [preserve News card contrast across themes (#332)](https://github.com/gcomneno/atelier-kit/commit/85f70c45493369b671a0d3b11987f4564e9a2040)
-- **2026-08-24** · `smart-file-organizer` · **Feature:** [classify verifiable recovery safety (#92)](https://github.com/gcomneno/smart-file-organizer/commit/9e18d7888e96afd170060d6f00ab2241f06632ba)
-- **2026-08-24** · `semantic-mail-archivist` · **Docs:** [define production Gmail OAuth readiness boundary (#52)](https://github.com/gcomneno/semantic-mail-archivist/commit/4891a9f5b8d003089981252fdc8fff3541e88c86)
-- **2026-08-24** · `lele-manager` · **Feature:** [add explainable hybrid search (#247)](https://github.com/gcomneno/lele-manager/commit/9f62147df2bf6d7cecb836ffb9d493844ad02c06)
-- **2026-08-24** · `semantic-mail-archivist` · **Docs:** [record blocked commercial readiness checkpoint (#51)](https://github.com/gcomneno/semantic-mail-archivist/commit/fdbb92f9e42188d201be6c16e64b7f5f792048f6)
-- **2026-08-24** · `semantic-mail-archivist` · **Docs:** [align public read-only product boundary (#49)](https://github.com/gcomneno/semantic-mail-archivist/commit/4a292a0dd5122352cd62d908aa99a668022d839d)
-- **2026-08-24** · `semantic-mail-archivist` · **Docs:** [add Mailbox Semantic Health Audit acceptance report (#48)](https://github.com/gcomneno/semantic-mail-archivist/commit/799bcfb992216c13add91b4336dc2ec95dbd6e5e)
-- **2026-08-23** · `smart-file-organizer` · **Feature:** [verify current identity against Manifest v2 evidence (#90)](https://github.com/gcomneno/smart-file-organizer/commit/a5bef40cbf96eba52df644023bc0bc19d17e700f)
-- **2026-08-23** · `lele-manager` · **Feature:** [add potential contradiction review workflow (#246)](https://github.com/gcomneno/lele-manager/commit/e1cc041142128fa5575d3a6ffad51b786b9ba4a4)
-- **2026-08-23** · `semantic-mail-archivist` · **Docs:** [record read-only road-test evidence (#47)](https://github.com/gcomneno/semantic-mail-archivist/commit/50657c8ca8a929e438c777956f841708aaf22414)
-- **2026-08-23** · `physics-study` · **Docs:** [add lesson on nuclear structure and stability (#5)](https://github.com/gcomneno/physics-study/commit/dd29427772b2430032a6b851ddaf85256df7b342)
-- **2026-08-23** · `smart-file-organizer` · **Feature:** [write Manifest v2 identity evidence during apply (#88)](https://github.com/gcomneno/smart-file-organizer/commit/1ede468a5d97ebc59934f003e9f69b87f6c7a9e8)
-- **2026-08-23** · `smart-file-organizer` · **Docs:** [design Manifest v2 identity schema (#86)](https://github.com/gcomneno/smart-file-organizer/commit/dfb7aac1d594ea95ab97f222c5d29a65dc5bc5b2)
-- **2026-08-22** · `atelier-kit` · **Development:** [product: define Atelier-Kit commercial offer (#328)](https://github.com/gcomneno/atelier-kit/commit/4c331fa99baf5a29e347f7ade5028a3c301480d4)
-- **2026-08-22** · `atelier-kit` · **Release:** [Atelier-Kit v0.5.0](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.0)
-- **2026-08-22** · `atelier-kit` · **Development:** [Release Atelier-Kit v0.5.0 (#327)](https://github.com/gcomneno/atelier-kit/commit/e5abee822a9d01bd859ed5c962d64d699b4bcf30)
-- **2026-08-22** · `atelier-kit` · **Fix:** [prevent mobile header search gap (#326)](https://github.com/gcomneno/atelier-kit/commit/04b2fa7e08c65c38573e27d2e8b4d591124175bb)
-- **2026-08-22** · `physics-study` · **Docs:** [add introductory quantum mechanics lesson (#3)](https://github.com/gcomneno/physics-study/commit/dc4eaaefdc8ee1a97b39a31bdfbe41963e64a5b1)
-- **2026-08-22** · `atelier-kit` · **Security:** [lock production Vercel CLI (#319)](https://github.com/gcomneno/atelier-kit/commit/e4eef6cfc23fd017be28f92deb51e5b7f474a49b)
-- **2026-08-22** · `giadaware-ui-components` · **Security:** [align immutable release guarantees (#71)](https://github.com/gcomneno/giadaware-ui-components/commit/444e3df7b77ba86b814e07866c6bb758dc86b22a)
-- **2026-08-21** · `web` · **Docs:** [migrate Laravel lessons 22-23 to bilingual pairs](https://github.com/gcomneno/web/commit/f3b91cc8f11147b9bd432e4f5292e3dda01663e5)
-- **2026-08-21** · `web` · **Development:** [Add Laravel lesson 23 Vite assets](https://github.com/gcomneno/web/commit/3b36a7c3dc2ae7650ef97671a17e2749e918d373)
-- **2026-08-21** · `web` · **Development:** [Add Laravel lesson 22 Eloquent events](https://github.com/gcomneno/web/commit/c97c7b5960104d22ceebe60dc9116e7da5310d4e)
-- **2026-08-20** · `lele-manager` · **Feature:** [surface knowledge freshness signals (#245)](https://github.com/gcomneno/lele-manager/commit/b314f87a7bcca1c1b04332b8b9e234ef6f0af80f)
-- **2026-08-20** · `smart-file-organizer` · **Docs:** [define verifiable recovery contract (#84)](https://github.com/gcomneno/smart-file-organizer/commit/67f267f86157ac100eaf2a48f1bd46d9b7b6214c)
-- **2026-08-19** · `atelier-kit` · **Fix:** [translate Hero save success (#314)](https://github.com/gcomneno/atelier-kit/commit/39e4f33975cb41f622d0f6c2a04ec5cffc7589a7)
-- **2026-08-19** · `atelier-kit` · **Feature:** [add external CTA support (#312)](https://github.com/gcomneno/atelier-kit/commit/74c9160d0b07341b3455641654f2b29421a52a12)
-- **2026-08-19** · `atelier-kit` · **Fix:** [preserve untouched Hero YAML (#311)](https://github.com/gcomneno/atelier-kit/commit/775cd28d0e51590ee8bc18b672e346c59a4dfe47)
-- **2026-08-17** · `lele-manager` · **Feature:** [add typed lesson relationships (#244)](https://github.com/gcomneno/lele-manager/commit/36698cd2131b4c99f38df2509f9ef3b4dc706ef6)
-- **2026-08-17** · `atelier-kit` · **Fix:** [define authored revision preview contract (#306)](https://github.com/gcomneno/atelier-kit/commit/3be6c4e715aa9ca7d32e1c5c699212140146bca4)
-- **2026-08-17** · `atelier-kit` · **Fix:** [flush Hero saving state before submit (#305)](https://github.com/gcomneno/atelier-kit/commit/1a2f7f22ebf7d2e29c36fb42af88421e77714041)
-- **2026-08-17** · `atelier-kit` · **Docs:** [define Base content preparation boundary](https://github.com/gcomneno/atelier-kit/commit/e0c6e6d5046c2b8a20ae59df91788b0ded715720)
-- **2026-08-17** · `atelier-kit` · **Docs:** [define canonical €290 showcase service package](https://github.com/gcomneno/atelier-kit/commit/36ea3ba8b8dfd4496f3fc8fbe29a379317a69576)
-- **2026-08-17** · `atelier-kit` · **Fix:** [prevent duplicate Hero submits (#303)](https://github.com/gcomneno/atelier-kit/commit/f75c0050f191f5e5ef54fadb3e769b63181c2aa1)
-- **2026-08-15** · `atelier-kit` · **Fix:** [propagate sharp dependency (#298)](https://github.com/gcomneno/atelier-kit/commit/c8599a4c016d376e7d21de921bfe6a7081964ee2)
-- **2026-08-15** · `lele-manager` · **Feature:** [add per-LeLe revision history and rollback (#237)](https://github.com/gcomneno/lele-manager/commit/b23eaa9266c18b50a6f1a40ea53872e5abb68a07)
-- **2026-08-15** · `atelier-kit` · **Feature:** [add optional Vercel Web Analytics (#296)](https://github.com/gcomneno/atelier-kit/commit/0ca74a873e1609f98a995b2c2ce9474fc50d46e6)
-- **2026-08-15** · `lele-manager` · **Feature:** [brand LeLe Manager as Your Managed Second Brain (#236)](https://github.com/gcomneno/lele-manager/commit/4272371360043e8176bb8d08331420a6865de67c)
-- **2026-08-15** · `lele-manager` · **Fix:** [refine original monkey cameo timing (#235)](https://github.com/gcomneno/lele-manager/commit/f9cb3a7238440d227316ab079d43674850fa5f20)
-- **2026-08-15** · `atelier-kit` · **Feature:** [migrate Hero image authoring to controlled boundary (#295)](https://github.com/gcomneno/atelier-kit/commit/abcbf1b4af2c155c3544d1b18dbf3d91ff77a54f)
-- **2026-08-15** · `atelier-kit` · **Feature:** [add controlled image-upload authoring boundary (#293)](https://github.com/gcomneno/atelier-kit/commit/b43a09b4ba418b8eeb59c2a9451b4fdc2bf3cac5)
-- **2026-08-15** · `lele-manager` · **Feature:** [add explicit lesson lifecycle and supersession semantics (#234)](https://github.com/gcomneno/lele-manager/commit/b54229be80a2e9677feecad46119445cb2312545)
-- **2026-08-15** · `giadaware-ui-components` · **Release:** [Giada UI 0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0)
-- **2026-08-15** · `giadaware-ui-components` · **Docs:** [define release and versioning policy (#65)](https://github.com/gcomneno/giadaware-ui-components/commit/3d8d3bbf995bda6c4b6a4aa38d9ffc681cefa50a)
-- **2026-08-15** · `giadaware-ui-components` · **Docs:** [establish bilingual public documentation contract (#63)](https://github.com/gcomneno/giadaware-ui-components/commit/2ef23bb65466032502a71b275cdad49e0933c491)
-- **2026-08-15** · `lele-manager` · **Fix:** [serialize Danger Zone destructive commits against Vault activation (#233)](https://github.com/gcomneno/lele-manager/commit/f24c25a1b35d76802781bfefa0fb3b575e913f31)
-- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add editable list drag handles (#61)](https://github.com/gcomneno/giadaware-ui-components/commit/ce00ea338fd70091dfe2719e5fd6d5fa1e3f5abe)
-- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add async operation progress (#60)](https://github.com/gcomneno/giadaware-ui-components/commit/43e58d50928ed040c52184beb1e61efc55a0a4c7)
-- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add reorder position context (#59)](https://github.com/gcomneno/giadaware-ui-components/commit/f14422a0216aec6d32c139b29bd2c3961e07e4eb)
-- **2026-08-15** · `giadaware-ui-components` · **Feature:** [announce reorder outcomes accessibly (#58)](https://github.com/gcomneno/giadaware-ui-components/commit/08cd9e0734f95d27aa995d9c7647b2a0724ef188)
-- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add composable StatusNotice (#57)](https://github.com/gcomneno/giadaware-ui-components/commit/1578655b453a9dc66f9e2123f2991b1254a35c10)
-- **2026-08-15** · `giadaware-ui-components` · **Feature:** [add field description and error primitives (#56)](https://github.com/gcomneno/giadaware-ui-components/commit/762d6677a3ce98aeb893b0e06e57108359a9e907)
-- **2026-08-14** · `atelier-kit` · **Docs:** [correct current release](https://github.com/gcomneno/atelier-kit/commit/75dad938c936ed662323e13a723e721a4ca5a218)
-- **2026-08-14** · `boardlab` · **Feature:** [prepare canonical Session 01 learning path](https://github.com/gcomneno/boardlab/commit/12e853899590e5ba07e1f5cb333bc4b3fc20ae05)
-- **2026-08-14** · `lele-manager` · **Feature:** [add per-vault destructive danger zone workflows (#231)](https://github.com/gcomneno/lele-manager/commit/b685ce1af507a430721348587a812a6c95be7c86)
-- **2026-08-14** · `lele-manager` · **Feature:** [add safe vault merge and transfer workflows (#230)](https://github.com/gcomneno/lele-manager/commit/4587399180a4ce6af42630500d580463420667e7)
-- **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible SocialLink (#55)](https://github.com/gcomneno/giadaware-ui-components/commit/80aa64e91c5241d96bcd6936715c78903b89e21c)
-- **2026-08-14** · `semantic-mail-archivist` · **Feature:** [add crash-aware mutation journal (#40)](https://github.com/gcomneno/semantic-mail-archivist/commit/edf2dade4a548c8819265ef4f8fca810740263e2)
-- **2026-08-14** · `giadaware-ui-components` · **Feature:** [add accessible IconButton (#54)](https://github.com/gcomneno/giadaware-ui-components/commit/e8cb149c30f63fa81a8cccb5b9b6bb7d87e5dd8d)
-- **2026-08-14** · `ubuntu-system-tools` · **Feature:** [add safety-first ClamAV weekly health tools (#46)](https://github.com/gcomneno/ubuntu-system-tools/commit/0858174c85a867adafc8525f21786a2ce38ca7fd)
-- **2026-08-14** · `giadaware-ui-components` · **Feature:** [add Button content regions (#53)](https://github.com/gcomneno/giadaware-ui-components/commit/427bf4c20df7836d90d75510a03e9585d39e5392)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [compact wheel digit chips (#50)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7fb7066615579a3e6d890f59a13a6913a3bb16c6)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [give consensus full-width layout (#49)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09e91f4252fb50d969c116a1d60536bfe73af7cf)
-- **2026-08-14** · `lotto-digit-coverage-dynamics` · **Fix:** [align consensus semantics with CLI (#46)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/558072b21314daff1cf3e38e0a4e4f41e96d512b)
+- **2026-08-26** · `giadaware-ai` · **Feature:** [add schema-constrained JSON backend contract (#18)](https://github.com/gcomneno/giadaware-ai/commit/7083e8ea70dd2d822fa748718c16872c1c5c4ed6)
+- **2026-08-26** · `grocery-deal-intelligence` · **Docs:** [audit capability and canonical schema contract (#27)](https://github.com/gcomneno/grocery-deal-intelligence/commit/fb2456137bbbbca628face37097e53bb31fae9da)
 
-_Showing the 100 most recent meaningful updates; 786 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 904 older update(s) omitted._
 
 </details>
 
