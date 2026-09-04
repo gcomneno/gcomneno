@@ -198,14 +198,16 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-04** · `grocery-deal-intelligence` · **Funzionalità:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
+- **2026-09-04** · `digit-probe` · **Sicurezza:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
@@ -300,10 +302,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-27** · `grocery-deal-intelligence` · **Funzionalità:** [capture and parse Despar store-scoped fixture (#78)](https://github.com/gcomneno/grocery-deal-intelligence/commit/1b74833992ff6dde2a374f3138790806926e9941)
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record Despar digital flyer source spike (#76)](https://github.com/gcomneno/grocery-deal-intelligence/commit/842900a24f6ea0fe6e86502b60d45927d7587e01)
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record ALDI store-scoped capture spike (#75)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c09b2b203c6332c481af135a93c128a39b1b78a1)
-- **2026-08-27** · `grocery-deal-intelligence` · **Funzionalità:** [add Lidl deterministic completion evidence (#63)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ec02c7c7c97c39912ed181949bee4f26218655a1)
-- **2026-08-27** · `atelier-kit` · **Sviluppo:** [architecture(news): add bounded detail extension seam (#344)](https://github.com/gcomneno/atelier-kit/commit/7c854b2c75371d088ada94440fb197e430b78c49)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 920 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 922 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
