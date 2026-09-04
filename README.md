@@ -258,7 +258,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `lele-manager` · **Security:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [support composite quantity relations (#150) (#151)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a20fbb736df4a6ee12198999377a73b377eda23b)
 - **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [make canonical promotion claims evidence-optional (#149)](https://github.com/gcomneno/grocery-deal-intelligence/commit/11f2608dddc3a15cc687ba6592629d689243ee52)
-- **2026-08-29** · `grocery-deal-intelligence` · **Docs:** [align Despar with evidence-optional promotion contract (#148)](https://github.com/gcomneno/grocery-deal-intelligence/commit/94651bcb60bec2dec1ddd82e8d11af2abb0c2dad)
 - **2026-08-29** · `smart-file-organizer` · **Docs:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
 - **2026-08-29** · `lele-manager` · **Security:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add fail-closed business road test composition (#147)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e8893199cbbdf5085a1ee4c02e83d35900583125)
@@ -302,8 +301,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [capture and parse Despar store-scoped fixture (#78)](https://github.com/gcomneno/grocery-deal-intelligence/commit/1b74833992ff6dde2a374f3138790806926e9941)
 - **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Despar digital flyer source spike (#76)](https://github.com/gcomneno/grocery-deal-intelligence/commit/842900a24f6ea0fe6e86502b60d45927d7587e01)
 - **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record ALDI store-scoped capture spike (#75)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c09b2b203c6332c481af135a93c128a39b1b78a1)
+- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [add Lidl deterministic completion evidence (#63)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ec02c7c7c97c39912ed181949bee4f26218655a1)
 
-_Showing the 100 most recent meaningful updates; 922 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 921 older update(s) omitted._
 
 </details>
 
