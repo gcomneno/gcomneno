@@ -200,20 +200,24 @@ I turn study into documented, reproducible paths rather than presenting learning
 
 - **2026-09-04** · `grocery-deal-intelligence` · **Feature:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
 - **2026-09-04** · `digit-probe` · **Security:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document validated repository handoff lifecycle](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f26c375af1c44ed512e7251f4826c51df92d1814)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [automate validated repository handoff to PR creation](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/cdbe0a5a3519d3cd45ceeca45279a88adea5a6f6)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add public-candidate command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b757ba4b3900eee141b0b82ce9e12045f8be5795)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [add physics-study consumer contract acceptance case](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/41a21ee123edc8a235226f5b129753da9f680243)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Fix:** [keep generated candidate reviewable with one H1](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a64cd33c067936c65e87cc2925a327fd0cb1d5b4)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local Whisper transcription fallback](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/bfd1d1a68ab903340cada990a7b6cdf4dc387fd7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize source-to-skill projection model](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f1ef84a977ab991fd82d4a4aeed818095b4df8dd)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [define social-source triage contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/60148201f425276a1f8d4e06b76e6b7f74b14ae0)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
@@ -224,7 +228,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-01** · `atelier-kit` · **Fix:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 - **2026-09-01** · `atelier-kit` · **Fix:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
 - **2026-08-31** · `atelier-kit` · **Feature:** [complete native sitemap integration (#354)](https://github.com/gcomneno/atelier-kit/commit/dc94b3d91ecaefe4d25b74cc41be8f55c0abf76d)
-- **2026-08-31** · `craft-parts` · **Fix:** [avoid substring package error matches](https://github.com/gcomneno/craft-parts/commit/f68c44d95b5e0888b3cf4d34a1e6bf5ac5b9cfdb)
 - **2026-08-31** · `snapcraft` · **Fix:** [allow long directory names (#6216)](https://github.com/gcomneno/snapcraft/commit/25454633707006595771f7a024c84809b4fa5ad1)
 - **2026-08-31** · `atelier-kit` · **Docs:** [formalize canonical language contract (#353)](https://github.com/gcomneno/atelier-kit/commit/c8dd99962dd9fb3771576a737611918f0e894879)
 - **2026-08-31** · `grocery-deal-intelligence` · **Feature:** [define Esselunga capture evidence contract (#175) (#176)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f095c360696c296cc34aeeafc79767c62c13cc5f)
@@ -238,7 +241,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-31** · `giadaware-ai` · **Development:** [experiment: add controlled prose naturalization spike (#21)](https://github.com/gcomneno/giadaware-ai/commit/b729dbba95e4f45969fdf859c5b576c037e5bfc8)
 - **2026-08-31** · `giadaware-ai` · **Docs:** [define capability qualification and admission contract (#23)](https://github.com/gcomneno/giadaware-ai/commit/41cbe7e1a50b05137d5bdece4a577ea194f00ac0)
 - **2026-08-31** · `giadaware-ai` · **Feature:** [add provider-independent translation capability (#26)](https://github.com/gcomneno/giadaware-ai/commit/a40edd8ed27fb9bab62f0be52103b49c1725f07e)
-- **2026-08-31** · `giadaware-ai` · **Fix:** [preserve translation source text exactly (#13)](https://github.com/gcomneno/giadaware-ai/commit/8379e350bdbb541fca6d98174c9b708b9e00d671)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
 - **2026-08-31** · `giadaware-ai` · **Docs:** [adopt shared learning vocabulary (#25)](https://github.com/gcomneno/giadaware-ai/commit/8f6a049af8e5ad3ced8163307f41dd0ef1a69fc3)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
@@ -300,10 +302,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Coop Etruria promotion source spike (#79)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6d99cb846a5bc90ecd71ee362bca5592b49ed5d5)
 - **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [capture and parse Despar store-scoped fixture (#78)](https://github.com/gcomneno/grocery-deal-intelligence/commit/1b74833992ff6dde2a374f3138790806926e9941)
 - **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Despar digital flyer source spike (#76)](https://github.com/gcomneno/grocery-deal-intelligence/commit/842900a24f6ea0fe6e86502b60d45927d7587e01)
-- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record ALDI store-scoped capture spike (#75)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c09b2b203c6332c481af135a93c128a39b1b78a1)
-- **2026-08-27** · `grocery-deal-intelligence` · **Feature:** [add Lidl deterministic completion evidence (#63)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ec02c7c7c97c39912ed181949bee4f26218655a1)
 
-_Showing the 100 most recent meaningful updates; 921 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 923 older update(s) omitted._
 
 </details>
 
