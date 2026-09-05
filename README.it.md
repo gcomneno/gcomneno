@@ -303,7 +303,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record Coop Etruria locality-aware retrieval spike (#81)](https://github.com/gcomneno/grocery-deal-intelligence/commit/7dd41a1bcda93b973b87fe9215495ce0792febf9)
 - **2026-08-27** · `grocery-deal-intelligence` · **Documentazione:** [record Coop Etruria promotion source spike (#79)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6d99cb846a5bc90ecd71ee362bca5592b49ed5d5)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 925 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 924 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

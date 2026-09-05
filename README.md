@@ -303,7 +303,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Coop Etruria locality-aware retrieval spike (#81)](https://github.com/gcomneno/grocery-deal-intelligence/commit/7dd41a1bcda93b973b87fe9215495ce0792febf9)
 - **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Coop Etruria promotion source spike (#79)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6d99cb846a5bc90ecd71ee362bca5592b49ed5d5)
 
-_Showing the 100 most recent meaningful updates; 925 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 924 older update(s) omitted._
 
 </details>
 
