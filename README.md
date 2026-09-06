@@ -198,14 +198,19 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [keep database language parsing deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a52e1383fbd8e41b5534d81b26d4f45d6f20f797)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add occurrence-group localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/523c7b25a0d1c8cae087f4e48354d1e40477b27a)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current dashboard core surfaces (#63)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9755d0947541d029909ead719a4ae6ec543718cf)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add GUI localization foundation (#62)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5aa09ca374d58ab59be2dcd8d0c2ebcc4cf52f46)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Refactor:** [align GUI catalog fallback with localization contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/294d6392c02827b10c8eda3d884aaef5c2e169c9)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [preserve navigation layout with language selector](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4cda1cdb3726db5221390e12bcb8df22b227fa24)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add GUI language selector and localized shell](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/97fe44226ab5bf2c48f0729dd831765691add537)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [keep database language parsing deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a52e1383fbd8e41b5534d81b26d4f45d6f20f797)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add occurrence-group localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/523c7b25a0d1c8cae087f4e48354d1e40477b27a)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add residual current CLI localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/40cbc1fca57f24fb02ccffe816a50dfb6b122c17)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current CLI representative surfaces (#58)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/04edea410fe35b8e470dcbe173eadeecc532b78d)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [keep language validation inside current CLI parser](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/52840a7cac2d427d075c1fb074301e98dff974ce)
@@ -297,13 +302,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `lele-manager` · **Security:** [pin PyPI publishing actions (#250)](https://github.com/gcomneno/lele-manager/commit/f2b77bdce3edc72492dd9370966ad8b5bf4c33a9)
 - **2026-08-29** · `grocery-deal-intelligence` · **Docs:** [explain business analysis and AI authority boundaries (#145)](https://github.com/gcomneno/grocery-deal-intelligence/commit/87d52687bb0f17b4940d0b822c9dfe4913d41699)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add deterministic exact price comparison (#143)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f5f5daf06e661bc76aba1f458cdc5f5a8ec38270)
-- **2026-08-29** · `smart-file-organizer` · **Feature:** [expose verifiable recovery contract (#98)](https://github.com/gcomneno/smart-file-organizer/commit/dcc56e3134ab649178b8fca3814bdf8e9954bf6c)
-- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [allow cross-size semantic comparison (#141)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f53f8784ac290d1f48378821b2bd13851af8e408)
-- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add evidence-grounded economic normalization (#139)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e7cda4a11d090b1527e4ecca948d5390c9577be5)
-- **2026-08-29** · `lele-manager` · **Docs:** [declare Pro commercial readiness (#249)](https://github.com/gcomneno/lele-manager/commit/bd41015c5202f2695ae763bf7f7ccb3f0d451c14)
-- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add evidence-grounded normalized product attributes (#137)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c65dbbc87d17406509e3a6fa2d13b746cf84569a)
 
-_Showing the 100 most recent meaningful updates; 949 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 954 older update(s) omitted._
 
 </details>
 
