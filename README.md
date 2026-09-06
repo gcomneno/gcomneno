@@ -198,16 +198,23 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-05** · `giadaware-ui-components` · **Feature:** [add reusable image focal-point control (#74)](https://github.com/gcomneno/giadaware-ui-components/commit/3980787c1fd5736cca46467ad51a5617a551c04b)
-- **2026-09-04** · `grocery-deal-intelligence` · **Feature:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
-- **2026-09-04** · `digit-probe` · **Security:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document validated repository handoff lifecycle](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f26c375af1c44ed512e7251f4826c51df92d1814)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [establish localization foundation and presentation contract (#55)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/28e6e7250e7203a48e5160de4b620d3469ab3a24)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add safe GiadaWare AI natural-language query adapter (#53)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/48fd0e20c6afb8413fac8e13d1f8f7c2663f3c7a)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [route db ask through natural query adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7897f009c1182b6d735f47b909d607544e6d01e9)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add natural-language database query command](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09ef634f1d24c9918953a5a2763ba67472bfb935)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add read-only draw history repository](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5ac4cab3af02318fb280f1855f7301c56f655f42)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add validated natural query contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7263a7fb19e5baed5fa88b758b7e46861039c690)
+- **2026-09-05** · `giadaware-ui-components` · **Feature:** [add reusable image focal-point control (#74)](https://github.com/gcomneno/giadaware-ui-components/commit/3980787c1fd5736cca46467ad51a5617a551c04b)
+- **2026-09-04** · `grocery-deal-intelligence` · **Feature:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
+- **2026-09-04** · `digit-probe` · **Security:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document validated repository handoff lifecycle](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f26c375af1c44ed512e7251f4826c51df92d1814)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [automate validated repository handoff to PR creation](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/cdbe0a5a3519d3cd45ceeca45279a88adea5a6f6)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document consumer contracts and staging authority](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/990be029ddce632114f42adb9e9474633bf15108)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add public-candidate command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b757ba4b3900eee141b0b82ce9e12045f8be5795)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [add physics-study consumer contract acceptance case](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/41a21ee123edc8a235226f5b129753da9f680243)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add consumer contracts and public-safe staging candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c0b3898cde4a4fbbf74144eb39c8d5d3feded6fc)
@@ -218,8 +225,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Fix:** [keep generated candidate reviewable with one H1](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a64cd33c067936c65e87cc2925a327fd0cb1d5b4)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document editorial-candidate authority boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/d09aa735f2974301cb4473c644d419901dc5401b)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c4f51ca6c5aefcf826b4e442665ff10912a2053f)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add publication reproducibility CLI](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/7e0ee117ca9075bf3da57b6378bed301abd56eee)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add publication reproducibility verifier](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/6d43ea657012bc0c265c56623a883d0af64f26be)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [use local transcription when captions are unavailable](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/7657e69c0135c15b9c93d45d6c0679f3abb06ce7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local Whisper transcription fallback](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/bfd1d1a68ab903340cada990a7b6cdf4dc387fd7)
@@ -233,8 +242,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
 - **2026-09-02** · `atelier-kit` · **Docs:** [record Nero Hosted chain retirement (#362)](https://github.com/gcomneno/atelier-kit/commit/64cb9c22114bd431768c6fcbbe80acf2b500c6ae)
 - **2026-09-02** · `atelier-kit` · **Docs:** [reconcile retired #275 validation infrastructure (#360)](https://github.com/gcomneno/atelier-kit/commit/b02295956a15fc59739a8fd2f7080e1c05379620)
-- **2026-09-02** · `atelier-kit` · **Docs:** [keep deployment credentials dedicated by default](https://github.com/gcomneno/atelier-kit/commit/aca0194f7a341bc27a75d95662c9048d739ebfa9)
-- **2026-09-02** · `atelier-kit` · **Docs:** [retire obsolete validation deployment references](https://github.com/gcomneno/atelier-kit/commit/b7ce46230c412d81c308ff0972fa3b5c6f1461ed)
 - **2026-09-01** · `atelier-kit` · **Fix:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 - **2026-09-01** · `atelier-kit` · **Fix:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
 - **2026-08-31** · `atelier-kit` · **Feature:** [complete native sitemap integration (#354)](https://github.com/gcomneno/atelier-kit/commit/dc94b3d91ecaefe4d25b74cc41be8f55c0abf76d)
@@ -295,15 +302,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Eurospin selected-store transport verdict (#114)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b687343e45db393d50e8948ad11908b323257b6f)
 - **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [add deterministic multi-retailer road-test CLI (#112)](https://github.com/gcomneno/grocery-deal-intelligence/commit/23c78252f8040e786951c44564544c981f49e0e5)
 - **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record MD selected-store transport verdict (#110)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a48f8cabb247b173c92b6f0ed86e7b893dcdc932)
-- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Conad selected-store transport verdict (#108)](https://github.com/gcomneno/grocery-deal-intelligence/commit/109d944b63bc7fb65f3a4bb8cfc11f77b363a5b5)
-- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [implement deterministic Carrefour retailer adapter (#105)](https://github.com/gcomneno/grocery-deal-intelligence/commit/0f658816e18b0c01b3d14a8199f7c54874bb74fe)
-- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [implement deterministic Despar retailer adapter (#103)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e3c9b35acb74a0ab2981d5a03343b0cff9deddd0)
-- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [consolidate retailer source discovery (#101)](https://github.com/gcomneno/grocery-deal-intelligence/commit/60f9b17cc8edc3aff29dedeab4d1e51108004120)
-- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [persist PENNY source spike on current main (#100)](https://github.com/gcomneno/grocery-deal-intelligence/commit/2dcfdde3c94c502f599ef1d9b0fc075ef89d67ed)
-- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Bennet selected-store source spike (#97)](https://github.com/gcomneno/grocery-deal-intelligence/commit/79e18fec35649d88e03a8599906e63358a13653a)
-- **2026-08-27** · `grocery-deal-intelligence` · **Docs:** [record Pam selected-store source spike (#95)](https://github.com/gcomneno/grocery-deal-intelligence/commit/3b7d12b62d5b4e1ae1ce068396c470ea2764ceb7)
 
-_Showing the 100 most recent meaningful updates; 928 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 935 older update(s) omitted._
 
 </details>
 
