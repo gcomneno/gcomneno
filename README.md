@@ -212,6 +212,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `grocery-deal-intelligence` · **Feature:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
 - **2026-09-04** · `digit-probe` · **Security:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document validated repository handoff lifecycle](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f26c375af1c44ed512e7251f4826c51df92d1814)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add approval-gated repository handoff command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/137ffa300bdbe1f877f11843914240b976be1fdd)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [automate validated repository handoff to PR creation](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/cdbe0a5a3519d3cd45ceeca45279a88adea5a6f6)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document consumer contracts and staging authority](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/990be029ddce632114f42adb9e9474633bf15108)
@@ -225,11 +226,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Fix:** [keep generated candidate reviewable with one H1](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a64cd33c067936c65e87cc2925a327fd0cb1d5b4)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document editorial-candidate authority boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/d09aa735f2974301cb4473c644d419901dc5401b)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add editorial-candidate command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/0a3eaa6c35799e7cd1bab7b11e842ab68cb09e1e)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c4f51ca6c5aefcf826b4e442665ff10912a2053f)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [define publication reproducibility contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/1c1d01e705450de9a3270a357aff53c64f4046a1)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add publication reproducibility CLI](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/7e0ee117ca9075bf3da57b6378bed301abd56eee)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add publication reproducibility verifier](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/6d43ea657012bc0c265c56623a883d0af64f26be)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document local transcription fallback contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/43db3b8b5a05183e3c0c803325caf183b40a4bc1)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [use local transcription when captions are unavailable](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/7657e69c0135c15b9c93d45d6c0679f3abb06ce7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local Whisper transcription fallback](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/bfd1d1a68ab903340cada990a7b6cdf4dc387fd7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
@@ -298,12 +302,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [make deterministic source ingestion first-class (#123)](https://github.com/gcomneno/grocery-deal-intelligence/commit/3f45f3b3b5d41f12985fc92e5d31622001e640ec)
 - **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Bennet selected-store transport verdict (#120)](https://github.com/gcomneno/grocery-deal-intelligence/commit/54c9e7100ba0e92eacfa9785a9ec1bf8d3c3b61e)
 - **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Pam selected-store transport verdict (#118)](https://github.com/gcomneno/grocery-deal-intelligence/commit/be63e069c35c1b2330c5459010181f7c3c3ab4a4)
-- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Todis selected-store transport verdict (#116)](https://github.com/gcomneno/grocery-deal-intelligence/commit/01c85026b7cbedff176a7cd717553a876f6b350f)
-- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record Eurospin selected-store transport verdict (#114)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b687343e45db393d50e8948ad11908b323257b6f)
-- **2026-08-28** · `grocery-deal-intelligence` · **Feature:** [add deterministic multi-retailer road-test CLI (#112)](https://github.com/gcomneno/grocery-deal-intelligence/commit/23c78252f8040e786951c44564544c981f49e0e5)
-- **2026-08-28** · `grocery-deal-intelligence` · **Docs:** [record MD selected-store transport verdict (#110)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a48f8cabb247b173c92b6f0ed86e7b893dcdc932)
 
-_Showing the 100 most recent meaningful updates; 935 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 939 older update(s) omitted._
 
 </details>
 
