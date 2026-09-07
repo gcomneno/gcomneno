@@ -198,14 +198,22 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [establish dynamic research translation contract (#68)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/65c959a9684090821048758ff8838956fe743cd8)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add dynamic research translation boundary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0ad7a3ddd17928c26222d71d06cc33c966f18dce)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [make dynamic research source canonical English](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6d94002cba03975ed513c8b2b7827feceddd13bf)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize research reports static presentation (#66)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/35bf824920aff02981329906bee3746517a05a51)
+- **2026-09-07** · `atelier-kit` · **Feature:** [add editorial image focal-point control (#363) (#367)](https://github.com/gcomneno/atelier-kit/commit/14d943d46bd2aa818af43c70f9b2b92845ef335d)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [finalize documentation localization policy (#70)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/47ed504166a2347e25d083b754e6446401ce0e51)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [close localization migration contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/109d286b385b244c42c218cf7dc3dc8d4fd56d44)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [mark English documentation authoritative](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a44598913d6c27d63ac04879e301a07f471f9d1a)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [integrate GiadaWare AI research translation (#69)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6d7eefc596f4ab6afc497342da1db3e08d23d31)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [reload dynamic research presentation on locale change](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/19fd28131acc2f9b49c60fa484c9ac0d0ac5ec49)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize dynamic research at GUI bridge boundary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7fcb6ab1f7aff3611c3cb14ca9827aaf1210dcb0)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add GiadaWare AI dynamic translation adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/71c3039b63975078f4f903d41fc306a098610b6a)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [establish dynamic research translation contract (#68)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/65c959a9684090821048758ff8838956fe743cd8)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add dynamic research translation boundary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0ad7a3ddd17928c26222d71d06cc33c966f18dce)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [make dynamic research source canonical English](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6d94002cba03975ed513c8b2b7827feceddd13bf)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize research reports static presentation (#66)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/35bf824920aff02981329906bee3746517a05a51)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add research reports localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/f01dd0ca0c4919ae0c06c68b0078a6120a5a48cb)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize research reports static presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/de26c68a140e18ed3e28c5a0bb2742a675e1da62)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass locale to research reports presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9ae0d3565d323db57ceb693adc86d9db95b4ecc1)
@@ -245,7 +253,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document consumer contracts and staging authority](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/990be029ddce632114f42adb9e9474633bf15108)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add public-candidate command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b757ba4b3900eee141b0b82ce9e12045f8be5795)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [add physics-study consumer contract acceptance case](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/41a21ee123edc8a235226f5b129753da9f680243)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add consumer contracts and public-safe staging candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c0b3898cde4a4fbbf74144eb39c8d5d3feded6fc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document fact-check report authority contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/808f93eabff5af0dd7b3b9fde47beecc50391703)
@@ -263,9 +270,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document local transcription fallback contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/43db3b8b5a05183e3c0c803325caf183b40a4bc1)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [use local transcription when captions are unavailable](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/7657e69c0135c15b9c93d45d6c0679f3abb06ce7)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local Whisper transcription fallback](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/bfd1d1a68ab903340cada990a7b6cdf4dc387fd7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize source-to-skill projection model](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f1ef84a977ab991fd82d4a4aeed818095b4df8dd)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [define social-source triage contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/60148201f425276a1f8d4e06b76e6b7f74b14ae0)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a57df400bb9b539e6b399b92071149c15af1410f)
@@ -297,13 +302,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [bridge Lidl into canonical corpus (#168) (#169)](https://github.com/gcomneno/grocery-deal-intelligence/commit/458a5ce3341e83c5c1a50d6927220ac54479bfb6)
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [assemble canonical corpus (#166) (#167)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6c7ce6264153dd0c6cc7dd36f71809355197f50f)
 - **2026-08-30** · `grocery-deal-intelligence` · **Docs:** [formalize retailer readiness architecture (#164) (#165)](https://github.com/gcomneno/grocery-deal-intelligence/commit/35ea3cf8a21673f3415f2f49c3b749239c3b5c24)
-- **2026-08-30** · `atelier-kit` · **Fix:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
-- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list available retailers (#162) (#163)](https://github.com/gcomneno/grocery-deal-intelligence/commit/57d9c1b913a969bb21f8dea43c63a463df5f3eb4)
-- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
-- **2026-08-30** · `grocery-deal-intelligence` · **Development:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
-- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
 
-_Showing the 100 most recent meaningful updates; 966 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 971 older update(s) omitted._
 
 </details>
 
