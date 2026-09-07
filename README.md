@@ -248,7 +248,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-05** · `giadaware-ui-components` · **Feature:** [add reusable image focal-point control (#74)](https://github.com/gcomneno/giadaware-ui-components/commit/3980787c1fd5736cca46467ad51a5617a551c04b)
 - **2026-09-04** · `grocery-deal-intelligence` · **Feature:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
 - **2026-09-04** · `digit-probe` · **Security:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document validated repository handoff lifecycle](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f26c375af1c44ed512e7251f4826c51df92d1814)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add approval-gated repository handoff command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/137ffa300bdbe1f877f11843914240b976be1fdd)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document consumer contracts and staging authority](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/990be029ddce632114f42adb9e9474633bf15108)
@@ -303,8 +302,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list available retailers (#162) (#163)](https://github.com/gcomneno/grocery-deal-intelligence/commit/57d9c1b913a969bb21f8dea43c63a463df5f3eb4)
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
 - **2026-08-30** · `grocery-deal-intelligence` · **Development:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
 
-_Showing the 100 most recent meaningful updates; 967 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 966 older update(s) omitted._
 
 </details>
 
