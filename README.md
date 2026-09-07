@@ -250,17 +250,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `digit-probe` · **Security:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document validated repository handoff lifecycle](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/f26c375af1c44ed512e7251f4826c51df92d1814)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add approval-gated repository handoff command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/137ffa300bdbe1f877f11843914240b976be1fdd)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [automate validated repository handoff to PR creation](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/cdbe0a5a3519d3cd45ceeca45279a88adea5a6f6)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document consumer contracts and staging authority](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/990be029ddce632114f42adb9e9474633bf15108)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add public-candidate command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b757ba4b3900eee141b0b82ce9e12045f8be5795)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add consumer contracts and public-safe staging candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c0b3898cde4a4fbbf74144eb39c8d5d3feded6fc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document fact-check report authority contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/808f93eabff5af0dd7b3b9fde47beecc50391703)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add fact-check report command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/43fece2eebb842f9ad790471ed9cb6201304ebdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add structured private fact-check report](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c91c40e034247eed3b51d3b13bf45d50ecdfacd1)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Fix:** [keep generated candidate reviewable with one H1](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a64cd33c067936c65e87cc2925a327fd0cb1d5b4)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document editorial-candidate authority boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/d09aa735f2974301cb4473c644d419901dc5401b)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add editorial-candidate command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/0a3eaa6c35799e7cd1bab7b11e842ab68cb09e1e)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c4f51ca6c5aefcf826b4e442665ff10912a2053f)
@@ -272,7 +269,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document local transcription fallback contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/43db3b8b5a05183e3c0c803325caf183b40a4bc1)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [use local transcription when captions are unavailable](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/7657e69c0135c15b9c93d45d6c0679f3abb06ce7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [define social-source triage contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/60148201f425276a1f8d4e06b76e6b7f74b14ae0)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a57df400bb9b539e6b399b92071149c15af1410f)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
@@ -303,8 +299,12 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [bridge Lidl into canonical corpus (#168) (#169)](https://github.com/gcomneno/grocery-deal-intelligence/commit/458a5ce3341e83c5c1a50d6927220ac54479bfb6)
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [assemble canonical corpus (#166) (#167)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6c7ce6264153dd0c6cc7dd36f71809355197f50f)
 - **2026-08-30** · `grocery-deal-intelligence` · **Docs:** [formalize retailer readiness architecture (#164) (#165)](https://github.com/gcomneno/grocery-deal-intelligence/commit/35ea3cf8a21673f3415f2f49c3b749239c3b5c24)
+- **2026-08-30** · `atelier-kit` · **Fix:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
+- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list available retailers (#162) (#163)](https://github.com/gcomneno/grocery-deal-intelligence/commit/57d9c1b913a969bb21f8dea43c63a463df5f3eb4)
+- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
+- **2026-08-30** · `grocery-deal-intelligence` · **Development:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
 
-_Showing the 100 most recent meaningful updates; 971 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 967 older update(s) omitted._
 
 </details>
 
