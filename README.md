@@ -303,7 +303,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `grocery-deal-intelligence` · **Docs:** [explain business analysis and AI authority boundaries (#145)](https://github.com/gcomneno/grocery-deal-intelligence/commit/87d52687bb0f17b4940d0b822c9dfe4913d41699)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [add deterministic exact price comparison (#143)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f5f5daf06e661bc76aba1f458cdc5f5a8ec38270)
 
-_Showing the 100 most recent meaningful updates; 954 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 953 older update(s) omitted._
 
 </details>
 

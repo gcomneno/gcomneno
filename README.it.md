@@ -303,7 +303,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-29** · `grocery-deal-intelligence` · **Documentazione:** [explain business analysis and AI authority boundaries (#145)](https://github.com/gcomneno/grocery-deal-intelligence/commit/87d52687bb0f17b4940d0b822c9dfe4913d41699)
 - **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [add deterministic exact price comparison (#143)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f5f5daf06e661bc76aba1f458cdc5f5a8ec38270)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 954 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 953 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
