@@ -254,7 +254,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [add consumer contracts and public-safe staging candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c0b3898cde4a4fbbf74144eb39c8d5d3feded6fc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [document fact-check report authority contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/808f93eabff5af0dd7b3b9fde47beecc50391703)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [add fact-check report command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/43fece2eebb842f9ad790471ed9cb6201304ebdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [add structured private fact-check report](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c91c40e034247eed3b51d3b13bf45d50ecdfacd1)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [document editorial-candidate authority boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/d09aa735f2974301cb4473c644d419901dc5401b)
@@ -303,8 +302,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-30** · `grocery-deal-intelligence` · **Funzionalità:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
 - **2026-08-30** · `grocery-deal-intelligence` · **Sviluppo:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
 - **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
+- **2026-08-29** · `lele-manager` · **Sicurezza:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 966 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 964 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
