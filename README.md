@@ -224,7 +224,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass locale to occurrence explorer presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d9e167b74048880cee1f564f1a2dd8d04a2fe26b)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current dashboard localization (#64)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/051245dbcc2631b628dbda65adf5dfe0f4094ac7)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize residual current dashboard sections](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5722042b6cbcde178d5b8234870ccd9911ae246a)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add residual current dashboard localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1836ff1664a30020f21f18420139c571936192fa)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current dashboard core surfaces (#63)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9755d0947541d029909ead719a4ae6ec543718cf)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize representative current dashboard surfaces](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4f149fa3252a5e83fd1df61672e666fcabe04b07)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [pass locale to current dashboard presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/b0d198099cdae93f60f6a7c66fbecc7cf99a84fd)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add current dashboard localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a4fd373c9f59513d4d670aaabb26899ae69cd53f)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add GUI localization foundation (#62)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5aa09ca374d58ab59be2dcd8d0c2ebcc4cf52f46)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Refactor:** [align GUI catalog fallback with localization contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/294d6392c02827b10c8eda3d884aaef5c2e169c9)
@@ -233,6 +236,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add deterministic GUI localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1dc81026eba6e1fab30568e44c895e3503b6a62d)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [keep database language parsing deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a52e1383fbd8e41b5534d81b26d4f45d6f20f797)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [localize occurrence language validation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/ca223b4d4de92c6ffd704bb936562ef5dc1b93f2)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add localized occurrence-group CLI adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7764d0c4043a2323365bde0ebfe80c910aa61bb1)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence-group renderer](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/b890f671bb7b9bc66ac4bc8eff85ce4c57817630)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add occurrence-group localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/523c7b25a0d1c8cae087f4e48354d1e40477b27a)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
@@ -264,7 +269,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document consumer contracts and staging authority](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/990be029ddce632114f42adb9e9474633bf15108)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [document editorial-candidate authority boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/d09aa735f2974301cb4473c644d419901dc5401b)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add editorial-candidate command](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/0a3eaa6c35799e7cd1bab7b11e842ab68cb09e1e)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/c4f51ca6c5aefcf826b4e442665ff10912a2053f)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
@@ -299,12 +303,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-31** · `giadaware-ai` · **Docs:** [adopt shared learning vocabulary (#25)](https://github.com/gcomneno/giadaware-ai/commit/8f6a049af8e5ad3ced8163307f41dd0ef1a69fc3)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [exercise business consumers over canonical corpus (#171)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ecc3cab6728fec2729b97d2b28b62df199328c39)
-- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [bridge Lidl into canonical corpus (#168) (#169)](https://github.com/gcomneno/grocery-deal-intelligence/commit/458a5ce3341e83c5c1a50d6927220ac54479bfb6)
-- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [assemble canonical corpus (#166) (#167)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6c7ce6264153dd0c6cc7dd36f71809355197f50f)
-- **2026-08-30** · `grocery-deal-intelligence` · **Docs:** [formalize retailer readiness architecture (#164) (#165)](https://github.com/gcomneno/grocery-deal-intelligence/commit/35ea3cf8a21673f3415f2f49c3b749239c3b5c24)
-- **2026-08-30** · `atelier-kit` · **Fix:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
 
-_Showing the 100 most recent meaningful updates; 967 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 971 older update(s) omitted._
 
 </details>
 
