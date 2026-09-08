@@ -202,13 +202,17 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-07** · `atelier-kit` · **Funzionalità:** [add editorial image focal-point control (#363) (#367)](https://github.com/gcomneno/atelier-kit/commit/14d943d46bd2aa818af43c70f9b2b92845ef335d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [finalize documentation localization policy (#70)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/47ed504166a2347e25d083b754e6446401ce0e51)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [close localization migration contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/109d286b385b244c42c218cf7dc3dc8d4fd56d44)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [mark English documentation authoritative](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a44598913d6c27d63ac04879e301a07f471f9d1a)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [mark Italian documentation derived](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/887a1bc6c22def7b526a9a274a9622d59bb43df4)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [mark English documentation authoritative](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a44598913d6c27d63ac04879e301a07f471f9d1a)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [define documentation localization authority](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/38e2abbc6fdb9d3a6045751e89e253a0ffd94a4d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [integrate GiadaWare AI research translation (#69)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6d7eefc596f4ab6afc497342da1db3e08d23d31)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [reload dynamic research presentation on locale change](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/19fd28131acc2f9b49c60fa484c9ac0d0ac5ec49)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [request localized dynamic research presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/43597fdba91a5595ef5629115bc994c76e853057)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [pass presentation locale through research bridge only](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a0b5c525265104fa50da8c17f3dc71235435b8dc)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize dynamic research at GUI bridge boundary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7fcb6ab1f7aff3611c3cb14ca9827aaf1210dcb0)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add GiadaWare AI dynamic translation adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/71c3039b63975078f4f903d41fc306a098610b6a)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [establish dynamic research translation contract (#68)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/65c959a9684090821048758ff8838956fe743cd8)
@@ -219,6 +223,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize research reports static presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/de26c68a140e18ed3e28c5a0bb2742a675e1da62)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [pass locale to research reports presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9ae0d3565d323db57ceb693adc86d9db95b4ecc1)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize occurrence explorer presentation (#65)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1514f81668332dc5b6c218195638a792f71d4e95)
+- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Refactoring:** [keep occurrence metadata composition deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c5d5921decd45e0bb019f7de43ddb0a9f2eeae26)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize occurrence explorer presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/01e97fbe50353aa8b3b41d440090a649fc948f39)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add occurrence explorer localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/2eed059d351dae29fc0490a44712f0755d1a2d39)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [pass locale to occurrence explorer presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d9e167b74048880cee1f564f1a2dd8d04a2fe26b)
@@ -278,7 +283,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [document local transcription fallback contract](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/43db3b8b5a05183e3c0c803325caf183b40a4bc1)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [record retained technical discovery sources](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a57df400bb9b539e6b399b92071149c15af1410f)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
 - **2026-09-02** · `atelier-kit` · **Documentazione:** [record Nero Hosted chain retirement (#362)](https://github.com/gcomneno/atelier-kit/commit/64cb9c22114bd431768c6fcbbe80acf2b500c6ae)
@@ -299,12 +303,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-31** · `giadaware-ai` · **Sviluppo:** [experiment: add controlled prose naturalization spike (#21)](https://github.com/gcomneno/giadaware-ai/commit/b729dbba95e4f45969fdf859c5b576c037e5bfc8)
 - **2026-08-31** · `giadaware-ai` · **Documentazione:** [define capability qualification and admission contract (#23)](https://github.com/gcomneno/giadaware-ai/commit/41cbe7e1a50b05137d5bdece4a577ea194f00ac0)
 - **2026-08-31** · `giadaware-ai` · **Funzionalità:** [add provider-independent translation capability (#26)](https://github.com/gcomneno/giadaware-ai/commit/a40edd8ed27fb9bab62f0be52103b49c1725f07e)
-- **2026-08-31** · `atelier-kit` · **Documentazione:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
-- **2026-08-31** · `giadaware-ai` · **Documentazione:** [adopt shared learning vocabulary (#25)](https://github.com/gcomneno/giadaware-ai/commit/8f6a049af8e5ad3ced8163307f41dd0ef1a69fc3)
-- **2026-08-31** · `atelier-kit` · **Documentazione:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
-- **2026-08-30** · `grocery-deal-intelligence` · **Funzionalità:** [exercise business consumers over canonical corpus (#171)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ecc3cab6728fec2729b97d2b28b62df199328c39)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 971 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 975 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
