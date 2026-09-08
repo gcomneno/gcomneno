@@ -240,6 +240,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize db ask CLI with canonical English default](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/ee5766805b6627137b99ecbd00bf9e1206aa3409)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add deterministic CLI ask presentation catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/413ba8fc37588fd54a0b111a9b660604f87e7b4c)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [establish localization foundation and presentation contract (#55)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/28e6e7250e7203a48e5160de4b620d3469ab3a24)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Docs:** [define localization and translation boundaries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7d1b26a29161177cc2bbf0285268a4dedcd7a9c9)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add safe GiadaWare AI natural-language query adapter (#53)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/48fd0e20c6afb8413fac8e13d1f8f7c2663f3c7a)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [route db ask through natural query adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7897f009c1182b6d735f47b909d607544e6d01e9)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add natural-language database query command](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/09ef634f1d24c9918953a5a2763ba67472bfb935)
@@ -302,9 +303,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
 - **2026-08-30** · `grocery-deal-intelligence` · **Development:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
-- **2026-08-29** · `lele-manager` · **Security:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 
-_Showing the 100 most recent meaningful updates; 964 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 963 older update(s) omitted._
 
 </details>
 
