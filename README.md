@@ -230,11 +230,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass locale to research reports presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9ae0d3565d323db57ceb693adc86d9db95b4ecc1)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence explorer presentation (#65)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1514f81668332dc5b6c218195638a792f71d4e95)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Refactor:** [keep occurrence metadata composition deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c5d5921decd45e0bb019f7de43ddb0a9f2eeae26)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence explorer presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/01e97fbe50353aa8b3b41d440090a649fc948f39)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add occurrence explorer localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/2eed059d351dae29fc0490a44712f0755d1a2d39)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass locale to occurrence explorer presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/d9e167b74048880cee1f564f1a2dd8d04a2fe26b)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current dashboard localization (#64)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/051245dbcc2631b628dbda65adf5dfe0f4094ac7)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize residual current dashboard sections](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5722042b6cbcde178d5b8234870ccd9911ae246a)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add residual current dashboard localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1836ff1664a30020f21f18420139c571936192fa)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current dashboard core surfaces (#63)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9755d0947541d029909ead719a4ae6ec543718cf)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize representative current dashboard surfaces](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4f149fa3252a5e83fd1df61672e666fcabe04b07)
@@ -303,8 +299,12 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
 - **2026-08-29** · `lele-manager` · **Security:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve shopping-item availability from verified offers (#152)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c5ecec3f5cb249f176f3c64d003d6045383bcc9f)
+- **2026-08-29** · `lele-manager` · **Security:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
+- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
+- **2026-08-29** · `lele-manager` · **Security:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [support composite quantity relations (#150) (#151)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a20fbb736df4a6ee12198999377a73b377eda23b)
 
-_Showing the 100 most recent meaningful updates; 961 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 957 older update(s) omitted._
 
 </details>
 
