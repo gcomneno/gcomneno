@@ -199,14 +199,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-09** · `web` · **Documentazione:** [reproduce and verify PHP lesson 4 (#9)](https://github.com/gcomneno/web/commit/eb4f73641700aadab1e94627575ed4c41f3edd99)
 - **2026-09-09** · `web` · **Documentazione:** [reproduce and verify PHP lesson 3 (#8)](https://github.com/gcomneno/web/commit/9987735fa79e613a858be4fac03679b1ab6023ab)
 - **2026-09-09** · `web` · **Documentazione:** [reproduce and verify PHP lesson 2 (#7)](https://github.com/gcomneno/web/commit/d6d445181f72eafc0d0f39ac2a4824e8aa2e3303)
 - **2026-09-09** · `giadaware-ai` · **Funzionalità:** [add semantic read-query interpreter (#29)](https://github.com/gcomneno/giadaware-ai/commit/6cdf9d106a174e4fec229dffb17075bbf0c6ef91)
-- **2026-09-09** · `web` · **Documentazione:** [reproduce and verify PHP lesson 1 (#6)](https://github.com/gcomneno/web/commit/8f32e9816cefe9928e3d57669d8981ba1758e6cb)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-09** · `web` · **Documentazione:** [reproduce and verify PHP lesson 1 (#6)](https://github.com/gcomneno/web/commit/8f32e9816cefe9928e3d57669d8981ba1758e6cb)
 - **2026-09-09** · `web` · **Documentazione:** [establish PHP lab repository readiness (#5)](https://github.com/gcomneno/web/commit/71d3a0977096d0821176fdadd9b4a3e365c8e524)
 - **2026-09-07** · `atelier-kit` · **Funzionalità:** [add editorial image focal-point control (#363) (#367)](https://github.com/gcomneno/atelier-kit/commit/14d943d46bd2aa818af43c70f9b2b92845ef335d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [finalize documentation localization policy (#70)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/47ed504166a2347e25d083b754e6446401ce0e51)
@@ -240,7 +241,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [pass locale to current dashboard presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/b0d198099cdae93f60f6a7c66fbecc7cf99a84fd)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add current dashboard localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a4fd373c9f59513d4d670aaabb26899ae69cd53f)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add GUI localization foundation (#62)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5aa09ca374d58ab59be2dcd8d0c2ebcc4cf52f46)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Refactoring:** [align GUI catalog fallback with localization contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/294d6392c02827b10c8eda3d884aaef5c2e169c9)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add deterministic GUI localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1dc81026eba6e1fab30568e44c895e3503b6a62d)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Correzione:** [localize occurrence language validation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/ca223b4d4de92c6ffd704bb936562ef5dc1b93f2)
