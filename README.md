@@ -199,14 +199,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 3 (#8)](https://github.com/gcomneno/web/commit/9987735fa79e613a858be4fac03679b1ab6023ab)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 2 (#7)](https://github.com/gcomneno/web/commit/d6d445181f72eafc0d0f39ac2a4824e8aa2e3303)
 - **2026-09-09** · `giadaware-ai` · **Feature:** [add semantic read-query interpreter (#29)](https://github.com/gcomneno/giadaware-ai/commit/6cdf9d106a174e4fec229dffb17075bbf0c6ef91)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 1 (#6)](https://github.com/gcomneno/web/commit/8f32e9816cefe9928e3d57669d8981ba1758e6cb)
-- **2026-09-09** · `web` · **Docs:** [establish PHP lab repository readiness (#5)](https://github.com/gcomneno/web/commit/71d3a0977096d0821176fdadd9b4a3e365c8e524)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-09** · `web` · **Docs:** [establish PHP lab repository readiness (#5)](https://github.com/gcomneno/web/commit/71d3a0977096d0821176fdadd9b4a3e365c8e524)
 - **2026-09-07** · `atelier-kit` · **Feature:** [add editorial image focal-point control (#363) (#367)](https://github.com/gcomneno/atelier-kit/commit/14d943d46bd2aa818af43c70f9b2b92845ef335d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [finalize documentation localization policy (#70)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/47ed504166a2347e25d083b754e6446401ce0e51)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [close localization migration contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/109d286b385b244c42c218cf7dc3dc8d4fd56d44)
@@ -240,15 +241,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add current dashboard localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a4fd373c9f59513d4d670aaabb26899ae69cd53f)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add GUI localization foundation (#62)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5aa09ca374d58ab59be2dcd8d0c2ebcc4cf52f46)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Refactor:** [align GUI catalog fallback with localization contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/294d6392c02827b10c8eda3d884aaef5c2e169c9)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [preserve navigation layout with language selector](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4cda1cdb3726db5221390e12bcb8df22b227fa24)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add GUI language selector and localized shell](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/97fe44226ab5bf2c48f0729dd831765691add537)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add deterministic GUI localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1dc81026eba6e1fab30568e44c895e3503b6a62d)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [keep database language parsing deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a52e1383fbd8e41b5534d81b26d4f45d6f20f797)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Fix:** [localize occurrence language validation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/ca223b4d4de92c6ffd704bb936562ef5dc1b93f2)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add localized occurrence-group CLI adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7764d0c4043a2323365bde0ebfe80c910aa61bb1)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence-group renderer](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/b890f671bb7b9bc66ac4bc8eff85ce4c57817630)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add occurrence-group localization catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/523c7b25a0d1c8cae087f4e48354d1e40477b27a)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize residual current CLI sections](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/89dcd21250ef64d6a364092d8ba117be9f957c93)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current CLI representative surfaces (#58)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/04edea410fe35b8e470dcbe173eadeecc532b78d)
@@ -303,8 +300,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list available retailers (#162) (#163)](https://github.com/gcomneno/grocery-deal-intelligence/commit/57d9c1b913a969bb21f8dea43c63a463df5f3eb4)
 - **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
 - **2026-08-30** · `grocery-deal-intelligence` · **Development:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
+- **2026-08-29** · `lele-manager` · **Security:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
+- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve shopping-item availability from verified offers (#152)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c5ecec3f5cb249f176f3c64d003d6045383bcc9f)
 
-_Showing the 100 most recent meaningful updates; 964 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 961 older update(s) omitted._
 
 </details>
 
