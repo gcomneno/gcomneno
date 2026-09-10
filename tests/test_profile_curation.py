@@ -1,12 +1,22 @@
 from __future__ import annotations
 
 import importlib.util
+import re
 import sys
 import unittest
 from pathlib import Path
 
 
 README_PATHS = (Path("README.md"), Path("README.it.md"))
+
+PROFILE_REPOSITORY_LINK_PATTERN = re.compile(
+    r"https://github\.com/gcomneno/([A-Za-z0-9_.-]+)"
+)
+CURATED_SECTION_RANGES = (
+    ("01", "02"),
+    ("03", "04"),
+    ("04", "05"),
+)
 
 ATELIER_KIT_DEMO_URL = "https://atelier-kit-public-demo.vercel.app/"
 ATELIER_KIT_SOURCE_URL = "https://github.com/gcomneno/atelier-kit"
@@ -61,6 +71,7 @@ PRIMARY_LEARNING = (
     "grocery-deal-intelligence",
     "system-log-dynamics",
     "yocto-qemu-mini-lab",
+    "cat-couch-guardian",
     "linux-container-lab",
     "distributed-systems-study",
     "system-design-study",
@@ -149,6 +160,34 @@ LEGACY_FORK_HEADINGS = {
         "Altri fork upstream pubblici",
     ),
 }
+
+
+def extract_manual_curated_repositories(text: str) -> set[str]:
+    repositories: set[str] = set()
+
+    for start_number, end_number in CURATED_SECTION_RANGES:
+        start_marker = f"## <code>{start_number} · "
+        end_marker = f"## <code>{end_number} · "
+
+        start = text.find(start_marker)
+        if start == -1:
+            raise ValueError(
+                f"missing curated section start marker: {start_number}"
+            )
+
+        end = text.find(end_marker, start + len(start_marker))
+        if end == -1:
+            raise ValueError(
+                f"missing curated section end marker: {end_number}"
+            )
+
+        section = text[start:end]
+        repositories.update(
+            f"gcomneno/{repository}"
+            for repository in PROFILE_REPOSITORY_LINK_PATTERN.findall(section)
+        )
+
+    return repositories
 
 
 def assert_tokens_in_order(
@@ -313,6 +352,19 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                 *SUPPORTING_LEARNING,
             )
         }
+
+        for path in README_PATHS:
+            observed_repositories = extract_manual_curated_repositories(
+                path.read_text(encoding="utf-8")
+            )
+            self.assertEqual(
+                observed_repositories,
+                curated_repositories,
+                (
+                    f"{path}: actual repositories in manual Sections "
+                    "01/03/04 drifted from the curation contract"
+                ),
+            )
 
         self.assertEqual(
             UPDATE_GENERATOR.CURATED_REPOSITORIES,

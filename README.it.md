@@ -183,7 +183,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 | Isolamento Linux | [Linux Container Lab](https://github.com/gcomneno/linux-container-lab) | Primitive container Linux studiate tramite esperimenti non privilegiati eseguiti e verifica parziale; l'implementazione del container non è ancora iniziata |
 | Sistemi distribuiti | [Studio dei sistemi distribuiti](https://github.com/gcomneno/distributed-systems-study) | La Sessione 01 è preparata su algoritmi, modelli di guasto e coordinamento; lo studio attivo non è ancora marcato come completato |
 | System design | [Studio del system design](https://github.com/gcomneno/system-design-study) | Appunti di architettura, quiz e lezioni orientate ai colloqui |
-| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML e SQL, con PHP previsto dal corso |
+| Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML, SQL e PHP, incluso un CRUD verificato con PDO/MySQL e interfaccia Bootstrap |
 | Fisica | [Studio della fisica](https://github.com/gcomneno/physics-study) | Lezioni originali e fact-checkate; prima lezione: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), dalle eclissi di Io alle prove della velocità finita della luce |
 
 <details>
