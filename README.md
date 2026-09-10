@@ -200,14 +200,16 @@ I turn study into documented, reproducible paths rather than presenting learning
 <!-- updates:start -->
 
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Feature:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
+- **2026-09-10** · `kleis-corso-sviluppo-software` · **Docs:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/84be992f3225955ba4dc745456664f87ee5ef8a0)
 - **2026-09-10** · `web` · **Docs:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
 - **2026-09-10** · `web` · **Feature:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
-- **2026-09-10** · `web` · **Docs:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-10** · `web` · **Docs:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
 - **2026-09-10** · `web` · **Feature:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
+- **2026-09-10** · `web` · **Feature:** [add PHP 4 product update form](https://github.com/gcomneno/web/commit/530cf582dec36ec15ccbdfe295a20bfa8351c4d3)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 product detail read](https://github.com/gcomneno/web/commit/5d8e16b6c6bf8dba65bf6f1d61b0e053db543702)
 - **2026-09-10** · `web` · **Feature:** [persist PHP 4 product creation](https://github.com/gcomneno/web/commit/23f394a61bbaf8cbb07af8a1716eda648a65dd87)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 CRUD helpers](https://github.com/gcomneno/web/commit/2c64ce6d9e460d90d48995dd0d7eba71a61e457d)
@@ -228,6 +230,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass presentation locale through research bridge only](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a0b5c525265104fa50da8c17f3dc71235435b8dc)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [establish dynamic research translation contract (#68)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/65c959a9684090821048758ff8838956fe743cd8)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize research reports static presentation (#66)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/35bf824920aff02981329906bee3746517a05a51)
+- **2026-09-07** · `cat-couch-guardian` · **Feature:** [establish virtual-first cat guardian baseline](https://github.com/gcomneno/cat-couch-guardian/commit/76d0d1546f910b2aaa38d8a32b79a898154ced60)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence explorer presentation (#65)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1514f81668332dc5b6c218195638a792f71d4e95)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Refactor:** [keep occurrence metadata composition deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c5d5921decd45e0bb019f7de43ddb0a9f2eeae26)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current dashboard localization (#64)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/051245dbcc2631b628dbda65adf5dfe0f4094ac7)
@@ -300,11 +303,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `lele-manager` · **Security:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [resolve shopping-item availability from verified offers (#152)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c5ecec3f5cb249f176f3c64d003d6045383bcc9f)
 - **2026-08-29** · `lele-manager` · **Security:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
-- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
-- **2026-08-29** · `lele-manager` · **Security:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
-- **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [support composite quantity relations (#150) (#151)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a20fbb736df4a6ee12198999377a73b377eda23b)
 
-_Showing the 100 most recent meaningful updates; 957 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 960 older update(s) omitted._
 
 </details>
 
