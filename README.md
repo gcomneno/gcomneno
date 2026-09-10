@@ -199,35 +199,32 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 4 (#9)](https://github.com/gcomneno/web/commit/eb4f73641700aadab1e94627575ed4c41f3edd99)
-- **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 3 (#8)](https://github.com/gcomneno/web/commit/9987735fa79e613a858be4fac03679b1ab6023ab)
-- **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 2 (#7)](https://github.com/gcomneno/web/commit/d6d445181f72eafc0d0f39ac2a4824e8aa2e3303)
-- **2026-09-09** · `giadaware-ai` · **Feature:** [add semantic read-query interpreter (#29)](https://github.com/gcomneno/giadaware-ai/commit/6cdf9d106a174e4fec229dffb17075bbf0c6ef91)
+- **2026-09-10** · `web` · **Docs:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
+- **2026-09-10** · `web` · **Feature:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
+- **2026-09-10** · `web` · **Docs:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
+- **2026-09-10** · `web` · **Feature:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-10** · `web` · **Feature:** [add PHP 4 CRUD helpers](https://github.com/gcomneno/web/commit/2c64ce6d9e460d90d48995dd0d7eba71a61e457d)
+- **2026-09-10** · `web` · **Feature:** [add CRUD links to PHP 4 product card](https://github.com/gcomneno/web/commit/c89ebb78b0698037104a6d663ac011eac93c89b5)
+- **2026-09-10** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories (#10)](https://github.com/gcomneno/web/commit/2261b10bfdedffcca5ee5ef8c845b0faa84ca7ae)
+- **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 4 (#9)](https://github.com/gcomneno/web/commit/eb4f73641700aadab1e94627575ed4c41f3edd99)
+- **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 3 (#8)](https://github.com/gcomneno/web/commit/9987735fa79e613a858be4fac03679b1ab6023ab)
+- **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 2 (#7)](https://github.com/gcomneno/web/commit/d6d445181f72eafc0d0f39ac2a4824e8aa2e3303)
+- **2026-09-09** · `giadaware-ai` · **Feature:** [add semantic read-query interpreter (#29)](https://github.com/gcomneno/giadaware-ai/commit/6cdf9d106a174e4fec229dffb17075bbf0c6ef91)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 1 (#6)](https://github.com/gcomneno/web/commit/8f32e9816cefe9928e3d57669d8981ba1758e6cb)
 - **2026-09-09** · `web` · **Docs:** [establish PHP lab repository readiness (#5)](https://github.com/gcomneno/web/commit/71d3a0977096d0821176fdadd9b4a3e365c8e524)
 - **2026-09-07** · `atelier-kit` · **Feature:** [add editorial image focal-point control (#363) (#367)](https://github.com/gcomneno/atelier-kit/commit/14d943d46bd2aa818af43c70f9b2b92845ef335d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [finalize documentation localization policy (#70)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/47ed504166a2347e25d083b754e6446401ce0e51)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [close localization migration contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/109d286b385b244c42c218cf7dc3dc8d4fd56d44)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [mark Italian documentation derived](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/887a1bc6c22def7b526a9a274a9622d59bb43df4)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [mark English documentation authoritative](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a44598913d6c27d63ac04879e301a07f471f9d1a)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [define documentation localization authority](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/38e2abbc6fdb9d3a6045751e89e253a0ffd94a4d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [integrate GiadaWare AI research translation (#69)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6d7eefc596f4ab6afc497342da1db3e08d23d31)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [reload dynamic research presentation on locale change](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/19fd28131acc2f9b49c60fa484c9ac0d0ac5ec49)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [request localized dynamic research presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/43597fdba91a5595ef5629115bc994c76e853057)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass presentation locale through research bridge only](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a0b5c525265104fa50da8c17f3dc71235435b8dc)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize dynamic research at GUI bridge boundary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7fcb6ab1f7aff3611c3cb14ca9827aaf1210dcb0)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add GiadaWare AI dynamic translation adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/71c3039b63975078f4f903d41fc306a098610b6a)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [establish dynamic research translation contract (#68)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/65c959a9684090821048758ff8838956fe743cd8)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add dynamic research translation boundary](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/0ad7a3ddd17928c26222d71d06cc33c966f18dce)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [make dynamic research source canonical English](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6d94002cba03975ed513c8b2b7827feceddd13bf)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize research reports static presentation (#66)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/35bf824920aff02981329906bee3746517a05a51)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add research reports localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/f01dd0ca0c4919ae0c06c68b0078a6120a5a48cb)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize research reports static presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/de26c68a140e18ed3e28c5a0bb2742a675e1da62)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass locale to research reports presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9ae0d3565d323db57ceb693adc86d9db95b4ecc1)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence explorer presentation (#65)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1514f81668332dc5b6c218195638a792f71d4e95)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Refactor:** [keep occurrence metadata composition deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c5d5921decd45e0bb019f7de43ddb0a9f2eeae26)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current dashboard localization (#64)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/051245dbcc2631b628dbda65adf5dfe0f4094ac7)
@@ -303,8 +300,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
 - **2026-08-29** · `lele-manager` · **Security:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [support composite quantity relations (#150) (#151)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a20fbb736df4a6ee12198999377a73b377eda23b)
+- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [make canonical promotion claims evidence-optional (#149)](https://github.com/gcomneno/grocery-deal-intelligence/commit/11f2608dddc3a15cc687ba6592629d689243ee52)
+- **2026-08-29** · `smart-file-organizer` · **Docs:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
+- **2026-08-29** · `lele-manager` · **Security:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
 
-_Showing the 100 most recent meaningful updates; 957 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 954 older update(s) omitted._
 
 </details>
 
