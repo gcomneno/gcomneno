@@ -199,14 +199,17 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-10** · `kleis-corso-sviluppo-software` · **Feature:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
 - **2026-09-10** · `web` · **Docs:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
 - **2026-09-10** · `web` · **Feature:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
 - **2026-09-10** · `web` · **Docs:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
-- **2026-09-10** · `web` · **Feature:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-10** · `web` · **Feature:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
+- **2026-09-10** · `web` · **Feature:** [add PHP 4 product detail read](https://github.com/gcomneno/web/commit/5d8e16b6c6bf8dba65bf6f1d61b0e053db543702)
+- **2026-09-10** · `web` · **Feature:** [persist PHP 4 product creation](https://github.com/gcomneno/web/commit/23f394a61bbaf8cbb07af8a1716eda648a65dd87)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 CRUD helpers](https://github.com/gcomneno/web/commit/2c64ce6d9e460d90d48995dd0d7eba71a61e457d)
 - **2026-09-10** · `web` · **Feature:** [add CRUD links to PHP 4 product card](https://github.com/gcomneno/web/commit/c89ebb78b0698037104a6d663ac011eac93c89b5)
 - **2026-09-10** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories (#10)](https://github.com/gcomneno/web/commit/2261b10bfdedffcca5ee5ef8c845b0faa84ca7ae)
@@ -300,11 +303,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
 - **2026-08-29** · `lele-manager` · **Security:** [freeze native release toolchain (#252)](https://github.com/gcomneno/lele-manager/commit/6b69099a1bec15f13bacaee6eebbf0c5335edbb2)
 - **2026-08-29** · `grocery-deal-intelligence` · **Feature:** [support composite quantity relations (#150) (#151)](https://github.com/gcomneno/grocery-deal-intelligence/commit/a20fbb736df4a6ee12198999377a73b377eda23b)
-- **2026-08-29** · `grocery-deal-intelligence` · **Fix:** [make canonical promotion claims evidence-optional (#149)](https://github.com/gcomneno/grocery-deal-intelligence/commit/11f2608dddc3a15cc687ba6592629d689243ee52)
-- **2026-08-29** · `smart-file-organizer` · **Docs:** [define desktop adapter contract (#100)](https://github.com/gcomneno/smart-file-organizer/commit/9c856e1a0bafb61329c4cd5622b4be9b4599759a)
-- **2026-08-29** · `lele-manager` · **Security:** [document PyPI environment policy (#251)](https://github.com/gcomneno/lele-manager/commit/42f9f38861aae9075f99d47a19533286498c5d06)
 
-_Showing the 100 most recent meaningful updates; 954 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 957 older update(s) omitted._
 
 </details>
 
