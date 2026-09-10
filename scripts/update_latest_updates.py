@@ -48,6 +48,7 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/lasagna-v2",
         f"{OWNER_LOGIN}/crystal-codec-gcc-v1",
         f"{OWNER_LOGIN}/yocto-qemu-mini-lab",
+        f"{OWNER_LOGIN}/cat-couch-guardian",
         f"{OWNER_LOGIN}/linux-container-lab",
         f"{OWNER_LOGIN}/distributed-systems-study",
         f"{OWNER_LOGIN}/system-design-study",

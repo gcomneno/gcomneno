@@ -183,7 +183,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 | Linux isolation | [Linux Container Lab](https://github.com/gcomneno/linux-container-lab) | Studied Linux container primitives through executed non-privileged experiments and partial verification; container implementation has not started |
 | Distributed systems | [Distributed Systems Study](https://github.com/gcomneno/distributed-systems-study) | Session 01 is prepared around algorithms, failure models and coordination; active study is not yet marked complete |
 | System design | [System Design Study](https://github.com/gcomneno/system-design-study) | Architecture notes, quizzes and interview-oriented lessons |
-| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML and SQL, with PHP planned for the course |
+| Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML, SQL and PHP, including a verified PDO/MySQL CRUD application with Bootstrap |
 | Physics | [Physics Study](https://github.com/gcomneno/physics-study) | Original, fact-checked lessons; first lesson: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), from Io eclipse timing to evidence for the finite speed of light |
 
 <details>
