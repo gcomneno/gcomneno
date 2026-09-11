@@ -254,7 +254,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add localized current CLI parser and error presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7a01910dcda25c5a557449b4ac62305c4051c5df)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add localized db ask CLI plumbing (#57)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/87c56bc0fc6b1a00329e19b36815a0f11a521cf5)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [establish localization foundation and presentation contract (#55)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/28e6e7250e7203a48e5160de4b620d3469ab3a24)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Documentazione:** [define localization and translation boundaries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7d1b26a29161177cc2bbf0285268a4dedcd7a9c9)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add canonical localization contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/81d0e61c10cd1c95a5b84c2c1b09e80700fddf37)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add safe GiadaWare AI natural-language query adapter (#53)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/48fd0e20c6afb8413fac8e13d1f8f7c2663f3c7a)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add GiadaWare AI intent adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/2278eaac63ae461424dd63374cdd3f13ec500a65)
@@ -303,8 +302,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
 - **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [resolve shopping-item availability from verified offers (#152)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c5ecec3f5cb249f176f3c64d003d6045383bcc9f)
 - **2026-08-29** · `lele-manager` · **Sicurezza:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
+- **2026-08-29** · `grocery-deal-intelligence` · **Correzione:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 960 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 959 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
