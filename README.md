@@ -242,6 +242,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-10** · `web` · **Feature:** [add CRUD links to PHP 4 product card](https://github.com/gcomneno/web/commit/c89ebb78b0698037104a6d663ac011eac93c89b5)
 - **2026-09-10** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories (#10)](https://github.com/gcomneno/web/commit/2261b10bfdedffcca5ee5ef8c845b0faa84ca7ae)
 - **2026-09-09** · `web` · **Docs:** [record PHP 4 sidebar road-test correction](https://github.com/gcomneno/web/commit/1f64699309e80af2a0b7b1dc3a19131254a420d2)
+- **2026-09-09** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories](https://github.com/gcomneno/web/commit/5d872d5a3b25e259cfa101d8a1c45d3813c5c5f5)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 4 (#9)](https://github.com/gcomneno/web/commit/eb4f73641700aadab1e94627575ed4c41f3edd99)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 3 (#8)](https://github.com/gcomneno/web/commit/9987735fa79e613a858be4fac03679b1ab6023ab)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 2 (#7)](https://github.com/gcomneno/web/commit/d6d445181f72eafc0d0f39ac2a4824e8aa2e3303)
@@ -261,9 +262,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence explorer presentation (#65)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1514f81668332dc5b6c218195638a792f71d4e95)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Refactor:** [keep occurrence metadata composition deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c5d5921decd45e0bb019f7de43ddb0a9f2eeae26)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current dashboard localization (#64)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/051245dbcc2631b628dbda65adf5dfe0f4094ac7)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [add residual current dashboard localization keys](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1836ff1664a30020f21f18420139c571936192fa)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current dashboard core surfaces (#63)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9755d0947541d029909ead719a4ae6ec543718cf)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize representative current dashboard surfaces](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4f149fa3252a5e83fd1df61672e666fcabe04b07)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add GUI localization foundation (#62)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5aa09ca374d58ab59be2dcd8d0c2ebcc4cf52f46)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
@@ -303,8 +302,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-31** · `giadaware-ai` · **Feature:** [add provider-independent translation capability (#26)](https://github.com/gcomneno/giadaware-ai/commit/a40edd8ed27fb9bab62f0be52103b49c1725f07e)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
 - **2026-08-31** · `giadaware-ai` · **Docs:** [adopt shared learning vocabulary (#25)](https://github.com/gcomneno/giadaware-ai/commit/8f6a049af8e5ad3ced8163307f41dd0ef1a69fc3)
+- **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
 
-_Showing the 100 most recent meaningful updates; 973 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 972 older update(s) omitted._
 
 </details>
 
