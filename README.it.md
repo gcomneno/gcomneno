@@ -199,14 +199,27 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-09-10** · `kleis-corso-sviluppo-software` · **Funzionalità:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
-- **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/84be992f3225955ba4dc745456664f87ee5ef8a0)
-- **2026-09-10** · `web` · **Documentazione:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
-- **2026-09-10** · `web` · **Funzionalità:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d2eae597b9354510bcecf9f40d765422212fad5c)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 study answers (#12)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/88cd87598cab023772d3352216e1538ae4c08279)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 5 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c0296da459f23ab4aacfa865a2c75b1c1d28a9b9)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [finalize root README for verified PHP 5 (#11)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a729abded390c54dfdb9ccb04ee8de502611e728)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [finalize root README for verified PHP 5](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/7c8a6dd4e6b4e001694c500c867827f51ab218e2)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [formalize PHP 5 cart and sessions (#10)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/680c8d5d26fce806b3319b0d80b3594880251c5b)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [expose PHP 5 from canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/95a3e68b6c7966141adaa9321fe2dabd07c8017f)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 5 Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9db5e7252aa14839b2ad01066de12f4c2028044c)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [complete PHP 5 cart table homework](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/2f18083af62a0b5804108d50b9ebf7107284b994)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 session cart helpers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/6bb706c73251a21ce7cd623d2e5fd41e6d140d61)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 deterministic seed](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d941847d99950fdeade829624fc2790eed5cf34d)
+- **2026-09-10** · `kleis-corso-sviluppo-software` · **Funzionalità:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
+- **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/84be992f3225955ba4dc745456664f87ee5ef8a0)
+- **2026-09-10** · `web` · **Documentazione:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
+- **2026-09-10** · `web` · **Funzionalità:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
 - **2026-09-10** · `web` · **Documentazione:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
 - **2026-09-10** · `web` · **Funzionalità:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
 - **2026-09-10** · `web` · **Funzionalità:** [add PHP 4 product update form](https://github.com/gcomneno/web/commit/530cf582dec36ec15ccbdfe295a20bfa8351c4d3)
@@ -248,15 +261,10 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize residual current CLI sections](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/89dcd21250ef64d6a364092d8ba117be9f957c93)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize current CLI representative surfaces (#58)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/04edea410fe35b8e470dcbe173eadeecc532b78d)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize representative current report surfaces](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/f225644c2ae8c56aa98a34c77e2ba70c771e1c84)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize consensus CLI renderer](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/68754ebf20818ff7ef010df36e0833fa2d5160c7)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add deterministic current CLI presentation catalog](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7813ce2426a42186ef43a5d2a59fa9a28881e425)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add localized current CLI parser and error presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7a01910dcda25c5a557449b4ac62305c4051c5df)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add localized db ask CLI plumbing (#57)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/87c56bc0fc6b1a00329e19b36815a0f11a521cf5)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [establish localization foundation and presentation contract (#55)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/28e6e7250e7203a48e5160de4b620d3469ab3a24)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add canonical localization contract](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/81d0e61c10cd1c95a5b84c2c1b09e80700fddf37)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add safe GiadaWare AI natural-language query adapter (#53)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/48fd0e20c6afb8413fac8e13d1f8f7c2663f3c7a)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add GiadaWare AI intent adapter](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/2278eaac63ae461424dd63374cdd3f13ec500a65)
 - **2026-09-05** · `giadaware-ui-components` · **Funzionalità:** [add reusable image focal-point control (#74)](https://github.com/gcomneno/giadaware-ui-components/commit/3980787c1fd5736cca46467ad51a5617a551c04b)
 - **2026-09-04** · `grocery-deal-intelligence` · **Funzionalità:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
 - **2026-09-04** · `digit-probe` · **Sicurezza:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
@@ -295,16 +303,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-30** · `grocery-deal-intelligence` · **Funzionalità:** [assemble canonical corpus (#166) (#167)](https://github.com/gcomneno/grocery-deal-intelligence/commit/6c7ce6264153dd0c6cc7dd36f71809355197f50f)
 - **2026-08-30** · `grocery-deal-intelligence` · **Documentazione:** [formalize retailer readiness architecture (#164) (#165)](https://github.com/gcomneno/grocery-deal-intelligence/commit/35ea3cf8a21673f3415f2f49c3b749239c3b5c24)
 - **2026-08-30** · `atelier-kit` · **Correzione:** [exclude source-local environment state (#346)](https://github.com/gcomneno/atelier-kit/commit/140c17ebb70f3f25a70481470831f17a6be32c6a)
-- **2026-08-30** · `grocery-deal-intelligence` · **Funzionalità:** [list available retailers (#162) (#163)](https://github.com/gcomneno/grocery-deal-intelligence/commit/57d9c1b913a969bb21f8dea43c63a463df5f3eb4)
-- **2026-08-30** · `grocery-deal-intelligence` · **Funzionalità:** [list current canonical offers (#160) (#161)](https://github.com/gcomneno/grocery-deal-intelligence/commit/b8e7edf4b739b0418b5bf7359b6c3b75425d76a8)
-- **2026-08-30** · `grocery-deal-intelligence` · **Sviluppo:** [tooling: adopt Ruff ALL and formatter (#159)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f8da8e6b19d5d3da4525e298bf544c433f22b6e0)
-- **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [resolve multi-item shopping lists (#156) (#157)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bddeb8dd18f9a3f820569c7bf7ae95aad1e22cb6)
-- **2026-08-29** · `lele-manager` · **Sicurezza:** [document main branch protection policy (#254)](https://github.com/gcomneno/lele-manager/commit/2bc537d24690f3da0f08cb07136c20c1c9eaa1ea)
-- **2026-08-29** · `grocery-deal-intelligence` · **Funzionalità:** [resolve shopping-item availability from verified offers (#152)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c5ecec3f5cb249f176f3c64d003d6045383bcc9f)
-- **2026-08-29** · `lele-manager` · **Sicurezza:** [add native release provenance guarantees (#253)](https://github.com/gcomneno/lele-manager/commit/12c843f9495850e778741eed0c6f1555a926b70a)
-- **2026-08-29** · `grocery-deal-intelligence` · **Correzione:** [harden dark chocolate family evidence (#153) (#154)](https://github.com/gcomneno/grocery-deal-intelligence/commit/72caebfb2b43a487b565ed489eaacb249fde26b8)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 959 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 967 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
