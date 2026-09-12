@@ -199,15 +199,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-12** · `smart-file-organizer` · **Feature:** [prototype read-only recovery desktop UX (#104)](https://github.com/gcomneno/smart-file-organizer/commit/856b2b1577538b9ab8958205eb50f40fab08345a)
 - **2026-09-11** · `vscode-bitbake` · **Development:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/040c42d82015e4f010e71a6ad80a0d10bb30def8)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c37b1d8bb432a57deea12a0ecc3244e7c497d843)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/bc5d222be5f4b0f8a82a1840bfba80c3ca0f127e)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/5d119990f2f2cc51f73435257ea7a623edb869de)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d2eae597b9354510bcecf9f40d765422212fad5c)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 study answers (#12)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/88cd87598cab023772d3352216e1538ae4c08279)
@@ -217,12 +220,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [finalize root README for verified PHP 5](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/7c8a6dd4e6b4e001694c500c867827f51ab218e2)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [formalize PHP 5 cart and sessions (#10)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/680c8d5d26fce806b3319b0d80b3594880251c5b)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [expose PHP 5 from canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/95a3e68b6c7966141adaa9321fe2dabd07c8017f)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 to lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/dafeb1da84c81438bcc4a6a1fecd8937fd2e83d3)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 5 Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9db5e7252aa14839b2ad01066de12f4c2028044c)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 exercise guide](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/24b2f011cebb4bba180e89c445beba3311de68f1)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 default entrypoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/adcd16996cfab2705bf8561030458fae517a72e3)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [complete PHP 5 cart table homework](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/2f18083af62a0b5804108d50b9ebf7107284b994)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 cart POST endpoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec02d65e172218c4d21dd46cb74d5ea22199633b)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 catalog cart action](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/3119513c411b1c8ca41f9e0a21cb692f779206bd)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 session cart helpers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/6bb706c73251a21ce7cd623d2e5fd41e6d140d61)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 database boundary](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/be95f269a41540bea99b29d7ba26a40b83bfff44)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 deterministic seed](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d941847d99950fdeade829624fc2790eed5cf34d)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 cart schema](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9f54c25e534205ae1aebfd4c52421eba8d46deb6)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [record PHP 5 teacher evidence](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0366f0737c1edd9eafc90ec69e899af1ded52dd2)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Feature:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Docs:** [expose PHP lessons through canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec53cb360978efc7a72f6d92e75c5289c112179c)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Docs:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/84be992f3225955ba4dc745456664f87ee5ef8a0)
@@ -236,8 +245,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-10** · `web` · **Docs:** [add English PHP 4 CRUD completion note](https://github.com/gcomneno/web/commit/c63e08e69f1fd9625e29b717dd4e904520f08956)
 - **2026-09-10** · `web` · **Docs:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
 - **2026-09-10** · `web` · **Feature:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
+- **2026-09-10** · `web` · **Feature:** [add confirmed PHP 4 product deletion](https://github.com/gcomneno/web/commit/f4d7ea61a90abb8572daba21ff9fea5a7f225c62)
+- **2026-09-10** · `web` · **Feature:** [persist PHP 4 product updates](https://github.com/gcomneno/web/commit/74ece53a10452d2ef3c2482591ce1bda1edc0f30)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 product update form](https://github.com/gcomneno/web/commit/530cf582dec36ec15ccbdfe295a20bfa8351c4d3)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 product detail read](https://github.com/gcomneno/web/commit/5d8e16b6c6bf8dba65bf6f1d61b0e053db543702)
+- **2026-09-10** · `web` · **Feature:** [align PHP 4 create form with persisted schema](https://github.com/gcomneno/web/commit/5919c06625616edbb44eb598a1537ddb3b37d6a1)
 - **2026-09-10** · `web` · **Feature:** [persist PHP 4 product creation](https://github.com/gcomneno/web/commit/23f394a61bbaf8cbb07af8a1716eda648a65dd87)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 CRUD helpers](https://github.com/gcomneno/web/commit/2c64ce6d9e460d90d48995dd0d7eba71a61e457d)
 - **2026-09-10** · `web` · **Feature:** [add CRUD links to PHP 4 product card](https://github.com/gcomneno/web/commit/c89ebb78b0698037104a6d663ac011eac93c89b5)
@@ -253,13 +265,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-07** · `atelier-kit` · **Feature:** [add editorial image focal-point control (#363) (#367)](https://github.com/gcomneno/atelier-kit/commit/14d943d46bd2aa818af43c70f9b2b92845ef335d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Docs:** [finalize documentation localization policy (#70)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/47ed504166a2347e25d083b754e6446401ce0e51)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [integrate GiadaWare AI research translation (#69)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6d7eefc596f4ab6afc497342da1db3e08d23d31)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [request localized dynamic research presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/43597fdba91a5595ef5629115bc994c76e853057)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [pass presentation locale through research bridge only](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a0b5c525265104fa50da8c17f3dc71235435b8dc)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [establish dynamic research translation contract (#68)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/65c959a9684090821048758ff8838956fe743cd8)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize research reports static presentation (#66)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/35bf824920aff02981329906bee3746517a05a51)
 - **2026-09-07** · `cat-couch-guardian` · **Feature:** [establish virtual-first cat guardian baseline](https://github.com/gcomneno/cat-couch-guardian/commit/76d0d1546f910b2aaa38d8a32b79a898154ced60)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [localize occurrence explorer presentation (#65)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/1514f81668332dc5b6c218195638a792f71d4e95)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Refactor:** [keep occurrence metadata composition deterministic](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c5d5921decd45e0bb019f7de43ddb0a9f2eeae26)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current dashboard localization (#64)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/051245dbcc2631b628dbda65adf5dfe0f4094ac7)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current dashboard core surfaces (#63)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/9755d0947541d029909ead719a4ae6ec543718cf)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add GUI localization foundation (#62)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/5aa09ca374d58ab59be2dcd8d0c2ebcc4cf52f46)
@@ -285,6 +294,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-02** · `atelier-kit` · **Docs:** [reconcile retired #275 validation infrastructure (#360)](https://github.com/gcomneno/atelier-kit/commit/b02295956a15fc59739a8fd2f7080e1c05379620)
 - **2026-09-01** · `atelier-kit` · **Fix:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 - **2026-09-01** · `atelier-kit` · **Fix:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
+- **2026-09-01** · `craft-parts` · **Docs:** [address example review feedback](https://github.com/gcomneno/craft-parts/commit/b6f3d726743fe5e35772225d344ce6ad6bfab133)
 - **2026-08-31** · `atelier-kit` · **Feature:** [complete native sitemap integration (#354)](https://github.com/gcomneno/atelier-kit/commit/dc94b3d91ecaefe4d25b74cc41be8f55c0abf76d)
 - **2026-08-31** · `snapcraft` · **Fix:** [allow long directory names (#6216)](https://github.com/gcomneno/snapcraft/commit/25454633707006595771f7a024c84809b4fa5ad1)
 - **2026-08-31** · `atelier-kit` · **Docs:** [formalize canonical language contract (#353)](https://github.com/gcomneno/atelier-kit/commit/c8dd99962dd9fb3771576a737611918f0e894879)
@@ -293,18 +303,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-08-31** · `smart-file-organizer` · **Security:** [add immutable release provenance (#102)](https://github.com/gcomneno/smart-file-organizer/commit/cce0a459aecfc8047c7c27e4b8de129700859a25)
 - **2026-08-31** · `grocery-deal-intelligence` · **Feature:** [establish Esselunga acquisition-context evidence boundary (#173) (#174)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e41c50d7a3083aba7a16b83d4dd84384beaa7343)
 - **2026-08-31** · `atelier-kit` · **Docs:** [define pricing and commercial economics (#351)](https://github.com/gcomneno/atelier-kit/commit/ace36b0784d4607871a3977a99e4fdc337441dd4)
-- **2026-08-31** · `atelier-kit` · **Docs:** [define customer onboarding runbook (#350)](https://github.com/gcomneno/atelier-kit/commit/3a400d7c73aa3d930700744e74e175da81315ff5)
-- **2026-08-31** · `grocery-deal-intelligence` · **Development:** [experiment: rerun Proposal path on pinned real corpus (#58) (#172)](https://github.com/gcomneno/grocery-deal-intelligence/commit/bce1e2893dd8db2df71fab25e63b32ef52b1cb30)
-- **2026-08-31** · `smart-file-organizer` · **Security:** [harden release workflow authority (#101)](https://github.com/gcomneno/smart-file-organizer/commit/f5061b877ae666f190863a770882611242805e1e)
-- **2026-08-31** · `giadaware-ai` · **Development:** [experiment: add controlled prose naturalization spike (#21)](https://github.com/gcomneno/giadaware-ai/commit/b729dbba95e4f45969fdf859c5b576c037e5bfc8)
-- **2026-08-31** · `giadaware-ai` · **Docs:** [define capability qualification and admission contract (#23)](https://github.com/gcomneno/giadaware-ai/commit/41cbe7e1a50b05137d5bdece4a577ea194f00ac0)
-- **2026-08-31** · `giadaware-ai` · **Feature:** [add provider-independent translation capability (#26)](https://github.com/gcomneno/giadaware-ai/commit/a40edd8ed27fb9bab62f0be52103b49c1725f07e)
-- **2026-08-31** · `atelier-kit` · **Docs:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
-- **2026-08-31** · `giadaware-ai` · **Docs:** [adopt shared learning vocabulary (#25)](https://github.com/gcomneno/giadaware-ai/commit/8f6a049af8e5ad3ced8163307f41dd0ef1a69fc3)
-- **2026-08-31** · `atelier-kit` · **Docs:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
-- **2026-08-30** · `grocery-deal-intelligence` · **Feature:** [exercise business consumers over canonical corpus (#171)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ecc3cab6728fec2729b97d2b28b62df199328c39)
 
-_Showing the 100 most recent meaningful updates; 971 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 981 older update(s) omitted._
 
 </details>
 
