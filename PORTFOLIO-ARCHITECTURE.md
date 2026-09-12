@@ -80,7 +80,7 @@ No repository is deleted merely because it is not promoted.
 
 # Canonical inventory
 
-The baseline below contains **66 repositories verified through the connected GitHub account on 2026-09-12**.
+The baseline below contains **65 repositories verified through the connected GitHub account on 2026-09-12**.
 
 A separately declared private repository, `gcomneno/job-search-ops`, is recorded after the verified inventory because it was not returned by the connected GitHub inventory at baseline time.
 
@@ -151,7 +151,6 @@ A separately declared private repository, `gcomneno/job-search-ops`, is recorded
 | `gyte` | ACTIVE | public | KEEP |
 | `gyte-ai-learning-pipeline` | ACTIVE | public | KEEP |
 | `midas` | ACTIVE | public | KEEP |
-| `pkps` | ACTIVE | public | REVIEW |
 | `turbo-bucketizer` | ACTIVE | public | KEEP |
 | `crystal-codec-gcc-v1` | ACTIVE | public | KEEP |
 | `huffman-compressor` | ACTIVE | public | KEEP |
@@ -204,17 +203,17 @@ This repository must not be included in verified account totals until the GitHub
 
 # Baseline status distribution
 
-For the 66 GitHub-verified repositories:
+For the 65 GitHub-verified repositories:
 
 | Status | Count |
 | --- | ---: |
 | CORE | 8 |
-| ACTIVE | 34 |
+| ACTIVE | 33 |
 | LAB | 16 |
 | ARCHIVE | 3 |
 | SANDBOX | 1 |
 | CREATIVE | 4 |
-| **Total** | **66** |
+| **Total** | **65** |
 
 # Presentation policy
 
@@ -234,20 +233,19 @@ Private governance, personal operations, private health tooling, creative archiv
 
 ## Review pass 1 — 2026-09-12
 
-The first `inspect -> classify -> decide` pass produced these decisions without renaming, archiving, deleting, or changing repository visibility:
+The first `inspect -> classify -> decide` pass produced these decisions without renaming, archiving or changing repository visibility:
 
 | Repository | Classification | Decision | Result |
 | --- | --- | --- | --- |
 | `web` | Learning & Education / LAB | KEEP | Umbrella web-learning lab with distinct Laravel and PHP sub-labs; generic name alone is not sufficient reason to mutate it. |
 | `petra` | Research & Experiments / ACTIVE | PROMOTE | Maintained PETRA runtime with canonical specification, CLI, tests and active replacement roadmap. |
-| `pkps` | Research & Experiments / ACTIVE | REVIEW | Repository description is meaningful, but the visible root is empty; insufficient evidence to close classification review. |
 | `crystal-codec-gcc-v1` | Research & Experiments / ACTIVE | KEEP | Explicit conceptual codec prototype with specification, roadmap, examples and tests. |
 | `lasagna-v2` | Research & Experiments / ACTIVE | KEEP | Explicit research MVP with CLI, `.lsg2` format, demos, tests and CI/security tooling. |
 | `onion-compressor-framework` | Products & Utilities / ACTIVE | KEEP | Verifiable lossless packager/framework with concrete CLI, formats, verification semantics, tests and reproducible benchmarks. |
 
 ### Remaining review queue
 
-- `pkps` — determine whether its intended local-first knowledge-promotion architecture has recoverable implementation/history or whether the public repository is currently only a placeholder surface.
+No repositories remain in the current review queue.
 
 Review means **inspect before mutation**. No rename, visibility change, archive action or deletion follows automatically from this document.
 
