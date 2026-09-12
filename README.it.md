@@ -199,14 +199,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-12** · `giadaware-ai` · **Documentazione:** [formalize provider runtime verification taxonomy (#35)](https://github.com/gcomneno/giadaware-ai/commit/d88189623e5532a11c80ab62ba4f257c4298ef9f)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional OpenAI remote backend (#33)](https://github.com/gcomneno/giadaware-ai/commit/c8c19f28315d54c66bd8dd8fdb5a70a714a0de42)
 - **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional OpenAI remote backend](https://github.com/gcomneno/giadaware-ai/commit/a1a76845796c50ade3c27ecf9a607595849dc4ec)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional OpenAI backend adapter](https://github.com/gcomneno/giadaware-ai/commit/83d582706f6366c0056ae67459329b8a8eac9b1a)
-- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional DeepSeek remote backend (#31)](https://github.com/gcomneno/giadaware-ai/commit/4b9194ee2542295d0cbaae615f4a23d87884f8a0)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional DeepSeek remote backend (#31)](https://github.com/gcomneno/giadaware-ai/commit/4b9194ee2542295d0cbaae615f4a23d87884f8a0)
 - **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional DeepSeek backend boundary](https://github.com/gcomneno/giadaware-ai/commit/9ef3f81dc86245fc1c0076497d7d59c83a24c24b)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional DeepSeek remote backend](https://github.com/gcomneno/giadaware-ai/commit/c706e6b13a61e7f252f0f508c6875a8596e37e9e)
 - **2026-09-12** · `smart-file-organizer` · **Funzionalità:** [prototype read-only recovery desktop UX (#104)](https://github.com/gcomneno/smart-file-organizer/commit/856b2b1577538b9ab8958205eb50f40fab08345a)
@@ -302,9 +303,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-02** · `atelier-kit` · **Documentazione:** [reconcile retired #275 validation infrastructure (#360)](https://github.com/gcomneno/atelier-kit/commit/b02295956a15fc59739a8fd2f7080e1c05379620)
 - **2026-09-01** · `atelier-kit` · **Correzione:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 - **2026-09-01** · `atelier-kit` · **Correzione:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
-- **2026-09-01** · `craft-parts` · **Documentazione:** [address example review feedback](https://github.com/gcomneno/craft-parts/commit/b6f3d726743fe5e35772225d344ce6ad6bfab133)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 989 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 990 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
