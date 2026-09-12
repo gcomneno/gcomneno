@@ -86,7 +86,7 @@ A separately declared private repository, `gcomneno/job-search-ops`, is recorded
 
 ## 1. Portfolio & Governance
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `gcomneno` | CORE | public | PROMOTE |
 | `.github` | CORE | public | KEEP |
@@ -96,7 +96,7 @@ A separately declared private repository, `gcomneno/job-search-ops`, is recorded
 
 ## 2. Infrastructure & Tooling
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `local-dev-infrastructure` | CORE | private | KEEP |
 | `oss-toolbox` | ACTIVE | private | KEEP |
@@ -104,7 +104,7 @@ A separately declared private repository, `gcomneno/job-search-ops`, is recorded
 
 ## 3. Products & Utilities
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `smart-file-organizer` | CORE | public | PROMOTE |
 | `giadaware-ai` | CORE | public | PROMOTE |
@@ -117,10 +117,11 @@ A separately declared private repository, `gcomneno/job-search-ops`, is recorded
 | `lele-quizzer` | ACTIVE | public | KEEP |
 | `atelier-kit` | ACTIVE | public | PROMOTE |
 | `cat-couch-guardian` | ACTIVE | public | KEEP |
+| `onion-compressor-framework` | ACTIVE | private | KEEP |
 
 ## 4. Learning & Education
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `cyse-lab` | LAB | public | KEEP |
 | `bug-hunting-lab` | LAB | private | KEEP |
@@ -137,34 +138,33 @@ A separately declared private repository, `gcomneno/job-search-ops`, is recorded
 | `physics-study` | LAB | public | KEEP |
 | `kleis-corso-sviluppo-software` | LAB | public | KEEP |
 | `concorso-inps-assistente-informatico` | LAB | public | KEEP |
-| `web` | LAB | public | REVIEW |
+| `web` | LAB | public | KEEP |
 
 ## 5. Research & Experiments
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `digit-probe` | ACTIVE | public | PROMOTE |
 | `lotto-digit-coverage-dynamics` | ACTIVE | public | KEEP |
 | `system-log-dynamics` | ACTIVE | public | KEEP |
-| `petra` | ACTIVE | private | REVIEW |
+| `petra` | ACTIVE | private | PROMOTE |
 | `gyte` | ACTIVE | public | KEEP |
 | `gyte-ai-learning-pipeline` | ACTIVE | public | KEEP |
 | `midas` | ACTIVE | public | KEEP |
 | `pkps` | ACTIVE | public | REVIEW |
 | `turbo-bucketizer` | ACTIVE | public | KEEP |
-| `crystal-codec-gcc-v1` | ACTIVE | public | REVIEW |
+| `crystal-codec-gcc-v1` | ACTIVE | public | KEEP |
 | `huffman-compressor` | ACTIVE | public | KEEP |
-| `lasagna-v2` | ACTIVE | public | REVIEW |
+| `lasagna-v2` | ACTIVE | public | KEEP |
 | `prime-tower-clocks` | ACTIVE | public | KEEP |
 | `oeis-probe` | ACTIVE | public | KEEP |
 | `integer-structural-search` | ACTIVE | public | KEEP |
-| `onion-compressor-framework` | ACTIVE | private | REVIEW |
 
 ## 6. OSS Contributions
 
 These repositories are contribution working copies/forks. Their portfolio value is the accepted upstream work, not ownership of the upstream project.
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `rockcraft` | ACTIVE | public | KEEP |
 | `craft-parts` | ACTIVE | public | KEEP |
@@ -178,7 +178,7 @@ These repositories are contribution working copies/forks. Their portfolio value 
 
 ## 7. Creative & Narrative
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `archivio-narrativo` | CREATIVE | private | KEEP |
 | `ombre-quotidiane` | CREATIVE | private | KEEP |
@@ -187,7 +187,7 @@ These repositories are contribution working copies/forks. Their portfolio value 
 
 ## 8. Archive & Sandbox
 
-| Repository | Status | Visibility | Initial decision |
+| Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `gcomneno-profile-history-private-20260802` | ARCHIVE | private | KEEP |
 | `atelier-kit-demo-sandbox` | SANDBOX | private | KEEP |
@@ -196,7 +196,7 @@ These repositories are contribution working copies/forks. Their portfolio value 
 
 ## Declared repository not visible to baseline inventory
 
-| Repository | Category | Status | Visibility | Initial decision |
+| Repository | Category | Status | Visibility | Decision |
 | --- | --- | --- | --- | --- |
 | `job-search-ops` | Infrastructure & Tooling / Personal Operations | ACTIVE | private | KEEP |
 
@@ -232,14 +232,22 @@ Private governance, personal operations, private health tooling, creative archiv
 
 # Review queue
 
-The first normalization pass should inspect only repositories marked `REVIEW`:
+## Review pass 1 — 2026-09-12
 
-- `web` — generic name; clarify whether it remains the canonical Laravel learning workspace or should eventually be archived/renamed.
-- `petra` — determine whether it remains private research, becomes a promoted research project, or belongs under another portfolio boundary.
-- `pkps` — identity is not self-evident from the repository name alone.
-- `crystal-codec-gcc-v1` — version encoded in the repository name suggests experimental lineage that should be reviewed.
-- `lasagna-v2` — version encoded in the repository name suggests experimental lineage that should be reviewed.
-- `onion-compressor-framework` — determine whether it is active research infrastructure or an experiment ready for archival.
+The first `inspect -> classify -> decide` pass produced these decisions without renaming, archiving, deleting, or changing repository visibility:
+
+| Repository | Classification | Decision | Result |
+| --- | --- | --- | --- |
+| `web` | Learning & Education / LAB | KEEP | Umbrella web-learning lab with distinct Laravel and PHP sub-labs; generic name alone is not sufficient reason to mutate it. |
+| `petra` | Research & Experiments / ACTIVE | PROMOTE | Maintained PETRA runtime with canonical specification, CLI, tests and active replacement roadmap. |
+| `pkps` | Research & Experiments / ACTIVE | REVIEW | Repository description is meaningful, but the visible root is empty; insufficient evidence to close classification review. |
+| `crystal-codec-gcc-v1` | Research & Experiments / ACTIVE | KEEP | Explicit conceptual codec prototype with specification, roadmap, examples and tests. |
+| `lasagna-v2` | Research & Experiments / ACTIVE | KEEP | Explicit research MVP with CLI, `.lsg2` format, demos, tests and CI/security tooling. |
+| `onion-compressor-framework` | Products & Utilities / ACTIVE | KEEP | Verifiable lossless packager/framework with concrete CLI, formats, verification semantics, tests and reproducible benchmarks. |
+
+### Remaining review queue
+
+- `pkps` — determine whether its intended local-first knowledge-promotion architecture has recoverable implementation/history or whether the public repository is currently only a placeholder surface.
 
 Review means **inspect before mutation**. No rename, visibility change, archive action or deletion follows automatically from this document.
 
