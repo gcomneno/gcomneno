@@ -199,14 +199,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-11** · `vscode-bitbake` · **Sviluppo:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/040c42d82015e4f010e71a6ad80a0d10bb30def8)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/5d119990f2f2cc51f73435257ea7a623edb869de)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d2eae597b9354510bcecf9f40d765422212fad5c)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 study answers (#12)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/88cd87598cab023772d3352216e1538ae4c08279)
@@ -251,8 +252,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-09** · `web` · **Documentazione:** [establish PHP lab repository readiness (#5)](https://github.com/gcomneno/web/commit/71d3a0977096d0821176fdadd9b4a3e365c8e524)
 - **2026-09-07** · `atelier-kit` · **Funzionalità:** [add editorial image focal-point control (#363) (#367)](https://github.com/gcomneno/atelier-kit/commit/14d943d46bd2aa818af43c70f9b2b92845ef335d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [finalize documentation localization policy (#70)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/47ed504166a2347e25d083b754e6446401ce0e51)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [mark Italian documentation derived](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/887a1bc6c22def7b526a9a274a9622d59bb43df4)
-- **2026-09-07** · `lotto-digit-coverage-dynamics` · **Documentazione:** [define documentation localization authority](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/38e2abbc6fdb9d3a6045751e89e253a0ffd94a4d)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [integrate GiadaWare AI research translation (#69)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a6d7eefc596f4ab6afc497342da1db3e08d23d31)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [request localized dynamic research presentation](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/43597fdba91a5595ef5629115bc994c76e853057)
 - **2026-09-07** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [pass presentation locale through research bridge only](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/a0b5c525265104fa50da8c17f3dc71235435b8dc)
@@ -303,8 +302,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-08-31** · `atelier-kit` · **Documentazione:** [define customer support contract (#349)](https://github.com/gcomneno/atelier-kit/commit/70712e6cf8e6685ad9b507e937b254071f12d3bb)
 - **2026-08-31** · `giadaware-ai` · **Documentazione:** [adopt shared learning vocabulary (#25)](https://github.com/gcomneno/giadaware-ai/commit/8f6a049af8e5ad3ced8163307f41dd0ef1a69fc3)
 - **2026-08-31** · `atelier-kit` · **Documentazione:** [define maintenance and upgrade contract (#323) (#347)](https://github.com/gcomneno/atelier-kit/commit/c239f73d9d4d6182de54f0703b23604f855dd87a)
+- **2026-08-30** · `grocery-deal-intelligence` · **Funzionalità:** [exercise business consumers over canonical corpus (#171)](https://github.com/gcomneno/grocery-deal-intelligence/commit/ecc3cab6728fec2729b97d2b28b62df199328c39)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 972 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 971 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
