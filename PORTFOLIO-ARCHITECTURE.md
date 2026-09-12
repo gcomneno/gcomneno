@@ -229,6 +229,18 @@ The profile SHOULD NOT enumerate every repository merely because it exists.
 
 Private governance, personal operations, private health tooling, creative archives and sandboxes are not automatically candidates for public promotion.
 
+## Presentation alignment gate — 2026-09-12
+
+The English and Italian profile READMEs were checked against the canonical `PROMOTE` decisions.
+
+- `gcomneno` is the profile surface itself.
+- `atelier-kit`, `smart-file-organizer`, `giadaware-ai`, `digit-probe` and `vscode-bitbake` are represented in the public profile through selected-project, operational-project, selected-research or open-source sections.
+- `petra` remains `PROMOTE` as a portfolio decision but is private, so it is not forced into the public profile.
+- Repositories marked `KEEP` may still appear when they strengthen the portfolio narrative; `PROMOTE` is not an exclusivity list.
+- English and Italian profile surfaces follow the same presentation structure.
+
+**Gate:** `PUBLIC_PROMOTE_COVERAGE=PASS`.
+
 # Review queue
 
 ## Review pass 1 — 2026-09-12
