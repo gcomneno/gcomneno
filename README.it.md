@@ -199,14 +199,20 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-09-12** · `smart-file-organizer` · **Funzionalità:** [prototype read-only recovery desktop UX (#104)](https://github.com/gcomneno/smart-file-organizer/commit/856b2b1577538b9ab8958205eb50f40fab08345a)
-- **2026-09-11** · `vscode-bitbake` · **Sviluppo:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/040c42d82015e4f010e71a6ad80a0d10bb30def8)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
+- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional OpenAI remote backend (#33)](https://github.com/gcomneno/giadaware-ai/commit/c8c19f28315d54c66bd8dd8fdb5a70a714a0de42)
+- **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional OpenAI remote backend](https://github.com/gcomneno/giadaware-ai/commit/a1a76845796c50ade3c27ecf9a607595849dc4ec)
+- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional OpenAI backend adapter](https://github.com/gcomneno/giadaware-ai/commit/83d582706f6366c0056ae67459329b8a8eac9b1a)
+- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional DeepSeek remote backend (#31)](https://github.com/gcomneno/giadaware-ai/commit/4b9194ee2542295d0cbaae615f4a23d87884f8a0)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional DeepSeek backend boundary](https://github.com/gcomneno/giadaware-ai/commit/9ef3f81dc86245fc1c0076497d7d59c83a24c24b)
+- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional DeepSeek remote backend](https://github.com/gcomneno/giadaware-ai/commit/c706e6b13a61e7f252f0f508c6875a8596e37e9e)
+- **2026-09-12** · `smart-file-organizer` · **Funzionalità:** [prototype read-only recovery desktop UX (#104)](https://github.com/gcomneno/smart-file-organizer/commit/856b2b1577538b9ab8958205eb50f40fab08345a)
+- **2026-09-11** · `vscode-bitbake` · **Sviluppo:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/040c42d82015e4f010e71a6ad80a0d10bb30def8)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c37b1d8bb432a57deea12a0ecc3244e7c497d843)
@@ -234,7 +240,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [record PHP 5 teacher evidence](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0366f0737c1edd9eafc90ec69e899af1ded52dd2)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Funzionalità:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [expose PHP lessons through canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec53cb360978efc7a72f6d92e75c5289c112179c)
-- **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/84be992f3225955ba4dc745456664f87ee5ef8a0)
+- **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/20fa7becfec4e34bd30c6f06e60e9b1b0a6265e4)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Funzionalità:** [import PHP course lessons 1-4](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0d8db12d0e070e12167d88418395d26ef7bc6905)
 - **2026-09-10** · `web` · **Correzione:** [use PHP 4 catalog count variable](https://github.com/gcomneno/web/commit/27d7a3a2514a4673ea44dcf053fb50cf83e7dd63)
 - **2026-09-10** · `web` · **Documentazione:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
@@ -242,6 +248,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-10** · `web` · **Documentazione:** [finalize PHP 4 lesson learned with CRUD](https://github.com/gcomneno/web/commit/497f0f15bc3c5fcd8373e7a2b4d401879771fa7a)
 - **2026-09-10** · `web` · **Funzionalità:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
 - **2026-09-10** · `web` · **Documentazione:** [sort bilingual manifest for PHP 4 CRUD](https://github.com/gcomneno/web/commit/1b2b4c36cd8cc42e84c30c361043010e685d1df7)
+- **2026-09-10** · `web` · **Documentazione:** [register PHP 4 CRUD completion pair](https://github.com/gcomneno/web/commit/b9a97a5d14c4dc878a29f5170f3996099802044f)
+- **2026-09-10** · `web` · **Correzione:** [keep PHP 4 card actions to text edit delete links](https://github.com/gcomneno/web/commit/b6da1bb07289a69d560652b76db1708736b84aee)
 - **2026-09-10** · `web` · **Documentazione:** [add English PHP 4 CRUD completion note](https://github.com/gcomneno/web/commit/c63e08e69f1fd9625e29b717dd4e904520f08956)
 - **2026-09-10** · `web` · **Documentazione:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
 - **2026-09-10** · `web` · **Funzionalità:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
@@ -295,16 +303,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-01** · `atelier-kit` · **Correzione:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 - **2026-09-01** · `atelier-kit` · **Correzione:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
 - **2026-09-01** · `craft-parts` · **Documentazione:** [address example review feedback](https://github.com/gcomneno/craft-parts/commit/b6f3d726743fe5e35772225d344ce6ad6bfab133)
-- **2026-08-31** · `atelier-kit` · **Funzionalità:** [complete native sitemap integration (#354)](https://github.com/gcomneno/atelier-kit/commit/dc94b3d91ecaefe4d25b74cc41be8f55c0abf76d)
-- **2026-08-31** · `snapcraft` · **Correzione:** [allow long directory names (#6216)](https://github.com/gcomneno/snapcraft/commit/25454633707006595771f7a024c84809b4fa5ad1)
-- **2026-08-31** · `atelier-kit` · **Documentazione:** [formalize canonical language contract (#353)](https://github.com/gcomneno/atelier-kit/commit/c8dd99962dd9fb3771576a737611918f0e894879)
-- **2026-08-31** · `grocery-deal-intelligence` · **Funzionalità:** [define Esselunga capture evidence contract (#175) (#176)](https://github.com/gcomneno/grocery-deal-intelligence/commit/f095c360696c296cc34aeeafc79767c62c13cc5f)
-- **2026-08-31** · `atelier-kit` · **Correzione:** [preserve full item cover artwork (#352)](https://github.com/gcomneno/atelier-kit/commit/d6b41701b1f48ae84cefe98a30ec549003b4c595)
-- **2026-08-31** · `smart-file-organizer` · **Sicurezza:** [add immutable release provenance (#102)](https://github.com/gcomneno/smart-file-organizer/commit/cce0a459aecfc8047c7c27e4b8de129700859a25)
-- **2026-08-31** · `grocery-deal-intelligence` · **Funzionalità:** [establish Esselunga acquisition-context evidence boundary (#173) (#174)](https://github.com/gcomneno/grocery-deal-intelligence/commit/e41c50d7a3083aba7a16b83d4dd84384beaa7343)
-- **2026-08-31** · `atelier-kit` · **Documentazione:** [define pricing and commercial economics (#351)](https://github.com/gcomneno/atelier-kit/commit/ace36b0784d4607871a3977a99e4fdc337441dd4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 981 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 989 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
