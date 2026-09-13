@@ -219,6 +219,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 3 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/f0a8619d2375282a4521a33323e9f2f22ca986f9)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 3 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/1223b0d730f595e4b31a15cfe150ae0c0cc5d50f)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c37b1d8bb432a57deea12a0ecc3244e7c497d843)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/bc5d222be5f4b0f8a82a1840bfba80c3ca0f127e)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/5d119990f2f2cc51f73435257ea7a623edb869de)
@@ -233,6 +234,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 to English lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d64dbf5342b5d763b762e773cb8e941ea9f70612)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 to lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/dafeb1da84c81438bcc4a6a1fecd8937fd2e83d3)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 5 Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9db5e7252aa14839b2ad01066de12f4c2028044c)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 canonical Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/4d656600e6fa471cdc94d7afb815aed7b48fd05d)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 exercise guide](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/24b2f011cebb4bba180e89c445beba3311de68f1)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 least-privilege grants](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a0614464a6804bf782799a8cf6b03504937a3fd1)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 default entrypoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/adcd16996cfab2705bf8561030458fae517a72e3)
@@ -301,10 +303,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
 
-_Showing the 100 most recent meaningful updates; 995 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 997 older update(s) omitted._
 
 </details>
 
