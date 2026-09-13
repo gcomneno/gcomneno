@@ -260,16 +260,12 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-10** · `web` · **Docs:** [register PHP 4 CRUD completion pair](https://github.com/gcomneno/web/commit/b9a97a5d14c4dc878a29f5170f3996099802044f)
 - **2026-09-10** · `web` · **Fix:** [keep PHP 4 card actions to text edit delete links](https://github.com/gcomneno/web/commit/b6da1bb07289a69d560652b76db1708736b84aee)
 - **2026-09-10** · `web` · **Docs:** [add English PHP 4 CRUD completion note](https://github.com/gcomneno/web/commit/c63e08e69f1fd9625e29b717dd4e904520f08956)
-- **2026-09-10** · `web` · **Docs:** [record PHP 4 CRUD completion requirement](https://github.com/gcomneno/web/commit/a0cd919a70a11aee37c4768fe55b28e18f633e49)
-- **2026-09-10** · `web` · **Feature:** [define PHP 4 CRUD database privileges](https://github.com/gcomneno/web/commit/a3307bad6018900aa85b351c6b5c9db13998a71f)
 - **2026-09-10** · `web` · **Feature:** [add confirmed PHP 4 product deletion](https://github.com/gcomneno/web/commit/f4d7ea61a90abb8572daba21ff9fea5a7f225c62)
 - **2026-09-10** · `web` · **Feature:** [persist PHP 4 product updates](https://github.com/gcomneno/web/commit/74ece53a10452d2ef3c2482591ce1bda1edc0f30)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 product update form](https://github.com/gcomneno/web/commit/530cf582dec36ec15ccbdfe295a20bfa8351c4d3)
 - **2026-09-10** · `web` · **Feature:** [add PHP 4 product detail read](https://github.com/gcomneno/web/commit/5d8e16b6c6bf8dba65bf6f1d61b0e053db543702)
 - **2026-09-10** · `web` · **Feature:** [align PHP 4 create form with persisted schema](https://github.com/gcomneno/web/commit/5919c06625616edbb44eb598a1537ddb3b37d6a1)
 - **2026-09-10** · `web` · **Feature:** [persist PHP 4 product creation](https://github.com/gcomneno/web/commit/23f394a61bbaf8cbb07af8a1716eda648a65dd87)
-- **2026-09-10** · `web` · **Feature:** [add PHP 4 CRUD helpers](https://github.com/gcomneno/web/commit/2c64ce6d9e460d90d48995dd0d7eba71a61e457d)
-- **2026-09-10** · `web` · **Feature:** [add CRUD links to PHP 4 product card](https://github.com/gcomneno/web/commit/c89ebb78b0698037104a6d663ac011eac93c89b5)
 - **2026-09-10** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories (#10)](https://github.com/gcomneno/web/commit/2261b10bfdedffcca5ee5ef8c845b0faa84ca7ae)
 - **2026-09-09** · `web` · **Docs:** [record PHP 4 sidebar road-test correction](https://github.com/gcomneno/web/commit/1f64699309e80af2a0b7b1dc3a19131254a420d2)
 - **2026-09-09** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories](https://github.com/gcomneno/web/commit/5d872d5a3b25e259cfa101d8a1c45d3813c5c5f5)
@@ -303,8 +299,12 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
 
-_Showing the 100 most recent meaningful updates; 998 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 994 older update(s) omitted._
 
 </details>
 
