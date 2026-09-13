@@ -17,8 +17,13 @@ When sources disagree, use this precedence:
 
 1. verified public GitHub state;
 2. explicit current maintainer decision;
-3. this operational guide;
+3. `PORTFOLIO-ARCHITECTURE.md` for portfolio classification and promotion
+   decisions; this operational guide for procedure, privacy and verification;
 4. remembered conversation state.
+
+`AGENTS.md` and `PORTFOLIO-ARCHITECTURE.md` are orthogonal: this file defines
+how to work safely, `PORTFOLIO-ARCHITECTURE.md` defines what the portfolio
+contains. Both are authoritative in their own domain.
 
 Investigate contradictions instead of guessing.
 
@@ -29,17 +34,22 @@ Before substantive work:
 1. inspect repository and branch state;
 2. verify current public GitHub facts instead of trusting remembered state;
 3. read both `README.md` and `README.it.md` for curated-profile changes;
-4. inspect `scripts/update_latest_updates.py` and its tests for Latest Updates
+4. read `PORTFOLIO-ARCHITECTURE.md` for the editorial canon — portfolio
+   category, lifecycle status, and `KEEP`/`PROMOTE`/`ARCHIVE`/`REVIEW` decision
+   for every repository owned by the maintainer;
+5. inspect `scripts/update_latest_updates.py` and its tests for Latest Updates
    changes;
-5. inspect `scripts/sync_selected_project_releases.py` and its tests for
+6. inspect `scripts/sync_selected_project_releases.py` and its tests for
    Selected Projects release metadata changes;
-6. inspect `.github/workflows/update-latest-updates.yml` for automation changes;
-7. define the smallest coherent change and its verification.
+7. inspect `.github/workflows/update-latest-updates.yml` for automation changes;
+8. define the smallest coherent change and its verification.
 
 Primary entry points:
 
 - `README.md` — canonical English public profile.
 - `README.it.md` — Italian public counterpart.
+- `PORTFOLIO-ARCHITECTURE.md` — editorial canon: portfolio categories,
+  lifecycle statuses and promotion decisions for the whole portfolio.
 - `scripts/update_latest_updates.py` — generated Latest Updates block.
 - `scripts/sync_selected_project_releases.py` — generated official-release
   cells for Selected Projects.
@@ -261,6 +271,9 @@ must not assume that local scheduler state is available in CI.
 - A generated block can overwrite manual edits inside its markers.
 - English-only profile edits create a public contradiction even when every
   individual sentence is true.
+- `AGENTS.md` describes *how* to work; `PORTFOLIO-ARCHITECTURE.md` describes
+  *what* the portfolio contains. A curation change that respects `AGENTS.md`
+  procedure may still violate the editorial canon.
 
 ## Definition of done
 
