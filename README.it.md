@@ -218,6 +218,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 3 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/f0a8619d2375282a4521a33323e9f2f22ca986f9)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c37b1d8bb432a57deea12a0ecc3244e7c497d843)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/bc5d222be5f4b0f8a82a1840bfba80c3ca0f127e)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/5d119990f2f2cc51f73435257ea7a623edb869de)
@@ -229,9 +230,11 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [finalize root README for verified PHP 5](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/7c8a6dd4e6b4e001694c500c867827f51ab218e2)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [formalize PHP 5 cart and sessions (#10)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/680c8d5d26fce806b3319b0d80b3594880251c5b)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [expose PHP 5 from canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/95a3e68b6c7966141adaa9321fe2dabd07c8017f)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 to English lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d64dbf5342b5d763b762e773cb8e941ea9f70612)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 to lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/dafeb1da84c81438bcc4a6a1fecd8937fd2e83d3)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add English PHP 5 Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9db5e7252aa14839b2ad01066de12f4c2028044c)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 exercise guide](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/24b2f011cebb4bba180e89c445beba3311de68f1)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 least-privilege grants](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a0614464a6804bf782799a8cf6b03504937a3fd1)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 default entrypoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/adcd16996cfab2705bf8561030458fae517a72e3)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [complete PHP 5 cart table homework](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/2f18083af62a0b5804108d50b9ebf7107284b994)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 cart POST endpoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec02d65e172218c4d21dd46cb74d5ea22199633b)
@@ -300,11 +303,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
-- **2026-09-02** · `atelier-kit` · **Documentazione:** [record Nero Hosted chain retirement (#362)](https://github.com/gcomneno/atelier-kit/commit/64cb9c22114bd431768c6fcbbe80acf2b500c6ae)
-- **2026-09-02** · `atelier-kit` · **Documentazione:** [reconcile retired #275 validation infrastructure (#360)](https://github.com/gcomneno/atelier-kit/commit/b02295956a15fc59739a8fd2f7080e1c05379620)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 992 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 995 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
