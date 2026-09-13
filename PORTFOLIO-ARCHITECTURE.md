@@ -2,7 +2,7 @@
 
 Status: **Canonical**  
 Owner: **gcomneno**  
-Baseline inventory: **2026-09-12**
+Baseline inventory: **2026-09-13**
 
 ## Purpose
 
@@ -80,9 +80,7 @@ No repository is deleted merely because it is not promoted.
 
 # Canonical inventory
 
-The baseline below contains **65 repositories verified through the connected GitHub account on 2026-09-12**.
-
-A separately declared private repository, `gcomneno/job-search-ops`, is recorded after the verified inventory because it was not returned by the connected GitHub inventory at baseline time.
+The baseline below contains **66 repositories verified through the connected GitHub account on 2026-09-13**.
 
 ## 1. Portfolio & Governance
 
@@ -101,6 +99,7 @@ A separately declared private repository, `gcomneno/job-search-ops`, is recorded
 | `local-dev-infrastructure` | CORE | private | KEEP |
 | `oss-toolbox` | ACTIVE | private | KEEP |
 | `ubuntu-system-tools` | ACTIVE | public | KEEP |
+| `job-search-ops` | ACTIVE | private | KEEP |
 
 ## 3. Products & Utilities
 
@@ -193,27 +192,19 @@ These repositories are contribution working copies/forks. Their portfolio value 
 
 `craft-application` and `craft-providers` are lifecycle `ARCHIVE` but remain categorized under **OSS Contributions**, because category and lifecycle are independent dimensions.
 
-## Declared repository not visible to baseline inventory
-
-| Repository | Category | Status | Visibility | Decision |
-| --- | --- | --- | --- | --- |
-| `job-search-ops` | Infrastructure & Tooling / Personal Operations | ACTIVE | private | KEEP |
-
-This repository must not be included in verified account totals until the GitHub connection returns it.
-
 # Baseline status distribution
 
-For the 65 GitHub-verified repositories:
+For the 66 GitHub-verified repositories:
 
 | Status | Count |
 | --- | ---: |
 | CORE | 8 |
-| ACTIVE | 33 |
+| ACTIVE | 34 |
 | LAB | 16 |
 | ARCHIVE | 3 |
 | SANDBOX | 1 |
 | CREATIVE | 4 |
-| **Total** | **65** |
+| **Total** | **66** |
 
 # Presentation policy
 
