@@ -215,6 +215,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-12** · `smart-file-organizer` · **Feature:** [prototype read-only recovery desktop UX (#104)](https://github.com/gcomneno/smart-file-organizer/commit/856b2b1577538b9ab8958205eb50f40fab08345a)
 - **2026-09-11** · `vscode-bitbake` · **Development:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/040c42d82015e4f010e71a6ad80a0d10bb30def8)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
+- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [align English PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d1a0c543ecef2b0a4b60811f810bf9f6695203b7)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
@@ -302,9 +303,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
-- **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
 
-_Showing the 100 most recent meaningful updates; 997 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 998 older update(s) omitted._
 
 </details>
 
