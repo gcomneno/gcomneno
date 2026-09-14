@@ -199,14 +199,16 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-14** · `craft-cli` · **Correzione:** [handle multiline permanent progress correctly](https://github.com/gcomneno/craft-cli/commit/f9f6559ee549fd722d6ddcbacabe8fe0302b53a3)
+- **2026-09-14** · `craft-cli` · **Correzione:** [ignore broken pipe on output streams](https://github.com/gcomneno/craft-cli/commit/c046a7cb2a1a343c431465238d29d0e96d86472c)
 - **2026-09-12** · `giadaware-ai` · **Documentazione:** [formalize provider runtime verification taxonomy (#35)](https://github.com/gcomneno/giadaware-ai/commit/d88189623e5532a11c80ab62ba4f257c4298ef9f)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional OpenAI remote backend (#33)](https://github.com/gcomneno/giadaware-ai/commit/c8c19f28315d54c66bd8dd8fdb5a70a714a0de42)
-- **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional OpenAI remote backend](https://github.com/gcomneno/giadaware-ai/commit/a1a76845796c50ade3c27ecf9a607595849dc4ec)
-- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [export OpenAI backend](https://github.com/gcomneno/giadaware-ai/commit/2024d869bd0433422fb2571b1c901754b3fff682)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional OpenAI remote backend](https://github.com/gcomneno/giadaware-ai/commit/a1a76845796c50ade3c27ecf9a607595849dc4ec)
+- **2026-09-12** · `giadaware-ai` · **Funzionalità:** [export OpenAI backend](https://github.com/gcomneno/giadaware-ai/commit/2024d869bd0433422fb2571b1c901754b3fff682)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional OpenAI backend adapter](https://github.com/gcomneno/giadaware-ai/commit/83d582706f6366c0056ae67459329b8a8eac9b1a)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional DeepSeek remote backend (#31)](https://github.com/gcomneno/giadaware-ai/commit/4b9194ee2542295d0cbaae615f4a23d87884f8a0)
 - **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional DeepSeek backend boundary](https://github.com/gcomneno/giadaware-ai/commit/9ef3f81dc86245fc1c0076497d7d59c83a24c24b)
@@ -276,7 +278,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-10** · `web` · **Documentazione:** [add English PHP 4 CRUD completion note](https://github.com/gcomneno/web/commit/c63e08e69f1fd9625e29b717dd4e904520f08956)
 - **2026-09-10** · `web` · **Funzionalità:** [add confirmed PHP 4 product deletion](https://github.com/gcomneno/web/commit/f4d7ea61a90abb8572daba21ff9fea5a7f225c62)
 - **2026-09-10** · `web` · **Funzionalità:** [persist PHP 4 product updates](https://github.com/gcomneno/web/commit/74ece53a10452d2ef3c2482591ce1bda1edc0f30)
-- **2026-09-10** · `web` · **Funzionalità:** [add PHP 4 product update form](https://github.com/gcomneno/web/commit/530cf582dec36ec15ccbdfe295a20bfa8351c4d3)
 - **2026-09-10** · `web` · **Funzionalità:** [align PHP 4 create form with persisted schema](https://github.com/gcomneno/web/commit/5919c06625616edbb44eb598a1537ddb3b37d6a1)
 - **2026-09-10** · `web` · **Correzione:** [remove unproven PHP 4 sidebar categories (#10)](https://github.com/gcomneno/web/commit/2261b10bfdedffcca5ee5ef8c845b0faa84ca7ae)
 - **2026-09-09** · `web` · **Documentazione:** [record PHP 4 sidebar road-test correction](https://github.com/gcomneno/web/commit/1f64699309e80af2a0b7b1dc3a19131254a420d2)
@@ -302,9 +303,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize current CLI representative surfaces (#58)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/04edea410fe35b8e470dcbe173eadeecc532b78d)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add localized db ask CLI plumbing (#57)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/87c56bc0fc6b1a00329e19b36815a0f11a521cf5)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [establish localization foundation and presentation contract (#55)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/28e6e7250e7203a48e5160de4b620d3469ab3a24)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add safe GiadaWare AI natural-language query adapter (#53)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/48fd0e20c6afb8413fac8e13d1f8f7c2663f3c7a)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1007 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1009 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
