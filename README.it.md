@@ -200,13 +200,14 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 <!-- updates:start -->
 
 - **2026-09-14** · `craft-cli` · **Correzione:** [handle buffered broken pipes](https://github.com/gcomneno/craft-cli/commit/a33a4d60c2d860d4d7b9052ea172d207ce243cc8)
+- **2026-09-14** · `snapcraft` · **Funzionalità:** [support filtering by base](https://github.com/gcomneno/snapcraft/commit/bb12516341321bf8dcd7c281003502f18f71750e)
 - **2026-09-14** · `craft-cli` · **Correzione:** [handle multiline permanent progress correctly](https://github.com/gcomneno/craft-cli/commit/f9f6559ee549fd722d6ddcbacabe8fe0302b53a3)
 - **2026-09-14** · `craft-cli` · **Correzione:** [ignore broken pipe on output streams](https://github.com/gcomneno/craft-cli/commit/c046a7cb2a1a343c431465238d29d0e96d86472c)
-- **2026-09-12** · `giadaware-ai` · **Documentazione:** [formalize provider runtime verification taxonomy (#35)](https://github.com/gcomneno/giadaware-ai/commit/d88189623e5532a11c80ab62ba4f257c4298ef9f)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-12** · `giadaware-ai` · **Documentazione:** [formalize provider runtime verification taxonomy (#35)](https://github.com/gcomneno/giadaware-ai/commit/d88189623e5532a11c80ab62ba4f257c4298ef9f)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [add optional OpenAI remote backend (#33)](https://github.com/gcomneno/giadaware-ai/commit/c8c19f28315d54c66bd8dd8fdb5a70a714a0de42)
 - **2026-09-12** · `giadaware-ai` · **Documentazione:** [document optional OpenAI remote backend](https://github.com/gcomneno/giadaware-ai/commit/a1a76845796c50ade3c27ecf9a607595849dc4ec)
 - **2026-09-12** · `giadaware-ai` · **Funzionalità:** [export OpenAI backend](https://github.com/gcomneno/giadaware-ai/commit/2024d869bd0433422fb2571b1c901754b3fff682)
@@ -302,9 +303,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [localize current CLI representative surfaces (#58)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/04edea410fe35b8e470dcbe173eadeecc532b78d)
-- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [add localized db ask CLI plumbing (#57)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/87c56bc0fc6b1a00329e19b36815a0f11a521cf5)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1010 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1011 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
