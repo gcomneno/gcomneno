@@ -236,14 +236,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [align English PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d1a0c543ecef2b0a4b60811f810bf9f6695203b7)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 3 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/f0a8619d2375282a4521a33323e9f2f22ca986f9)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 3 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/1223b0d730f595e4b31a15cfe150ae0c0cc5d50f)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c37b1d8bb432a57deea12a0ecc3244e7c497d843)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/bc5d222be5f4b0f8a82a1840bfba80c3ca0f127e)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/5d119990f2f2cc51f73435257ea7a623edb869de)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 study answers (#12)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/88cd87598cab023772d3352216e1538ae4c08279)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/07330a0754e679f6223c610cedde95d49c810453)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [finalize root README for verified PHP 5 (#11)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a729abded390c54dfdb9ccb04ee8de502611e728)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [formalize PHP 5 cart and sessions (#10)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/680c8d5d26fce806b3319b0d80b3594880251c5b)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 to English lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d64dbf5342b5d763b762e773cb8e941ea9f70612)
@@ -256,7 +253,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 cart schema](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9f54c25e534205ae1aebfd4c52421eba8d46deb6)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [record PHP 5 teacher evidence](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0366f0737c1edd9eafc90ec69e899af1ded52dd2)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Feature:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
-- **2026-09-10** · `kleis-corso-sviluppo-software` · **Docs:** [expose PHP lessons through canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec53cb360978efc7a72f6d92e75c5289c112179c)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Docs:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/20fa7becfec4e34bd30c6f06e60e9b1b0a6265e4)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Feature:** [import PHP course lessons 1-4](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0d8db12d0e070e12167d88418395d26ef7bc6905)
 - **2026-09-10** · `web` · **Docs:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
@@ -267,7 +263,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-10** · `web` · **Feature:** [persist PHP 4 product updates](https://github.com/gcomneno/web/commit/74ece53a10452d2ef3c2482591ce1bda1edc0f30)
 - **2026-09-10** · `web` · **Feature:** [align PHP 4 create form with persisted schema](https://github.com/gcomneno/web/commit/5919c06625616edbb44eb598a1537ddb3b37d6a1)
 - **2026-09-10** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories (#10)](https://github.com/gcomneno/web/commit/2261b10bfdedffcca5ee5ef8c845b0faa84ca7ae)
-- **2026-09-09** · `web` · **Docs:** [record PHP 4 sidebar road-test correction](https://github.com/gcomneno/web/commit/1f64699309e80af2a0b7b1dc3a19131254a420d2)
 - **2026-09-09** · `web` · **Fix:** [remove unproven PHP 4 sidebar categories](https://github.com/gcomneno/web/commit/5d872d5a3b25e259cfa101d8a1c45d3813c5c5f5)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 4 (#9)](https://github.com/gcomneno/web/commit/eb4f73641700aadab1e94627575ed4c41f3edd99)
 - **2026-09-09** · `web` · **Docs:** [reproduce and verify PHP lesson 3 (#8)](https://github.com/gcomneno/web/commit/9987735fa79e613a858be4fac03679b1ab6023ab)
@@ -303,8 +298,13 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Docs:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
+- **2026-09-02** · `atelier-kit` · **Docs:** [record Nero Hosted chain retirement (#362)](https://github.com/gcomneno/atelier-kit/commit/64cb9c22114bd431768c6fcbbe80acf2b500c6ae)
+- **2026-09-02** · `atelier-kit` · **Docs:** [reconcile retired #275 validation infrastructure (#360)](https://github.com/gcomneno/atelier-kit/commit/b02295956a15fc59739a8fd2f7080e1c05379620)
+- **2026-09-01** · `craft-cli` · **Fix:** [reset terminal style after open_stream (#444)](https://github.com/gcomneno/craft-cli/commit/22537356b4220c6b2956126e833f615b52d7f5a8)
+- **2026-09-01** · `atelier-kit` · **Fix:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
+- **2026-09-01** · `atelier-kit` · **Fix:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
 
-_Showing the 100 most recent meaningful updates; 996 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 991 older update(s) omitted._
 
 </details>
 
