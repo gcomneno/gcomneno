@@ -249,10 +249,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 to English lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d64dbf5342b5d763b762e773cb8e941ea9f70612)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 to lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/dafeb1da84c81438bcc4a6a1fecd8937fd2e83d3)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 canonical Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/4d656600e6fa471cdc94d7afb815aed7b48fd05d)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [add PHP 5 exercise guide](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/24b2f011cebb4bba180e89c445beba3311de68f1)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 least-privilege grants](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a0614464a6804bf782799a8cf6b03504937a3fd1)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 default entrypoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/adcd16996cfab2705bf8561030458fae517a72e3)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 cart POST endpoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec02d65e172218c4d21dd46cb74d5ea22199633b)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 catalog cart action](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/3119513c411b1c8ca41f9e0a21cb692f779206bd)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 database boundary](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/be95f269a41540bea99b29d7ba26a40b83bfff44)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Funzionalità:** [add PHP 5 cart schema](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9f54c25e534205ae1aebfd4c52421eba8d46deb6)
@@ -261,15 +259,10 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [expose PHP lessons through canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec53cb360978efc7a72f6d92e75c5289c112179c)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/20fa7becfec4e34bd30c6f06e60e9b1b0a6265e4)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Funzionalità:** [import PHP course lessons 1-4](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0d8db12d0e070e12167d88418395d26ef7bc6905)
-- **2026-09-10** · `web` · **Correzione:** [use PHP 4 catalog count variable](https://github.com/gcomneno/web/commit/27d7a3a2514a4673ea44dcf053fb50cf83e7dd63)
 - **2026-09-10** · `web` · **Documentazione:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
-- **2026-09-10** · `web` · **Documentazione:** [finalize English PHP 4 lesson learned with CRUD](https://github.com/gcomneno/web/commit/3c64926b478759d502a9b835b4f5e2b6370c0c1f)
-- **2026-09-10** · `web` · **Documentazione:** [finalize PHP 4 lesson learned with CRUD](https://github.com/gcomneno/web/commit/497f0f15bc3c5fcd8373e7a2b4d401879771fa7a)
 - **2026-09-10** · `web` · **Funzionalità:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
-- **2026-09-10** · `web` · **Documentazione:** [sort bilingual manifest for PHP 4 CRUD](https://github.com/gcomneno/web/commit/1b2b4c36cd8cc42e84c30c361043010e685d1df7)
 - **2026-09-10** · `web` · **Documentazione:** [register PHP 4 CRUD completion pair](https://github.com/gcomneno/web/commit/b9a97a5d14c4dc878a29f5170f3996099802044f)
 - **2026-09-10** · `web` · **Correzione:** [keep PHP 4 card actions to text edit delete links](https://github.com/gcomneno/web/commit/b6da1bb07289a69d560652b76db1708736b84aee)
-- **2026-09-10** · `web` · **Documentazione:** [add English PHP 4 CRUD completion note](https://github.com/gcomneno/web/commit/c63e08e69f1fd9625e29b717dd4e904520f08956)
 - **2026-09-10** · `web` · **Funzionalità:** [add confirmed PHP 4 product deletion](https://github.com/gcomneno/web/commit/f4d7ea61a90abb8572daba21ff9fea5a7f225c62)
 - **2026-09-10** · `web` · **Funzionalità:** [persist PHP 4 product updates](https://github.com/gcomneno/web/commit/74ece53a10452d2ef3c2482591ce1bda1edc0f30)
 - **2026-09-10** · `web` · **Funzionalità:** [align PHP 4 create form with persisted schema](https://github.com/gcomneno/web/commit/5919c06625616edbb44eb598a1537ddb3b37d6a1)
@@ -303,8 +296,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-04** · `digit-probe` · **Sicurezza:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
 - **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [generate private editorial candidates from prepared analysis (#44)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/91aa6d9216e777915b87dacfed574e18b49aa4f7)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [define and verify publication reproducibility semantics (#43)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/e65678011c20019f1e450d70f144a2e573634ead)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Funzionalità:** [add local transcription fallback when captions are unavailable (#42)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/95f4e20d25c2742efc44a42d7ac4ecceffb4dc73)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [formalize social triage and Source-to-Skill contracts (#41)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/742f3973fadfcb03b23fd4b991fbde4802b1a54c)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [record retained technical discovery sources (#40)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a490c91e45b7f826b733b1084185456c038a5f0c)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [formalize real-world architectural proof of value (#39)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/259c4db64f9ced569532c746e58df60120cc28f3)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Documentazione:** [adopt shared learning vocabulary (#37)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a62e5f7e31d66ea6ea96870fb3bf86a2856e1395)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1003 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 996 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
