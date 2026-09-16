@@ -199,14 +199,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-14** · `craft-parts` · **Fix:** [import os for local file checks](https://github.com/gcomneno/craft-parts/commit/576ef31e0f820e55b7566b7c12cbdbb33b6f18cb)
 - **2026-09-14** · `craft-cli` · **Fix:** [handle buffered broken pipes](https://github.com/gcomneno/craft-cli/commit/a33a4d60c2d860d4d7b9052ea172d207ce243cc8)
 - **2026-09-14** · `snapcraft` · **Feature:** [support filtering by base](https://github.com/gcomneno/snapcraft/commit/bb12516341321bf8dcd7c281003502f18f71750e)
 - **2026-09-14** · `craft-cli` · **Fix:** [handle multiline permanent progress correctly](https://github.com/gcomneno/craft-cli/commit/f9f6559ee549fd722d6ddcbacabe8fe0302b53a3)
-- **2026-09-14** · `craft-cli` · **Fix:** [ignore broken pipe on output streams](https://github.com/gcomneno/craft-cli/commit/c046a7cb2a1a343c431465238d29d0e96d86472c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-14** · `craft-cli` · **Fix:** [ignore broken pipe on output streams](https://github.com/gcomneno/craft-cli/commit/c046a7cb2a1a343c431465238d29d0e96d86472c)
 - **2026-09-12** · `giadaware-ai` · **Docs:** [formalize provider runtime verification taxonomy (#35)](https://github.com/gcomneno/giadaware-ai/commit/d88189623e5532a11c80ab62ba4f257c4298ef9f)
 - **2026-09-12** · `giadaware-ai` · **Feature:** [add optional OpenAI remote backend (#33)](https://github.com/gcomneno/giadaware-ai/commit/c8c19f28315d54c66bd8dd8fdb5a70a714a0de42)
 - **2026-09-12** · `giadaware-ai` · **Docs:** [document optional OpenAI remote backend](https://github.com/gcomneno/giadaware-ai/commit/a1a76845796c50ade3c27ecf9a607595849dc4ec)
@@ -234,7 +235,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-11** · `vscode-bitbake` · **Development:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/040c42d82015e4f010e71a6ad80a0d10bb30def8)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add study sheets for PHP 1-4 (#13)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/44fa329745a63983c1ac03d2ad29a1cca56dc244)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [align English PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d1a0c543ecef2b0a4b60811f810bf9f6695203b7)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [align PHP lab study sheets and runtime status](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b39c80cf4fe6db9ba9fc97f9b86b5013038d55c5)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/b00628d04739f7f299854dfe975adb395527d264)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 4 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/117485e770dea725ae347601eacc0cc9fb0a8984)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 3 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/f0a8619d2375282a4521a33323e9f2f22ca986f9)
@@ -242,27 +242,19 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c37b1d8bb432a57deea12a0ecc3244e7c497d843)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 2 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/bc5d222be5f4b0f8a82a1840bfba80c3ca0f127e)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/5d119990f2f2cc51f73435257ea7a623edb869de)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 1 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d2eae597b9354510bcecf9f40d765422212fad5c)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 study answers (#12)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/88cd87598cab023772d3352216e1538ae4c08279)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 5 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/c0296da459f23ab4aacfa865a2c75b1c1d28a9b9)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 study answers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/07330a0754e679f6223c610cedde95d49c810453)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [finalize root README for verified PHP 5 (#11)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a729abded390c54dfdb9ccb04ee8de502611e728)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [finalize root README for verified PHP 5](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/7c8a6dd4e6b4e001694c500c867827f51ab218e2)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [formalize PHP 5 cart and sessions (#10)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/680c8d5d26fce806b3319b0d80b3594880251c5b)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [expose PHP 5 from canonical course README](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/95a3e68b6c7966141adaa9321fe2dabd07c8017f)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 to English lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d64dbf5342b5d763b762e773cb8e941ea9f70612)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 to lab index](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/dafeb1da84c81438bcc4a6a1fecd8937fd2e83d3)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add English PHP 5 Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9db5e7252aa14839b2ad01066de12f4c2028044c)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 canonical Lesson Learned](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/4d656600e6fa471cdc94d7afb815aed7b48fd05d)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [add PHP 5 exercise guide](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/24b2f011cebb4bba180e89c445beba3311de68f1)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 least-privilege grants](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/a0614464a6804bf782799a8cf6b03504937a3fd1)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 default entrypoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/adcd16996cfab2705bf8561030458fae517a72e3)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [complete PHP 5 cart table homework](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/2f18083af62a0b5804108d50b9ebf7107284b994)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 cart POST endpoint](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ec02d65e172218c4d21dd46cb74d5ea22199633b)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 catalog cart action](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/3119513c411b1c8ca41f9e0a21cb692f779206bd)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 session cart helpers](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/6bb706c73251a21ce7cd623d2e5fd41e6d140d61)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 database boundary](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/be95f269a41540bea99b29d7ba26a40b83bfff44)
-- **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 deterministic seed](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/d941847d99950fdeade829624fc2790eed5cf34d)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Feature:** [add PHP 5 cart schema](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/9f54c25e534205ae1aebfd4c52421eba8d46deb6)
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Docs:** [record PHP 5 teacher evidence](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0366f0737c1edd9eafc90ec69e899af1ded52dd2)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Feature:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
@@ -303,8 +295,16 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete representative CLI localization (#60)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/606f8bb6f9a6142671b6e8472d43512c4507d721)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [complete current CLI localization (#59)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/4af618335ca1cf86ab82de8d5518746ce2484a92)
 - **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [localize current CLI representative surfaces (#58)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/04edea410fe35b8e470dcbe173eadeecc532b78d)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add localized db ask CLI plumbing (#57)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/87c56bc0fc6b1a00329e19b36815a0f11a521cf5)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [establish localization foundation and presentation contract (#55)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/28e6e7250e7203a48e5160de4b620d3469ab3a24)
+- **2026-09-06** · `lotto-digit-coverage-dynamics` · **Feature:** [add safe GiadaWare AI natural-language query adapter (#53)](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/48fd0e20c6afb8413fac8e13d1f8f7c2663f3c7a)
+- **2026-09-05** · `giadaware-ui-components` · **Feature:** [add reusable image focal-point control (#74)](https://github.com/gcomneno/giadaware-ui-components/commit/3980787c1fd5736cca46467ad51a5617a551c04b)
+- **2026-09-04** · `grocery-deal-intelligence` · **Feature:** [establish EUR-only canonical currency invariant (#179)](https://github.com/gcomneno/grocery-deal-intelligence/commit/c90c04e64e8f2726f41fb10fe900aeebf00edf11)
+- **2026-09-04** · `digit-probe` · **Security:** [harden dependency and secret scanning (#21) (#24)](https://github.com/gcomneno/digit-probe/commit/3dcf8aaa3f5874724c6e79fc421740c7272cc40a)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [define consumer contracts and public-safe staging candidates (#46)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fcf14a746e557817c1b1a5ec0384c2a6f98d1bdc)
+- **2026-09-04** · `gyte-ai-learning-pipeline` · **Feature:** [produce structured private fact-check reports (#45)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/621107594a7bf6ca30434158dfa85090a0101cbe)
 
-_Showing the 100 most recent meaningful updates; 1011 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1003 older update(s) omitted._
 
 </details>
 
