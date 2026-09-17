@@ -254,7 +254,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-11** · `kleis-corso-sviluppo-software` · **Documentazione:** [record PHP 5 teacher evidence](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0366f0737c1edd9eafc90ec69e899af1ded52dd2)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Funzionalità:** [sync PHP course lessons 1-4 (#9)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/ce90a7ee082e136c1a85ad17f424644ec0fea120)
 - **2026-09-10** · `kleis-corso-sviluppo-software` · **Documentazione:** [align PHP lab overview with lesson 4 CRUD](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/20fa7becfec4e34bd30c6f06e60e9b1b0a6265e4)
-- **2026-09-10** · `kleis-corso-sviluppo-software` · **Funzionalità:** [import PHP course lessons 1-4](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0d8db12d0e070e12167d88418395d26ef7bc6905)
 - **2026-09-10** · `web` · **Documentazione:** [finalize PHP 4 Lesson Learned after CRUD (#12)](https://github.com/gcomneno/web/commit/b789fa8dac05d54b54b49f712747df60849f9a2d)
 - **2026-09-10** · `web` · **Funzionalità:** [complete PHP 4 CRUD (#11)](https://github.com/gcomneno/web/commit/176dbaf0bb7b210e99cdd7a7fc252e153b4be8aa)
 - **2026-09-10** · `web` · **Documentazione:** [register PHP 4 CRUD completion pair](https://github.com/gcomneno/web/commit/b9a97a5d14c4dc878a29f5170f3996099802044f)
@@ -303,8 +302,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-01** · `craft-cli` · **Correzione:** [reset terminal style after open_stream (#444)](https://github.com/gcomneno/craft-cli/commit/22537356b4220c6b2956126e833f615b52d7f5a8)
 - **2026-09-01** · `atelier-kit` · **Correzione:** [refine catalog intro typography (#358)](https://github.com/gcomneno/atelier-kit/commit/d9b903a0f2cfb51ae37554bd37effaaad6de2156)
 - **2026-09-01** · `atelier-kit` · **Correzione:** [increase desktop sidebar widget height (#357)](https://github.com/gcomneno/atelier-kit/commit/0e7cd9868e21eac802184c4145a0aa5f77583ccf)
+- **2026-09-01** · `craft-parts` · **Documentazione:** [address example review feedback](https://github.com/gcomneno/craft-parts/commit/b6f3d726743fe5e35772225d344ce6ad6bfab133)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 991 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 990 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
