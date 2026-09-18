@@ -224,6 +224,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-17** · `petra` · **Sviluppo:** [research: tighten AIP-5 interpretation foundations](https://github.com/gcomneno/petra/commit/df3103a91954ad2e324d47d562f471b4e4489248)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: formalize AIP-5 interpretation theory](https://github.com/gcomneno/petra/commit/3572f761b570e0788800a7fd946c45a945b88842)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: formalize and probe AIP-4 minimal algebra (#280)](https://github.com/gcomneno/petra/commit/00d266bbc24d92276fa9ae85341e534dcbb5f357)
+- **2026-09-17** · `petra` · **Sviluppo:** [research: align AIP-4 with explicit root axiom](https://github.com/gcomneno/petra/commit/6ee8b0f3c652d7841ed7f8cb4f34bebd2895812a)
+- **2026-09-17** · `petra` · **Sviluppo:** [research: make root-parent axiom explicit](https://github.com/gcomneno/petra/commit/2239539ee5949699607afbed3e1ba424ed66da33)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: add AIP-4 minimal algebra probe](https://github.com/gcomneno/petra/commit/ad1c6eaaa891a759163454c9c654677cdd713e6f)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: formalize AIP-4 minimal algebra](https://github.com/gcomneno/petra/commit/d4dadcf25c9613a4c265151b60dbf801910a8ae0)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: formalize canonical PETRA carrier theory (#278)](https://github.com/gcomneno/petra/commit/74c397388cd5c30b05509c821b93c7040c160c63)
@@ -302,10 +304,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-16** · `petra` · **Sviluppo:** [destruct: add father-detach cases, return (piece, rest, kind)](https://github.com/gcomneno/petra/commit/932416f53d095c62a04fac10d38fbe98c7dfd2e5)
 - **2026-09-16** · `petra` · **Sviluppo:** [research(T16): decompose stab = rho * SumPk2; sharpen T19](https://github.com/gcomneno/petra/commit/3adf62749f43c3f1d89277b03df7a36ac617d1b7)
 - **2026-09-16** · `petra` · **Sviluppo:** [research(T16): reduce fingerprint to arithmetic g(n); open T19 on stab asymptotics](https://github.com/gcomneno/petra/commit/d0f4e9849cb7560012fe6f83b6c546c3a2906731)
-- **2026-09-16** · `petra` · **Sviluppo:** [research(T01): chain count via hook length formula, verified on 299 targets](https://github.com/gcomneno/petra/commit/c9a618f6b1dd38cc4d920dac9ba3790810505015)
-- **2026-09-16** · `petra` · **Sviluppo:** [research(T01): chain is not canonical, only one traversal among many](https://github.com/gcomneno/petra/commit/931bba7838451a0e9d81e020dcf84d7b57e622a5)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1973 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1975 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
