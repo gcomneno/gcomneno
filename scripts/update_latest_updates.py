@@ -38,6 +38,7 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/grocery-deal-intelligence",
         f"{OWNER_LOGIN}/system-log-dynamics",
         f"{OWNER_LOGIN}/lotto-digit-coverage-dynamics",
+        f"{OWNER_LOGIN}/petra",
         f"{OWNER_LOGIN}/digit-probe",
         f"{OWNER_LOGIN}/oeis-probe",
         f"{OWNER_LOGIN}/midas",
