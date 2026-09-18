@@ -61,7 +61,6 @@ These projects best represent my current work across backend design, reliable au
 | Project | Technical signal |
 | --- | --- |
 | [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Experimental 0.x infrastructure for provider-independent, read-only AI capabilities with typed outputs, deterministic validation boundaries and replaceable backends |
-| [Semantic Mail Archivist](https://github.com/gcomneno/semantic-mail-archivist) | Privacy-first Gmail audit and repair dry-runs, provider boundaries, explainable confidence and crash-aware mutation journaling |
 | [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Deterministic quiz generation, CLI UX and knowledge reuse |
 
@@ -177,7 +176,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 
 | Area | Repository | Current focus |
 | --- | --- | --- |
-| Verification-first data systems | [Grocery Deal Intelligence](https://github.com/gcomneno/grocery-deal-intelligence) | Deterministic retailer evidence, claim verification, fail-closed canonical admission and optional advisory AI across multi-retailer ingestion |
 | Applied sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Reproducible Digit-Probe demonstrator over privacy-safe Linux journal normalization, deterministic evidence and temporal comparison |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |
 | Embedded Linux | [Cat Couch Guardian](https://github.com/gcomneno/cat-couch-guardian) | Educational virtual-first C11 motion-event slice packaged in a Yocto-derived ARM64 image, with systemd autostart and deterministic QEMU evidence |

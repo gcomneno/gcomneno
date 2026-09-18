@@ -61,7 +61,6 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | Progetto | Segnale tecnico |
 | --- | --- |
 | [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Infrastruttura sperimentale 0.x per capacità AI read-only indipendenti dal provider, con output tipizzati, confini di validazione deterministici e backend sostituibili |
-| [Semantic Mail Archivist](https://github.com/gcomneno/semantic-mail-archivist) | Audit Gmail privacy-first e repair dry-run, confini provider, confidence spiegabile e journal delle mutazioni crash-aware |
 | [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
 | [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
 
@@ -177,7 +176,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 
 | Area | Repository | Focus attuale |
 | --- | --- | --- |
-| Sistemi dati verification-first | [Grocery Deal Intelligence](https://github.com/gcomneno/grocery-deal-intelligence) | Evidenze deterministiche dai retailer, verifica dei claim, ammissione canonica fail-closed e AI opzionale solo consultiva nell'ingestion multi-retailer |
 | Analisi applicata di sequenze | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Dimostratore riproducibile di Digit-Probe basato su normalizzazione privacy-safe dei journal Linux, evidenze deterministiche e confronto temporale |
 | Linux embedded | [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build riproducibili di immagini, layer e recipe personalizzati, flussi BitBake e validazione del boot con QEMU |
 | Linux embedded | [Cat Couch Guardian](https://github.com/gcomneno/cat-couch-guardian) | Slice didattica C11 virtual-first basata su eventi di movimento, integrata in un’immagine ARM64 derivata con Yocto, autostart systemd ed evidence deterministica in QEMU |

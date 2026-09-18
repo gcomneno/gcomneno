@@ -206,6 +206,22 @@ For the 66 GitHub-verified repositories:
 | CREATIVE | 4 |
 | **Total** | **66** |
 
+# Post-baseline portfolio changes
+
+## 2026-09-18 — discontinued public projects
+
+The maintainer explicitly discontinued `grocery-deal-intelligence` and
+`semantic-mail-archivist`. Their public GitHub repository endpoints no longer
+resolve.
+
+They remain listed in the dated **2026-09-13 canonical inventory** above only
+because that inventory is a historical snapshot of the verified account state
+on that date. They are no longer active public-profile candidates and are no
+longer eligible sources for generated Latest Updates.
+
+This lifecycle delta intentionally does not rewrite the dated baseline inventory
+or its status distribution.
+
 # Presentation policy
 
 The profile README should remain selective. It should emphasize, in order:
@@ -217,6 +233,10 @@ The profile README should remain selective. It should emphasize, in order:
 5. only then supporting or historical material when useful.
 
 The profile SHOULD NOT enumerate every repository merely because it exists.
+
+Projects explicitly discontinued after a dated portfolio baseline are removed
+from manually curated profile sections and positive Latest Updates eligibility
+without retroactively rewriting that historical baseline.
 
 Private governance, personal operations, private health tooling, creative archives and sandboxes are not automatically candidates for public promotion.
 

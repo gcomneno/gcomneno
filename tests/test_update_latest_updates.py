@@ -75,8 +75,12 @@ class RepositoryEligibilityPolicyTests(unittest.TestCase):
             "gcomneno/giadaware-ai",
             MODULE.CURATED_REPOSITORIES,
         )
-        self.assertIn(
+        self.assertNotIn(
             "gcomneno/grocery-deal-intelligence",
+            MODULE.CURATED_REPOSITORIES,
+        )
+        self.assertNotIn(
+            "gcomneno/semantic-mail-archivist",
             MODULE.CURATED_REPOSITORIES,
         )
         self.assertIn(
