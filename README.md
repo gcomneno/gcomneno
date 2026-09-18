@@ -214,6 +214,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA rewrite presentations (#288)](https://github.com/gcomneno/petra/commit/b31d344c2f66386ff4f70ce540da7bfc24897789)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA rewrite presentations](https://github.com/gcomneno/petra/commit/97b0e1193d5218efbe79b9097df2a12a1e053624)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA congruences and quotients (#286)](https://github.com/gcomneno/petra/commit/027544713c44a2822acb8cfdecc090e73c47c565)
+- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA congruences and quotients](https://github.com/gcomneno/petra/commit/b47ba15ff0ce794fc2b9ea2ef8181bfa183af8fc)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA grading and edit-graph geometry (#284)](https://github.com/gcomneno/petra/commit/18f74077cfd2ec2ee36198287904ee315e25693e)
 - **2026-09-17** · `petra` · **Development:** [research: expose non-unique common-reduct witness](https://github.com/gcomneno/petra/commit/8b29fa55fef48310f40e6025fc255c0ca710d677)
 - **2026-09-17** · `petra` · **Development:** [research: prove non-unique maximum common reducts](https://github.com/gcomneno/petra/commit/450b5a6cbf4981e1d5b44ac3eeaaef0fa0d78fad)
@@ -231,8 +232,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: formalize abstract carrier foundational answers (#275)](https://github.com/gcomneno/petra/commit/ac2c4187e8d280878711d8fec2a7a3c23a1ef007)
 - **2026-09-17** · `petra` · **Development:** [research: formalize abstract carrier foundational answers](https://github.com/gcomneno/petra/commit/668bea1bbf172bcbc21655953b23257fcb1ad211)
 - **2026-09-17** · `petra` · **Development:** [research: analyze Terminal as empty composition (#273)](https://github.com/gcomneno/petra/commit/efa883dfec07ad5e1fe748426b61a190b433a5fc)
+- **2026-09-17** · `petra` · **Development:** [research: probe Terminal as empty composition](https://github.com/gcomneno/petra/commit/4969fb7a25fa7c44b001415bb32bf98f59bb8484)
 - **2026-09-17** · `petra` · **Development:** [research: analyze Terminal versus empty composition](https://github.com/gcomneno/petra/commit/07eaccec469ff4f566daee03f947bf3218b733c3)
 - **2026-09-17** · `petra` · **Development:** [research: reassess AIP-2 primitive relation ontology (#269)](https://github.com/gcomneno/petra/commit/4c174646ed7afc2e81f8aff36cee8e5d88277ab1)
+- **2026-09-17** · `petra` · **Development:** [research: reassess AIP-2 primitive relation ontology](https://github.com/gcomneno/petra/commit/6040b5179be66bf4a3e521e7d0b07fc26235458d)
 - **2026-09-17** · `petra` · **Development:** [research: probe AIP-1 Set vs Multiset composition (#267)](https://github.com/gcomneno/petra/commit/ca5322a056946a84fb387dfa73e26f7149b9e34b)
 - **2026-09-17** · `petra` · **Docs:** [record AIP-1 set vs multiset prototype](https://github.com/gcomneno/petra/commit/f736a6a7995e23aea1be43d4e93d2cf538e65ccd)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-1 set vs multiset probe](https://github.com/gcomneno/petra/commit/2c0fe22271f07fffcad1daac701bf67856585c04)
@@ -240,6 +243,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: analyze AIP-1 multiplicity ontology](https://github.com/gcomneno/petra/commit/4718cd85ccc9666fc787c6e6f5625a9a7576053f)
 - **2026-09-17** · `petra` · **Development:** [research: validate AIP-2 recursive containment (#262)](https://github.com/gcomneno/petra/commit/3544a4e849d45a843865468b32f948b3832d5843)
 - **2026-09-17** · `petra` · **Fix:** [make AIP-2 wrapper erasure assertion semantic](https://github.com/gcomneno/petra/commit/c3f4498135c382b763a2387dab3dfc018d908182)
+- **2026-09-17** · `petra` · **Docs:** [describe AIP-2 recursive containment prototype](https://github.com/gcomneno/petra/commit/4e0c122660ddfec39be4a9da753fafe7398fbc42)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-2 recursive containment probe](https://github.com/gcomneno/petra/commit/9fac017bd85bb992024f02f1f5f9020f572c67ef)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-2 wrapper-erasure probe](https://github.com/gcomneno/petra/commit/1d0beebe5eae9e59edb042165ef7ddcfee70cab6)
 - **2026-09-17** · `petra` · **Development:** [research: audit AIP-2 relation ontology](https://github.com/gcomneno/petra/commit/5d0154d73bad78043716c77ed54082913d9ef2fe)
@@ -254,6 +258,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: define PETRA abstract paradigm (#245)](https://github.com/gcomneno/petra/commit/7c3304a77d34e1630315ad0405c577f67a2e562b)
 - **2026-09-17** · `petra` · **Development:** [research: define PETRA abstract paradigm](https://github.com/gcomneno/petra/commit/ca66a14c034b8102d9e6f4d3f08dc9fa749e04cc)
 - **2026-09-17** · `petra` · **Docs:** [link PETRA research source register](https://github.com/gcomneno/petra/commit/1fc32d9cf8d457a833d9559461a4e6ea7053342e)
+- **2026-09-17** · `petra` · **Docs:** [add PETRA research source register](https://github.com/gcomneno/petra/commit/91bbf2fd81160bd63448d766a75eca2ff0c8d76c)
 - **2026-09-17** · `petra` · **Docs:** [establish PETRA related-work survey (#241)](https://github.com/gcomneno/petra/commit/a60f3dd7a4bfc9f7f6acb325d3fbc2c6730c04cc)
 - **2026-09-17** · `petra` · **Docs:** [link maintained related-work survey](https://github.com/gcomneno/petra/commit/133762e3a85dae199840673ca69c282cd652f6ab)
 - **2026-09-17** · `petra` · **Docs:** [establish PETRA related-work survey](https://github.com/gcomneno/petra/commit/d69e18289312a48755885fde76ac0506ffcecde0)
@@ -299,13 +304,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [research(T16): reduce fingerprint to arithmetic g(n); open T19 on stab asymptotics](https://github.com/gcomneno/petra/commit/d0f4e9849cb7560012fe6f83b6c546c3a2906731)
 - **2026-09-16** · `petra` · **Development:** [research(T01): chain count via hook length formula, verified on 299 targets](https://github.com/gcomneno/petra/commit/c9a618f6b1dd38cc4d920dac9ba3790810505015)
 - **2026-09-16** · `petra` · **Development:** [research(T01): chain is not canonical, only one traversal among many](https://github.com/gcomneno/petra/commit/931bba7838451a0e9d81e020dcf84d7b57e622a5)
-- **2026-09-16** · `petra` · **Development:** [research(T18): open thread on resolver lint and type debt](https://github.com/gcomneno/petra/commit/c4bb30ab4f0c87ac4534b826d3867a8dc657392f)
-- **2026-09-16** · `petra` · **Development:** [research(T17): reformulate thread from asymmetry to flakiness](https://github.com/gcomneno/petra/commit/605f354ecd8efb3a51c79a887cc87df06716e29f)
-- **2026-09-16** · `petra` · **Development:** [research(T01): step count and comparison with BFS](https://github.com/gcomneno/petra/commit/e851c11b5b30219df7c9b406ead4ccb7737ef8c5)
-- **2026-09-16** · `petra` · **Feature:** [struct max_nodes limit; destruct without terminal flag](https://github.com/gcomneno/petra/commit/1ffd0d63134ccee14f4e5799d9db500ea953b656)
-- **2026-09-16** · `petra` · **Development:** [research(T01): document scaling and limits of reconstruction](https://github.com/gcomneno/petra/commit/ddad298a09d5839dd96b7cc2f5da601a05d72e12)
 
-_Showing the 100 most recent meaningful updates; 1968 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1973 older update(s) omitted._
 
 </details>
 
