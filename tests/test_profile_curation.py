@@ -52,6 +52,7 @@ OPERATIONAL_PROJECTS = (
 )
 
 PRIMARY_RESEARCH = (
+    "petra",
     "digit-probe",
     "midas",
     "lotto-digit-coverage-dynamics",

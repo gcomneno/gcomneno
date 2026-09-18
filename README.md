@@ -151,6 +151,7 @@ These repositories use reproducible software experiments to investigate sequence
 
 | Area | Project | Technical focus |
 | --- | --- | --- |
+| Recursive structural algebra | [PETRA](https://github.com/gcomneno/petra) | Canonical shape-first algebra for prime-exponent tower structures, with immutable recursive forms, structural rewrite operators, a maintained CLI and Resolver shortest-path/distance tooling |
 | Sequence analysis | [Digit Probe](https://github.com/gcomneno/digit-probe) | Randomness, compressibility, autocorrelation, n-grams and Schur-like patterns through a reusable analysis API |
 | Modular structure analysis | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints, anomaly localization and structural comparison without predictive claims |
 | Finite-state stochastic modeling | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Exact absorbing Markov models, exhaustive kernel verification, historical signal analysis, versioned application contracts and a local reproducible research GUI |

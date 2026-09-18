@@ -146,7 +146,7 @@ The baseline below contains **66 repositories verified through the connected Git
 | `digit-probe` | ACTIVE | public | PROMOTE |
 | `lotto-digit-coverage-dynamics` | ACTIVE | public | KEEP |
 | `system-log-dynamics` | ACTIVE | public | KEEP |
-| `petra` | ACTIVE | private | PROMOTE |
+| `petra` | ACTIVE | public | PROMOTE |
 | `gyte` | ACTIVE | public | KEEP |
 | `gyte-ai-learning-pipeline` | ACTIVE | public | KEEP |
 | `midas` | ACTIVE | public | KEEP |
@@ -220,13 +220,13 @@ The profile SHOULD NOT enumerate every repository merely because it exists.
 
 Private governance, personal operations, private health tooling, creative archives and sandboxes are not automatically candidates for public promotion.
 
-## Presentation alignment gate — 2026-09-12
+## Presentation alignment gate — 2026-09-18
 
 The English and Italian profile READMEs were checked against the canonical `PROMOTE` decisions.
 
 - `gcomneno` is the profile surface itself.
-- `atelier-kit`, `smart-file-organizer`, `giadaware-ai`, `digit-probe` and `vscode-bitbake` are represented in the public profile through selected-project, operational-project, selected-research or open-source sections.
-- `petra` remains `PROMOTE` as a portfolio decision but is private, so it is not forced into the public profile.
+- `atelier-kit`, `smart-file-organizer`, `giadaware-ai`, `digit-probe`, `petra` and `vscode-bitbake` are represented in the public profile through selected-project, operational-project, selected-research or open-source sections.
+- `petra` is public and remains `Research & Experiments / ACTIVE / PROMOTE`; its public profile representation is therefore required by the current portfolio decision.
 - Repositories marked `KEEP` may still appear when they strengthen the portfolio narrative; `PROMOTE` is not an exclusivity list.
 - English and Italian profile surfaces follow the same presentation structure.
 
@@ -241,7 +241,7 @@ The first `inspect -> classify -> decide` pass produced these decisions without 
 | Repository | Classification | Decision | Result |
 | --- | --- | --- | --- |
 | `web` | Learning & Education / LAB | KEEP | Umbrella web-learning lab with distinct Laravel and PHP sub-labs; generic name alone is not sufficient reason to mutate it. |
-| `petra` | Research & Experiments / ACTIVE | PROMOTE | Maintained PETRA runtime with canonical specification, CLI, tests and active replacement roadmap. |
+| `petra` | Research & Experiments / ACTIVE | PROMOTE | Maintained PETRA runtime with canonical specification, CLI and tests; the PET-to-PETRA replacement program is complete. |
 | `crystal-codec-gcc-v1` | Research & Experiments / ACTIVE | KEEP | Explicit conceptual codec prototype with specification, roadmap, examples and tests. |
 | `lasagna-v2` | Research & Experiments / ACTIVE | KEEP | Explicit research MVP with CLI, `.lsg2` format, demos, tests and CI/security tooling. |
 | `onion-compressor-framework` | Products & Utilities / ACTIVE | KEEP | Verifiable lossless packager/framework with concrete CLI, formats, verification semantics, tests and reproducible benchmarks. |

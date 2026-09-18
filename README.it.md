@@ -151,6 +151,7 @@ Questi repository usano esperimenti software riproducibili per studiare struttur
 
 | Area | Progetto | Focus tecnico |
 | --- | --- | --- |
+| Algebra strutturale ricorsiva | [PETRA](https://github.com/gcomneno/petra) | Algebra canonica shape-first per strutture a torre di esponenti primi, con forme ricorsive immutabili, operatori di riscrittura strutturale, CLI mantenuta e strumenti Resolver per cammini minimi e distanza |
 | Analisi di sequenze | [Digit Probe](https://github.com/gcomneno/digit-probe) | Casualità, comprimibilità, autocorrelazione, n-grammi e pattern di tipo Schur tramite un'API di analisi riutilizzabile |
 | Analisi della struttura modulare | [Midas](https://github.com/gcomneno/midas) | Impronte modulari deterministiche, localizzazione delle anomalie e confronto strutturale senza claim predittivi |
 | Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel, analisi dei segnali storici, contratti applicativi versionati e GUI di ricerca locale riproducibile |
