@@ -241,7 +241,7 @@ The first `inspect -> classify -> decide` pass produced these decisions without 
 | Repository | Classification | Decision | Result |
 | --- | --- | --- | --- |
 | `web` | Learning & Education / LAB | KEEP | Umbrella web-learning lab with distinct Laravel and PHP sub-labs; generic name alone is not sufficient reason to mutate it. |
-| `petra` | Research & Experiments / ACTIVE | PROMOTE | Maintained PETRA runtime with canonical specification, CLI, tests and active replacement roadmap. |
+| `petra` | Research & Experiments / ACTIVE | PROMOTE | Maintained PETRA runtime with canonical specification, CLI and tests; the PET-to-PETRA replacement program is complete. |
 | `crystal-codec-gcc-v1` | Research & Experiments / ACTIVE | KEEP | Explicit conceptual codec prototype with specification, roadmap, examples and tests. |
 | `lasagna-v2` | Research & Experiments / ACTIVE | KEEP | Explicit research MVP with CLI, `.lsg2` format, demos, tests and CI/security tooling. |
 | `onion-compressor-framework` | Products & Utilities / ACTIVE | KEEP | Verifiable lossless packager/framework with concrete CLI, formats, verification semantics, tests and reproducible benchmarks. |
