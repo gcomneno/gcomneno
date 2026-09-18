@@ -198,14 +198,16 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-18** · `digit-probe` · **Documentazione:** [record Zenodo DOI for v1.0.0 (#32)](https://github.com/gcomneno/digit-probe/commit/b632e18d05d24a9050dc87e2411ed8b47efbdf07)
+- **2026-09-18** · `digit-probe` · **Documentazione:** [add Zenodo citation metadata (#31)](https://github.com/gcomneno/digit-probe/commit/dc1d2f399170804c3e66fc4eb86af6360c7d38ba)
 - **2026-09-18** · `smart-file-organizer` · **Release:** [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [add v0.5.0 download and quick start CTA (#53)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/1c19b4413b29ee3ddc0d62df85b1b096e90da268)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Release:** [GYTE AI Learning Pipeline v0.5.0 Technical Preview](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Funzionalità:** [prepare downloadable technical preview (#52)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/010e681ef03fadda97a9bff2a94c4c1210e6524c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Release:** [GYTE AI Learning Pipeline v0.5.0 Technical Preview](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Funzionalità:** [prepare downloadable technical preview (#52)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/010e681ef03fadda97a9bff2a94c4c1210e6524c)
 - **2026-09-18** · `digit-probe` · **Release:** [Digit Probe v1.0.0](https://github.com/gcomneno/digit-probe/releases/tag/v1.0.0)
 - **2026-09-18** · `smart-file-organizer` · **Documentazione:** [align README with verifiable recovery state (#106)](https://github.com/gcomneno/smart-file-organizer/commit/19376637a6abe79a9fd56d0c0a145cadfdf73120)
 - **2026-09-18** · `digit-probe` · **Documentazione:** [define consumer-safe analysis contract (#22) (#25)](https://github.com/gcomneno/digit-probe/commit/8239fc4198b5526552ee40f22cff9446d9650f56)
@@ -300,10 +302,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-16** · `petra` · **Sviluppo:** [P15/T12 closed: sparse sampling out of scope](https://github.com/gcomneno/petra/commit/62c041961000738c8356149ad9ad29b58da04e7c)
 - **2026-09-16** · `petra` · **Sviluppo:** [P14/T11 closed: Beatty and non-obvious families out of scope](https://github.com/gcomneno/petra/commit/dd4ff9a9be502bdcd2ad36f0d84c61ac2082809d)
 - **2026-09-16** · `petra` · **Sviluppo:** [P13/T10 closed: fingerprint catalogue out of scope](https://github.com/gcomneno/petra/commit/8c0f7895d88fe7ee3dd9fdab0f1653bf24ac851c)
-- **2026-09-16** · `petra` · **Sviluppo:** [T09 closed: covered by P3 (no bounded context)](https://github.com/gcomneno/petra/commit/7eccaac1ff0d9a66f8eba6b86551646c3137320d)
-- **2026-09-16** · `petra` · **Sviluppo:** [P12/T08 closed: 3n-1 is reduction-dominant, sign of k irrelevant](https://github.com/gcomneno/petra/commit/c876759ab868543dc748cb0b8af3dff6386ba966)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1879 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1881 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
