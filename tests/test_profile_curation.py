@@ -46,7 +46,6 @@ SELECTED_PROJECTS = (
 
 OPERATIONAL_PROJECTS = (
     "giadaware-ai",
-    "semantic-mail-archivist",
     "gyte-ai-learning-pipeline",
     "lele-quizzer",
 )
@@ -69,7 +68,6 @@ SECONDARY_RESEARCH = (
 )
 
 PRIMARY_LEARNING = (
-    "grocery-deal-intelligence",
     "system-log-dynamics",
     "yocto-qemu-mini-lab",
     "cat-couch-guardian",
@@ -112,6 +110,8 @@ LEGACY_GYTE_STUDY_TOOLS_URL = "https://github.com/gcomneno/gyte-study-tools"
 FORBIDDEN_PROFILE_LINKS = (
     "https://github.com/gcomneno/reference-engine",
     "https://github.com/gcomneno/cyse-lab",
+    "https://github.com/gcomneno/semantic-mail-archivist",
+    "https://github.com/gcomneno/grocery-deal-intelligence",
     "https://github.com/gcomneno/testflinger",
     "https://github.com/canonical/testflinger",
 )
