@@ -198,14 +198,27 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-09-17** · `petra` · **Sviluppo:** [research: tighten Phase 6 source register](https://github.com/gcomneno/petra/commit/5b6bb4e39f82d1e3123173731ac95f7befa6601e)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: tighten Phase 6 validation statuses](https://github.com/gcomneno/petra/commit/86ed4f2c7f84b3fa1fe67157d2046ef9ee6f86e1)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: add Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/3bfe5532092422f1b77ccccd65f9672efd3855ac)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA structural statistics and Lipschitz observables (#292)](https://github.com/gcomneno/petra/commit/12ca1ae1a982e82e125879cf71de8778d0147ac3)
+- **2026-09-18** · `smart-file-organizer` · **Documentazione:** [align README with verifiable recovery state (#106)](https://github.com/gcomneno/smart-file-organizer/commit/19376637a6abe79a9fd56d0c0a145cadfdf73120)
+- **2026-09-18** · `digit-probe` · **Documentazione:** [define consumer-safe analysis contract (#22) (#25)](https://github.com/gcomneno/digit-probe/commit/8239fc4198b5526552ee40f22cff9446d9650f56)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete Source-to-Skill human/agent PoV (#49)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5ca6e842c6bcf861ebc8a33faa01d21725684724)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [adopt canonical English localization boundary (#48)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2f89a7ecd4bd379a33eaa44ac17da51614d98f34)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete manual social-source triage PoV](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b9696140261acc619068a2ce097aee5b57e08073)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete single-source Source-to-Skill PoV](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5214a3d027beb313e1f9534294f44e812dc7f17d)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Funzionalità:** [automate approved repository handoff up to PR creation (#47)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/00ca1c5502ee087d15ee099bb47757e9890488a6)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [mirror localization boundary in Italian README](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a32b491c40d826e67f3ac7376362b611f383a704)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [expose canonical English localization boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2692fd3426f2f32c2300100122343a9f20e5d35b)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [align documentation with canonical English policy](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/00cba5f3ec531c3d67fc652f361d3ec4633b4c53)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [define canonical language and translation boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/dea1ecddba814f811b078fdcdd35233871fbfe2f)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Correzione:** [bind handoff checkout to declared repository](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fbe3a4d9e722d67a726585f485a050624c78e9e2)
+- **2026-09-17** · `petra` · **Sviluppo:** [research: tighten Phase 6 source register](https://github.com/gcomneno/petra/commit/5b6bb4e39f82d1e3123173731ac95f7befa6601e)
+- **2026-09-17** · `petra` · **Sviluppo:** [research: tighten Phase 6 validation statuses](https://github.com/gcomneno/petra/commit/86ed4f2c7f84b3fa1fe67157d2046ef9ee6f86e1)
+- **2026-09-17** · `petra` · **Sviluppo:** [research: add Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/3bfe5532092422f1b77ccccd65f9672efd3855ac)
+- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA structural statistics and Lipschitz observables (#292)](https://github.com/gcomneno/petra/commit/12ca1ae1a982e82e125879cf71de8778d0147ac3)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: add structural statistics probe](https://github.com/gcomneno/petra/commit/74775285f144e8a260303524acaaac394746a722)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA automorphisms and symmetry (#290)](https://github.com/gcomneno/petra/commit/34957ac2603dafb961f62e83671c34d3f943a2c0)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: add bounded PETRA automorphism probe](https://github.com/gcomneno/petra/commit/de22d6f6abfa38c63e3009135cbb5632c46788e9)
@@ -252,6 +265,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-17** · `petra` · **Sviluppo:** [research: prototype AIP-3 order-independent quotient (#255)](https://github.com/gcomneno/petra/commit/58e177a9e110e78336f001ee33b7d985744a1801)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: formalize AIP-3 quotient invariance](https://github.com/gcomneno/petra/commit/24abb5a56d3ab361e86164075feeb5cc9711f997)
 - **2026-09-17** · `petra` · **Documentazione:** [record AIP-3 order-independent prototype](https://github.com/gcomneno/petra/commit/b4ca28e936ae34b0966ad4c24a242b881ffadbb7)
+- **2026-09-17** · `petra` · **Sviluppo:** [research: add AIP-3 order-independent quotient probe](https://github.com/gcomneno/petra/commit/b17c24c5218b817edbc0d99b61ad416d383e7846)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: analyze AIP-3 order semantics (#253)](https://github.com/gcomneno/petra/commit/04bd54fde7bc64547871c5025688a3f6a48dc669)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: analyze AIP-3 order semantics](https://github.com/gcomneno/petra/commit/6add6275c466293e44ffcd3b957ede0aa34c692d)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: audit PETRA model against abstract paradigm](https://github.com/gcomneno/petra/commit/723b656301937df64f2c36b38d27d622d2bfd8b9)
@@ -288,22 +302,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-16** · `petra` · **Sviluppo:** [P7 closed: fingerprint depends only on exponent multiset](https://github.com/gcomneno/petra/commit/cf1ef4289f1f9e2af94a62c64da0a7134f6757fb)
 - **2026-09-16** · `petra` · **Sviluppo:** [P6 partial: shift and double admit F_T on bounded sample](https://github.com/gcomneno/petra/commit/a632c1c42a9d23dc1df69ae29995f2025dfd59ad)
 - **2026-09-16** · `petra` · **Sviluppo:** [P5 closed: struct gains inner-container hook, destruct invertible with inner=True](https://github.com/gcomneno/petra/commit/b514c3eee40b0b14c096501cb15856f15d06179f)
-- **2026-09-16** · `petra` · **Sviluppo:** [P5 open: extend struct with inner-container hook](https://github.com/gcomneno/petra/commit/0e610096cff2a49f69df67aae50920489a8358f9)
-- **2026-09-16** · `petra` · **Sviluppo:** [T01 closed: struct/destruct on shape(k^n) explored, one struct limit found](https://github.com/gcomneno/petra/commit/1e656bda46445cc03aa29a27ea49333f08505d46)
-- **2026-09-16** · `petra` · **Sviluppo:** [P4 closed: shape multiplicity is large and concentrated](https://github.com/gcomneno/petra/commit/bce0dda24875f823403fb2ffa261438a6774c9e8)
-- **2026-09-16** · `petra` · **Sviluppo:** [P3 closed: no bounded context for deterministic succession](https://github.com/gcomneno/petra/commit/ac55b2971d20f3581cb7434a053156390d8d33f1)
-- **2026-09-16** · `petra` · **Sviluppo:** [P2 closed: counterexample is the result, follow-up out of scope](https://github.com/gcomneno/petra/commit/516345ef5fcd40d709bc1af0c5810de580870337)
-- **2026-09-16** · `petra` · **Sviluppo:** [P2 first result: all 3n+k maps are reduction-dominant, not only Collatz](https://github.com/gcomneno/petra/commit/aee0906ee96e2f227c771948ba702cad81c4ff6a)
-- **2026-09-16** · `petra` · **Sviluppo:** [P1 closed: no hard family separation under strict gap test](https://github.com/gcomneno/petra/commit/a24d07e7a2cc9ac71211146b75574248c117ef6c)
-- **2026-09-16** · `petra` · **Sviluppo:** [remove PET-METICA line: docs, reports, and references](https://github.com/gcomneno/petra/commit/aba12e9bc8636ac789008d372798c122b76e3f0e)
-- **2026-09-16** · `petra` · **Sviluppo:** [remove PET-METICA line: docs and reports](https://github.com/gcomneno/petra/commit/741a19459b80d8dbc6aded86da5d66685c650cf6)
-- **2026-09-16** · `petra` · **Sviluppo:** [research: add open-problems.md as active front, archive open-threads.md](https://github.com/gcomneno/petra/commit/d21f12405b928d2024334fd5b70208df74e7adf1)
-- **2026-09-16** · `petra` · **Sviluppo:** [T07: recursive metric, no natural clusters on small shapes](https://github.com/gcomneno/petra/commit/a9ae8add85dfa483cd306c006862103aeea62346)
-- **2026-09-16** · `petra` · **Sviluppo:** [destruct: add father-detach cases, return (piece, rest, kind)](https://github.com/gcomneno/petra/commit/932416f53d095c62a04fac10d38fbe98c7dfd2e5)
-- **2026-09-16** · `petra` · **Sviluppo:** [research(T16): decompose stab = rho * SumPk2; sharpen T19](https://github.com/gcomneno/petra/commit/3adf62749f43c3f1d89277b03df7a36ac617d1b7)
-- **2026-09-16** · `petra` · **Sviluppo:** [research(T16): reduce fingerprint to arithmetic g(n); open T19 on stab asymptotics](https://github.com/gcomneno/petra/commit/d0f4e9849cb7560012fe6f83b6c546c3a2906731)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1975 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1872 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
