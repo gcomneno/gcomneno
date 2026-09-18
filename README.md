@@ -48,7 +48,7 @@ These projects best represent my current work across backend design, reliable au
 | Project | Official release | What it does | What it demonstrates |
 | --- | --- | --- | --- |
 | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Provides a configurable showcase kit with local Studio, Atelier Desktop and separately configured private Hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit Visitor/local/hosted authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
-| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.5.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.5.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions, filesystem verification and read-only recovery planning |
+| [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions, filesystem verification and read-only recovery planning |
 | [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
@@ -198,14 +198,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-18** · `digit-probe` · **Release:** [Digit Probe v1.0.0](https://github.com/gcomneno/digit-probe/releases/tag/v1.0.0)
-- **2026-09-18** · `smart-file-organizer` · **Docs:** [align README with verifiable recovery state (#106)](https://github.com/gcomneno/smart-file-organizer/commit/19376637a6abe79a9fd56d0c0a145cadfdf73120)
-- **2026-09-18** · `digit-probe` · **Docs:** [define consumer-safe analysis contract (#22) (#25)](https://github.com/gcomneno/digit-probe/commit/8239fc4198b5526552ee40f22cff9446d9650f56)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
+- **2026-09-18** · `smart-file-organizer` · **Release:** [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [add v0.5.0 download and quick start CTA (#53)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/1c19b4413b29ee3ddc0d62df85b1b096e90da268)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Release:** [GYTE AI Learning Pipeline v0.5.0 Technical Preview](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Feature:** [prepare downloadable technical preview (#52)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/010e681ef03fadda97a9bff2a94c4c1210e6524c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-18** · `digit-probe` · **Release:** [Digit Probe v1.0.0](https://github.com/gcomneno/digit-probe/releases/tag/v1.0.0)
+- **2026-09-18** · `smart-file-organizer` · **Docs:** [align README with verifiable recovery state (#106)](https://github.com/gcomneno/smart-file-organizer/commit/19376637a6abe79a9fd56d0c0a145cadfdf73120)
+- **2026-09-18** · `digit-probe` · **Docs:** [define consumer-safe analysis contract (#22) (#25)](https://github.com/gcomneno/digit-probe/commit/8239fc4198b5526552ee40f22cff9446d9650f56)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete Source-to-Skill human/agent PoV (#49)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5ca6e842c6bcf861ebc8a33faa01d21725684724)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [adopt canonical English localization boundary (#48)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2f89a7ecd4bd379a33eaa44ac17da51614d98f34)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete manual social-source triage PoV](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b9696140261acc619068a2ce097aee5b57e08073)
@@ -219,8 +223,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: tighten Phase 6 source register](https://github.com/gcomneno/petra/commit/5b6bb4e39f82d1e3123173731ac95f7befa6601e)
 - **2026-09-17** · `petra` · **Development:** [research: tighten Phase 6 validation statuses](https://github.com/gcomneno/petra/commit/86ed4f2c7f84b3fa1fe67157d2046ef9ee6f86e1)
 - **2026-09-17** · `petra` · **Development:** [research: add Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/3bfe5532092422f1b77ccccd65f9672efd3855ac)
+- **2026-09-17** · `petra` · **Development:** [research: add Phase 6 source register](https://github.com/gcomneno/petra/commit/ec555670629311bb844ff89f7d0fa52a86d68a5b)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA structural statistics and Lipschitz observables (#292)](https://github.com/gcomneno/petra/commit/12ca1ae1a982e82e125879cf71de8778d0147ac3)
 - **2026-09-17** · `petra` · **Development:** [research: add structural statistics probe](https://github.com/gcomneno/petra/commit/74775285f144e8a260303524acaaac394746a722)
+- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA structural statistics](https://github.com/gcomneno/petra/commit/cba03abd4d4a70d67f8c591e50dc382c5950b987)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA automorphisms and symmetry (#290)](https://github.com/gcomneno/petra/commit/34957ac2603dafb961f62e83671c34d3f943a2c0)
 - **2026-09-17** · `petra` · **Development:** [research: add bounded PETRA automorphism probe](https://github.com/gcomneno/petra/commit/de22d6f6abfa38c63e3009135cbb5632c46788e9)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA rewrite presentations (#288)](https://github.com/gcomneno/petra/commit/b31d344c2f66386ff4f70ce540da7bfc24897789)
@@ -296,14 +302,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [P13/T10 closed: fingerprint catalogue out of scope](https://github.com/gcomneno/petra/commit/8c0f7895d88fe7ee3dd9fdab0f1653bf24ac851c)
 - **2026-09-16** · `petra` · **Development:** [T09 closed: covered by P3 (no bounded context)](https://github.com/gcomneno/petra/commit/7eccaac1ff0d9a66f8eba6b86551646c3137320d)
 - **2026-09-16** · `petra` · **Development:** [P12/T08 closed: 3n-1 is reduction-dominant, sign of k irrelevant](https://github.com/gcomneno/petra/commit/c876759ab868543dc748cb0b8af3dff6386ba966)
-- **2026-09-16** · `petra` · **Development:** [P11/T07 closed: finer metrics change the fingerprint classification](https://github.com/gcomneno/petra/commit/730dce7518d6aee694e188c486d635a105943fdf)
-- **2026-09-16** · `petra` · **Development:** [P10 closed: structural elision tracking is out of scope](https://github.com/gcomneno/petra/commit/3a86e11e8fcf97e35931205007ef8eb4ec2b365a)
-- **2026-09-16** · `petra` · **Development:** [P9 closed: arithmetic layer out of scope, shape-first principle](https://github.com/gcomneno/petra/commit/b206294ccd94b76696994140da91bc0023622fb7)
-- **2026-09-16** · `petra` · **Development:** [P8 closed: meet/join overlap too coarse to cluster](https://github.com/gcomneno/petra/commit/9a2405f1052d3cc1104d1b840c68932ce389347d)
-- **2026-09-16** · `petra` · **Development:** [P7 closed: fingerprint depends only on exponent multiset](https://github.com/gcomneno/petra/commit/cf1ef4289f1f9e2af94a62c64da0a7134f6757fb)
-- **2026-09-16** · `petra` · **Development:** [P6 partial: shift and double admit F_T on bounded sample](https://github.com/gcomneno/petra/commit/a632c1c42a9d23dc1df69ae29995f2025dfd59ad)
 
-_Showing the 100 most recent meaningful updates; 1873 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1879 older update(s) omitted._
 
 </details>
 
