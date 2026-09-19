@@ -113,7 +113,6 @@ The baseline below contains **66 repositories verified through the connected Git
 | `grocery-deal-intelligence` | ACTIVE | public | KEEP |
 | `semantic-mail-archivist` | ACTIVE | public | KEEP |
 | `lele-manager` | ACTIVE | public | KEEP |
-| `lele-quizzer` | ACTIVE | public | KEEP |
 | `atelier-kit` | ACTIVE | public | PROMOTE |
 | `cat-couch-guardian` | ACTIVE | public | KEEP |
 | `onion-compressor-framework` | ACTIVE | private | KEEP |

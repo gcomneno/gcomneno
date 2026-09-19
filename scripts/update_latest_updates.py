@@ -33,7 +33,6 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/ubuntu-system-tools",
         f"{OWNER_LOGIN}/gyte-ai-learning-pipeline",
         f"{OWNER_LOGIN}/giadaware-ai",
-        f"{OWNER_LOGIN}/lele-quizzer",
         f"{OWNER_LOGIN}/system-log-dynamics",
         f"{OWNER_LOGIN}/lotto-digit-coverage-dynamics",
         f"{OWNER_LOGIN}/petra",

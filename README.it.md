@@ -62,7 +62,6 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | --- | --- |
 | [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Infrastruttura sperimentale 0.x per capacità AI read-only indipendenti dal provider, con output tipizzati, confini di validazione deterministici e backend sostituibili |
 | [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
-| [LeLe Quizzer](https://github.com/gcomneno/lele-quizzer) | Generazione deterministica di quiz, UX da terminale e riuso della conoscenza |
 
 </details>
 

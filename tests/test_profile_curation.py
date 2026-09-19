@@ -47,7 +47,6 @@ SELECTED_PROJECTS = (
 OPERATIONAL_PROJECTS = (
     "giadaware-ai",
     "gyte-ai-learning-pipeline",
-    "lele-quizzer",
 )
 
 PRIMARY_RESEARCH = (
