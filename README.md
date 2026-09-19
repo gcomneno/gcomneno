@@ -166,14 +166,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-19** · `lele-manager` · **Docs:** [define canonical product language contract (#256)](https://github.com/gcomneno/lele-manager/commit/2f1848a7a7c49b2ac8a6d5ab4d29ce543036d808)
 - **2026-09-19** · `giadaware-ai` · **Release:** [GiadaWare AI v0.0.1](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.1)
 - **2026-09-19** · `lele-manager` · **Feature:** [add semantic Lesson Learned extraction (#255)](https://github.com/gcomneno/lele-manager/commit/faf88c59e75dccf132c0e17677b359ae42ea820d)
 - **2026-09-19** · `giadaware-ai` · **Feature:** [support Ollama thinking control](https://github.com/gcomneno/giadaware-ai/commit/36a1bb751ec3851d3ceb0a38abe052747984ce5e)
-- **2026-09-19** · `giadaware-ai` · **Docs:** [record GPT-6 Astra runtime verification](https://github.com/gcomneno/giadaware-ai/commit/7081dd4c2e00db2907da6e4f0569ff80dd68df58)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-19** · `giadaware-ai` · **Docs:** [record GPT-6 Astra runtime verification](https://github.com/gcomneno/giadaware-ai/commit/7081dd4c2e00db2907da6e4f0569ff80dd68df58)
 - **2026-09-18** · `digit-probe` · **Docs:** [record Zenodo DOI for v1.0.0 (#32)](https://github.com/gcomneno/digit-probe/commit/b632e18d05d24a9050dc87e2411ed8b47efbdf07)
 - **2026-09-18** · `digit-probe` · **Docs:** [add Zenodo citation metadata (#31)](https://github.com/gcomneno/digit-probe/commit/dc1d2f399170804c3e66fc4eb86af6360c7d38ba)
 - **2026-09-18** · `smart-file-organizer` · **Release:** [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0)
@@ -269,9 +270,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [T17/P20 closed: fix id() cache bug in resolver search](https://github.com/gcomneno/petra/commit/cc9b5d8ae6db7350d42c98d53afd8f8b49cee83a)
 - **2026-09-16** · `petra` · **Development:** [T19: fifth data point at 10^8, SumPk2 ~ c/sqrt(log log N) excluded](https://github.com/gcomneno/petra/commit/b8d2c4bf2c621956b07597cc351670080e287576)
 - **2026-09-16** · `petra` · **Development:** [P16/P17/P18 closed: T13 covered by P8, T14 and T15 out of scope](https://github.com/gcomneno/petra/commit/efbb1baba4d36564e02c41d14d5fa4a79e29a7d4)
-- **2026-09-16** · `petra` · **Development:** [P15/T12 closed: sparse sampling out of scope](https://github.com/gcomneno/petra/commit/62c041961000738c8356149ad9ad29b58da04e7c)
 
-_Showing the 100 most recent meaningful updates; 1803 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1804 older update(s) omitted._
 
 </details>
 
