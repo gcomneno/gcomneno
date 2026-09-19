@@ -194,11 +194,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete Source-to-Skill human/agent PoV (#49)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5ca6e842c6bcf861ebc8a33faa01d21725684724)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [adopt canonical English localization boundary (#48)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2f89a7ecd4bd379a33eaa44ac17da51614d98f34)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [record social triage PoV automation decision](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/22040b3553c8fb1e97103d6d5137c438b920f310)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete manual social-source triage PoV](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b9696140261acc619068a2ce097aee5b57e08073)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [record Source-to-Skill PoV result](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/cacd624733a41a51601998093e414761b021a1b8)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete single-source Source-to-Skill PoV](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5214a3d027beb313e1f9534294f44e812dc7f17d)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Feature:** [automate approved repository handoff up to PR creation (#47)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/00ca1c5502ee087d15ee099bb47757e9890488a6)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [mirror localization boundary in Italian README](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a32b491c40d826e67f3ac7376362b611f383a704)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [expose canonical English localization boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2692fd3426f2f32c2300100122343a9f20e5d35b)
+- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [align Italian documentation policy mirror](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/4803e4240058d70045836e12402b9731a20501f5)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [align documentation with canonical English policy](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/00cba5f3ec531c3d67fc652f361d3ec4633b4c53)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [define canonical language and translation boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/dea1ecddba814f811b078fdcdd35233871fbfe2f)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Fix:** [bind handoff checkout to declared repository](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fbe3a4d9e722d67a726585f485a050624c78e9e2)
@@ -247,14 +250,12 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: analyze AIP-1 multiplicity ontology (#265)](https://github.com/gcomneno/petra/commit/caca013c8b85345e639bf11cdabf1808e20df6ad)
 - **2026-09-17** · `petra` · **Development:** [research: analyze AIP-1 multiplicity ontology](https://github.com/gcomneno/petra/commit/4718cd85ccc9666fc787c6e6f5625a9a7576053f)
 - **2026-09-17** · `petra` · **Development:** [research: validate AIP-2 recursive containment (#262)](https://github.com/gcomneno/petra/commit/3544a4e849d45a843865468b32f948b3832d5843)
-- **2026-09-17** · `petra` · **Fix:** [make AIP-2 wrapper erasure assertion semantic](https://github.com/gcomneno/petra/commit/c3f4498135c382b763a2387dab3dfc018d908182)
 - **2026-09-17** · `petra` · **Docs:** [describe AIP-2 recursive containment prototype](https://github.com/gcomneno/petra/commit/4e0c122660ddfec39be4a9da753fafe7398fbc42)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-2 recursive containment probe](https://github.com/gcomneno/petra/commit/9fac017bd85bb992024f02f1f5f9020f572c67ef)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-2 wrapper-erasure probe](https://github.com/gcomneno/petra/commit/1d0beebe5eae9e59edb042165ef7ddcfee70cab6)
 - **2026-09-17** · `petra` · **Development:** [research: audit AIP-2 level derivability (#258)](https://github.com/gcomneno/petra/commit/999fe865cf81703b40e77fa8cb300a2b1d6cd1ec)
 - **2026-09-17** · `petra` · **Development:** [research: prototype AIP-3 order-independent quotient (#255)](https://github.com/gcomneno/petra/commit/58e177a9e110e78336f001ee33b7d985744a1801)
 - **2026-09-17** · `petra` · **Development:** [research: formalize AIP-3 quotient invariance](https://github.com/gcomneno/petra/commit/24abb5a56d3ab361e86164075feeb5cc9711f997)
-- **2026-09-17** · `petra` · **Docs:** [record AIP-3 order-independent prototype](https://github.com/gcomneno/petra/commit/b4ca28e936ae34b0966ad4c24a242b881ffadbb7)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-3 order-independent quotient probe](https://github.com/gcomneno/petra/commit/b17c24c5218b817edbc0d99b61ad416d383e7846)
 - **2026-09-17** · `petra` · **Development:** [research: analyze AIP-3 order semantics (#253)](https://github.com/gcomneno/petra/commit/04bd54fde7bc64547871c5025688a3f6a48dc669)
 - **2026-09-17** · `petra` · **Development:** [research: define PETRA abstract paradigm (#245)](https://github.com/gcomneno/petra/commit/7c3304a77d34e1630315ad0405c577f67a2e562b)
@@ -269,9 +270,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [T18/P21 closed: ruff and mypy clean on resolver](https://github.com/gcomneno/petra/commit/c36d49791621c3b7236082f8e8f59f98eba8cd55)
 - **2026-09-16** · `petra` · **Development:** [revert: remove RUF001/RUF002 from root config (belongs to resolver)](https://github.com/gcomneno/petra/commit/7bfb94e00e847ac89f0fa0d914012db0653572ee)
 - **2026-09-16** · `petra` · **Development:** [T18: py.typed for petra, mypy fixes; T17 statement correction](https://github.com/gcomneno/petra/commit/42fa7e2154e17cab6e789aacca406639daffbf80)
-- **2026-09-16** · `petra` · **Development:** [resolver: fix remaining ruff errors (SIM108, SIM110, RUF005, RUF059, B905)](https://github.com/gcomneno/petra/commit/54d88fa6e4f942f26873145587994ea515b9d01a)
 
-_Showing the 100 most recent meaningful updates; 1808 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1809 older update(s) omitted._
 
 </details>
 
