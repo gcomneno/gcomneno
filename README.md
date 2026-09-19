@@ -55,18 +55,15 @@ These projects best represent my current work across backend design, reliable au
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Linux utilities for diagnostics, controlled maintenance, offline transcription and kernel warning analysis | Safety-first system tooling, read-only diagnostics, explicit opt-in workflows and reproducible Linux packaging |
 
 
-<details>
-<summary>More operational projects</summary>
+### More operational projects
 
 | Project | Technical signal |
 | --- | --- |
 | [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Experimental 0.x infrastructure for provider-independent, read-only AI capabilities with typed outputs, deterministic validation boundaries and replaceable backends |
 | [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
 
-</details>
 
-<details>
-<summary>Background and GiadaWare</summary>
+### Background and GiadaWare
 
 **GiadaWare™** is my personal lab for turning recurring friction into notes, tools and public projects.
 
@@ -74,7 +71,6 @@ Earlier professional experience includes PHP and Laravel; my current public work
 
 > Every problem solved once deserves to become knowledge. If that knowledge is reusable, it deserves to become a tool. If that tool is useful to others too, it deserves to become open source.
 
-</details>
 
 ## <code>02 · OPEN SOURCE ENGINEERING</code>
 

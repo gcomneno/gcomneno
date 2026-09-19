@@ -55,18 +55,15 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Utilità Linux per diagnostica, manutenzione controllata, trascrizione offline e analisi degli avvisi kernel | Tooling di sistema safety-first, diagnostica read-only, flussi espliciti su opt-in e packaging Linux riproducibile |
 
 
-<details>
-<summary>Altri progetti operativi</summary>
+### Altri progetti operativi
 
 | Progetto | Segnale tecnico |
 | --- | --- |
 | [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Infrastruttura sperimentale 0.x per capacità AI read-only indipendenti dal provider, con output tipizzati, confini di validazione deterministici e backend sostituibili |
 | [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
 
-</details>
 
-<details>
-<summary>Esperienza e GiadaWare</summary>
+### Esperienza e GiadaWare
 
 **GiadaWare™** è il mio laboratorio personale per trasformare gli attriti ricorrenti in appunti, strumenti e progetti pubblici.
 
@@ -74,7 +71,6 @@ La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubb
 
 > Ogni problema risolto una volta merita di diventare conoscenza. Se quella conoscenza è riutilizzabile, merita di diventare uno strumento. Se lo strumento è utile anche ad altri, merita di diventare open source.
 
-</details>
 
 ## <code>02 · INGEGNERIA OPEN SOURCE</code>
 
