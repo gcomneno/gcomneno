@@ -230,7 +230,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: add structural statistics probe](https://github.com/gcomneno/petra/commit/74775285f144e8a260303524acaaac394746a722)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA structural statistics](https://github.com/gcomneno/petra/commit/cba03abd4d4a70d67f8c591e50dc382c5950b987)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA automorphisms and symmetry (#290)](https://github.com/gcomneno/petra/commit/34957ac2603dafb961f62e83671c34d3f943a2c0)
+- **2026-09-17** · `petra` · **Development:** [research: strengthen automorphism probe independence](https://github.com/gcomneno/petra/commit/00b1a9473946bf915ed31ee5fb0efbb36f015cd7)
 - **2026-09-17** · `petra` · **Development:** [research: add bounded PETRA automorphism probe](https://github.com/gcomneno/petra/commit/de22d6f6abfa38c63e3009135cbb5632c46788e9)
+- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA automorphisms and symmetry](https://github.com/gcomneno/petra/commit/222a1b08e6404904abb7dd2a4f10a1bbcf10c8b3)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA rewrite presentations (#288)](https://github.com/gcomneno/petra/commit/b31d344c2f66386ff4f70ce540da7bfc24897789)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA rewrite presentations](https://github.com/gcomneno/petra/commit/97b0e1193d5218efbe79b9097df2a12a1e053624)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA congruences and quotients (#286)](https://github.com/gcomneno/petra/commit/027544713c44a2822acb8cfdecc090e73c47c565)
@@ -300,10 +302,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [T19: fifth data point at 10^8, SumPk2 ~ c/sqrt(log log N) excluded](https://github.com/gcomneno/petra/commit/b8d2c4bf2c621956b07597cc351670080e287576)
 - **2026-09-16** · `petra` · **Development:** [P16/P17/P18 closed: T13 covered by P8, T14 and T15 out of scope](https://github.com/gcomneno/petra/commit/efbb1baba4d36564e02c41d14d5fa4a79e29a7d4)
 - **2026-09-16** · `petra` · **Development:** [P15/T12 closed: sparse sampling out of scope](https://github.com/gcomneno/petra/commit/62c041961000738c8356149ad9ad29b58da04e7c)
-- **2026-09-16** · `petra` · **Development:** [P14/T11 closed: Beatty and non-obvious families out of scope](https://github.com/gcomneno/petra/commit/dd4ff9a9be502bdcd2ad36f0d84c61ac2082809d)
-- **2026-09-16** · `petra` · **Development:** [P13/T10 closed: fingerprint catalogue out of scope](https://github.com/gcomneno/petra/commit/8c0f7895d88fe7ee3dd9fdab0f1653bf24ac851c)
 
-_Showing the 100 most recent meaningful updates; 1881 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1882 older update(s) omitted._
 
 </details>
 
