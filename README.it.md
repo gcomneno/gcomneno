@@ -53,14 +53,8 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite entry point base, visitor e studio isolati | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Estrae da YouTube trascrizioni, audio e video e supporta reflow, traduzione e trascrizione locale dei contenuti | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Utilità Linux per diagnostica, manutenzione controllata, trascrizione offline e analisi degli avvisi kernel | Tooling di sistema safety-first, diagnostica read-only, flussi espliciti su opt-in e packaging Linux riproducibile |
-
-
-### Altri progetti operativi
-
-| Progetto | Segnale tecnico |
-| --- | --- |
-| [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Infrastruttura sperimentale 0.x per capacità AI read-only indipendenti dal provider, con output tipizzati, confini di validazione deterministici e backend sostituibili |
-| [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Pipeline di contenuti riavviabili, validazione deterministica, confini privato/pubblico e handoff espliciti verso servizi esterni |
+| [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | — | Infrastruttura sperimentale 0.x per capacità AI read-only indipendenti dal provider, con output tipizzati e backend sostituibili | Infrastruttura AI indipendente dal provider, output tipizzati, confini di validazione deterministici e backend sostituibili |
+| [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | — | Pipeline di contenuti riavviabili per acquisire, validare e trasferire materiale tra confini privati e pubblici | Validazione deterministica, workflow riavviabili, confini espliciti di privacy e handoff controllati verso servizi esterni |
 
 
 ### Esperienza e GiadaWare

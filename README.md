@@ -53,14 +53,8 @@ These projects best represent my current work across backend design, reliable au
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through isolated base, visitor and studio entry points | Svelte package architecture, immutable packed artifacts, isolated entry points, SSR/hydration and accessibility contracts |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Linux utilities for diagnostics, controlled maintenance, offline transcription and kernel warning analysis | Safety-first system tooling, read-only diagnostics, explicit opt-in workflows and reproducible Linux packaging |
-
-
-### More operational projects
-
-| Project | Technical signal |
-| --- | --- |
-| [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | Experimental 0.x infrastructure for provider-independent, read-only AI capabilities with typed outputs, deterministic validation boundaries and replaceable backends |
-| [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | Restartable content pipelines, deterministic validation, private/public boundaries and explicit external-delivery handoffs |
+| [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | — | Experimental 0.x infrastructure for provider-independent, read-only AI capabilities with typed outputs and replaceable backends | Provider-independent AI infrastructure, typed outputs, deterministic validation boundaries and replaceable backends |
+| [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | — | Restartable content pipelines for acquiring, validating and handing off learning material across private and public boundaries | Deterministic validation, restartable workflows, explicit privacy boundaries and controlled external delivery |
 
 
 ### Background and GiadaWare
