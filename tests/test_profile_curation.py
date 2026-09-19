@@ -60,10 +60,7 @@ PRIMARY_RESEARCH = (
 SECONDARY_RESEARCH = (
     "turbo-bucketizer",
     "integer-structural-search",
-    "huffman-compressor",
-    "prime-tower-clocks",
     "lasagna-v2",
-    "crystal-codec-gcc-v1",
 )
 
 PRIMARY_LEARNING = (

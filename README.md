@@ -162,10 +162,7 @@ These repositories use reproducible software experiments to investigate sequence
 | --- | --- | --- |
 | Deterministic bucketing | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | Structural search | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and constraints |
-| Linguistic compression | [Huffman Compressor](https://github.com/gcomneno/huffman-compressor) | Italian text preprocessing and layered Huffman coding |
-| Modular signatures | [Prime Tower Clocks](https://github.com/gcomneno/prime-tower-clocks) | Prime clocks, the Chinese Remainder Theorem and modular signatures |
 | Time-series compression | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Adaptive segmentation, predictor-based residual coding and controlled lossy/lossless experiments on univariate time series |
-| Experimental codec | [Crystal Codec GCC v1](https://github.com/gcomneno/crystal-codec-gcc-v1) | p-adic crystal and prism codec prototype |
 
 </details>
 
