@@ -84,7 +84,7 @@ class RepositoryEligibilityPolicyTests(unittest.TestCase):
             MODULE.CURATED_REPOSITORIES,
         )
         self.assertIn(
-            "gcomneno/linux-container-lab",
+            "gcomneno/system-log-dynamics",
             MODULE.CURATED_REPOSITORIES,
         )
         self.assertIn(
@@ -527,15 +527,15 @@ class UpdateRenderLimitTests(unittest.TestCase):
             rendered,
         )
         self.assertIn(
-            "### More recent meaningful updates",
+            "<summary>More recent meaningful updates</summary>",
             rendered,
         )
-        self.assertNotIn(
+        self.assertIn(
             "<details>",
             rendered,
         )
-        self.assertNotIn(
-            "<summary>",
+        self.assertIn(
+            "</details>",
             rendered,
         )
 
@@ -601,7 +601,7 @@ class LocalizedUpdateRenderingTests(unittest.TestCase):
             ),
         )
 
-    def test_renders_italian_more_updates_heading(
+    def test_renders_italian_more_updates_disclosure(
         self,
     ) -> None:
         updates = [
@@ -620,15 +620,15 @@ class LocalizedUpdateRenderingTests(unittest.TestCase):
         )
 
         self.assertIn(
-            "### Altri aggiornamenti recenti e significativi",
+            "<summary>Altri aggiornamenti recenti e significativi</summary>",
             rendered,
         )
-        self.assertNotIn(
+        self.assertIn(
             "<details>",
             rendered,
         )
-        self.assertNotIn(
-            "<summary>",
+        self.assertIn(
+            "</details>",
             rendered,
         )
         self.assertIn(
@@ -750,7 +750,7 @@ class BilingualMainIntegrationTests(unittest.TestCase):
                 italian,
             )
 
-    def test_main_writes_more_updates_heading_without_disclosure(
+    def test_main_writes_more_updates_disclosure(
         self,
     ) -> None:
         updates = [
@@ -804,21 +804,21 @@ class BilingualMainIntegrationTests(unittest.TestCase):
 
             self.assertEqual(result, 0)
             self.assertIn(
-                "### More recent meaningful updates",
+                "<summary>More recent meaningful updates</summary>",
                 english,
             )
             self.assertIn(
-                "### Altri aggiornamenti recenti e significativi",
+                "<summary>Altri aggiornamenti recenti e significativi</summary>",
                 italian,
             )
 
             for text in (english, italian):
-                self.assertNotIn(
+                self.assertIn(
                     "<details>",
                     text,
                 )
-                self.assertNotIn(
-                    "<summary>",
+                self.assertIn(
+                    "</details>",
                     text,
                 )
 

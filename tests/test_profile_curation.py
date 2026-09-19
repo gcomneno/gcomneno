@@ -42,9 +42,6 @@ SELECTED_PROJECTS = (
     "giadaware-ui-components",
     "gyte",
     "ubuntu-system-tools",
-)
-
-OPERATIONAL_PROJECTS = (
     "giadaware-ai",
     "gyte-ai-learning-pipeline",
 )
@@ -63,22 +60,15 @@ SECONDARY_RESEARCH = (
     "lasagna-v2",
 )
 
-PRIMARY_LEARNING = (
+LEARNING = (
     "system-log-dynamics",
     "yocto-qemu-mini-lab",
     "cat-couch-guardian",
-    "linux-container-lab",
-    "distributed-systems-study",
-    "system-design-study",
     "kleis-corso-sviluppo-software",
     "physics-study",
-)
-
-SUPPORTING_LEARNING = (
     "oop-in-c-lab",
     "js-lab-didattico",
     "boardlab",
-    "web",
 )
 
 UPDATE_GENERATOR_PATH = (
@@ -282,17 +272,6 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     label=f"{path}: Selected Projects",
                 )
 
-            with self.subTest(path=path, section="operational"):
-                assert_tokens_in_order(
-                    self,
-                    text,
-                    tuple(
-                        f"https://github.com/gcomneno/{repo}) |"
-                        for repo in OPERATIONAL_PROJECTS
-                    ),
-                    label=f"{path}: operational projects",
-                )
-
             with self.subTest(path=path, section="primary-research"):
                 assert_tokens_in_order(
                     self,
@@ -315,26 +294,15 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                     label=f"{path}: secondary research",
                 )
 
-            with self.subTest(path=path, section="primary-learning"):
+            with self.subTest(path=path, section="learning"):
                 assert_tokens_in_order(
                     self,
                     text,
                     tuple(
                         f"https://github.com/gcomneno/{repo}) |"
-                        for repo in PRIMARY_LEARNING
+                        for repo in LEARNING
                     ),
-                    label=f"{path}: primary learning",
-                )
-
-            with self.subTest(path=path, section="supporting-learning"):
-                assert_tokens_in_order(
-                    self,
-                    text,
-                    tuple(
-                        f"https://github.com/gcomneno/{repo})"
-                        for repo in SUPPORTING_LEARNING
-                    ),
-                    label=f"{path}: supporting learning",
+                    label=f"{path}: learning",
                 )
 
     def test_manual_curation_matches_latest_updates_allowlist(self) -> None:
@@ -342,11 +310,9 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
             f"gcomneno/{repo}"
             for repo in (
                 *SELECTED_PROJECTS,
-                *OPERATIONAL_PROJECTS,
                 *PRIMARY_RESEARCH,
                 *SECONDARY_RESEARCH,
-                *PRIMARY_LEARNING,
-                *SUPPORTING_LEARNING,
+                *LEARNING,
             )
         }
 
@@ -380,12 +346,15 @@ class ProfilePriorityOrderingTests(unittest.TestCase):
                 marker,
                 f"{path}: Latest Updates start marker missing",
             )
-            self.assertEqual(
-                curated_text.count(GYTE_AI_LEARNING_PIPELINE_URL),
-                1,
+            self.assertIn(
                 (
-                    f"{path}: canonical GYTE AI Learning Pipeline URL must "
-                    "appear once in manually curated profile content"
+                    "[GYTE AI Learning Pipeline]"
+                    f"({GYTE_AI_LEARNING_PIPELINE_URL}) |"
+                ),
+                curated_text,
+                (
+                    f"{path}: canonical GYTE AI Learning Pipeline must "
+                    "appear in the Selected Projects table"
                 ),
             )
             self.assertNotIn(

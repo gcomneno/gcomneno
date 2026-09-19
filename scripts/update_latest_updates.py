@@ -44,15 +44,11 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/lasagna-v2",
         f"{OWNER_LOGIN}/yocto-qemu-mini-lab",
         f"{OWNER_LOGIN}/cat-couch-guardian",
-        f"{OWNER_LOGIN}/linux-container-lab",
-        f"{OWNER_LOGIN}/distributed-systems-study",
-        f"{OWNER_LOGIN}/system-design-study",
         f"{OWNER_LOGIN}/kleis-corso-sviluppo-software",
         f"{OWNER_LOGIN}/physics-study",
         f"{OWNER_LOGIN}/oop-in-c-lab",
         f"{OWNER_LOGIN}/js-lab-didattico",
         f"{OWNER_LOGIN}/boardlab",
-        f"{OWNER_LOGIN}/web",
     }
 )
 
@@ -731,7 +727,8 @@ def render_updates(
         lines.extend(
             [
                 "",
-                f"### {ui['more_updates_heading']}",
+                "<details>",
+                f"<summary>{ui['more_updates_heading']}</summary>",
                 "",
             ]
         )
@@ -750,6 +747,13 @@ def render_updates(
                     ),
                 ]
             )
+
+        lines.extend(
+            [
+                "",
+                "</details>",
+            ]
+        )
 
     return "\n".join(lines)
 
