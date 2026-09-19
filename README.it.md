@@ -166,14 +166,21 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-09-19** · `lele-manager` · **Documentazione:** [define canonical product language contract (#256)](https://github.com/gcomneno/lele-manager/commit/2f1848a7a7c49b2ac8a6d5ab4d29ce543036d808)
-- **2026-09-19** · `giadaware-ai` · **Release:** [GiadaWare AI v0.0.1](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.1)
-- **2026-09-19** · `lele-manager` · **Funzionalità:** [add semantic Lesson Learned extraction (#255)](https://github.com/gcomneno/lele-manager/commit/faf88c59e75dccf132c0e17677b359ae42ea820d)
-- **2026-09-19** · `giadaware-ai` · **Funzionalità:** [support Ollama thinking control](https://github.com/gcomneno/giadaware-ai/commit/36a1bb751ec3851d3ceb0a38abe052747984ce5e)
+- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Documentazione:** [add Zenodo DOI metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c2eded9d271484ad3a50afd8d27b43e7dc4bd0e)
+- **2026-09-19** · `cat-couch-guardian` · **Documentazione:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
+- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
+- **2026-09-19** · `cat-couch-guardian` · **Funzionalità:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Documentazione:** [prepare v1.2.0 publication metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c2dadf97e7aa3dfd6c312f034978756974303b4b)
+- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [integrate semantic read queries into db ask](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6ff339782d33651f3eb9f48c92c819d0966675d6)
+- **2026-09-19** · `lele-manager` · **Funzionalità:** [add task-focused Context Packs (#257)](https://github.com/gcomneno/lele-manager/commit/3a39af8491c49fef337c0ba41561709c4e151eee)
+- **2026-09-19** · `lele-manager` · **Documentazione:** [define canonical product language contract (#256)](https://github.com/gcomneno/lele-manager/commit/2f1848a7a7c49b2ac8a6d5ab4d29ce543036d808)
+- **2026-09-19** · `giadaware-ai` · **Release:** [GiadaWare AI v0.0.1](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.1)
+- **2026-09-19** · `lele-manager` · **Funzionalità:** [add semantic Lesson Learned extraction (#255)](https://github.com/gcomneno/lele-manager/commit/faf88c59e75dccf132c0e17677b359ae42ea820d)
+- **2026-09-19** · `giadaware-ai` · **Funzionalità:** [support Ollama thinking control](https://github.com/gcomneno/giadaware-ai/commit/36a1bb751ec3851d3ceb0a38abe052747984ce5e)
 - **2026-09-19** · `giadaware-ai` · **Documentazione:** [record GPT-6 Astra runtime verification](https://github.com/gcomneno/giadaware-ai/commit/7081dd4c2e00db2907da6e4f0569ff80dd68df58)
 - **2026-09-18** · `digit-probe` · **Documentazione:** [record Zenodo DOI for v1.0.0 (#32)](https://github.com/gcomneno/digit-probe/commit/b632e18d05d24a9050dc87e2411ed8b47efbdf07)
 - **2026-09-18** · `digit-probe` · **Documentazione:** [add Zenodo citation metadata (#31)](https://github.com/gcomneno/digit-probe/commit/dc1d2f399170804c3e66fc4eb86af6360c7d38ba)
@@ -244,15 +251,12 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-17** · `petra` · **Documentazione:** [describe AIP-2 recursive containment prototype](https://github.com/gcomneno/petra/commit/4e0c122660ddfec39be4a9da753fafe7398fbc42)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: add AIP-2 recursive containment probe](https://github.com/gcomneno/petra/commit/9fac017bd85bb992024f02f1f5f9020f572c67ef)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: add AIP-2 wrapper-erasure probe](https://github.com/gcomneno/petra/commit/1d0beebe5eae9e59edb042165ef7ddcfee70cab6)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: audit AIP-2 relation ontology](https://github.com/gcomneno/petra/commit/5d0154d73bad78043716c77ed54082913d9ef2fe)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: audit AIP-2 level derivability (#258)](https://github.com/gcomneno/petra/commit/999fe865cf81703b40e77fa8cb300a2b1d6cd1ec)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: audit AIP-2 level derivability](https://github.com/gcomneno/petra/commit/e7d1e4d91a9e64c71bb560ba6b639e1cf8c4c6b5)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: prototype AIP-3 order-independent quotient (#255)](https://github.com/gcomneno/petra/commit/58e177a9e110e78336f001ee33b7d985744a1801)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: formalize AIP-3 quotient invariance](https://github.com/gcomneno/petra/commit/24abb5a56d3ab361e86164075feeb5cc9711f997)
 - **2026-09-17** · `petra` · **Documentazione:** [record AIP-3 order-independent prototype](https://github.com/gcomneno/petra/commit/b4ca28e936ae34b0966ad4c24a242b881ffadbb7)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: add AIP-3 order-independent quotient probe](https://github.com/gcomneno/petra/commit/b17c24c5218b817edbc0d99b61ad416d383e7846)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: analyze AIP-3 order semantics (#253)](https://github.com/gcomneno/petra/commit/04bd54fde7bc64547871c5025688a3f6a48dc669)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: analyze AIP-3 order semantics](https://github.com/gcomneno/petra/commit/6add6275c466293e44ffcd3b957ede0aa34c692d)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: define PETRA abstract paradigm (#245)](https://github.com/gcomneno/petra/commit/7c3304a77d34e1630315ad0405c577f67a2e562b)
 - **2026-09-17** · `petra` · **Documentazione:** [add PETRA research source register](https://github.com/gcomneno/petra/commit/91bbf2fd81160bd63448d766a75eca2ff0c8d76c)
 - **2026-09-17** · `petra` · **Documentazione:** [establish PETRA related-work survey (#241)](https://github.com/gcomneno/petra/commit/a60f3dd7a4bfc9f7f6acb325d3fbc2c6730c04cc)
@@ -266,12 +270,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-16** · `petra` · **Sviluppo:** [revert: remove RUF001/RUF002 from root config (belongs to resolver)](https://github.com/gcomneno/petra/commit/7bfb94e00e847ac89f0fa0d914012db0653572ee)
 - **2026-09-16** · `petra` · **Sviluppo:** [T18: py.typed for petra, mypy fixes; T17 statement correction](https://github.com/gcomneno/petra/commit/42fa7e2154e17cab6e789aacca406639daffbf80)
 - **2026-09-16** · `petra` · **Sviluppo:** [resolver: fix remaining ruff errors (SIM108, SIM110, RUF005, RUF059, B905)](https://github.com/gcomneno/petra/commit/54d88fa6e4f942f26873145587994ea515b9d01a)
-- **2026-09-16** · `petra` · **Sviluppo:** [resolver: ignore RUF001/RUF002 for × separator](https://github.com/gcomneno/petra/commit/2f6b4cf6516955cbc8c189ad19ce232a64d4d774)
-- **2026-09-16** · `petra` · **Sviluppo:** [T17/P20 closed: fix id() cache bug in resolver search](https://github.com/gcomneno/petra/commit/cc9b5d8ae6db7350d42c98d53afd8f8b49cee83a)
-- **2026-09-16** · `petra` · **Sviluppo:** [T19: fifth data point at 10^8, SumPk2 ~ c/sqrt(log log N) excluded](https://github.com/gcomneno/petra/commit/b8d2c4bf2c621956b07597cc351670080e287576)
-- **2026-09-16** · `petra` · **Sviluppo:** [P16/P17/P18 closed: T13 covered by P8, T14 and T15 out of scope](https://github.com/gcomneno/petra/commit/efbb1baba4d36564e02c41d14d5fa4a79e29a7d4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1804 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1808 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
