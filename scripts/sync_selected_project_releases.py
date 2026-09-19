@@ -22,6 +22,8 @@ SELECTED_REPOSITORIES = (
     "giadaware-ui-components",
     "gyte",
     "ubuntu-system-tools",
+    "giadaware-ai",
+    "gyte-ai-learning-pipeline",
 )
 
 

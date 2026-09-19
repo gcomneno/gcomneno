@@ -23,6 +23,23 @@ sys.modules[SPEC.name] = MODULE
 SPEC.loader.exec_module(MODULE)
 
 
+class SelectedRepositoryContractTests(unittest.TestCase):
+    def test_selected_repositories_match_canonical_table_composition(self) -> None:
+        self.assertEqual(
+            MODULE.SELECTED_REPOSITORIES,
+            (
+                "atelier-kit",
+                "smart-file-organizer",
+                "lele-manager",
+                "giadaware-ui-components",
+                "gyte",
+                "ubuntu-system-tools",
+                "giadaware-ai",
+                "gyte-ai-learning-pipeline",
+            ),
+        )
+
+
 def profile_fixture(*, omit: str | None = None) -> str:
     rows = []
     for repository in MODULE.SELECTED_REPOSITORIES:
