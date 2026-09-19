@@ -154,17 +154,9 @@ These repositories use reproducible software experiments to investigate sequence
 | Modular structure analysis | [Midas](https://github.com/gcomneno/midas) | Deterministic modular fingerprints, anomaly localization and structural comparison without predictive claims |
 | Finite-state stochastic modeling | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Exact absorbing Markov models, exhaustive kernel verification, historical signal analysis, versioned application contracts and a local reproducible research GUI |
 | Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
-
-<details>
-<summary>More research and experimental projects</summary>
-
-| Area | Project | Technical focus |
-| --- | --- | --- |
 | Deterministic bucketing | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | Structural search | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and constraints |
 | Time-series compression | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Adaptive segmentation, predictor-based residual coding and controlled lossy/lossless experiments on univariate time series |
-
-</details>
 
 ## <code>04 · LEARNING IN PUBLIC</code>
 
@@ -195,8 +187,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-18** · `smart-file-organizer` · **Release:** [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [add v0.5.0 download and quick start CTA (#53)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/1c19b4413b29ee3ddc0d62df85b1b096e90da268)
 
-<details>
-<summary>More recent meaningful updates</summary>
+### More recent meaningful updates
 
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Release:** [GYTE AI Learning Pipeline v0.5.0 Technical Preview](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Feature:** [prepare downloadable technical preview (#52)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/010e681ef03fadda97a9bff2a94c4c1210e6524c)
@@ -296,8 +287,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [P15/T12 closed: sparse sampling out of scope](https://github.com/gcomneno/petra/commit/62c041961000738c8356149ad9ad29b58da04e7c)
 
 _Showing the 100 most recent meaningful updates; 1882 older update(s) omitted._
-
-</details>
 
 <!-- updates:end -->
 

@@ -527,7 +527,15 @@ class UpdateRenderLimitTests(unittest.TestCase):
             rendered,
         )
         self.assertIn(
-            "More recent meaningful updates",
+            "### More recent meaningful updates",
+            rendered,
+        )
+        self.assertNotIn(
+            "<details>",
+            rendered,
+        )
+        self.assertNotIn(
+            "<summary>",
             rendered,
         )
 
@@ -593,7 +601,7 @@ class LocalizedUpdateRenderingTests(unittest.TestCase):
             ),
         )
 
-    def test_renders_italian_details_summary(
+    def test_renders_italian_more_updates_heading(
         self,
     ) -> None:
         updates = [
@@ -612,7 +620,15 @@ class LocalizedUpdateRenderingTests(unittest.TestCase):
         )
 
         self.assertIn(
-            "Altri aggiornamenti recenti e significativi",
+            "### Altri aggiornamenti recenti e significativi",
+            rendered,
+        )
+        self.assertNotIn(
+            "<details>",
+            rendered,
+        )
+        self.assertNotIn(
+            "<summary>",
             rendered,
         )
         self.assertIn(
@@ -733,6 +749,78 @@ class BilingualMainIntegrationTests(unittest.TestCase):
                 "Previous generated content",
                 italian,
             )
+
+    def test_main_writes_more_updates_heading_without_disclosure(
+        self,
+    ) -> None:
+        updates = [
+            item(
+                hour=10 - index,
+                kind="development",
+                text=f"update-{index}",
+                url=f"https://example.test/{index}",
+            )
+            for index in range(5)
+        ]
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = {
+                "en": root / "README.md",
+                "it": root / "README.it.md",
+            }
+
+            for path in paths.values():
+                path.write_text(
+                    self.readme_fixture(),
+                    encoding="utf-8",
+                )
+
+            with (
+                patch.object(
+                    MODULE,
+                    "README_PATHS",
+                    paths,
+                ),
+                patch.object(
+                    MODULE,
+                    "collect_updates",
+                    return_value=updates,
+                ),
+                patch.object(
+                    MODULE,
+                    "API_HAD_FAILURE",
+                    False,
+                ),
+            ):
+                result = MODULE.main()
+
+            english = paths["en"].read_text(
+                encoding="utf-8",
+            )
+            italian = paths["it"].read_text(
+                encoding="utf-8",
+            )
+
+            self.assertEqual(result, 0)
+            self.assertIn(
+                "### More recent meaningful updates",
+                english,
+            )
+            self.assertIn(
+                "### Altri aggiornamenti recenti e significativi",
+                italian,
+            )
+
+            for text in (english, italian):
+                self.assertNotIn(
+                    "<details>",
+                    text,
+                )
+                self.assertNotIn(
+                    "<summary>",
+                    text,
+                )
 
     def test_missing_translation_prevents_partial_write(
         self,

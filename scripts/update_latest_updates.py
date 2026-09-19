@@ -84,7 +84,7 @@ MAX_REPOS = 100
 UI_BY_LOCALE = {
     "en": {
         "fallback": "- No automatic updates available at the moment.",
-        "details_summary": "More recent meaningful updates",
+        "more_updates_heading": "More recent meaningful updates",
         "omitted": (
             "_Showing the {limit} most recent meaningful updates; "
             "{count} older update(s) omitted._"
@@ -94,7 +94,7 @@ UI_BY_LOCALE = {
         "fallback": (
             "- Al momento non sono disponibili aggiornamenti automatici."
         ),
-        "details_summary": (
+        "more_updates_heading": (
             "Altri aggiornamenti recenti e significativi"
         ),
         "omitted": (
@@ -719,7 +719,7 @@ def render_updates(
 
     rendered_items = items[:MAX_RENDERED_ITEMS]
     visible_items = rendered_items[:VISIBLE_ITEMS]
-    hidden_items = rendered_items[VISIBLE_ITEMS:]
+    remaining_items = rendered_items[VISIBLE_ITEMS:]
     omitted_count = len(items) - len(rendered_items)
 
     lines = [
@@ -727,22 +727,17 @@ def render_updates(
         for item in visible_items
     ]
 
-    if hidden_items:
+    if remaining_items:
         lines.extend(
             [
                 "",
-                "<details>",
-                (
-                    "<summary>"
-                    f"{ui['details_summary']}"
-                    "</summary>"
-                ),
+                f"### {ui['more_updates_heading']}",
                 "",
             ]
         )
         lines.extend(
             render_update_item(item, locale)
-            for item in hidden_items
+            for item in remaining_items
         )
 
         if omitted_count:
@@ -755,8 +750,6 @@ def render_updates(
                     ),
                 ]
             )
-
-        lines.extend(["", "</details>"])
 
     return "\n".join(lines)
 

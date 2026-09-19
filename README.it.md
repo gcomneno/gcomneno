@@ -154,17 +154,9 @@ Questi repository usano esperimenti software riproducibili per studiare struttur
 | Analisi della struttura modulare | [Midas](https://github.com/gcomneno/midas) | Impronte modulari deterministiche, localizzazione delle anomalie e confronto strutturale senza claim predittivi |
 | Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel, analisi dei segnali storici, contratti applicativi versionati e GUI di ricerca locale riproducibile |
 | Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
-
-<details>
-<summary>Altri progetti di ricerca e sperimentali</summary>
-
-| Area | Progetto | Focus tecnico |
-| --- | --- | --- |
 | Partizionamento deterministico | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Partizionamento IPv4 ad alta entropia e allocazione deterministica |
 | Ricerca strutturale | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Ricerca limitata su rappresentazioni intere e vincoli |
 | Compressione di serie temporali | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Segmentazione adattiva, codifica dei residui basata su predittori ed esperimenti lossy/lossless controllati su serie temporali univariate |
-
-</details>
 
 ## <code>04 · IMPARARE IN PUBBLICO</code>
 
@@ -195,8 +187,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-18** · `smart-file-organizer` · **Release:** [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [add v0.5.0 download and quick start CTA (#53)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/1c19b4413b29ee3ddc0d62df85b1b096e90da268)
 
-<details>
-<summary>Altri aggiornamenti recenti e significativi</summary>
+### Altri aggiornamenti recenti e significativi
 
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Release:** [GYTE AI Learning Pipeline v0.5.0 Technical Preview](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Funzionalità:** [prepare downloadable technical preview (#52)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/010e681ef03fadda97a9bff2a94c4c1210e6524c)
@@ -296,8 +287,6 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-16** · `petra` · **Sviluppo:** [P15/T12 closed: sparse sampling out of scope](https://github.com/gcomneno/petra/commit/62c041961000738c8356149ad9ad29b58da04e7c)
 
 _Sono mostrati i 100 aggiornamenti significativi più recenti; 1882 aggiornamenti precedenti sono stati omessi._
-
-</details>
 
 <!-- updates:end -->
 
