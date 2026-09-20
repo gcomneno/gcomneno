@@ -248,7 +248,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Docs:** [record AIP-1 set vs multiset prototype](https://github.com/gcomneno/petra/commit/f736a6a7995e23aea1be43d4e93d2cf538e65ccd)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-1 set vs multiset probe](https://github.com/gcomneno/petra/commit/2c0fe22271f07fffcad1daac701bf67856585c04)
 - **2026-09-17** · `petra` · **Development:** [research: analyze AIP-1 multiplicity ontology (#265)](https://github.com/gcomneno/petra/commit/caca013c8b85345e639bf11cdabf1808e20df6ad)
-- **2026-09-17** · `petra` · **Development:** [research: analyze AIP-1 multiplicity ontology](https://github.com/gcomneno/petra/commit/4718cd85ccc9666fc787c6e6f5625a9a7576053f)
 - **2026-09-17** · `petra` · **Development:** [research: validate AIP-2 recursive containment (#262)](https://github.com/gcomneno/petra/commit/3544a4e849d45a843865468b32f948b3832d5843)
 - **2026-09-17** · `petra` · **Docs:** [describe AIP-2 recursive containment prototype](https://github.com/gcomneno/petra/commit/4e0c122660ddfec39be4a9da753fafe7398fbc42)
 - **2026-09-17** · `petra` · **Development:** [research: add AIP-2 recursive containment probe](https://github.com/gcomneno/petra/commit/9fac017bd85bb992024f02f1f5f9020f572c67ef)
@@ -270,8 +269,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [T18/P21 closed: ruff and mypy clean on resolver](https://github.com/gcomneno/petra/commit/c36d49791621c3b7236082f8e8f59f98eba8cd55)
 - **2026-09-16** · `petra` · **Development:** [revert: remove RUF001/RUF002 from root config (belongs to resolver)](https://github.com/gcomneno/petra/commit/7bfb94e00e847ac89f0fa0d914012db0653572ee)
 - **2026-09-16** · `petra` · **Development:** [T18: py.typed for petra, mypy fixes; T17 statement correction](https://github.com/gcomneno/petra/commit/42fa7e2154e17cab6e789aacca406639daffbf80)
+- **2026-09-16** · `petra` · **Development:** [resolver: fix remaining ruff errors (SIM108, SIM110, RUF005, RUF059, B905)](https://github.com/gcomneno/petra/commit/54d88fa6e4f942f26873145587994ea515b9d01a)
 
-_Showing the 100 most recent meaningful updates; 1809 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1808 older update(s) omitted._
 
 </details>
 
