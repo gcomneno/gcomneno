@@ -271,7 +271,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-16** · `petra` · **Sviluppo:** [T18: py.typed for petra, mypy fixes; T17 statement correction](https://github.com/gcomneno/petra/commit/42fa7e2154e17cab6e789aacca406639daffbf80)
 - **2026-09-16** · `petra` · **Sviluppo:** [resolver: fix remaining ruff errors (SIM108, SIM110, RUF005, RUF059, B905)](https://github.com/gcomneno/petra/commit/54d88fa6e4f942f26873145587994ea515b9d01a)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1799 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1785 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

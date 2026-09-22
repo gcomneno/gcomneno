@@ -271,7 +271,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-16** · `petra` · **Development:** [T18: py.typed for petra, mypy fixes; T17 statement correction](https://github.com/gcomneno/petra/commit/42fa7e2154e17cab6e789aacca406639daffbf80)
 - **2026-09-16** · `petra` · **Development:** [resolver: fix remaining ruff errors (SIM108, SIM110, RUF005, RUF059, B905)](https://github.com/gcomneno/petra/commit/54d88fa6e4f942f26873145587994ea515b9d01a)
 
-_Showing the 100 most recent meaningful updates; 1799 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1785 older update(s) omitted._
 
 </details>
 
