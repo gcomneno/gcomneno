@@ -166,14 +166,17 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-23** · `lele-manager` · **Feature:** [add assistant-ready context export (#258)](https://github.com/gcomneno/lele-manager/commit/ee1a000c759f94d2dea1d84b52b5ee78703f8033)
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [finalize Italian M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/254cea53e0fbf32ac43fc81c13888fcdb308138e)
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [finalize M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/92cf575744338ad7dc1371b6dbabdaa56fc303b5)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [align Italian exercises with M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/ffcb37fcb62ef7a416bd8d47c03c6b72c659e210)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [align exercises with implemented M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/50522837c3d72b5f3f7008611319a78c17ec63cc)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain Italian M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/8a738ff099989ee18925f4c0696e427c6eeedffd)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/cc7eb5e5d7ffb20b59794c9dafc5545cac0d1baf)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [align exercises with implemented M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/50522837c3d72b5f3f7008611319a78c17ec63cc)
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain Italian M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/8a738ff099989ee18925f4c0696e427c6eeedffd)
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/cc7eb5e5d7ffb20b59794c9dafc5545cac0d1baf)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [document Italian M0.7 cooldown contract](https://github.com/gcomneno/cat-couch-guardian/commit/72076360836a9c41d2ee8ad2a568d7381329be85)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [document M0.7 cooldown contract](https://github.com/gcomneno/cat-couch-guardian/commit/59e4d661da9fbb2833561a41356265cbe5900375)
 - **2026-09-23** · `cat-couch-guardian` · **Feature:** [demonstrate deterministic cooldown decisions](https://github.com/gcomneno/cat-couch-guardian/commit/1051135633978b45d2b7b30530e9120613e57e54)
@@ -261,17 +264,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA structural statistics](https://github.com/gcomneno/petra/commit/cba03abd4d4a70d67f8c591e50dc382c5950b987)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA automorphisms and symmetry (#290)](https://github.com/gcomneno/petra/commit/34957ac2603dafb961f62e83671c34d3f943a2c0)
 - **2026-09-17** · `petra` · **Development:** [research: strengthen automorphism probe independence](https://github.com/gcomneno/petra/commit/00b1a9473946bf915ed31ee5fb0efbb36f015cd7)
-- **2026-09-17** · `petra` · **Development:** [research: add bounded PETRA automorphism probe](https://github.com/gcomneno/petra/commit/de22d6f6abfa38c63e3009135cbb5632c46788e9)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA automorphisms and symmetry](https://github.com/gcomneno/petra/commit/222a1b08e6404904abb7dd2a4f10a1bbcf10c8b3)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA rewrite presentations (#288)](https://github.com/gcomneno/petra/commit/b31d344c2f66386ff4f70ce540da7bfc24897789)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA congruences and quotients (#286)](https://github.com/gcomneno/petra/commit/027544713c44a2822acb8cfdecc090e73c47c565)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA congruences and quotients](https://github.com/gcomneno/petra/commit/b47ba15ff0ce794fc2b9ea2ef8181bfa183af8fc)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA grading and edit-graph geometry (#284)](https://github.com/gcomneno/petra/commit/18f74077cfd2ec2ee36198287904ee315e25693e)
 - **2026-09-17** · `petra` · **Development:** [research: expose non-unique common-reduct witness](https://github.com/gcomneno/petra/commit/8b29fa55fef48310f40e6025fc255c0ca710d677)
-- **2026-09-17** · `petra` · **Development:** [research: prove non-unique maximum common reducts](https://github.com/gcomneno/petra/commit/450b5a6cbf4981e1d5b44ac3eeaaef0fa0d78fad)
-- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA grading and edit geometry](https://github.com/gcomneno/petra/commit/87183c7458d540c67b6e6499fd26a32c651cf502)
 
-_Showing the 100 most recent meaningful updates; 1817 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1819 older update(s) omitted._
 
 </details>
 
