@@ -166,14 +166,24 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-24** · `petra` · **Development:** [research: audit witnessed edits against residual-system axioms](https://github.com/gcomneno/petra/commit/8b9c8b681a1cea4af75d9400f169f4b39a5eb7b9)
-- **2026-09-24** · `petra` · **Development:** [research: resolve PETRA residual-system membership audit](https://github.com/gcomneno/petra/commit/11e5e48432159efb8afbfc45f85fa0dfcd0a53be)
-- **2026-09-24** · `petra` · **Development:** [research: record residual-system audit axioms](https://github.com/gcomneno/petra/commit/9eebb2d11584ff78c20967faa5aa9b21428ab00b)
-- **2026-09-24** · `petra` · **Development:** [research: compare PETRA state-dependent edit residuals with residual theory (#302)](https://github.com/gcomneno/petra/commit/7bbca260bafa6e914532b972ddc3664652802867)
+- **2026-09-24** · `petra` · **Development:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
+- **2026-09-24** · `petra` · **Development:** [research: freeze Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/40238b441b8b2dfe09ce03ba0b08aa1519510c5c)
+- **2026-09-24** · `petra` · **Development:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
+- **2026-09-24** · `petra` · **Development:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/petra/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-24** · `petra` · **Development:** [research: register rooted one-leaf deck source](https://github.com/gcomneno/petra/commit/7dc08558be5341af74c68d8e2f9825202e77ba10)
+- **2026-09-24** · `petra` · **Development:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/petra/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
+- **2026-09-24** · `petra` · **Development:** [research: classify global edit-graph validation results](https://github.com/gcomneno/petra/commit/f9931e35563c1ad9e42df8ecf0b9993e17749dcf)
+- **2026-09-24** · `petra` · **Development:** [research: register tree reconstruction and pseudosimilarity sources](https://github.com/gcomneno/petra/commit/4d6fae96b6c7a581fca8e976e91af7b1812a5e25)
+- **2026-09-24** · `petra` · **Development:** [research: audit PETRA witnessed edits against residual-system axioms (#304)](https://github.com/gcomneno/petra/commit/4d1d7100da1fa36e2616f0c2fd3dca36285d3663)
+- **2026-09-24** · `petra` · **Development:** [research: audit witnessed edits against residual-system axioms](https://github.com/gcomneno/petra/commit/8b9c8b681a1cea4af75d9400f169f4b39a5eb7b9)
+- **2026-09-24** · `petra` · **Development:** [research: align residual comparison with axiom audit](https://github.com/gcomneno/petra/commit/65ca1bf808e0078b29ead87d979b3323434e68f3)
+- **2026-09-24** · `petra` · **Development:** [research: resolve PETRA residual-system membership audit](https://github.com/gcomneno/petra/commit/11e5e48432159efb8afbfc45f85fa0dfcd0a53be)
+- **2026-09-24** · `petra` · **Development:** [research: record residual-system audit axioms](https://github.com/gcomneno/petra/commit/9eebb2d11584ff78c20967faa5aa9b21428ab00b)
+- **2026-09-24** · `petra` · **Development:** [research: compare PETRA state-dependent edit residuals with residual theory (#302)](https://github.com/gcomneno/petra/commit/7bbca260bafa6e914532b972ddc3664652802867)
 - **2026-09-24** · `petra` · **Development:** [research: advance residual validation next step](https://github.com/gcomneno/petra/commit/73df852db02cb6d2b0642970b0b307aa2c53077e)
 - **2026-09-24** · `petra` · **Development:** [research: compare PETRA with residual rewriting theory](https://github.com/gcomneno/petra/commit/a42ae31a43cbb872dd9b52abbf1b87651d36a0b6)
 - **2026-09-24** · `petra` · **Development:** [research: extend path comparison with residual theory](https://github.com/gcomneno/petra/commit/4b6a9befd8d9db95dfbf2853de3386aa9c0a3115)
@@ -260,18 +270,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-19** · `giadaware-ai` · **Docs:** [record GPT-6 Astra runtime verification](https://github.com/gcomneno/giadaware-ai/commit/7081dd4c2e00db2907da6e4f0569ff80dd68df58)
 - **2026-09-18** · `digit-probe` · **Docs:** [record Zenodo DOI for v1.0.0 (#32)](https://github.com/gcomneno/digit-probe/commit/b632e18d05d24a9050dc87e2411ed8b47efbdf07)
 - **2026-09-18** · `digit-probe` · **Docs:** [add Zenodo citation metadata (#31)](https://github.com/gcomneno/digit-probe/commit/dc1d2f399170804c3e66fc4eb86af6360c7d38ba)
-- **2026-09-18** · `smart-file-organizer` · **Release:** [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [add v0.5.0 download and quick start CTA (#53)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/1c19b4413b29ee3ddc0d62df85b1b096e90da268)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Release:** [GYTE AI Learning Pipeline v0.5.0 Technical Preview](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Feature:** [prepare downloadable technical preview (#52)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/010e681ef03fadda97a9bff2a94c4c1210e6524c)
-- **2026-09-18** · `digit-probe` · **Release:** [Digit Probe v1.0.0](https://github.com/gcomneno/digit-probe/releases/tag/v1.0.0)
-- **2026-09-18** · `smart-file-organizer` · **Docs:** [align README with verifiable recovery state (#106)](https://github.com/gcomneno/smart-file-organizer/commit/19376637a6abe79a9fd56d0c0a145cadfdf73120)
-- **2026-09-18** · `digit-probe` · **Docs:** [define consumer-safe analysis contract (#22) (#25)](https://github.com/gcomneno/digit-probe/commit/8239fc4198b5526552ee40f22cff9446d9650f56)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [complete Source-to-Skill human/agent PoV (#49)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5ca6e842c6bcf861ebc8a33faa01d21725684724)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [adopt canonical English localization boundary (#48)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2f89a7ecd4bd379a33eaa44ac17da51614d98f34)
 
-_Showing the 100 most recent meaningful updates; 1821 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1826 older update(s) omitted._
 
 </details>
 
