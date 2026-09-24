@@ -271,7 +271,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA grading and edit-graph geometry (#284)](https://github.com/gcomneno/petra/commit/18f74077cfd2ec2ee36198287904ee315e25693e)
 - **2026-09-17** · `petra` · **Development:** [research: expose non-unique common-reduct witness](https://github.com/gcomneno/petra/commit/8b29fa55fef48310f40e6025fc255c0ca710d677)
 
-_Showing the 100 most recent meaningful updates; 1819 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1814 older update(s) omitted._
 
 </details>
 
