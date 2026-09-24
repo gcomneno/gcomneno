@@ -166,17 +166,32 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-09-24** · `petra` · **Sviluppo:** [research: compare witnessed paths with categories groupoids and traces](https://github.com/gcomneno/petra/commit/96c1a5ee3183392fd855e109edced28e238fa597)
-- **2026-09-24** · `petra` · **Sviluppo:** [research: resolve free-category and groupoid validation rows](https://github.com/gcomneno/petra/commit/d00ce816c4e697aff167d7248913981d22370c31)
-- **2026-09-24** · `petra` · **Sviluppo:** [research: validate PETRA initial algebra and quotient semantics (#298)](https://github.com/gcomneno/petra/commit/982b49372180b2b74b65ed4b06f80503276202cb)
-- **2026-09-24** · `petra` · **Sviluppo:** [research: remove resolved algebra item from open candidates](https://github.com/gcomneno/petra/commit/97dc8d8aca37513ed7c4addbe642ab6577b1e8b3)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: audit witnessed edits against residual-system axioms](https://github.com/gcomneno/petra/commit/8b9c8b681a1cea4af75d9400f169f4b39a5eb7b9)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: resolve PETRA residual-system membership audit](https://github.com/gcomneno/petra/commit/11e5e48432159efb8afbfc45f85fa0dfcd0a53be)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: record residual-system audit axioms](https://github.com/gcomneno/petra/commit/9eebb2d11584ff78c20967faa5aa9b21428ab00b)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: compare PETRA state-dependent edit residuals with residual theory (#302)](https://github.com/gcomneno/petra/commit/7bbca260bafa6e914532b972ddc3664652802867)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-24** · `petra` · **Sviluppo:** [research: advance residual validation next step](https://github.com/gcomneno/petra/commit/73df852db02cb6d2b0642970b0b307aa2c53077e)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: compare PETRA with residual rewriting theory](https://github.com/gcomneno/petra/commit/a42ae31a43cbb872dd9b52abbf1b87651d36a0b6)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: extend path comparison with residual theory](https://github.com/gcomneno/petra/commit/4b6a9befd8d9db95dfbf2853de3386aa9c0a3115)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: sharpen state-dependent residual classification](https://github.com/gcomneno/petra/commit/c010814a3b5edafc2eae22265bf033332b78d9b1)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: register residual-theory sources](https://github.com/gcomneno/petra/commit/9f3c2ad260a5294779dcad2170e7c58473298b82)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: validate PETRA witnessed paths against free categories, groupoids, and traces (#300)](https://github.com/gcomneno/petra/commit/f13c78b2ea8fcba147790325934ba3ae833b2572)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: correct trace-theory source attribution](https://github.com/gcomneno/petra/commit/db17d0fad24391dffefd4e97760fd08513aeaf7a)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: compare witnessed paths with categories groupoids and traces](https://github.com/gcomneno/petra/commit/96c1a5ee3183392fd855e109edced28e238fa597)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: resolve free-category and groupoid validation rows](https://github.com/gcomneno/petra/commit/d00ce816c4e697aff167d7248913981d22370c31)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: register free-path and trace-theory sources](https://github.com/gcomneno/petra/commit/a03bdcb4acf3b855330c1a5e2b00759ccc080d19)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: validate PETRA initial algebra and quotient semantics (#298)](https://github.com/gcomneno/petra/commit/982b49372180b2b74b65ed4b06f80503276202cb)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: remove resolved algebra item from open candidates](https://github.com/gcomneno/petra/commit/97dc8d8aca37513ed7c4addbe642ab6577b1e8b3)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: align superseded algebra validation note](https://github.com/gcomneno/petra/commit/68658af32c632e9e4e495c534829cb25b1346071)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: compare PETRA algebraic semantics with standard theory](https://github.com/gcomneno/petra/commit/a826b7eb3ca182adfe5d85a48d7132d38076b0ad)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: resolve algebraic semantics validation rows](https://github.com/gcomneno/petra/commit/6740ea92b9483909c1ed0570beec15bbc58b18f0)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: register bag-functor and universal-algebra sources](https://github.com/gcomneno/petra/commit/678f84d2f49f75d908d1f695cb9b2812c546decf)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: validate PETRA leaf-edit metric against 1-degree tree edit distance (#296)](https://github.com/gcomneno/petra/commit/05cd4e74e81f2cdc70e15e71ac19f0bea4f07df6)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: clarify unrestricted TED boundary](https://github.com/gcomneno/petra/commit/f51cfa512d9010c9bd4942bd572b8bb27dffb51e)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: distinguish PETRA leaf edits from unrestricted TED](https://github.com/gcomneno/petra/commit/27d79cc8911ac9a709c7834ea34f8a2b153c4fb6)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: compare PETRA metric with 1-degree tree edits](https://github.com/gcomneno/petra/commit/24734516d19a7c3d613c278ff15d3e0a7ea8c37e)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: refine leaf-edit validation status](https://github.com/gcomneno/petra/commit/65b6a4e2e825ec4a1b2e7653ba8bf70dc19e8022)
@@ -255,23 +270,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete Source-to-Skill human/agent PoV (#49)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5ca6e842c6bcf861ebc8a33faa01d21725684724)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [adopt canonical English localization boundary (#48)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2f89a7ecd4bd379a33eaa44ac17da51614d98f34)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [record social triage PoV automation decision](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/22040b3553c8fb1e97103d6d5137c438b920f310)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete manual social-source triage PoV](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/b9696140261acc619068a2ce097aee5b57e08073)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [record Source-to-Skill PoV result](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/cacd624733a41a51601998093e414761b021a1b8)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete single-source Source-to-Skill PoV](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5214a3d027beb313e1f9534294f44e812dc7f17d)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Funzionalità:** [automate approved repository handoff up to PR creation (#47)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/00ca1c5502ee087d15ee099bb47757e9890488a6)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [mirror localization boundary in Italian README](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/a32b491c40d826e67f3ac7376362b611f383a704)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [expose canonical English localization boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2692fd3426f2f32c2300100122343a9f20e5d35b)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [align Italian documentation policy mirror](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/4803e4240058d70045836e12402b9731a20501f5)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [align documentation with canonical English policy](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/00cba5f3ec531c3d67fc652f361d3ec4633b4c53)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [define canonical language and translation boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/dea1ecddba814f811b078fdcdd35233871fbfe2f)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Correzione:** [bind handoff checkout to declared repository](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fbe3a4d9e722d67a726585f485a050624c78e9e2)
-- **2026-09-18** · `giadaware-ai` · **Documentazione:** [add repository agent governance](https://github.com/gcomneno/giadaware-ai/commit/ae7387f74e7423513409e80c8e193121ffda6040)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: add Phase 6 source register](https://github.com/gcomneno/petra/commit/ec555670629311bb844ff89f7d0fa52a86d68a5b)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA structural statistics and Lipschitz observables (#292)](https://github.com/gcomneno/petra/commit/12ca1ae1a982e82e125879cf71de8778d0147ac3)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA structural statistics](https://github.com/gcomneno/petra/commit/cba03abd4d4a70d67f8c591e50dc382c5950b987)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1813 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1821 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
