@@ -166,14 +166,26 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-23** · `lele-manager` · **Feature:** [add assistant-ready context export (#258)](https://github.com/gcomneno/lele-manager/commit/ee1a000c759f94d2dea1d84b52b5ee78703f8033)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [finalize Italian M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/254cea53e0fbf32ac43fc81c13888fcdb308138e)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [finalize M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/92cf575744338ad7dc1371b6dbabdaa56fc303b5)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [align Italian exercises with M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/ffcb37fcb62ef7a416bd8d47c03c6b72c659e210)
+- **2026-09-24** · `petra` · **Development:** [research: compare witnessed paths with categories groupoids and traces](https://github.com/gcomneno/petra/commit/96c1a5ee3183392fd855e109edced28e238fa597)
+- **2026-09-24** · `petra` · **Development:** [research: resolve free-category and groupoid validation rows](https://github.com/gcomneno/petra/commit/d00ce816c4e697aff167d7248913981d22370c31)
+- **2026-09-24** · `petra` · **Development:** [research: validate PETRA initial algebra and quotient semantics (#298)](https://github.com/gcomneno/petra/commit/982b49372180b2b74b65ed4b06f80503276202cb)
+- **2026-09-24** · `petra` · **Development:** [research: remove resolved algebra item from open candidates](https://github.com/gcomneno/petra/commit/97dc8d8aca37513ed7c4addbe642ab6577b1e8b3)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-24** · `petra` · **Development:** [research: align superseded algebra validation note](https://github.com/gcomneno/petra/commit/68658af32c632e9e4e495c534829cb25b1346071)
+- **2026-09-24** · `petra` · **Development:** [research: compare PETRA algebraic semantics with standard theory](https://github.com/gcomneno/petra/commit/a826b7eb3ca182adfe5d85a48d7132d38076b0ad)
+- **2026-09-24** · `petra` · **Development:** [research: validate PETRA leaf-edit metric against 1-degree tree edit distance (#296)](https://github.com/gcomneno/petra/commit/05cd4e74e81f2cdc70e15e71ac19f0bea4f07df6)
+- **2026-09-24** · `petra` · **Development:** [research: distinguish PETRA leaf edits from unrestricted TED](https://github.com/gcomneno/petra/commit/27d79cc8911ac9a709c7834ea34f8a2b153c4fb6)
+- **2026-09-24** · `petra` · **Development:** [research: compare PETRA metric with 1-degree tree edits](https://github.com/gcomneno/petra/commit/24734516d19a7c3d613c278ff15d3e0a7ea8c37e)
+- **2026-09-24** · `petra` · **Development:** [research: refine leaf-edit validation status](https://github.com/gcomneno/petra/commit/65b6a4e2e825ec4a1b2e7653ba8bf70dc19e8022)
+- **2026-09-24** · `petra` · **Development:** [research: register Selkow leaf-edit prior art](https://github.com/gcomneno/petra/commit/0c49d30883322a449e99cbca6cacd5b38920e948)
+- **2026-09-24** · `petra` · **Development:** [research: begin Phase 6 external mathematical validation (#294)](https://github.com/gcomneno/petra/commit/5d678187cccd27eef4e732a06fd2de10a1398eb3)
+- **2026-09-23** · `lele-manager` · **Feature:** [add assistant-ready context export (#258)](https://github.com/gcomneno/lele-manager/commit/ee1a000c759f94d2dea1d84b52b5ee78703f8033)
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [finalize Italian M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/254cea53e0fbf32ac43fc81c13888fcdb308138e)
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [finalize M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/92cf575744338ad7dc1371b6dbabdaa56fc303b5)
+- **2026-09-23** · `cat-couch-guardian` · **Docs:** [align Italian exercises with M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/ffcb37fcb62ef7a416bd8d47c03c6b72c659e210)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [align exercises with implemented M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/50522837c3d72b5f3f7008611319a78c17ec63cc)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain Italian M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/8a738ff099989ee18925f4c0696e427c6eeedffd)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/cc7eb5e5d7ffb20b59794c9dafc5545cac0d1baf)
@@ -255,23 +267,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Docs:** [define canonical language and translation boundary](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/dea1ecddba814f811b078fdcdd35233871fbfe2f)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Fix:** [bind handoff checkout to declared repository](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fbe3a4d9e722d67a726585f485a050624c78e9e2)
 - **2026-09-18** · `giadaware-ai` · **Docs:** [add repository agent governance](https://github.com/gcomneno/giadaware-ai/commit/ae7387f74e7423513409e80c8e193121ffda6040)
-- **2026-09-17** · `petra` · **Development:** [research: tighten Phase 6 source register](https://github.com/gcomneno/petra/commit/5b6bb4e39f82d1e3123173731ac95f7befa6601e)
-- **2026-09-17** · `petra` · **Development:** [research: tighten Phase 6 validation statuses](https://github.com/gcomneno/petra/commit/86ed4f2c7f84b3fa1fe67157d2046ef9ee6f86e1)
-- **2026-09-17** · `petra` · **Development:** [research: add Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/3bfe5532092422f1b77ccccd65f9672efd3855ac)
 - **2026-09-17** · `petra` · **Development:** [research: add Phase 6 source register](https://github.com/gcomneno/petra/commit/ec555670629311bb844ff89f7d0fa52a86d68a5b)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA structural statistics and Lipschitz observables (#292)](https://github.com/gcomneno/petra/commit/12ca1ae1a982e82e125879cf71de8778d0147ac3)
-- **2026-09-17** · `petra` · **Development:** [research: add structural statistics probe](https://github.com/gcomneno/petra/commit/74775285f144e8a260303524acaaac394746a722)
 - **2026-09-17** · `petra` · **Development:** [research: formalize PETRA structural statistics](https://github.com/gcomneno/petra/commit/cba03abd4d4a70d67f8c591e50dc382c5950b987)
-- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA automorphisms and symmetry (#290)](https://github.com/gcomneno/petra/commit/34957ac2603dafb961f62e83671c34d3f943a2c0)
-- **2026-09-17** · `petra` · **Development:** [research: strengthen automorphism probe independence](https://github.com/gcomneno/petra/commit/00b1a9473946bf915ed31ee5fb0efbb36f015cd7)
-- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA automorphisms and symmetry](https://github.com/gcomneno/petra/commit/222a1b08e6404904abb7dd2a4f10a1bbcf10c8b3)
-- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA rewrite presentations (#288)](https://github.com/gcomneno/petra/commit/b31d344c2f66386ff4f70ce540da7bfc24897789)
-- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA congruences and quotients (#286)](https://github.com/gcomneno/petra/commit/027544713c44a2822acb8cfdecc090e73c47c565)
-- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA congruences and quotients](https://github.com/gcomneno/petra/commit/b47ba15ff0ce794fc2b9ea2ef8181bfa183af8fc)
-- **2026-09-17** · `petra` · **Development:** [research: formalize PETRA grading and edit-graph geometry (#284)](https://github.com/gcomneno/petra/commit/18f74077cfd2ec2ee36198287904ee315e25693e)
-- **2026-09-17** · `petra` · **Development:** [research: expose non-unique common-reduct witness](https://github.com/gcomneno/petra/commit/8b29fa55fef48310f40e6025fc255c0ca710d677)
 
-_Showing the 100 most recent meaningful updates; 1814 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1813 older update(s) omitted._
 
 </details>
 
