@@ -168,19 +168,22 @@ I turn study into documented, reproducible paths rather than presenting learning
 
 - **2026-09-24** · `petra` · **Development:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
 - **2026-09-24** · `petra` · **Development:** [research: record Phase 6 closure audit](https://github.com/gcomneno/petra/commit/34d47411ba5f0f8bdc1fb7c28ea47e2fbea29082)
+- **2026-09-24** · `petra` · **Development:** [research: close Phase 6 source register](https://github.com/gcomneno/petra/commit/4a220f31cce20e299a52b5801f5445aff46109c8)
 - **2026-09-24** · `petra` · **Development:** [research: freeze Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/40238b441b8b2dfe09ce03ba0b08aa1519510c5c)
-- **2026-09-24** · `petra` · **Development:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-24** · `petra` · **Development:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
 - **2026-09-24** · `petra` · **Development:** [research: resolve final metric validation rows](https://github.com/gcomneno/petra/commit/95799ebe81a0e5f0fb5564a784630894197e3a70)
 - **2026-09-24** · `petra` · **Development:** [research: classify exact PETRA edit metric results](https://github.com/gcomneno/petra/commit/9c6afbb684c5b60e1f69591285716f1257fac150)
 - **2026-09-24** · `petra` · **Development:** [research: register edit-distance common-structure framework](https://github.com/gcomneno/petra/commit/820b86420cbeb0b928b1cfb7bacdd281b87d043f)
 - **2026-09-24** · `petra` · **Development:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/petra/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
 - **2026-09-24** · `petra` · **Development:** [research: record minimal rooted reconstruction counterexample](https://github.com/gcomneno/petra/commit/ca8a31245e34da8400c153feb8001ecfe8a99b54)
+- **2026-09-24** · `petra` · **Development:** [research: refute lower-neighbour set reconstruction](https://github.com/gcomneno/petra/commit/bb294651cef10b67be9858afdf2532ba7fec39eb)
 - **2026-09-24** · `petra` · **Development:** [research: register rooted one-leaf deck source](https://github.com/gcomneno/petra/commit/7dc08558be5341af74c68d8e2f9825202e77ba10)
 - **2026-09-24** · `petra` · **Development:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/petra/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
+- **2026-09-24** · `petra` · **Development:** [research: compare global edit graph with reconstruction literature](https://github.com/gcomneno/petra/commit/63794839cbcfbf08c11b6610927601bbc0c61eba)
 - **2026-09-24** · `petra` · **Development:** [research: resolve one-step target orbit converses](https://github.com/gcomneno/petra/commit/7c49124d2083cf21e27aeb1b1220accecf92160f)
 - **2026-09-24** · `petra` · **Development:** [research: classify global edit-graph validation results](https://github.com/gcomneno/petra/commit/f9931e35563c1ad9e42df8ecf0b9993e17749dcf)
 - **2026-09-24** · `petra` · **Development:** [research: register tree reconstruction and pseudosimilarity sources](https://github.com/gcomneno/petra/commit/4d6fae96b6c7a581fca8e976e91af7b1812a5e25)
@@ -267,11 +270,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
 - **2026-09-19** · `cat-couch-guardian` · **Feature:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [prepare v1.2.0 publication metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c2dadf97e7aa3dfd6c312f034978756974303b4b)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Feature:** [integrate semantic read queries into db ask](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6ff339782d33651f3eb9f48c92c819d0966675d6)
-- **2026-09-19** · `lele-manager` · **Feature:** [add task-focused Context Packs (#257)](https://github.com/gcomneno/lele-manager/commit/3a39af8491c49fef337c0ba41561709c4e151eee)
-- **2026-09-19** · `lele-manager` · **Docs:** [define canonical product language contract (#256)](https://github.com/gcomneno/lele-manager/commit/2f1848a7a7c49b2ac8a6d5ab4d29ce543036d808)
 
-_Showing the 100 most recent meaningful updates; 1832 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1835 older update(s) omitted._
 
 </details>
 
