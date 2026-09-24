@@ -167,15 +167,21 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 <!-- updates:start -->
 
 - **2026-09-24** · `petra` · **Sviluppo:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: record Phase 6 closure audit](https://github.com/gcomneno/petra/commit/34d47411ba5f0f8bdc1fb7c28ea47e2fbea29082)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: freeze Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/40238b441b8b2dfe09ce03ba0b08aa1519510c5c)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
-- **2026-09-24** · `petra` · **Sviluppo:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/petra/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-24** · `petra` · **Sviluppo:** [research: resolve final metric validation rows](https://github.com/gcomneno/petra/commit/95799ebe81a0e5f0fb5564a784630894197e3a70)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: classify exact PETRA edit metric results](https://github.com/gcomneno/petra/commit/9c6afbb684c5b60e1f69591285716f1257fac150)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: register edit-distance common-structure framework](https://github.com/gcomneno/petra/commit/820b86420cbeb0b928b1cfb7bacdd281b87d043f)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/petra/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: record minimal rooted reconstruction counterexample](https://github.com/gcomneno/petra/commit/ca8a31245e34da8400c153feb8001ecfe8a99b54)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: register rooted one-leaf deck source](https://github.com/gcomneno/petra/commit/7dc08558be5341af74c68d8e2f9825202e77ba10)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/petra/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: resolve one-step target orbit converses](https://github.com/gcomneno/petra/commit/7c49124d2083cf21e27aeb1b1220accecf92160f)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: classify global edit-graph validation results](https://github.com/gcomneno/petra/commit/f9931e35563c1ad9e42df8ecf0b9993e17749dcf)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: register tree reconstruction and pseudosimilarity sources](https://github.com/gcomneno/petra/commit/4d6fae96b6c7a581fca8e976e91af7b1812a5e25)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: audit PETRA witnessed edits against residual-system axioms (#304)](https://github.com/gcomneno/petra/commit/4d1d7100da1fa36e2616f0c2fd3dca36285d3663)
@@ -264,14 +270,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [integrate semantic read queries into db ask](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6ff339782d33651f3eb9f48c92c819d0966675d6)
 - **2026-09-19** · `lele-manager` · **Funzionalità:** [add task-focused Context Packs (#257)](https://github.com/gcomneno/lele-manager/commit/3a39af8491c49fef337c0ba41561709c4e151eee)
 - **2026-09-19** · `lele-manager` · **Documentazione:** [define canonical product language contract (#256)](https://github.com/gcomneno/lele-manager/commit/2f1848a7a7c49b2ac8a6d5ab4d29ce543036d808)
-- **2026-09-19** · `giadaware-ai` · **Release:** [GiadaWare AI v0.0.1](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.1)
-- **2026-09-19** · `lele-manager` · **Funzionalità:** [add semantic Lesson Learned extraction (#255)](https://github.com/gcomneno/lele-manager/commit/faf88c59e75dccf132c0e17677b359ae42ea820d)
-- **2026-09-19** · `giadaware-ai` · **Funzionalità:** [support Ollama thinking control](https://github.com/gcomneno/giadaware-ai/commit/36a1bb751ec3851d3ceb0a38abe052747984ce5e)
-- **2026-09-19** · `giadaware-ai` · **Documentazione:** [record GPT-6 Astra runtime verification](https://github.com/gcomneno/giadaware-ai/commit/7081dd4c2e00db2907da6e4f0569ff80dd68df58)
-- **2026-09-18** · `digit-probe` · **Documentazione:** [record Zenodo DOI for v1.0.0 (#32)](https://github.com/gcomneno/digit-probe/commit/b632e18d05d24a9050dc87e2411ed8b47efbdf07)
-- **2026-09-18** · `digit-probe` · **Documentazione:** [add Zenodo citation metadata (#31)](https://github.com/gcomneno/digit-probe/commit/dc1d2f399170804c3e66fc4eb86af6360c7d38ba)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1826 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1832 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
