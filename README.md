@@ -166,14 +166,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-26** · `petra` · **Development:** [research: define Phase 7 normative promotion boundary](https://github.com/gcomneno/petra/commit/2a729e96038c6c850360152b59b24f4d7180575b)
 - **2026-09-24** · `petra` · **Development:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
 - **2026-09-24** · `petra` · **Development:** [research: record Phase 6 closure audit](https://github.com/gcomneno/petra/commit/34d47411ba5f0f8bdc1fb7c28ea47e2fbea29082)
 - **2026-09-24** · `petra` · **Development:** [research: close Phase 6 source register](https://github.com/gcomneno/petra/commit/4a220f31cce20e299a52b5801f5445aff46109c8)
-- **2026-09-24** · `petra` · **Development:** [research: freeze Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/40238b441b8b2dfe09ce03ba0b08aa1519510c5c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-24** · `petra` · **Development:** [research: freeze Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/40238b441b8b2dfe09ce03ba0b08aa1519510c5c)
 - **2026-09-24** · `petra` · **Development:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
 - **2026-09-24** · `petra` · **Development:** [research: resolve final metric validation rows](https://github.com/gcomneno/petra/commit/95799ebe81a0e5f0fb5564a784630894197e3a70)
 - **2026-09-24** · `petra` · **Development:** [research: classify exact PETRA edit metric results](https://github.com/gcomneno/petra/commit/9c6afbb684c5b60e1f69591285716f1257fac150)
@@ -269,9 +270,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-19** · `cat-couch-guardian` · **Docs:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
 - **2026-09-19** · `cat-couch-guardian` · **Feature:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [prepare v1.2.0 publication metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c2dadf97e7aa3dfd6c312f034978756974303b4b)
 
-_Showing the 100 most recent meaningful updates; 1830 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1831 older update(s) omitted._
 
 </details>
 
