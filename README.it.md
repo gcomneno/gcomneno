@@ -271,7 +271,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Documentazione:** [transcribe final exam simulation part B](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/cf6a9c4d4a8a7810ea4c9d91dd14c366d4d32c39)
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Documentazione:** [transcribe final exam simulation part A](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/86e8f45cd5e8daad750454e82d92103bd64daed8)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1809 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1807 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

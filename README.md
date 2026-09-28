@@ -271,7 +271,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [transcribe final exam simulation part B](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/cf6a9c4d4a8a7810ea4c9d91dd14c366d4d32c39)
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [transcribe final exam simulation part A](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/86e8f45cd5e8daad750454e82d92103bd64daed8)
 
-_Showing the 100 most recent meaningful updates; 1809 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1807 older update(s) omitted._
 
 </details>
 
