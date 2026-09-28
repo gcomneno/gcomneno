@@ -166,14 +166,19 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-09-28** · `vscode-bitbake` · **Development:** [bitbake: initialize workspaces with bitbake-setup](https://github.com/gcomneno/vscode-bitbake/commit/c6c0bd277b885759a2fae5467b7df67a6edca1fd)
 - **2026-09-26** · `petra` · **Development:** [research: define Phase 7 normative promotion boundary](https://github.com/gcomneno/petra/commit/2a729e96038c6c850360152b59b24f4d7180575b)
-- **2026-09-24** · `petra` · **Development:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
-- **2026-09-24** · `petra` · **Development:** [research: record Phase 6 closure audit](https://github.com/gcomneno/petra/commit/34d47411ba5f0f8bdc1fb7c28ea47e2fbea29082)
-- **2026-09-24** · `petra` · **Development:** [research: close Phase 6 source register](https://github.com/gcomneno/petra/commit/4a220f31cce20e299a52b5801f5445aff46109c8)
+- **2026-09-25** · `vscode-bitbake` · **Development:** [driver: log VS Code remote context](https://github.com/gcomneno/vscode-bitbake/commit/a6138109d2405f77d23c6216378741b685d828f2)
+- **2026-09-25** · `vscode-bitbake` · **Development:** [server: migrate to web-tree-sitter 0.26](https://github.com/gcomneno/vscode-bitbake/commit/524d052bd6263922f227036b6d3ee59aa6c36e82)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-25** · `vscode-bitbake` · **Development:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/00b780ac7390833c43c2f8df8abe228ca49fd900)
+- **2026-09-25** · `vscode-bitbake` · **Fix:** [select Yocto tags for docs](https://github.com/gcomneno/vscode-bitbake/commit/61b360e52368730b57bc8da047e1b67d776399eb)
+- **2026-09-24** · `petra` · **Development:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
+- **2026-09-24** · `petra` · **Development:** [research: record Phase 6 closure audit](https://github.com/gcomneno/petra/commit/34d47411ba5f0f8bdc1fb7c28ea47e2fbea29082)
+- **2026-09-24** · `petra` · **Development:** [research: close Phase 6 source register](https://github.com/gcomneno/petra/commit/4a220f31cce20e299a52b5801f5445aff46109c8)
 - **2026-09-24** · `petra` · **Development:** [research: freeze Phase 6 validation matrix](https://github.com/gcomneno/petra/commit/40238b441b8b2dfe09ce03ba0b08aa1519510c5c)
 - **2026-09-24** · `petra` · **Development:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
 - **2026-09-24** · `petra` · **Development:** [research: resolve final metric validation rows](https://github.com/gcomneno/petra/commit/95799ebe81a0e5f0fb5564a784630894197e3a70)
@@ -265,13 +270,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [add repeatable final exam protocol](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/96436f0536e064326dbed6d704ee12948906d530)
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [transcribe final exam simulation part B](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/cf6a9c4d4a8a7810ea4c9d91dd14c366d4d32c39)
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [transcribe final exam simulation part A](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/86e8f45cd5e8daad750454e82d92103bd64daed8)
-- **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [add final exam simulation overview](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/026eea6e29d26939ccf4cd140ddbd947aa79ed27)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [add Zenodo DOI metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c2eded9d271484ad3a50afd8d27b43e7dc4bd0e)
-- **2026-09-19** · `cat-couch-guardian` · **Docs:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
-- **2026-09-19** · `cat-couch-guardian` · **Feature:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
 
-_Showing the 100 most recent meaningful updates; 1804 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1809 older update(s) omitted._
 
 </details>
 
