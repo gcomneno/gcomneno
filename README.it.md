@@ -271,7 +271,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
 - **2026-09-19** · `cat-couch-guardian` · **Funzionalità:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1816 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1804 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
