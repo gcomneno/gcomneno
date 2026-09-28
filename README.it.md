@@ -166,14 +166,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-28** · `lele-manager` · **Funzionalità:** [add bounded ask-this-vault workflow (#260)](https://github.com/gcomneno/lele-manager/commit/dda0d0a13c9429c13b288a806bb3473b45212fe1)
 - **2026-09-28** · `lele-manager` · **Funzionalità:** [add evidence-backed factual verification (#259)](https://github.com/gcomneno/lele-manager/commit/c61e156d482cb05975c902cf2ba6b1183d53f6e9)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
-- **2026-09-24** · `petra` · **Sviluppo:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/petra/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-24** · `petra` · **Sviluppo:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/petra/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/petra/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: audit PETRA witnessed edits against residual-system axioms (#304)](https://github.com/gcomneno/petra/commit/4d1d7100da1fa36e2616f0c2fd3dca36285d3663)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: compare PETRA state-dependent edit residuals with residual theory (#302)](https://github.com/gcomneno/petra/commit/7bbca260bafa6e914532b972ddc3664652802867)
@@ -269,9 +270,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-16** · `petra` · **Sviluppo:** [T17/P20 closed: fix id() cache bug in resolver search](https://github.com/gcomneno/petra/commit/cc9b5d8ae6db7350d42c98d53afd8f8b49cee83a)
 - **2026-09-16** · `petra` · **Sviluppo:** [T19: fifth data point at 10^8, SumPk2 ~ c/sqrt(log log N) excluded](https://github.com/gcomneno/petra/commit/b8d2c4bf2c621956b07597cc351670080e287576)
 - **2026-09-16** · `petra` · **Sviluppo:** [P16/P17/P18 closed: T13 covered by P8, T14 and T15 out of scope](https://github.com/gcomneno/petra/commit/efbb1baba4d36564e02c41d14d5fa4a79e29a7d4)
-- **2026-09-16** · `petra` · **Sviluppo:** [P15/T12 closed: sparse sampling out of scope](https://github.com/gcomneno/petra/commit/62c041961000738c8356149ad9ad29b58da04e7c)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1741 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1742 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
