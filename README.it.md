@@ -49,7 +49,7 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 | --- | --- | --- | --- |
 | [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Fornisce un kit vetrina configurabile con authoring tramite Studio locale, Atelier Desktop e Hosted Studio privato configurato separatamente, catalogo content-driven e strumenti di pubblicazione | Architettura di prodotto SvelteKit, confini di autorità espliciti tra Visitor/local/hosted, mutazioni repository atomiche, distribuzione desktop e adozione downstream di Giada UI |
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0) | Analizza i file, mostra in anteprima un piano di organizzazione e li sposta solo su richiesta esplicita | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili, verifica del filesystem e pianificazione read-only del recupero |
-| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.11.1](https://github.com/gcomneno/lele-manager/releases/tag/v1.11.1) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite entry point base, visitor e studio isolati | Architettura di package Svelte, artefatti immutabili pacchettizzati, entry point isolati e contratti SSR/hydration e accessibilità |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Estrae da YouTube trascrizioni, audio e video e supporta reflow, traduzione e trascrizione locale dei contenuti | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Utilità Linux per diagnostica, manutenzione controllata, trascrizione offline e analisi degli avvisi kernel | Tooling di sistema safety-first, diagnostica read-only, flussi espliciti su opt-in e packaging Linux riproducibile |
@@ -166,14 +166,21 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-09-28** · `lele-manager` · **Release:** [LeLe Manager v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0)
+- **2026-09-28** · `lele-manager` · **Correzione:** [make native release builds deterministic](https://github.com/gcomneno/lele-manager/commit/857b3aed07a43ddc0a7982becd239e2e1da82d62)
 - **2026-09-28** · `lele-manager` · **Funzionalità:** [add bounded ask-this-vault workflow (#260)](https://github.com/gcomneno/lele-manager/commit/dda0d0a13c9429c13b288a806bb3473b45212fe1)
 - **2026-09-28** · `lele-manager` · **Funzionalità:** [add evidence-backed factual verification (#259)](https://github.com/gcomneno/lele-manager/commit/c61e156d482cb05975c902cf2ba6b1183d53f6e9)
-- **2026-09-24** · `petra` · **Sviluppo:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
-- **2026-09-24** · `petra` · **Sviluppo:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-09-28** · `vscode-bitbake` · **Funzionalità:** [add BitBake classes to recipes explorer](https://github.com/gcomneno/vscode-bitbake/commit/7815375dae8ed63a0e064bd042b8454f961cc1db)
+- **2026-09-25** · `vscode-bitbake` · **Sviluppo:** [driver: log VS Code remote context](https://github.com/gcomneno/vscode-bitbake/commit/a6138109d2405f77d23c6216378741b685d828f2)
+- **2026-09-25** · `vscode-bitbake` · **Sviluppo:** [server: migrate to web-tree-sitter 0.26](https://github.com/gcomneno/vscode-bitbake/commit/524d052bd6263922f227036b6d3ee59aa6c36e82)
+- **2026-09-25** · `vscode-bitbake` · **Sviluppo:** [server: restore web-tree-sitter compatible range](https://github.com/gcomneno/vscode-bitbake/commit/00b780ac7390833c43c2f8df8abe228ca49fd900)
+- **2026-09-25** · `vscode-bitbake` · **Correzione:** [select Yocto tags for docs](https://github.com/gcomneno/vscode-bitbake/commit/61b360e52368730b57bc8da047e1b67d776399eb)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/petra/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
+- **2026-09-24** · `petra` · **Sviluppo:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/petra/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/petra/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/petra/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
 - **2026-09-24** · `petra` · **Sviluppo:** [research: audit PETRA witnessed edits against residual-system axioms (#304)](https://github.com/gcomneno/petra/commit/4d1d7100da1fa36e2616f0c2fd3dca36285d3663)
@@ -263,15 +270,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-17** · `petra` · **Release:** [PETRA v2.0.0 — Prime Exponent Tower Recursive Algebra](https://github.com/gcomneno/petra/releases/tag/v2.0.0)
 - **2026-09-17** · `petra` · **Documentazione:** [annotate Zenodo version DOI for v2.0.0](https://github.com/gcomneno/petra/commit/3fda09188dd5c4e7b7ab456fdc713963c00bc6c8)
 - **2026-09-16** · `petra` · **Sviluppo:** [T18/P21 closed: ruff and mypy clean on resolver](https://github.com/gcomneno/petra/commit/c36d49791621c3b7236082f8e8f59f98eba8cd55)
-- **2026-09-16** · `petra` · **Sviluppo:** [revert: remove RUF001/RUF002 from root config (belongs to resolver)](https://github.com/gcomneno/petra/commit/7bfb94e00e847ac89f0fa0d914012db0653572ee)
-- **2026-09-16** · `petra` · **Sviluppo:** [T18: py.typed for petra, mypy fixes; T17 statement correction](https://github.com/gcomneno/petra/commit/42fa7e2154e17cab6e789aacca406639daffbf80)
-- **2026-09-16** · `petra` · **Sviluppo:** [resolver: fix remaining ruff errors (SIM108, SIM110, RUF005, RUF059, B905)](https://github.com/gcomneno/petra/commit/54d88fa6e4f942f26873145587994ea515b9d01a)
-- **2026-09-16** · `petra` · **Sviluppo:** [resolver: ignore RUF001/RUF002 for × separator](https://github.com/gcomneno/petra/commit/2f6b4cf6516955cbc8c189ad19ce232a64d4d774)
-- **2026-09-16** · `petra` · **Sviluppo:** [T17/P20 closed: fix id() cache bug in resolver search](https://github.com/gcomneno/petra/commit/cc9b5d8ae6db7350d42c98d53afd8f8b49cee83a)
-- **2026-09-16** · `petra` · **Sviluppo:** [T19: fifth data point at 10^8, SumPk2 ~ c/sqrt(log log N) excluded](https://github.com/gcomneno/petra/commit/b8d2c4bf2c621956b07597cc351670080e287576)
-- **2026-09-16** · `petra` · **Sviluppo:** [P16/P17/P18 closed: T13 covered by P8, T14 and T15 out of scope](https://github.com/gcomneno/petra/commit/efbb1baba4d36564e02c41d14d5fa4a79e29a7d4)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1742 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1733 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
