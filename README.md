@@ -166,14 +166,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-09-28** · `lele-manager` · **Release:** [LeLe Manager v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0)
-- **2026-09-28** · `lele-manager` · **Fix:** [make native release builds deterministic](https://github.com/gcomneno/lele-manager/commit/857b3aed07a43ddc0a7982becd239e2e1da82d62)
-- **2026-09-28** · `lele-manager` · **Feature:** [add bounded ask-this-vault workflow (#260)](https://github.com/gcomneno/lele-manager/commit/dda0d0a13c9429c13b288a806bb3473b45212fe1)
-- **2026-09-28** · `lele-manager` · **Feature:** [add evidence-backed factual verification (#259)](https://github.com/gcomneno/lele-manager/commit/c61e156d482cb05975c902cf2ba6b1183d53f6e9)
+- **2026-09-29** · `vscode-bitbake` · **Development:** [server: stop SPDX parsing after read errors](https://github.com/gcomneno/vscode-bitbake/commit/5bce8c1ee96c594858cbe78b928b131dddb4f42c)
+- **2026-09-29** · `vscode-bitbake` · **Development:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/0f1d1d223bf3299f15f29b8d50d928cdd12309a8)
+- **2026-09-29** · `vscode-bitbake` · **Development:** [server: deduplicate RST definition normalization](https://github.com/gcomneno/vscode-bitbake/commit/39ad10b3c7e3a80465fcfa5e71bc01a10de7a27a)
+- **2026-09-29** · `lele-manager` · **Docs:** [add Zenodo citation metadata (#263)](https://github.com/gcomneno/lele-manager/commit/331b94792dbd49b7d27818f5bf3663fd10479585)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-09-28** · `lele-manager` · **Release:** [LeLe Manager v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0)
+- **2026-09-28** · `lele-manager` · **Fix:** [make native release builds deterministic](https://github.com/gcomneno/lele-manager/commit/857b3aed07a43ddc0a7982becd239e2e1da82d62)
+- **2026-09-28** · `lele-manager` · **Feature:** [add bounded ask-this-vault workflow (#260)](https://github.com/gcomneno/lele-manager/commit/dda0d0a13c9429c13b288a806bb3473b45212fe1)
+- **2026-09-28** · `lele-manager` · **Feature:** [add evidence-backed factual verification (#259)](https://github.com/gcomneno/lele-manager/commit/c61e156d482cb05975c902cf2ba6b1183d53f6e9)
 - **2026-09-28** · `vscode-bitbake` · **Feature:** [add BitBake classes to recipes explorer](https://github.com/gcomneno/vscode-bitbake/commit/7815375dae8ed63a0e064bd042b8454f961cc1db)
 - **2026-09-25** · `vscode-bitbake` · **Development:** [driver: log VS Code remote context](https://github.com/gcomneno/vscode-bitbake/commit/a6138109d2405f77d23c6216378741b685d828f2)
 - **2026-09-25** · `vscode-bitbake` · **Development:** [server: migrate to web-tree-sitter 0.26](https://github.com/gcomneno/vscode-bitbake/commit/524d052bd6263922f227036b6d3ee59aa6c36e82)
@@ -266,12 +270,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Docs:** [align release metadata with PETRA v2.0.0 (#239)](https://github.com/gcomneno/petra/commit/69e20b78ab7779f8bb8ec444de84ea7722771ba9)
 - **2026-09-17** · `petra` · **Development:** [STATUS: Phase 10 complete, v2.0.0 shipped, research front updated](https://github.com/gcomneno/petra/commit/595fb2d293bc97a918587705fa4cacdc9f556b60)
 - **2026-09-17** · `petra` · **Development:** [docs/research: update README with open-problems and new notes](https://github.com/gcomneno/petra/commit/140dcafb99735d27f148732d5d78b9b275098942)
-- **2026-09-17** · `petra` · **Fix:** [use $'...' so colors render inside heredoc](https://github.com/gcomneno/petra/commit/c88e1faf01242a3acffa825fb6c5573e4381ebc3)
-- **2026-09-17** · `petra` · **Release:** [PETRA v2.0.0 — Prime Exponent Tower Recursive Algebra](https://github.com/gcomneno/petra/releases/tag/v2.0.0)
-- **2026-09-17** · `petra` · **Docs:** [annotate Zenodo version DOI for v2.0.0](https://github.com/gcomneno/petra/commit/3fda09188dd5c4e7b7ab456fdc713963c00bc6c8)
-- **2026-09-16** · `petra` · **Development:** [T18/P21 closed: ruff and mypy clean on resolver](https://github.com/gcomneno/petra/commit/c36d49791621c3b7236082f8e8f59f98eba8cd55)
 
-_Showing the 100 most recent meaningful updates; 1733 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1737 older update(s) omitted._
 
 </details>
 
