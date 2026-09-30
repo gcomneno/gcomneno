@@ -271,7 +271,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-17** · `petra` · **Development:** [STATUS: Phase 10 complete, v2.0.0 shipped, research front updated](https://github.com/gcomneno/petra/commit/595fb2d293bc97a918587705fa4cacdc9f556b60)
 - **2026-09-17** · `petra` · **Development:** [docs/research: update README with open-problems and new notes](https://github.com/gcomneno/petra/commit/140dcafb99735d27f148732d5d78b9b275098942)
 
-_Showing the 100 most recent meaningful updates; 1737 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1731 older update(s) omitted._
 
 </details>
 
