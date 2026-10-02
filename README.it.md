@@ -168,14 +168,19 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [server: stop SPDX parsing after read errors](https://github.com/gcomneno/vscode-bitbake/commit/5bce8c1ee96c594858cbe78b928b131dddb4f42c)
-- **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/0f1d1d223bf3299f15f29b8d50d928cdd12309a8)
-- **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [server: deduplicate RST definition normalization](https://github.com/gcomneno/vscode-bitbake/commit/39ad10b3c7e3a80465fcfa5e71bc01a10de7a27a)
-- **2026-09-29** · `lele-manager` · **Documentazione:** [add Zenodo citation metadata (#263)](https://github.com/gcomneno/lele-manager/commit/331b94792dbd49b7d27818f5bf3663fd10479585)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [preserve empty unit test directory](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/57049467018b7f7ba3921a7322c59d63c5af0f3f)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [document repository license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/9c0132f3746a2ac830fcc0f89e64899fe871b4bf)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [add MIT license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/647c80f18d5d501f85f43de521c7ed9d03559414)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Sviluppo:** [Initial Laravel PostgreSQL Docker baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/d50b262d292b00bd246251fac31f5fee906c2f82)
+- **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [server: stop SPDX parsing after read errors](https://github.com/gcomneno/vscode-bitbake/commit/5bce8c1ee96c594858cbe78b928b131dddb4f42c)
+- **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/0f1d1d223bf3299f15f29b8d50d928cdd12309a8)
+- **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [server: deduplicate RST definition normalization](https://github.com/gcomneno/vscode-bitbake/commit/39ad10b3c7e3a80465fcfa5e71bc01a10de7a27a)
+- **2026-09-29** · `lele-manager` · **Documentazione:** [add Zenodo citation metadata (#263)](https://github.com/gcomneno/lele-manager/commit/331b94792dbd49b7d27818f5bf3663fd10479585)
 - **2026-09-28** · `lele-manager` · **Release:** [LeLe Manager v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0)
 - **2026-09-28** · `lele-manager` · **Correzione:** [make native release builds deterministic](https://github.com/gcomneno/lele-manager/commit/857b3aed07a43ddc0a7982becd239e2e1da82d62)
 - **2026-09-28** · `lele-manager` · **Funzionalità:** [add bounded ask-this-vault workflow (#260)](https://github.com/gcomneno/lele-manager/commit/dda0d0a13c9429c13b288a806bb3473b45212fe1)
@@ -267,13 +272,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-17** · `petra` · **Sviluppo:** [research: audit AIP-2 level derivability (#258)](https://github.com/gcomneno/petra/commit/999fe865cf81703b40e77fa8cb300a2b1d6cd1ec)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: prototype AIP-3 order-independent quotient (#255)](https://github.com/gcomneno/petra/commit/58e177a9e110e78336f001ee33b7d985744a1801)
 - **2026-09-17** · `petra` · **Sviluppo:** [research: analyze AIP-3 order semantics (#253)](https://github.com/gcomneno/petra/commit/04bd54fde7bc64547871c5025688a3f6a48dc669)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: define PETRA abstract paradigm (#245)](https://github.com/gcomneno/petra/commit/7c3304a77d34e1630315ad0405c577f67a2e562b)
-- **2026-09-17** · `petra` · **Documentazione:** [establish PETRA related-work survey (#241)](https://github.com/gcomneno/petra/commit/a60f3dd7a4bfc9f7f6acb325d3fbc2c6730c04cc)
-- **2026-09-17** · `petra` · **Documentazione:** [align release metadata with PETRA v2.0.0 (#239)](https://github.com/gcomneno/petra/commit/69e20b78ab7779f8bb8ec444de84ea7722771ba9)
-- **2026-09-17** · `petra` · **Sviluppo:** [STATUS: Phase 10 complete, v2.0.0 shipped, research front updated](https://github.com/gcomneno/petra/commit/595fb2d293bc97a918587705fa4cacdc9f556b60)
-- **2026-09-17** · `petra` · **Sviluppo:** [docs/research: update README with open-problems and new notes](https://github.com/gcomneno/petra/commit/140dcafb99735d27f148732d5d78b9b275098942)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1702 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1707 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
