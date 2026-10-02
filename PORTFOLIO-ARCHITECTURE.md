@@ -218,6 +218,33 @@ longer eligible sources for generated Latest Updates.
 This lifecycle delta intentionally does not rewrite the dated baseline inventory
 or its status distribution.
 
+## 2026-09-29 — Mautic contribution working copy
+
+`gcomneno/mautic` was created as a public fork of `mautic/mautic` for upstream
+contribution work.
+
+| Repository | Category | Status | Visibility | Decision |
+| --- | --- | --- | --- | --- |
+| `mautic` | OSS Contributions | ACTIVE | public | KEEP |
+
+The working copy is not itself evidence of accepted upstream contribution.
+Mautic work becomes eligible for the selected merged-upstream profile list only
+after the corresponding pull request is verified as merged upstream.
+
+## 2026-09-30 — TheAlgorithms/Python contribution working copy
+
+`gcomneno/TheAlgorithms-Python` was created as a public fork of
+`TheAlgorithms/Python`. Pull request
+[#15466](https://github.com/TheAlgorithms/Python/pull/15466) was subsequently
+merged upstream.
+
+| Repository | Category | Status | Visibility | Decision |
+| --- | --- | --- | --- | --- |
+| `TheAlgorithms-Python` | OSS Contributions | ACTIVE | public | PROMOTE |
+
+The profile may represent the verified accepted upstream work without presenting
+the fork as an original product.
+
 ## 2026-10-02 — promoted verification-oriented learning artifact
 
 `GiadaWare Operations Execution Engine Lab` was promoted to the public profile

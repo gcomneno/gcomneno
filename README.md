@@ -98,6 +98,13 @@ The entries below are upstream pull requests verified as merged; public forks ar
 <details>
 <summary>Yocto Project — <code>vscode-bitbake</code></summary>
 
+- [#565 — server: stop SPDX parsing after read errors](https://github.com/yoctoproject/vscode-bitbake/pull/565)
+- [#566 — test: cover terminal links to directories](https://github.com/yoctoproject/vscode-bitbake/pull/566)
+- [#564 — server: deduplicate RST definition normalization](https://github.com/yoctoproject/vscode-bitbake/pull/564)
+- [#563 — test: fix async integration timeout assertions](https://github.com/yoctoproject/vscode-bitbake/pull/563)
+- [#555 — driver: log VS Code remote context](https://github.com/yoctoproject/vscode-bitbake/pull/555)
+- [#552 — server: migrate to web-tree-sitter 0.26](https://github.com/yoctoproject/vscode-bitbake/pull/552)
+- [#551 — fix: select Yocto tags for docs](https://github.com/yoctoproject/vscode-bitbake/pull/551)
 - [#546 — refactor: extract Devtool commands](https://github.com/yoctoproject/vscode-bitbake/pull/546)
 - [#538 — Fix unbounded recipe-local file discovery](https://github.com/yoctoproject/vscode-bitbake/pull/538)
 - [#543 — Extract reusable cancellable file search utility](https://github.com/yoctoproject/vscode-bitbake/pull/543)
@@ -115,6 +122,13 @@ The entries below are upstream pull requests verified as merged; public forks ar
 </details>
 
 <details>
+<summary>TheAlgorithms — <code>Python</code></summary>
+
+- [#15466 — test: cover empty inputs and duplicate boundaries in bisect](https://github.com/TheAlgorithms/Python/pull/15466)
+
+</details>
+
+<details>
 <summary>Canonical Craft ecosystem</summary>
 
 - [craft-parts#1523 — fix(executor): preserve special files during build copy](https://github.com/canonical/craft-parts/pull/1523)
@@ -125,7 +139,9 @@ The entries below are upstream pull requests verified as merged; public forks ar
 - [craft-parts#1533 — fix(sources): handle streaming request errors](https://github.com/canonical/craft-parts/pull/1533)
 - [craft-application#1068 — fix(application): preserve non-success dispatcher return codes](https://github.com/canonical/craft-application/pull/1068)
 - [craft-providers#966 — chore(types): enable explicit re-export checking](https://github.com/canonical/craft-providers/pull/966)
+- [craft-cli#445 — fix(printer): handle multiline permanent progress correctly](https://github.com/canonical/craft-cli/pull/445)
 - [craft-cli#444 — fix(messages): reset terminal style after open_stream](https://github.com/canonical/craft-cli/pull/444)
+- [craft-cli#443 — fix(printer): ignore broken pipe on output streams](https://github.com/canonical/craft-cli/pull/443)
 - [snapcraft#6216 — fix(init): allow long directory names](https://github.com/canonical/snapcraft/pull/6216)
 - [craft-cli#425 — fix(utils): correct humanize_list formatting for two-item lists](https://github.com/canonical/craft-cli/pull/425)
 - [rockcraft#1148 — docs: update LXD/Docker incompatibility handling](https://github.com/canonical/rockcraft/pull/1148)
