@@ -162,6 +162,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 | Software development | [OOP in C Lab](https://github.com/gcomneno/oop-in-c-lab) | Object layout, manual virtual dispatch, runtime type identity and checked downcasting |
 | Software development | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | JavaScript and TypeScript middleware pipelines and reusable design patterns, with executable tests |
 | Software development | [Laravel PostgreSQL Docker Baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline) | Reusable Laravel 13 + PHP 8.3 + PostgreSQL 17 Docker Compose baseline with explicit local runtime boundaries, PostgreSQL healthcheck and executable health-contract test |
+| Backend architecture | [GiadaWare Operations Execution Engine Lab](https://doi.org/10.5281/zenodo.23098075) | Clean-room Laravel/PostgreSQL execution-engine laboratory covering explicit workflow state transitions, immutable procedure versions, atomic append-only audit, concurrency control, persistent idempotency, evidence/review flows and deterministic scheduling |
 | Game-engine architecture | [BoardLab](https://github.com/gcomneno/boardlab) | Generic game-engine architecture and reproducible search/AI experiments in early incubation |
 
 ## <code>05 · LATEST UPDATES</code>

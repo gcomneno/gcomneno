@@ -162,6 +162,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 | Sviluppo software | [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) | Layout degli oggetti, dispatch virtuale manuale, identità di tipo a runtime e downcast controllato |
 | Sviluppo software | [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) | Pipeline middleware e pattern riutilizzabili in JavaScript e TypeScript, con test eseguibili |
 | Sviluppo software | [Laravel PostgreSQL Docker Baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline) | Baseline riutilizzabile Laravel 13 + PHP 8.3 + PostgreSQL 17 con Docker Compose, confini runtime locali espliciti, healthcheck PostgreSQL e test eseguibile del contratto health |
+| Architettura backend | [GiadaWare Operations Execution Engine Lab](https://doi.org/10.5281/zenodo.23098075) | Laboratorio clean-room Laravel/PostgreSQL per un execution engine con transizioni di stato esplicite, versioni immutabili delle procedure, audit append-only atomico, controllo della concorrenza, idempotenza persistente, flussi evidence/review e scheduling deterministico |
 | Architettura di motori di gioco | [BoardLab](https://github.com/gcomneno/boardlab) | Architettura generica per motori di gioco ed esperimenti riproducibili di ricerca e IA, ancora in incubazione iniziale |
 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>

@@ -48,6 +48,7 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/physics-study",
         f"{OWNER_LOGIN}/oop-in-c-lab",
         f"{OWNER_LOGIN}/js-lab-didattico",
+        f"{OWNER_LOGIN}/laravel-postgres-docker-baseline",
         f"{OWNER_LOGIN}/boardlab",
     }
 )

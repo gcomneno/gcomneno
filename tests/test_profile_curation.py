@@ -68,6 +68,7 @@ LEARNING = (
     "physics-study",
     "oop-in-c-lab",
     "js-lab-didattico",
+    "laravel-postgres-docker-baseline",
     "boardlab",
 )
 
