@@ -218,6 +218,20 @@ longer eligible sources for generated Latest Updates.
 This lifecycle delta intentionally does not rewrite the dated baseline inventory
 or its status distribution.
 
+## 2026-10-02 — promoted verification-oriented learning artifact
+
+`GiadaWare Operations Execution Engine Lab` was promoted to the public profile
+as a verification-oriented learning laboratory after publication of its
+versioned source artifact on Zenodo.
+
+| Public artifact | Classification | Decision | Public evidence |
+| --- | --- | --- | --- |
+| GiadaWare Operations Execution Engine Lab | Learning & Education / LAB | PROMOTE | [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.23098075) |
+
+The public representation is intentionally anchored to the DOI-backed archival
+record. This post-baseline change does not rewrite the dated 2026-09-13
+repository inventory or its status distribution.
+
 # Presentation policy
 
 The profile README should remain selective. It should emphasize, in order:
