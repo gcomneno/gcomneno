@@ -161,6 +161,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 | Physics | [Physics Study](https://github.com/gcomneno/physics-study) | Original, fact-checked lessons; first lesson: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), from Io eclipse timing to evidence for the finite speed of light |
 | Software development | [OOP in C Lab](https://github.com/gcomneno/oop-in-c-lab) | Object layout, manual virtual dispatch, runtime type identity and checked downcasting |
 | Software development | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | JavaScript and TypeScript middleware pipelines and reusable design patterns, with executable tests |
+| Software development | [Laravel PostgreSQL Docker Baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline) | Reusable Laravel 13 + PHP 8.3 + PostgreSQL 17 Docker Compose baseline with explicit local runtime boundaries, PostgreSQL healthcheck and executable health-contract test |
 | Game-engine architecture | [BoardLab](https://github.com/gcomneno/boardlab) | Generic game-engine architecture and reproducible search/AI experiments in early incubation |
 
 ## <code>05 · LATEST UPDATES</code>
