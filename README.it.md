@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Sviluppatore software backend e tooling · Python · Linux · Automazione · Open Source</strong>
+  <strong>Software Engineer Backend &amp; Systems · Python · Linux · Automazione · Open Source</strong>
 </p>
 
 <p align="center">

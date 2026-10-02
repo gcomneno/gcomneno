@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Backend &amp; Tooling Software Developer · Python · Linux · Automation · Open Source</strong>
+  <strong>Backend &amp; Systems Software Engineer · Python · Linux · Automation · Open Source</strong>
 </p>
 
 <p align="center">
