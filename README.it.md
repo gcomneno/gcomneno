@@ -161,6 +161,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 | Fisica | [Studio della fisica](https://github.com/gcomneno/physics-study) | Lezioni originali e fact-checkate; prima lezione: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), dalle eclissi di Io alle prove della velocità finita della luce |
 | Sviluppo software | [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) | Layout degli oggetti, dispatch virtuale manuale, identità di tipo a runtime e downcast controllato |
 | Sviluppo software | [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) | Pipeline middleware e pattern riutilizzabili in JavaScript e TypeScript, con test eseguibili |
+| Sviluppo software | [Laravel PostgreSQL Docker Baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline) | Baseline riutilizzabile Laravel 13 + PHP 8.3 + PostgreSQL 17 con Docker Compose, confini runtime locali espliciti, healthcheck PostgreSQL e test eseguibile del contratto health |
 | Architettura di motori di gioco | [BoardLab](https://github.com/gcomneno/boardlab) | Architettura generica per motori di gioco ed esperimenti riproducibili di ricerca e IA, ancora in incubazione iniziale |
 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
