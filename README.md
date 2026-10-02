@@ -16,6 +16,12 @@
   I turn recurring operational problems into reliable tools, explicit workflows and reusable open-source software.
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/giancarlo-c-970697276/">
+    <img alt="LinkedIn profile" src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white">
+  </a>
+</p>
+
 <h3 align="center">AI-assisted engineering</h3>
 
 <p align="center">
