@@ -234,10 +234,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `petra` · **Development:** [spec: align public inverse laws with reconciled rewrites](https://github.com/gcomneno/petra/commit/4244457a388841c55506433cc1373c8126c8e533)
 - **2026-10-03** · `lasagna-v2` · **Docs:** [add citation metadata for v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/723862f8960d631ecaf1cb619c3a2e3fb3cbd40f)
 - **2026-10-03** · `petra` · **Development:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/petra/commit/efc87d3dae7963802d73c9e5033f140da232599f)
+- **2026-10-03** · `petra` · **Development:** [spec: scope invocation/result serialization as compatibility interface](https://github.com/gcomneno/petra/commit/dac185e12a533bf8b6ec135f12abb986ae677ebd)
 - **2026-10-03** · `petra` · **Development:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/petra/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
+- **2026-10-03** · `petra` · **Development:** [spec: scope positional addresses to the canonical carrier](https://github.com/gcomneno/petra/commit/4022911887fb6c2bd49595f6dd024fdc612a5f31)
 - **2026-10-03** · `petra` · **Development:** [spec: reconcile public rewrites with intrinsic ADD/REMOVE (#322)](https://github.com/gcomneno/petra/commit/42418fb5dde7f16abc6e18a9759a82c65d931908)
+- **2026-10-03** · `petra` · **Development:** [spec: reconcile public rewrites with intrinsic ADD/REMOVE](https://github.com/gcomneno/petra/commit/284bdafe4213b2805b6eb6f1499fad18663b433c)
 - **2026-10-03** · `petra` · **Development:** [spec: promote intrinsic ADD/REMOVE inverse law (#320)](https://github.com/gcomneno/petra/commit/523fd9adabdd826a50c7331a236f38a9692887d7)
 - **2026-10-03** · `petra` · **Development:** [spec: promote intrinsic ADD/REMOVE edit algebra (#318)](https://github.com/gcomneno/petra/commit/4e51e9d18eeb2691071af62a872d668119b978a0)
+- **2026-10-03** · `petra` · **Development:** [spec: promote intrinsic ADD/REMOVE edit algebra](https://github.com/gcomneno/petra/commit/6cea7a4aa997329fa5f67917bcf79c1a485a7852)
 - **2026-10-03** · `petra` · **Development:** [spec: promote canonical carrier and structural equality (#316)](https://github.com/gcomneno/petra/commit/00182915c418fd872e806d4cd878c4ed4e475242)
 - **2026-10-03** · `petra` · **Development:** [research: define Phase 7 normative promotion boundary (#314)](https://github.com/gcomneno/petra/commit/98e15910a3f065ef9e69483d8f39f19a3c44a192)
 - **2026-10-03** · `lasagna-v2` · **Development:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
@@ -308,12 +312,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-23** · `cat-couch-guardian` · **Feature:** [define cooldown suppression evidence](https://github.com/gcomneno/cat-couch-guardian/commit/2d49dacbe884d617a1d3f97dde3687ab0ab40374)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian engineering exercises](https://github.com/gcomneno/cat-couch-guardian/commit/112e7ce1f1b6fde7acf8beb2ce957c2c60893819)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian architecture guide](https://github.com/gcomneno/cat-couch-guardian/commit/ae274bd5852d02d54a58eb7291420525ce014b78)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian learning path](https://github.com/gcomneno/cat-couch-guardian/commit/7bb5745443ad6c0a37589891f858e1394f502df8)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian README](https://github.com/gcomneno/cat-couch-guardian/commit/073f027a9e81f6a1111ecdd7a41cdf6dc9d5ec95)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian documentation policy](https://github.com/gcomneno/cat-couch-guardian/commit/281af14a8435b14a2daf53ab47f9e07662f14380)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [define bilingual documentation policy](https://github.com/gcomneno/cat-couch-guardian/commit/90dea27e13a8e806f675adbb68b7bac8eb99e5c1)
 
-_Showing the 100 most recent meaningful updates; 1748 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1752 older update(s) omitted._
 
 </details>
 
