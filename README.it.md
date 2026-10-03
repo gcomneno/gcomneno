@@ -190,14 +190,32 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
-- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
-- **2026-10-03** · `lasagna-v2` · **Release:** [Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2)
-- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Release Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/ca595039cf3d284a302f36343716b79752ee8f9b)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/petra/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/petra/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance](https://github.com/gcomneno/petra/commit/a0b0c87636f0ec0f8468648864d1c84e7fccb9f8)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/petra/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: align implementation order with intrinsic dependencies](https://github.com/gcomneno/petra/commit/beed9a5cb04b08c64fd9d344a6d4a26c1bf19d4a)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/petra/commit/133336c113a4638a7eaf697498a2527a899ae103)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: scope derived graph and trace layers to intrinsic edits](https://github.com/gcomneno/petra/commit/cbb6fcd596ad6af0af163751e9cd51d4a92151d0)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/petra/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: align public inverse laws with reconciled rewrites (#328)](https://github.com/gcomneno/petra/commit/8364b7307908f5fbb37bd6e54c8e9d90b6ec79de)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: align public inverse laws with reconciled rewrites](https://github.com/gcomneno/petra/commit/4244457a388841c55506433cc1373c8126c8e533)
+- **2026-10-03** · `lasagna-v2` · **Documentazione:** [add citation metadata for v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/723862f8960d631ecaf1cb619c3a2e3fb3cbd40f)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/petra/commit/efc87d3dae7963802d73c9e5033f140da232599f)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/petra/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: reconcile public rewrites with intrinsic ADD/REMOVE (#322)](https://github.com/gcomneno/petra/commit/42418fb5dde7f16abc6e18a9759a82c65d931908)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE inverse law (#320)](https://github.com/gcomneno/petra/commit/523fd9adabdd826a50c7331a236f38a9692887d7)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE edit algebra (#318)](https://github.com/gcomneno/petra/commit/4e51e9d18eeb2691071af62a872d668119b978a0)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: promote canonical carrier and structural equality (#316)](https://github.com/gcomneno/petra/commit/00182915c418fd872e806d4cd878c4ed4e475242)
+- **2026-10-03** · `petra` · **Sviluppo:** [research: define Phase 7 normative promotion boundary (#314)](https://github.com/gcomneno/petra/commit/98e15910a3f065ef9e69483d8f39f19a3c44a192)
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
+- **2026-10-03** · `lasagna-v2` · **Release:** [Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2)
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Release Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/ca595039cf3d284a302f36343716b79752ee8f9b)
 - **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Align CI checks with frozen scientific artifacts](https://github.com/gcomneno/lasagna-v2/commit/da2c04c005030f5adc861a05f935d121cf2714b1)
 - **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Present validated V2 codec and empirical results](https://github.com/gcomneno/lasagna-v2/commit/f68fb95eb919a60bbc0a54558340ac5349e69eb3)
 - **2026-10-03** · `atelier-kit` · **Documentazione:** [ADR-0009 Uiverse come fonte esterna + checklist intake + issue template (#368)](https://github.com/gcomneno/atelier-kit/commit/c395fc8cc945c59062bcb8e9cfa27d9f92e7c68e)
@@ -276,26 +294,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-19** · `cat-couch-guardian` · **Documentazione:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
 - **2026-09-19** · `cat-couch-guardian` · **Funzionalità:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Documentazione:** [prepare v1.2.0 publication metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c2dadf97e7aa3dfd6c312f034978756974303b4b)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Funzionalità:** [integrate semantic read queries into db ask](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6ff339782d33651f3eb9f48c92c819d0966675d6)
-- **2026-09-19** · `lele-manager` · **Funzionalità:** [add task-focused Context Packs (#257)](https://github.com/gcomneno/lele-manager/commit/3a39af8491c49fef337c0ba41561709c4e151eee)
-- **2026-09-19** · `lele-manager` · **Documentazione:** [define canonical product language contract (#256)](https://github.com/gcomneno/lele-manager/commit/2f1848a7a7c49b2ac8a6d5ab4d29ce543036d808)
-- **2026-09-19** · `giadaware-ai` · **Release:** [GiadaWare AI v0.0.1](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.1)
-- **2026-09-19** · `lele-manager` · **Funzionalità:** [add semantic Lesson Learned extraction (#255)](https://github.com/gcomneno/lele-manager/commit/faf88c59e75dccf132c0e17677b359ae42ea820d)
-- **2026-09-19** · `giadaware-ai` · **Funzionalità:** [support Ollama thinking control](https://github.com/gcomneno/giadaware-ai/commit/36a1bb751ec3851d3ceb0a38abe052747984ce5e)
-- **2026-09-19** · `giadaware-ai` · **Documentazione:** [record GPT-6 Astra runtime verification](https://github.com/gcomneno/giadaware-ai/commit/7081dd4c2e00db2907da6e4f0569ff80dd68df58)
-- **2026-09-18** · `digit-probe` · **Documentazione:** [record Zenodo DOI for v1.0.0 (#32)](https://github.com/gcomneno/digit-probe/commit/b632e18d05d24a9050dc87e2411ed8b47efbdf07)
-- **2026-09-18** · `digit-probe` · **Documentazione:** [add Zenodo citation metadata (#31)](https://github.com/gcomneno/digit-probe/commit/dc1d2f399170804c3e66fc4eb86af6360c7d38ba)
-- **2026-09-18** · `smart-file-organizer` · **Release:** [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [add v0.5.0 download and quick start CTA (#53)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/1c19b4413b29ee3ddc0d62df85b1b096e90da268)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Release:** [GYTE AI Learning Pipeline v0.5.0 Technical Preview](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Funzionalità:** [prepare downloadable technical preview (#52)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/010e681ef03fadda97a9bff2a94c4c1210e6524c)
-- **2026-09-18** · `digit-probe` · **Release:** [Digit Probe v1.0.0](https://github.com/gcomneno/digit-probe/releases/tag/v1.0.0)
-- **2026-09-18** · `smart-file-organizer` · **Documentazione:** [align README with verifiable recovery state (#106)](https://github.com/gcomneno/smart-file-organizer/commit/19376637a6abe79a9fd56d0c0a145cadfdf73120)
-- **2026-09-18** · `digit-probe` · **Documentazione:** [define consumer-safe analysis contract (#22) (#25)](https://github.com/gcomneno/digit-probe/commit/8239fc4198b5526552ee40f22cff9446d9650f56)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1720 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1738 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
