@@ -129,6 +129,13 @@ The entries below are upstream pull requests verified as merged; public forks ar
 </details>
 
 <details>
+<summary>Mautic — <code>mautic</code></summary>
+
+- [#17616 — fix: include DomCrawler in release packages](https://github.com/mautic/mautic/pull/17616)
+
+</details>
+
+<details>
 <summary>Canonical Craft ecosystem</summary>
 
 - [craft-parts#1523 — fix(executor): preserve special files during build copy](https://github.com/canonical/craft-parts/pull/1523)
