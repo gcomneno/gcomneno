@@ -190,14 +190,17 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-03** · `petra` · **Development:** [runtime: export intrinsic PETRA semantics](https://github.com/gcomneno/petra/commit/49fddeca09d58fbe20c61e0faf741d09f3e5cf86)
+- **2026-10-03** · `petra` · **Development:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/petra/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
+- **2026-10-03** · `petra` · **Development:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/petra/commit/d16be327973773513202b4eb2253535c6c2397f9)
 - **2026-10-03** · `petra` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/petra/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
-- **2026-10-03** · `petra` · **Development:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/petra/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
-- **2026-10-03** · `petra` · **Development:** [spec: separate intrinsic and compatibility conformance](https://github.com/gcomneno/petra/commit/a0b0c87636f0ec0f8468648864d1c84e7fccb9f8)
-- **2026-10-03** · `petra` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/petra/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-03** · `petra` · **Development:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/petra/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
+- **2026-10-03** · `petra` · **Development:** [spec: separate intrinsic and compatibility conformance](https://github.com/gcomneno/petra/commit/a0b0c87636f0ec0f8468648864d1c84e7fccb9f8)
+- **2026-10-03** · `petra` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/petra/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 - **2026-10-03** · `petra` · **Development:** [spec: align implementation order with intrinsic dependencies](https://github.com/gcomneno/petra/commit/beed9a5cb04b08c64fd9d344a6d4a26c1bf19d4a)
 - **2026-10-03** · `petra` · **Development:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/petra/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `petra` · **Development:** [spec: scope derived graph and trace layers to intrinsic edits](https://github.com/gcomneno/petra/commit/cbb6fcd596ad6af0af163751e9cd51d4a92151d0)
@@ -291,11 +294,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [add junior learning path](https://github.com/gcomneno/cat-couch-guardian/commit/c22bc0bc90af3b82149e37f68a31e619fe05b4c1)
 - **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [formalize final exam simulation (#14)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0538d4f42527efc0fe791e4e8ee309674f640274)
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [add Zenodo DOI metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c2eded9d271484ad3a50afd8d27b43e7dc4bd0e)
-- **2026-09-19** · `cat-couch-guardian` · **Docs:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
-- **2026-09-19** · `cat-couch-guardian` · **Feature:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
 
-_Showing the 100 most recent meaningful updates; 1738 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1741 older update(s) omitted._
 
 </details>
 
