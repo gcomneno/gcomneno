@@ -190,14 +190,35 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [preserve empty unit test directory](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/57049467018b7f7ba3921a7322c59d63c5af0f3f)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [document repository license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/9c0132f3746a2ac830fcc0f89e64899fe871b4bf)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [add MIT license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/647c80f18d5d501f85f43de521c7ed9d03559414)
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
+- **2026-10-03** · `lasagna-v2` · **Release:** [Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2)
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Release Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/ca595039cf3d284a302f36343716b79752ee8f9b)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Align CI checks with frozen scientific artifacts](https://github.com/gcomneno/lasagna-v2/commit/da2c04c005030f5adc861a05f935d121cf2714b1)
+- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Present validated V2 codec and empirical results](https://github.com/gcomneno/lasagna-v2/commit/f68fb95eb919a60bbc0a54558340ac5349e69eb3)
+- **2026-10-03** · `atelier-kit` · **Documentazione:** [ADR-0009 Uiverse come fonte esterna + checklist intake + issue template (#368)](https://github.com/gcomneno/atelier-kit/commit/c395fc8cc945c59062bcb8e9cfa27d9f92e7c68e)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record V2 canonical corpus validation](https://github.com/gcomneno/lasagna-v2/commit/3690436c30d073bcb733d42723e3ddeee5818ee7)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Expose frozen V2 wire format through CLI](https://github.com/gcomneno/lasagna-v2/commit/5d6b65a69c30178741b5d0d2e3348a99d5443662)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Implement frozen L32 V2 wire path](https://github.com/gcomneno/lasagna-v2/commit/40158d3f1bb83065b5150328248aa3cc812f98e2)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record v2.1 retention commit](https://github.com/gcomneno/lasagna-v2/commit/d7b1f9d8b6e6a01193997a0f61cabc72d09762d9)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.4 physical layout L32](https://github.com/gcomneno/lasagna-v2/commit/61ae6cedd094d3272274f17d0d5e5f5c8476cea8)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record M2.3 L32 selection evidence](https://github.com/gcomneno/lasagna-v2/commit/821c50cf17778f5951505bcf1895b75a45a3ff88)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Materialize M2.2C v2.0 frozen corpus](https://github.com/gcomneno/lasagna-v2/commit/cf81bd9df0f9b5480fa6e4183397870ccf668f5a)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record v2.0 retention commit](https://github.com/gcomneno/lasagna-v2/commit/f36e8d126b774fc9d0f8df311d6290788e36d7cf)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.2B major revision v2.0](https://github.com/gcomneno/lasagna-v2/commit/381fbbdb90f9a79b38127d52cf82974e66620881)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record M2.2C.0 inconclusive evidence](https://github.com/gcomneno/lasagna-v2/commit/18e29752c8f8fdc1ada186ff41d3e304666f0e8f)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record v1.2 retention commit](https://github.com/gcomneno/lasagna-v2/commit/5313625e29cd47c9b69cbd9b5b8fc91f0f39b589)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.2B revision policy v1.2](https://github.com/gcomneno/lasagna-v2/commit/8e863d6a47569739cdefbb7875d993a32aead216)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record retention commit in protocol ledger](https://github.com/gcomneno/lasagna-v2/commit/e8e2efc96ed960055f69cbefe650d84b3ada18e4)
+- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.2B methodology and retain protocol history](https://github.com/gcomneno/lasagna-v2/commit/bb41cafe33f45e9158374afaf8bb4ebc4798cb48)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [preserve empty unit test directory](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/57049467018b7f7ba3921a7322c59d63c5af0f3f)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [document repository license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/9c0132f3746a2ac830fcc0f89e64899fe871b4bf)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [add MIT license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/647c80f18d5d501f85f43de521c7ed9d03559414)
 - **2026-10-02** · `laravel-postgres-docker-baseline` · **Sviluppo:** [Initial Laravel PostgreSQL Docker baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/d50b262d292b00bd246251fac31f5fee906c2f82)
 - **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [server: stop SPDX parsing after read errors](https://github.com/gcomneno/vscode-bitbake/commit/5bce8c1ee96c594858cbe78b928b131dddb4f42c)
 - **2026-09-29** · `vscode-bitbake` · **Sviluppo:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/0f1d1d223bf3299f15f29b8d50d928cdd12309a8)
@@ -273,29 +294,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-18** · `smart-file-organizer` · **Documentazione:** [align README with verifiable recovery state (#106)](https://github.com/gcomneno/smart-file-organizer/commit/19376637a6abe79a9fd56d0c0a145cadfdf73120)
 - **2026-09-18** · `digit-probe` · **Documentazione:** [define consumer-safe analysis contract (#22) (#25)](https://github.com/gcomneno/digit-probe/commit/8239fc4198b5526552ee40f22cff9446d9650f56)
 - **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete manual social-source triage PoV (#50)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/fc54e981b9478ba44f24bb1d86af9609d5acc727)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [complete Source-to-Skill human/agent PoV (#49)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/5ca6e842c6bcf861ebc8a33faa01d21725684724)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Documentazione:** [adopt canonical English localization boundary (#48)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/2f89a7ecd4bd379a33eaa44ac17da51614d98f34)
-- **2026-09-18** · `gyte-ai-learning-pipeline` · **Funzionalità:** [automate approved repository handoff up to PR creation (#47)](https://github.com/gcomneno/gyte-ai-learning-pipeline/commit/00ca1c5502ee087d15ee099bb47757e9890488a6)
-- **2026-09-18** · `giadaware-ai` · **Documentazione:** [add repository agent governance](https://github.com/gcomneno/giadaware-ai/commit/ae7387f74e7423513409e80c8e193121ffda6040)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA structural statistics and Lipschitz observables (#292)](https://github.com/gcomneno/petra/commit/12ca1ae1a982e82e125879cf71de8778d0147ac3)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA automorphisms and symmetry (#290)](https://github.com/gcomneno/petra/commit/34957ac2603dafb961f62e83671c34d3f943a2c0)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA rewrite presentations (#288)](https://github.com/gcomneno/petra/commit/b31d344c2f66386ff4f70ce540da7bfc24897789)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA congruences and quotients (#286)](https://github.com/gcomneno/petra/commit/027544713c44a2822acb8cfdecc090e73c47c565)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize PETRA grading and edit-graph geometry (#284)](https://github.com/gcomneno/petra/commit/18f74077cfd2ec2ee36198287904ee315e25693e)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize AIP-5 interpretation theory (#282)](https://github.com/gcomneno/petra/commit/fccc9116bb98814c1597afb11e9cf48ef67a179c)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize and probe AIP-4 minimal algebra (#280)](https://github.com/gcomneno/petra/commit/00d266bbc24d92276fa9ae85341e534dcbb5f357)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize canonical PETRA carrier theory (#278)](https://github.com/gcomneno/petra/commit/74c397388cd5c30b05509c821b93c7040c160c63)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: formalize abstract carrier foundational answers (#275)](https://github.com/gcomneno/petra/commit/ac2c4187e8d280878711d8fec2a7a3c23a1ef007)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: analyze Terminal as empty composition (#273)](https://github.com/gcomneno/petra/commit/efa883dfec07ad5e1fe748426b61a190b433a5fc)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: reassess AIP-2 primitive relation ontology (#269)](https://github.com/gcomneno/petra/commit/4c174646ed7afc2e81f8aff36cee8e5d88277ab1)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: probe AIP-1 Set vs Multiset composition (#267)](https://github.com/gcomneno/petra/commit/ca5322a056946a84fb387dfa73e26f7149b9e34b)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: analyze AIP-1 multiplicity ontology (#265)](https://github.com/gcomneno/petra/commit/caca013c8b85345e639bf11cdabf1808e20df6ad)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: validate AIP-2 recursive containment (#262)](https://github.com/gcomneno/petra/commit/3544a4e849d45a843865468b32f948b3832d5843)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: audit AIP-2 level derivability (#258)](https://github.com/gcomneno/petra/commit/999fe865cf81703b40e77fa8cb300a2b1d6cd1ec)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: prototype AIP-3 order-independent quotient (#255)](https://github.com/gcomneno/petra/commit/58e177a9e110e78336f001ee33b7d985744a1801)
-- **2026-09-17** · `petra` · **Sviluppo:** [research: analyze AIP-3 order semantics (#253)](https://github.com/gcomneno/petra/commit/04bd54fde7bc64547871c5025688a3f6a48dc669)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1699 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1720 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
