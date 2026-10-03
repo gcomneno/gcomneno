@@ -91,6 +91,17 @@ Upstream: [yoctoproject/vscode-bitbake](https://github.com/yoctoproject/vscode-b
 | Extracted reusable cancellable file-search and lifecycle boundaries for Toaster and BitBake document handling | Modular TypeScript refactoring, explicit lifecycle ownership and behavior-preserving characterization tests |
 
 
+### Mautic · `mautic`
+
+Open-source marketing automation platform built on PHP and Symfony.
+
+Upstream: [mautic/mautic](https://github.com/mautic/mautic) · Fork: [gcomneno/mautic](https://github.com/gcomneno/mautic)
+
+| What I contributed | What it demonstrates |
+| --- | --- |
+| Fixed release packaging so the runtime `symfony/dom-crawler` dependency is included in generated installation archives, with a release-workflow assertion guarding the packaged artifact | PHP/Symfony dependency diagnosis, release engineering, CI regression protection and upstream review discipline |
+
+
 ### Selected merged upstream pull requests
 
 The entries below are upstream pull requests verified as merged; public forks are not used as evidence of accepted contribution.
