@@ -208,14 +208,21 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-03** · `petra` · **Development:** [runtime: export intrinsic PETRA semantics](https://github.com/gcomneno/petra/commit/49fddeca09d58fbe20c61e0faf741d09f3e5cf86)
-- **2026-10-03** · `petra` · **Development:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/petra/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
-- **2026-10-03** · `petra` · **Development:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/petra/commit/d16be327973773513202b4eb2253535c6c2397f9)
-- **2026-10-03** · `petra` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/petra/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
+- **2026-10-03** · `petra` · **Docs:** [annotate Zenodo version DOI for v2.1.0](https://github.com/gcomneno/petra/commit/60f02eb0e3afc3101992a8332445470cd1329c02)
+- **2026-10-03** · `petra` · **Release:** [PETRA v2.1.0 — Prime Exponent Tower Recursive Algebra](https://github.com/gcomneno/petra/releases/tag/v2.1.0)
+- **2026-10-03** · `petra` · **Development:** [runtime: implement intrinsic ADD and REMOVE primitives (#345)](https://github.com/gcomneno/petra/commit/2cbec150689626147894126148de81146f3e76e6)
+- **2026-10-03** · `petra` · **Development:** [runtime: export intrinsic ADD and REMOVE](https://github.com/gcomneno/petra/commit/da506436622055e375da45dd06166cee0d8117fd)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-03** · `petra` · **Development:** [runtime: delegate compatibility rewrites to intrinsic edits](https://github.com/gcomneno/petra/commit/1336690751cdabe4e79bd2e12c9ebe4e0a820fe9)
+- **2026-10-03** · `petra` · **Development:** [runtime: implement intrinsic ADD and REMOVE](https://github.com/gcomneno/petra/commit/d12fe7a7df2da3a0353c806286fb474e9a6d4b28)
+- **2026-10-03** · `petra` · **Development:** [runtime: introduce intrinsic PETRA form semantics (#343)](https://github.com/gcomneno/petra/commit/643c6134ce49fa258dff6ce3bcac310e945e7e68)
+- **2026-10-03** · `petra` · **Development:** [runtime: export intrinsic PETRA semantics](https://github.com/gcomneno/petra/commit/49fddeca09d58fbe20c61e0faf741d09f3e5cf86)
+- **2026-10-03** · `petra` · **Development:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/petra/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
+- **2026-10-03** · `petra` · **Development:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/petra/commit/d16be327973773513202b4eb2253535c6c2397f9)
+- **2026-10-03** · `petra` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/petra/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
 - **2026-10-03** · `petra` · **Development:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/petra/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 - **2026-10-03** · `petra` · **Development:** [spec: separate intrinsic and compatibility conformance](https://github.com/gcomneno/petra/commit/a0b0c87636f0ec0f8468648864d1c84e7fccb9f8)
 - **2026-10-03** · `petra` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/petra/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
@@ -305,15 +312,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian README](https://github.com/gcomneno/cat-couch-guardian/commit/073f027a9e81f6a1111ecdd7a41cdf6dc9d5ec95)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian documentation policy](https://github.com/gcomneno/cat-couch-guardian/commit/281af14a8435b14a2daf53ab47f9e07662f14380)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [define bilingual documentation policy](https://github.com/gcomneno/cat-couch-guardian/commit/90dea27e13a8e806f675adbb68b7bac8eb99e5c1)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add bilingual language selectors](https://github.com/gcomneno/cat-couch-guardian/commit/b4d8f85b1a7f4223d60b0ba909c7eb121e540dd4)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [make README a learning entry point](https://github.com/gcomneno/cat-couch-guardian/commit/c34fb57fce30b7c8ecbafe4da8b49cfb239b71aa)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add junior engineering exercises](https://github.com/gcomneno/cat-couch-guardian/commit/60e99d05d6682e0bd6b13bfd38fb4e28af73812c)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain architecture for learners](https://github.com/gcomneno/cat-couch-guardian/commit/2d0eab196de69b9799d23b56459e5a1779f7dfd1)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add junior learning path](https://github.com/gcomneno/cat-couch-guardian/commit/c22bc0bc90af3b82149e37f68a31e619fe05b4c1)
-- **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [formalize final exam simulation (#14)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0538d4f42527efc0fe791e4e8ee309674f640274)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [add Zenodo DOI metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c2eded9d271484ad3a50afd8d27b43e7dc4bd0e)
 
-_Showing the 100 most recent meaningful updates; 1741 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1748 older update(s) omitted._
 
 </details>
 
