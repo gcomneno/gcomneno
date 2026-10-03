@@ -259,6 +259,29 @@ The public representation is intentionally anchored to the DOI-backed archival
 record. This post-baseline change does not rewrite the dated 2026-09-13
 repository inventory or its status distribution.
 
+## 2026-10-03 — Lasagna 2 validated V2 release and archival publication
+
+`lasagna-v2` completed its current V2 physical-layout validation cycle and
+published version `v0.2.2` as an archival software artifact on Zenodo.
+
+On the project's frozen synthetic validation corpus of 1,575 cases, V2 reduces
+the encoded corpus size from 1,875,150 bytes to 1,500,750 bytes relative to V1,
+a reduction of approximately 19.97%. The measured saving is entirely accounted
+for by reducing per-segment metadata from 64 bytes to 32 bytes; the residual
+payload remains unchanged at 806,400 bytes.
+
+This is specifically a V2-vs-V1 result on the project's controlled frozen
+corpus. It is not a claim of general superiority over general-purpose or
+domain-specific compression codecs.
+
+| Repository | Category | Status | Decision | Public evidence |
+| --- | --- | --- | --- | --- |
+| `lasagna-v2` | Research & Experiments | ACTIVE | PROMOTE | [GitHub v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2) · [Zenodo v0.2.2](https://doi.org/10.5281/zenodo.23119692) |
+
+This post-baseline promotion supersedes the earlier `KEEP` decision for current
+profile presentation without rewriting the dated baseline inventory or the
+historical review-pass record.
+
 # Presentation policy
 
 The profile README should remain selective. It should emphasize, in order:

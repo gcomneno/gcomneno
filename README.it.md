@@ -168,7 +168,7 @@ Questi repository usano esperimenti software riproducibili per studiare struttur
 | Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
 | Partizionamento deterministico | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Partizionamento IPv4 ad alta entropia e allocazione deterministica |
 | Ricerca strutturale | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Ricerca limitata su rappresentazioni intere e vincoli |
-| Compressione di serie temporali | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Segmentazione adattiva, codifica dei residui basata su predittori ed esperimenti lossy/lossless controllati su serie temporali univariate |
+| Compressione di serie temporali | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Codec predittivo versionato per serie temporali univariate; sul corpus sintetico congelato di 1.575 casi, V2 riduce del 19,97% la dimensione codificata rispetto a V1 dimezzando i metadati per segmento da 64 a 32 byte, con payload residuo invariato · [v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2) · [DOI Zenodo](https://doi.org/10.5281/zenodo.23119692) |
 
 ## <code>04 · IMPARARE IN PUBBLICO</code>
 

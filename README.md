@@ -168,7 +168,7 @@ These repositories use reproducible software experiments to investigate sequence
 | Sequence recognition | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Offline OEIS lookup, normalized search and SQLite caching |
 | Deterministic bucketing | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | High-entropy IPv4 partitioning and deterministic allocation |
 | Structural search | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Bounded search over integer representations and constraints |
-| Time-series compression | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Adaptive segmentation, predictor-based residual coding and controlled lossy/lossless experiments on univariate time series |
+| Time-series compression | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Versioned predictive codec for univariate time series; on the frozen 1,575-case synthetic corpus, V2 reduces encoded size by 19.97% vs V1 by halving per-segment metadata from 64 to 32 bytes while leaving the residual payload unchanged · [v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23119692) |
 
 ## <code>04 · LEARNING IN PUBLIC</code>
 
