@@ -209,14 +209,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-04** · `petra` · **Docs:** [formalize PETRA research source register (#243)](https://github.com/gcomneno/petra/commit/9726a40378212ed16626650f21013f5858c15f25)
-- **2026-10-04** · `giadaware-ui-components` · **Fix:** [use runner temp at runtime (#78)](https://github.com/gcomneno/giadaware-ui-components/commit/a6c2e2c805fef90e1c625f69c95a0bd52a331672)
-- **2026-10-04** · `giadaware-ui-components` · **Feature:** [add native Checkbox primitive (#76)](https://github.com/gcomneno/giadaware-ui-components/commit/447807c6e8c588ef8402c5268c6a722e4315cc6e)
-- **2026-10-03** · `petra` · **Docs:** [annotate Zenodo version DOI for v2.1.0](https://github.com/gcomneno/petra/commit/60f02eb0e3afc3101992a8332445470cd1329c02)
+- **2026-10-04** · `petra` · **Docs:** [formalize SHAPES occurrence path contract](https://github.com/gcomneno/petra/commit/985ed03dc5bd2c8584271e35f41239d2a665fc54)
+- **2026-10-04** · `petra` · **Feature:** [add SHAPES occurrence traversal](https://github.com/gcomneno/petra/commit/cb96b6b6d643bdea71fba58db2e4894adc136f2a)
+- **2026-10-04** · `petra` · **Feature:** [add SHAPES intrinsic runtime](https://github.com/gcomneno/petra/commit/e38107313d2a3a9c22a4c80d268a859403302ff7)
+- **2026-10-04** · `petra` · **Docs:** [establish SHAPES core boundary](https://github.com/gcomneno/petra/commit/0548c5b8de1e55dbc329cce0da25316b6d5e4e0d)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-04** · `petra` · **Docs:** [formalize PETRA research source register (#243)](https://github.com/gcomneno/petra/commit/9726a40378212ed16626650f21013f5858c15f25)
+- **2026-10-04** · `giadaware-ui-components` · **Fix:** [use runner temp at runtime (#78)](https://github.com/gcomneno/giadaware-ui-components/commit/a6c2e2c805fef90e1c625f69c95a0bd52a331672)
+- **2026-10-04** · `giadaware-ui-components` · **Feature:** [add native Checkbox primitive (#76)](https://github.com/gcomneno/giadaware-ui-components/commit/447807c6e8c588ef8402c5268c6a722e4315cc6e)
+- **2026-10-03** · `petra` · **Docs:** [annotate Zenodo version DOI for v2.1.0](https://github.com/gcomneno/petra/commit/60f02eb0e3afc3101992a8332445470cd1329c02)
 - **2026-10-03** · `petra` · **Release:** [PETRA v2.1.0 — Prime Exponent Tower Recursive Algebra](https://github.com/gcomneno/petra/releases/tag/v2.1.0)
 - **2026-10-03** · `petra` · **Development:** [runtime: implement intrinsic ADD and REMOVE primitives (#345)](https://github.com/gcomneno/petra/commit/2cbec150689626147894126148de81146f3e76e6)
 - **2026-10-03** · `petra` · **Development:** [runtime: introduce intrinsic PETRA form semantics (#343)](https://github.com/gcomneno/petra/commit/643c6134ce49fa258dff6ce3bcac310e945e7e68)
@@ -309,12 +313,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-19** · `cat-couch-guardian` · **Docs:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
 - **2026-09-19** · `cat-couch-guardian` · **Feature:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [prepare v1.2.0 publication metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/c2dadf97e7aa3dfd6c312f034978756974303b4b)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Feature:** [integrate semantic read queries into db ask](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/6ff339782d33651f3eb9f48c92c819d0966675d6)
-- **2026-09-19** · `lele-manager` · **Feature:** [add task-focused Context Packs (#257)](https://github.com/gcomneno/lele-manager/commit/3a39af8491c49fef337c0ba41561709c4e151eee)
-- **2026-09-19** · `lele-manager` · **Docs:** [define canonical product language contract (#256)](https://github.com/gcomneno/lele-manager/commit/2f1848a7a7c49b2ac8a6d5ab4d29ce543036d808)
 
-_Showing the 100 most recent meaningful updates; 1733 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1737 older update(s) omitted._
 
 </details>
 
