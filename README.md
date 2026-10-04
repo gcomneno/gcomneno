@@ -231,6 +231,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `petra` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/petra/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 - **2026-10-03** · `petra` · **Development:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/petra/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `petra` · **Development:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/petra/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
+- **2026-10-03** · `petra` · **Development:** [spec: distinguish carrier size from representation node count](https://github.com/gcomneno/petra/commit/6a78c8f8442bff76c63be95ade0cdcfc548714c3)
 - **2026-10-03** · `petra` · **Development:** [spec: align public inverse laws with reconciled rewrites (#328)](https://github.com/gcomneno/petra/commit/8364b7307908f5fbb37bd6e54c8e9d90b6ec79de)
 - **2026-10-03** · `lasagna-v2` · **Docs:** [add citation metadata for v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/723862f8960d631ecaf1cb619c3a2e3fb3cbd40f)
 - **2026-10-03** · `petra` · **Development:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/petra/commit/efc87d3dae7963802d73c9e5033f140da232599f)
@@ -312,9 +313,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [add Zenodo DOI metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c2eded9d271484ad3a50afd8d27b43e7dc4bd0e)
 - **2026-09-19** · `cat-couch-guardian` · **Docs:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
 - **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
-- **2026-09-19** · `cat-couch-guardian` · **Feature:** [add simulated deterrent request boundary](https://github.com/gcomneno/cat-couch-guardian/commit/2050fea045b3a0e390ee7111c401781f16889035)
 
-_Showing the 100 most recent meaningful updates; 1737 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1738 older update(s) omitted._
 
 </details>
 
