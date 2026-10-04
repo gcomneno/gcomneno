@@ -220,9 +220,13 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `petra` · **Sviluppo:** [runtime: implement intrinsic ADD and REMOVE](https://github.com/gcomneno/petra/commit/d12fe7a7df2da3a0353c806286fb474e9a6d4b28)
 - **2026-10-03** · `petra` · **Sviluppo:** [runtime: introduce intrinsic PETRA form semantics (#343)](https://github.com/gcomneno/petra/commit/643c6134ce49fa258dff6ce3bcac310e945e7e68)
 - **2026-10-03** · `petra` · **Sviluppo:** [runtime: export intrinsic PETRA semantics](https://github.com/gcomneno/petra/commit/49fddeca09d58fbe20c61e0faf741d09f3e5cf86)
+- **2026-10-03** · `petra` · **Sviluppo:** [runtime: add intrinsic PETRA form semantics](https://github.com/gcomneno/petra/commit/5815af9aaf3ef7e5a157723b42bcbbd990403bec)
 - **2026-10-03** · `petra` · **Sviluppo:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/petra/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: make factorization exclusion explicit in AIP-5](https://github.com/gcomneno/petra/commit/40e594b1b3887cede769b05ba5df889695edcc3c)
 - **2026-10-03** · `petra` · **Sviluppo:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/petra/commit/d16be327973773513202b4eb2253535c6c2397f9)
 - **2026-10-03** · `petra` · **Sviluppo:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/petra/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: remove final Phase 7 transition residue](https://github.com/gcomneno/petra/commit/bc27245844891d1a111e305a1277ecccc9bc1581)
+- **2026-10-03** · `petra` · **Sviluppo:** [spec: reconcile remaining Phase 7 representation boundaries](https://github.com/gcomneno/petra/commit/fb2bf6c144e596168228ebcf543a1555bac1f859)
 - **2026-10-03** · `petra` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/petra/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 - **2026-10-03** · `petra` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance](https://github.com/gcomneno/petra/commit/a0b0c87636f0ec0f8468648864d1c84e7fccb9f8)
 - **2026-10-03** · `petra` · **Sviluppo:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/petra/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
@@ -308,12 +312,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [implement deterministic cooldown policy](https://github.com/gcomneno/cat-couch-guardian/commit/6169521e0caa488610c2b751fe68734cd316f1f9)
 - **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [add explicit cooldown state](https://github.com/gcomneno/cat-couch-guardian/commit/051117395c57e19719a9fa2acaba6ada282fa925)
 - **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [expose suppression evidence boundary](https://github.com/gcomneno/cat-couch-guardian/commit/ae9756aaa1d1c31dd7b3224efae4a291feda7545)
-- **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [add deterministic event timestamp](https://github.com/gcomneno/cat-couch-guardian/commit/ea2947edd385b37d55075c93a52507cda628e447)
-- **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [define cooldown suppression evidence](https://github.com/gcomneno/cat-couch-guardian/commit/2d49dacbe884d617a1d3f97dde3687ab0ab40374)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [add Italian engineering exercises](https://github.com/gcomneno/cat-couch-guardian/commit/112e7ce1f1b6fde7acf8beb2ce957c2c60893819)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [add Italian architecture guide](https://github.com/gcomneno/cat-couch-guardian/commit/ae274bd5852d02d54a58eb7291420525ce014b78)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1752 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1755 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
