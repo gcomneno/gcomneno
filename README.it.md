@@ -135,6 +135,7 @@ Le voci seguenti sono pull request upstream verificate come integrate; i fork pu
 <details>
 <summary>TheAlgorithms — <code>Python</code></summary>
 
+- [#15480 — test: cover insertion sort stability with equal-priority items](https://github.com/TheAlgorithms/Python/pull/15480)
 - [#15466 — test: cover empty inputs and duplicate boundaries in bisect](https://github.com/TheAlgorithms/Python/pull/15466)
 
 </details>
