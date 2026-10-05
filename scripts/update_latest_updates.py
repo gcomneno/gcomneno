@@ -35,7 +35,7 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/giadaware-ai",
         f"{OWNER_LOGIN}/system-log-dynamics",
         f"{OWNER_LOGIN}/lotto-digit-coverage-dynamics",
-        f"{OWNER_LOGIN}/petra",
+        f"{OWNER_LOGIN}/agnostic-shapes-core",
         f"{OWNER_LOGIN}/digit-probe",
         f"{OWNER_LOGIN}/oeis-probe",
         f"{OWNER_LOGIN}/midas",

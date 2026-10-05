@@ -282,6 +282,34 @@ This post-baseline promotion supersedes the earlier `KEEP` decision for current
 profile presentation without rewriting the dated baseline inventory or the
 historical review-pass record.
 
+## 2026-10-05 — PETRA repository renamed to Agnostic SHAPES Core
+
+The public research repository formerly named `petra` was renamed to
+`agnostic-shapes-core` after the architectural separation of the
+interpretation-agnostic SHAPES carrier from PETRA-specific semantics.
+
+The repository now represents:
+
+```text
+Agnostic SHAPES Core (ASHES)
+├── SHAPES
+│   └── interpretation-agnostic structural core
+├── PETRA
+│   └── pluggable prime/exponent interpretation layer
+└── future interpretation layers
+```
+
+PETRA remains an active maintained interpretation layer inside the repository;
+it is no longer the identity of the repository itself.
+
+| Repository | Category | Status | Visibility | Decision |
+| --- | --- | --- | --- | --- |
+| `agnostic-shapes-core` | Research & Experiments | ACTIVE | public | PROMOTE |
+
+This rename supersedes `petra` as the current public repository identity and
+Latest Updates source. The dated 2026-09-13 baseline inventory, earlier review
+passes, release history and historical PET/PETRA references remain unchanged.
+
 # Presentation policy
 
 The profile README should remain selective. It should emphasize, in order:
@@ -305,8 +333,8 @@ Private governance, personal operations, private health tooling, creative archiv
 The English and Italian profile READMEs were checked against the canonical `PROMOTE` decisions.
 
 - `gcomneno` is the profile surface itself.
-- `atelier-kit`, `smart-file-organizer`, `giadaware-ai`, `digit-probe`, `petra` and `vscode-bitbake` are represented in the public profile through selected-project, operational-project, selected-research or open-source sections.
-- `petra` is public and remains `Research & Experiments / ACTIVE / PROMOTE`; its public profile representation is therefore required by the current portfolio decision.
+- `atelier-kit`, `smart-file-organizer`, `giadaware-ai`, `digit-probe`, `agnostic-shapes-core` and `vscode-bitbake` are represented in the public profile through selected-project, operational-project, selected-research or open-source sections.
+- `agnostic-shapes-core` is public and remains `Research & Experiments / ACTIVE / PROMOTE`; its public profile representation is therefore required by the current portfolio decision.
 - Repositories marked `KEEP` may still appear when they strengthen the portfolio narrative; `PROMOTE` is not an exclusivity list.
 - English and Italian profile surfaces follow the same presentation structure.
 

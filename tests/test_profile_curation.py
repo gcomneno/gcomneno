@@ -47,7 +47,7 @@ SELECTED_PROJECTS = (
 )
 
 PRIMARY_RESEARCH = (
-    "petra",
+    "agnostic-shapes-core",
     "digit-probe",
     "midas",
     "lotto-digit-coverage-dynamics",
