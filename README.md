@@ -209,14 +209,17 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native path verifier](https://github.com/gcomneno/petra/commit/c87873daceb684c4d05c451aae06a1ff7a2edc1c)
+- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native structural distance](https://github.com/gcomneno/petra/commit/daf17dec9780398359779c9042a975f571659000)
+- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native structural search](https://github.com/gcomneno/petra/commit/050a28121cbc0a4768a8da50b103d2d5a7e2148f)
 - **2026-10-04** · `petra` · **Docs:** [formalize SHAPES occurrence path contract](https://github.com/gcomneno/petra/commit/985ed03dc5bd2c8584271e35f41239d2a665fc54)
-- **2026-10-04** · `petra` · **Feature:** [add SHAPES occurrence traversal](https://github.com/gcomneno/petra/commit/cb96b6b6d643bdea71fba58db2e4894adc136f2a)
-- **2026-10-04** · `petra` · **Feature:** [add SHAPES intrinsic runtime](https://github.com/gcomneno/petra/commit/e38107313d2a3a9c22a4c80d268a859403302ff7)
-- **2026-10-04** · `petra` · **Docs:** [establish SHAPES core boundary](https://github.com/gcomneno/petra/commit/0548c5b8de1e55dbc329cce0da25316b6d5e4e0d)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-04** · `petra` · **Feature:** [add SHAPES occurrence traversal](https://github.com/gcomneno/petra/commit/cb96b6b6d643bdea71fba58db2e4894adc136f2a)
+- **2026-10-04** · `petra` · **Feature:** [add SHAPES intrinsic runtime](https://github.com/gcomneno/petra/commit/e38107313d2a3a9c22a4c80d268a859403302ff7)
+- **2026-10-04** · `petra` · **Docs:** [establish SHAPES core boundary](https://github.com/gcomneno/petra/commit/0548c5b8de1e55dbc329cce0da25316b6d5e4e0d)
 - **2026-10-04** · `petra` · **Docs:** [formalize PETRA research source register (#243)](https://github.com/gcomneno/petra/commit/9726a40378212ed16626650f21013f5858c15f25)
 - **2026-10-04** · `giadaware-ui-components` · **Fix:** [use runner temp at runtime (#78)](https://github.com/gcomneno/giadaware-ui-components/commit/a6c2e2c805fef90e1c625f69c95a0bd52a331672)
 - **2026-10-04** · `giadaware-ui-components` · **Feature:** [add native Checkbox primitive (#76)](https://github.com/gcomneno/giadaware-ui-components/commit/447807c6e8c588ef8402c5268c6a722e4315cc6e)
@@ -226,6 +229,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `petra` · **Development:** [runtime: introduce intrinsic PETRA form semantics (#343)](https://github.com/gcomneno/petra/commit/643c6134ce49fa258dff6ce3bcac310e945e7e68)
 - **2026-10-03** · `petra` · **Development:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/petra/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
 - **2026-10-03** · `petra` · **Development:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/petra/commit/d16be327973773513202b4eb2253535c6c2397f9)
+- **2026-10-03** · `petra` · **Development:** [spec: promote AIP-5 interpretation boundary](https://github.com/gcomneno/petra/commit/03af1dfd062808b3c0f45f38aa441e03353a8cd6)
 - **2026-10-03** · `petra` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/petra/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
 - **2026-10-03** · `petra` · **Development:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/petra/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 - **2026-10-03** · `petra` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/petra/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
@@ -238,8 +242,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `petra` · **Development:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/petra/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
 - **2026-10-03** · `petra` · **Development:** [spec: reconcile public rewrites with intrinsic ADD/REMOVE (#322)](https://github.com/gcomneno/petra/commit/42418fb5dde7f16abc6e18a9759a82c65d931908)
 - **2026-10-03** · `petra` · **Development:** [spec: promote intrinsic ADD/REMOVE inverse law (#320)](https://github.com/gcomneno/petra/commit/523fd9adabdd826a50c7331a236f38a9692887d7)
+- **2026-10-03** · `petra` · **Development:** [spec: promote intrinsic ADD/REMOVE inverse law](https://github.com/gcomneno/petra/commit/223c79f93e9aa501013c3c425bfcb46fbe1b6de2)
 - **2026-10-03** · `petra` · **Development:** [spec: promote intrinsic ADD/REMOVE edit algebra (#318)](https://github.com/gcomneno/petra/commit/4e51e9d18eeb2691071af62a872d668119b978a0)
 - **2026-10-03** · `petra` · **Development:** [spec: promote canonical carrier and structural equality (#316)](https://github.com/gcomneno/petra/commit/00182915c418fd872e806d4cd878c4ed4e475242)
+- **2026-10-03** · `petra` · **Development:** [spec: promote canonical carrier and structural equality](https://github.com/gcomneno/petra/commit/796a8deb1c7515072e2c6892f0d4339c9031564d)
 - **2026-10-03** · `petra` · **Development:** [research: define Phase 7 normative promotion boundary (#314)](https://github.com/gcomneno/petra/commit/98e15910a3f065ef9e69483d8f39f19a3c44a192)
 - **2026-10-03** · `lasagna-v2` · **Development:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
 - **2026-10-03** · `lasagna-v2` · **Development:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
@@ -307,14 +313,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [add bilingual language selectors](https://github.com/gcomneno/cat-couch-guardian/commit/b4d8f85b1a7f4223d60b0ba909c7eb121e540dd4)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [make README a learning entry point](https://github.com/gcomneno/cat-couch-guardian/commit/c34fb57fce30b7c8ecbafe4da8b49cfb239b71aa)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [add junior engineering exercises](https://github.com/gcomneno/cat-couch-guardian/commit/60e99d05d6682e0bd6b13bfd38fb4e28af73812c)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain architecture for learners](https://github.com/gcomneno/cat-couch-guardian/commit/2d0eab196de69b9799d23b56459e5a1779f7dfd1)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add junior learning path](https://github.com/gcomneno/cat-couch-guardian/commit/c22bc0bc90af3b82149e37f68a31e619fe05b4c1)
-- **2026-09-23** · `kleis-corso-sviluppo-software` · **Docs:** [formalize final exam simulation (#14)](https://github.com/gcomneno/kleis-corso-sviluppo-software/commit/0538d4f42527efc0fe791e4e8ee309674f640274)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Docs:** [add Zenodo DOI metadata](https://github.com/gcomneno/lotto-digit-coverage-dynamics/commit/7c2eded9d271484ad3a50afd8d27b43e7dc4bd0e)
-- **2026-09-19** · `cat-couch-guardian` · **Docs:** [update M0.6 packaging and provenance](https://github.com/gcomneno/cat-couch-guardian/commit/d9ffbe1a818a80633aad78a8b50ceb45547c1880)
-- **2026-09-19** · `lotto-digit-coverage-dynamics` · **Release:** [v1.2.0 — Reproducible archive tooling and semantic read queries](https://github.com/gcomneno/lotto-digit-coverage-dynamics/releases/tag/v1.2.0)
 
-_Showing the 100 most recent meaningful updates; 1738 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1695 older update(s) omitted._
 
 </details>
 
