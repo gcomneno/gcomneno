@@ -211,14 +211,26 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [rename project to Agnostic SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/commit/d197977c365deb476066c1c04635cce805d95e76)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: validate real-world time series](https://github.com/gcomneno/lasagna-v2/commit/959eaa8da016cb26b204550a14eeb382daafe889)
-- **2026-10-05** · `giadaware-ui-components` · **Documentazione:** [align consumer guides with root-only public API (#83)](https://github.com/gcomneno/giadaware-ui-components/commit/e4d9e85ab43e10bcbeb5cd6931e68113e13c1a19)
-- **2026-10-05** · `agnostic-shapes-core` · **Funzionalità:** [introduce PETRA interpretation layer](https://github.com/gcomneno/agnostic-shapes-core/commit/310cdec53df74b124198fb7e89398784009b047a)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [meta: define production-readiness criteria](https://github.com/gcomneno/lasagna-v2/commit/a69e22c3ba79ef4fffa722206d9c460b5c75ea62)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [design: define access architecture](https://github.com/gcomneno/lasagna-v2/commit/6726502e4dc3ce7f68c46b666e0071e100feb63a)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: define multivariate architecture](https://github.com/gcomneno/lasagna-v2/commit/4e592a128d62f1afd7cdca8ce8dd7679a0707158)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate entropy coding for residual payloads](https://github.com/gcomneno/lasagna-v2/commit/f623f41756c210607fe2385b84cb2fde12fe1543)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-05** · `agnostic-shapes-core` · **Sviluppo:** [shapes: admit intrinsic height and leaf-count metrics](https://github.com/gcomneno/agnostic-shapes-core/commit/472f44a2d261b9efec1cfb762350839779e60fe3)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate residual coding strategies](https://github.com/gcomneno/lasagna-v2/commit/5057629dafbc0fc29911ec67cb287380d19d35c4)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate predictor candidates](https://github.com/gcomneno/lasagna-v2/commit/40836b44e41d0f1df15d8a7dc5b632492ce910b1)
+- **2026-10-05** · `agnostic-shapes-core` · **Documentazione:** [reconcile ASHES v3.0.0 Zenodo metadata](https://github.com/gcomneno/agnostic-shapes-core/commit/4a4ec848a3be84dc7407876f425dd26006cb0df2)
+- **2026-10-05** · `lasagna-v2` · **Prestazioni:** [characterize large-series scaling](https://github.com/gcomneno/lasagna-v2/commit/ba816d5547351957dbeeed5cc3e5b55312194046)
+- **2026-10-05** · `agnostic-shapes-core` · **Release:** [Agnostic SHAPES Core v3.0.0](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v3.0.0)
+- **2026-10-05** · `agnostic-shapes-core` · **Documentazione:** [realign current ASHES status](https://github.com/gcomneno/agnostic-shapes-core/commit/4440128568a5d66131f615ef4c6ffdb40d7ebeb1)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: characterize codec parameter sensitivity](https://github.com/gcomneno/lasagna-v2/commit/47cac38d330eebfc7d5cade3c69c84ef2e715c4b)
+- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [rename project to Agnostic SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/commit/d197977c365deb476066c1c04635cce805d95e76)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: validate real-world time series](https://github.com/gcomneno/lasagna-v2/commit/959eaa8da016cb26b204550a14eeb382daafe889)
+- **2026-10-05** · `giadaware-ui-components` · **Documentazione:** [align consumer guides with root-only public API (#83)](https://github.com/gcomneno/giadaware-ui-components/commit/e4d9e85ab43e10bcbeb5cd6931e68113e13c1a19)
+- **2026-10-05** · `agnostic-shapes-core` · **Funzionalità:** [introduce PETRA interpretation layer](https://github.com/gcomneno/agnostic-shapes-core/commit/310cdec53df74b124198fb7e89398784009b047a)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [bench: compare Lasagna with external codecs](https://github.com/gcomneno/lasagna-v2/commit/676216d6ebb138c95c7069a07ee12c8f9b5cb184)
 - **2026-10-05** · `agnostic-shapes-core` · **Sviluppo:** [research: classify Matula-Goebel interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/750b7024258b2e349401fdf2f59e86c1f68c2631)
 - **2026-10-05** · `lasagna-v2` · **Refactoring:** [decouple V2 from V1 wire encoding](https://github.com/gcomneno/lasagna-v2/commit/db5602fc636f44d1ed982ddd2e740a9a9187a090)
@@ -303,20 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/agnostic-shapes-core/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
 - **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: audit PETRA witnessed edits against residual-system axioms (#304)](https://github.com/gcomneno/agnostic-shapes-core/commit/4d1d7100da1fa36e2616f0c2fd3dca36285d3663)
 - **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: compare PETRA state-dependent edit residuals with residual theory (#302)](https://github.com/gcomneno/agnostic-shapes-core/commit/7bbca260bafa6e914532b972ddc3664652802867)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: validate PETRA witnessed paths against free categories, groupoids, and traces (#300)](https://github.com/gcomneno/agnostic-shapes-core/commit/f13c78b2ea8fcba147790325934ba3ae833b2572)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: validate PETRA initial algebra and quotient semantics (#298)](https://github.com/gcomneno/agnostic-shapes-core/commit/982b49372180b2b74b65ed4b06f80503276202cb)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: validate PETRA leaf-edit metric against 1-degree tree edit distance (#296)](https://github.com/gcomneno/agnostic-shapes-core/commit/05cd4e74e81f2cdc70e15e71ac19f0bea4f07df6)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: begin Phase 6 external mathematical validation (#294)](https://github.com/gcomneno/agnostic-shapes-core/commit/5d678187cccd27eef4e732a06fd2de10a1398eb3)
-- **2026-09-23** · `lele-manager` · **Funzionalità:** [add assistant-ready context export (#258)](https://github.com/gcomneno/lele-manager/commit/ee1a000c759f94d2dea1d84b52b5ee78703f8033)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [finalize Italian M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/254cea53e0fbf32ac43fc81c13888fcdb308138e)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [finalize M0.7 verified maturity](https://github.com/gcomneno/cat-couch-guardian/commit/92cf575744338ad7dc1371b6dbabdaa56fc303b5)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [align Italian exercises with M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/ffcb37fcb62ef7a416bd8d47c03c6b72c659e210)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [align exercises with implemented M0.7 contract](https://github.com/gcomneno/cat-couch-guardian/commit/50522837c3d72b5f3f7008611319a78c17ec63cc)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [explain Italian M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/8a738ff099989ee18925f4c0696e427c6eeedffd)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [explain M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/cc7eb5e5d7ffb20b59794c9dafc5545cac0d1baf)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [document Italian M0.7 cooldown contract](https://github.com/gcomneno/cat-couch-guardian/commit/72076360836a9c41d2ee8ad2a568d7381329be85)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1713 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1725 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
