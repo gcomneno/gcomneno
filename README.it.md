@@ -211,14 +211,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-05** · `lasagna-v2` · **Sicurezza:** [enforce codec resource limits](https://github.com/gcomneno/lasagna-v2/commit/340ce37d8b8e54c7879435d8dd1c898c132d9437)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [meta: define production-readiness criteria](https://github.com/gcomneno/lasagna-v2/commit/a69e22c3ba79ef4fffa722206d9c460b5c75ea62)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [design: define access architecture](https://github.com/gcomneno/lasagna-v2/commit/6726502e4dc3ce7f68c46b666e0071e100feb63a)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: define multivariate architecture](https://github.com/gcomneno/lasagna-v2/commit/4e592a128d62f1afd7cdca8ce8dd7679a0707158)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate entropy coding for residual payloads](https://github.com/gcomneno/lasagna-v2/commit/f623f41756c210607fe2385b84cb2fde12fe1543)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate entropy coding for residual payloads](https://github.com/gcomneno/lasagna-v2/commit/f623f41756c210607fe2385b84cb2fde12fe1543)
 - **2026-10-05** · `agnostic-shapes-core` · **Sviluppo:** [shapes: admit intrinsic height and leaf-count metrics](https://github.com/gcomneno/agnostic-shapes-core/commit/472f44a2d261b9efec1cfb762350839779e60fe3)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate residual coding strategies](https://github.com/gcomneno/lasagna-v2/commit/5057629dafbc0fc29911ec67cb287380d19d35c4)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate predictor candidates](https://github.com/gcomneno/lasagna-v2/commit/40836b44e41d0f1df15d8a7dc5b632492ce910b1)
@@ -314,9 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/agnostic-shapes-core/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
 - **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/agnostic-shapes-core/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
 - **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: audit PETRA witnessed edits against residual-system axioms (#304)](https://github.com/gcomneno/agnostic-shapes-core/commit/4d1d7100da1fa36e2616f0c2fd3dca36285d3663)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: compare PETRA state-dependent edit residuals with residual theory (#302)](https://github.com/gcomneno/agnostic-shapes-core/commit/7bbca260bafa6e914532b972ddc3664652802867)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1725 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1726 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
