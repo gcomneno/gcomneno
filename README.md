@@ -211,14 +211,31 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native path verifier](https://github.com/gcomneno/petra/commit/c87873daceb684c4d05c451aae06a1ff7a2edc1c)
-- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native structural distance](https://github.com/gcomneno/petra/commit/daf17dec9780398359779c9042a975f571659000)
-- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native structural search](https://github.com/gcomneno/petra/commit/050a28121cbc0a4768a8da50b103d2d5a7e2148f)
-- **2026-10-04** · `petra` · **Docs:** [formalize SHAPES occurrence path contract](https://github.com/gcomneno/petra/commit/985ed03dc5bd2c8584271e35f41239d2a665fc54)
+- **2026-10-05** · `lasagna-v2` · **Development:** [research: validate real-world time series](https://github.com/gcomneno/lasagna-v2/commit/959eaa8da016cb26b204550a14eeb382daafe889)
+- **2026-10-05** · `giadaware-ui-components` · **Docs:** [align consumer guides with root-only public API (#83)](https://github.com/gcomneno/giadaware-ui-components/commit/e4d9e85ab43e10bcbeb5cd6931e68113e13c1a19)
+- **2026-10-05** · `petra` · **Feature:** [introduce PETRA interpretation layer](https://github.com/gcomneno/petra/commit/310cdec53df74b124198fb7e89398784009b047a)
+- **2026-10-05** · `lasagna-v2` · **Development:** [bench: compare Lasagna with external codecs](https://github.com/gcomneno/lasagna-v2/commit/676216d6ebb138c95c7069a07ee12c8f9b5cb184)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-05** · `petra` · **Development:** [research: classify Matula-Goebel interpretation](https://github.com/gcomneno/petra/commit/750b7024258b2e349401fdf2f59e86c1f68c2631)
+- **2026-10-05** · `lasagna-v2` · **Refactor:** [decouple V2 from V1 wire encoding](https://github.com/gcomneno/lasagna-v2/commit/db5602fc636f44d1ed982ddd2e740a9a9187a090)
+- **2026-10-05** · `giadaware-ui-components` · **Refactor:** [expose a root-only public package API (#82)](https://github.com/gcomneno/giadaware-ui-components/commit/783789b2bb972564546e3c2743c859024aaf9fa6)
+- **2026-10-05** · `petra` · **Development:** [research: establish Matula-Goebel PIP baseline](https://github.com/gcomneno/petra/commit/afefb2698d8d2d347fe84c0e2c8723b6b354e839)
+- **2026-10-05** · `petra` · **Docs:** [define PETRA interpretation contract](https://github.com/gcomneno/petra/commit/787cbae7cd53be38488e7c22b0c1e7d6746238a8)
+- **2026-10-05** · `petra` · **Refactor:** [retire pre-separation PETRA core](https://github.com/gcomneno/petra/commit/0054ce7439cfb600cba1b9e1bbbd9d0369f7c106)
+- **2026-10-05** · `lasagna-v2` · **Feature:** [make V2 the default encoder](https://github.com/gcomneno/lasagna-v2/commit/43d07bc460bf66309f028409e435795176d9ea02)
+- **2026-10-05** · `petra` · **Refactor:** [remove PETRA-coupled Resolver residues](https://github.com/gcomneno/petra/commit/848569db134e0d16578376a0d5560922b7059fd2)
+- **2026-10-05** · `petra` · **Refactor:** [retire classic Resolver runtime](https://github.com/gcomneno/petra/commit/1e54a68fa92e14016dcb75e297c8648493d60b28)
+- **2026-10-05** · `petra` · **Refactor:** [retire legacy Resolver CLIs](https://github.com/gcomneno/petra/commit/8f232d59037d34a4aed2bf72629d3cb08ffc659e)
+- **2026-10-05** · `giadaware-ui-components` · **Docs:** [add GiadaWare UI interface guide (#81)](https://github.com/gcomneno/giadaware-ui-components/commit/efcfa1e9356a67d83dce2f1104f5a6920c769f51)
+- **2026-10-05** · `petra` · **Refactor:** [isolate Resolver package root](https://github.com/gcomneno/petra/commit/af837c7a16be172fbbc1a095260d626a9e66455f)
+- **2026-10-05** · `giadaware-ui-components` · **Feature:** [add native Radio primitive (#80)](https://github.com/gcomneno/giadaware-ui-components/commit/35215932c756441018fcf59286bd71b04b5c8c2c)
+- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native path verifier](https://github.com/gcomneno/petra/commit/c87873daceb684c4d05c451aae06a1ff7a2edc1c)
+- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native structural distance](https://github.com/gcomneno/petra/commit/daf17dec9780398359779c9042a975f571659000)
+- **2026-10-05** · `petra` · **Feature:** [add SHAPES-native structural search](https://github.com/gcomneno/petra/commit/050a28121cbc0a4768a8da50b103d2d5a7e2148f)
+- **2026-10-04** · `petra` · **Docs:** [formalize SHAPES occurrence path contract](https://github.com/gcomneno/petra/commit/985ed03dc5bd2c8584271e35f41239d2a665fc54)
 - **2026-10-04** · `petra` · **Feature:** [add SHAPES occurrence traversal](https://github.com/gcomneno/petra/commit/cb96b6b6d643bdea71fba58db2e4894adc136f2a)
 - **2026-10-04** · `petra` · **Feature:** [add SHAPES intrinsic runtime](https://github.com/gcomneno/petra/commit/e38107313d2a3a9c22a4c80d268a859403302ff7)
 - **2026-10-04** · `petra` · **Docs:** [establish SHAPES core boundary](https://github.com/gcomneno/petra/commit/0548c5b8de1e55dbc329cce0da25316b6d5e4e0d)
@@ -298,25 +315,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [explain M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/cc7eb5e5d7ffb20b59794c9dafc5545cac0d1baf)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [document Italian M0.7 cooldown contract](https://github.com/gcomneno/cat-couch-guardian/commit/72076360836a9c41d2ee8ad2a568d7381329be85)
 - **2026-09-23** · `cat-couch-guardian` · **Docs:** [document M0.7 cooldown contract](https://github.com/gcomneno/cat-couch-guardian/commit/59e4d661da9fbb2833561a41356265cbe5900375)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [demonstrate deterministic cooldown decisions](https://github.com/gcomneno/cat-couch-guardian/commit/1051135633978b45d2b7b30530e9120613e57e54)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [emit deterministic event timestamps](https://github.com/gcomneno/cat-couch-guardian/commit/2f4b6b56aada4affd83f4992503fe811233344aa)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [make simulated event time explicit](https://github.com/gcomneno/cat-couch-guardian/commit/a33c380bc25f1aef385593298f26a9bf149c5930)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [implement deterministic cooldown policy](https://github.com/gcomneno/cat-couch-guardian/commit/6169521e0caa488610c2b751fe68734cd316f1f9)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [add explicit cooldown state](https://github.com/gcomneno/cat-couch-guardian/commit/051117395c57e19719a9fa2acaba6ada282fa925)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [expose suppression evidence boundary](https://github.com/gcomneno/cat-couch-guardian/commit/ae9756aaa1d1c31dd7b3224efae4a291feda7545)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [add deterministic event timestamp](https://github.com/gcomneno/cat-couch-guardian/commit/ea2947edd385b37d55075c93a52507cda628e447)
-- **2026-09-23** · `cat-couch-guardian` · **Feature:** [define cooldown suppression evidence](https://github.com/gcomneno/cat-couch-guardian/commit/2d49dacbe884d617a1d3f97dde3687ab0ab40374)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian engineering exercises](https://github.com/gcomneno/cat-couch-guardian/commit/112e7ce1f1b6fde7acf8beb2ce957c2c60893819)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian architecture guide](https://github.com/gcomneno/cat-couch-guardian/commit/ae274bd5852d02d54a58eb7291420525ce014b78)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian learning path](https://github.com/gcomneno/cat-couch-guardian/commit/7bb5745443ad6c0a37589891f858e1394f502df8)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian README](https://github.com/gcomneno/cat-couch-guardian/commit/073f027a9e81f6a1111ecdd7a41cdf6dc9d5ec95)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add Italian documentation policy](https://github.com/gcomneno/cat-couch-guardian/commit/281af14a8435b14a2daf53ab47f9e07662f14380)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [define bilingual documentation policy](https://github.com/gcomneno/cat-couch-guardian/commit/90dea27e13a8e806f675adbb68b7bac8eb99e5c1)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add bilingual language selectors](https://github.com/gcomneno/cat-couch-guardian/commit/b4d8f85b1a7f4223d60b0ba909c7eb121e540dd4)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [make README a learning entry point](https://github.com/gcomneno/cat-couch-guardian/commit/c34fb57fce30b7c8ecbafe4da8b49cfb239b71aa)
-- **2026-09-23** · `cat-couch-guardian` · **Docs:** [add junior engineering exercises](https://github.com/gcomneno/cat-couch-guardian/commit/60e99d05d6682e0bd6b13bfd38fb4e28af73812c)
 
-_Showing the 100 most recent meaningful updates; 1695 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1712 older update(s) omitted._
 
 </details>
 
