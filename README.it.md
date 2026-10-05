@@ -249,19 +249,23 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [runtime: introduce intrinsic PETRA form semantics (#343)](https://github.com/gcomneno/agnostic-shapes-core/commit/643c6134ce49fa258dff6ce3bcac310e945e7e68)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/agnostic-shapes-core/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/agnostic-shapes-core/commit/d16be327973773513202b4eb2253535c6c2397f9)
+- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote AIP-5 interpretation boundary](https://github.com/gcomneno/agnostic-shapes-core/commit/03af1dfd062808b3c0f45f38aa441e03353a8cd6)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/agnostic-shapes-core/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/agnostic-shapes-core/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/agnostic-shapes-core/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/agnostic-shapes-core/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
+- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: distinguish carrier size from representation node count](https://github.com/gcomneno/agnostic-shapes-core/commit/6a78c8f8442bff76c63be95ade0cdcfc548714c3)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: align public inverse laws with reconciled rewrites (#328)](https://github.com/gcomneno/agnostic-shapes-core/commit/8364b7307908f5fbb37bd6e54c8e9d90b6ec79de)
 - **2026-10-03** · `lasagna-v2` · **Documentazione:** [add citation metadata for v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/723862f8960d631ecaf1cb619c3a2e3fb3cbd40f)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/agnostic-shapes-core/commit/efc87d3dae7963802d73c9e5033f140da232599f)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/agnostic-shapes-core/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: reconcile public rewrites with intrinsic ADD/REMOVE (#322)](https://github.com/gcomneno/agnostic-shapes-core/commit/42418fb5dde7f16abc6e18a9759a82c65d931908)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE inverse law (#320)](https://github.com/gcomneno/agnostic-shapes-core/commit/523fd9adabdd826a50c7331a236f38a9692887d7)
+- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE inverse law](https://github.com/gcomneno/agnostic-shapes-core/commit/223c79f93e9aa501013c3c425bfcb46fbe1b6de2)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE edit algebra (#318)](https://github.com/gcomneno/agnostic-shapes-core/commit/4e51e9d18eeb2691071af62a872d668119b978a0)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote canonical carrier and structural equality (#316)](https://github.com/gcomneno/agnostic-shapes-core/commit/00182915c418fd872e806d4cd878c4ed4e475242)
+- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote canonical carrier and structural equality](https://github.com/gcomneno/agnostic-shapes-core/commit/796a8deb1c7515072e2c6892f0d4339c9031564d)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [research: define Phase 7 normative promotion boundary (#314)](https://github.com/gcomneno/agnostic-shapes-core/commit/98e15910a3f065ef9e69483d8f39f19a3c44a192)
 - **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
 - **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
@@ -311,12 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [explain Italian M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/8a738ff099989ee18925f4c0696e427c6eeedffd)
 - **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [explain M0.7 state machine architecture](https://github.com/gcomneno/cat-couch-guardian/commit/cc7eb5e5d7ffb20b59794c9dafc5545cac0d1baf)
 - **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [document Italian M0.7 cooldown contract](https://github.com/gcomneno/cat-couch-guardian/commit/72076360836a9c41d2ee8ad2a568d7381329be85)
-- **2026-09-23** · `cat-couch-guardian` · **Documentazione:** [document M0.7 cooldown contract](https://github.com/gcomneno/cat-couch-guardian/commit/59e4d661da9fbb2833561a41356265cbe5900375)
-- **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [demonstrate deterministic cooldown decisions](https://github.com/gcomneno/cat-couch-guardian/commit/1051135633978b45d2b7b30530e9120613e57e54)
-- **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [emit deterministic event timestamps](https://github.com/gcomneno/cat-couch-guardian/commit/2f4b6b56aada4affd83f4992503fe811233344aa)
-- **2026-09-23** · `cat-couch-guardian` · **Funzionalità:** [make simulated event time explicit](https://github.com/gcomneno/cat-couch-guardian/commit/a33c380bc25f1aef385593298f26a9bf149c5930)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1710 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1713 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
