@@ -101,7 +101,7 @@ Upstream: [mautic/mautic](https://github.com/mautic/mautic) · Fork: [gcomneno/m
 | --- | --- |
 | Correzione del packaging di release affinché la dipendenza runtime `symfony/dom-crawler` sia inclusa negli archivi di installazione generati, con un'asserzione nel workflow di release a protezione dell'artefatto pacchettizzato | Diagnosi delle dipendenze PHP/Symfony, release engineering, protezione CI contro regressioni e disciplina di review upstream |
 
-Riconoscimento del maintainer: dopo il merge del fix, un maintainer Mautic ha richiesto l'aggiunta di `@gcomneno` all'elenco dei contributor del progetto per `code`; la relativa PR automatica [#17618](https://github.com/mautic/mautic/pull/17618) è stata approvata ed è in attesa di merge.
+Riconoscimento del maintainer: dopo il merge del fix, un maintainer Mautic ha richiesto l'aggiunta di `@gcomneno` all'elenco dei contributor del progetto per `code`; la relativa PR automatica [#17618](https://github.com/mautic/mautic/pull/17618) è stata integrata in `7.x`, registrando formalmente il contributo nei metadata dei contributor Mautic.
 
 
 ### Pull request upstream selezionate e integrate
