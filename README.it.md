@@ -211,14 +211,18 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-05** · `lasagna-v2` · **Sicurezza:** [enforce codec resource limits](https://github.com/gcomneno/lasagna-v2/commit/340ce37d8b8e54c7879435d8dd1c898c132d9437)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [meta: define production-readiness criteria](https://github.com/gcomneno/lasagna-v2/commit/a69e22c3ba79ef4fffa722206d9c460b5c75ea62)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [design: define access architecture](https://github.com/gcomneno/lasagna-v2/commit/6726502e4dc3ce7f68c46b666e0071e100feb63a)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: define multivariate architecture](https://github.com/gcomneno/lasagna-v2/commit/4e592a128d62f1afd7cdca8ce8dd7679a0707158)
+- **2026-10-06** · `lasagna-v2` · **Sicurezza:** [qualify codec fuzzing](https://github.com/gcomneno/lasagna-v2/commit/ed80a10d792bbcdcc8f427c5b8367377a8abee3f)
+- **2026-10-06** · `agnostic-shapes-core` · **Sviluppo:** [research: derive PETRA local divisibility law](https://github.com/gcomneno/agnostic-shapes-core/commit/1e86c8a9bea12a0d15f6845b7da2906344f11ddd)
+- **2026-10-06** · `agnostic-shapes-core` · **Sviluppo:** [research: derive PETRA context-stable factor law](https://github.com/gcomneno/agnostic-shapes-core/commit/d50c32f55798cad0cac4e104d5abb4327b55c664)
+- **2026-10-06** · `agnostic-shapes-core` · **Sviluppo:** [research: formalize PETRA remove-add composition](https://github.com/gcomneno/agnostic-shapes-core/commit/b4793a124af74bf636c364b5b9ef6755927493ae)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-05** · `lasagna-v2` · **Sicurezza:** [enforce codec resource limits](https://github.com/gcomneno/lasagna-v2/commit/340ce37d8b8e54c7879435d8dd1c898c132d9437)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [meta: define production-readiness criteria](https://github.com/gcomneno/lasagna-v2/commit/a69e22c3ba79ef4fffa722206d9c460b5c75ea62)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [design: define access architecture](https://github.com/gcomneno/lasagna-v2/commit/6726502e4dc3ce7f68c46b666e0071e100feb63a)
+- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: define multivariate architecture](https://github.com/gcomneno/lasagna-v2/commit/4e592a128d62f1afd7cdca8ce8dd7679a0707158)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate entropy coding for residual payloads](https://github.com/gcomneno/lasagna-v2/commit/f623f41756c210607fe2385b84cb2fde12fe1543)
 - **2026-10-05** · `agnostic-shapes-core` · **Sviluppo:** [shapes: admit intrinsic height and leaf-count metrics](https://github.com/gcomneno/agnostic-shapes-core/commit/472f44a2d261b9efec1cfb762350839779e60fe3)
 - **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate residual coding strategies](https://github.com/gcomneno/lasagna-v2/commit/5057629dafbc0fc29911ec67cb287380d19d35c4)
@@ -311,12 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-09-28** · `lele-manager` · **Funzionalità:** [add bounded ask-this-vault workflow (#260)](https://github.com/gcomneno/lele-manager/commit/dda0d0a13c9429c13b288a806bb3473b45212fe1)
 - **2026-09-28** · `lele-manager` · **Funzionalità:** [add evidence-backed factual verification (#259)](https://github.com/gcomneno/lele-manager/commit/c61e156d482cb05975c902cf2ba6b1183d53f6e9)
 - **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/agnostic-shapes-core/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: validate exact PETRA leaf-edit metric formula (#310)](https://github.com/gcomneno/agnostic-shapes-core/commit/dc6181ee210abb6c3faab8fe980077afde62e628)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: refute rooted lower-neighbour set reconstruction (#308)](https://github.com/gcomneno/agnostic-shapes-core/commit/d7573c4c4f00b9ed2106cdd4b8186ae052af5017)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: validate global PETRA edit-graph automorphism questions (#306)](https://github.com/gcomneno/agnostic-shapes-core/commit/cc0a0dd03380502b75f0d3804fa5b4b78f1a6699)
-- **2026-09-24** · `agnostic-shapes-core` · **Sviluppo:** [research: audit PETRA witnessed edits against residual-system axioms (#304)](https://github.com/gcomneno/agnostic-shapes-core/commit/4d1d7100da1fa36e2616f0c2fd3dca36285d3663)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1726 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1730 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
