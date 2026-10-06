@@ -211,14 +211,20 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-06** · `lasagna-v2` · **Security:** [qualify codec fuzzing](https://github.com/gcomneno/lasagna-v2/commit/ed80a10d792bbcdcc8f427c5b8367377a8abee3f)
-- **2026-10-06** · `agnostic-shapes-core` · **Development:** [research: derive PETRA local divisibility law](https://github.com/gcomneno/agnostic-shapes-core/commit/1e86c8a9bea12a0d15f6845b7da2906344f11ddd)
-- **2026-10-06** · `agnostic-shapes-core` · **Development:** [research: derive PETRA context-stable factor law](https://github.com/gcomneno/agnostic-shapes-core/commit/d50c32f55798cad0cac4e104d5abb4327b55c664)
-- **2026-10-06** · `agnostic-shapes-core` · **Development:** [research: formalize PETRA remove-add composition](https://github.com/gcomneno/agnostic-shapes-core/commit/b4793a124af74bf636c364b5b9ef6755927493ae)
+- **2026-10-06** · `lasagna-v2` · **Release:** [define versioning compatibility policy](https://github.com/gcomneno/lasagna-v2/commit/1b7906afd8202a3cda1d865449edc4ff483bbfe8)
+- **2026-10-06** · `lasagna-v2` · **Development:** [api: freeze public stability contract](https://github.com/gcomneno/lasagna-v2/commit/ccdc14090ba107ed48cd30f775133261c784b96a)
+- **2026-10-06** · `lasagna-v2` · **Security:** [qualify parser threat model](https://github.com/gcomneno/lasagna-v2/commit/24c0b51d124e7f37c83c24ce003daf4662a1637c)
+- **2026-10-06** · `giadaware-ui-components` · **Feature:** [expand component surface (#84)](https://github.com/gcomneno/giadaware-ui-components/commit/60ddff72b74e2d36a49d050708c84fc5523f005d)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-06** · `lasagna-v2` · **Development:** [performance: qualify large-file behavior](https://github.com/gcomneno/lasagna-v2/commit/89b3f31163327d9eba32d5c31a56041f59c6145b)
+- **2026-10-06** · `agnostic-shapes-core` · **Docs:** [formalize PETRA operational contract](https://github.com/gcomneno/agnostic-shapes-core/commit/dd017fdfcff59a21742a1d896524f59db5a2fd48)
+- **2026-10-06** · `lasagna-v2` · **Security:** [qualify codec fuzzing](https://github.com/gcomneno/lasagna-v2/commit/ed80a10d792bbcdcc8f427c5b8367377a8abee3f)
+- **2026-10-06** · `agnostic-shapes-core` · **Development:** [research: derive PETRA local divisibility law](https://github.com/gcomneno/agnostic-shapes-core/commit/1e86c8a9bea12a0d15f6845b7da2906344f11ddd)
+- **2026-10-06** · `agnostic-shapes-core` · **Development:** [research: derive PETRA context-stable factor law](https://github.com/gcomneno/agnostic-shapes-core/commit/d50c32f55798cad0cac4e104d5abb4327b55c664)
+- **2026-10-06** · `agnostic-shapes-core` · **Development:** [research: formalize PETRA remove-add composition](https://github.com/gcomneno/agnostic-shapes-core/commit/b4793a124af74bf636c364b5b9ef6755927493ae)
 - **2026-10-05** · `lasagna-v2` · **Security:** [enforce codec resource limits](https://github.com/gcomneno/lasagna-v2/commit/340ce37d8b8e54c7879435d8dd1c898c132d9437)
 - **2026-10-05** · `lasagna-v2` · **Development:** [meta: define production-readiness criteria](https://github.com/gcomneno/lasagna-v2/commit/a69e22c3ba79ef4fffa722206d9c460b5c75ea62)
 - **2026-10-05** · `lasagna-v2` · **Development:** [design: define access architecture](https://github.com/gcomneno/lasagna-v2/commit/6726502e4dc3ce7f68c46b666e0071e100feb63a)
@@ -309,14 +315,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-02** · `laravel-postgres-docker-baseline` · **Fix:** [preserve empty unit test directory](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/57049467018b7f7ba3921a7322c59d63c5af0f3f)
 - **2026-10-02** · `laravel-postgres-docker-baseline` · **Docs:** [document repository license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/9c0132f3746a2ac830fcc0f89e64899fe871b4bf)
 - **2026-10-02** · `laravel-postgres-docker-baseline` · **Docs:** [add MIT license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/647c80f18d5d501f85f43de521c7ed9d03559414)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Development:** [Initial Laravel PostgreSQL Docker baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/d50b262d292b00bd246251fac31f5fee906c2f82)
-- **2026-09-29** · `lele-manager` · **Docs:** [add Zenodo citation metadata (#263)](https://github.com/gcomneno/lele-manager/commit/331b94792dbd49b7d27818f5bf3663fd10479585)
-- **2026-09-28** · `lele-manager` · **Release:** [LeLe Manager v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0)
-- **2026-09-28** · `lele-manager` · **Feature:** [add bounded ask-this-vault workflow (#260)](https://github.com/gcomneno/lele-manager/commit/dda0d0a13c9429c13b288a806bb3473b45212fe1)
-- **2026-09-28** · `lele-manager` · **Feature:** [add evidence-backed factual verification (#259)](https://github.com/gcomneno/lele-manager/commit/c61e156d482cb05975c902cf2ba6b1183d53f6e9)
-- **2026-09-24** · `agnostic-shapes-core` · **Development:** [research: close Phase 6 external mathematical validation (#312)](https://github.com/gcomneno/agnostic-shapes-core/commit/4a65d073501b7e6e6aa0980bce88766be387bccf)
 
-_Showing the 100 most recent meaningful updates; 1730 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1736 older update(s) omitted._
 
 </details>
 
