@@ -211,14 +211,18 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-06** · `lasagna-v2` · **Release:** [define versioning compatibility policy](https://github.com/gcomneno/lasagna-v2/commit/1b7906afd8202a3cda1d865449edc4ff483bbfe8)
-- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [api: freeze public stability contract](https://github.com/gcomneno/lasagna-v2/commit/ccdc14090ba107ed48cd30f775133261c784b96a)
-- **2026-10-06** · `lasagna-v2` · **Sicurezza:** [qualify parser threat model](https://github.com/gcomneno/lasagna-v2/commit/24c0b51d124e7f37c83c24ce003daf4662a1637c)
-- **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [expand component surface (#84)](https://github.com/gcomneno/giadaware-ui-components/commit/60ddff72b74e2d36a49d050708c84fc5523f005d)
+- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: qualify external production corpus](https://github.com/gcomneno/lasagna-v2/commit/5d2b46b038c0457719cbc966bfb074abd01bc242)
+- **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
+- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: freeze external qualification inputs](https://github.com/gcomneno/lasagna-v2/commit/34cf0270126942cefc605db572a2fd1f92bd94b1)
+- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: freeze external qualification corpus](https://github.com/gcomneno/lasagna-v2/commit/291cd56450b3037be1a10b81b672fff2a9c19a7c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-06** · `lasagna-v2` · **Release:** [define versioning compatibility policy](https://github.com/gcomneno/lasagna-v2/commit/1b7906afd8202a3cda1d865449edc4ff483bbfe8)
+- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [api: freeze public stability contract](https://github.com/gcomneno/lasagna-v2/commit/ccdc14090ba107ed48cd30f775133261c784b96a)
+- **2026-10-06** · `lasagna-v2` · **Sicurezza:** [qualify parser threat model](https://github.com/gcomneno/lasagna-v2/commit/24c0b51d124e7f37c83c24ce003daf4662a1637c)
+- **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [expand component surface (#84)](https://github.com/gcomneno/giadaware-ui-components/commit/60ddff72b74e2d36a49d050708c84fc5523f005d)
 - **2026-10-06** · `lasagna-v2` · **Sviluppo:** [performance: qualify large-file behavior](https://github.com/gcomneno/lasagna-v2/commit/89b3f31163327d9eba32d5c31a56041f59c6145b)
 - **2026-10-06** · `agnostic-shapes-core` · **Documentazione:** [formalize PETRA operational contract](https://github.com/gcomneno/agnostic-shapes-core/commit/dd017fdfcff59a21742a1d896524f59db5a2fd48)
 - **2026-10-06** · `lasagna-v2` · **Sicurezza:** [qualify codec fuzzing](https://github.com/gcomneno/lasagna-v2/commit/ed80a10d792bbcdcc8f427c5b8367377a8abee3f)
@@ -311,12 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.2B revision policy v1.2](https://github.com/gcomneno/lasagna-v2/commit/8e863d6a47569739cdefbb7875d993a32aead216)
 - **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record retention commit in protocol ledger](https://github.com/gcomneno/lasagna-v2/commit/e8e2efc96ed960055f69cbefe650d84b3ada18e4)
 - **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.2B methodology and retain protocol history](https://github.com/gcomneno/lasagna-v2/commit/bb41cafe33f45e9158374afaf8bb4ebc4798cb48)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [preserve empty unit test directory](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/57049467018b7f7ba3921a7322c59d63c5af0f3f)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [document repository license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/9c0132f3746a2ac830fcc0f89e64899fe871b4bf)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Documentazione:** [add MIT license](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/647c80f18d5d501f85f43de521c7ed9d03559414)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1736 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1740 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
