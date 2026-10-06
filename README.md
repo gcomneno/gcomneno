@@ -211,14 +211,16 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-06** · `atelier-kit` · **Feature:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
+- **2026-10-06** · `lasagna-v2` · **Docs:** [complete production operational guidance](https://github.com/gcomneno/lasagna-v2/commit/a0b2d2e4ad28b908da1a8d08e53f110e9c375c95)
 - **2026-10-06** · `lasagna-v2` · **Development:** [research: qualify external production corpus](https://github.com/gcomneno/lasagna-v2/commit/5d2b46b038c0457719cbc966bfb074abd01bc242)
 - **2026-10-06** · `giadaware-ui-components` · **Feature:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
-- **2026-10-06** · `lasagna-v2` · **Development:** [research: freeze external qualification inputs](https://github.com/gcomneno/lasagna-v2/commit/34cf0270126942cefc605db572a2fd1f92bd94b1)
-- **2026-10-06** · `lasagna-v2` · **Development:** [research: freeze external qualification corpus](https://github.com/gcomneno/lasagna-v2/commit/291cd56450b3037be1a10b81b672fff2a9c19a7c)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-06** · `lasagna-v2` · **Development:** [research: freeze external qualification inputs](https://github.com/gcomneno/lasagna-v2/commit/34cf0270126942cefc605db572a2fd1f92bd94b1)
+- **2026-10-06** · `lasagna-v2` · **Development:** [research: freeze external qualification corpus](https://github.com/gcomneno/lasagna-v2/commit/291cd56450b3037be1a10b81b672fff2a9c19a7c)
 - **2026-10-06** · `lasagna-v2` · **Release:** [define versioning compatibility policy](https://github.com/gcomneno/lasagna-v2/commit/1b7906afd8202a3cda1d865449edc4ff483bbfe8)
 - **2026-10-06** · `lasagna-v2` · **Development:** [api: freeze public stability contract](https://github.com/gcomneno/lasagna-v2/commit/ccdc14090ba107ed48cd30f775133261c784b96a)
 - **2026-10-06** · `lasagna-v2` · **Security:** [qualify parser threat model](https://github.com/gcomneno/lasagna-v2/commit/24c0b51d124e7f37c83c24ce003daf4662a1637c)
@@ -313,10 +315,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-02** · `lasagna-v2` · **Development:** [Record M2.2C.0 inconclusive evidence](https://github.com/gcomneno/lasagna-v2/commit/18e29752c8f8fdc1ada186ff41d3e304666f0e8f)
 - **2026-10-02** · `lasagna-v2` · **Development:** [Record v1.2 retention commit](https://github.com/gcomneno/lasagna-v2/commit/5313625e29cd47c9b69cbd9b5b8fc91f0f39b589)
 - **2026-10-02** · `lasagna-v2` · **Development:** [Freeze M2.2B revision policy v1.2](https://github.com/gcomneno/lasagna-v2/commit/8e863d6a47569739cdefbb7875d993a32aead216)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Record retention commit in protocol ledger](https://github.com/gcomneno/lasagna-v2/commit/e8e2efc96ed960055f69cbefe650d84b3ada18e4)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Freeze M2.2B methodology and retain protocol history](https://github.com/gcomneno/lasagna-v2/commit/bb41cafe33f45e9158374afaf8bb4ebc4798cb48)
 
-_Showing the 100 most recent meaningful updates; 1740 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1742 older update(s) omitted._
 
 </details>
 
