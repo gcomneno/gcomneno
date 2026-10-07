@@ -211,14 +211,18 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
-- **2026-10-07** · `lasagna-v2` · **Documentazione:** [reconcile final production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/bf993456771abfceb37e39e225f53d21c4cbf711)
-- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add canonical STR materialization](https://github.com/gcomneno/agnostic-shapes-core/commit/222f107c7b20e7945daffee6b730148f01f44568)
-- **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
+- **2026-10-07** · `lasagna-v2` · **Release:** [Lasagna 2 v0.3.0](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.3.0)
+- **2026-10-07** · `lasagna-v2` · **Documentazione:** [align manifesto with production qualification](https://github.com/gcomneno/lasagna-v2/commit/b08a67509d3301579fded1a7c4eb7797dd306ca8)
+- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add LRPE STR interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/b18d13712721d09e7fdbb6c0b98777ceb93c8821)
+- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [meta: declare production readiness](https://github.com/gcomneno/lasagna-v2/commit/6a90c2163e304ab25f2107e6f44087c61d86212c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
+- **2026-10-07** · `lasagna-v2` · **Documentazione:** [reconcile final production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/bf993456771abfceb37e39e225f53d21c4cbf711)
+- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add canonical STR materialization](https://github.com/gcomneno/agnostic-shapes-core/commit/222f107c7b20e7945daffee6b730148f01f44568)
+- **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 - **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [design STR LAMBDA runtime boundary](https://github.com/gcomneno/agnostic-shapes-core/commit/689e626f2645a39a8442a4294edd3340bb4d2ae7)
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
 - **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [prove COLLATZ factorization through STR](https://github.com/gcomneno/agnostic-shapes-core/commit/4b70b0fc648bf85d0c506533cbe355268e0fcdac)
@@ -311,12 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE edit algebra (#318)](https://github.com/gcomneno/agnostic-shapes-core/commit/4e51e9d18eeb2691071af62a872d668119b978a0)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote canonical carrier and structural equality (#316)](https://github.com/gcomneno/agnostic-shapes-core/commit/00182915c418fd872e806d4cd878c4ed4e475242)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [research: define Phase 7 normative promotion boundary (#314)](https://github.com/gcomneno/agnostic-shapes-core/commit/98e15910a3f065ef9e69483d8f39f19a3c44a192)
-- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
-- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
-- **2026-10-03** · `lasagna-v2` · **Release:** [Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2)
-- **2026-10-03** · `lasagna-v2` · **Sviluppo:** [Release Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/ca595039cf3d284a302f36343716b79752ee8f9b)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1758 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1761 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
