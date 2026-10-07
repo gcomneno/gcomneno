@@ -211,14 +211,19 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-07** · `lasagna-v2` · **Release:** [Lasagna 2 v0.3.0](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.3.0)
-- **2026-10-07** · `lasagna-v2` · **Documentazione:** [align manifesto with production qualification](https://github.com/gcomneno/lasagna-v2/commit/b08a67509d3301579fded1a7c4eb7797dd306ca8)
-- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add LRPE STR interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/b18d13712721d09e7fdbb6c0b98777ceb93c8821)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [meta: declare production readiness](https://github.com/gcomneno/lasagna-v2/commit/6a90c2163e304ab25f2107e6f44087c61d86212c)
+- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
+- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: add local-model value benchmark](https://github.com/gcomneno/lasagna-v2/commit/4308aedacb3f74463e02b340be409d48c73f4e6d)
+- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: freeze local-model value experiment protocol](https://github.com/gcomneno/lasagna-v2/commit/198c8fd3434360c405d15a3e2a353dab039ca1ec)
+- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [close LAMBDA interface decision](https://github.com/gcomneno/agnostic-shapes-core/commit/194d0a0e3b884bde4f91bf3cb91be0c11981063c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add Collatz STR interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/41e337e29df0a1f185577aa8a9cff76cf45baaae)
+- **2026-10-07** · `lasagna-v2` · **Release:** [Lasagna 2 v0.3.0](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.3.0)
+- **2026-10-07** · `lasagna-v2` · **Documentazione:** [align manifesto with production qualification](https://github.com/gcomneno/lasagna-v2/commit/b08a67509d3301579fded1a7c4eb7797dd306ca8)
+- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add LRPE STR interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/b18d13712721d09e7fdbb6c0b98777ceb93c8821)
+- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [meta: declare production readiness](https://github.com/gcomneno/lasagna-v2/commit/6a90c2163e304ab25f2107e6f44087c61d86212c)
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 - **2026-10-07** · `lasagna-v2` · **Documentazione:** [reconcile final production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/bf993456771abfceb37e39e225f53d21c4cbf711)
 - **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add canonical STR materialization](https://github.com/gcomneno/agnostic-shapes-core/commit/222f107c7b20e7945daffee6b730148f01f44568)
@@ -310,13 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `lasagna-v2` · **Documentazione:** [add citation metadata for v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/723862f8960d631ecaf1cb619c3a2e3fb3cbd40f)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/agnostic-shapes-core/commit/efc87d3dae7963802d73c9e5033f140da232599f)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/agnostic-shapes-core/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: reconcile public rewrites with intrinsic ADD/REMOVE (#322)](https://github.com/gcomneno/agnostic-shapes-core/commit/42418fb5dde7f16abc6e18a9759a82c65d931908)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE inverse law (#320)](https://github.com/gcomneno/agnostic-shapes-core/commit/523fd9adabdd826a50c7331a236f38a9692887d7)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote intrinsic ADD/REMOVE edit algebra (#318)](https://github.com/gcomneno/agnostic-shapes-core/commit/4e51e9d18eeb2691071af62a872d668119b978a0)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote canonical carrier and structural equality (#316)](https://github.com/gcomneno/agnostic-shapes-core/commit/00182915c418fd872e806d4cd878c4ed4e475242)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [research: define Phase 7 normative promotion boundary (#314)](https://github.com/gcomneno/agnostic-shapes-core/commit/98e15910a3f065ef9e69483d8f39f19a3c44a192)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1761 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1766 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
