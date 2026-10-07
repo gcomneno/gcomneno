@@ -211,14 +211,20 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-07** · `giadaware-ui-components` · **Docs:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
-- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [formalize tensor refinement research](https://github.com/gcomneno/agnostic-shapes-core/commit/844eeff2f0a35261d781901909010e6d0cded0aa)
-- **2026-10-06** · `atelier-kit` · **Feature:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
-- **2026-10-06** · `lasagna-v2` · **Docs:** [complete production operational guidance](https://github.com/gcomneno/lasagna-v2/commit/a0b2d2e4ad28b908da1a8d08e53f110e9c375c95)
+- **2026-10-07** · `lasagna-v2` · **Development:** [hardening: enforce supported numeric domain](https://github.com/gcomneno/lasagna-v2/commit/7d897321f4c45d4f13b29aa4074a6639982a2517)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove add remove materialized locality](https://github.com/gcomneno/agnostic-shapes-core/commit/bfd20df70f9f87555e34330b16c3ba3926801e24)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [formalize lambda interpretation contract](https://github.com/gcomneno/agnostic-shapes-core/commit/6fa129f89b2bed10557e158529d9ee580977e52a)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove tensor materialization faithfulness](https://github.com/gcomneno/agnostic-shapes-core/commit/913b2022f09d0419a81b240e869242c0f3db92b2)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-07** · `lasagna-v2` · **Docs:** [reconcile production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/c5bfeccf54ec80b8d5626c9d911147dd19537710)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove recursive refinement faithfulness](https://github.com/gcomneno/agnostic-shapes-core/commit/74d1f7700229b85226b687d35df8eaacf7bb5bd2)
+- **2026-10-07** · `giadaware-ui-components` · **Docs:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [formalize tensor refinement research](https://github.com/gcomneno/agnostic-shapes-core/commit/844eeff2f0a35261d781901909010e6d0cded0aa)
+- **2026-10-06** · `atelier-kit` · **Feature:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
+- **2026-10-06** · `lasagna-v2` · **Docs:** [complete production operational guidance](https://github.com/gcomneno/lasagna-v2/commit/a0b2d2e4ad28b908da1a8d08e53f110e9c375c95)
 - **2026-10-06** · `lasagna-v2` · **Development:** [research: qualify external production corpus](https://github.com/gcomneno/lasagna-v2/commit/5d2b46b038c0457719cbc966bfb074abd01bc242)
 - **2026-10-06** · `giadaware-ui-components` · **Feature:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
 - **2026-10-06** · `lasagna-v2` · **Development:** [research: freeze external qualification inputs](https://github.com/gcomneno/lasagna-v2/commit/34cf0270126942cefc605db572a2fd1f92bd94b1)
@@ -286,17 +292,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/agnostic-shapes-core/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/agnostic-shapes-core/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
-- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: distinguish carrier size from representation node count](https://github.com/gcomneno/agnostic-shapes-core/commit/6a78c8f8442bff76c63be95ade0cdcfc548714c3)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: align public inverse laws with reconciled rewrites (#328)](https://github.com/gcomneno/agnostic-shapes-core/commit/8364b7307908f5fbb37bd6e54c8e9d90b6ec79de)
 - **2026-10-03** · `lasagna-v2` · **Docs:** [add citation metadata for v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/723862f8960d631ecaf1cb619c3a2e3fb3cbd40f)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/agnostic-shapes-core/commit/efc87d3dae7963802d73c9e5033f140da232599f)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/agnostic-shapes-core/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: reconcile public rewrites with intrinsic ADD/REMOVE (#322)](https://github.com/gcomneno/agnostic-shapes-core/commit/42418fb5dde7f16abc6e18a9759a82c65d931908)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote intrinsic ADD/REMOVE inverse law (#320)](https://github.com/gcomneno/agnostic-shapes-core/commit/523fd9adabdd826a50c7331a236f38a9692887d7)
-- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote intrinsic ADD/REMOVE inverse law](https://github.com/gcomneno/agnostic-shapes-core/commit/223c79f93e9aa501013c3c425bfcb46fbe1b6de2)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote intrinsic ADD/REMOVE edit algebra (#318)](https://github.com/gcomneno/agnostic-shapes-core/commit/4e51e9d18eeb2691071af62a872d668119b978a0)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote canonical carrier and structural equality (#316)](https://github.com/gcomneno/agnostic-shapes-core/commit/00182915c418fd872e806d4cd878c4ed4e475242)
-- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote canonical carrier and structural equality](https://github.com/gcomneno/agnostic-shapes-core/commit/796a8deb1c7515072e2c6892f0d4339c9031564d)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [research: define Phase 7 normative promotion boundary (#314)](https://github.com/gcomneno/agnostic-shapes-core/commit/98e15910a3f065ef9e69483d8f39f19a3c44a192)
 - **2026-10-03** · `lasagna-v2` · **Development:** [Move dependency review action to Node 24](https://github.com/gcomneno/lasagna-v2/commit/9d0a276c37c46b34b1c9fea1abb58c59a777e2bd)
 - **2026-10-03** · `lasagna-v2` · **Development:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
@@ -312,11 +315,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-02** · `lasagna-v2` · **Development:** [Freeze M2.4 physical layout L32](https://github.com/gcomneno/lasagna-v2/commit/61ae6cedd094d3272274f17d0d5e5f5c8476cea8)
 - **2026-10-02** · `lasagna-v2` · **Development:** [Record M2.3 L32 selection evidence](https://github.com/gcomneno/lasagna-v2/commit/821c50cf17778f5951505bcf1895b75a45a3ff88)
 - **2026-10-02** · `lasagna-v2` · **Development:** [Materialize M2.2C v2.0 frozen corpus](https://github.com/gcomneno/lasagna-v2/commit/cf81bd9df0f9b5480fa6e4183397870ccf668f5a)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Record v2.0 retention commit](https://github.com/gcomneno/lasagna-v2/commit/f36e8d126b774fc9d0f8df311d6290788e36d7cf)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Freeze M2.2B major revision v2.0](https://github.com/gcomneno/lasagna-v2/commit/381fbbdb90f9a79b38127d52cf82974e66620881)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Record M2.2C.0 inconclusive evidence](https://github.com/gcomneno/lasagna-v2/commit/18e29752c8f8fdc1ada186ff41d3e304666f0e8f)
 
-_Showing the 100 most recent meaningful updates; 1744 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1747 older update(s) omitted._
 
 </details>
 
