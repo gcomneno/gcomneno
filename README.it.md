@@ -211,14 +211,16 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-07** · `giadaware-ui-components` · **Documentazione:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
+- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [formalize tensor refinement research](https://github.com/gcomneno/agnostic-shapes-core/commit/844eeff2f0a35261d781901909010e6d0cded0aa)
 - **2026-10-06** · `atelier-kit` · **Funzionalità:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
 - **2026-10-06** · `lasagna-v2` · **Documentazione:** [complete production operational guidance](https://github.com/gcomneno/lasagna-v2/commit/a0b2d2e4ad28b908da1a8d08e53f110e9c375c95)
-- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: qualify external production corpus](https://github.com/gcomneno/lasagna-v2/commit/5d2b46b038c0457719cbc966bfb074abd01bc242)
-- **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: qualify external production corpus](https://github.com/gcomneno/lasagna-v2/commit/5d2b46b038c0457719cbc966bfb074abd01bc242)
+- **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
 - **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: freeze external qualification inputs](https://github.com/gcomneno/lasagna-v2/commit/34cf0270126942cefc605db572a2fd1f92bd94b1)
 - **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: freeze external qualification corpus](https://github.com/gcomneno/lasagna-v2/commit/291cd56450b3037be1a10b81b672fff2a9c19a7c)
 - **2026-10-06** · `lasagna-v2` · **Release:** [define versioning compatibility policy](https://github.com/gcomneno/lasagna-v2/commit/1b7906afd8202a3cda1d865449edc4ff483bbfe8)
@@ -313,10 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record v2.0 retention commit](https://github.com/gcomneno/lasagna-v2/commit/f36e8d126b774fc9d0f8df311d6290788e36d7cf)
 - **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.2B major revision v2.0](https://github.com/gcomneno/lasagna-v2/commit/381fbbdb90f9a79b38127d52cf82974e66620881)
 - **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record M2.2C.0 inconclusive evidence](https://github.com/gcomneno/lasagna-v2/commit/18e29752c8f8fdc1ada186ff41d3e304666f0e8f)
-- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Record v1.2 retention commit](https://github.com/gcomneno/lasagna-v2/commit/5313625e29cd47c9b69cbd9b5b8fc91f0f39b589)
-- **2026-10-02** · `lasagna-v2` · **Sviluppo:** [Freeze M2.2B revision policy v1.2](https://github.com/gcomneno/lasagna-v2/commit/8e863d6a47569739cdefbb7875d993a32aead216)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1742 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1744 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
