@@ -211,16 +211,27 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-07** · `lasagna-v2` · **Development:** [hardening: enforce supported numeric domain](https://github.com/gcomneno/lasagna-v2/commit/7d897321f4c45d4f13b29aa4074a6639982a2517)
-- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove add remove materialized locality](https://github.com/gcomneno/agnostic-shapes-core/commit/bfd20df70f9f87555e34330b16c3ba3926801e24)
-- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [formalize lambda interpretation contract](https://github.com/gcomneno/agnostic-shapes-core/commit/6fa129f89b2bed10557e158529d9ee580977e52a)
-- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove tensor materialization faithfulness](https://github.com/gcomneno/agnostic-shapes-core/commit/913b2022f09d0419a81b240e869242c0f3db92b2)
+- **2026-10-07** · `ubuntu-system-tools` · **Docs:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
+- **2026-10-07** · `lasagna-v2` · **Docs:** [reconcile final production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/bf993456771abfceb37e39e225f53d21c4cbf711)
+- **2026-10-07** · `agnostic-shapes-core` · **Feature:** [add canonical STR materialization](https://github.com/gcomneno/agnostic-shapes-core/commit/222f107c7b20e7945daffee6b730148f01f44568)
+- **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [design STR LAMBDA runtime boundary](https://github.com/gcomneno/agnostic-shapes-core/commit/689e626f2645a39a8442a4294edd3340bb4d2ae7)
+- **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove COLLATZ factorization through STR](https://github.com/gcomneno/agnostic-shapes-core/commit/4b70b0fc648bf85d0c506533cbe355268e0fcdac)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [promote STR LAMBDA architecture](https://github.com/gcomneno/agnostic-shapes-core/commit/6aa7f27dbbee9f32d4ceb741dd3d6231073d1321)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove LRPE factorization through STR](https://github.com/gcomneno/agnostic-shapes-core/commit/da1ec161cc600f14edf43afd84a4e4725062fa0c)
+- **2026-10-07** · `lasagna-v2` · **Development:** [hardening: enforce supported numeric domain](https://github.com/gcomneno/lasagna-v2/commit/7d897321f4c45d4f13b29aa4074a6639982a2517)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove add remove materialized locality](https://github.com/gcomneno/agnostic-shapes-core/commit/bfd20df70f9f87555e34330b16c3ba3926801e24)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [formalize lambda interpretation contract](https://github.com/gcomneno/agnostic-shapes-core/commit/6fa129f89b2bed10557e158529d9ee580977e52a)
+- **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove tensor materialization faithfulness](https://github.com/gcomneno/agnostic-shapes-core/commit/913b2022f09d0419a81b240e869242c0f3db92b2)
 - **2026-10-07** · `lasagna-v2` · **Docs:** [reconcile production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/c5bfeccf54ec80b8d5626c9d911147dd19537710)
 - **2026-10-07** · `agnostic-shapes-core` · **Docs:** [prove recursive refinement faithfulness](https://github.com/gcomneno/agnostic-shapes-core/commit/74d1f7700229b85226b687d35df8eaacf7bb5bd2)
+- **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add Docker and DDEV storage audits](https://github.com/gcomneno/ubuntu-system-tools/commit/0089ccada594c93ef9a1671456de78bca26f7229)
+- **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add storage health and growth audit](https://github.com/gcomneno/ubuntu-system-tools/commit/edefa5b158ec9820307bb879e7d1057604a551cf)
 - **2026-10-07** · `giadaware-ui-components` · **Docs:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 - **2026-10-07** · `agnostic-shapes-core` · **Docs:** [formalize tensor refinement research](https://github.com/gcomneno/agnostic-shapes-core/commit/844eeff2f0a35261d781901909010e6d0cded0aa)
 - **2026-10-06** · `atelier-kit` · **Feature:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
@@ -286,7 +297,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [runtime: introduce intrinsic PETRA form semantics (#343)](https://github.com/gcomneno/agnostic-shapes-core/commit/643c6134ce49fa258dff6ce3bcac310e945e7e68)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/agnostic-shapes-core/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/agnostic-shapes-core/commit/d16be327973773513202b4eb2253535c6c2397f9)
-- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote AIP-5 interpretation boundary](https://github.com/gcomneno/agnostic-shapes-core/commit/03af1dfd062808b3c0f45f38aa441e03353a8cd6)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/agnostic-shapes-core/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/agnostic-shapes-core/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
@@ -305,18 +315,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `lasagna-v2` · **Development:** [Modernize GitHub Actions runtimes](https://github.com/gcomneno/lasagna-v2/commit/99f6168050f0265dcd0d2fcafac9155ecdf5a644)
 - **2026-10-03** · `lasagna-v2` · **Release:** [Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2)
 - **2026-10-03** · `lasagna-v2` · **Development:** [Release Lasagna 2 v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/ca595039cf3d284a302f36343716b79752ee8f9b)
-- **2026-10-03** · `lasagna-v2` · **Development:** [Align CI checks with frozen scientific artifacts](https://github.com/gcomneno/lasagna-v2/commit/da2c04c005030f5adc861a05f935d121cf2714b1)
-- **2026-10-03** · `lasagna-v2` · **Development:** [Present validated V2 codec and empirical results](https://github.com/gcomneno/lasagna-v2/commit/f68fb95eb919a60bbc0a54558340ac5349e69eb3)
-- **2026-10-03** · `atelier-kit` · **Docs:** [ADR-0009 Uiverse come fonte esterna + checklist intake + issue template (#368)](https://github.com/gcomneno/atelier-kit/commit/c395fc8cc945c59062bcb8e9cfa27d9f92e7c68e)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Record V2 canonical corpus validation](https://github.com/gcomneno/lasagna-v2/commit/3690436c30d073bcb733d42723e3ddeee5818ee7)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Expose frozen V2 wire format through CLI](https://github.com/gcomneno/lasagna-v2/commit/5d6b65a69c30178741b5d0d2e3348a99d5443662)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Implement frozen L32 V2 wire path](https://github.com/gcomneno/lasagna-v2/commit/40158d3f1bb83065b5150328248aa3cc812f98e2)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Record v2.1 retention commit](https://github.com/gcomneno/lasagna-v2/commit/d7b1f9d8b6e6a01193997a0f61cabc72d09762d9)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Freeze M2.4 physical layout L32](https://github.com/gcomneno/lasagna-v2/commit/61ae6cedd094d3272274f17d0d5e5f5c8476cea8)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Record M2.3 L32 selection evidence](https://github.com/gcomneno/lasagna-v2/commit/821c50cf17778f5951505bcf1895b75a45a3ff88)
-- **2026-10-02** · `lasagna-v2` · **Development:** [Materialize M2.2C v2.0 frozen corpus](https://github.com/gcomneno/lasagna-v2/commit/cf81bd9df0f9b5480fa6e4183397870ccf668f5a)
 
-_Showing the 100 most recent meaningful updates; 1747 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1758 older update(s) omitted._
 
 </details>
 
