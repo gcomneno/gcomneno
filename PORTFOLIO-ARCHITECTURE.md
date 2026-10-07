@@ -98,7 +98,7 @@ The baseline below contains **66 repositories verified through the connected Git
 | --- | --- | --- | --- |
 | `local-dev-infrastructure` | CORE | private | KEEP |
 | `oss-toolbox` | ACTIVE | private | KEEP |
-| `ubuntu-system-tools` | ACTIVE | public | KEEP |
+| `ubuntu-system-tools` | ACTIVE | public | PROMOTE |
 | `job-search-ops` | ACTIVE | private | KEEP |
 
 ## 3. Products & Utilities
