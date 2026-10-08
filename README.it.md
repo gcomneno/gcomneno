@@ -316,7 +316,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/agnostic-shapes-core/commit/efc87d3dae7963802d73c9e5033f140da232599f)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/agnostic-shapes-core/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1766 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1760 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

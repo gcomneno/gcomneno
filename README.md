@@ -316,7 +316,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/agnostic-shapes-core/commit/efc87d3dae7963802d73c9e5033f140da232599f)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/agnostic-shapes-core/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
 
-_Showing the 100 most recent meaningful updates; 1766 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1760 older update(s) omitted._
 
 </details>
 
