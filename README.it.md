@@ -211,14 +211,17 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
+- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: clarify segment anatomy success gates](https://github.com/gcomneno/lasagna-v2/commit/4f06fe4eb8b158e81775d99d11999c27c848a108)
+- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: freeze segment byte anatomy experiment](https://github.com/gcomneno/lasagna-v2/commit/71e7dab202236e6f825a37ae93b767f6277c56db)
 - **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: add local-model value benchmark](https://github.com/gcomneno/lasagna-v2/commit/4308aedacb3f74463e02b340be409d48c73f4e6d)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: freeze local-model value experiment protocol](https://github.com/gcomneno/lasagna-v2/commit/198c8fd3434360c405d15a3e2a353dab039ca1ec)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [close LAMBDA interface decision](https://github.com/gcomneno/agnostic-shapes-core/commit/194d0a0e3b884bde4f91bf3cb91be0c11981063c)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: add local-model value benchmark](https://github.com/gcomneno/lasagna-v2/commit/4308aedacb3f74463e02b340be409d48c73f4e6d)
+- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: freeze local-model value experiment protocol](https://github.com/gcomneno/lasagna-v2/commit/198c8fd3434360c405d15a3e2a353dab039ca1ec)
+- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [close LAMBDA interface decision](https://github.com/gcomneno/agnostic-shapes-core/commit/194d0a0e3b884bde4f91bf3cb91be0c11981063c)
 - **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add Collatz STR interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/41e337e29df0a1f185577aa8a9cff76cf45baaae)
 - **2026-10-07** · `lasagna-v2` · **Release:** [Lasagna 2 v0.3.0](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.3.0)
 - **2026-10-07** · `lasagna-v2` · **Documentazione:** [align manifesto with production qualification](https://github.com/gcomneno/lasagna-v2/commit/b08a67509d3301579fded1a7c4eb7797dd306ca8)
@@ -312,11 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/agnostic-shapes-core/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/agnostic-shapes-core/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: align public inverse laws with reconciled rewrites (#328)](https://github.com/gcomneno/agnostic-shapes-core/commit/8364b7307908f5fbb37bd6e54c8e9d90b6ec79de)
-- **2026-10-03** · `lasagna-v2` · **Documentazione:** [add citation metadata for v0.2.2](https://github.com/gcomneno/lasagna-v2/commit/723862f8960d631ecaf1cb619c3a2e3fb3cbd40f)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope invocation/result serialization as compatibility interface (#326)](https://github.com/gcomneno/agnostic-shapes-core/commit/efc87d3dae7963802d73c9e5033f140da232599f)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope positional addresses to the canonical carrier (#324)](https://github.com/gcomneno/agnostic-shapes-core/commit/f0d26bdeecb695fcc62302cbae8ab77ac22ea8b2)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1760 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1763 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
