@@ -211,14 +211,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: clarify segment anatomy success gates](https://github.com/gcomneno/lasagna-v2/commit/4f06fe4eb8b158e81775d99d11999c27c848a108)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: freeze segment byte anatomy experiment](https://github.com/gcomneno/lasagna-v2/commit/71e7dab202236e6f825a37ae93b767f6277c56db)
-- **2026-10-07** · `lasagna-v2` · **Development:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-07** · `lasagna-v2` · **Development:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
 - **2026-10-07** · `lasagna-v2` · **Development:** [research: add local-model value benchmark](https://github.com/gcomneno/lasagna-v2/commit/4308aedacb3f74463e02b340be409d48c73f4e6d)
 - **2026-10-07** · `lasagna-v2` · **Development:** [research: freeze local-model value experiment protocol](https://github.com/gcomneno/lasagna-v2/commit/198c8fd3434360c405d15a3e2a353dab039ca1ec)
 - **2026-10-07** · `agnostic-shapes-core` · **Docs:** [close LAMBDA interface decision](https://github.com/gcomneno/agnostic-shapes-core/commit/194d0a0e3b884bde4f91bf3cb91be0c11981063c)
@@ -314,9 +315,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/agnostic-shapes-core/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/agnostic-shapes-core/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
-- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: align public inverse laws with reconciled rewrites (#328)](https://github.com/gcomneno/agnostic-shapes-core/commit/8364b7307908f5fbb37bd6e54c8e9d90b6ec79de)
 
-_Showing the 100 most recent meaningful updates; 1763 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1764 older update(s) omitted._
 
 </details>
 
