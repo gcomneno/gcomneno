@@ -211,14 +211,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: clarify segment anatomy success gates](https://github.com/gcomneno/lasagna-v2/commit/4f06fe4eb8b158e81775d99d11999c27c848a108)
-- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: freeze segment byte anatomy experiment](https://github.com/gcomneno/lasagna-v2/commit/71e7dab202236e6f825a37ae93b767f6277c56db)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: freeze segment byte anatomy experiment](https://github.com/gcomneno/lasagna-v2/commit/71e7dab202236e6f825a37ae93b767f6277c56db)
 - **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
 - **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: add local-model value benchmark](https://github.com/gcomneno/lasagna-v2/commit/4308aedacb3f74463e02b340be409d48c73f4e6d)
 - **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: freeze local-model value experiment protocol](https://github.com/gcomneno/lasagna-v2/commit/198c8fd3434360c405d15a3e2a353dab039ca1ec)
@@ -314,9 +315,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/agnostic-shapes-core/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/agnostic-shapes-core/commit/133336c113a4638a7eaf697498a2527a899ae103)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/agnostic-shapes-core/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1759 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1760 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
