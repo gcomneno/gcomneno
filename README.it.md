@@ -316,7 +316,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/agnostic-shapes-core/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/agnostic-shapes-core/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1764 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1759 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

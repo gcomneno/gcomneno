@@ -316,7 +316,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: scope derived graph and trace layers to intrinsic edits (#332)](https://github.com/gcomneno/agnostic-shapes-core/commit/133336c113a4638a7eaf697498a2527a899ae103)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: distinguish carrier size from representation node count (#330)](https://github.com/gcomneno/agnostic-shapes-core/commit/3d8d309f718761f56fa6dc0abf601c6eb467aa36)
 
-_Showing the 100 most recent meaningful updates; 1764 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1759 older update(s) omitted._
 
 </details>
 
