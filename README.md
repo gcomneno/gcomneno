@@ -199,7 +199,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 | --- | --- | --- |
 | Applied sequence analysis | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Reproducible Digit-Probe demonstrator over privacy-safe Linux journal normalization, deterministic evidence and temporal comparison |
 | Embedded Linux | [Yocto/QEMU Mini Lab](https://github.com/gcomneno/yocto-qemu-mini-lab) | Reproducible image builds, custom layers and recipes, BitBake workflows and QEMU boot validation |
-| Embedded Linux | [Cat Couch Guardian](https://github.com/gcomneno/cat-couch-guardian) | Educational virtual-first C11 motion-event slice packaged in a Yocto-derived ARM64 image, with systemd autostart and deterministic QEMU evidence |
 | Software development | [Kleis Software Development Course](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Progressive exercises in C#/.NET, HTML, SQL and PHP, including a verified PDO/MySQL CRUD application with Bootstrap |
 | Physics | [Physics Study](https://github.com/gcomneno/physics-study) | Original, fact-checked lessons; first lesson: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), from Io eclipse timing to evidence for the finite speed of light |
 | Software development | [OOP in C Lab](https://github.com/gcomneno/oop-in-c-lab) | Object layout, manual virtual dispatch, runtime type identity and checked downcasting |
