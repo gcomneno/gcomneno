@@ -315,7 +315,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/agnostic-shapes-core/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1761 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1723 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
