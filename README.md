@@ -315,7 +315,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/agnostic-shapes-core/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/agnostic-shapes-core/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
 
-_Showing the 100 most recent meaningful updates; 1680 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1663 older update(s) omitted._
 
 </details>
 
