@@ -315,7 +315,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/agnostic-shapes-core/commit/d16be327973773513202b4eb2253535c6c2397f9)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/agnostic-shapes-core/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1662 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1655 aggiornamenti precedenti sono stati omessi._
 
 </details>
 

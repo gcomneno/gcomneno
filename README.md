@@ -315,7 +315,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/agnostic-shapes-core/commit/d16be327973773513202b4eb2253535c6c2397f9)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/agnostic-shapes-core/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
 
-_Showing the 100 most recent meaningful updates; 1662 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1655 older update(s) omitted._
 
 </details>
 
