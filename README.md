@@ -210,17 +210,14 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-15** · `vscode-bitbake` · **Development:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/c0f9be4f36f10d55cfad01ec5e30aa4f3a0a22fd)
 - **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
-- **2026-10-09** · `craft-parts` · **Docs:** [explain organize behavior](https://github.com/gcomneno/craft-parts/commit/918121684f8ab445eabb6fa0b0b9b34a3d6a837f)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
+- **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
+- **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
-- **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
-- **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout](https://github.com/gcomneno/lasagna-v2/commit/5cc49321385911e08fa3608ba756b8be08fb3f44)
-- **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: clarify segment anatomy success gates](https://github.com/gcomneno/lasagna-v2/commit/4f06fe4eb8b158e81775d99d11999c27c848a108)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: freeze segment byte anatomy experiment](https://github.com/gcomneno/lasagna-v2/commit/71e7dab202236e6f825a37ae93b767f6277c56db)
 - **2026-10-07** · `lasagna-v2` · **Development:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
@@ -314,8 +311,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [runtime: introduce intrinsic PETRA form semantics (#343)](https://github.com/gcomneno/agnostic-shapes-core/commit/643c6134ce49fa258dff6ce3bcac310e945e7e68)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/agnostic-shapes-core/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
 - **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/agnostic-shapes-core/commit/d16be327973773513202b4eb2253535c6c2397f9)
+- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/agnostic-shapes-core/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
+- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/agnostic-shapes-core/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
+- **2026-10-03** · `agnostic-shapes-core` · **Development:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 
-_Showing the 100 most recent meaningful updates; 1640 older update(s) omitted._
+_Showing the 100 most recent meaningful updates; 1637 older update(s) omitted._
 
 </details>
 
