@@ -210,14 +210,16 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-17** · `boardlab` · **Funzionalità:** [introduce deterministic Minimax strategy (#3)](https://github.com/gcomneno/boardlab/commit/53e143252978b84a7a7f2a83266b30d458f204b1)
+- **2026-10-17** · `boardlab` · **Funzionalità:** [introduce generic game engine and Tre Sigilli (#2)](https://github.com/gcomneno/boardlab/commit/574962b17d51ec24f4d473bbb6a6d572ce74beed)
 - **2026-10-13** · `atelier-kit` · **Documentazione:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
-- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
-- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
+- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: clarify segment anatomy success gates](https://github.com/gcomneno/lasagna-v2/commit/4f06fe4eb8b158e81775d99d11999c27c848a108)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: freeze segment byte anatomy experiment](https://github.com/gcomneno/lasagna-v2/commit/71e7dab202236e6f825a37ae93b767f6277c56db)
 - **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
@@ -312,10 +314,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: make factorization exclusion explicit in AIP-5 (#341)](https://github.com/gcomneno/agnostic-shapes-core/commit/f7315489b07eee7a6d91c1ceac8315fa64c736ef)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: promote AIP-5 interpretation boundary (#340)](https://github.com/gcomneno/agnostic-shapes-core/commit/d16be327973773513202b4eb2253535c6c2397f9)
 - **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: complete Phase 7 final reconciliation (#338)](https://github.com/gcomneno/agnostic-shapes-core/commit/fb34d5ba95948030f075f0dd34bf78fbf00b643a)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: separate intrinsic and compatibility conformance (#336)](https://github.com/gcomneno/agnostic-shapes-core/commit/b840c4cf15db3247533b4c130a61164b51cc26c0)
-- **2026-10-03** · `agnostic-shapes-core` · **Sviluppo:** [spec: align implementation order with intrinsic dependencies (#334)](https://github.com/gcomneno/agnostic-shapes-core/commit/f02c4979b293d182ae88e4db9984d2fadcf4c73a)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1599 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati i 100 aggiornamenti significativi più recenti; 1601 aggiornamenti precedenti sono stati omessi._
 
 </details>
 
