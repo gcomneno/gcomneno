@@ -220,6 +220,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
 - **2026-10-18** · `boardlab` · **Feature:** [add platform-independent Tre Sigilli controller (#10)](https://github.com/gcomneno/boardlab/commit/77c804f32ef1aba6c9b228997aabd505c2f95a44)
+- **2026-10-17** · `vscode-bitbake` · **Development:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
@@ -233,7 +234,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-06** · `giadaware-ui-components` · **Feature:** [expand component surface (#84)](https://github.com/gcomneno/giadaware-ui-components/commit/60ddff72b74e2d36a49d050708c84fc5523f005d)
 - **2026-10-03** · `atelier-kit` · **Docs:** [ADR-0009 Uiverse come fonte esterna + checklist intake + issue template (#368)](https://github.com/gcomneno/atelier-kit/commit/c395fc8cc945c59062bcb8e9cfa27d9f92e7c68e)
 - **2026-10-02** · `laravel-postgres-docker-baseline` · **Fix:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
-- **2026-10-02** · `laravel-postgres-docker-baseline` · **Fix:** [preserve empty unit test directory](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/57049467018b7f7ba3921a7322c59d63c5af0f3f)
 
 _Showing up to 20 selected meaningful updates; 1699 additional update(s) not displayed._
 
