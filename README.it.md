@@ -235,7 +235,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-03** · `atelier-kit` · **Documentazione:** [ADR-0009 Uiverse come fonte esterna + checklist intake + issue template (#368)](https://github.com/gcomneno/atelier-kit/commit/c395fc8cc945c59062bcb8e9cfa27d9f92e7c68e)
 - **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1702 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1704 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
