@@ -210,16 +210,16 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-18** · `boardlab` · **Development:** [SHIP-M5: reproducible Android CI build (#12)](https://github.com/gcomneno/boardlab/commit/a03162104444eb44ef16c9152305056b17131c8f)
+- **2026-10-18** · `boardlab` · **Docs:** [reconcile BoardLab implementation and Android ship status](https://github.com/gcomneno/boardlab/commit/6f8ed358bc41e552e0c943f257094bf2fd90125e)
+- **2026-10-18** · `boardlab` · **Docs:** [preserve BoardLab lessons learned (#14)](https://github.com/gcomneno/boardlab/commit/d49aecea59d7ea41ac0ffd0477f8439de8fe5784)
+- **2026-10-18** · `boardlab` · **Docs:** [focus lessons learned on architectural decisions](https://github.com/gcomneno/boardlab/commit/f7fb8451a1ecd5687359e9c1033e9ea43023877c)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
-- **2026-10-18** · `boardlab` · **Feature:** [introduce Android Compose app shell (#11)](https://github.com/gcomneno/boardlab/commit/1565e4f61bc4bf4037efb42ad6943a07703ef1bd)
-- **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
-- **2026-10-18** · `boardlab` · **Feature:** [add platform-independent Tre Sigilli controller (#10)](https://github.com/gcomneno/boardlab/commit/77c804f32ef1aba6c9b228997aabd505c2f95a44)
 - **2026-10-17** · `vscode-bitbake` · **Development:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
@@ -235,7 +235,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-03** · `atelier-kit` · **Docs:** [ADR-0009 Uiverse come fonte esterna + checklist intake + issue template (#368)](https://github.com/gcomneno/atelier-kit/commit/c395fc8cc945c59062bcb8e9cfa27d9f92e7c68e)
 - **2026-10-02** · `laravel-postgres-docker-baseline` · **Fix:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
 
-_Showing up to 20 selected meaningful updates; 1699 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1702 additional update(s) not displayed._
 
 </details>
 
