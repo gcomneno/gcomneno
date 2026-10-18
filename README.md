@@ -220,6 +220,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 
 - **2026-10-17** · `boardlab` · **Feature:** [introduce deterministic Minimax strategy (#3)](https://github.com/gcomneno/boardlab/commit/53e143252978b84a7a7f2a83266b30d458f204b1)
 - **2026-10-17** · `boardlab` · **Feature:** [introduce generic game engine and Tre Sigilli (#2)](https://github.com/gcomneno/boardlab/commit/574962b17d51ec24f4d473bbb6a6d572ce74beed)
+- **2026-10-17** · `vscode-bitbake` · **Development:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
@@ -313,7 +314,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-04** · `giadaware-ui-components` · **Feature:** [add native Checkbox primitive (#76)](https://github.com/gcomneno/giadaware-ui-components/commit/447807c6e8c588ef8402c5268c6a722e4315cc6e)
 - **2026-10-03** · `agnostic-shapes-core` · **Docs:** [annotate Zenodo version DOI for v2.1.0](https://github.com/gcomneno/agnostic-shapes-core/commit/60f02eb0e3afc3101992a8332445470cd1329c02)
 - **2026-10-03** · `agnostic-shapes-core` · **Release:** [PETRA v2.1.0 — Prime Exponent Tower Recursive Algebra](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v2.1.0)
-- **2026-10-03** · `agnostic-shapes-core` · **Development:** [runtime: implement intrinsic ADD and REMOVE primitives (#345)](https://github.com/gcomneno/agnostic-shapes-core/commit/2cbec150689626147894126148de81146f3e76e6)
 
 _Showing the 100 most recent meaningful updates; 1605 older update(s) omitted._
 
