@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <img alt="Visitatori del profilo" src="https://komarev.com/ghpvc/?username=gcomneno&label=%F0%9F%91%80&color=0B1F3A&style=flat-square">
+  <img alt="Visitatori del profilo" src="https://hits.sh/github.com/gcomneno.svg?style=flat-square&label=Views&color=0B1F3A&extraCount=3694">
 </p>
 
 ## <code>01 · PROGETTI SELEZIONATI</code>
