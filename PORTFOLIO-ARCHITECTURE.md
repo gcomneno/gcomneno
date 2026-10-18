@@ -309,6 +309,29 @@ This rename supersedes `petra` as the current public repository identity and
 Latest Updates source. The dated 2026-09-13 baseline inventory, earlier review
 passes, release history and historical PET/PETRA references remain unchanged.
 
+## 2026-10-18 — independent ASHES and interpretation distributions
+
+The public `agnostic-shapes-core` repository remains classified as
+Research & Experiments / ACTIVE / public / PROMOTE.
+
+The v4.0.0 release establishes ASHES as an independent distribution
+containing only the maintained `shapes` and `tensor_view` runtime packages.
+
+PETRA `petra-v0.1.0` is a separate `petra-interpretation` distribution
+depending on ASHES >=4,<5, with LRPE as the initial maintained executable
+interpretation policy.
+
+COLLATZ `collatz-v0.1.0` is a separate `collatz-interpretation`
+distribution depending on ASHES >=4,<5, without a PETRA dependency.
+Its structural-seed interpretation is not the Collatz 3n+1 iteration
+and carries no conjecture-proof claim.
+
+All three have public GitHub Releases. PyPI publication and new Zenodo
+version DOIs are not claimed by these releases.
+
+This entry supersedes the former bundled-runtime description without
+rewriting historical PETRA provenance or creating additional portfolio rows.
+
 # Presentation policy
 
 The profile README should remain selective. It should emphasize, in order:

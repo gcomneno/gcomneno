@@ -182,14 +182,14 @@ Questi repository usano esperimenti software riproducibili per studiare struttur
 
 | Area | Progetto | Focus tecnico |
 | --- | --- | --- |
-| Algebra strutturale ricorsiva | [Agnostic SHAPES Core (ASHES)](https://github.com/gcomneno/agnostic-shapes-core) | Core strutturale ricorsivo indipendente dall'interpretazione per forme finite radicate non piane, con edit intrinseci ADD/REMOVE, strumenti di ricerca/distanza strutturale e layer interpretativi pluggabili tra cui PETRA/LRPE |
+| Algebra strutturale ricorsiva | [Agnostic SHAPES Core (ASHES)](https://github.com/gcomneno/agnostic-shapes-core) | Core strutturale ricorsivo indipendente dall'interpretazione per forme finite radicate non piane, con edit intrinseci ADD/REMOVE, strumenti di ricerca/distanza strutturale e rappresentazione neutrale tensor/STR. Dalla v4.0.0 il core mantenuto è distribuito autonomamente; PETRA v0.1.0 (primi/esponenti, LRPE) e COLLATZ v0.1.0 sono distribuzioni interpretative separate, non incluse nel runtime del core |
 | Analisi di sequenze | [Digit Probe](https://github.com/gcomneno/digit-probe) | Casualità, comprimibilità, autocorrelazione, n-grammi e pattern di tipo Schur tramite un'API di analisi riutilizzabile |
 | Analisi della struttura modulare | [Midas](https://github.com/gcomneno/midas) | Impronte modulari deterministiche, localizzazione delle anomalie e confronto strutturale senza claim predittivi |
 | Modellazione stocastica a stati finiti | [Lotto Digit Coverage Dynamics](https://github.com/gcomneno/lotto-digit-coverage-dynamics) | Modelli di Markov assorbenti esatti, verifica esaustiva del kernel, analisi dei segnali storici, contratti applicativi versionati e GUI di ricerca locale riproducibile |
 | Riconoscimento di sequenze | [OEIS Probe](https://github.com/gcomneno/oeis-probe) | Consultazione OEIS offline, ricerca normalizzata e cache SQLite |
 | Partizionamento deterministico | [Turbo-Bucketizer](https://github.com/gcomneno/turbo-bucketizer) | Partizionamento IPv4 ad alta entropia e allocazione deterministica |
 | Ricerca strutturale | [Integer Structural Search](https://github.com/gcomneno/integer-structural-search) | Ricerca limitata su rappresentazioni intere e vincoli |
-| Compressione di serie temporali | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Codec predittivo versionato per serie temporali univariate; sul corpus sintetico congelato di 1.575 casi, V2 riduce del 19,97% la dimensione codificata rispetto a V1 dimezzando i metadati per segmento da 64 a 32 byte, con payload residuo invariato · [v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2) · [DOI Zenodo](https://doi.org/10.5281/zenodo.23119692) |
+| Compressione di serie temporali | [Lasagna v2](https://github.com/gcomneno/lasagna-v2) | Codec predittivo versionato per serie temporali univariate; sul corpus sintetico congelato di 1.575 casi, V2 riduce del 19,97% la dimensione codificata rispetto a V1 dimezzando i metadati per segmento da 64 a 32 byte, con payload residuo invariato · [benchmark V2 v0.2.2](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.2.2) · [release attuale v0.3.0](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.3.0) · [DOI Zenodo](https://doi.org/10.5281/zenodo.23119692) |
 
 ## <code>04 · IMPARARE IN PUBBLICO</code>
 
@@ -210,112 +210,32 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-17** · `boardlab` · **Funzionalità:** [add Reversi 6x6 game (#6)](https://github.com/gcomneno/boardlab/commit/510e70aff603007d7613375721af9e764b20b0b9)
-- **2026-10-17** · `boardlab` · **Funzionalità:** [add reproducible Monte Carlo Tree Search strategy](https://github.com/gcomneno/boardlab/commit/ff282184fb6dbaa97307b459e3c7d14f25e19926)
-- **2026-10-17** · `boardlab` · **Funzionalità:** [introduce deterministic Alpha-Beta pruning (#4)](https://github.com/gcomneno/boardlab/commit/b99a5d57289feee394972e5f38c1d50467502e6a)
-- **2026-10-17** · `boardlab` · **Refactoring:** [expose validated Tre Sigilli territory scores](https://github.com/gcomneno/boardlab/commit/877aad54bf533438219496c41b6bbca0aa2303bf)
+- **2026-10-18** · `boardlab` · **Sviluppo:** [SHIP-M5: reproducible Android CI build (#12)](https://github.com/gcomneno/boardlab/commit/a03162104444eb44ef16c9152305056b17131c8f)
+- **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
+- **2026-10-18** · `boardlab` · **Funzionalità:** [introduce Android Compose app shell (#11)](https://github.com/gcomneno/boardlab/commit/1565e4f61bc4bf4037efb42ad6943a07703ef1bd)
+- **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-10-17** · `boardlab` · **Funzionalità:** [introduce deterministic Minimax strategy (#3)](https://github.com/gcomneno/boardlab/commit/53e143252978b84a7a7f2a83266b30d458f204b1)
-- **2026-10-17** · `boardlab` · **Funzionalità:** [introduce generic game engine and Tre Sigilli (#2)](https://github.com/gcomneno/boardlab/commit/574962b17d51ec24f4d473bbb6a6d572ce74beed)
-- **2026-10-17** · `vscode-bitbake` · **Sviluppo:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
+- **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
+- **2026-10-18** · `boardlab` · **Funzionalità:** [add platform-independent Tre Sigilli controller (#10)](https://github.com/gcomneno/boardlab/commit/77c804f32ef1aba6c9b228997aabd505c2f95a44)
 - **2026-10-13** · `atelier-kit` · **Documentazione:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
-- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: clarify segment anatomy success gates](https://github.com/gcomneno/lasagna-v2/commit/4f06fe4eb8b158e81775d99d11999c27c848a108)
-- **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: freeze segment byte anatomy experiment](https://github.com/gcomneno/lasagna-v2/commit/71e7dab202236e6f825a37ae93b767f6277c56db)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: record local-model value experiment](https://github.com/gcomneno/lasagna-v2/commit/98f0112ca543ce5d4381bbf3b5408775d31c970a)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: add local-model value benchmark](https://github.com/gcomneno/lasagna-v2/commit/4308aedacb3f74463e02b340be409d48c73f4e6d)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [research: freeze local-model value experiment protocol](https://github.com/gcomneno/lasagna-v2/commit/198c8fd3434360c405d15a3e2a353dab039ca1ec)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [close LAMBDA interface decision](https://github.com/gcomneno/agnostic-shapes-core/commit/194d0a0e3b884bde4f91bf3cb91be0c11981063c)
-- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add Collatz STR interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/41e337e29df0a1f185577aa8a9cff76cf45baaae)
-- **2026-10-07** · `lasagna-v2` · **Release:** [Lasagna 2 v0.3.0](https://github.com/gcomneno/lasagna-v2/releases/tag/v0.3.0)
-- **2026-10-07** · `lasagna-v2` · **Documentazione:** [align manifesto with production qualification](https://github.com/gcomneno/lasagna-v2/commit/b08a67509d3301579fded1a7c4eb7797dd306ca8)
-- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add LRPE STR interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/b18d13712721d09e7fdbb6c0b98777ceb93c8821)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [meta: declare production readiness](https://github.com/gcomneno/lasagna-v2/commit/6a90c2163e304ab25f2107e6f44087c61d86212c)
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
-- **2026-10-07** · `lasagna-v2` · **Documentazione:** [reconcile final production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/bf993456771abfceb37e39e225f53d21c4cbf711)
-- **2026-10-07** · `agnostic-shapes-core` · **Funzionalità:** [add canonical STR materialization](https://github.com/gcomneno/agnostic-shapes-core/commit/222f107c7b20e7945daffee6b730148f01f44568)
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [design STR LAMBDA runtime boundary](https://github.com/gcomneno/agnostic-shapes-core/commit/689e626f2645a39a8442a4294edd3340bb4d2ae7)
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [prove COLLATZ factorization through STR](https://github.com/gcomneno/agnostic-shapes-core/commit/4b70b0fc648bf85d0c506533cbe355268e0fcdac)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [promote STR LAMBDA architecture](https://github.com/gcomneno/agnostic-shapes-core/commit/6aa7f27dbbee9f32d4ceb741dd3d6231073d1321)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [prove LRPE factorization through STR](https://github.com/gcomneno/agnostic-shapes-core/commit/da1ec161cc600f14edf43afd84a4e4725062fa0c)
-- **2026-10-07** · `lasagna-v2` · **Sviluppo:** [hardening: enforce supported numeric domain](https://github.com/gcomneno/lasagna-v2/commit/7d897321f4c45d4f13b29aa4074a6639982a2517)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [prove add remove materialized locality](https://github.com/gcomneno/agnostic-shapes-core/commit/bfd20df70f9f87555e34330b16c3ba3926801e24)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [formalize lambda interpretation contract](https://github.com/gcomneno/agnostic-shapes-core/commit/6fa129f89b2bed10557e158529d9ee580977e52a)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [prove tensor materialization faithfulness](https://github.com/gcomneno/agnostic-shapes-core/commit/913b2022f09d0419a81b240e869242c0f3db92b2)
-- **2026-10-07** · `lasagna-v2` · **Documentazione:** [reconcile production readiness audit](https://github.com/gcomneno/lasagna-v2/commit/c5bfeccf54ec80b8d5626c9d911147dd19537710)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [prove recursive refinement faithfulness](https://github.com/gcomneno/agnostic-shapes-core/commit/74d1f7700229b85226b687d35df8eaacf7bb5bd2)
-- **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker and DDEV storage audits](https://github.com/gcomneno/ubuntu-system-tools/commit/0089ccada594c93ef9a1671456de78bca26f7229)
-- **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add storage health and growth audit](https://github.com/gcomneno/ubuntu-system-tools/commit/edefa5b158ec9820307bb879e7d1057604a551cf)
 - **2026-10-07** · `giadaware-ui-components` · **Documentazione:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
-- **2026-10-07** · `agnostic-shapes-core` · **Documentazione:** [formalize tensor refinement research](https://github.com/gcomneno/agnostic-shapes-core/commit/844eeff2f0a35261d781901909010e6d0cded0aa)
 - **2026-10-06** · `atelier-kit` · **Funzionalità:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
-- **2026-10-06** · `lasagna-v2` · **Documentazione:** [complete production operational guidance](https://github.com/gcomneno/lasagna-v2/commit/a0b2d2e4ad28b908da1a8d08e53f110e9c375c95)
-- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: qualify external production corpus](https://github.com/gcomneno/lasagna-v2/commit/5d2b46b038c0457719cbc966bfb074abd01bc242)
 - **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
-- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: freeze external qualification inputs](https://github.com/gcomneno/lasagna-v2/commit/34cf0270126942cefc605db572a2fd1f92bd94b1)
-- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [research: freeze external qualification corpus](https://github.com/gcomneno/lasagna-v2/commit/291cd56450b3037be1a10b81b672fff2a9c19a7c)
-- **2026-10-06** · `lasagna-v2` · **Release:** [define versioning compatibility policy](https://github.com/gcomneno/lasagna-v2/commit/1b7906afd8202a3cda1d865449edc4ff483bbfe8)
-- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [api: freeze public stability contract](https://github.com/gcomneno/lasagna-v2/commit/ccdc14090ba107ed48cd30f775133261c784b96a)
-- **2026-10-06** · `lasagna-v2` · **Sicurezza:** [qualify parser threat model](https://github.com/gcomneno/lasagna-v2/commit/24c0b51d124e7f37c83c24ce003daf4662a1637c)
 - **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [expand component surface (#84)](https://github.com/gcomneno/giadaware-ui-components/commit/60ddff72b74e2d36a49d050708c84fc5523f005d)
-- **2026-10-06** · `lasagna-v2` · **Sviluppo:** [performance: qualify large-file behavior](https://github.com/gcomneno/lasagna-v2/commit/89b3f31163327d9eba32d5c31a56041f59c6145b)
-- **2026-10-06** · `agnostic-shapes-core` · **Documentazione:** [formalize PETRA operational contract](https://github.com/gcomneno/agnostic-shapes-core/commit/dd017fdfcff59a21742a1d896524f59db5a2fd48)
-- **2026-10-06** · `lasagna-v2` · **Sicurezza:** [qualify codec fuzzing](https://github.com/gcomneno/lasagna-v2/commit/ed80a10d792bbcdcc8f427c5b8367377a8abee3f)
-- **2026-10-06** · `agnostic-shapes-core` · **Sviluppo:** [research: derive PETRA local divisibility law](https://github.com/gcomneno/agnostic-shapes-core/commit/1e86c8a9bea12a0d15f6845b7da2906344f11ddd)
-- **2026-10-06** · `agnostic-shapes-core` · **Sviluppo:** [research: derive PETRA context-stable factor law](https://github.com/gcomneno/agnostic-shapes-core/commit/d50c32f55798cad0cac4e104d5abb4327b55c664)
-- **2026-10-06** · `agnostic-shapes-core` · **Sviluppo:** [research: formalize PETRA remove-add composition](https://github.com/gcomneno/agnostic-shapes-core/commit/b4793a124af74bf636c364b5b9ef6755927493ae)
-- **2026-10-05** · `lasagna-v2` · **Sicurezza:** [enforce codec resource limits](https://github.com/gcomneno/lasagna-v2/commit/340ce37d8b8e54c7879435d8dd1c898c132d9437)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [meta: define production-readiness criteria](https://github.com/gcomneno/lasagna-v2/commit/a69e22c3ba79ef4fffa722206d9c460b5c75ea62)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [design: define access architecture](https://github.com/gcomneno/lasagna-v2/commit/6726502e4dc3ce7f68c46b666e0071e100feb63a)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: define multivariate architecture](https://github.com/gcomneno/lasagna-v2/commit/4e592a128d62f1afd7cdca8ce8dd7679a0707158)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate entropy coding for residual payloads](https://github.com/gcomneno/lasagna-v2/commit/f623f41756c210607fe2385b84cb2fde12fe1543)
-- **2026-10-05** · `agnostic-shapes-core` · **Sviluppo:** [shapes: admit intrinsic height and leaf-count metrics](https://github.com/gcomneno/agnostic-shapes-core/commit/472f44a2d261b9efec1cfb762350839779e60fe3)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate residual coding strategies](https://github.com/gcomneno/lasagna-v2/commit/5057629dafbc0fc29911ec67cb287380d19d35c4)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: evaluate predictor candidates](https://github.com/gcomneno/lasagna-v2/commit/40836b44e41d0f1df15d8a7dc5b632492ce910b1)
-- **2026-10-05** · `agnostic-shapes-core` · **Documentazione:** [reconcile ASHES v3.0.0 Zenodo metadata](https://github.com/gcomneno/agnostic-shapes-core/commit/4a4ec848a3be84dc7407876f425dd26006cb0df2)
-- **2026-10-05** · `lasagna-v2` · **Prestazioni:** [characterize large-series scaling](https://github.com/gcomneno/lasagna-v2/commit/ba816d5547351957dbeeed5cc3e5b55312194046)
-- **2026-10-05** · `agnostic-shapes-core` · **Release:** [Agnostic SHAPES Core v3.0.0](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v3.0.0)
-- **2026-10-05** · `agnostic-shapes-core` · **Documentazione:** [realign current ASHES status](https://github.com/gcomneno/agnostic-shapes-core/commit/4440128568a5d66131f615ef4c6ffdb40d7ebeb1)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: characterize codec parameter sensitivity](https://github.com/gcomneno/lasagna-v2/commit/47cac38d330eebfc7d5cade3c69c84ef2e715c4b)
-- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [rename project to Agnostic SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/commit/d197977c365deb476066c1c04635cce805d95e76)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [research: validate real-world time series](https://github.com/gcomneno/lasagna-v2/commit/959eaa8da016cb26b204550a14eeb382daafe889)
-- **2026-10-05** · `giadaware-ui-components` · **Documentazione:** [align consumer guides with root-only public API (#83)](https://github.com/gcomneno/giadaware-ui-components/commit/e4d9e85ab43e10bcbeb5cd6931e68113e13c1a19)
-- **2026-10-05** · `agnostic-shapes-core` · **Funzionalità:** [introduce PETRA interpretation layer](https://github.com/gcomneno/agnostic-shapes-core/commit/310cdec53df74b124198fb7e89398784009b047a)
-- **2026-10-05** · `lasagna-v2` · **Sviluppo:** [bench: compare Lasagna with external codecs](https://github.com/gcomneno/lasagna-v2/commit/676216d6ebb138c95c7069a07ee12c8f9b5cb184)
-- **2026-10-05** · `agnostic-shapes-core` · **Sviluppo:** [research: classify Matula-Goebel interpretation](https://github.com/gcomneno/agnostic-shapes-core/commit/750b7024258b2e349401fdf2f59e86c1f68c2631)
-- **2026-10-05** · `lasagna-v2` · **Refactoring:** [decouple V2 from V1 wire encoding](https://github.com/gcomneno/lasagna-v2/commit/db5602fc636f44d1ed982ddd2e740a9a9187a090)
-- **2026-10-05** · `giadaware-ui-components` · **Refactoring:** [expose a root-only public package API (#82)](https://github.com/gcomneno/giadaware-ui-components/commit/783789b2bb972564546e3c2743c859024aaf9fa6)
-- **2026-10-05** · `agnostic-shapes-core` · **Sviluppo:** [research: establish Matula-Goebel PIP baseline](https://github.com/gcomneno/agnostic-shapes-core/commit/afefb2698d8d2d347fe84c0e2c8723b6b354e839)
-- **2026-10-05** · `agnostic-shapes-core` · **Documentazione:** [define PETRA interpretation contract](https://github.com/gcomneno/agnostic-shapes-core/commit/787cbae7cd53be38488e7c22b0c1e7d6746238a8)
-- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [retire pre-separation PETRA core](https://github.com/gcomneno/agnostic-shapes-core/commit/0054ce7439cfb600cba1b9e1bbbd9d0369f7c106)
-- **2026-10-05** · `lasagna-v2` · **Funzionalità:** [make V2 the default encoder](https://github.com/gcomneno/lasagna-v2/commit/43d07bc460bf66309f028409e435795176d9ea02)
-- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [remove PETRA-coupled Resolver residues](https://github.com/gcomneno/agnostic-shapes-core/commit/848569db134e0d16578376a0d5560922b7059fd2)
-- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [retire classic Resolver runtime](https://github.com/gcomneno/agnostic-shapes-core/commit/1e54a68fa92e14016dcb75e297c8648493d60b28)
-- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [retire legacy Resolver CLIs](https://github.com/gcomneno/agnostic-shapes-core/commit/8f232d59037d34a4aed2bf72629d3cb08ffc659e)
-- **2026-10-05** · `giadaware-ui-components` · **Documentazione:** [add GiadaWare UI interface guide (#81)](https://github.com/gcomneno/giadaware-ui-components/commit/efcfa1e9356a67d83dce2f1104f5a6920c769f51)
-- **2026-10-05** · `agnostic-shapes-core` · **Refactoring:** [isolate Resolver package root](https://github.com/gcomneno/agnostic-shapes-core/commit/af837c7a16be172fbbc1a095260d626a9e66455f)
-- **2026-10-05** · `giadaware-ui-components` · **Funzionalità:** [add native Radio primitive (#80)](https://github.com/gcomneno/giadaware-ui-components/commit/35215932c756441018fcf59286bd71b04b5c8c2c)
-- **2026-10-05** · `agnostic-shapes-core` · **Funzionalità:** [add SHAPES-native path verifier](https://github.com/gcomneno/agnostic-shapes-core/commit/c87873daceb684c4d05c451aae06a1ff7a2edc1c)
-- **2026-10-05** · `agnostic-shapes-core` · **Funzionalità:** [add SHAPES-native structural distance](https://github.com/gcomneno/agnostic-shapes-core/commit/daf17dec9780398359779c9042a975f571659000)
-- **2026-10-05** · `agnostic-shapes-core` · **Funzionalità:** [add SHAPES-native structural search](https://github.com/gcomneno/agnostic-shapes-core/commit/050a28121cbc0a4768a8da50b103d2d5a7e2148f)
-- **2026-10-04** · `agnostic-shapes-core` · **Documentazione:** [formalize SHAPES occurrence path contract](https://github.com/gcomneno/agnostic-shapes-core/commit/985ed03dc5bd2c8584271e35f41239d2a665fc54)
-- **2026-10-04** · `agnostic-shapes-core` · **Funzionalità:** [add SHAPES occurrence traversal](https://github.com/gcomneno/agnostic-shapes-core/commit/cb96b6b6d643bdea71fba58db2e4894adc136f2a)
-- **2026-10-04** · `agnostic-shapes-core` · **Funzionalità:** [add SHAPES intrinsic runtime](https://github.com/gcomneno/agnostic-shapes-core/commit/e38107313d2a3a9c22a4c80d268a859403302ff7)
-- **2026-10-04** · `agnostic-shapes-core` · **Documentazione:** [establish SHAPES core boundary](https://github.com/gcomneno/agnostic-shapes-core/commit/0548c5b8de1e55dbc329cce0da25316b6d5e4e0d)
-- **2026-10-04** · `agnostic-shapes-core` · **Documentazione:** [formalize PETRA research source register (#243)](https://github.com/gcomneno/agnostic-shapes-core/commit/9726a40378212ed16626650f21013f5858c15f25)
-- **2026-10-04** · `giadaware-ui-components` · **Correzione:** [use runner temp at runtime (#78)](https://github.com/gcomneno/giadaware-ui-components/commit/a6c2e2c805fef90e1c625f69c95a0bd52a331672)
-- **2026-10-04** · `giadaware-ui-components` · **Funzionalità:** [add native Checkbox primitive (#76)](https://github.com/gcomneno/giadaware-ui-components/commit/447807c6e8c588ef8402c5268c6a722e4315cc6e)
-- **2026-10-03** · `agnostic-shapes-core` · **Documentazione:** [annotate Zenodo version DOI for v2.1.0](https://github.com/gcomneno/agnostic-shapes-core/commit/60f02eb0e3afc3101992a8332445470cd1329c02)
-- **2026-10-03** · `agnostic-shapes-core` · **Release:** [PETRA v2.1.0 — Prime Exponent Tower Recursive Algebra](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v2.1.0)
+- **2026-10-03** · `atelier-kit` · **Documentazione:** [ADR-0009 Uiverse come fonte esterna + checklist intake + issue template (#368)](https://github.com/gcomneno/atelier-kit/commit/c395fc8cc945c59062bcb8e9cfa27d9f92e7c68e)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [allow tracked unit tests](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/a97a516394458cdeb9cdf4ca73de09ea30ac29d2)
+- **2026-10-02** · `laravel-postgres-docker-baseline` · **Correzione:** [preserve empty unit test directory](https://github.com/gcomneno/laravel-postgres-docker-baseline/commit/57049467018b7f7ba3921a7322c59d63c5af0f3f)
 
-_Sono mostrati i 100 aggiornamenti significativi più recenti; 1605 aggiornamenti precedenti sono stati omessi._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1699 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 

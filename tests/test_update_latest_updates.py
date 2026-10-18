@@ -31,6 +31,7 @@ def item(
     text: str,
     url: str,
     priority: int | None = None,
+    repo: str = "example",
 ) -> MODULE.UpdateItem:
     return MODULE.UpdateItem(
         date=datetime(
@@ -41,7 +42,7 @@ def item(
             0,
             tzinfo=timezone.utc,
         ),
-        repo="example",
+        repo=repo,
         kind=kind,
         text=text,
         url=url,
@@ -475,7 +476,7 @@ class UpdateDeduplicationTests(unittest.TestCase):
 
 
 class UpdateRenderLimitTests(unittest.TestCase):
-    def test_keeps_only_most_recent_hundred_items(
+    def test_keeps_twenty_items_with_repository_cap(
         self,
     ) -> None:
         updates = [
@@ -488,7 +489,7 @@ class UpdateRenderLimitTests(unittest.TestCase):
                     0,
                     tzinfo=timezone.utc,
                 ),
-                repo="example",
+                repo=f"example-{index // 3}",
                 kind="development",
                 text=f"update-{index}",
                 url=(
@@ -515,15 +516,15 @@ class UpdateRenderLimitTests(unittest.TestCase):
             rendered,
         )
         self.assertIn(
-            "[update-99]",
+            "[update-19]",
             rendered,
         )
         self.assertNotIn(
-            "[update-100]",
+            "[update-20]",
             rendered,
         )
         self.assertIn(
-            "5 older update(s) omitted",
+            "85 additional update(s) not displayed",
             rendered,
         )
         self.assertIn(
@@ -538,6 +539,21 @@ class UpdateRenderLimitTests(unittest.TestCase):
             "</details>",
             rendered,
         )
+
+    def test_caps_updates_per_repository(self) -> None:
+        updates = [
+            item(
+                hour=10 - index,
+                kind="development",
+                text=f"same-repo-{index}",
+                url=f"https://example.test/{index}",
+            )
+            for index in range(6)
+        ]
+        rendered = MODULE.render_updates(updates)
+        self.assertEqual(rendered.count("- **"), 3)
+        self.assertIn("[same-repo-2]", rendered)
+        self.assertNotIn("[same-repo-3]", rendered)
 
     def test_does_not_show_omission_note_below_limit(
         self,
@@ -610,6 +626,7 @@ class LocalizedUpdateRenderingTests(unittest.TestCase):
                 kind="development",
                 text=f"update-{index}",
                 url=f"https://example.test/{index}",
+                repo=f"example-{index}",
             )
             for index in range(5)
         ]
@@ -759,6 +776,7 @@ class BilingualMainIntegrationTests(unittest.TestCase):
                 kind="development",
                 text=f"update-{index}",
                 url=f"https://example.test/{index}",
+                repo=f"example-{index}",
             )
             for index in range(5)
         ]

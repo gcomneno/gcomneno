@@ -73,7 +73,8 @@ ALLOWED_REPOSITORIES = (
 PROFILE_BLOCK_TERMS_ENV = "PROFILE_LATEST_UPDATES_BLOCK_TERMS"
 
 VISIBLE_ITEMS = 4
-MAX_RENDERED_ITEMS = 100
+MAX_RENDERED_ITEMS = 20
+MAX_ITEMS_PER_REPOSITORY = 3
 LOOKBACK_DAYS = 183
 MAX_REPOS = 100
 
@@ -82,8 +83,8 @@ UI_BY_LOCALE = {
         "fallback": "- No automatic updates available at the moment.",
         "more_updates_heading": "More recent meaningful updates",
         "omitted": (
-            "_Showing the {limit} most recent meaningful updates; "
-            "{count} older update(s) omitted._"
+            "_Showing up to {limit} selected meaningful updates; "
+            "{count} additional update(s) not displayed._"
         ),
     },
     "it": {
@@ -94,9 +95,8 @@ UI_BY_LOCALE = {
             "Altri aggiornamenti recenti e significativi"
         ),
         "omitted": (
-            "_Sono mostrati i {limit} aggiornamenti significativi "
-            "più recenti; {count} aggiornamenti precedenti "
-            "sono stati omessi._"
+            "_Sono mostrati fino a {limit} aggiornamenti significativi selezionati; "
+            "{count} aggiornamenti aggiuntivi non visualizzati._"
         ),
     },
 }
@@ -713,7 +713,19 @@ def render_updates(
     if not items:
         return ui["fallback"]
 
-    rendered_items = items[:MAX_RENDERED_ITEMS]
+    rendered_items = []
+    repo_counts: dict[str, int] = {}
+
+    for item in items:
+        if len(rendered_items) >= MAX_RENDERED_ITEMS:
+            break
+
+        count = repo_counts.get(item.repo, 0)
+        if count >= MAX_ITEMS_PER_REPOSITORY:
+            continue
+
+        rendered_items.append(item)
+        repo_counts[item.repo] = count + 1
     visible_items = rendered_items[:VISIBLE_ITEMS]
     remaining_items = rendered_items[VISIBLE_ITEMS:]
     omitted_count = len(items) - len(rendered_items)
