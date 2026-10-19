@@ -210,14 +210,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-19** · `lele-manager` · **Feature:** [opt-in Ask Vault synthesis via GiadaWare AI (#262) (#269)](https://github.com/gcomneno/lele-manager/commit/1d36cd2be8da3520fa963a0d66a58d917f4deafa)
 - **2026-10-19** · `boardlab` · **Feature:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-19** · `boardlab` · **Fix:** [keep Tre Sigilli controls accessible on small screens](https://github.com/gcomneno/boardlab/commit/1e57872e07af949bf78e78b600e7b94d9ac2fe2b)
-- **2026-10-19** · `boardlab` · **Feature:** [guide Tre Sigilli moves with contextual highlights (#21)](https://github.com/gcomneno/boardlab/commit/0e5c4f6fd85d370398fff958816ca7b9e998b808)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-19** · `boardlab` · **Feature:** [guide Tre Sigilli moves with contextual highlights (#21)](https://github.com/gcomneno/boardlab/commit/0e5c4f6fd85d370398fff958816ca7b9e998b808)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
@@ -233,9 +234,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-07** · `giadaware-ui-components` · **Docs:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 - **2026-10-06** · `atelier-kit` · **Feature:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
 - **2026-10-06** · `giadaware-ui-components` · **Feature:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
-- **2026-10-06** · `giadaware-ui-components` · **Feature:** [expand component surface (#84)](https://github.com/gcomneno/giadaware-ui-components/commit/60ddff72b74e2d36a49d050708c84fc5523f005d)
 
-_Showing up to 20 selected meaningful updates; 1709 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1710 additional update(s) not displayed._
 
 </details>
 

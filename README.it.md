@@ -210,14 +210,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-19** · `lele-manager` · **Funzionalità:** [opt-in Ask Vault synthesis via GiadaWare AI (#262) (#269)](https://github.com/gcomneno/lele-manager/commit/1d36cd2be8da3520fa963a0d66a58d917f4deafa)
 - **2026-10-19** · `boardlab` · **Funzionalità:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-19** · `boardlab` · **Correzione:** [keep Tre Sigilli controls accessible on small screens](https://github.com/gcomneno/boardlab/commit/1e57872e07af949bf78e78b600e7b94d9ac2fe2b)
-- **2026-10-19** · `boardlab` · **Funzionalità:** [guide Tre Sigilli moves with contextual highlights (#21)](https://github.com/gcomneno/boardlab/commit/0e5c4f6fd85d370398fff958816ca7b9e998b808)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-19** · `boardlab` · **Funzionalità:** [guide Tre Sigilli moves with contextual highlights (#21)](https://github.com/gcomneno/boardlab/commit/0e5c4f6fd85d370398fff958816ca7b9e998b808)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
@@ -233,9 +234,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-07** · `giadaware-ui-components` · **Documentazione:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 - **2026-10-06** · `atelier-kit` · **Funzionalità:** [add GiadaWare UI public demo page (#369)](https://github.com/gcomneno/atelier-kit/commit/a7b21f042fe7f3cbf55dec5f6330bc9bfafa1c01)
 - **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [add living consumer demo (#85)](https://github.com/gcomneno/giadaware-ui-components/commit/c24c85903ecb5e97d3916064d1884e7bb044f60a)
-- **2026-10-06** · `giadaware-ui-components` · **Funzionalità:** [expand component surface (#84)](https://github.com/gcomneno/giadaware-ui-components/commit/60ddff72b74e2d36a49d050708c84fc5523f005d)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1709 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1710 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
