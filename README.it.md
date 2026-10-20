@@ -210,22 +210,22 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
-- **2026-10-20** · `atelier-kit` · **Correzione:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
-- **2026-10-20** · `lele-manager` · **Correzione:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
-- **2026-10-20** · `boardlab` · **Funzionalità:** [establish Tre Sigilli app identity (#25)](https://github.com/gcomneno/boardlab/commit/d235074961c8abb946456d120852887331bd014e)
+- **2026-10-20** · `atelier-kit` · **Funzionalità:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
+- **2026-10-20** · `boardlab` · **Funzionalità:** [restore Tre Sigilli game state (#24)](https://github.com/gcomneno/boardlab/commit/da0f4d3793c031ad5a946d8e1376fa1337c17f6a)
+- **2026-10-20** · `lele-manager` · **Funzionalità:** [harden multi-vault filesystem isolation (#264)](https://github.com/gcomneno/lele-manager/commit/7c02a538845c1785f9d0d2a1ee534ec471e1490e)
+- **2026-10-19** · `lele-manager` · **Funzionalità:** [add Vault expand and collapse all controls (#265)](https://github.com/gcomneno/lele-manager/commit/8beb53055c89b148b581ceaeea528925b8a0b714)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-10-20** · `lele-manager` · **Correzione:** [stabilize vault transfer lifecycle and async UI state](https://github.com/gcomneno/lele-manager/commit/d4ab79cf8e5e7a693660c075fd06a19c5e307183)
-- **2026-10-20** · `atelier-kit` · **Funzionalità:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
-- **2026-10-20** · `boardlab` · **Funzionalità:** [restore Tre Sigilli game state (#24)](https://github.com/gcomneno/boardlab/commit/da0f4d3793c031ad5a946d8e1376fa1337c17f6a)
+- **2026-10-19** · `lele-manager` · **Correzione:** [complete Italian About localization (#266)](https://github.com/gcomneno/lele-manager/commit/5621143f99128c0e6f60bb9c97503d0c6d0ff2f7)
 - **2026-10-19** · `boardlab` · **Funzionalità:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
+- **2026-10-19** · `boardlab` · **Correzione:** [keep Tre Sigilli controls accessible on small screens](https://github.com/gcomneno/boardlab/commit/1e57872e07af949bf78e78b600e7b94d9ac2fe2b)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
+- **2026-10-17** · `vscode-bitbake` · **Sviluppo:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-13** · `atelier-kit` · **Documentazione:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
