@@ -235,7 +235,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
 - **2026-10-07** · `giadaware-ui-components` · **Documentazione:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1714 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1697 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
