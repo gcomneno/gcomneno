@@ -210,17 +210,18 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
+- **2026-10-20** · `boardlab` · **Feature:** [restore Tre Sigilli game state (#24)](https://github.com/gcomneno/boardlab/commit/da0f4d3793c031ad5a946d8e1376fa1337c17f6a)
 - **2026-10-20** · `lele-manager` · **Feature:** [harden multi-vault filesystem isolation (#264)](https://github.com/gcomneno/lele-manager/commit/7c02a538845c1785f9d0d2a1ee534ec471e1490e)
 - **2026-10-19** · `lele-manager` · **Feature:** [add Vault expand and collapse all controls (#265)](https://github.com/gcomneno/lele-manager/commit/8beb53055c89b148b581ceaeea528925b8a0b714)
-- **2026-10-19** · `lele-manager` · **Fix:** [complete Italian About localization (#266)](https://github.com/gcomneno/lele-manager/commit/5621143f99128c0e6f60bb9c97503d0c6d0ff2f7)
-- **2026-10-19** · `boardlab` · **Feature:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-19** · `lele-manager` · **Fix:** [complete Italian About localization (#266)](https://github.com/gcomneno/lele-manager/commit/5621143f99128c0e6f60bb9c97503d0c6d0ff2f7)
+- **2026-10-19** · `boardlab` · **Feature:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-19** · `boardlab` · **Fix:** [keep Tre Sigilli controls accessible on small screens](https://github.com/gcomneno/boardlab/commit/1e57872e07af949bf78e78b600e7b94d9ac2fe2b)
-- **2026-10-19** · `boardlab` · **Feature:** [guide Tre Sigilli moves with contextual highlights (#21)](https://github.com/gcomneno/boardlab/commit/0e5c4f6fd85d370398fff958816ca7b9e998b808)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
@@ -233,9 +234,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-07** · `ubuntu-system-tools` · **Docs:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 - **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 - **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
-- **2026-10-07** · `giadaware-ui-components` · **Docs:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 
-_Showing up to 20 selected meaningful updates; 1699 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1701 additional update(s) not displayed._
 
 </details>
 
