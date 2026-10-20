@@ -210,9 +210,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-20** · `lele-manager` · **Funzionalità:** [harden multi-vault filesystem isolation (#264)](https://github.com/gcomneno/lele-manager/commit/7c02a538845c1785f9d0d2a1ee534ec471e1490e)
 - **2026-10-19** · `lele-manager` · **Funzionalità:** [add Vault expand and collapse all controls (#265)](https://github.com/gcomneno/lele-manager/commit/8beb53055c89b148b581ceaeea528925b8a0b714)
 - **2026-10-19** · `lele-manager` · **Correzione:** [complete Italian About localization (#266)](https://github.com/gcomneno/lele-manager/commit/5621143f99128c0e6f60bb9c97503d0c6d0ff2f7)
-- **2026-10-19** · `lele-manager` · **Correzione:** [distinguish sidebar navigation icons (#267)](https://github.com/gcomneno/lele-manager/commit/58ad5a109955c242f6747de1639d15f692a4fbb7)
 - **2026-10-19** · `boardlab` · **Funzionalità:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 
 <details>
@@ -235,7 +235,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
 - **2026-10-07** · `giadaware-ui-components` · **Documentazione:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1697 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1699 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 

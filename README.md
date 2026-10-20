@@ -210,9 +210,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-20** · `lele-manager` · **Feature:** [harden multi-vault filesystem isolation (#264)](https://github.com/gcomneno/lele-manager/commit/7c02a538845c1785f9d0d2a1ee534ec471e1490e)
 - **2026-10-19** · `lele-manager` · **Feature:** [add Vault expand and collapse all controls (#265)](https://github.com/gcomneno/lele-manager/commit/8beb53055c89b148b581ceaeea528925b8a0b714)
 - **2026-10-19** · `lele-manager` · **Fix:** [complete Italian About localization (#266)](https://github.com/gcomneno/lele-manager/commit/5621143f99128c0e6f60bb9c97503d0c6d0ff2f7)
-- **2026-10-19** · `lele-manager` · **Fix:** [distinguish sidebar navigation icons (#267)](https://github.com/gcomneno/lele-manager/commit/58ad5a109955c242f6747de1639d15f692a4fbb7)
 - **2026-10-19** · `boardlab` · **Feature:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 
 <details>
@@ -235,7 +235,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
 - **2026-10-07** · `giadaware-ui-components` · **Docs:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 
-_Showing up to 20 selected meaningful updates; 1697 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1699 additional update(s) not displayed._
 
 </details>
 
