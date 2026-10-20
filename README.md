@@ -53,9 +53,9 @@ These projects best represent my current work across backend design, reliable au
 
 | Project | Official release | What it does | What it demonstrates |
 | --- | --- | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Provides a configurable showcase kit with local Studio, Atelier Desktop and separately configured private Hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit Visitor/local/hosted authority boundaries, atomic repository mutations, desktop delivery and downstream Giada UI adoption |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Provides a configurable showcase kit with local Studio, Atelier Desktop and separately configured private Hosted Studio authoring, content-driven catalog workflows and deployment tooling | SvelteKit product architecture, explicit Visitor/local/hosted authority boundaries, atomic repository mutations, desktop delivery, downstream Giada UI adoption and a public demo showcasing real consumers |
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0) | Analyzes files, previews an organization plan and moves them only when explicitly requested | Deterministic file automation, explicit dry-run workflows, explainable decisions, filesystem verification and read-only recovery planning |
-| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows | Local-first data, JSONL persistence, API boundaries, backend design and packaged desktop delivery |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows, with multi-vault management and optional Ask Vault synthesis | Local-first data, JSONL persistence, multi-vault filesystem isolation, API boundaries, optional AI integration and packaged desktop delivery |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through a single public package entry point and explicit public stylesheet | Svelte package architecture, immutable packed artifacts, controlled public API, SSR/hydration and accessibility contracts |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Provides safety-first Linux utilities for diagnostics, controlled maintenance, offline transcription, kernel analysis and evidence-driven storage workflows across local filesystems, Docker and DDEV | Read-only-by-default system tooling, explicit authority boundaries, conservative storage classification, deterministic cleanup proposals, exact-target mutation with revalidation and reproducible Linux packaging |
@@ -205,26 +205,27 @@ I turn study into documented, reproducible paths rather than presenting learning
 | Software development | [JavaScript Lab](https://github.com/gcomneno/js-lab-didattico) | JavaScript and TypeScript middleware pipelines and reusable design patterns, with executable tests |
 | Software development | [Laravel PostgreSQL Docker Baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline) | Reusable Laravel 13 + PHP 8.3 + PostgreSQL 17 Docker Compose baseline with explicit local runtime boundaries, PostgreSQL healthcheck and executable health-contract test |
 | Backend architecture | [GiadaWare Operations Execution Engine Lab](https://doi.org/10.5281/zenodo.23098075) | Clean-room Laravel/PostgreSQL execution-engine laboratory covering explicit workflow state transitions, immutable procedure versions, atomic append-only audit, concurrency control, persistent idempotency, evidence/review flows and deterministic scheduling |
-| Game-engine architecture | [BoardLab](https://github.com/gcomneno/boardlab) | Generic game-engine architecture and reproducible search/AI experiments in early incubation |
+| Game-engine architecture | [BoardLab](https://github.com/gcomneno/boardlab) | Generic game-engine architecture and reproducible search/AI experiments, with Tre Sigilli as an Android learning implementation featuring offline single-player, game-state persistence and emulator-based UI tests |
 
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-20** · `lele-manager` · **Feature:** [harden multi-vault filesystem isolation (#264)](https://github.com/gcomneno/lele-manager/commit/7c02a538845c1785f9d0d2a1ee534ec471e1490e)
-- **2026-10-19** · `lele-manager` · **Feature:** [add Vault expand and collapse all controls (#265)](https://github.com/gcomneno/lele-manager/commit/8beb53055c89b148b581ceaeea528925b8a0b714)
-- **2026-10-19** · `lele-manager` · **Fix:** [complete Italian About localization (#266)](https://github.com/gcomneno/lele-manager/commit/5621143f99128c0e6f60bb9c97503d0c6d0ff2f7)
-- **2026-10-19** · `boardlab` · **Feature:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
+- **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
+- **2026-10-20** · `atelier-kit` · **Fix:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
+- **2026-10-20** · `lele-manager` · **Fix:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
+- **2026-10-20** · `boardlab` · **Feature:** [establish Tre Sigilli app identity (#25)](https://github.com/gcomneno/boardlab/commit/d235074961c8abb946456d120852887331bd014e)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-20** · `lele-manager` · **Fix:** [stabilize vault transfer lifecycle and async UI state](https://github.com/gcomneno/lele-manager/commit/d4ab79cf8e5e7a693660c075fd06a19c5e307183)
+- **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
+- **2026-10-20** · `boardlab` · **Feature:** [restore Tre Sigilli game state (#24)](https://github.com/gcomneno/boardlab/commit/da0f4d3793c031ad5a946d8e1376fa1337c17f6a)
+- **2026-10-19** · `boardlab` · **Feature:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
-- **2026-10-19** · `boardlab` · **Fix:** [keep Tre Sigilli controls accessible on small screens](https://github.com/gcomneno/boardlab/commit/1e57872e07af949bf78e78b600e7b94d9ac2fe2b)
-- **2026-10-19** · `boardlab` · **Feature:** [guide Tre Sigilli moves with contextual highlights (#21)](https://github.com/gcomneno/boardlab/commit/0e5c4f6fd85d370398fff958816ca7b9e998b808)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
-- **2026-10-17** · `vscode-bitbake` · **Development:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
@@ -233,9 +234,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-07** · `ubuntu-system-tools` · **Docs:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 - **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 - **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
-- **2026-10-07** · `giadaware-ui-components` · **Docs:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 
-_Showing up to 20 selected meaningful updates; 1699 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1701 additional update(s) not displayed._
 
 </details>
 

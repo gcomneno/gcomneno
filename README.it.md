@@ -53,9 +53,9 @@ Questi progetti rappresentano meglio il mio lavoro attuale tra progettazione bac
 
 | Progetto | Release ufficiale | Cosa fa | Cosa dimostra |
 | --- | --- | --- | --- |
-| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Fornisce un kit vetrina configurabile con authoring tramite Studio locale, Atelier Desktop e Hosted Studio privato configurato separatamente, catalogo content-driven e strumenti di pubblicazione | Architettura di prodotto SvelteKit, confini di autorità espliciti tra Visitor/local/hosted, mutazioni repository atomiche, distribuzione desktop e adozione downstream di Giada UI |
+| [Atelier-Kit](https://github.com/gcomneno/atelier-kit) | [v0.5.1](https://github.com/gcomneno/atelier-kit/releases/tag/v0.5.1) | Fornisce un kit vetrina configurabile con authoring tramite Studio locale, Atelier Desktop e Hosted Studio privato configurato separatamente, catalogo content-driven e strumenti di pubblicazione | Architettura di prodotto SvelteKit, confini di autorità espliciti tra Visitor/local/hosted, mutazioni repository atomiche, distribuzione desktop, adozione downstream di Giada UI e demo pubblica con applicazioni reali del kit |
 | [Smart File Organizer](https://github.com/gcomneno/smart-file-organizer) | [v0.6.0](https://github.com/gcomneno/smart-file-organizer/releases/tag/v0.6.0) | Analizza i file, mostra in anteprima un piano di organizzazione e li sposta solo su richiesta esplicita | Automazione deterministica dei file, dry-run espliciti, decisioni spiegabili, verifica del filesystem e pianificazione read-only del recupero |
-| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.12.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.12.0) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API | Dati local-first, persistenza JSONL, confini API, progettazione backend e distribuzione desktop pacchettizzata |
+| [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0) | Raccoglie, cerca e riutilizza lesson learned testuali tramite flussi Markdown, CLI, GUI e API, con gestione multi-vault e sintesi Ask Vault opzionale | Dati local-first, persistenza JSONL, isolamento filesystem multi-vault, confini API, integrazione AI opzionale e distribuzione desktop pacchettizzata |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Fornisce primitive UI Svelte riutilizzabili per applicazioni GiadaWare tramite un unico entry point pubblico del package e uno stylesheet pubblico esplicito | Architettura di package Svelte, artefatti immutabili pacchettizzati, API pubblica controllata e contratti SSR/hydration e accessibilità |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Estrae da YouTube trascrizioni, audio e video e supporta reflow, traduzione e trascrizione locale dei contenuti | Progettazione CLI guidata da manifest, pipeline di estrazione multimediale e strumenti operativi riproducibili |
 | [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Fornisce utilità Linux safety-first per diagnostica, manutenzione controllata, trascrizione offline, analisi kernel e workflow storage evidence-driven su filesystem locali, Docker e DDEV | Tooling di sistema read-only-by-default, confini di autorità espliciti, classificazione storage conservativa, proposal di cleanup deterministici, mutazioni exact-target con rivalidazione e packaging Linux riproducibile |
@@ -205,26 +205,27 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 | Sviluppo software | [Laboratorio JavaScript](https://github.com/gcomneno/js-lab-didattico) | Pipeline middleware e pattern riutilizzabili in JavaScript e TypeScript, con test eseguibili |
 | Sviluppo software | [Laravel PostgreSQL Docker Baseline](https://github.com/gcomneno/laravel-postgres-docker-baseline) | Baseline riutilizzabile Laravel 13 + PHP 8.3 + PostgreSQL 17 con Docker Compose, confini runtime locali espliciti, healthcheck PostgreSQL e test eseguibile del contratto health |
 | Architettura backend | [GiadaWare Operations Execution Engine Lab](https://doi.org/10.5281/zenodo.23098075) | Laboratorio clean-room Laravel/PostgreSQL per un execution engine con transizioni di stato esplicite, versioni immutabili delle procedure, audit append-only atomico, controllo della concorrenza, idempotenza persistente, flussi evidence/review e scheduling deterministico |
-| Architettura di motori di gioco | [BoardLab](https://github.com/gcomneno/boardlab) | Architettura generica per motori di gioco ed esperimenti riproducibili di ricerca e IA, ancora in incubazione iniziale |
+| Architettura di motori di gioco | [BoardLab](https://github.com/gcomneno/boardlab) | Architettura generica per motori di gioco ed esperimenti riproducibili di ricerca e IA, con Tre Sigilli come implementazione didattica Android: single-player offline, persistenza dello stato e test UI su emulatore |
 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-20** · `lele-manager` · **Funzionalità:** [harden multi-vault filesystem isolation (#264)](https://github.com/gcomneno/lele-manager/commit/7c02a538845c1785f9d0d2a1ee534ec471e1490e)
-- **2026-10-19** · `lele-manager` · **Funzionalità:** [add Vault expand and collapse all controls (#265)](https://github.com/gcomneno/lele-manager/commit/8beb53055c89b148b581ceaeea528925b8a0b714)
-- **2026-10-19** · `lele-manager` · **Correzione:** [complete Italian About localization (#266)](https://github.com/gcomneno/lele-manager/commit/5621143f99128c0e6f60bb9c97503d0c6d0ff2f7)
-- **2026-10-19** · `boardlab` · **Funzionalità:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
+- **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
+- **2026-10-20** · `atelier-kit` · **Correzione:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
+- **2026-10-20** · `lele-manager` · **Correzione:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
+- **2026-10-20** · `boardlab` · **Funzionalità:** [establish Tre Sigilli app identity (#25)](https://github.com/gcomneno/boardlab/commit/d235074961c8abb946456d120852887331bd014e)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-20** · `lele-manager` · **Correzione:** [stabilize vault transfer lifecycle and async UI state](https://github.com/gcomneno/lele-manager/commit/d4ab79cf8e5e7a693660c075fd06a19c5e307183)
+- **2026-10-20** · `atelier-kit` · **Funzionalità:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
+- **2026-10-20** · `boardlab` · **Funzionalità:** [restore Tre Sigilli game state (#24)](https://github.com/gcomneno/boardlab/commit/da0f4d3793c031ad5a946d8e1376fa1337c17f6a)
+- **2026-10-19** · `boardlab` · **Funzionalità:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
-- **2026-10-19** · `boardlab` · **Correzione:** [keep Tre Sigilli controls accessible on small screens](https://github.com/gcomneno/boardlab/commit/1e57872e07af949bf78e78b600e7b94d9ac2fe2b)
-- **2026-10-19** · `boardlab` · **Funzionalità:** [guide Tre Sigilli moves with contextual highlights (#21)](https://github.com/gcomneno/boardlab/commit/0e5c4f6fd85d370398fff958816ca7b9e998b808)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
 - **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
-- **2026-10-17** · `vscode-bitbake` · **Sviluppo:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-13** · `atelier-kit` · **Documentazione:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
@@ -233,9 +234,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add exact-target Docker storage cleanup](https://github.com/gcomneno/ubuntu-system-tools/commit/d4f659b79da4a70d25430dfde441016eaf6cc117)
-- **2026-10-07** · `giadaware-ui-components` · **Documentazione:** [add current component map](https://github.com/gcomneno/giadaware-ui-components/commit/614afbe03b7fa4bb181d502ba8916d257b107060)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1699 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1701 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
