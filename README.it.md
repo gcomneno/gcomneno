@@ -235,7 +235,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 - **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1707 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1705 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
