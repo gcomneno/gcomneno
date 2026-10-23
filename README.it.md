@@ -211,14 +211,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-23** · `sdr-spectrum-lab` · **Documentazione:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Documentazione:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
 - **2026-10-20** · `atelier-kit` · **Correzione:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
-- **2026-10-20** · `atelier-kit` · **Correzione:** [align public consumer URLs and showcase contract](https://github.com/gcomneno/atelier-kit/commit/61fe8606ecd7bb9e78f1a306881caaad59b04f0d)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-20** · `atelier-kit` · **Correzione:** [align public consumer URLs and showcase contract](https://github.com/gcomneno/atelier-kit/commit/61fe8606ecd7bb9e78f1a306881caaad59b04f0d)
 - **2026-10-20** · `lele-manager` · **Correzione:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
 - **2026-10-20** · `boardlab` · **Funzionalità:** [establish Tre Sigilli app identity (#25)](https://github.com/gcomneno/boardlab/commit/d235074961c8abb946456d120852887331bd014e)
 - **2026-10-20** · `atelier-kit` · **Funzionalità:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
@@ -234,9 +235,8 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
-- **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1702 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1719 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
