@@ -63,6 +63,7 @@ SECONDARY_RESEARCH = (
 LEARNING = (
     "system-log-dynamics",
     "yocto-qemu-mini-lab",
+    "sdr-spectrum-lab",
     "kleis-corso-sviluppo-software",
     "physics-study",
     "oop-in-c-lab",

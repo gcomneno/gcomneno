@@ -43,6 +43,7 @@ CURATED_REPOSITORIES = frozenset(
         f"{OWNER_LOGIN}/integer-structural-search",
         f"{OWNER_LOGIN}/lasagna-v2",
         f"{OWNER_LOGIN}/yocto-qemu-mini-lab",
+        f"{OWNER_LOGIN}/sdr-spectrum-lab",
         f"{OWNER_LOGIN}/kleis-corso-sviluppo-software",
         f"{OWNER_LOGIN}/physics-study",
         f"{OWNER_LOGIN}/oop-in-c-lab",

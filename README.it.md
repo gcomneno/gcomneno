@@ -199,6 +199,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 | --- | --- | --- |
 | Analisi applicata di sequenze | [System Log Dynamics](https://github.com/gcomneno/system-log-dynamics) | Dimostratore riproducibile di Digit-Probe basato su normalizzazione privacy-safe dei journal Linux, evidenze deterministiche e confronto temporale |
 | Linux embedded | [Mini laboratorio Yocto/QEMU](https://github.com/gcomneno/yocto-qemu-mini-lab) | Build riproducibili di immagini, layer e recipe personalizzati, flussi BitBake e validazione del boot con QEMU |
+| DSP e SDR | [SDR Spectrum Lab](https://github.com/gcomneno/sdr-spectrum-lab) | Studio riproducibile di segnali sintetici, analisi I/Q offline, rilevamento spettrale e classificazione dei segnali; hardware RX-only ancora da qualificare |
 | Sviluppo software | [Corso Kleis di sviluppo software](https://github.com/gcomneno/kleis-corso-sviluppo-software) | Esercizi progressivi in C#/.NET, HTML, SQL e PHP, incluso un CRUD verificato con PDO/MySQL e interfaccia Bootstrap |
 | Fisica | [Studio della fisica](https://github.com/gcomneno/physics-study) | Lezioni originali e fact-checkate; prima lezione: [Does Light ACTUALLY Move?](https://github.com/gcomneno/physics-study/blob/main/lessons/does-light-actually-move/lesson-learned.md), dalle eclissi di Io alle prove della velocità finita della luce |
 | Sviluppo software | [Laboratorio OOP in C](https://github.com/gcomneno/oop-in-c-lab) | Layout degli oggetti, dispatch virtuale manuale, identità di tipo a runtime e downcast controllato |

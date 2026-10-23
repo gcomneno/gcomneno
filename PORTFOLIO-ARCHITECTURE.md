@@ -332,6 +332,21 @@ version DOIs are not claimed by these releases.
 This entry supersedes the former bundled-runtime description without
 rewriting historical PETRA provenance or creating additional portfolio rows.
 
+## 2026-10-23 — SDR Spectrum Lab public learning promotion
+
+`gcomneno/sdr-spectrum-lab` is a documented learning laboratory for
+reproducible DSP and SDR study, with synthetic signals, offline I/Q analysis,
+spectral detection and signal-classification experiments.
+
+| Repository | Category | Status | Visibility | Decision |
+| --- | --- | --- | --- | --- |
+| `sdr-spectrum-lab` | Learning & Education | LAB | public | PROMOTE |
+
+The publication preflight passed all 71 software regression tests.
+Physical RX-only reception remains a separate qualification step.
+The laboratory is presented under Learning in Public in both profile languages.
+This addition does not rewrite the dated baseline inventory or its counts.
+
 # Presentation policy
 
 The profile README should remain selective. It should emphasize, in order:
