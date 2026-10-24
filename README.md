@@ -231,24 +231,24 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-23** · `sdr-spectrum-lab` · **Docs:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
-- **2026-10-21** · `lele-manager` · **Docs:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
-- **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
-- **2026-10-20** · `atelier-kit` · **Fix:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
+- **2026-10-24** · `agnostic-shapes-core` · **Docs:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
+- **2026-10-24** · `agnostic-shapes-core` · **Docs:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
+- **2026-10-24** · `boardlab` · **Release:** [Tre Sigilli — Free 0.1.0](https://github.com/gcomneno/boardlab/releases/tag/tre-sigilli-free-v0.1.0)
+- **2026-10-24** · `boardlab` · **Docs:** [restore bilingual CI and qualify SHIP-03 signing policy](https://github.com/gcomneno/boardlab/commit/760d3eba60eefde04a7e9c3dd4a229e27da5b722)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-24** · `boardlab` · **Docs:** [approve SHIP-03 release readiness contract](https://github.com/gcomneno/boardlab/commit/6cb4f68bdef92bd66b890c229f0f2fe7345d1cc3)
+- **2026-10-24** · `agnostic-shapes-core` · **Docs:** [define canonical LRPE structural ranking](https://github.com/gcomneno/agnostic-shapes-core/commit/67a5967e1929563c37bc3cf6af722ff7182d037a)
+- **2026-10-23** · `sdr-spectrum-lab` · **Docs:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
+- **2026-10-21** · `lele-manager` · **Docs:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
+- **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
+- **2026-10-20** · `atelier-kit` · **Fix:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
 - **2026-10-20** · `atelier-kit` · **Fix:** [align public consumer URLs and showcase contract](https://github.com/gcomneno/atelier-kit/commit/61fe8606ecd7bb9e78f1a306881caaad59b04f0d)
 - **2026-10-20** · `lele-manager` · **Fix:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
-- **2026-10-20** · `boardlab` · **Feature:** [establish Tre Sigilli app identity (#25)](https://github.com/gcomneno/boardlab/commit/d235074961c8abb946456d120852887331bd014e)
 - **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
-- **2026-10-20** · `boardlab` · **Feature:** [restore Tre Sigilli game state (#24)](https://github.com/gcomneno/boardlab/commit/da0f4d3793c031ad5a946d8e1376fa1337c17f6a)
-- **2026-10-19** · `boardlab` · **Feature:** [add offline Tre Sigilli single-player (#22)](https://github.com/gcomneno/boardlab/commit/18f8f51248ec391459f89d42b59effe2eddbfd0e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
-- **2026-10-18** · `agnostic-shapes-core` · **Release:** [COLLATZ v0.1.0 — Independent Interpretation](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/collatz-v0.1.0)
-- **2026-10-18** · `agnostic-shapes-core` · **Release:** [PETRA v0.1.0 — Independent Interpretation Layer](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/petra-v0.1.0)
-- **2026-10-18** · `agnostic-shapes-core` · **Release:** [ASHES v4.0.0 — Independent SHAPES Core](https://github.com/gcomneno/agnostic-shapes-core/releases/tag/v4.0.0)
 - **2026-10-17** · `vscode-bitbake` · **Development:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
@@ -256,7 +256,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-07** · `ubuntu-system-tools` · **Docs:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 
-_Showing up to 20 selected meaningful updates; 1711 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1719 additional update(s) not displayed._
 
 </details>
 
