@@ -231,15 +231,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-24** · `boardlab` · **Feature:** [publish playable Dado Goal](https://github.com/gcomneno/boardlab/commit/44854a768cead69183810a2c0eb3349ec7109933)
+- **2026-10-24** · `boardlab` · **Fix:** [explain scoring and pace AI replies](https://github.com/gcomneno/boardlab/commit/e111972a0de41b6cac92eecd9d309e70aa5d01aa)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
-- **2026-10-24** · `boardlab` · **Release:** [Tre Sigilli — Free 0.1.0](https://github.com/gcomneno/boardlab/releases/tag/tre-sigilli-free-v0.1.0)
-- **2026-10-24** · `boardlab` · **Docs:** [restore bilingual CI and qualify SHIP-03 signing policy](https://github.com/gcomneno/boardlab/commit/760d3eba60eefde04a7e9c3dd4a229e27da5b722)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
-- **2026-10-24** · `boardlab` · **Docs:** [approve SHIP-03 release readiness contract](https://github.com/gcomneno/boardlab/commit/6cb4f68bdef92bd66b890c229f0f2fe7345d1cc3)
+- **2026-10-24** · `boardlab` · **Release:** [Tre Sigilli — Free 0.1.0](https://github.com/gcomneno/boardlab/releases/tag/tre-sigilli-free-v0.1.0)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [define canonical LRPE structural ranking](https://github.com/gcomneno/agnostic-shapes-core/commit/67a5967e1929563c37bc3cf6af722ff7182d037a)
 - **2026-10-23** · `sdr-spectrum-lab` · **Docs:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Docs:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
@@ -256,7 +256,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-07** · `ubuntu-system-tools` · **Docs:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 
-_Showing up to 20 selected meaningful updates; 1719 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1721 additional update(s) not displayed._
 
 </details>
 
