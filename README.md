@@ -72,6 +72,26 @@ Earlier professional experience includes PHP and Laravel; my current public work
 > Every problem solved once deserves to become knowledge. If that knowledge is reusable, it deserves to become a tool. If that tool is useful to others too, it deserves to become open source.
 
 
+## 🎮 PLAY & EXPLORE · BOARDLAB
+
+### Tre Sigilli — A strategy game you can play
+
+An original strategy game on a **4×4 board**, with three seals per player. Challenge the computer or play against a friend, directly in your browser.
+
+**Free to play · No installation · No registration**
+
+<p align="center">
+  <a href="https://gcomneno.github.io/boardlab/tre-sigilli/">
+    <img alt="Play Tre Sigilli in your browser" src="https://img.shields.io/badge/PLAY%20TRE%20SIGILLI-OPEN%20THE%20GAME-0B1F3A?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://github.com/gcomneno/boardlab">
+    <img alt="Explore BoardLab source code" src="https://img.shields.io/badge/EXPLORE%20BOARDLAB-GITHUB-24292F?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
+**Behind the game:** BoardLab explores reusable game-engine architecture, deterministic rules, search algorithms and offline AI. Tre Sigilli also has a separate Android learning implementation, distinct from the playable web version.
+
 ## <code>02 · OPEN SOURCE ENGINEERING</code>
 
 I contribute upstream by starting from real project problems: reproduce the behavior, bound the change, add tests and carry the patch through the project's review process.

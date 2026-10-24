@@ -72,6 +72,26 @@ La mia esperienza professionale precedente include PHP e Laravel; il lavoro pubb
 > Ogni problema risolto una volta merita di diventare conoscenza. Se quella conoscenza è riutilizzabile, merita di diventare uno strumento. Se lo strumento è utile anche ad altri, merita di diventare open source.
 
 
+## 🎮 PLAY & EXPLORE · BOARDLAB
+
+### Tre Sigilli — Un gioco strategico da provare
+
+Un gioco strategico originale su una **scacchiera 4×4**, con tre sigilli per giocatore. Sfida il computer oppure gioca contro un amico, direttamente nel browser.
+
+**Gratuito · Nessuna installazione · Nessuna registrazione**
+
+<p align="center">
+  <a href="https://gcomneno.github.io/boardlab/tre-sigilli/">
+    <img alt="Gioca a Tre Sigilli nel browser" src="https://img.shields.io/badge/GIOCA%20A%20TRE%20SIGILLI-APRI%20IL%20GIOCO-0B1F3A?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://github.com/gcomneno/boardlab">
+    <img alt="Esplora il codice sorgente BoardLab" src="https://img.shields.io/badge/ESPLORA%20BOARDLAB-GITHUB-24292F?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
+**Dietro il gioco:** BoardLab esplora architetture riutilizzabili per motori di gioco, regole deterministiche, algoritmi di ricerca e IA offline. Tre Sigilli comprende anche un'implementazione didattica Android separata dalla versione web giocabile.
+
 ## <code>02 · INGEGNERIA OPEN SOURCE</code>
 
 Contribuisco upstream partendo da problemi reali del progetto: riproduco il comportamento, delimito la modifica, aggiungo test e porto la patch attraverso il processo di review del progetto.
