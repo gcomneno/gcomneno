@@ -236,7 +236,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1719 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1711 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
