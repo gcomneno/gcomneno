@@ -92,6 +92,26 @@ Un gioco strategico originale su una **scacchiera 4×4**, con tre sigilli per gi
 
 **Dietro il gioco:** BoardLab esplora architetture riutilizzabili per motori di gioco, regole deterministiche, algoritmi di ricerca e IA offline. Tre Sigilli comprende anche un'implementazione didattica Android separata dalla versione web giocabile.
 
+---
+
+### ⚽ Dado Goal! — Quattro dadi. Due squadre. Un solo obiettivo: GOAL!
+
+Un gioco calcistico originale con dadi per **due giocatori locali**. Personalizza le squadre, scegli il numero di mani per squadra e disputa una partita in cui ogni lancio può cambiare il risultato.
+
+**Gratuito · Giocabile nel browser · Nessun account richiesto**
+
+<p align="center">
+  <a href="https://gcomneno.github.io/boardlab/dado-goal/">
+    <img alt="Gioca a Dado Goal nel browser" src="https://img.shields.io/badge/GIOCA%20A%20DADO%20GOAL-APRI%20IL%20GIOCO-103B2D?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://github.com/gcomneno/boardlab/tree/gh-pages/dado-goal">
+    <img alt="Esplora il codice sorgente Dado Goal" src="https://img.shields.io/badge/DADO%20GOAL-CODICE%20SORGENTE-24292F?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
+**Dietro il gioco:** Un'implementazione browser di un gioco calcistico a turni con dadi, fasi di gioco esplicite, durata configurabile delle partite e interazione locale tra due giocatori.
+
 ## <code>02 · INGEGNERIA OPEN SOURCE</code>
 
 Contribuisco upstream partendo da problemi reali del progetto: riproduco il comportamento, delimito la modifica, aggiungo test e porto la patch attraverso il processo di review del progetto.

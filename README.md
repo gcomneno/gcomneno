@@ -92,6 +92,26 @@ An original strategy game on a **4×4 board**, with three seals per player. Chal
 
 **Behind the game:** BoardLab explores reusable game-engine architecture, deterministic rules, search algorithms and offline AI. Tre Sigilli also has a separate Android learning implementation, distinct from the playable web version.
 
+---
+
+### ⚽ Dado Goal! — Four dice. Two teams. One goal!
+
+An original football dice game for **two local players**. Customize your teams, choose the number of hands per team and play a match where every roll can change the score.
+
+**Free to play · Browser-based · No account required**
+
+<p align="center">
+  <a href="https://gcomneno.github.io/boardlab/dado-goal/">
+    <img alt="Play Dado Goal in your browser" src="https://img.shields.io/badge/PLAY%20DADO%20GOAL-OPEN%20THE%20GAME-103B2D?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="https://github.com/gcomneno/boardlab/tree/gh-pages/dado-goal">
+    <img alt="Explore Dado Goal source code" src="https://img.shields.io/badge/DADO%20GOAL-SOURCE%20CODE-24292F?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
+**Behind the game:** A browser implementation of a turn-based football dice game, with explicit game phases, configurable match length and local two-player interaction.
+
 ## <code>02 · OPEN SOURCE ENGINEERING</code>
 
 I contribute upstream by starting from real project problems: reproduce the behavior, bound the change, add tests and carry the patch through the project's review process.
