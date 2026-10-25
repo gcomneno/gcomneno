@@ -263,15 +263,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-25** · `boardlab` · **Funzionalità:** [consolidate published browser MVP (#31)](https://github.com/gcomneno/boardlab/commit/95e37548e4858df09aa16b8394f5ba9406c949de)
 - **2026-10-24** · `boardlab` · **Funzionalità:** [publish playable Dado Goal](https://github.com/gcomneno/boardlab/commit/44854a768cead69183810a2c0eb3349ec7109933)
 - **2026-10-24** · `boardlab` · **Correzione:** [explain scoring and pace AI replies](https://github.com/gcomneno/boardlab/commit/e111972a0de41b6cac92eecd9d309e70aa5d01aa)
 - **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
-- **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-10-24** · `boardlab` · **Release:** [Tre Sigilli — Free 0.1.0](https://github.com/gcomneno/boardlab/releases/tag/tre-sigilli-free-v0.1.0)
+- **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
 - **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [define canonical LRPE structural ranking](https://github.com/gcomneno/agnostic-shapes-core/commit/67a5967e1929563c37bc3cf6af722ff7182d037a)
 - **2026-10-23** · `sdr-spectrum-lab` · **Documentazione:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Documentazione:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
@@ -288,7 +288,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1719 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1720 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
