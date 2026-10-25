@@ -5,6 +5,18 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/gcomneno/boardlab">
+    <img src="./assets/boardlab-play-explore.png" width="760" alt="Tre Sigilli e Dado Goal — due giochi originali di BoardLab">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://gcomneno.github.io/boardlab/tre-sigilli/">🎮 Tre Sigilli</a>
+  &nbsp; · &nbsp;
+  <a href="https://gcomneno.github.io/boardlab/dado-goal/">⚽ Dado Goal!</a>
+</p>
+
+<p align="center">
   <strong>Software Engineer Backend &amp; Systems · Python · Linux · Automazione · Open Source</strong>
 </p>
 
