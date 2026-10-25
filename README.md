@@ -263,9 +263,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-25** · `boardlab` · **Feature:** [integrate illustrated browser edition](https://github.com/gcomneno/boardlab/commit/33079f2a6653366f23ec9b6e6cc9fde31ff12828)
 - **2026-10-25** · `boardlab` · **Feature:** [consolidate published browser MVP (#31)](https://github.com/gcomneno/boardlab/commit/95e37548e4858df09aa16b8394f5ba9406c949de)
 - **2026-10-24** · `boardlab` · **Feature:** [publish playable Dado Goal](https://github.com/gcomneno/boardlab/commit/44854a768cead69183810a2c0eb3349ec7109933)
-- **2026-10-24** · `boardlab` · **Fix:** [explain scoring and pace AI replies](https://github.com/gcomneno/boardlab/commit/e111972a0de41b6cac92eecd9d309e70aa5d01aa)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
 
 <details>
@@ -288,7 +288,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-07** · `ubuntu-system-tools` · **Docs:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 
-_Showing up to 20 selected meaningful updates; 1720 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1721 additional update(s) not displayed._
 
 </details>
 
