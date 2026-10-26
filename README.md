@@ -263,9 +263,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-26** · `boardlab` · **Feature:** [add English and Italian interface](https://github.com/gcomneno/boardlab/commit/a9f4b65b6cc279f536dc5dd6a38e27b726c563b6)
 - **2026-10-26** · `boardlab` · **Feature:** [deliver persistent multiplayer M1 (#34)](https://github.com/gcomneno/boardlab/commit/5995bf61db53ee8395d03071770b8708cc8edd8d)
-- **2026-10-25** · `boardlab` · **Feature:** [integrate illustrated browser edition](https://github.com/gcomneno/boardlab/commit/33079f2a6653366f23ec9b6e6cc9fde31ff12828)
-- **2026-10-25** · `boardlab` · **Feature:** [consolidate published browser MVP (#31)](https://github.com/gcomneno/boardlab/commit/95e37548e4858df09aa16b8394f5ba9406c949de)
+- **2026-10-26** · `boardlab` · **Fix:** [satisfy repository formatting and bilingual checks](https://github.com/gcomneno/boardlab/commit/a25ecd77ac885f5c960b17e49bd1e2cc6d76f376)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
 
 <details>
@@ -277,10 +277,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-21** · `lele-manager` · **Docs:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
 - **2026-10-20** · `atelier-kit` · **Fix:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
-- **2026-10-20** · `atelier-kit` · **Fix:** [align public consumer URLs and showcase contract](https://github.com/gcomneno/atelier-kit/commit/61fe8606ecd7bb9e78f1a306881caaad59b04f0d)
 - **2026-10-20** · `lele-manager` · **Fix:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
 - **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
+- **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
@@ -288,7 +288,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-07** · `ubuntu-system-tools` · **Docs:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
 - **2026-10-07** · `ubuntu-system-tools` · **Feature:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 
-_Showing up to 20 selected meaningful updates; 1694 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1696 additional update(s) not displayed._
 
 </details>
 
