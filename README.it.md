@@ -263,9 +263,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-26** · `boardlab` · **Funzionalità:** [deliver persistent multiplayer M1 (#34)](https://github.com/gcomneno/boardlab/commit/5995bf61db53ee8395d03071770b8708cc8edd8d)
 - **2026-10-25** · `boardlab` · **Funzionalità:** [integrate illustrated browser edition](https://github.com/gcomneno/boardlab/commit/33079f2a6653366f23ec9b6e6cc9fde31ff12828)
 - **2026-10-25** · `boardlab` · **Funzionalità:** [consolidate published browser MVP (#31)](https://github.com/gcomneno/boardlab/commit/95e37548e4858df09aa16b8394f5ba9406c949de)
-- **2026-10-24** · `boardlab` · **Funzionalità:** [publish playable Dado Goal](https://github.com/gcomneno/boardlab/commit/44854a768cead69183810a2c0eb3349ec7109933)
 - **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
 
 <details>
@@ -281,14 +281,14 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-20** · `lele-manager` · **Correzione:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
 - **2026-10-20** · `atelier-kit` · **Funzionalità:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
-- **2026-10-17** · `vscode-bitbake` · **Sviluppo:** [scanner: keep quiet path discovery in background](https://github.com/gcomneno/vscode-bitbake/commit/b5d7fc144f47b5f3a364430eafae0b181fa240ad)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 - **2026-10-07** · `ubuntu-system-tools` · **Documentazione:** [document storage safety workflow](https://github.com/gcomneno/ubuntu-system-tools/commit/8e6b80c6b881d3c66c2c2cc99b0ea760e663b5fc)
+- **2026-10-07** · `ubuntu-system-tools` · **Funzionalità:** [add Docker cleanup proposal manifest](https://github.com/gcomneno/ubuntu-system-tools/commit/289d79a514bd4cb46b71064253891be8b71ecbbe)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1698 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1694 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
