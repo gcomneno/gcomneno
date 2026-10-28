@@ -263,16 +263,16 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-27** · `boardlab` · **Feature:** [expose multiplayer beta entrypoint (#39)](https://github.com/gcomneno/boardlab/commit/7c3342316e067cef74740b1732be1e79a849b294)
+- **2026-10-27** · `boardlab` · **Feature:** [authenticated HTTPS multiplayer gateway (#38)](https://github.com/gcomneno/boardlab/commit/f5cfc28bd9c25682de2d951b7fb55350fdaed7ce)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [driver: own frontend-backed BitBake command execution](https://github.com/gcomneno/vscode-bitbake/commit/89ca983ecebf5c17601549c133af613b471688db)
-- **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: define a process frontend and decouple PTY lifecycle](https://github.com/gcomneno/vscode-bitbake/commit/f5299d396ae7c5d0caa23ab98112a2796336d61a)
-- **2026-10-26** · `boardlab` · **Feature:** [add English and Italian interface](https://github.com/gcomneno/boardlab/commit/a9f4b65b6cc279f536dc5dd6a38e27b726c563b6)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
-- **2026-10-26** · `boardlab` · **Feature:** [deliver persistent multiplayer M1 (#34)](https://github.com/gcomneno/boardlab/commit/5995bf61db53ee8395d03071770b8708cc8edd8d)
-- **2026-10-26** · `boardlab` · **Fix:** [satisfy repository formatting and bilingual checks](https://github.com/gcomneno/boardlab/commit/a25ecd77ac885f5c960b17e49bd1e2cc6d76f376)
+- **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: define a process frontend and decouple PTY lifecycle](https://github.com/gcomneno/vscode-bitbake/commit/f5299d396ae7c5d0caa23ab98112a2796336d61a)
+- **2026-10-26** · `boardlab` · **Feature:** [add English and Italian interface](https://github.com/gcomneno/boardlab/commit/a9f4b65b6cc279f536dc5dd6a38e27b726c563b6)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [define canonical LRPE structural ranking](https://github.com/gcomneno/agnostic-shapes-core/commit/67a5967e1929563c37bc3cf6af722ff7182d037a)
@@ -288,7 +288,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1701 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1665 additional update(s) not displayed._
 
 </details>
 
