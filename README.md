@@ -263,9 +263,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-28** · `boardlab` · **Feature:** [launch Cloudflare D1 multiplayer beta](https://github.com/gcomneno/boardlab/commit/43051ba175c5675c9348e282955a1d2c81a2286d)
 - **2026-10-27** · `boardlab` · **Feature:** [expose multiplayer beta entrypoint (#39)](https://github.com/gcomneno/boardlab/commit/7c3342316e067cef74740b1732be1e79a849b294)
 - **2026-10-27** · `boardlab` · **Feature:** [authenticated HTTPS multiplayer gateway (#38)](https://github.com/gcomneno/boardlab/commit/f5cfc28bd9c25682de2d951b7fb55350fdaed7ce)
-- **2026-10-27** · `boardlab` · **Fix:** [satisfy gateway CI formatting and strict typing](https://github.com/gcomneno/boardlab/commit/925ea13b9c75ffc9a09ccd07122f67327fbeb4d1)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 
 <details>
@@ -288,7 +288,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1665 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1666 additional update(s) not displayed._
 
 </details>
 
