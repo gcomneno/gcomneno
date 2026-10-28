@@ -265,14 +265,14 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 
 - **2026-10-27** · `boardlab` · **Funzionalità:** [expose multiplayer beta entrypoint (#39)](https://github.com/gcomneno/boardlab/commit/7c3342316e067cef74740b1732be1e79a849b294)
 - **2026-10-27** · `boardlab` · **Funzionalità:** [authenticated HTTPS multiplayer gateway (#38)](https://github.com/gcomneno/boardlab/commit/f5cfc28bd9c25682de2d951b7fb55350fdaed7ce)
+- **2026-10-27** · `boardlab` · **Correzione:** [satisfy gateway CI formatting and strict typing](https://github.com/gcomneno/boardlab/commit/925ea13b9c75ffc9a09ccd07122f67327fbeb4d1)
 - **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
-- **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [driver: own frontend-backed BitBake command execution](https://github.com/gcomneno/vscode-bitbake/commit/89ca983ecebf5c17601549c133af613b471688db)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [driver: own frontend-backed BitBake command execution](https://github.com/gcomneno/vscode-bitbake/commit/89ca983ecebf5c17601549c133af613b471688db)
 - **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [terminal: define a process frontend and decouple PTY lifecycle](https://github.com/gcomneno/vscode-bitbake/commit/f5299d396ae7c5d0caa23ab98112a2796336d61a)
-- **2026-10-26** · `boardlab` · **Funzionalità:** [add English and Italian interface](https://github.com/gcomneno/boardlab/commit/a9f4b65b6cc279f536dc5dd6a38e27b726c563b6)
 - **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
 - **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
 - **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [define canonical LRPE structural ranking](https://github.com/gcomneno/agnostic-shapes-core/commit/67a5967e1929563c37bc3cf6af722ff7182d037a)
