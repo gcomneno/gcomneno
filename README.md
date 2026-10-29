@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/gcomneno/boardlab">
-    <img src="./assets/boardlab-play-explore.png" width="760" alt="Tre Sigilli and Dado Goal — two original BoardLab games">
+    <img src="./assets/boardlab-play-explore.png" width="760" alt="Tre Sigilli, Dado Goal and L'Arca di Darwin — three BoardLab games">
   </a>
 </p>
 
@@ -14,6 +14,10 @@
   <a href="https://gcomneno.github.io/boardlab/tre-sigilli/">🎮 Tre Sigilli</a>
   &nbsp; · &nbsp;
   <a href="https://gcomneno.github.io/boardlab/dado-goal/">⚽ Dado Goal!</a>
+  &nbsp; · &nbsp;
+  <a href="https://gcomneno.itch.io/larca-di-darwin">🐦 L'Arca di Darwin</a>
+  &nbsp; · &nbsp;
+  <a href="https://gcomneno.itch.io/">🎮 itch.io</a>
 </p>
 
 <p align="center">
@@ -123,6 +127,18 @@ An original football dice game for **two local players**. Customize your teams, 
 </p>
 
 **Behind the game:** A browser implementation of a turn-based football dice game, with explicit game phases, configurable match length and local two-player interaction.
+
+### 🐦 L'Arca di Darwin — Play. Think. Learn.
+
+A **free educational puzzle** about ecology, biodiversity and natural history. Six missions, environmental constraints, a friendly Blue Bird guide and 1,000 points to earn.
+
+**Free · Italian language · Play in your browser**
+
+🎮 **[Play L'Arca di Darwin](https://gcomneno.itch.io/larca-di-darwin)**
+
+**Behind the game:** resource management, ecological constraints, deterministic rules and learning through decisions.
+
+---
 
 ## <code>02 · OPEN SOURCE ENGINEERING</code>
 

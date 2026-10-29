@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/gcomneno/boardlab">
-    <img src="./assets/boardlab-play-explore.png" width="760" alt="Tre Sigilli e Dado Goal — due giochi originali di BoardLab">
+    <img src="./assets/boardlab-play-explore.png" width="760" alt="Tre Sigilli, Dado Goal e L'Arca di Darwin — tre giochi BoardLab">
   </a>
 </p>
 
@@ -14,6 +14,10 @@
   <a href="https://gcomneno.github.io/boardlab/tre-sigilli/">🎮 Tre Sigilli</a>
   &nbsp; · &nbsp;
   <a href="https://gcomneno.github.io/boardlab/dado-goal/">⚽ Dado Goal!</a>
+  &nbsp; · &nbsp;
+  <a href="https://gcomneno.itch.io/larca-di-darwin">🐦 L'Arca di Darwin</a>
+  &nbsp; · &nbsp;
+  <a href="https://gcomneno.itch.io/">🎮 itch.io</a>
 </p>
 
 <p align="center">
@@ -123,6 +127,18 @@ Un gioco calcistico originale con dadi per **due giocatori locali**. Personalizz
 </p>
 
 **Dietro il gioco:** Un'implementazione browser di un gioco calcistico a turni con dadi, fasi di gioco esplicite, durata configurabile delle partite e interazione locale tra due giocatori.
+
+### 🐦 L'Arca di Darwin — Giocare, ragionare, imparare
+
+Un **puzzle educativo gratuito** sull'ecologia, la biodiversità e la storia naturale. Sei missioni, vincoli ambientali, un Uccellino Azzurro come guida e 1.000 punti da conquistare.
+
+**Gratuito · In italiano · Giocabile nel browser**
+
+🎮 **[Gioca a L'Arca di Darwin](https://gcomneno.itch.io/larca-di-darwin)**
+
+**Dietro il gioco:** gestione delle risorse, vincoli ecologici, regole deterministiche e ragionamento attraverso le scelte.
+
+---
 
 ## <code>02 · INGEGNERIA OPEN SOURCE</code>
 
