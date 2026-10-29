@@ -279,9 +279,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-29** · `boardlab` · **Fix:** [restore multiplayer roll action](https://github.com/gcomneno/boardlab/commit/f981be72fef995051e0a73f35c6feb304b2466d8)
-- **2026-10-29** · `boardlab` · **Fix:** [restore multiplayer join and external itch link](https://github.com/gcomneno/boardlab/commit/fd59754282581e44cc60bc4b6b51e1014a485a02)
-- **2026-10-29** · `boardlab` · **Docs:** [bilingualize BoardLab entry-point documentation](https://github.com/gcomneno/boardlab/commit/65208e38fed6c5310a9195264c90da1c94c1fbea)
+- **2026-10-29** · `boardlab` · **Release:** [L'Arca di Darwin 1.0.0](https://github.com/gcomneno/boardlab/releases/tag/arca-di-darwin-v1.0.0)
+- **2026-10-29** · `boardlab` · **Docs:** [classify Tre Sigilli changelog](https://github.com/gcomneno/boardlab/commit/2eb7bf1c537ca41f1a0258c0c1bb9e470315955d)
+- **2026-10-29** · `boardlab` · **Docs:** [record AI vs AI and guided explanations](https://github.com/gcomneno/boardlab/commit/246779a5dc131c1a73313f66ad6b0863cc3ac0d0)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 
 <details>
@@ -304,7 +304,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1634 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1640 additional update(s) not displayed._
 
 </details>
 
