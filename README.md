@@ -263,9 +263,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-10-28** · `boardlab` · **Feature:** [launch Cloudflare D1 multiplayer beta](https://github.com/gcomneno/boardlab/commit/43051ba175c5675c9348e282955a1d2c81a2286d)
-- **2026-10-27** · `boardlab` · **Feature:** [expose multiplayer beta entrypoint (#39)](https://github.com/gcomneno/boardlab/commit/7c3342316e067cef74740b1732be1e79a849b294)
-- **2026-10-27** · `boardlab` · **Feature:** [authenticated HTTPS multiplayer gateway (#38)](https://github.com/gcomneno/boardlab/commit/f5cfc28bd9c25682de2d951b7fb55350fdaed7ce)
+- **2026-10-29** · `boardlab` · **Fix:** [restore multiplayer roll action](https://github.com/gcomneno/boardlab/commit/f981be72fef995051e0a73f35c6feb304b2466d8)
+- **2026-10-29** · `boardlab` · **Fix:** [restore multiplayer join and external itch link](https://github.com/gcomneno/boardlab/commit/fd59754282581e44cc60bc4b6b51e1014a485a02)
+- **2026-10-29** · `boardlab` · **Docs:** [bilingualize BoardLab entry-point documentation](https://github.com/gcomneno/boardlab/commit/65208e38fed6c5310a9195264c90da1c94c1fbea)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 
 <details>
@@ -280,15 +280,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-21** · `lele-manager` · **Docs:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
 - **2026-10-20** · `atelier-kit` · **Fix:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
+- **2026-10-20** · `atelier-kit` · **Fix:** [align public consumer URLs and showcase contract](https://github.com/gcomneno/atelier-kit/commit/61fe8606ecd7bb9e78f1a306881caaad59b04f0d)
 - **2026-10-20** · `lele-manager` · **Fix:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
 - **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
-- **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1629 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1634 additional update(s) not displayed._
 
 </details>
 
