@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/gcomneno/boardlab">
-    <img src="./assets/boardlab-play-explore.png" width="760" alt="Tre Sigilli, Dado Goal and L'Arca di Darwin — three BoardLab games">
+    <img src="./assets/boardlab-play-explore-en.png" width="760" alt="Tre Sigilli, Dado Goal and L'Arca di Darwin — three BoardLab games">
   </a>
 </p>
 
