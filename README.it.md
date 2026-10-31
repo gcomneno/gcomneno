@@ -288,9 +288,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-10-31** · `boardlab` · **Funzionalità:** [local and multiplayer match statistics (#53)](https://github.com/gcomneno/boardlab/commit/1794c2f04a94827853582a34f9def8a8b824cd40)
+- **2026-10-31** · `boardlab` · **Funzionalità:** [illustrated dice and dynamic team guide (#52)](https://github.com/gcomneno/boardlab/commit/4d9f6fc4330760ae2330095243732a708624ecd7)
 - **2026-10-29** · `boardlab` · **Release:** [L'Arca di Darwin 1.0.0](https://github.com/gcomneno/boardlab/releases/tag/arca-di-darwin-v1.0.0)
-- **2026-10-29** · `boardlab` · **Documentazione:** [classify Tre Sigilli changelog](https://github.com/gcomneno/boardlab/commit/2eb7bf1c537ca41f1a0258c0c1bb9e470315955d)
-- **2026-10-29** · `boardlab` · **Documentazione:** [record AI vs AI and guided explanations](https://github.com/gcomneno/boardlab/commit/246779a5dc131c1a73313f66ad6b0863cc3ac0d0)
 - **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 
 <details>
