@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <strong>Software Engineer Backend &amp; Systems · Python · Linux · Automazione · Open Source</strong>
+</p>
+
+<p align="center">
   <a href="https://github.com/gcomneno/boardlab">
     <img src="./assets/boardlab-play-explore.png" width="760" alt="Tre Sigilli, Dado Goal e L'Arca di Darwin — tre giochi BoardLab">
   </a>
@@ -20,9 +24,6 @@
   <a href="https://gcomneno.itch.io/">🎮 itch.io</a>
 </p>
 
-<p align="center">
-  <strong>Software Engineer Backend &amp; Systems · Python · Linux · Automazione · Open Source</strong>
-</p>
 
 <p align="center">
   <img alt="Backend — Tooling · Python — Sistemi e API · Linux — Automazione · Open Source — Engineering" src="./assets/profile-badges.svg">
@@ -35,6 +36,10 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/giancarlo-c-970697276/">
     <img alt="Profilo LinkedIn" src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white">
+  </a>
+  &nbsp;
+  <a href="#02--ingegneria-open-source">
+    <img alt="Contributi Open Source" src="https://img.shields.io/badge/OPEN%20SOURCE-CONTRIBUTIONS-24292F?style=flat-square&logo=github&logoColor=white">
   </a>
 </p>
 
@@ -134,7 +139,11 @@ Un **puzzle educativo gratuito** sull'ecologia, la biodiversità e la storia nat
 
 **Gratuito · In italiano · Giocabile nel browser**
 
-🎮 **[Gioca a L'Arca di Darwin](https://gcomneno.itch.io/larca-di-darwin)**
+<p align="center">
+  <a href="https://gcomneno.itch.io/larca-di-darwin">
+    <img alt="Gioca a L'Arca di Darwin" src="https://img.shields.io/badge/GIOCA%20A%20L%27ARCA%20DI%20DARWIN-APRI%20IL%20GIOCO-0B1F3A?style=for-the-badge">
+  </a>
+</p>
 
 **Dietro il gioco:** gestione delle risorse, vincoli ecologici, regole deterministiche e ragionamento attraverso le scelte.
 
