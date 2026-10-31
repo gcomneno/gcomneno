@@ -288,27 +288,27 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-10-31** · `agnostic-shapes-core` · **Feature:** [introduce experimental STE C11 reconciliation kernel](https://github.com/gcomneno/agnostic-shapes-core/commit/b93084b7330749d2fc5db2fcde9d28ceb472e1df)
+- **2026-10-31** · `boardlab` · **Feature:** [add deterministic offline match commentary](https://github.com/gcomneno/boardlab/commit/cde9e0e465d45fd406606e4657228fcd4902f737)
+- **2026-10-31** · `boardlab` · **Feature:** [simulated two-half match clock (#56)](https://github.com/gcomneno/boardlab/commit/9a36dbd0671cfe04d2e2db948e550cb461650517)
 - **2026-10-31** · `boardlab` · **Feature:** [local and multiplayer match statistics (#53)](https://github.com/gcomneno/boardlab/commit/1794c2f04a94827853582a34f9def8a8b824cd40)
-- **2026-10-31** · `boardlab` · **Feature:** [illustrated dice and dynamic team guide (#52)](https://github.com/gcomneno/boardlab/commit/4d9f6fc4330760ae2330095243732a708624ecd7)
-- **2026-10-29** · `boardlab` · **Release:** [L'Arca di Darwin 1.0.0](https://github.com/gcomneno/boardlab/releases/tag/arca-di-darwin-v1.0.0)
-- **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [driver: own frontend-backed BitBake command execution](https://github.com/gcomneno/vscode-bitbake/commit/89ca983ecebf5c17601549c133af613b471688db)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: define a process frontend and decouple PTY lifecycle](https://github.com/gcomneno/vscode-bitbake/commit/f5299d396ae7c5d0caa23ab98112a2796336d61a)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
 - **2026-10-24** · `agnostic-shapes-core` · **Docs:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
-- **2026-10-24** · `agnostic-shapes-core` · **Docs:** [define canonical LRPE structural ranking](https://github.com/gcomneno/agnostic-shapes-core/commit/67a5967e1929563c37bc3cf6af722ff7182d037a)
 - **2026-10-23** · `sdr-spectrum-lab` · **Docs:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Docs:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
 - **2026-10-20** · `atelier-kit` · **Fix:** [align canonical consumer showcase public links (#373)](https://github.com/gcomneno/atelier-kit/commit/df8745923d72f0364b14be65b578f73e4782c9ef)
-- **2026-10-20** · `atelier-kit` · **Fix:** [align public consumer URLs and showcase contract](https://github.com/gcomneno/atelier-kit/commit/61fe8606ecd7bb9e78f1a306881caaad59b04f0d)
 - **2026-10-20** · `lele-manager` · **Fix:** [preserve ownership of delayed transfer routes](https://github.com/gcomneno/lele-manager/commit/6d867a3888814a71e30a9b1b8589b0d8bdff5366)
 - **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
+- **2026-10-13** · `atelier-kit` · **Docs:** [present library contracts and component map (#370)](https://github.com/gcomneno/atelier-kit/commit/2a6677f51202d937859f59f10d3eb5170a261ac7)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
