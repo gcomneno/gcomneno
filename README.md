@@ -43,10 +43,26 @@
   </a>
 </p>
 
-<h3 align="center">AI-assisted engineering</h3>
+<h3 align="center">My development philosophy</h3>
 
 <p align="center">
-  AI is part of my engineering toolkit. I use it to accelerate research, implementation, testing, review and documentation, while keeping human responsibility, technical understanding, verification and evidence at the center of every published contribution.
+  <strong>AI is a tool. Understanding is a responsibility.</strong>
+</p>
+
+<p align="center">
+  The dividing line is not between those who use AI and those who don't. It is between those who use it with competence and critical thinking, and those who delegate without understanding.
+</p>
+
+<p align="center">
+  AI can accelerate work, suggest solutions, identify alternatives and help us tackle complex problems. But it cannot replace the responsibility of those who write, verify, understand and maintain the software.
+</p>
+
+<p align="center">
+  A developer does not necessarily have to do everything alone. They must know what they are doing, why they are doing it, and take responsibility for the result.
+</p>
+
+<p align="center">
+  <strong>The tools change. Engineering competence remains.</strong>
 </p>
 
 <p align="center">

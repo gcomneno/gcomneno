@@ -43,10 +43,26 @@
   </a>
 </p>
 
-<h3 align="center">Engineering assistito dall'AI</h3>
+<h3 align="center">La mia filosofia di sviluppo</h3>
 
 <p align="center">
-  L'AI fa parte dei miei strumenti di lavoro. La uso per accelerare ricerca, implementazione, test, review e documentazione, mantenendo responsabilità umana, comprensione tecnica, verifica ed evidenze al centro di ogni contributo pubblicato.
+  <strong>L'AI è uno strumento. Comprendere è una responsabilità.</strong>
+</p>
+
+<p align="center">
+  Non è tra chi usa e chi non usa l'AI che passa il discrimine. È tra chi sa sfruttarla con competenza e spirito critico e chi si limita a delegare senza comprendere.
+</p>
+
+<p align="center">
+  L'intelligenza artificiale può accelerare il lavoro, suggerire soluzioni, individuare alternative e aiutarci ad affrontare problemi complessi. Ma non può sostituire la responsabilità di chi scrive, verifica, comprende e mantiene il software.
+</p>
+
+<p align="center">
+  Un programmatore non deve necessariamente fare tutto da solo. Deve sapere cosa sta facendo, perché lo sta facendo e assumersi la responsabilità del risultato.
+</p>
+
+<p align="center">
+  <strong>Gli strumenti cambiano. La competenza rimane.</strong>
 </p>
 
 <p align="center">
