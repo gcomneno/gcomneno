@@ -288,19 +288,19 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-10-31** · `agnostic-shapes-core` · **Funzionalità:** [introduce experimental STE C11 reconciliation kernel](https://github.com/gcomneno/agnostic-shapes-core/commit/b93084b7330749d2fc5db2fcde9d28ceb472e1df)
-- **2026-10-31** · `boardlab` · **Funzionalità:** [add deterministic offline match commentary](https://github.com/gcomneno/boardlab/commit/cde9e0e465d45fd406606e4657228fcd4902f737)
-- **2026-10-31** · `boardlab` · **Funzionalità:** [simulated two-half match clock (#56)](https://github.com/gcomneno/boardlab/commit/9a36dbd0671cfe04d2e2db948e550cb461650517)
-- **2026-10-31** · `boardlab` · **Funzionalità:** [local and multiplayer match statistics (#53)](https://github.com/gcomneno/boardlab/commit/1794c2f04a94827853582a34f9def8a8b824cd40)
+- **2026-11-01** · `agnostic-shapes-core` · **Documentazione:** [formalize relative historical association completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/0b4dcdc92e200168bb77efecf6da316b8d53f035)
+- **2026-11-01** · `boardlab` · **Funzionalità:** [add interactive C11 terminal edition](https://github.com/gcomneno/boardlab/commit/1677ed31cc8cedf4eeebba693d173586947b5da5)
+- **2026-11-01** · `boardlab` · **Correzione:** [place language selector on separate row](https://github.com/gcomneno/boardlab/commit/cf7d2842d853bcb8192e8fec5d42d9d1e6e97d8e)
+- **2026-11-01** · `boardlab` · **Correzione:** [refine scorer, event board and match clock UX](https://github.com/gcomneno/boardlab/commit/de26a7bfd8c5e28de70578e85b27b07123b85bb5)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-11-01** · `agnostic-shapes-core` · **Funzionalità:** [add state-based STE C2 conflict detection](https://github.com/gcomneno/agnostic-shapes-core/commit/1150b2975cc6dd980009650d95b79e0862587d30)
+- **2026-11-01** · `agnostic-shapes-core` · **Funzionalità:** [make STE C1 reconciliation index-independent](https://github.com/gcomneno/agnostic-shapes-core/commit/7263336ca51eeee47bf4f6ca312f28ef2ac4405a)
 - **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
 - **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [driver: own frontend-backed BitBake command execution](https://github.com/gcomneno/vscode-bitbake/commit/89ca983ecebf5c17601549c133af613b471688db)
 - **2026-10-26** · `vscode-bitbake` · **Sviluppo:** [terminal: define a process frontend and decouple PTY lifecycle](https://github.com/gcomneno/vscode-bitbake/commit/f5299d396ae7c5d0caa23ab98112a2796336d61a)
-- **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [align local path completeness status](https://github.com/gcomneno/agnostic-shapes-core/commit/4455a421475d4403d4415794a12e94e4790ecec7)
-- **2026-10-24** · `agnostic-shapes-core` · **Documentazione:** [prove local witnessed-edit path completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/5695e1542a59b944c58bb4133bf85bcc0f4dff70)
 - **2026-10-23** · `sdr-spectrum-lab` · **Documentazione:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Documentazione:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
@@ -313,7 +313,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1622 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1606 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
