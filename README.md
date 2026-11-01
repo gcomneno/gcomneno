@@ -304,17 +304,17 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-11-01** · `boardlab` · **Feature:** [authoritative multiplayer match events (M2D)](https://github.com/gcomneno/boardlab/commit/4acd3684d097f646b64e7b2d7509355abfc23a8a)
+- **2026-11-01** · `boardlab` · **Feature:** [align multiplayer dice and pitch visuals](https://github.com/gcomneno/boardlab/commit/8f61008d769cac0d4879dbe62e76d7275df0385d)
+- **2026-11-01** · `boardlab` · **Docs:** [define Mission 002 temporal debt contract](https://github.com/gcomneno/boardlab/commit/f8190ac2a5c0dccbb447c6a187df3efbd185c266)
 - **2026-11-01** · `giadaware-ui-components` · **Docs:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
-- **2026-11-01** · `giadaware-ui-components` · **Docs:** [define safe renderer architecture contract](https://github.com/gcomneno/giadaware-ui-components/commit/877b38bf9c734950c2239347d50da4f582cb4137)
-- **2026-11-01** · `atelier-kit` · **Docs:** [define Markdown adoption and compatibility contract](https://github.com/gcomneno/atelier-kit/commit/b4a830ab0ce702d99c223b5cbd729a78c2801230)
-- **2026-11-01** · `boardlab` · **Docs:** [define M001 mathematical contract](https://github.com/gcomneno/boardlab/commit/8db5b59b8f5035082f7c5badc6f2301d97c20e96)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-11-01** · `giadaware-ui-components` · **Docs:** [define safe renderer architecture contract](https://github.com/gcomneno/giadaware-ui-components/commit/877b38bf9c734950c2239347d50da4f582cb4137)
+- **2026-11-01** · `atelier-kit` · **Docs:** [define Markdown adoption and compatibility contract](https://github.com/gcomneno/atelier-kit/commit/b4a830ab0ce702d99c223b5cbd729a78c2801230)
 - **2026-11-01** · `agnostic-shapes-core` · **Docs:** [formalize relative historical association completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/0b4dcdc92e200168bb77efecf6da316b8d53f035)
-- **2026-11-01** · `boardlab` · **Feature:** [add interactive C11 terminal edition](https://github.com/gcomneno/boardlab/commit/1677ed31cc8cedf4eeebba693d173586947b5da5)
-- **2026-11-01** · `boardlab` · **Fix:** [place language selector on separate row](https://github.com/gcomneno/boardlab/commit/cf7d2842d853bcb8192e8fec5d42d9d1e6e97d8e)
 - **2026-11-01** · `agnostic-shapes-core` · **Feature:** [add state-based STE C2 conflict detection](https://github.com/gcomneno/agnostic-shapes-core/commit/1150b2975cc6dd980009650d95b79e0862587d30)
 - **2026-11-01** · `agnostic-shapes-core` · **Feature:** [make STE C1 reconciliation index-independent](https://github.com/gcomneno/agnostic-shapes-core/commit/7263336ca51eeee47bf4f6ca312f28ef2ac4405a)
 - **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
@@ -329,7 +329,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Showing up to 20 selected meaningful updates; 1609 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1614 additional update(s) not displayed._
 
 </details>
 
