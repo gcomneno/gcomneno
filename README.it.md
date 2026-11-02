@@ -304,9 +304,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-01** · `boardlab` · **Correzione:** [serve multiplayer dice art module](https://github.com/gcomneno/boardlab/commit/0303e971c1820a1c551213b6b21f997eb8e8ec93)
-- **2026-11-01** · `boardlab` · **Funzionalità:** [authoritative multiplayer match events (M2D)](https://github.com/gcomneno/boardlab/commit/4acd3684d097f646b64e7b2d7509355abfc23a8a)
-- **2026-11-01** · `boardlab` · **Funzionalità:** [align multiplayer dice and pitch visuals](https://github.com/gcomneno/boardlab/commit/8f61008d769cac0d4879dbe62e76d7275df0385d)
+- **2026-11-02** · `boardlab` · **Funzionalità:** [add persisted football catalogue ingestion (#77)](https://github.com/gcomneno/boardlab/commit/91a7e102f9a43d198060979da0263577fada95c0)
+- **2026-11-02** · `boardlab` · **Funzionalità:** [add local team management M3 (#75)](https://github.com/gcomneno/boardlab/commit/f4f1873d6dee8ee4e5da1b163e8d5b76d9f3ccd3)
+- **2026-11-02** · `boardlab` · **Funzionalità:** [map real players into match events (#74)](https://github.com/gcomneno/boardlab/commit/159c8e54e93aa5446292056e82f7dccc099ec82f)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 
 <details>
@@ -329,7 +329,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1578 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1582 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
