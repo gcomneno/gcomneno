@@ -317,9 +317,6 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-11-01** · `agnostic-shapes-core` · **Docs:** [formalize relative historical association completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/0b4dcdc92e200168bb77efecf6da316b8d53f035)
 - **2026-11-01** · `agnostic-shapes-core` · **Feature:** [add state-based STE C2 conflict detection](https://github.com/gcomneno/agnostic-shapes-core/commit/1150b2975cc6dd980009650d95b79e0862587d30)
 - **2026-11-01** · `agnostic-shapes-core` · **Feature:** [make STE C1 reconciliation index-independent](https://github.com/gcomneno/agnostic-shapes-core/commit/7263336ca51eeee47bf4f6ca312f28ef2ac4405a)
-- **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: spawn raw programs through the shared frontend](https://github.com/gcomneno/vscode-bitbake/commit/959fcda98fbd5339475476527578f5bd5689473e)
-- **2026-10-26** · `vscode-bitbake` · **Development:** [driver: own frontend-backed BitBake command execution](https://github.com/gcomneno/vscode-bitbake/commit/89ca983ecebf5c17601549c133af613b471688db)
-- **2026-10-26** · `vscode-bitbake` · **Development:** [terminal: define a process frontend and decouple PTY lifecycle](https://github.com/gcomneno/vscode-bitbake/commit/f5299d396ae7c5d0caa23ab98112a2796336d61a)
 - **2026-10-23** · `sdr-spectrum-lab` · **Docs:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Docs:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
@@ -328,8 +325,11 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
+- **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
+- **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
+- **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
-_Showing up to 20 selected meaningful updates; 1582 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1515 additional update(s) not displayed._
 
 </details>
 
