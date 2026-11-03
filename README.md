@@ -304,9 +304,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-11-03** · `boardlab` · **Docs:** [record issue 29 M1-M4 completion](https://github.com/gcomneno/boardlab/commit/2eff361740c16ad1559ee49d0d7ffd67fb09e147)
-- **2026-11-02** · `boardlab` · **Feature:** [add persisted football catalogue ingestion (#77)](https://github.com/gcomneno/boardlab/commit/91a7e102f9a43d198060979da0263577fada95c0)
-- **2026-11-02** · `boardlab` · **Feature:** [add local team management M3 (#75)](https://github.com/gcomneno/boardlab/commit/f4f1873d6dee8ee4e5da1b163e8d5b76d9f3ccd3)
+- **2026-11-03** · `boardlab` · **Docs:** [define Mission 004 causal reconciliation contract](https://github.com/gcomneno/boardlab/commit/f1806540eb507ea4bd9cdee51ce13b6f7fbdf290)
+- **2026-11-03** · `boardlab` · **Feature:** [implement Mission 003 engine and unified CLI](https://github.com/gcomneno/boardlab/commit/f8ae247cf10bcc9c4a7b3ba96da6b74a74fbdbb5)
+- **2026-11-03** · `boardlab` · **Docs:** [register Mission 003 bilingual contract](https://github.com/gcomneno/boardlab/commit/53f3dd989c38004fe20f20bf54a64b765446f73a)
 - **2026-11-01** · `giadaware-ui-components` · **Docs:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 
 <details>
@@ -329,7 +329,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
-_Showing up to 20 selected meaningful updates; 1516 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1469 additional update(s) not displayed._
 
 </details>
 
