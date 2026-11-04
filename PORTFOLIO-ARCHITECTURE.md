@@ -80,7 +80,9 @@ No repository is deleted merely because it is not promoted.
 
 # Canonical inventory
 
-The baseline below contains **66 repositories verified through the connected GitHub account on 2026-09-13**.
+This privacy-safe historical snapshot lists **45 repositories** recorded as public on 2026-09-13. Entries designated private in the original inventory are intentionally omitted.
+
+The snapshot is not an exhaustive account inventory and does not establish current repository visibility. The former account-wide total cannot be reconstructed from the public entries alone.
 
 ## 1. Portfolio & Governance
 
@@ -88,18 +90,12 @@ The baseline below contains **66 repositories verified through the connected Git
 | --- | --- | --- | --- |
 | `gcomneno` | CORE | public | PROMOTE |
 | `.github` | CORE | public | KEEP |
-| `giadaware` | CORE | private | KEEP |
-| `agent-standards` | CORE | private | KEEP |
-| `verifiable-learning-engine` | CORE | private | KEEP |
 
 ## 2. Infrastructure & Tooling
 
 | Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
-| `local-dev-infrastructure` | CORE | private | KEEP |
-| `oss-toolbox` | ACTIVE | private | KEEP |
 | `ubuntu-system-tools` | ACTIVE | public | PROMOTE |
-| `job-search-ops` | ACTIVE | private | KEEP |
 
 ## 3. Products & Utilities
 
@@ -108,20 +104,16 @@ The baseline below contains **66 repositories verified through the connected Git
 | `smart-file-organizer` | CORE | public | PROMOTE |
 | `giadaware-ai` | CORE | public | PROMOTE |
 | `giadaware-ui-components` | ACTIVE | public | KEEP |
-| `health-vault-cli` | ACTIVE | private | KEEP |
-| `big-deal-watcher` | ACTIVE | private | KEEP |
 | `grocery-deal-intelligence` | ACTIVE | public | KEEP |
 | `semantic-mail-archivist` | ACTIVE | public | KEEP |
 | `lele-manager` | ACTIVE | public | KEEP |
 | `atelier-kit` | ACTIVE | public | PROMOTE |
-| `onion-compressor-framework` | ACTIVE | private | KEEP |
 
 ## 4. Learning & Education
 
 | Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
 | `cyse-lab` | LAB | public | KEEP |
-| `bug-hunting-lab` | LAB | private | KEEP |
 | `build-a-database-lab` | LAB | public | KEEP |
 | `build-your-own-redis-lab` | LAB | public | KEEP |
 | `linux-container-lab` | LAB | public | KEEP |
@@ -173,33 +165,28 @@ These repositories are contribution working copies/forks. Their portfolio value 
 
 | Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
-| `archivio-narrativo` | CREATIVE | private | KEEP |
-| `ombre-quotidiane` | CREATIVE | private | KEEP |
-| `universi-condivisi` | CREATIVE | private | KEEP |
-| `club-dell-assurdo` | CREATIVE | private | KEEP |
 
 ## 8. Archive & Sandbox
 
 | Repository | Status | Visibility | Decision |
 | --- | --- | --- | --- |
-| `gcomneno-profile-history-private-20260802` | ARCHIVE | private | KEEP |
-| `atelier-kit-demo-sandbox` | SANDBOX | private | KEEP |
 
 `craft-application` and `craft-providers` are lifecycle `ARCHIVE` but remain categorized under **OSS Contributions**, because category and lifecycle are independent dimensions.
 
+
 # Baseline status distribution
 
-For the 66 GitHub-verified repositories:
+The following counts cover only the 45 entries in the public historical snapshot, not the full account.
 
 | Status | Count |
 | --- | ---: |
-| CORE | 8 |
-| ACTIVE | 34 |
-| LAB | 16 |
-| ARCHIVE | 3 |
-| SANDBOX | 1 |
-| CREATIVE | 4 |
-| **Total** | **66** |
+| CORE | 4 |
+| ACTIVE | 24 |
+| LAB | 15 |
+| ARCHIVE | 2 |
+| SANDBOX | 0 |
+| CREATIVE | 0 |
+| **Total** | **45** |
 
 # Post-baseline portfolio changes
 
@@ -347,6 +334,34 @@ Physical RX-only reception remains a separate qualification step.
 The laboratory is presented under Learning in Public in both profile languages.
 This addition does not rewrite the dated baseline inventory or its counts.
 
+## 2026-11-04 — Current classification and governance alignment
+
+The following current classifications supersede their corresponding
+2026-09-13 historical classifications. The dated inventory and its
+public-snapshot counts remain unchanged.
+
+| Repository | Current category | Lifecycle | Decision |
+| --- | --- | --- | --- |
+| `gyte` | Products & Utilities | ACTIVE | KEEP |
+| `gyte-ai-learning-pipeline` | Products & Utilities | ACTIVE | KEEP |
+| `system-log-dynamics` | Learning & Education | LAB | KEEP |
+
+The following public repositories were identified after the historical
+baseline and are recorded without automatic profile promotion.
+
+| Repository | Category | Lifecycle | Decision |
+| --- | --- | --- | --- |
+| `laravel-postgres-docker-baseline` | Learning & Education | LAB | KEEP |
+| `python-service-foundation` | Learning & Education (provisional) | LAB (provisional) | REVIEW |
+| `comunica` | OSS Contributions | ACTIVE | REVIEW |
+| `godzilla-gdz1` | Research & Experiments | ACTIVE | KEEP |
+
+The Python Service Foundation classification remains provisional because
+its public documentation combines production-baseline positioning with
+early learning-lab maturity. The contribution role of the public Comunica
+fork also remains subject to maintainer confirmation. Neither repository
+is promoted to the public profile by this governance record.
+
 # Presentation policy
 
 The profile README should remain selective. It should emphasize, in order:
@@ -365,7 +380,7 @@ without retroactively rewriting that historical baseline.
 
 Private governance, personal operations, private health tooling, creative archives and sandboxes are not automatically candidates for public promotion.
 
-## Presentation alignment gate — 2026-09-18
+## Presentation alignment gate — recorded 2026-09-18; repository identities subsequently updated
 
 The English and Italian profile READMEs were checked against the canonical `PROMOTE` decisions.
 
@@ -388,11 +403,10 @@ The first `inspect -> classify -> decide` pass produced these decisions without 
 | `web` | Learning & Education / LAB | KEEP | Umbrella web-learning lab with distinct Laravel and PHP sub-labs; generic name alone is not sufficient reason to mutate it. |
 | `petra` | Research & Experiments / ACTIVE | PROMOTE | Maintained PETRA runtime with canonical specification, CLI and tests; the PET-to-PETRA replacement program is complete. |
 | `lasagna-v2` | Research & Experiments / ACTIVE | KEEP | Explicit research MVP with CLI, `.lsg2` format, demos, tests and CI/security tooling. |
-| `onion-compressor-framework` | Products & Utilities / ACTIVE | KEEP | Verifiable lossless packager/framework with concrete CLI, formats, verification semantics, tests and reproducible benchmarks. |
 
 ### Remaining review queue
 
-No repositories remain in the current review queue.
+No repositories remained in the review queue after the 2026-09-12 pass. Current unresolved governance decisions are recorded under Post-baseline portfolio changes.
 
 Review means **inspect before mutation**. No rename, visibility change, archive action or deletion follows automatically from this document.
 
