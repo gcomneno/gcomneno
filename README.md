@@ -43,7 +43,7 @@
   </a>
 </p>
 
-<h3 align="center">My development philosophy</h3>
+<h2 align="center">My development philosophy</h2>
 
 <p align="center">
   <strong>AI is a tool. Understanding is a responsibility.</strong>
@@ -95,7 +95,7 @@ These projects best represent my current work across backend design, reliable au
 | [LeLe Manager](https://github.com/gcomneno/lele-manager) | [v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0) | Collects, searches and reuses textual lessons learned through Markdown, CLI, GUI and API workflows, with multi-vault management and optional Ask Vault synthesis | Local-first data, JSONL persistence, multi-vault filesystem isolation, API boundaries, optional AI integration and packaged desktop delivery |
 | [GiadaWare UI Components](https://github.com/gcomneno/giadaware-ui-components) | [v0.1.0](https://github.com/gcomneno/giadaware-ui-components/releases/tag/v0.1.0) | Provides reusable Svelte UI primitives for GiadaWare applications through a single public package entry point and explicit public stylesheet | Svelte package architecture, immutable packed artifacts, controlled public API, SSR/hydration and accessibility contracts |
 | [GYTE](https://github.com/gcomneno/gyte) | [v1.3.1](https://github.com/gcomneno/gyte/releases/tag/v1.3.1) | Extracts transcripts, audio and video from YouTube and supports text reflow, translation and local transcription workflows | Manifest-driven CLI design, media extraction pipelines and reproducible operational tooling |
-| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Provides safety-first Linux utilities for diagnostics, controlled maintenance, offline transcription, kernel analysis and evidence-driven storage workflows across local filesystems, Docker and DDEV | Read-only-by-default system tooling, explicit authority boundaries, conservative storage classification, deterministic cleanup proposals, exact-target mutation with revalidation and reproducible Linux packaging |
+| [Ubuntu System Tools](https://github.com/gcomneno/ubuntu-system-tools) | [v0.3.0](https://github.com/gcomneno/ubuntu-system-tools/releases/tag/v0.3.0) | Provides safety-first Linux utilities for diagnostics, controlled maintenance, offline transcription, kernel analysis and evidence-driven storage workflows across local filesystems, Docker and DDEV. Storage capabilities described here are unreleased on `main`. | Read-only-by-default system tooling, explicit authority boundaries, conservative storage classification, deterministic cleanup proposals, exact-target mutation with revalidation and reproducible Linux packaging |
 | [GiadaWare AI](https://github.com/gcomneno/giadaware-ai) | [v0.0.1](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.1) | Experimental 0.x infrastructure for provider-independent, read-only AI capabilities with typed outputs and replaceable backends | Provider-independent AI infrastructure, typed outputs, deterministic validation boundaries and replaceable backends |
 | [GYTE AI Learning Pipeline](https://github.com/gcomneno/gyte-ai-learning-pipeline) | [v0.5.0](https://github.com/gcomneno/gyte-ai-learning-pipeline/releases/tag/v0.5.0) | Restartable content pipelines for acquiring, validating and handing off learning material across private and public boundaries | Deterministic validation, restartable workflows, explicit privacy boundaries and controlled external delivery |
 
