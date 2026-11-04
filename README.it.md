@@ -329,7 +329,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1440 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1430 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
