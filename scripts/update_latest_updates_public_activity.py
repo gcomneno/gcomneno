@@ -22,61 +22,53 @@ def fetch_push_event_commits(
     before = payload.get("before")
 
     if not isinstance(head, str) or not head or head == ZERO_SHA:
+        if head != ZERO_SHA:
+            core.record_api_failure("malformed push head metadata.")
         return []
 
-    if not isinstance(before, str) or not before or before == ZERO_SHA:
+    if before is not None and not isinstance(before, str):
+        core.record_api_failure("malformed push comparison base metadata.")
+        return []
+
+    if not before or before == ZERO_SHA:
         url = (
             f"https://api.github.com/repos/{full_name}/commits/"
             f"{quote(head, safe='')}"
         )
         commit = core.github_get_json(url)
-        return [commit] if isinstance(commit, dict) else []
+        if core.API_HAD_FAILURE:
+            return []
+        if not isinstance(commit, dict):
+            core.record_api_failure("malformed push commit response.")
+            return []
+        return [commit]
 
     url = (
         f"https://api.github.com/repos/{full_name}/compare/"
         f"{quote(before, safe='')}...{quote(head, safe='')}"
     )
     comparison = core.github_get_json(url)
+    if core.API_HAD_FAILURE:
+        return []
     if not isinstance(comparison, dict):
+        core.record_api_failure("malformed push comparison response.")
         return []
 
     commits = comparison.get("commits")
-    if not isinstance(commits, list):
+    if not isinstance(commits, list) or any(
+        not isinstance(commit, dict) for commit in commits
+    ):
+        core.record_api_failure("malformed push comparison commits.")
         return []
 
-    return [commit for commit in commits if isinstance(commit, dict)]
+    return commits
 
 
 def update_item_from_commit(
     full_name: str,
     commit_obj: dict,
 ) -> core.UpdateItem | None:
-    if not core.is_own_commit(commit_obj):
-        return None
-
-    try:
-        commit = commit_obj["commit"]
-        parsed = core.parse_update_message(commit["message"])
-        if not parsed:
-            return None
-
-        kind, text = parsed
-        date = core.parse_github_datetime(commit["committer"]["date"])
-        html_url = commit_obj["html_url"]
-    except (KeyError, TypeError, ValueError):
-        return None
-
-    if not isinstance(html_url, str):
-        return None
-
-    return core.UpdateItem(
-        date=date,
-        repo=full_name.split("/", 1)[1],
-        kind=kind,
-        text=text,
-        url=html_url,
-        priority=core.COMMIT_PRIORITY_BY_KIND[kind],
-    )
+    return core.update_item_from_commit(full_name, commit_obj)
 
 
 def fetch_public_push_activity(
@@ -102,43 +94,51 @@ def fetch_public_push_activity(
         )
         events = core.github_get_json(url)
 
+        if core.API_HAD_FAILURE:
+            return []
         if not isinstance(events, list):
-            break
+            core.record_api_failure("malformed public activity page.")
+            return []
         if not events:
             break
 
         reached_cutoff = False
         for event in events:
             if not isinstance(event, dict):
-                continue
+                core.record_api_failure("malformed public activity record.")
+                return []
             stats["events"] += 1
 
             created_at = event.get("created_at")
-            if not isinstance(created_at, str):
-                continue
-
             try:
                 event_date = core.parse_github_datetime(created_at)
             except ValueError:
-                continue
+                core.record_api_failure("malformed public activity timestamp.")
+                return []
 
             if event_date < cutoff:
                 reached_cutoff = True
                 break
 
-            if event.get("type") != "PushEvent":
+            if not isinstance(event.get("type"), str):
+                core.record_api_failure("malformed public activity type.")
+                return []
+            if event["type"] != "PushEvent":
                 continue
             stats["push_events"] += 1
 
             actor = event.get("actor")
             repo = event.get("repo")
             payload = event.get("payload")
-            if not isinstance(actor, dict):
-                continue
-            if not isinstance(repo, dict):
-                continue
-            if not isinstance(payload, dict):
-                continue
+            if (
+                not isinstance(actor, dict)
+                or not isinstance(actor.get("login"), str)
+                or not isinstance(repo, dict)
+                or not isinstance(repo.get("name"), str)
+                or not isinstance(payload, dict)
+            ):
+                core.record_api_failure("malformed public push metadata.")
+                return []
             if actor.get("login") != core.OWNER_LOGIN:
                 continue
 
@@ -150,18 +150,25 @@ def fetch_public_push_activity(
                 continue
 
             ref = payload.get("ref")
-            if not isinstance(ref, str) or not ref.startswith("refs/heads/"):
+            if not isinstance(ref, str):
+                core.record_api_failure("malformed public push reference.")
+                return []
+            if not ref.startswith("refs/heads/"):
                 continue
             stats["eligible_push_events"] += 1
 
             commits = fetch_push_event_commits(full_name, payload)
+            if core.API_HAD_FAILURE:
+                return []
             stats["resolved_commits"] += len(commits)
 
             for commit_obj in commits:
+                item = update_item_from_commit(full_name, commit_obj)
+                if core.API_HAD_FAILURE:
+                    return []
                 if core.is_own_commit(commit_obj):
                     stats["owner_commits"] += 1
 
-                item = update_item_from_commit(full_name, commit_obj)
                 if item is None:
                     continue
 
@@ -181,6 +188,8 @@ def fetch_public_push_activity(
 
 def collect_updates() -> list[core.UpdateItem]:
     repos = core.discover_public_repositories()
+    if core.API_HAD_FAILURE:
+        return []
     print(
         f"Discovered {len(repos)} recently updated public repository/repositories.",
         file=sys.stderr,
@@ -189,10 +198,16 @@ def collect_updates() -> list[core.UpdateItem]:
     items: list[core.UpdateItem] = []
     for repo in repos:
         items.extend(core.fetch_repo_releases(repo))
+        if core.API_HAD_FAILURE:
+            return []
         items.extend(core.fetch_repo_commit_updates(repo))
+        if core.API_HAD_FAILURE:
+            return []
 
     stable_urls = {item.url for item in items}
     activity_items = fetch_public_push_activity(set(repos))
+    if core.API_HAD_FAILURE:
+        return []
     supplemental = [
         item for item in activity_items if item.url not in stable_urls
     ]

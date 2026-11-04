@@ -1,12 +1,20 @@
 from __future__ import annotations
 
 import importlib.util
+import io
+import json
 import sys
 import unittest
-from datetime import datetime, timezone
+from copy import deepcopy
+from contextlib import redirect_stderr, redirect_stdout
+from datetime import datetime, timedelta, timezone
+from http.client import IncompleteRead, RemoteDisconnected
 from pathlib import Path
 from tempfile import TemporaryDirectory
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
+from urllib.error import HTTPError, URLError
+
+from scripts import bilingual_write as writer
 
 
 SCRIPT_PATH = (
@@ -22,6 +30,45 @@ assert SPEC is not None and SPEC.loader is not None
 MODULE = importlib.util.module_from_spec(SPEC)
 sys.modules[SPEC.name] = MODULE
 SPEC.loader.exec_module(MODULE)
+
+
+def repository(**overrides) -> dict:
+    return {
+        "full_name": "gcomneno/atelier-kit",
+        "owner": {"login": "gcomneno"},
+        "private": False, "archived": False, "disabled": False,
+        "pushed_at": datetime.now(timezone.utc).isoformat(),
+        **overrides,
+    }
+
+
+def release(**overrides) -> dict:
+    return {
+        "draft": False, "prerelease": False,
+        "published_at": datetime.now(timezone.utc).isoformat(),
+        "tag_name": "v1.0.0", "name": None,
+        "html_url": "https://github.com/gcomneno/atelier-kit/releases/tag/v1.0.0",
+        **overrides,
+    }
+
+
+def commit_data() -> dict:
+    return {
+        "author": {"login": "gcomneno"},
+        "committer": {"login": "gcomneno"},
+        "html_url": "https://github.com/gcomneno/atelier-kit/commit/abc",
+        "commit": {
+            "message": "feat: add public capability",
+            "committer": {"date": datetime.now(timezone.utc).isoformat()},
+        },
+    }
+
+
+class IsolatedApiTests(unittest.TestCase):
+    def setUp(self) -> None:
+        failure = patch.object(MODULE, "API_HAD_FAILURE", False)
+        failure.start()
+        self.addCleanup(failure.stop)
 
 
 def item(
@@ -54,7 +101,7 @@ def item(
     )
 
 
-class RepositoryEligibilityPolicyTests(unittest.TestCase):
+class RepositoryEligibilityPolicyTests(IsolatedApiTests):
     def test_repository_policy_is_positive_and_fail_closed(self) -> None:
         self.assertIn(
             "gcomneno/atelier-kit",
@@ -117,6 +164,7 @@ class RepositoryEligibilityPolicyTests(unittest.TestCase):
                 "private": False,
                 "archived": False,
                 "disabled": False,
+                "pushed_at": datetime.now(timezone.utc).isoformat(),
             },
             {
                 "full_name": "gcomneno/atelier-kit",
@@ -124,6 +172,7 @@ class RepositoryEligibilityPolicyTests(unittest.TestCase):
                 "private": False,
                 "archived": False,
                 "disabled": False,
+                "pushed_at": datetime.now(timezone.utc).isoformat(),
             },
         ]
 
@@ -136,6 +185,230 @@ class RepositoryEligibilityPolicyTests(unittest.TestCase):
                 MODULE.discover_public_repositories(),
                 ["gcomneno/atelier-kit"],
             )
+
+    def test_eligibility_fields_require_explicit_booleans(self) -> None:
+        missing = object()
+        for field in ("private", "archived", "disabled"):
+            for value in (missing, None, 0, 1, "false", "true", [], {}):
+                with self.subTest(field=field, value=value):
+                    repo = repository()
+                    if value is missing:
+                        del repo[field]
+                    else:
+                        repo[field] = value
+                    MODULE.API_HAD_FAILURE = False
+                    with (
+                        patch.object(MODULE, "github_get_json", return_value=[repo]),
+                        redirect_stderr(io.StringIO()),
+                    ):
+                        self.assertEqual(MODULE.discover_public_repositories(), [])
+                    self.assertTrue(MODULE.API_HAD_FAILURE)
+
+    def test_explicit_ineligible_repositories_are_successfully_excluded(self) -> None:
+        for overrides in (
+            {"private": True}, {"archived": True}, {"disabled": True},
+            {"full_name": MODULE.PROFILE_REPO},
+            {"full_name": "other/atelier-kit", "owner": {"login": "other"}},
+            {"pushed_at": (datetime.now(timezone.utc) - timedelta(
+                days=MODULE.LOOKBACK_DAYS + 1
+            )).isoformat()},
+            {"pushed_at": None},
+        ):
+            with self.subTest(overrides=overrides), patch.object(
+                MODULE, "github_get_json", return_value=[repository(**overrides)]
+            ):
+                self.assertEqual(MODULE.discover_public_repositories(), [])
+                self.assertFalse(MODULE.API_HAD_FAILURE)
+
+    def test_empty_discovery_page_is_success(self) -> None:
+        with patch.object(MODULE, "github_get_json", return_value=[]):
+            self.assertEqual(MODULE.discover_public_repositories(), [])
+        self.assertFalse(MODULE.API_HAD_FAILURE)
+
+    def test_malformed_discovery_pages_and_records_are_failures(self) -> None:
+        for payload in (
+            None, {}, {"message": "synthetic-private-payload"}, "", 0, False,
+            [None], [[]], ["synthetic-private-payload"], [{}],
+            [repository(owner=None)], [repository(owner={})],
+            [repository(owner={"login": "other"})],
+            [repository(full_name=123)], [repository(full_name="gcomneno/")],
+            [repository(full_name="gcomneno/atelier-kit/extra")],
+        ):
+            with self.subTest(payload=payload):
+                MODULE.API_HAD_FAILURE = False
+                diagnostic = io.StringIO()
+                with (
+                    patch.object(MODULE, "github_get_json", return_value=payload),
+                    redirect_stderr(diagnostic),
+                ):
+                    self.assertEqual(MODULE.discover_public_repositories(), [])
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+                self.assertNotIn("synthetic-private-payload", diagnostic.getvalue())
+
+    def test_discovery_failure_discards_previously_valid_page(self) -> None:
+        page = [repository()] + [repository(
+            full_name="gcomneno/unlisted-public-repository"
+        ) for _ in range(99)]
+        for failed_page in (None, {}, [None], [repository(private=None)]):
+            with self.subTest(failed_page=failed_page):
+                MODULE.API_HAD_FAILURE = False
+                with (
+                    patch.object(MODULE, "github_get_json", side_effect=[
+                        page, failed_page
+                    ]) as get,
+                    redirect_stderr(io.StringIO()),
+                ):
+                    self.assertEqual(MODULE.discover_public_repositories(), [])
+                self.assertEqual(get.call_count, 2)
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+
+    def test_unknown_or_malformed_push_time_is_a_discovery_failure(self) -> None:
+        missing = object()
+        for value in (missing, "invalid", "", 123, False, [], {},
+                      "2026-11-04", "2026-11-04T12:00:00"):
+            with self.subTest(value=value):
+                repo = repository(pushed_at=value)
+                if value is missing:
+                    del repo["pushed_at"]
+                MODULE.API_HAD_FAILURE = False
+                with (
+                    patch.object(MODULE, "github_get_json", return_value=[repo]),
+                    redirect_stderr(io.StringIO()),
+                ):
+                    self.assertEqual(MODULE.discover_public_repositories(), [])
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+
+
+class ApiFailureTests(IsolatedApiTests):
+    def test_http_transport_timeout_decoding_and_json_failures_are_private(self) -> None:
+        secret = "synthetic-private-sentinel"
+        url = f"https://api.github.com/{secret}"
+        failures = (
+            (HTTPError(url, 503, secret, {}, None), "HTTP failure (status 503)"),
+            (URLError(secret), "transport or timeout"),
+            (TimeoutError(secret), "transport or timeout"),
+            (ConnectionResetError(secret), "transport or timeout"),
+            (RemoteDisconnected(secret), "transport or timeout"),
+            (IncompleteRead(secret.encode()), "transport or timeout"),
+            (UnicodeDecodeError("utf-8", b"\xff", 0, 1, secret), "decoding failure"),
+            (json.JSONDecodeError(secret, secret, 0), "JSON decoding failure"),
+        )
+        for failure, expected in failures:
+            for phase in ("open", "read"):
+                with self.subTest(failure=type(failure).__name__, phase=phase):
+                    MODULE.API_HAD_FAILURE = False
+                    response = MagicMock()
+                    response.__enter__.return_value = response
+                    if phase == "read":
+                        response.read.side_effect = failure
+                    diagnostic = io.StringIO()
+                    with (
+                        patch.object(MODULE, "urlopen", return_value=response,
+                                     side_effect=failure if phase == "open" else None),
+                        patch.dict(MODULE.os.environ, {
+                            MODULE.PROFILE_BLOCK_TERMS_ENV: secret,
+                            "GH_TOKEN": secret,
+                        }),
+                        redirect_stderr(diagnostic),
+                    ):
+                        self.assertIsNone(MODULE.github_get_json(url))
+                    self.assertTrue(MODULE.API_HAD_FAILURE)
+                    self.assertIn(expected, diagnostic.getvalue())
+                    self.assertNotIn(secret, diagnostic.getvalue())
+                    self.assertNotIn(url, diagnostic.getvalue())
+
+    def test_invalid_response_bytes_are_reported(self) -> None:
+        for body, expected in ((b"\xff", "decoding failure"),
+                               (b"not-json", "JSON decoding failure")):
+            with self.subTest(body=body):
+                MODULE.API_HAD_FAILURE = False
+                response = MagicMock()
+                response.__enter__.return_value.read.return_value = body
+                diagnostic = io.StringIO()
+                with (
+                    patch.object(MODULE, "urlopen", return_value=response),
+                    redirect_stderr(diagnostic),
+                ):
+                    self.assertIsNone(MODULE.github_get_json("https://api.github.com/"))
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+                self.assertIn(expected, diagnostic.getvalue())
+
+    def test_activity_pages_distinguish_empty_from_malformed(self) -> None:
+        for fetch in (MODULE.fetch_repo_releases, MODULE.fetch_repo_commit_updates):
+            for payload in ([], None, {}, "invalid", [None], [{}]):
+                with self.subTest(fetch=fetch.__name__, payload=payload):
+                    MODULE.API_HAD_FAILURE = False
+                    with (
+                        patch.object(MODULE, "github_get_json", return_value=payload),
+                        redirect_stderr(io.StringIO()),
+                    ):
+                        self.assertEqual(fetch("gcomneno/atelier-kit"), [])
+                    self.assertEqual(MODULE.API_HAD_FAILURE, payload != [])
+
+    def test_activity_page_failure_discards_partial_items(self) -> None:
+        for fetch, record in (
+            (MODULE.fetch_repo_releases, release()),
+            (MODULE.fetch_repo_commit_updates, commit_data()),
+        ):
+            with self.subTest(fetch=fetch.__name__):
+                MODULE.API_HAD_FAILURE = False
+                with (
+                    patch.object(MODULE, "github_get_json", side_effect=[
+                        [record] * 100, {}
+                    ]) as get,
+                    redirect_stderr(io.StringIO()),
+                ):
+                    self.assertEqual(fetch("gcomneno/atelier-kit"), [])
+                self.assertEqual(get.call_count, 2)
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+
+    def test_malformed_commit_metadata_is_a_failure(self) -> None:
+        for key_path, value in (
+            (("commit",), None), (("commit", "message"), 42),
+            (("commit", "committer"), []),
+            (("commit", "committer", "date"), "invalid"),
+            (("commit", "committer", "date"), "2026-11-04"),
+            (("html_url",), None), (("author",), "invalid"),
+        ):
+            with self.subTest(key_path=key_path, value=value):
+                MODULE.API_HAD_FAILURE = False
+                commit = deepcopy(commit_data())
+                target = commit
+                for key in key_path[:-1]:
+                    target = target[key]
+                target[key_path[-1]] = value
+                with (
+                    patch.object(MODULE, "github_get_json", return_value=[commit]),
+                    redirect_stderr(io.StringIO()),
+                ):
+                    self.assertEqual(MODULE.fetch_repo_commit_updates(
+                        "gcomneno/atelier-kit"
+                    ), [])
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+
+    def test_malformed_release_metadata_is_a_failure(self) -> None:
+        for overrides in (
+            {"draft": None}, {"draft": 0}, {"tag_name": None}, {"name": []},
+            {"published_at": "invalid"}, {"published_at": None},
+            {"published_at": "2026-11-04"}, {"html_url": False},
+        ):
+            with self.subTest(overrides=overrides):
+                MODULE.API_HAD_FAILURE = False
+                with (
+                    patch.object(MODULE, "github_get_json", return_value=[
+                        release(**overrides)
+                    ]), redirect_stderr(io.StringIO()),
+                ):
+                    self.assertEqual(MODULE.fetch_repo_releases("gcomneno/atelier-kit"), [])
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+
+    def test_prereleases_remain_latest_updates_activity(self) -> None:
+        with patch.object(MODULE, "github_get_json", return_value=[
+            release(prerelease=True, tag_name="v2.0.0-rc.1"), release(draft=True),
+        ]):
+            items = MODULE.fetch_repo_releases("gcomneno/atelier-kit")
+        self.assertEqual([entry.text for entry in items], ["v2.0.0-rc.1"])
+        self.assertFalse(MODULE.API_HAD_FAILURE)
 
 
 class UpdateMessageTests(unittest.TestCase):
@@ -682,6 +955,177 @@ class LocalizedUpdateRenderingTests(unittest.TestCase):
 
 
 class BilingualMainIntegrationTests(unittest.TestCase):
+    def test_failed_refreshes_preserve_both_files_and_return_failure(self) -> None:
+        for payloads in (
+            [{}],
+            [[repository(private=None)]],
+            [[repository()], {}],
+            [[repository()], [release()], {"message": "synthetic-private-payload"}],
+            [[repository()], [], [commit_data(), {}]],
+        ):
+            with self.subTest(payloads=payloads), TemporaryDirectory() as directory:
+                paths = {"en": Path(directory) / "README.md",
+                         "it": Path(directory) / "README.it.md"}
+                for path in paths.values():
+                    path.write_bytes(self.readme_fixture().replace("\n", "\r\n").encode())
+                originals = {path: path.read_bytes() for path in paths.values()}
+                diagnostic = io.StringIO()
+                with (
+                    patch.object(MODULE, "README_PATHS", paths),
+                    patch.object(MODULE, "github_get_json", side_effect=payloads),
+                    patch.object(MODULE, "write_bilingual") as write,
+                    redirect_stderr(diagnostic), redirect_stdout(io.StringIO()),
+                ):
+                    self.assertEqual(MODULE.main(), 1)
+                    write.assert_not_called()
+                self.assertIn("READMEs left unchanged", diagnostic.getvalue())
+                self.assertNotIn("synthetic-private-payload", diagnostic.getvalue())
+                for path, original in originals.items():
+                    self.assertEqual(path.read_bytes(), original)
+
+    def test_wire_failures_return_failure_without_writes(self) -> None:
+        for failure in (
+            HTTPError("https://api.github.com/", 403, "private", {}, None),
+            URLError("private"), TimeoutError("private"),
+            json.JSONDecodeError("private", "private", 0),
+            UnicodeDecodeError("utf-8", b"\xff", 0, 1, "private"),
+        ):
+            with self.subTest(failure=type(failure).__name__), TemporaryDirectory() as directory:
+                paths = {"en": Path(directory) / "README.md",
+                         "it": Path(directory) / "README.it.md"}
+                for path in paths.values():
+                    path.write_text(self.readme_fixture(), encoding="utf-8")
+                originals = {path: path.read_bytes() for path in paths.values()}
+                with (
+                    patch.object(MODULE, "README_PATHS", paths),
+                    patch.object(MODULE, "urlopen", side_effect=failure),
+                    patch.object(MODULE, "write_bilingual") as write,
+                    redirect_stderr(io.StringIO()),
+                ):
+                    self.assertEqual(MODULE.main(), 1)
+                    write.assert_not_called()
+                for path, original in originals.items():
+                    self.assertEqual(path.read_bytes(), original)
+
+    def test_failure_then_clean_empty_refresh_then_no_change(self) -> None:
+        with TemporaryDirectory() as directory:
+            paths = {"en": Path(directory) / "README.md",
+                     "it": Path(directory) / "README.it.md"}
+            for path in paths.values():
+                path.write_text(self.readme_fixture(), encoding="utf-8")
+            with (
+                patch.object(MODULE, "README_PATHS", paths),
+                patch.object(MODULE, "github_get_json", side_effect=[{}, [], []]),
+                redirect_stderr(io.StringIO()), redirect_stdout(io.StringIO()) as stdout,
+            ):
+                self.assertEqual(MODULE.main(), 1)
+                self.assertTrue(MODULE.API_HAD_FAILURE)
+                self.assertEqual(MODULE.main(), 0)
+                self.assertFalse(MODULE.API_HAD_FAILURE)
+                after_empty = {path: path.read_bytes() for path in paths.values()}
+                for locale, path in paths.items():
+                    self.assertIn(MODULE.UI_BY_LOCALE[locale]["fallback"],
+                                  path.read_text(encoding="utf-8"))
+                self.assertEqual(MODULE.main(), 0)
+                self.assertFalse(MODULE.API_HAD_FAILURE)
+                self.assertIn("already up to date", stdout.getvalue())
+                for path, original in after_empty.items():
+                    self.assertEqual(path.read_bytes(), original)
+
+    def test_main_propagates_bilingual_write_failures(self) -> None:
+        for failure in ("staging", "replacement", "rollback"):
+            with self.subTest(failure=failure), TemporaryDirectory() as directory:
+                root = Path(directory)
+                paths = {"en": root / "README.md", "it": root / "README.it.md"}
+                for path in paths.values():
+                    path.write_text(self.readme_fixture(), encoding="utf-8")
+                originals = {path: path.read_bytes() for path in paths.values()}
+                real_replace = writer.os.replace
+
+                def replace(source, destination):
+                    if destination == paths["it"] or (
+                        failure == "rollback" and source.suffix == ".restore"
+                    ):
+                        raise OSError("injected replacement failure")
+                    real_replace(source, destination)
+
+                stdout, stderr = io.StringIO(), io.StringIO()
+                with (
+                    patch.object(MODULE, "README_PATHS", paths),
+                    patch.object(MODULE, "collect_updates", return_value=[]),
+                    patch.object(MODULE, "API_HAD_FAILURE", False),
+                    patch.object(writer.os, "replace", side_effect=replace),
+                    patch.object(
+                        writer.os, "fsync",
+                        side_effect=OSError("staging failure") if failure == "staging" else None,
+                    ),
+                    redirect_stdout(stdout), redirect_stderr(stderr),
+                ):
+                    self.assertEqual(MODULE.main(), 1)
+                self.assertNotIn("fallback written", stdout.getvalue())
+                self.assertNotIn("already up to date", stdout.getvalue())
+                self.assertIn("Latest Updates aborted", stderr.getvalue())
+                if failure == "rollback":
+                    self.assertIn("Recovery required", stderr.getvalue())
+                    self.assertNotIn("READMEs left unchanged", stderr.getvalue())
+                    backups = list(root.glob(".*.original"))
+                    self.assertEqual(len(backups), 2)
+                    for path, data in originals.items():
+                        backup = next(root.glob(f".{path.name}.*.original"))
+                        self.assertEqual(backup.read_bytes(), data)
+                        self.assertIn(str(backup), stderr.getvalue())
+                else:
+                    for path, data in originals.items():
+                        self.assertEqual(path.read_bytes(), data)
+                    self.assertEqual(list(root.glob(".*")), [])
+
+    def test_second_readme_validation_failure_never_calls_writer(self) -> None:
+        with TemporaryDirectory() as directory:
+            paths = {
+                "en": Path(directory) / "README.md",
+                "it": Path(directory) / "README.it.md",
+            }
+            paths["en"].write_text(self.readme_fixture(), encoding="utf-8")
+            paths["it"].write_text("Missing markers\n", encoding="utf-8")
+            with (
+                patch.object(MODULE, "README_PATHS", paths),
+                patch.object(MODULE, "collect_updates", return_value=[]),
+                patch.object(MODULE, "API_HAD_FAILURE", False),
+                patch.object(MODULE, "write_bilingual") as write,
+            ):
+                with self.assertRaises(SystemExit):
+                    MODULE.main()
+                write.assert_not_called()
+            self.assertEqual(
+                paths["en"].read_text(encoding="utf-8"), self.readme_fixture()
+            )
+
+    def test_edit_after_rendering_is_not_overwritten(self) -> None:
+        with TemporaryDirectory() as directory:
+            paths = {
+                "en": Path(directory) / "README.md",
+                "it": Path(directory) / "README.it.md",
+            }
+            for path in paths.values():
+                path.write_text(self.readme_fixture(), encoding="utf-8")
+
+            def edit_then_write(originals, outputs):
+                paths["it"].write_bytes(b"Concurrent edit\n")
+                return writer.write_bilingual(originals, outputs)
+
+            with (
+                patch.object(MODULE, "README_PATHS", paths),
+                patch.object(MODULE, "collect_updates", return_value=[]),
+                patch.object(MODULE, "API_HAD_FAILURE", False),
+                patch.object(MODULE, "write_bilingual", side_effect=edit_then_write),
+                redirect_stderr(io.StringIO()),
+            ):
+                self.assertEqual(MODULE.main(), 1)
+            self.assertEqual(paths["it"].read_bytes(), b"Concurrent edit\n")
+            self.assertEqual(
+                paths["en"].read_text(encoding="utf-8"), self.readme_fixture()
+            )
+
     @staticmethod
     def readme_fixture() -> str:
         return (
@@ -903,6 +1347,10 @@ class BilingualMainIntegrationTests(unittest.TestCase):
             url="https://example.test/development",
         )
 
+        def failed_collection():
+            MODULE.record_api_failure("injected collection failure.")
+            return [update]
+
         with TemporaryDirectory() as directory:
             root = Path(directory)
             paths = {
@@ -926,7 +1374,7 @@ class BilingualMainIntegrationTests(unittest.TestCase):
                 patch.object(
                     MODULE,
                     "collect_updates",
-                    return_value=[update],
+                    side_effect=failed_collection,
                 ),
                 patch.object(
                     MODULE,
@@ -936,7 +1384,7 @@ class BilingualMainIntegrationTests(unittest.TestCase):
             ):
                 result = MODULE.main()
 
-            self.assertEqual(result, 0)
+            self.assertEqual(result, 1)
 
             for path in paths.values():
                 self.assertEqual(

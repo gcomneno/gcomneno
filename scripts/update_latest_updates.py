@@ -7,9 +7,19 @@ import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
+from http.client import HTTPException
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+
+try:
+    from scripts.bilingual_write import (
+        BilingualWriteError, FileSnapshot, read_snapshot, write_bilingual,
+    )
+except ModuleNotFoundError:  # Direct execution: python scripts/<generator>.py
+    from bilingual_write import (
+        BilingualWriteError, FileSnapshot, read_snapshot, write_bilingual,
+    )
 
 
 README_PATHS = {
@@ -261,12 +271,22 @@ class UpdateItem:
 
 
 def parse_github_datetime(value: str) -> datetime:
-    return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if not isinstance(value, str):
+        raise ValueError("Invalid GitHub timestamp")
+    parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        raise ValueError("GitHub timestamp lacks a timezone")
+    return parsed
+
+
+def record_api_failure(reason: str) -> None:
+    """Record a failure using only fixed diagnostics, never response data."""
+    global API_HAD_FAILURE
+    API_HAD_FAILURE = True
+    print(f"warning: GitHub API {reason}", file=sys.stderr)
 
 
 def github_get_json(url: str) -> object | None:
-    global API_HAD_FAILURE
-
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
     headers = {
@@ -284,13 +304,14 @@ def github_get_json(url: str) -> object | None:
         with urlopen(request, timeout=20) as response:
             return json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:
-        API_HAD_FAILURE = True
-        print(f"warning: GitHub API returned {exc.code} for {url}", file=sys.stderr)
-        return None
-    except URLError as exc:
-        API_HAD_FAILURE = True
-        print(f"warning: GitHub API failed for {url}: {exc}", file=sys.stderr)
-        return None
+        record_api_failure(f"HTTP failure (status {exc.code}).")
+    except (URLError, OSError, HTTPException):
+        record_api_failure("transport or timeout failure.")
+    except UnicodeError:
+        record_api_failure("response decoding failure.")
+    except (ValueError, RecursionError):
+        record_api_failure("JSON decoding failure.")
+    return None
 
 
 def blocked_update_terms() -> tuple[str, ...]:
@@ -391,18 +412,47 @@ def discover_public_repositories() -> list[str]:
             f"?type=owner&sort=pushed&direction=desc&per_page=100&page={page}"
         )
         payload = github_get_json(url)
-        if not isinstance(payload, list) or not payload:
+        if API_HAD_FAILURE:
+            return []
+        if not isinstance(payload, list):
+            record_api_failure("malformed repository discovery page.")
+            return []
+        if not payload:
             break
 
         for repo in payload:
             if not isinstance(repo, dict):
-                continue
+                record_api_failure("malformed repository discovery record.")
+                return []
 
             full_name = repo.get("full_name")
             owner = repo.get("owner", {})
             owner_login = owner.get("login") if isinstance(owner, dict) else None
 
-            if not isinstance(full_name, str) or owner_login != OWNER_LOGIN:
+            if (
+                not isinstance(full_name, str)
+                or not isinstance(owner_login, str)
+                or not owner_login
+                or not full_name.startswith(f"{owner_login}/")
+                or len(full_name.split("/")) != 2
+                or not full_name.split("/", 1)[1]
+                or any(type(repo.get(field)) is not bool
+                       for field in ("private", "archived", "disabled"))
+                or "pushed_at" not in repo
+            ):
+                record_api_failure("malformed repository eligibility metadata.")
+                return []
+
+            pushed_at = repo["pushed_at"]
+            try:
+                pushed_date = (
+                    parse_github_datetime(pushed_at) if pushed_at is not None else None
+                )
+            except ValueError:
+                record_api_failure("malformed repository push timestamp.")
+                return []
+
+            if owner_login != OWNER_LOGIN:
                 continue
             if full_name == PROFILE_REPO:
                 continue
@@ -415,13 +465,10 @@ def discover_public_repositories() -> list[str]:
             if repo.get("disabled") is True:
                 continue
 
-            pushed_at = repo.get("pushed_at")
-            if isinstance(pushed_at, str):
-                try:
-                    if parse_github_datetime(pushed_at) < cutoff:
-                        continue
-                except ValueError:
-                    pass
+            # Null is legitimate for a repository without known push activity,
+            # but does not establish eligibility within the lookback window.
+            if pushed_date is None or pushed_date < cutoff:
+                continue
 
             repos.append(full_name)
             if len(repos) >= MAX_REPOS:
@@ -441,6 +488,41 @@ def is_own_commit(commit_obj: dict) -> bool:
 
     committer = commit_obj.get("committer")
     return isinstance(committer, dict) and committer.get("login") == OWNER_LOGIN
+
+
+def update_item_from_commit(repo: str, commit_obj: object) -> UpdateItem | None:
+    """Validate API commit data before applying the editorial filters."""
+    try:
+        if not isinstance(commit_obj, dict):
+            raise ValueError
+        for field in ("author", "committer"):
+            identity = commit_obj[field]
+            if identity is not None and (
+                not isinstance(identity, dict)
+                or not isinstance(identity.get("login"), str)
+                or not identity["login"]
+            ):
+                raise ValueError
+        commit = commit_obj["commit"]
+        message = commit["message"]
+        html_url = commit_obj["html_url"]
+        if not isinstance(message, str) or not isinstance(html_url, str) or not html_url:
+            raise ValueError
+        date = parse_github_datetime(commit["committer"]["date"])
+    except (KeyError, TypeError, ValueError):
+        record_api_failure("malformed commit response.")
+        return None
+
+    if not is_own_commit(commit_obj):
+        return None
+    parsed = parse_update_message(message)
+    if parsed is None:
+        return None
+    kind, text = parsed
+    return UpdateItem(
+        date=date, repo=repo.split("/", 1)[1], kind=kind, text=text,
+        url=html_url, priority=COMMIT_PRIORITY_BY_KIND[kind],
+    )
 
 
 def release_label(tag_name: str, name: str | None) -> str:
@@ -463,33 +545,41 @@ def fetch_repo_releases(repo: str) -> list[UpdateItem]:
         url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page={page}"
         releases = github_get_json(url)
 
+        if API_HAD_FAILURE:
+            return []
         if not isinstance(releases, list):
-            return items
+            record_api_failure("malformed releases page.")
+            return []
         if not releases:
             break
 
         for release in releases:
-            if not isinstance(release, dict) or release.get("draft") is True:
+            if not isinstance(release, dict) or type(release.get("draft")) is not bool:
+                record_api_failure("malformed release record.")
+                return []
+            if release["draft"]:
                 continue
 
             published_at = release.get("published_at")
             tag_name = release.get("tag_name")
             html_url = release.get("html_url")
 
-            if not isinstance(published_at, str) or not isinstance(tag_name, str):
-                continue
-            if not isinstance(html_url, str):
-                continue
-
+            name = release.get("name")
             try:
+                if (
+                    not isinstance(tag_name, str) or not tag_name.strip()
+                    or not isinstance(html_url, str) or not html_url
+                    or (name is not None and not isinstance(name, str))
+                ):
+                    raise ValueError
                 date = parse_github_datetime(published_at)
             except ValueError:
-                continue
+                record_api_failure("malformed release metadata.")
+                return []
 
             if date < cutoff:
                 continue
 
-            name = release.get("name")
             items.append(
                 UpdateItem(
                     date=date,
@@ -512,7 +602,6 @@ def fetch_repo_commit_updates(repo: str) -> list[UpdateItem]:
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).isoformat()
     items: list[UpdateItem] = []
     page = 1
-    repo_name = repo.split("/", 1)[1]
 
     while True:
         url = (
@@ -521,38 +610,20 @@ def fetch_repo_commit_updates(repo: str) -> list[UpdateItem]:
         )
         commits = github_get_json(url)
 
+        if API_HAD_FAILURE:
+            return []
         if not isinstance(commits, list):
-            return items
+            record_api_failure("malformed commits page.")
+            return []
         if not commits:
             break
 
         for commit_obj in commits:
-            if not isinstance(commit_obj, dict) or not is_own_commit(commit_obj):
-                continue
-
-            try:
-                commit = commit_obj["commit"]
-                parsed = parse_update_message(commit["message"])
-                if not parsed:
-                    continue
-
-                kind, text = parsed
-                date = parse_github_datetime(commit["committer"]["date"])
-                html_url = commit_obj["html_url"]
-                priority = COMMIT_PRIORITY_BY_KIND[kind]
-
-                items.append(
-                    UpdateItem(
-                        date=date,
-                        repo=repo_name,
-                        kind=kind,
-                        text=text,
-                        url=html_url,
-                        priority=priority,
-                    )
-                )
-            except (KeyError, TypeError, ValueError):
-                continue
+            item = update_item_from_commit(repo, commit_obj)
+            if API_HAD_FAILURE:
+                return []
+            if item is not None:
+                items.append(item)
 
         if len(commits) < 100:
             break
@@ -634,12 +705,18 @@ def dedupe_updates(
 
 def collect_updates() -> list[UpdateItem]:
     repos = discover_public_repositories()
+    if API_HAD_FAILURE:
+        return []
     print(f"Discovered {len(repos)} recently updated public repository/repositories.", file=sys.stderr)
 
     items: list[UpdateItem] = []
     for repo in repos:
         items.extend(fetch_repo_releases(repo))
+        if API_HAD_FAILURE:
+            return []
         items.extend(fetch_repo_commit_updates(repo))
+        if API_HAD_FAILURE:
+            return []
 
     merged = dedupe_updates(items)
     counts = {
@@ -798,17 +875,20 @@ def replace_updates_block(
 
 
 def main() -> int:
+    global API_HAD_FAILURE
+    API_HAD_FAILURE = False
     items = collect_updates()
 
     if API_HAD_FAILURE:
         print(
             "GitHub API failure detected. "
-            "Profile READMEs left unchanged."
+            "Profile READMEs left unchanged.",
+            file=sys.stderr,
         )
-        return 0
+        return 1
 
     updated_by_path: dict[Path, str] = {}
-    changed_paths: list[Path] = []
+    originals: dict[Path, FileSnapshot] = {}
 
     for locale, path in README_PATHS.items():
         if not path.is_file():
@@ -816,7 +896,8 @@ def main() -> int:
                 f"Profile README missing for locale {locale}: {path}"
             )
 
-        readme = path.read_text(encoding="utf-8")
+        originals[path] = read_snapshot(path)
+        readme = originals[path].text
         updates_markdown = render_updates(
             items,
             locale=locale,
@@ -828,8 +909,11 @@ def main() -> int:
         )
         updated_by_path[path] = updated
 
-        if updated != readme:
-            changed_paths.append(path)
+    try:
+        changed_paths = write_bilingual(originals, updated_by_path)
+    except (BilingualWriteError, OSError, UnicodeError) as exc:
+        print(f"Latest Updates aborted: {exc}", file=sys.stderr)
+        return 1
 
     if not changed_paths:
         print(
@@ -837,12 +921,6 @@ def main() -> int:
             "in both profile READMEs."
         )
         return 0
-
-    for path in changed_paths:
-        path.write_text(
-            updated_by_path[path],
-            encoding="utf-8",
-        )
 
     changed = ", ".join(str(path) for path in changed_paths)
 

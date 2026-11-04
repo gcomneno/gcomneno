@@ -9,9 +9,14 @@ on:
     branches:
       - main
     paths:
+      # README-only pushes must not restart generation after automated updates.
+      - AGENTS.md
+      - PORTFOLIO-ARCHITECTURE.md
+      - scripts/bilingual_write.py
       - scripts/sync_selected_project_releases.py
       - scripts/update_latest_updates.py
       - scripts/update_latest_updates_public_activity.py
+      - tests/test_bilingual_write.py
       - tests/test_profile_curation.py
       - tests/test_sync_selected_project_releases.py
       - tests/test_update_latest_updates.py
@@ -21,9 +26,15 @@ on:
     branches:
       - main
     paths:
+      - README.md
+      - README.it.md
+      - AGENTS.md
+      - PORTFOLIO-ARCHITECTURE.md
+      - scripts/bilingual_write.py
       - scripts/sync_selected_project_releases.py
       - scripts/update_latest_updates.py
       - scripts/update_latest_updates_public_activity.py
+      - tests/test_bilingual_write.py
       - tests/test_profile_curation.py
       - tests/test_sync_selected_project_releases.py
       - tests/test_update_latest_updates.py
@@ -50,11 +61,13 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Sync Selected Projects releases
+        if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/sync_selected_project_releases.py
 
       - name: Update Latest Updates section
+        if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_LATEST_UPDATES_BLOCK_TERMS: ${{ secrets.PROFILE_LATEST_UPDATES_BLOCK_TERMS }}
