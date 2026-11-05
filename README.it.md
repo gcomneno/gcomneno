@@ -304,9 +304,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-05** · `boardlab` · **Correzione:** [harden shared CLI input handling](https://github.com/gcomneno/boardlab/commit/1584c59354dd0907d282d5c816ba9008aed549e4)
 - **2026-11-04** · `boardlab` · **Release:** [ChronoOops! 1.0.0](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.0.0)
 - **2026-11-04** · `boardlab` · **Documentazione:** [align five-mission release documentation](https://github.com/gcomneno/boardlab/commit/9cbfced71f541c6f7570e9d5f2bc2df428f1be4a)
-- **2026-11-04** · `boardlab` · **Funzionalità:** [implement Mission 005 campaign finale](https://github.com/gcomneno/boardlab/commit/39dcbd56a707f9b68277b0cbb9a4e25a163258ff)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 
 <details>
@@ -329,7 +329,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1430 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1431 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
