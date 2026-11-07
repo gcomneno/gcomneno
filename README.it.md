@@ -304,9 +304,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-06** · `boardlab` · **Funzionalità:** [add route-specific M001 narrative endings](https://github.com/gcomneno/boardlab/commit/4dd6f37164c3b33320558c943691d1f7f5431b04)
-- **2026-11-05** · `boardlab` · **Correzione:** [harden shared CLI input handling](https://github.com/gcomneno/boardlab/commit/1584c59354dd0907d282d5c816ba9008aed549e4)
-- **2026-11-04** · `boardlab` · **Release:** [ChronoOops! 1.0.0](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.0.0)
+- **2026-11-07** · `boardlab` · **Documentazione:** [recover game changelog](https://github.com/gcomneno/boardlab/commit/ab35236460d045462b3361a0690b0feb1d497f9c)
+- **2026-11-07** · `boardlab` · **Funzionalità:** [recover topology puzzle engine](https://github.com/gcomneno/boardlab/commit/dfe0aca0ab35dd37c9ac6683eb52397c28aade41)
+- **2026-11-07** · `boardlab` · **Funzionalità:** [recover generic CSP research modules](https://github.com/gcomneno/boardlab/commit/c3079612fbcb88aedd4c9ed5d42fed3f4d55869d)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 
 <details>
@@ -329,7 +329,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1384 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1391 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
