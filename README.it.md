@@ -304,9 +304,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-07** · `boardlab` · **Documentazione:** [recover game changelog](https://github.com/gcomneno/boardlab/commit/ab35236460d045462b3361a0690b0feb1d497f9c)
-- **2026-11-07** · `boardlab` · **Funzionalità:** [recover topology puzzle engine](https://github.com/gcomneno/boardlab/commit/dfe0aca0ab35dd37c9ac6683eb52397c28aade41)
-- **2026-11-07** · `boardlab` · **Funzionalità:** [recover generic CSP research modules](https://github.com/gcomneno/boardlab/commit/c3079612fbcb88aedd4c9ed5d42fed3f4d55869d)
+- **2026-11-08** · `boardlab` · **Correzione:** [complete configurable AUTO hand delay](https://github.com/gcomneno/boardlab/commit/6fbe626d47bdf563e0d948ace2dc4ad2a60c33fd)
+- **2026-11-08** · `boardlab` · **Sviluppo:** [Add minimal local Reversi Tkinter GUI (#96)](https://github.com/gcomneno/boardlab/commit/8d0bdaebb9d75f8414088bbb823fa4425c866558)
+- **2026-11-08** · `boardlab` · **Documentazione:** [recover platform changelog and CSP findings](https://github.com/gcomneno/boardlab/commit/5455275875860bea318ca0e8da6fd8ebc975a357)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 
 <details>
