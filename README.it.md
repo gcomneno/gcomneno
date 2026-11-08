@@ -304,9 +304,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-08** · `boardlab` · **Correzione:** [complete configurable AUTO hand delay](https://github.com/gcomneno/boardlab/commit/6fbe626d47bdf563e0d948ace2dc4ad2a60c33fd)
-- **2026-11-08** · `boardlab` · **Sviluppo:** [Add minimal local Reversi Tkinter GUI (#96)](https://github.com/gcomneno/boardlab/commit/8d0bdaebb9d75f8414088bbb823fa4425c866558)
-- **2026-11-08** · `boardlab` · **Documentazione:** [recover platform changelog and CSP findings](https://github.com/gcomneno/boardlab/commit/5455275875860bea318ca0e8da6fd8ebc975a357)
+- **2026-11-08** · `boardlab` · **Funzionalità:** [add M005 narrative endings and preserve campaign finale](https://github.com/gcomneno/boardlab/commit/e5363d4f8629c444f3c29223e21e1899375bacb7)
+- **2026-11-08** · `boardlab` · **Funzionalità:** [add multiplayer VAR parity](https://github.com/gcomneno/boardlab/commit/29155f5acea62b3d9171d7d1419c7e84c4bc1aa4)
+- **2026-11-08** · `boardlab` · **Funzionalità:** [add M004 route-specific narrative endings](https://github.com/gcomneno/boardlab/commit/5172acd4f97c8e8e7c0c513c85f88b379b98b6c7)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 
 <details>
@@ -329,7 +329,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1355 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1363 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
