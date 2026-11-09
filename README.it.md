@@ -149,6 +149,8 @@ Un gioco calcistico originale con dadi per **due giocatori locali**. Personalizz
 
 **Dietro il gioco:** Un'implementazione browser di un gioco calcistico a turni con dadi, fasi di gioco esplicite, durata configurabile delle partite e interazione locale tra due giocatori.
 
+La [release sorgente single-player 1.1.0](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-single-v1.1.0), pubblicata separatamente, aggiunge modalità AUTO configurabile, eventi di partita e VAR narrativo. La sua pubblicazione è distinta dalla versione browser collegata e dalla beta multiplayer online.
+
 ### 🐦 L'Arca di Darwin — Giocare, ragionare, imparare
 
 Un **puzzle educativo gratuito** sull'ecologia, la biodiversità e la storia naturale. Sei missioni, vincoli ambientali, un Uccellino Azzurro come guida e 1.000 punti da conquistare.
@@ -162,6 +164,10 @@ Un **puzzle educativo gratuito** sull'ecologia, la biodiversità e la storia nat
 </p>
 
 **Dietro il gioco:** gestione delle risorse, vincoli ecologici, regole deterministiche e ragionamento attraverso le scelte.
+
+### ⏳ ChronoOops! — Un gioco deterministico sui viaggi nel tempo in C11
+
+Una campagna giocabile di cinque missioni sui viaggi nel tempo in C11, con regole deterministiche a turni. Il gioco si esegue da terminale, separatamente dai giochi browser presentati sopra. La [release v1.0.0](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.0.0) pubblicata offre pacchetti nativi per Linux x64, Windows x64 e macOS ARM64.
 
 ---
 

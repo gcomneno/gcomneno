@@ -149,6 +149,8 @@ An original football dice game for **two local players**. Customize your teams, 
 
 **Behind the game:** A browser implementation of a turn-based football dice game, with explicit game phases, configurable match length and local two-player interaction.
 
+The separate [single-player 1.1.0 source release](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-single-v1.1.0) adds configurable AUTO play, match events and narrative VAR. Its publication is separate from the linked browser build and the online multiplayer beta.
+
 ### 🐦 L'Arca di Darwin — Play. Think. Learn.
 
 A **free educational puzzle** about ecology, biodiversity and natural history. Six missions, environmental constraints, a friendly Blue Bird guide and 1,000 points to earn.
@@ -162,6 +164,10 @@ A **free educational puzzle** about ecology, biodiversity and natural history. S
 </p>
 
 **Behind the game:** resource management, ecological constraints, deterministic rules and learning through decisions.
+
+### ⏳ ChronoOops! — A deterministic C11 time-travel game
+
+A playable five-mission time-travel campaign in C11, with deterministic, turn-based rules. This game runs in a terminal, separately from the browser games above. The published [v1.0.0 release](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.0.0) provides native packages for Linux x64, Windows x64 and macOS ARM64.
 
 ---
 
