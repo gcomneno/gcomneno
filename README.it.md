@@ -310,19 +310,19 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-09** · `agnostic-shapes-core` · **Documentazione:** [define STE historical evidence model (#411)](https://github.com/gcomneno/agnostic-shapes-core/commit/3a293bfb1b59358146b86708549957f180c5aa0b)
 - **2026-11-08** · `boardlab` · **Funzionalità:** [add M005 narrative endings and preserve campaign finale](https://github.com/gcomneno/boardlab/commit/e5363d4f8629c444f3c29223e21e1899375bacb7)
 - **2026-11-08** · `boardlab` · **Funzionalità:** [add multiplayer VAR parity](https://github.com/gcomneno/boardlab/commit/29155f5acea62b3d9171d7d1419c7e84c4bc1aa4)
 - **2026-11-08** · `boardlab` · **Funzionalità:** [add M004 route-specific narrative endings](https://github.com/gcomneno/boardlab/commit/5172acd4f97c8e8e7c0c513c85f88b379b98b6c7)
-- **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [define safe renderer architecture contract](https://github.com/gcomneno/giadaware-ui-components/commit/877b38bf9c734950c2239347d50da4f582cb4137)
 - **2026-11-01** · `atelier-kit` · **Documentazione:** [define Markdown adoption and compatibility contract](https://github.com/gcomneno/atelier-kit/commit/b4a830ab0ce702d99c223b5cbd729a78c2801230)
 - **2026-11-01** · `agnostic-shapes-core` · **Documentazione:** [formalize relative historical association completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/0b4dcdc92e200168bb77efecf6da316b8d53f035)
 - **2026-11-01** · `agnostic-shapes-core` · **Funzionalità:** [add state-based STE C2 conflict detection](https://github.com/gcomneno/agnostic-shapes-core/commit/1150b2975cc6dd980009650d95b79e0862587d30)
-- **2026-11-01** · `agnostic-shapes-core` · **Funzionalità:** [make STE C1 reconciliation index-independent](https://github.com/gcomneno/agnostic-shapes-core/commit/7263336ca51eeee47bf4f6ca312f28ef2ac4405a)
 - **2026-10-23** · `sdr-spectrum-lab` · **Documentazione:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Documentazione:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1363 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1359 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
