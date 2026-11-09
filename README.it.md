@@ -310,10 +310,10 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-09** · `boardlab` · **Correzione:** [restore multiplayer GUI parity](https://github.com/gcomneno/boardlab/commit/fce3bbac23011bd31a5b18b5b4a442fe82fe7c63)
+- **2026-11-09** · `boardlab` · **Correzione:** [render penalty taker number](https://github.com/gcomneno/boardlab/commit/ef89e9d7b68936e7909b03669bd825474aa4341a)
+- **2026-11-09** · `boardlab` · **Release:** [Dado Goal — Multiplayer 1.0.0](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-multiplayer-v1.0.0)
 - **2026-11-09** · `agnostic-shapes-core` · **Documentazione:** [define STE historical evidence model (#411)](https://github.com/gcomneno/agnostic-shapes-core/commit/3a293bfb1b59358146b86708549957f180c5aa0b)
-- **2026-11-08** · `boardlab` · **Funzionalità:** [add M005 narrative endings and preserve campaign finale](https://github.com/gcomneno/boardlab/commit/e5363d4f8629c444f3c29223e21e1899375bacb7)
-- **2026-11-08** · `boardlab` · **Funzionalità:** [add multiplayer VAR parity](https://github.com/gcomneno/boardlab/commit/29155f5acea62b3d9171d7d1419c7e84c4bc1aa4)
-- **2026-11-08** · `boardlab` · **Funzionalità:** [add M004 route-specific narrative endings](https://github.com/gcomneno/boardlab/commit/5172acd4f97c8e8e7c0c513c85f88b379b98b6c7)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1359 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1365 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
