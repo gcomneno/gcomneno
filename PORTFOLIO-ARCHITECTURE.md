@@ -353,7 +353,7 @@ baseline and are recorded without automatic profile promotion.
 | --- | --- | --- | --- |
 | `laravel-postgres-docker-baseline` | Learning & Education | LAB | KEEP |
 | `python-service-foundation` | Learning & Education (provisional) | LAB (provisional) | REVIEW |
-| `comunica` | OSS Contributions | ACTIVE | REVIEW |
+| `comunica` | OSS Contributions | ACTIVE | KEEP |
 | `godzilla-gdz1` | Research & Experiments | ACTIVE | KEEP |
 
 The Python Service Foundation classification remains provisional because
