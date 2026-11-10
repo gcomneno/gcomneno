@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://gcomneno.github.io/boardlab/tre-sigilli/">🎮 Tre Sigilli</a>
   &nbsp; · &nbsp;
-  <a href="https://gcomneno.github.io/boardlab/dado-goal/">⚽ Dado Goal!</a>
+  <a href="https://gcomneno.itch.io/dado-goal">⚽ Dado Goal!</a>
   &nbsp; · &nbsp;
   <a href="https://gcomneno.itch.io/larca-di-darwin">🐦 L'Arca di Darwin</a>
   &nbsp; · &nbsp;
@@ -138,18 +138,18 @@ An original football dice game for **two local players**. Customize your teams, 
 **Free to play · Browser-based · No account required**
 
 <p align="center">
-  <a href="https://gcomneno.github.io/boardlab/dado-goal/">
+  <a href="https://gcomneno.itch.io/dado-goal">
     <img alt="Play Dado Goal in your browser" src="https://img.shields.io/badge/PLAY%20DADO%20GOAL-OPEN%20THE%20GAME-103B2D?style=for-the-badge">
   </a>
   &nbsp;
-  <a href="https://github.com/gcomneno/boardlab/tree/gh-pages/dado-goal">
+  <a href="https://github.com/gcomneno/boardlab">
     <img alt="Explore Dado Goal source code" src="https://img.shields.io/badge/DADO%20GOAL-SOURCE%20CODE-24292F?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
 
 **Behind the game:** A browser implementation of a turn-based football dice game, with explicit game phases, configurable match length and local two-player interaction.
 
-The separate [single-player 1.1.0 source release](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-single-v1.1.0) adds configurable AUTO play, match events and narrative VAR. Its publication is separate from the linked browser build and the online multiplayer beta.
+The current [single-player 1.1.1 release](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-single-v1.1.1) and [multiplayer 1.0.1 release](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-multiplayer-v1.0.1) are qualified separately. Play the current browser build on [itch.io](https://gcomneno.itch.io/dado-goal); online multiplayer uses the [stable production endpoint](https://dado-goal-multiplayer.giancarlo-cicellyn.workers.dev/multiplayer.html).
 
 ### 🐦 L'Arca di Darwin — Play. Think. Learn.
 

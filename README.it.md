@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://gcomneno.github.io/boardlab/tre-sigilli/">🎮 Tre Sigilli</a>
   &nbsp; · &nbsp;
-  <a href="https://gcomneno.github.io/boardlab/dado-goal/">⚽ Dado Goal!</a>
+  <a href="https://gcomneno.itch.io/dado-goal">⚽ Dado Goal!</a>
   &nbsp; · &nbsp;
   <a href="https://gcomneno.itch.io/larca-di-darwin">🐦 L'Arca di Darwin</a>
   &nbsp; · &nbsp;
@@ -138,18 +138,18 @@ Un gioco calcistico originale con dadi per **due giocatori locali**. Personalizz
 **Gratuito · Giocabile nel browser · Nessun account richiesto**
 
 <p align="center">
-  <a href="https://gcomneno.github.io/boardlab/dado-goal/">
+  <a href="https://gcomneno.itch.io/dado-goal">
     <img alt="Gioca a Dado Goal nel browser" src="https://img.shields.io/badge/GIOCA%20A%20DADO%20GOAL-APRI%20IL%20GIOCO-103B2D?style=for-the-badge">
   </a>
   &nbsp;
-  <a href="https://github.com/gcomneno/boardlab/tree/gh-pages/dado-goal">
+  <a href="https://github.com/gcomneno/boardlab">
     <img alt="Esplora il codice sorgente Dado Goal" src="https://img.shields.io/badge/DADO%20GOAL-CODICE%20SORGENTE-24292F?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
 
 **Dietro il gioco:** Un'implementazione browser di un gioco calcistico a turni con dadi, fasi di gioco esplicite, durata configurabile delle partite e interazione locale tra due giocatori.
 
-La [release sorgente single-player 1.1.0](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-single-v1.1.0), pubblicata separatamente, aggiunge modalità AUTO configurabile, eventi di partita e VAR narrativo. La sua pubblicazione è distinta dalla versione browser collegata e dalla beta multiplayer online.
+Le release correnti [single-player 1.1.1](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-single-v1.1.1) e [multiplayer 1.0.1](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-multiplayer-v1.0.1) sono qualificate separatamente. La build browser corrente è giocabile su [itch.io](https://gcomneno.itch.io/dado-goal); il multiplayer online usa l'[endpoint stabile di produzione](https://dado-goal-multiplayer.giancarlo-cicellyn.workers.dev/multiplayer.html).
 
 ### 🐦 L'Arca di Darwin — Giocare, ragionare, imparare
 
