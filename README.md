@@ -310,14 +310,15 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-11-11** · `boardlab` · **Feature:** [add Manager next-match loop](https://github.com/gcomneno/boardlab/commit/ebfd555b6b22bc6f3ff8755fafc848c58bf2f7a6)
+- **2026-11-11** · `boardlab` · **Release:** [ChronoOops! 1.1.0 — Complete Narrative Campaign](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.1.0)
 - **2026-11-10** · `boardlab` · **Feature:** [introduce Manager mode](https://github.com/gcomneno/boardlab/commit/58f631b2dc3d6a04d9e187804b6d243c810311bd)
-- **2026-11-10** · `boardlab` · **Release:** [Dado Goal — Single-player 1.1.1](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-single-v1.1.1)
-- **2026-11-10** · `boardlab` · **Release:** [Dado Goal — Multiplayer 1.0.1](https://github.com/gcomneno/boardlab/releases/tag/dado-goal-multiplayer-v1.0.1)
-- **2026-11-09** · `agnostic-shapes-core` · **Docs:** [define STE historical evidence model (#411)](https://github.com/gcomneno/agnostic-shapes-core/commit/3a293bfb1b59358146b86708549957f180c5aa0b)
+- **2026-11-10** · `vscode-bitbake` · **Refactor:** [move program run options to process frontend](https://github.com/gcomneno/vscode-bitbake/commit/7e1dbf89efef2d94a01aa59bc40ea4897b8747da)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
+- **2026-11-09** · `agnostic-shapes-core` · **Docs:** [define STE historical evidence model (#411)](https://github.com/gcomneno/agnostic-shapes-core/commit/3a293bfb1b59358146b86708549957f180c5aa0b)
 - **2026-11-01** · `giadaware-ui-components` · **Docs:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 - **2026-11-01** · `giadaware-ui-components` · **Docs:** [define safe renderer architecture contract](https://github.com/gcomneno/giadaware-ui-components/commit/877b38bf9c734950c2239347d50da4f582cb4137)
 - **2026-11-01** · `atelier-kit` · **Docs:** [define Markdown adoption and compatibility contract](https://github.com/gcomneno/atelier-kit/commit/b4a830ab0ce702d99c223b5cbd729a78c2801230)
@@ -333,9 +334,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
-- **2026-10-08** · `lasagna-v2` · **Development:** [research: record segment byte anatomy results](https://github.com/gcomneno/lasagna-v2/commit/6dd330b1b7162fca33607e3b131f6bff4b28d5df)
 
-_Showing up to 20 selected meaningful updates; 1366 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1369 additional update(s) not displayed._
 
 </details>
 
