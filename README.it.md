@@ -310,9 +310,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-12** · `boardlab` · **Funzionalità:** [enrich football team catalogues](https://github.com/gcomneno/boardlab/commit/82dd2c137dd3303bb1fb0f64de20bd4ae8410331)
+- **2026-11-12** · `boardlab` · **Funzionalità:** [add Manager career summary](https://github.com/gcomneno/boardlab/commit/61587b1281feb6c411375734a1c792411e290754)
 - **2026-11-11** · `boardlab` · **Funzionalità:** [add Manager next-match loop](https://github.com/gcomneno/boardlab/commit/ebfd555b6b22bc6f3ff8755fafc848c58bf2f7a6)
-- **2026-11-11** · `boardlab` · **Release:** [ChronoOops! 1.1.0 — Complete Narrative Campaign](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.1.0)
-- **2026-11-10** · `boardlab` · **Funzionalità:** [introduce Manager mode](https://github.com/gcomneno/boardlab/commit/58f631b2dc3d6a04d9e187804b6d243c810311bd)
 - **2026-11-10** · `vscode-bitbake` · **Refactoring:** [move program run options to process frontend](https://github.com/gcomneno/vscode-bitbake/commit/7e1dbf89efef2d94a01aa59bc40ea4897b8747da)
 
 <details>
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1369 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1370 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
