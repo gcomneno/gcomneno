@@ -310,20 +310,20 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-12** · `boardlab` · **Funzionalità:** [add playable 2D Mission 002 (#118)](https://github.com/gcomneno/boardlab/commit/5a7f1624fa28729958998769d0ed2a75398c5899)
-- **2026-11-12** · `boardlab` · **Funzionalità:** [add offline player enrichment finalizer](https://github.com/gcomneno/boardlab/commit/d375b4c0c2ee96c325e2d06443a7bc4ba891c214)
-- **2026-11-12** · `boardlab` · **Funzionalità:** [add resumable player enrichment pipeline](https://github.com/gcomneno/boardlab/commit/0564b7679842fc1f3fc81d433357e9a7a9075972)
-- **2026-11-10** · `vscode-bitbake` · **Refactoring:** [move program run options to process frontend](https://github.com/gcomneno/vscode-bitbake/commit/7e1dbf89efef2d94a01aa59bc40ea4897b8747da)
+- **2026-11-13** · `agnostic-shapes-core` · **Documentazione:** [define EXP-007 exhaustive campaign plan (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/61e7f635c1eecd3272551d46e4dfa57d9c867916)
+- **2026-11-13** · `boardlab` · **Documentazione:** [satisfy repository validation](https://github.com/gcomneno/boardlab/commit/bf77629ce30860799c9d6fd662df3cf4a5fd6e84)
+- **2026-11-13** · `boardlab` · **Correzione:** [repair browser release smoke](https://github.com/gcomneno/boardlab/commit/b96851d00c26d24b404f4b59b63464bcf4667144)
+- **2026-11-13** · `boardlab` · **Documentazione:** [formalize RPG Manager Calcio M001 subproject](https://github.com/gcomneno/boardlab/commit/3b5bff6e57f355f84c95a21104d18f8a002979e8)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-11-09** · `agnostic-shapes-core` · **Documentazione:** [define STE historical evidence model (#411)](https://github.com/gcomneno/agnostic-shapes-core/commit/3a293bfb1b59358146b86708549957f180c5aa0b)
+- **2026-11-13** · `agnostic-shapes-core` · **Documentazione:** [freeze STE EXP-007 protocol v1 (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/101eb2c5df29c1e65d8ccea2b9ea8be510c32315)
+- **2026-11-13** · `agnostic-shapes-core` · **Documentazione:** [define STE material outcome equivalence (#413)](https://github.com/gcomneno/agnostic-shapes-core/commit/f10559c23efa3a16f2ae6b93dd3fe3dd1ae11d2c)
+- **2026-11-10** · `vscode-bitbake` · **Refactoring:** [move program run options to process frontend](https://github.com/gcomneno/vscode-bitbake/commit/7e1dbf89efef2d94a01aa59bc40ea4897b8747da)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [define safe renderer architecture contract](https://github.com/gcomneno/giadaware-ui-components/commit/877b38bf9c734950c2239347d50da4f582cb4137)
 - **2026-11-01** · `atelier-kit` · **Documentazione:** [define Markdown adoption and compatibility contract](https://github.com/gcomneno/atelier-kit/commit/b4a830ab0ce702d99c223b5cbd729a78c2801230)
-- **2026-11-01** · `agnostic-shapes-core` · **Documentazione:** [formalize relative historical association completeness](https://github.com/gcomneno/agnostic-shapes-core/commit/0b4dcdc92e200168bb77efecf6da316b8d53f035)
-- **2026-11-01** · `agnostic-shapes-core` · **Funzionalità:** [add state-based STE C2 conflict detection](https://github.com/gcomneno/agnostic-shapes-core/commit/1150b2975cc6dd980009650d95b79e0862587d30)
 - **2026-10-23** · `sdr-spectrum-lab` · **Documentazione:** [prepare SDR laboratory for public study](https://github.com/gcomneno/sdr-spectrum-lab/commit/47e68a9fd04cedb0f954169c1fad43b395ac8a39)
 - **2026-10-21** · `lele-manager` · **Documentazione:** [finalize v1.13.0 changelog](https://github.com/gcomneno/lele-manager/commit/bc4f9a3c34641b66cf32f126c1aa31e4bb833893)
 - **2026-10-20** · `lele-manager` · **Release:** [LeLe Manager v1.13.0](https://github.com/gcomneno/lele-manager/releases/tag/v1.13.0)
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1367 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1374 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
