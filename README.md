@@ -310,9 +310,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-11-12** · `boardlab` · **Feature:** [enrich football team catalogues](https://github.com/gcomneno/boardlab/commit/82dd2c137dd3303bb1fb0f64de20bd4ae8410331)
-- **2026-11-12** · `boardlab` · **Feature:** [add Manager career summary](https://github.com/gcomneno/boardlab/commit/61587b1281feb6c411375734a1c792411e290754)
-- **2026-11-11** · `boardlab` · **Feature:** [add Manager next-match loop](https://github.com/gcomneno/boardlab/commit/ebfd555b6b22bc6f3ff8755fafc848c58bf2f7a6)
+- **2026-11-12** · `boardlab` · **Feature:** [add playable 2D Mission 002 (#118)](https://github.com/gcomneno/boardlab/commit/5a7f1624fa28729958998769d0ed2a75398c5899)
+- **2026-11-12** · `boardlab` · **Feature:** [add offline player enrichment finalizer](https://github.com/gcomneno/boardlab/commit/d375b4c0c2ee96c325e2d06443a7bc4ba891c214)
+- **2026-11-12** · `boardlab` · **Feature:** [add resumable player enrichment pipeline](https://github.com/gcomneno/boardlab/commit/0564b7679842fc1f3fc81d433357e9a7a9075972)
 - **2026-11-10** · `vscode-bitbake` · **Refactor:** [move program run options to process frontend](https://github.com/gcomneno/vscode-bitbake/commit/7e1dbf89efef2d94a01aa59bc40ea4897b8747da)
 
 <details>
@@ -335,7 +335,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1370 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1376 additional update(s) not displayed._
 
 </details>
 
