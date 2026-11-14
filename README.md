@@ -310,10 +310,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-11-14** · `boardlab` · **Feature:** [enrich M005 visual scene and SDL interaction tests](https://github.com/gcomneno/boardlab/commit/d89f553c2be66327cb1c34e62e5bed82a6f9b7b6)
+- **2026-11-14** · `boardlab` · **Feature:** [complete extended match rules](https://github.com/gcomneno/boardlab/commit/cca924e63e6bdc4bf678ad428bcb615c81f8dc16)
+- **2026-11-14** · `boardlab` · **Feature:** [qualify deterministic dribbling action](https://github.com/gcomneno/boardlab/commit/987a1304bc2f24a26d5a0bdc633b81ad6f0e1442)
 - **2026-11-13** · `agnostic-shapes-core` · **Docs:** [define EXP-007 exhaustive campaign plan (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/61e7f635c1eecd3272551d46e4dfa57d9c867916)
-- **2026-11-13** · `boardlab` · **Docs:** [satisfy repository validation](https://github.com/gcomneno/boardlab/commit/bf77629ce30860799c9d6fd662df3cf4a5fd6e84)
-- **2026-11-13** · `boardlab` · **Fix:** [repair browser release smoke](https://github.com/gcomneno/boardlab/commit/b96851d00c26d24b404f4b59b63464bcf4667144)
-- **2026-11-13** · `boardlab` · **Docs:** [formalize RPG Manager Calcio M001 subproject](https://github.com/gcomneno/boardlab/commit/3b5bff6e57f355f84c95a21104d18f8a002979e8)
 
 <details>
 <summary>More recent meaningful updates</summary>
@@ -335,7 +335,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1374 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1381 additional update(s) not displayed._
 
 </details>
 
