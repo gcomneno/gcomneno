@@ -310,9 +310,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-15** · `boardlab` · **Funzionalità:** [complete tournament manager and global save flows](https://github.com/gcomneno/boardlab/commit/690a24af45428fe8f4a01e3a99346ab5eb1cd86a)
-- **2026-11-15** · `boardlab` · **Funzionalità:** [improve tactical menus and match commentary](https://github.com/gcomneno/boardlab/commit/28ced4f76a42c8d12e6d1400c7f217940eca9084)
-- **2026-11-15** · `boardlab` · **Funzionalità:** [add playable managerial CLI](https://github.com/gcomneno/boardlab/commit/ca3a58f1e349feaf1a32faae31645f1201276825)
+- **2026-11-15** · `boardlab` · **Sviluppo:** [refine(dado-goal): compact friendly match controls](https://github.com/gcomneno/boardlab/commit/a85be76b418dc5151248bb213e4ac0c2e287aed0)
+- **2026-11-15** · `boardlab` · **Correzione:** [keep random rolls i18n single-player only](https://github.com/gcomneno/boardlab/commit/f5963aff8f1eca58e9ab3c4fd23f2b5cdbf6c60f)
+- **2026-11-15** · `boardlab` · **Funzionalità:** [add deterministic sporting balance lab](https://github.com/gcomneno/boardlab/commit/70372dfc3b8d421909bdaa8fb5209caad205f861)
 - **2026-11-13** · `agnostic-shapes-core` · **Documentazione:** [define EXP-007 exhaustive campaign plan (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/61e7f635c1eecd3272551d46e4dfa57d9c867916)
 
 <details>
