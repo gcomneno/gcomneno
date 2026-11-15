@@ -310,9 +310,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-11-14** · `boardlab` · **Feature:** [enrich M005 visual scene and SDL interaction tests](https://github.com/gcomneno/boardlab/commit/d89f553c2be66327cb1c34e62e5bed82a6f9b7b6)
-- **2026-11-14** · `boardlab` · **Feature:** [complete extended match rules](https://github.com/gcomneno/boardlab/commit/cca924e63e6bdc4bf678ad428bcb615c81f8dc16)
-- **2026-11-14** · `boardlab` · **Feature:** [qualify deterministic dribbling action](https://github.com/gcomneno/boardlab/commit/987a1304bc2f24a26d5a0bdc633b81ad6f0e1442)
+- **2026-11-15** · `boardlab` · **Feature:** [complete tournament manager and global save flows](https://github.com/gcomneno/boardlab/commit/690a24af45428fe8f4a01e3a99346ab5eb1cd86a)
+- **2026-11-15** · `boardlab` · **Feature:** [improve tactical menus and match commentary](https://github.com/gcomneno/boardlab/commit/28ced4f76a42c8d12e6d1400c7f217940eca9084)
+- **2026-11-15** · `boardlab` · **Feature:** [add playable managerial CLI](https://github.com/gcomneno/boardlab/commit/ca3a58f1e349feaf1a32faae31645f1201276825)
 - **2026-11-13** · `agnostic-shapes-core` · **Docs:** [define EXP-007 exhaustive campaign plan (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/61e7f635c1eecd3272551d46e4dfa57d9c867916)
 
 <details>
@@ -335,7 +335,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1376 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1388 additional update(s) not displayed._
 
 </details>
 
