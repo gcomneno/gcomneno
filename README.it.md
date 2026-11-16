@@ -310,9 +310,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-15** · `boardlab` · **Sviluppo:** [refine(dado-goal): compact friendly match controls](https://github.com/gcomneno/boardlab/commit/a85be76b418dc5151248bb213e4ac0c2e287aed0)
-- **2026-11-15** · `boardlab` · **Correzione:** [keep random rolls i18n single-player only](https://github.com/gcomneno/boardlab/commit/f5963aff8f1eca58e9ab3c4fd23f2b5cdbf6c60f)
-- **2026-11-15** · `boardlab` · **Funzionalità:** [add deterministic sporting balance lab](https://github.com/gcomneno/boardlab/commit/70372dfc3b8d421909bdaa8fb5209caad205f861)
+- **2026-11-16** · `boardlab` · **Funzionalità:** [extend roll events and manager statistics (#125)](https://github.com/gcomneno/boardlab/commit/c0962c1d386220b91f45af8e37a03054257a1a74)
+- **2026-11-16** · `boardlab` · **Funzionalità:** [add French German and Spanish leagues](https://github.com/gcomneno/boardlab/commit/0a7d9d591903c9e827bbc1f6d61c41a4872f7bc9)
+- **2026-11-16** · `boardlab` · **Funzionalità:** [add player event statistics](https://github.com/gcomneno/boardlab/commit/08e1339ced1ffc5ffdc2b1df93463bdb0079be30)
 - **2026-11-13** · `agnostic-shapes-core` · **Documentazione:** [define EXP-007 exhaustive campaign plan (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/61e7f635c1eecd3272551d46e4dfa57d9c867916)
 
 <details>
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-08** · `lasagna-v2` · **Sviluppo:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Sviluppo:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1391 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1392 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
