@@ -310,17 +310,19 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-11-17** · `agnostic-shapes-core` · **Development:** [research(ste): evaluate EXP-007 aggregate acceptance](https://github.com/gcomneno/agnostic-shapes-core/commit/c66f40b023721fa0601f7b926d8cc27019ac833f)
+- **2026-11-17** · `agnostic-shapes-core` · **Fix:** [bind EXP-007 runner to published baseline](https://github.com/gcomneno/agnostic-shapes-core/commit/dc92da51aa19f9b1288fefa86a3de5c4559cbb03)
+- **2026-11-17** · `agnostic-shapes-core` · **Development:** [research(ste): add EXP-007 orchestrator and qualify M04 outcome orders](https://github.com/gcomneno/agnostic-shapes-core/commit/e33db15d8f95499337409151d6063127734e079e)
 - **2026-11-17** · `boardlab` · **Feature:** [finalize official GiadaWare footer](https://github.com/gcomneno/boardlab/commit/f11ced85c95fbffc7e41d06fe0ec217271ff95fc)
-- **2026-11-17** · `boardlab` · **Fix:** [align tournament and career navigation panels](https://github.com/gcomneno/boardlab/commit/4951b9065e55c44040fec96e090a884d83132f3f)
-- **2026-11-17** · `boardlab` · **Feature:** [refine manager statistics and player shirts](https://github.com/gcomneno/boardlab/commit/d09de13e9988f06cb2aa28e8e6b9aecc2c6a3ac9)
-- **2026-11-13** · `agnostic-shapes-core` · **Docs:** [define EXP-007 exhaustive campaign plan (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/61e7f635c1eecd3272551d46e4dfa57d9c867916)
 
 <details>
 <summary>More recent meaningful updates</summary>
 
-- **2026-11-13** · `agnostic-shapes-core` · **Docs:** [freeze STE EXP-007 protocol v1 (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/101eb2c5df29c1e65d8ccea2b9ea8be510c32315)
-- **2026-11-13** · `agnostic-shapes-core` · **Docs:** [define STE material outcome equivalence (#413)](https://github.com/gcomneno/agnostic-shapes-core/commit/f10559c23efa3a16f2ae6b93dd3fe3dd1ae11d2c)
-- **2026-11-10** · `vscode-bitbake` · **Refactor:** [move program run options to process frontend](https://github.com/gcomneno/vscode-bitbake/commit/7e1dbf89efef2d94a01aa59bc40ea4897b8747da)
+- **2026-11-17** · `boardlab` · **Fix:** [align tournament and career navigation panels](https://github.com/gcomneno/boardlab/commit/4951b9065e55c44040fec96e090a884d83132f3f)
+- **2026-11-17** · `boardlab` · **Feature:** [refine manager statistics and player shirts](https://github.com/gcomneno/boardlab/commit/d09de13e9988f06cb2aa28e8e6b9aecc2c6a3ac9)
+- **2026-11-17** · `vscode-bitbake` · **Development:** [bitbake-setup: simplify availability configuration](https://github.com/gcomneno/vscode-bitbake/commit/e66fea01ef5f8bbaa63a9d46e82df54daa39d84d)
+- **2026-11-17** · `vscode-bitbake` · **Development:** [bitbake-setup: add process driver](https://github.com/gcomneno/vscode-bitbake/commit/a14f87e8d0c5874b6b28ae622258d06518209755)
+- **2026-11-16** · `vscode-bitbake` · **Feature:** [integrate BitBake classes into recipes explorer](https://github.com/gcomneno/vscode-bitbake/commit/1e2f607722d8fe9b3faaf3734f7cd637fa519596)
 - **2026-11-01** · `giadaware-ui-components` · **Docs:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 - **2026-11-01** · `giadaware-ui-components` · **Docs:** [define safe renderer architecture contract](https://github.com/gcomneno/giadaware-ui-components/commit/877b38bf9c734950c2239347d50da4f582cb4137)
 - **2026-11-01** · `atelier-kit` · **Docs:** [define Markdown adoption and compatibility contract](https://github.com/gcomneno/atelier-kit/commit/b4a830ab0ce702d99c223b5cbd729a78c2801230)
@@ -332,10 +334,8 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-20** · `atelier-kit` · **Feature:** [showcase real Atelier-Kit consumers (#372)](https://github.com/gcomneno/atelier-kit/commit/e6757ccfb8b0203e958b59a6cf8728f85ec82c4e)
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
-- **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
-- **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1398 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1408 additional update(s) not displayed._
 
 </details>
 
