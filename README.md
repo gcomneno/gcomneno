@@ -310,9 +310,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
-- **2026-11-16** · `boardlab` · **Feature:** [extend roll events and manager statistics (#125)](https://github.com/gcomneno/boardlab/commit/c0962c1d386220b91f45af8e37a03054257a1a74)
-- **2026-11-16** · `boardlab` · **Feature:** [add French German and Spanish leagues](https://github.com/gcomneno/boardlab/commit/0a7d9d591903c9e827bbc1f6d61c41a4872f7bc9)
-- **2026-11-16** · `boardlab` · **Feature:** [add player event statistics](https://github.com/gcomneno/boardlab/commit/08e1339ced1ffc5ffdc2b1df93463bdb0079be30)
+- **2026-11-17** · `boardlab` · **Feature:** [finalize official GiadaWare footer](https://github.com/gcomneno/boardlab/commit/f11ced85c95fbffc7e41d06fe0ec217271ff95fc)
+- **2026-11-17** · `boardlab` · **Fix:** [align tournament and career navigation panels](https://github.com/gcomneno/boardlab/commit/4951b9065e55c44040fec96e090a884d83132f3f)
+- **2026-11-17** · `boardlab` · **Feature:** [refine manager statistics and player shirts](https://github.com/gcomneno/boardlab/commit/d09de13e9988f06cb2aa28e8e6b9aecc2c6a3ac9)
 - **2026-11-13** · `agnostic-shapes-core` · **Docs:** [define EXP-007 exhaustive campaign plan (#415)](https://github.com/gcomneno/agnostic-shapes-core/commit/61e7f635c1eecd3272551d46e4dfa57d9c867916)
 
 <details>
@@ -335,7 +335,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-08** · `lasagna-v2` · **Development:** [research: validate experimental compact wire layout (#27)](https://github.com/gcomneno/lasagna-v2/commit/670e565fc9ed682e25fe3ec61dc693620937b1f9)
 - **2026-10-08** · `giadaware-ai` · **Development:** [research: qualify structured output semantics](https://github.com/gcomneno/giadaware-ai/commit/1c7429cbb20a257294bec7888349f9d164a21c2f)
 
-_Showing up to 20 selected meaningful updates; 1392 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1398 additional update(s) not displayed._
 
 </details>
 
