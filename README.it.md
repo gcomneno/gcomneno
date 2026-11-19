@@ -310,16 +310,16 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-17** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): evaluate EXP-007 aggregate acceptance](https://github.com/gcomneno/agnostic-shapes-core/commit/c66f40b023721fa0601f7b926d8cc27019ac833f)
-- **2026-11-17** · `agnostic-shapes-core` · **Correzione:** [bind EXP-007 runner to published baseline](https://github.com/gcomneno/agnostic-shapes-core/commit/dc92da51aa19f9b1288fefa86a3de5c4559cbb03)
-- **2026-11-17** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): add EXP-007 orchestrator and qualify M04 outcome orders](https://github.com/gcomneno/agnostic-shapes-core/commit/e33db15d8f95499337409151d6063127734e079e)
-- **2026-11-17** · `boardlab` · **Funzionalità:** [finalize official GiadaWare footer](https://github.com/gcomneno/boardlab/commit/f11ced85c95fbffc7e41d06fe0ec217271ff95fc)
+- **2026-11-18** · `boardlab` · **Correzione:** [identify multiplayer penalty taker (#129)](https://github.com/gcomneno/boardlab/commit/f3d8b17f8f6b6126c4a33f362e02f49f8f6ec7fc)
+- **2026-11-18** · `boardlab` · **Funzionalità:** [track assists and sort player statistics (#130)](https://github.com/gcomneno/boardlab/commit/5ff6baa8904c19ee31d69012b51cf79889a7f285)
+- **2026-11-18** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): qualify EXP-007 independent counterexample adjudication](https://github.com/gcomneno/agnostic-shapes-core/commit/44dab6fb78a05eeced0a3693a37cd07b978c09bd)
+- **2026-11-18** · `boardlab` · **Funzionalità:** [improve cup bracket UX (#128)](https://github.com/gcomneno/boardlab/commit/42781659ea1b13e8781009193c924660874f1a48)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-11-17** · `boardlab` · **Correzione:** [align tournament and career navigation panels](https://github.com/gcomneno/boardlab/commit/4951b9065e55c44040fec96e090a884d83132f3f)
-- **2026-11-17** · `boardlab` · **Funzionalità:** [refine manager statistics and player shirts](https://github.com/gcomneno/boardlab/commit/d09de13e9988f06cb2aa28e8e6b9aecc2c6a3ac9)
+- **2026-11-17** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): evaluate EXP-007 aggregate acceptance](https://github.com/gcomneno/agnostic-shapes-core/commit/c66f40b023721fa0601f7b926d8cc27019ac833f)
+- **2026-11-17** · `agnostic-shapes-core` · **Correzione:** [bind EXP-007 runner to published baseline](https://github.com/gcomneno/agnostic-shapes-core/commit/dc92da51aa19f9b1288fefa86a3de5c4559cbb03)
 - **2026-11-17** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: simplify availability configuration](https://github.com/gcomneno/vscode-bitbake/commit/e66fea01ef5f8bbaa63a9d46e82df54daa39d84d)
 - **2026-11-17** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add process driver](https://github.com/gcomneno/vscode-bitbake/commit/a14f87e8d0c5874b6b28ae622258d06518209755)
 - **2026-11-16** · `vscode-bitbake` · **Funzionalità:** [integrate BitBake classes into recipes explorer](https://github.com/gcomneno/vscode-bitbake/commit/1e2f607722d8fe9b3faaf3734f7cd637fa519596)
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1408 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1414 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
