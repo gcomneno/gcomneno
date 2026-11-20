@@ -310,10 +310,10 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-11-20** · `boardlab` · **Feature:** [qualify local multiplayer rules V2 M034](https://github.com/gcomneno/boardlab/commit/2d82fbc21c5715b35589bed81120494880682842)
 - **2026-11-18** · `boardlab` · **Fix:** [identify multiplayer penalty taker (#129)](https://github.com/gcomneno/boardlab/commit/f3d8b17f8f6b6126c4a33f362e02f49f8f6ec7fc)
 - **2026-11-18** · `boardlab` · **Feature:** [track assists and sort player statistics (#130)](https://github.com/gcomneno/boardlab/commit/5ff6baa8904c19ee31d69012b51cf79889a7f285)
 - **2026-11-18** · `agnostic-shapes-core` · **Development:** [research(ste): qualify EXP-007 independent counterexample adjudication](https://github.com/gcomneno/agnostic-shapes-core/commit/44dab6fb78a05eeced0a3693a37cd07b978c09bd)
-- **2026-11-18** · `boardlab` · **Feature:** [improve cup bracket UX (#128)](https://github.com/gcomneno/boardlab/commit/42781659ea1b13e8781009193c924660874f1a48)
 
 <details>
 <summary>More recent meaningful updates</summary>
