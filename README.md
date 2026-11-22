@@ -310,9 +310,9 @@ I turn study into documented, reproducible paths rather than presenting learning
 ## <code>05 · LATEST UPDATES</code>
 <!-- updates:start -->
 
+- **2026-11-22** · `boardlab` · **Feature:** [implement and qualify single-player Cup shootouts](https://github.com/gcomneno/boardlab/commit/76a8400f00f5be3fc38ae85fb8977624e0578be7)
 - **2026-11-20** · `boardlab` · **Feature:** [qualify local multiplayer rules V2 M034](https://github.com/gcomneno/boardlab/commit/2d82fbc21c5715b35589bed81120494880682842)
 - **2026-11-18** · `boardlab` · **Fix:** [identify multiplayer penalty taker (#129)](https://github.com/gcomneno/boardlab/commit/f3d8b17f8f6b6126c4a33f362e02f49f8f6ec7fc)
-- **2026-11-18** · `boardlab` · **Feature:** [track assists and sort player statistics (#130)](https://github.com/gcomneno/boardlab/commit/5ff6baa8904c19ee31d69012b51cf79889a7f285)
 - **2026-11-18** · `agnostic-shapes-core` · **Development:** [research(ste): qualify EXP-007 independent counterexample adjudication](https://github.com/gcomneno/agnostic-shapes-core/commit/44dab6fb78a05eeced0a3693a37cd07b978c09bd)
 
 <details>
@@ -335,7 +335,7 @@ I turn study into documented, reproducible paths rather than presenting learning
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Docs:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Showing up to 20 selected meaningful updates; 1400 additional update(s) not displayed._
+_Showing up to 20 selected meaningful updates; 1386 additional update(s) not displayed._
 
 </details>
 
