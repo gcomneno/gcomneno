@@ -310,9 +310,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-22** · `boardlab` · **Release:** [ChronoOops! v1.2.0 — Five-Mission Campaign](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.2.0)
 - **2026-11-22** · `boardlab` · **Funzionalità:** [implement and qualify single-player Cup shootouts](https://github.com/gcomneno/boardlab/commit/76a8400f00f5be3fc38ae85fb8977624e0578be7)
 - **2026-11-20** · `boardlab` · **Funzionalità:** [qualify local multiplayer rules V2 M034](https://github.com/gcomneno/boardlab/commit/2d82fbc21c5715b35589bed81120494880682842)
-- **2026-11-18** · `boardlab` · **Correzione:** [identify multiplayer penalty taker (#129)](https://github.com/gcomneno/boardlab/commit/f3d8b17f8f6b6126c4a33f362e02f49f8f6ec7fc)
 - **2026-11-18** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): qualify EXP-007 independent counterexample adjudication](https://github.com/gcomneno/agnostic-shapes-core/commit/44dab6fb78a05eeced0a3693a37cd07b978c09bd)
 
 <details>
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1386 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1389 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
