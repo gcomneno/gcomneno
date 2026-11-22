@@ -167,7 +167,7 @@ A **free educational puzzle** about ecology, biodiversity and natural history. S
 
 ### ⏳ ChronoOops! — A deterministic C11 time-travel game
 
-A playable five-mission time-travel campaign in C11, with deterministic, turn-based rules. This game runs in a terminal, separately from the browser games above. The published [v1.0.0 release](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.0.0) provides native packages for Linux x64, Windows x64 and macOS ARM64.
+A complete five-mission time-travel campaign featuring deterministic, turn-based gameplay, a unified C11 terminal edition and an SDL2 graphical edition. Download the [v1.2.0 release](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.2.0) for Linux x64, Windows x64 or macOS ARM64. The game runs natively, separately from the browser games above.
 
 ---
 
