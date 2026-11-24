@@ -310,19 +310,19 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add executable search path setting](https://github.com/gcomneno/vscode-bitbake/commit/ae8e5660f2fb5d6a65629886df00089f03a4cfa1)
+- **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add process driver](https://github.com/gcomneno/vscode-bitbake/commit/526b65285035b7511f6f2117e33ffac2fabd764f)
 - **2026-11-22** · `boardlab` · **Release:** [ChronoOops! v1.2.0 — Five-Mission Campaign](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.2.0)
 - **2026-11-22** · `boardlab` · **Funzionalità:** [implement and qualify single-player Cup shootouts](https://github.com/gcomneno/boardlab/commit/76a8400f00f5be3fc38ae85fb8977624e0578be7)
-- **2026-11-20** · `boardlab` · **Funzionalità:** [qualify local multiplayer rules V2 M034](https://github.com/gcomneno/boardlab/commit/2d82fbc21c5715b35589bed81120494880682842)
-- **2026-11-18** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): qualify EXP-007 independent counterexample adjudication](https://github.com/gcomneno/agnostic-shapes-core/commit/44dab6fb78a05eeced0a3693a37cd07b978c09bd)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
+- **2026-11-20** · `boardlab` · **Funzionalità:** [qualify local multiplayer rules V2 M034](https://github.com/gcomneno/boardlab/commit/2d82fbc21c5715b35589bed81120494880682842)
+- **2026-11-18** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): qualify EXP-007 independent counterexample adjudication](https://github.com/gcomneno/agnostic-shapes-core/commit/44dab6fb78a05eeced0a3693a37cd07b978c09bd)
 - **2026-11-17** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): evaluate EXP-007 aggregate acceptance](https://github.com/gcomneno/agnostic-shapes-core/commit/c66f40b023721fa0601f7b926d8cc27019ac833f)
 - **2026-11-17** · `agnostic-shapes-core` · **Correzione:** [bind EXP-007 runner to published baseline](https://github.com/gcomneno/agnostic-shapes-core/commit/dc92da51aa19f9b1288fefa86a3de5c4559cbb03)
 - **2026-11-17** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: simplify availability configuration](https://github.com/gcomneno/vscode-bitbake/commit/e66fea01ef5f8bbaa63a9d46e82df54daa39d84d)
-- **2026-11-17** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add process driver](https://github.com/gcomneno/vscode-bitbake/commit/a14f87e8d0c5874b6b28ae622258d06518209755)
-- **2026-11-16** · `vscode-bitbake` · **Funzionalità:** [integrate BitBake classes into recipes explorer](https://github.com/gcomneno/vscode-bitbake/commit/1e2f607722d8fe9b3faaf3734f7cd637fa519596)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [establish bounded profile and parser evaluation](https://github.com/gcomneno/giadaware-ui-components/commit/624e41d9c04d9d159ef993f3d08ef9b16ce86676)
 - **2026-11-01** · `giadaware-ui-components` · **Documentazione:** [define safe renderer architecture contract](https://github.com/gcomneno/giadaware-ui-components/commit/877b38bf9c734950c2239347d50da4f582cb4137)
 - **2026-11-01** · `atelier-kit` · **Documentazione:** [define Markdown adoption and compatibility contract](https://github.com/gcomneno/atelier-kit/commit/b4a830ab0ce702d99c223b5cbd729a78c2801230)
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1389 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1391 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
