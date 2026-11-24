@@ -310,15 +310,15 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-24** · `boardlab` · **Funzionalità:** [introduce 3D frontend adapter contracts (#137)](https://github.com/gcomneno/boardlab/commit/b0bd4e5b3b92e6993a97814770bf3a8ef4792be0)
+- **2026-11-24** · `boardlab` · **Sviluppo:** [merge(main): align SP-02 global save with CI baseline](https://github.com/gcomneno/boardlab/commit/778c6d16ab9ee0a86fd27df6ff87bf565b2c05c8)
+- **2026-11-24** · `boardlab` · **Funzionalità:** [reconcile v1.3 GUI replay with multiplatform release](https://github.com/gcomneno/boardlab/commit/2f0e3b6892634f2dc05c24add78e3b3993e72323)
 - **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add executable search path setting](https://github.com/gcomneno/vscode-bitbake/commit/ae8e5660f2fb5d6a65629886df00089f03a4cfa1)
-- **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add process driver](https://github.com/gcomneno/vscode-bitbake/commit/526b65285035b7511f6f2117e33ffac2fabd764f)
-- **2026-11-22** · `boardlab` · **Release:** [ChronoOops! v1.2.0 — Five-Mission Campaign](https://github.com/gcomneno/boardlab/releases/tag/chrono-oops-v1.2.0)
-- **2026-11-22** · `boardlab` · **Funzionalità:** [implement and qualify single-player Cup shootouts](https://github.com/gcomneno/boardlab/commit/76a8400f00f5be3fc38ae85fb8977624e0578be7)
 
 <details>
 <summary>Altri aggiornamenti recenti e significativi</summary>
 
-- **2026-11-20** · `boardlab` · **Funzionalità:** [qualify local multiplayer rules V2 M034](https://github.com/gcomneno/boardlab/commit/2d82fbc21c5715b35589bed81120494880682842)
+- **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add process driver](https://github.com/gcomneno/vscode-bitbake/commit/526b65285035b7511f6f2117e33ffac2fabd764f)
 - **2026-11-18** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): qualify EXP-007 independent counterexample adjudication](https://github.com/gcomneno/agnostic-shapes-core/commit/44dab6fb78a05eeced0a3693a37cd07b978c09bd)
 - **2026-11-17** · `agnostic-shapes-core` · **Sviluppo:** [research(ste): evaluate EXP-007 aggregate acceptance](https://github.com/gcomneno/agnostic-shapes-core/commit/c66f40b023721fa0601f7b926d8cc27019ac833f)
 - **2026-11-17** · `agnostic-shapes-core` · **Correzione:** [bind EXP-007 runner to published baseline](https://github.com/gcomneno/agnostic-shapes-core/commit/dc92da51aa19f9b1288fefa86a3de5c4559cbb03)
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1391 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1398 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
