@@ -310,9 +310,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-25** · `boardlab` · **Funzionalità:** [add optional raylib 3D dioramas and glTF assets (#138)](https://github.com/gcomneno/boardlab/commit/5c43a4e34f4e23982b4aa0ae62570d7987ee7f00)
 - **2026-11-24** · `boardlab` · **Funzionalità:** [introduce 3D frontend adapter contracts (#137)](https://github.com/gcomneno/boardlab/commit/b0bd4e5b3b92e6993a97814770bf3a8ef4792be0)
 - **2026-11-24** · `boardlab` · **Sviluppo:** [merge(main): align SP-02 global save with CI baseline](https://github.com/gcomneno/boardlab/commit/778c6d16ab9ee0a86fd27df6ff87bf565b2c05c8)
-- **2026-11-24** · `boardlab` · **Funzionalità:** [reconcile v1.3 GUI replay with multiplatform release](https://github.com/gcomneno/boardlab/commit/2f0e3b6892634f2dc05c24add78e3b3993e72323)
 - **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add executable search path setting](https://github.com/gcomneno/vscode-bitbake/commit/ae8e5660f2fb5d6a65629886df00089f03a4cfa1)
 
 <details>
