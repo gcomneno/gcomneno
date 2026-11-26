@@ -310,9 +310,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
-- **2026-11-25** · `boardlab` · **Funzionalità:** [add optional raylib 3D dioramas and glTF assets (#138)](https://github.com/gcomneno/boardlab/commit/5c43a4e34f4e23982b4aa0ae62570d7987ee7f00)
-- **2026-11-24** · `boardlab` · **Funzionalità:** [introduce 3D frontend adapter contracts (#137)](https://github.com/gcomneno/boardlab/commit/b0bd4e5b3b92e6993a97814770bf3a8ef4792be0)
-- **2026-11-24** · `boardlab` · **Sviluppo:** [merge(main): align SP-02 global save with CI baseline](https://github.com/gcomneno/boardlab/commit/778c6d16ab9ee0a86fd27df6ff87bf565b2c05c8)
+- **2026-11-25** · `boardlab` · **Correzione:** [restore multiplatform CI portability](https://github.com/gcomneno/boardlab/commit/478c0400d4adda4612a9936209eaddf29f32e357)
+- **2026-11-25** · `boardlab` · **Funzionalità:** [refine animations, scoring and temporal validation](https://github.com/gcomneno/boardlab/commit/6e49447e4cd8d8aa4baf28ac4489d961afe36eca)
+- **2026-11-25** · `boardlab` · **Funzionalità:** [complete 3D gameplay, decoys and hall of fame](https://github.com/gcomneno/boardlab/commit/6f35288a376b9033617c226896ca816b33d15bd8)
 - **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add executable search path setting](https://github.com/gcomneno/vscode-bitbake/commit/ae8e5660f2fb5d6a65629886df00089f03a4cfa1)
 
 <details>
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1398 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1399 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
