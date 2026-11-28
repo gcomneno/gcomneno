@@ -310,9 +310,9 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 ## <code>05 · ULTIMI AGGIORNAMENTI</code>
 <!-- updates:start -->
 
+- **2026-11-27** · `boardlab` · **Funzionalità:** [polish 3D P3 scenes and interactions (#141)](https://github.com/gcomneno/boardlab/commit/a0c76fc7ecd62e222973c7446aaebcb6527fa501)
 - **2026-11-25** · `boardlab` · **Correzione:** [restore multiplatform CI portability](https://github.com/gcomneno/boardlab/commit/478c0400d4adda4612a9936209eaddf29f32e357)
 - **2026-11-25** · `boardlab` · **Funzionalità:** [refine animations, scoring and temporal validation](https://github.com/gcomneno/boardlab/commit/6e49447e4cd8d8aa4baf28ac4489d961afe36eca)
-- **2026-11-25** · `boardlab` · **Funzionalità:** [complete 3D gameplay, decoys and hall of fame](https://github.com/gcomneno/boardlab/commit/6f35288a376b9033617c226896ca816b33d15bd8)
 - **2026-11-23** · `vscode-bitbake` · **Sviluppo:** [bitbake-setup: add executable search path setting](https://github.com/gcomneno/vscode-bitbake/commit/ae8e5660f2fb5d6a65629886df00089f03a4cfa1)
 
 <details>
@@ -335,7 +335,7 @@ Trasformo lo studio in percorsi documentati e riproducibili, senza presentare i 
 - **2026-10-19** · `giadaware-ai` · **Release:** [GiadaWare AI 0.0.2](https://github.com/gcomneno/giadaware-ai/releases/tag/v0.0.2)
 - **2026-10-09** · `lasagna-v2` · **Documentazione:** [consolidate Lasagna 2 maintenance scope (#28)](https://github.com/gcomneno/lasagna-v2/commit/0faea9c424cff9ca74cbca0f7d96b4027f973be2)
 
-_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1398 aggiornamenti aggiuntivi non visualizzati._
+_Sono mostrati fino a 20 aggiornamenti significativi selezionati; 1396 aggiornamenti aggiuntivi non visualizzati._
 
 </details>
 
